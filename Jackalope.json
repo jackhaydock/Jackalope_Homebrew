@@ -3371,104 +3371,8 @@
 			}
 		},
 		{
-			"name": "Fenri (Deathhound)",
+			"name": "Fenri",
 			"source": "Jackalope",
-			"ability": [
-				{
-					"str": 2,
-					"cha": 1
-				}
-			],
-			"size": "M",
-			"speed": 30,
-			"darkvision": 60,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"Fenri typically mature around 8 years of age. Fenri rarely live beyond 50 years of age."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"Fenri (Hound) tend to strictly adhere to the laws of nature and gods, tending towards lawful neutral alignments."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Fenri (Hound) typically stand between 6 and 7 feet tall and weigh between 200 and 240 lbs. Your size is medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision ",
-					"entries": [
-						"Your connection to the afterlife grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Canine Senses",
-					"entries": [
-						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Furry Fiend",
-					"entries": [
-						"You have advantage on Intimidation (Charisma) checks against Tabaxi."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "The Scales",
-					"entries": [
-						"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. You can use this trait once per long rest."
-					]
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"choose": true
-				}
-			],
-			"heightAndWeight": {
-    	"baseHeight": 64,
-    	"heightMod": "2d8",
-    	"baseWeight": 175,
-    	"weightMod": "2d6"
-			}
-		},
-		{
-			"name": "Fenri (Bloodhound)",
-			"source": "Jackalope",
-			"ability": [
-				{
-					"dex": 2,
-					"cha": 1
-				}
-			],
 			"size": "M",
 			"speed": 30,
 			"entries": [
@@ -3483,14 +3387,14 @@
 					"type": "entries",
 					"name": "Alignment",
 					"entries": [
-						"Fenri (Hunter) tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
+						"Fenri tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Fenri (Hunter) typically stand between 4 and 6 feet tall and weigh between 150 and 200 lbs. Your size is medium."
+						"Fenri come in many breeds and vary greatly in size, they typically stand between 4 and 7 feet tall and weigh between 150 and 240 lbs. Your size is medium."
 					]
 				},
 				{
@@ -3520,22 +3424,105 @@
 					"entries": [
 						"You have advantage on Intimidation (Charisma) checks against Tabaxi."
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Bite of Laelaps",
-					"entries": [
-						"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "All Fours.",
-					"entries": [
-						"You can take the dash action as bonus action, when you do so, you run on all fours."
-					]
 				}
 			],
+			"subraces": [
+					{
+					"name": "Wardog",
+					"source": "Jackalope",
+					"ability": [
+						{
+							"str": 2,
+							"cha": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": " Menacing",
+							"entries": [
+								"You gain proficiency in the {@skill Intimidation} skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": " Aggressive",
+							"entries": [
+								"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Powerful Build",
+							"entries": [
+								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+							]
+						}
+					],
+					"overwrite": {
+						"entries": [
+
+						]
+					}
+				},
+					{
+						"name": "Chaser",
+						"source": "Jackalope",
+						"ability": [
+							{
+								"dex": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Hunter's Grip",
+								"entries": [
+									"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "All Fours.",
+								"entries": [
+									"You can take the dash action as bonus action, when you do so, you run on all fours."
+								]
+							}
+						]
+					},
+					{
+						"name": "Deathhound",
+						"source": "Jackalope",
+						"ability": [
+							{
+								"con": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"Your connection to the afterlife grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Scales",
+								"entries": [
+									"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. You can use this trait once per long rest."
+								]
+							}
+						],
+						"overwrite": {
+							"entries": [
+
+							]
+						}
+					}
+				],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -3544,9 +3531,9 @@
 			],
 			"heightAndWeight": {
     	"baseHeight": 54,
-    	"heightMod": "2d8",
+    	"heightMod": "2d12",
     	"baseWeight": 100,
-    	"weightMod": "1d4"
+    	"weightMod": "1d4+2"
 			}
 		},
 		{
