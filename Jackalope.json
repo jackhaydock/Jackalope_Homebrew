@@ -1,0 +1,4787 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Jackalope",
+				"abbreviation": "J:General",
+				"color": "e8dfc7",
+				"full": "Jackalope: General",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "Cyranos",
+				"abbreviation": "J:Cyranos",
+				"color": "ff9900",
+				"full": "Jackalope: The Sea of Cyranos",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "Caligos",
+				"abbreviation": "J:Caligos",
+				"color": "873600",
+				"full": "Jackalope: The Skies of Caligos",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "Tin",
+				"abbreviation": "J:Tin",
+				"color": "b30000",
+				"full": "Jackalope: The Magical Adventures of Lord Mayor Tin",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Amazon",
+			"source": "Cyranos",
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Athletics}, {@skill Intimidation}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item gaming set}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A ceremonial circlet or diadem (A mark of your ascension to Amazon), a set of {@item common clothes}, and a belt pouch containing 15gp "
+						}
+					]
+				},
+				{
+					"name": "Restriction: Female Only",
+					"type": "entries",
+					"entries": [
+						"Only women can become Amazons, men are exiled or slaughtered once they have fulfilled their purpose."
+					]
+				},
+				{
+					"name": "Feature: Amazon Pride",
+					"type": "entries",
+					"entries": [
+						"Amazons are well revered warriors. Whether you are loved or feared, you find that people are often willing to be more lenient with prices and services.",
+            "Provided you are still welcome with the Amazons, you can expect free lodging and food for you and your companions within Amazon camps, so long as the men don't stay too long."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Reason For Leaving",
+					"type": "entries",
+					"entries": [
+						"You have been separated from your tribe for some reason. You can roll on the table to determine why, or chose one that best fits your character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Reason"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I was sent on a special mission by my queen, one only I could complete."
+								],
+								[
+									"2",
+									"I was captured and later escaped, I am trying to find my tribe again."
+								],
+								[
+									"3",
+									"I was shunned and exiled for refusing to kill/leave my mate/son."
+								],
+								[
+									"4",
+									"The tribe brings back painful memories, I had to leave."
+								],
+								[
+									"5",
+									"I am searching for artefacts and allies to help my tribe."
+								],
+								[
+									"6",
+									"I disagreed with the tribe and decided to go my own way."
+								],
+								[
+									"7",
+									"I am the only surviving member of my tribe, I am searching for other Amazon tribes."
+								],
+								[
+									"8",
+									"I simply wanted to explore the world."
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I speak down to all men as if they are animals."
+								],
+								[
+									"2",
+									"I only know war and wilderness, social etiquette and commerce are alien to me."
+								],
+								[
+									"3",
+									"I am constantly looking for a fight to prove myself to strangers."
+								],
+								[
+									"4",
+									"The sight of people living ordinary lives amuses me for some reason."
+								],
+								[
+									"5",
+									"I am always ready for battle, I don't have time for bathing or looking nice."
+								],
+								[
+									"6",
+									"I don't like subterfuge, I will not lie and hate when others lie."
+								],
+								[
+									"7",
+									"The simplest, most direct method is usually the best."
+								],
+								[
+									"8",
+									"I like to scare companions with stories from my life with the tribe."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I only value strength, I care not for morals or wisdom. (Evil)"
+								],
+								[
+									"2",
+									"I must follow the customs and laws of my tribe, even if I don't like it. (Lawful)"
+								],
+								[
+									"3",
+									"I must use what strength I have to serve the greater good. (Good)"
+								],
+								[
+									"4",
+									"I refuse to follow orders I disapprove of. (Chaotic)"
+								],
+								[
+									"5",
+									"An honourable enemy can always become a good friend. (Neutral)"
+								],
+								[
+									"6",
+									"Ambition, I will be more than just another woman, I will be legendary. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I serve my queen, I have no other loyalties."
+								],
+								[
+									"2",
+									"I will serve Ares to my dying breath."
+								],
+								[
+									"3",
+									"My honour is my life."
+								],
+								[
+									"4",
+									"No man shall ever rule me."
+								],
+								[
+									"5",
+									"My tribe is wrong about men, I shall never shun/execute an innocent man."
+								],
+								[
+									"6",
+									"I fight for those who cannot fight for themselves."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I have little respect for anyone who is not a proven warrior."
+								],
+								[
+									"2",
+									"To surrender in battle is the greatest shame I can feel."
+								],
+								[
+									"3",
+									"I made a terrible mistake in battle that cost many lives-and I would do anything to keep that mistake secret."
+								],
+								[
+									"4",
+									"My hatred of my enemies is blinding and unreasoning"
+								],
+								[
+									"5",
+									"I obey my queen, even when I disagree with the order."
+								],
+								[
+									"6",
+									"I refuse to follow the laws of the lands beyond my tribe, this constantly gets me in trouble."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You hail from a famous tribe of warrior women known as the Amazons. Amazons pride themselves on their strength and independence. Men are not permitted among their ranks and are only used for breeding.",
+          "Some tribes have agreements with neighbouring tribes and settlements in which, once a year the strongest men are chosen to mate with the Amazons. Any girls born from this union are raised as Amazons themselves while the boys are sent back to their fathers.",
+          "In more aggressive tribes, men are captured during raids, enslaved and then slaughtered after the deed is done. Any boys resulting from these unions are usually killed or abandoned."
+				]
+			}
+		}
+	],
+	"deity": [
+		{
+			"name": "Chaos",
+			"source": "Cyranos",
+			"title": "The Original Entity",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"None"
+			],
+			"pantheon": "Cyranos",
+			"category": "Chaos",
+			"province": "Nothing and Everything",
+			"symbol": "Purple Vortex",
+			"customProperties": {
+				"Sex": "None",
+				"Typical Forms": "None",
+				"Worshipers": "Secret Cultists"
+			},
+			"entries": [
+				"Chaos was the first entity to exist, they are older than the cosmos itself. To worship Chaos is to worship absence and nothingness. Chaos does not grant any boons or rewards for worship."
+			]
+		},
+		{
+			"name": "Erebus",
+			"source": "Cyranos",
+			"title": "The Darkness",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Death"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "Darkness",
+			"symbol": "Black Cirle or Spiral",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Black Mist, Shadow",
+				"Worshipers": "Secret Cultists, Thieves, Assassins"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Nyx",
+			"source": "Cyranos",
+			"title": "The Night",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Death"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "Night",
+			"symbol": "Three Phase Moon",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Black Mist, Shadow",
+				"Worshipers": "Thieves, Spies, Assassins"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Aether",
+			"source": "Cyranos",
+			"title": "The Heavens",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "The Upper Sky, Celestial Plane",
+			"symbol": "White Sun",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "White Mist",
+				"Worshipers": "Lesser Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hemera",
+			"source": "Cyranos",
+			"title": "The Day",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "Day",
+			"symbol": "Yelow Sun",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Yellow Mist",
+				"Worshipers": "Lesser Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Uranus",
+			"source": "Cyranos",
+			"title": "The Sky, King of Primordials",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Tempest"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "The Sky",
+			"symbol": "Uranus",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Air Elemental",
+				"Worshipers": "Secret Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Pontus",
+			"source": "Cyranos",
+			"title": "The Sea",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Tempest"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "The Seas and Oceans",
+			"symbol": "Water Serpent",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Water Elemental",
+				"Worshipers": "Secret Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Gaia",
+			"source": "Cyranos",
+			"title": "The Ground",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Nature"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "The Ground, Mortal Plane",
+			"symbol": "Pregnant Woman",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Earth Elemental",
+				"Worshipers": "Some Temples, Midwives"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Tartarus",
+			"source": "Cyranos",
+			"title": "The Underworld",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Death"
+			],
+			"pantheon": "Cyranos",
+			"category": "Primordial",
+			"province": "The Underworld, Pit of Tartarus",
+			"symbol": "Bottomless Pit",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Fire Elemental",
+				"Worshipers": "Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Atlas",
+			"source": "Cyranos",
+			"title": "The Skybearer Titan",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"War"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Endurance, Holds up the Sky",
+			"symbol": "Hollow Orb",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Goliath",
+				"Worshipers": "Cults, Athletes"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Eos",
+			"source": "Cyranos",
+			"title": "The Dawn Titan",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "The Dawn",
+			"symbol": "Sunrise",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Aasimar",
+				"Worshipers": "Some Temples and Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Helios",
+			"source": "Cyranos",
+			"title": "The Sun Titan",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "The Sun (former)",
+			"symbol": "Glowing Chariot",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Fire Genasi, Fire Elemental",
+				"Worshipers": "Some Temples and Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hyperion",
+			"source": "Cyranos",
+			"title": "The Light Titan",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Knowledge",
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Light",
+			"symbol": "Glowing Chariot",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Fire Genasi, Fire Elemental",
+				"Worshipers": "Some Temples and Cults"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Kronos",
+			"source": "Cyranos",
+			"title": "The Time Titan",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"domains": [
+				"Order"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Time, Kings",
+			"symbol": "Golden Scythe",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Aasimar, Currently Incorporeal in the pit of Tartarus",
+				"Worshipers": "Secret Cults, Chronurgy Mages"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Mnemosyne",
+			"source": "Cyranos",
+			"title": "The Memory Titan",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Knowledge"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Memory",
+			"symbol": "Oil Lamp",
+			"customProperties": {
+				"Sex": "FeMale",
+				"Typical Forms": "Aasimar",
+				"Worshipers": "Secret Cults, Echantment Mages, Storytellers"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Oceanus",
+			"source": "Cyranos",
+			"title": "The Ocean Titan",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Tempest"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Oceans, Father of Oceanids (Tritons)",
+			"symbol": "Crab Claw",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Triton, Water Elemental, Merman, Giant Crab",
+				"Worshipers": "Secret Cults, Tritons, Sailors"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Prometheus",
+			"source": "Cyranos",
+			"title": "Father of Humans",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Trickery",
+				"Life",
+				"Forge"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Creator of Humans, Dwarves, Elves and Orcs",
+			"symbol": "Torch",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Human",
+				"Worshipers": "Temples, Human supremacists"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Selene",
+			"source": "Cyranos",
+			"title": "The Moon Titan",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Moon (former), Lycanthropy",
+			"symbol": "Crescent Moon",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Aasimar",
+				"Worshipers": "Temples, Lycanthropes"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Themis",
+			"source": "Cyranos",
+			"title": "The Order Titan",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Knowledge",
+				"Order"
+			],
+			"pantheon": "Cyranos",
+			"category": "Titan",
+			"province": "Law and Order",
+			"symbol": "Scales",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Aasimar",
+				"Worshipers": "Paladins, Justicars, Judges"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Aphrodite",
+			"source": "Cyranos",
+			"title": "Lady of Beauty",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Love, Beauty",
+			"symbol": "Open Clam",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Elf, Aasimar, Manifestation of viewer's desires",
+				"Worshipers": "Priests, Lovers, Whores, Performers"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apollo",
+			"source": "Cyranos",
+			"title": "Lord of Music",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Knowledge",
+				"Life",
+				"Light"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Music, Lyre, Poetry, Archery, The Sun, Prophecies and Oracles",
+			"symbol": "Lyre",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Elf, Aasimar",
+				"Worshipers": "Bards, Poets, Oracles, Fortune Tellers, Archers, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Ares",
+			"source": "Cyranos",
+			"title": "Lord of War",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"War"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "War, Battle, Aggression, Brute Strengh",
+			"symbol": "Spear",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Orc, Dwarf, Bull",
+				"Worshipers": "Warriors, Gladiators, Amazons, Temples, Orcs"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Artemis",
+			"source": "Cyranos",
+			"title": "Lady of the Hunt",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "The Moon, Hunting, Maidenhood",
+			"symbol": "Bow",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Elf, Dryad, White Hart",
+				"Worshipers": "Cultists, Hunters, Maidens, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Athena",
+			"source": "Cyranos",
+			"title": "Lady of Wisdom",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"domains": [
+				"Knowledge",
+				"War"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Wisdom, Martial Strategy, Politics and Elves",
+			"symbol": "Owl",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Elf, Human, Owl",
+				"Worshipers": "Warriors, Amazons, Generals, Politicians, Scholars, Elves"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Demeter",
+			"source": "Cyranos",
+			"title": "Lady of the Harvest",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Harvest, Fertility and Food",
+			"symbol": "Head of Wheat",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Human, Firbolg",
+				"Worshipers": "Farmers, Cooks, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Dionysus",
+			"source": "Cyranos",
+			"title": "Lord of Wine",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Wine, Debauchery and Parties",
+			"symbol": "Grape Bunch",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Human, Satyr, Goat",
+				"Worshipers": "Performers, Whore, Hedonists, Innkeepers, Vineyards, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hephaestus",
+			"source": "Cyranos",
+			"title": "Lord of the Forge",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Forge"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Fire, Metalworking, Smithing, Dwarves, Contructs",
+			"symbol": "Anvil",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Dwarf, Fire Genasi, Warforged",
+				"Worshipers": "Smiths, Tinkers, Firewielders, Dwarves, Warforged, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hera",
+			"source": "Cyranos",
+			"title": "Lady of Marriage",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Women, Marriage, Family, Punishing Adulterers and Bigamists",
+			"symbol": "Peacock Feather",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Elf, Human",
+				"Worshipers": "Women, Married Couples, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hermes",
+			"source": "Cyranos",
+			"title": "Lord of Messengers",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "Thieves, Messengers, Travellers, Shepherds, Medicine, Psychopomp for Great Heroes",
+			"symbol": "Caduceus",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Human",
+				"Worshipers": "Thieves, Messengers, Travellers, Shepherds, Physicians, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Poseidon",
+			"source": "Cyranos",
+			"title": "Lord of the Sea",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Tempest"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "The Sea, Horses",
+			"symbol": "Trident",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Water Genasi, Triton, Merman, Hippocampus",
+				"Worshipers": "Sailors, Pirates, Fishermen, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Zeus",
+			"source": "Cyranos",
+			"title": "Lord of the Sky",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Tempest"
+			],
+			"pantheon": "Cyranos",
+			"category": "Olympian",
+			"province": "King of Olympians, The Sky, Lighting, Xenia, Kings",
+			"symbol": "Lightning Bolts",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Human, Air Genasi, Eagle",
+				"Worshipers": "Kings, Sailors, Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hades",
+			"source": "Cyranos",
+			"title": "King of the Underworld",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Underworld, Dead Souls, Infernal Beings",
+			"symbol": "Black Ram",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Grey Tiefling, Skeleton",
+				"Worshipers": "Undertakers, Graveyard Keepers, Necromancers, Temples, Cultists, Assassins"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hecate",
+			"source": "Cyranos",
+			"title": "Mistress of Magic",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Magic",
+			"symbol": "Twin Moons",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Elf, Green Tiefling",
+				"Worshipers": "Mages, Scholars of Magic, Some Temples"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Hestia",
+			"source": "Cyranos",
+			"title": "The Hearthkeeper",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Life"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "The Hearth, Home",
+			"symbol": "Flame",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Halfling",
+				"Worshipers": "Housekeepers, Servants"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Nike",
+			"source": "Cyranos",
+			"title": "The Victor",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"War"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Victory",
+			"symbol": "Feather and Sword",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Human",
+				"Worshipers": "Athletes, Warriors"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Tyche",
+			"source": "Cyranos",
+			"title": "The Fortune Controller",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Fortune and Destiny",
+			"symbol": "Pentagram",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Human",
+				"Worshipers": "Politicians"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Pan",
+			"source": "Cyranos",
+			"title": "The Wild One",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Wilderness, Panic, Animals, Satyrs",
+			"symbol": "Panflute",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Satyr",
+				"Worshipers": "Satyrs, Dryads, Druids"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Thanatos",
+			"source": "Cyranos",
+			"title": "The Soul Guide",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Personification of Death, Psychopomp for dead souls",
+			"symbol": "Black Feather",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Black Winged Aasimar",
+				"Worshipers": "Assassins, Executioners, Undertakers, Graveyardkeepers, Judges"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Nemesis",
+			"source": "Cyranos",
+			"title": "The Vengeful",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Order"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Revenge, Divine Retributuion, Punishment",
+			"symbol": "Sword and Hourglass",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Aasimar, Representation of Viewer's Sins",
+				"Worshipers": "Vilgilantes, Judges, Justicars"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Dolos",
+			"source": "Cyranos",
+			"title": "The Liar",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Trickery, Guile, Lying",
+			"symbol": "Clay Statue",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Human",
+				"Worshipers": "Con Artists, Tricksters"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Apate",
+			"source": "Cyranos",
+			"title": "The Fraudster",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Trickery"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Trickery, Fraud, Deception",
+			"symbol": "Girdle",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Human",
+				"Worshipers": "Con Artists, Fraudsters"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Alethiea",
+			"source": "Cyranos",
+			"title": "The Honest",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Order"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Honesty and Truth",
+			"symbol": "Book",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Aasimar",
+				"Worshipers": "Historians, Scholars"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Eleos",
+			"source": "Cyranos",
+			"title": "The Honest",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Order"
+			],
+			"pantheon": "Cyranos",
+			"category": "Lesser Gods",
+			"province": "Charity, Pity, Compassion and Mercy",
+			"symbol": "Empty Bowl",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Human",
+				"Worshipers": "Beggars, Missionaries, Healers"
+			},
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "Rexus",
+			"source": "Caligos",
+			"title": "The Dragon King",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Light",
+				"Order",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Law, order and nobility",
+			"symbol": "Gold Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Gold Dragon, Gold Dragonborn",
+				"Worshipers": "Monarchs, Nobles"
+			},
+			"entries": [
+				"Rexus is the leader of the Iuris Legion."
+			]
+		},
+		{
+			"name": "Sophus",
+			"source": "Caligos",
+			"title": "The Scholar",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Knowledge, wisdom, art and divine punishment through magic, curses and madness",
+			"symbol": "Blue Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Giant Eagle, Aarakocra",
+				"Worshipers": "Scholars, Teachers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Idex",
+			"source": "Caligos",
+			"title": "The Judge",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Order"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Justice and divine punishment through execution, imprisonment and violence",
+			"symbol": "Black Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Giant Owl, Aasimar",
+				"Worshipers": "Judges, Inquisitors, Law Enforcement"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Ferrarius",
+			"source": "Caligos",
+			"title": "The Smith",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Forge",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Forging, masonry, engineering, constructs and divine punishment through fire and explosions",
+			"symbol": "Red Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Red Wyvern, Dwarf",
+				"Worshipers": "Smiths, Masons, Tailors, Engineers, Pilots"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Pestas",
+			"source": "Caligos",
+			"title": "The Storm",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"domains": [
+				"Arcana",
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Storms, the fog and divine punishment through extreme weather and natural disasters",
+			"symbol": "Silver Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Giant Thunderbird, Aasimar",
+				"Worshipers": "Sailors"
+			},
+			"entries": [
+				"Supposedly sent the fog to punish mortals on the orders of Rexus."
+			]
+		},
+		{
+			"name": "Vitas",
+			"source": "Caligos",
+			"title": "The Protector",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Light",
+				"Peace"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Medicine, music and divine mercy",
+			"symbol": "Green Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Dove, Aasimar",
+				"Worshipers": "Healers, Mothers, Performers"
+			},
+			"entries": [
+				"Saved a small number of mortals from the fog to start anew."
+			]
+		},
+		{
+			"name": "Ricola",
+			"source": "Caligos",
+			"title": "The Alchemist",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Life"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Alchemy, chemistry and divine punishment through disease and poison",
+			"symbol": "Bronze Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Bat, Gnome",
+				"Worshipers": "Alchemists, Cooks"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Scurra",
+			"source": "Caligos",
+			"title": "The Jester",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Trickery"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Cunning, espionage, theatre, comedy and divine punishment through ridicule and defamation",
+			"symbol": "Purple Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Mockingbird, Changling",
+				"Worshipers": "Spies, Performers"
+			},
+			"entries": [
+				"While sometimes considered the “black sheep” of the Legion, some claim it was Scurra who discovered how to ascend to godhood, granting her a place within the Legion."
+			]
+		},
+		{
+			"name": "Mutter",
+			"source": "Caligos",
+			"title": "The Mother",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Nature",
+				"Peace"
+			],
+			"pantheon": "Anarchium",
+			"province": "The natural world (Debauchery in Caligos Imperium)",
+			"symbol": "Roots",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The ground itself",
+				"Worshipers": "Mothers, Miners, Druids"
+			},
+			"entries": [
+				"The Mother is vast network of ever expanding roots that form the world itself."
+			]
+		},
+		{
+			"name": "Vater",
+			"source": "Caligos",
+			"title": "The Father",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Light",
+				"Nature"
+			],
+			"pantheon": "Anarchium",
+			"province": "Life, family and the sky (Tyranny in Caligos Imperium)",
+			"symbol": "Branches",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "The sky itself",
+				"Worshipers": "Patriarchs, Matriarchs"
+			},
+			"entries": [
+				"Vater was a rogue root of Mutter that grew upwards and outwards to form the braches that make up the sky. From these branches came life."
+			]
+		},
+		{
+			"name": "Wasserie",
+			"source": "Caligos",
+			"title": "The River, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Tempest",
+				"Trickery"
+			],
+			"pantheon": "Anarchium",
+			"province": "Water and uncertainty (Anarchy in Caligos Imperium)",
+			"symbol": "Waves",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Rivers, Water Elemental",
+				"Worshipers": "Ferrymen, Spies, Anarchists"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Geierin",
+			"source": "Caligos",
+			"title": "The Night, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Trickery",
+				"Twilight"
+			],
+			"pantheon": "Anarchium",
+			"province": "Night, magic and curses (Dark magic in Caligos Imperium)",
+			"symbol": "Spider on moon",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The Moon, Giant Spider, Giant Moth",
+				"Worshipers": "Mages, Spies, Assassins"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Feus",
+			"source": "Caligos",
+			"title": "The Warm Winds, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Forge",
+				"Light"
+			],
+			"pantheon": "Anarchium",
+			"province": "Day, warmth and fire (Droughts and arson in Caligos Imperium)",
+			"symbol": "Rising Air, vertical waves",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The Sun, Fire Elemental",
+				"Worshipers": "Farmers, Pilots"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Eiskel",
+			"source": "Caligos",
+			"title": "The Cold Winds, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Tempest"
+			],
+			"pantheon": "Anarchium",
+			"province": "Cold winds, snow and ice (Apocalypse in Caligos Imperium)",
+			"symbol": "Snowflake",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Air Elemental",
+				"Worshipers": "Travellers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Maulich",
+			"source": "Caligos",
+			"title": "The Elk, Aspect of Vater",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Nature",
+				"Peace"
+			],
+			"pantheon": "Anarchium",
+			"province": "Prey, plantlife and agriculture (Weakness and sloth in Caligos Imperium)",
+			"symbol": "Elk",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Firbolg, Elk",
+				"Worshipers": "Farmers, Hunters, Shepards"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Olfus",
+			"source": "Caligos",
+			"title": "The Wolf, Aspect of Vater",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Death",
+				"Nature",
+				"War"
+			],
+			"pantheon": "Anarchium",
+			"province": "Predators, hunting and strengh of the pack (Violence and savagry in Caligos Imperium)",
+			"symbol": "Wolf",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Direwolf, Bear",
+				"Worshipers": "Hunters, Soldiers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Zornlich",
+			"source": "Caligos",
+			"title": "The Bull, Aspect of Vater",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Anarchium",
+			"province": "Fury, passion, determination and music (Brutality and destruction in Caligos Imperium)",
+			"symbol": "Bull",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Bull",
+				"Worshipers": "Soldiers, Athletes, Artists"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Sepulcrus",
+			"source": "Caligos",
+			"title": "The Hare, Aspect of Vater",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"pantheon": "Anarchium",
+			"province": "Death and the afterlife (Necromancy and infernals in Caligos Imperium)",
+			"symbol": "Black Hare",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Black Hare",
+				"Worshipers": "Soldiers, Assassins, Executioners, Gravekeepers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Talitus",
+			"source": "Caligos",
+			"title": "The Entropic Entity",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Time"
+			],
+			"pantheon": "Talitus",
+			"province": "Time, entropy and mortality (Chaos and pure evil in Caligos Imperium)",
+			"symbol": "Skull in hourglass",
+			"customProperties": {
+				"Sex": "Unknown",
+				"Typical Forms": "Unknown",
+				"Worshipers": "Cultists, Assassins"
+			},
+			"entries": [
+				"Talitus does not directly belong to either the Anarchium or the Iuris Legion. They are the god of time, entropy and death. They represent the inevitable end of everything, even the gods.",
+				"There are no statues or temples of Talitus as they have no known form or gender, nor are they known to speak to mortals. Very rarely, Talitus will choose a mortal to perform a task, the purposes of these tasks are known only to Talitus.",
+				"Somewhat paradoxically, Talitus is perpetually the youngest and oldest entity in the universe. Taltius may be one, many or even none. Scholar’s have spent centuries trying to understand the very few clues they have about Talitus.",
+				"Talitus worship is deeply taboo across the entire Caligos Archipelago. Worshipping them is seen as praying for the death of everything, including the gods. In the Caligos Imperium, any evidence implying worship of Talitus is an instant death sentence."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Daedalian Tinkerer",
+			"source": "Jackalope",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are a talented craftsman, able to create contraptions beyond common understanding, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn two artificer infusions from the Artificer Infusions section at the end of the class's description. Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item as per the Infuse Item rules on page 54 of Eberron: Rising from the Last War, however you can only infuse one object at a time.",
+						"Alternatively, if you already have at least two levels in the Artificer class, you learn two additional infusions of your choice and can infuse one additional item at a time."
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			]
+		},
+		{
+			"name": "Hoplite",
+			"source": "Cyranos",
+			"entries": [
+				"You adopt the fighting style of the hoplite, with {@item spear|phb} and {@item shield|phb}. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When using a {@item spear|phb} in one hand and a {@item shield|phb} in the other, the weapon's damage die changes as if you wielded the weapon in two hands, from a {@dice d6} to a {@dice d8}. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"Attacking at long range doesn't impose disadvantage on your thrown weapon attack rolls with spears.",
+						"When an ally within 5 feet of you is attacked, you can use your reaction to grant them a +2 bonus to AC against the triggering attack. You must be wielding a {@item shield|phb} to use this feature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oceanid Warrior",
+			"source": "Cyranos",
+			"entries": [
+				"You learn the fighting style of the Oceanids. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you wield a {@item trident|phb} or {@item bident|cyranos}, its damage die changes from a {@dice d6} to a {@dice d8} when wielded in one hand, and from a {@dice d8} to a {@dice d10} when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"When you make a melee attack with a {@item trident|phb} or {@item bident|cyranos} against a creature while either of you are underwater, you gain advantage on the attack roll.",
+						"Your reach with {@item trident|phb|tridents} or {@item bident|cyranos|bidents} with which you are proficient is increased by 5 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pit Fighter",
+			"source": "Jackalope",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have adopted a flashly fighting style that always goes down well with the arena crowds. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you make a weapon attack against a creature, you can use your bonus action gain a bonus to the attack and damage rolls equal to your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Bident",
+			"source": "Cyranos",
+			"type": "M",
+			"weapon": true,
+			"sword": false,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"V"
+			],
+			"range": "20/60"
+		},
+		{
+			"name": "Kopis",
+			"source": "Cyranos",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			]
+		},
+		{
+			"name": "Khopesh",
+			"source": "Cyranos",
+			"type": "M",
+			"weapon": true,
+			"sword": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"property": [
+				"F"
+			]
+		},
+		{
+			"name": "Satyr's Wine",
+			"type": "P",
+			"rarity": "none",
+			"value": 1500,
+			"source": "Cyranos",
+			"weight": 0.5,
+			"entries": [
+				"This sweet wine is made by satyrs from forest fruits grown by dryads. When you drink this wine, you must make a DC 10 Constitution saving throw. On a failed save, you become {@condition charmed} by all creatures that you can see of any species and gender you are normally attracted to. You can repeat the saving throw at the end of every hour until you succeed and are no longer {@condition charmed}."
+			]
+		},
+		{
+			"name": "Hourglass of Kronos",
+			"wondrous": "true",
+			"source": "Cyranos",
+			"rarity": "rare",
+			"weight": 1,
+			"entries": [
+				"This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side.",
+				"The hourglass has 2 charges and regains {@dice 1d3-1} charges daily at dawn.",
+				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|jackalope} spell (save DC 12) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+			]
+		},
+		{
+			"name": "Orb of Helios and Selene",
+			"wondrous": "true",
+			"source": "Cyranos",
+			"rarity": "uncommon",
+			"weight": 3,
+			"entries": [
+				"This tiny glass orb sheds dim light in a 5-foot radius and shows an image of the sun, during the day, or the moon, during the night.",
+				"While holding this orb, you can use an action to read the image and determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane."
+			]
+		},
+		{
+			"name": "Sandals of the Styx",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"curse": true,
+			"entries": [
+				"These sandals have supposedly been dipped in the river styx at the border of the underworld and thus grant the wearer the powers of Achilles.",
+				"While wearing these sandals all non-magical weapon attacks against you have disadvantage.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"These sandals are cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, your attunement to the object cannot be broken, and any successful weapon attacks against you are treated as critical hits."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bellerophon's Horn",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"entries": [
+				"Once attuned to the horn you can blow it to summon a {@creature pegasus|phb}.",
+				"The pegasus is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the pegasus defends itself but takes no other actions.",
+				"When the pegasus drops to 0 hit points, it disappears in a cloud of mist, leaving behind no physical form, and cannot be summoned again until dawn the next dawn. You can also dismiss the pegasus at any time as an action, causing it to disappear in the same way."
+			]
+		},
+		{
+			"name": "Sandals of Atalanta",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"entries": [
+				"While you are attuned to and wearing these sandals your walking speed increases by 10ft."
+			]
+		},
+		{
+			"name": "Wings of Daedalus",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"entries": [
+				"While you are attuned to and wearing these wings you gain a flying speed of 30ft.",
+				"These wings require both arms to operate and so you cannot use your arms or hands whilst flying or hovering. Whilst on the ground, you can remove your arms from the contraption and use them normally while the wings hang uselessly off your back."
+			]
+		},
+		{
+			"name": "Helm of Darkness",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"charges": 3,
+			"entries": [
+				"The helm has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
+				"As an action, you can expend one charge to cast {@spell greater invisibility|phb} on yourself."
+			]
+		},
+		{
+			"name": "Nemean Lion Pelt",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"reqAttune": true,
+			"entries": [
+				"You have resistance to non-magical piercing and slashing damage while wearing this pelt.",
+				"This pelt cannot be worn over medium or heavy armor."
+			]
+		},
+		{
+			"name": "Spear of Kelphalos",
+			"weight": 3,
+			"source": "Cyranos",
+			"entries": [
+				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a thrown attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
+			],
+			"type": "M",
+			"rarity": "Rare",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"baseItem": "spear|phb",
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "P",
+			"charges": 3
+		},
+		{
+			"name": "Fire Retardant Ship Coating",
+			"rarity": "none",
+			"value": 25000,
+			"source": "Cyranos",
+			"entries": [
+				"This thick, black paint can coat up to 10ft of a ship's hull exterior. Once a ship's hull exterior has been entirely coated, it is no longer vulnerable to fire damage."
+			]
+		},
+		{
+			"name": "Pocket Sand",
+			"rarity": "none",
+			"weight": 0.0625,
+			"source": "Jackalope",
+			"entries": [
+				"This fine sand or grit can be used to impede the vision of your foes.",
+				"As an action, pocket sand can be thrown at a creature with exposed eyes that is within 10ft of you. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the begining of its next turn."
+			]
+		},
+		{
+			"name": "Hippolyta's Girdle",
+			"wondrous": "true",
+			"rarity": "rare",
+			"reqAttune": true,
+			"source": "Cyranos",
+			"entries": [
+				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
+			]
+		},
+		{
+			"name": "Bolt of Zeus",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Cyranos",
+			"entries": [
+				"Crafted by the cyclopes, this crackling, golden bolt holds the power of zeus",
+				"This item has {@dice 3d4} charges when it is found. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell lightning bolt|phb} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
+				"If you expend the bolt's last charge roll a d20. On a 1, the bolt explodes and deals {@dice 8d6} lightning damage to all creatures within 10ft. If the roll is not a 1, the bolt crumbles into ashes and is destroyed."
+			]
+		},
+		{
+			"name": "Necklace of Beards",
+			"wondrous": "true",
+			"rarity": "common",
+			"source": "Jackalope",
+			"entries": [
+				"While wearing this necklace a creature's beard grows by half an inch after each long rest, even if they could not normally grow a beard."
+			]
+		},
+		{
+			"name": "Ring of Theatrics",
+			"wondrous": "true",
+			"rarity": "common",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can cast {@spell thaumaturgy|phb} as an action."
+			]
+		},
+		{
+			"name": "Ring of Tricks",
+			"wondrous": "true",
+			"rarity": "common",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can cast {@spell prestidigitation|phb} as an action."
+			]
+		},
+		{
+			"name": "Gloves of the Gardener",
+			"wondrous": "true",
+			"rarity": "common",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"While wearing these gloves, you can cast {@spell druidcraft|phb} as an action."
+			]
+		},
+		{
+			"name": "Shield Strap",
+			"rarity": "none",
+			"source": "Jackalope",
+			"value": 500,
+			"weight": 1,
+			"entries": [
+				"This leather strap can be used to hang a {@item shield|phb} from your shoulder, hanging over your arm and flank, allowing you to keep both hands free while still gaining its usual AC bonus. The shield does limit your mobility however, giving you a -5 penalty to Dexterity checks and saving throws as well as to attack rolls whilst wearing it in this fashion.",
+				"If a feature or action requires you to be holding a shield, such as using it as a spellcasting focus, you cannot use the shield for this while it is slung.",
+				"While wearing a shield like this, you can use a bonus action to grab the shield with a free hand and use it as normal."
+			]
+		},
+		{
+			"name": "Buckler",
+			"type": "S",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 4,
+			"ac": 1,
+			"source": "Jackalope",
+			"entries": [
+				"This small shield is made from wood or metal and is strapped to the forearm, leaving the hand free. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield or buckler at a time. You cannot use weapons with the two handed property while wielding this buckler."
+			]
+		},
+		{
+			"name": "Wheellock Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 15000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs.",
+				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+			]
+		},
+		{
+			"name": "Wheellock Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 30000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H"
+			],
+			"entries": [
+				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs.",
+				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+			]
+		},
+		{
+			"name": "Flintlock Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"This firearm uses a flint striker wheel to ignite its powder. This is the most common design for modern firearms.",
+				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+			]
+		},
+		{
+			"name": "Flintlock Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 50000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H"
+			],
+			"entries": [
+				"This firearm uses a flint striker wheel to ignite its powder. This is the most common design for modern firearms.",
+				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+			]
+		},
+		{
+			"name": "Caplock Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 100000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"This firearm uses a hammer striking a percusion cap to ignite its powder. This design is a very recent invention, as such these firearms are extremely rare.",
+				"<b><i>Shielded Powder.</i></b> Powder in caplocks is less exposed to moisture, reducing chances of misfire. Humid conditions, such as light rain or in a swamp, do not affect this weapon's ability to fire. While exposed to heavy moisture, such as heavy rain or being completely submerged, ranged attack rolls made with this weapon have disadvantage."
+			]
+		},
+		{
+			"name": "Caplock Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 200000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H"
+			],
+			"entries": [
+				"This firearm uses a hammer striking a percusion cap to ignite its powder. This design is a very recent invention, as such these firearms are extremely rare.",
+				"<b><i>Shielded Powder.</i></b> Powder in caplocks is less exposed to moisture, reducing chances of misfire. Humid conditions, such as light rain or in a swamp, do not affect this weapon's ability to fire. While exposed to heavy moisture, such as heavy rain or being completely submerged, ranged attack rolls made with this weapon have disadvantage."
+			]
+		},
+		{
+			"name": "Pepperbox Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 80000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon.",
+				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+			]
+		},
+		{
+			"name": "Duckfoot Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 80000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"range": "15ft. cone",
+			"reload": 1,
+			"property": [
+				"RLD",
+				"A",
+				"S"
+			],
+			"entries": [
+				"This advanced firearm design features five barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
+				"<b><i>Wide Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses five pieces of ammunition."
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 100000,
+			"weight": 15,
+			"ammunition": true,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"range": "30ft. cone",
+			"reload": 1,
+			"property": [
+				"RLD",
+				"A",
+				"S",
+				"2H",
+				"H"
+			],
+			"entries": [
+				"This advanced firearm design features a wide flared barrel in which multiple bullets can fit. When the trigger is pulled, all bullets are fired simultaneously.",
+				"<b><i>Wide Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses ten pieces of ammunition."
+			]
+		},
+		{
+			"name": "Legionsbane +2",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weapon": true,
+			"firearm": true,
+			"rarity": "legendary",
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"bonusWeapon": "+2",
+			"dmgType": "P",
+			"range": "50/200",
+			"reload": 8,
+			"property": [
+				"RLD",
+				"A"
+			],
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
+				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
+			]
+		},
+		{
+			"name": "Inquisitor Mask",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"source": "Caligos",
+			"entries": [
+				"While wearing this mask, you are immune to the {@condition blinded|phb} condition."
+			]
+		},
+		{
+			"name": "Firearm Scope",
+			"wondrous": "true",
+			"rarity": "none",
+			"value": 20000,
+			"weight": 5,
+			"source": "Caligos",
+			"entries": [
+			"This set of carefully crafted set of lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property , after which attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon "
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Amazon Huntress",
+			"source": "Cyranos",
+			"size": "M",
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item Studded Leather Armour|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 70,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 11,
+			"wis": 16,
+			"cha": 15,
+			"skill": {
+				"acrobatics": "+6",
+				"perception": "+5",
+				"survival": "+5"
+			},
+			"passive": 17,
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The Amazon Huntress has advantage on saving throws against being frightened."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A weapon deals one extra die of its damage when the Amazon Huntress hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Amazon Huntress makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}14 ({@damage 2d8 + 4}) piercing damage."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Amazon Warrior",
+			"source": "Cyranos",
+			"size": "M",
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item Studded Leather Armour|phb}",
+						"Shield"
+					]
+				}
+			],
+			"hp": {
+				"average": 80,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"skill": {
+				"athletics": "+8",
+				"intimidation": "+4"
+			},
+			"passive": 11,
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The Amazon Warrior has advantage on saving throws against being frightened."
+					]
+				},
+				{
+					"name": "Brute",
+					"entries": [
+						"A weapon deals one extra die of its damage when the Amazon Warrior hits with it (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Amazon Warrior makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or {@h}13 ({@damage 2d8 + 4}) piercing damage if used with two hands to makes a melee attack."
+					]
+ 				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The Amazon Warrior adds 3 to its AC against one melee attack that would hit it. To do so, the Amazon Hoplite must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Mercenary Captain",
+			"source": "Cyranos",
+			"size": "M",
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item Breastplate|phb}",
+						"{@item Shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 13,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Formation Tactics",
+					"entries": [
+						"The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The captain makes three melee attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) piercing damage, or {@h}8 ({@damage 1d8 + 3}), piercing damage if used with two hands."
+					]
+ 				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) blugeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shape Up Maggots",
+					"entries": [
+						"Whenever a friendly creature within 30 feet of the captain that can hear it misses with an attack, the captain can yell perilous threats to allow that creature to reroll the attack roll."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Mercenary Hoplite",
+			"source": "Cyranos",
+			"size": "M",
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item Breastplate|phb}",
+						"{@item Shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 11,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Formation Tactics",
+					"entries": [
+						"The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hoplite makes two melee attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 2}) piercing damage, or {@h}7 ({@damage 1d8 + 2}), piercing damage if used with two hands."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Mercenary Archer",
+			"source": "Cyranos",
+			"size": "M",
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Padded Armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 28,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+5",
+				"perception": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hoplite makes two attacks with its longbow or kopis."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 3}) piercing damage."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Warforged Bodyguard",
+			"source": "Jackalope",
+			"size": "M",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 9,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Serve the Master",
+					"entries": [
+						"The warforged knows a humanoid creature as its master. The warforged must protect the master with its life, and must obey the master's every order, unless it directly threatens the life of the master."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warforged makes two armblade attacks."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Protect The Master",
+					"entries": [
+						"When a creature makes an attack roll against the warforged's master and the warforged is able to reach them using their remaining movement, the warforged can use their reaction and their movement to block the incoming attack, taking the hit (or miss) themselves. The warforged's AC is used to determine if the attack hits or misses."
+					]
+				},
+				{
+					"name": "Final Protocol",
+					"entries": [
+						"When all hope is lost, the warforged can perform one final act to hinder their enemies. The warforged can overload their core to explode.",
+            "Each creature in a 20-foot-radius sphere centered on the warforged must make a DC12 Dexterity saving throw. A target takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.",
+						"This action kills the warforged and shatters their body into a thousand pieces."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Protection",
+					"entries": [
+						"When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Warforged Horse",
+			"source": "Cyranos",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 25,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"enteries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked {@condition prone|phb}. If the target is {@condition prone|phb}, the horse can make another attack with its hooves against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) blugeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Warforged Boar",
+			"source": "Cyranos",
+			"size": "L",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "5d10 + 15"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 18,
+			"int": 2,
+			"wis": 7,
+			"cha": 5,
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"enteries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked {@condition prone|phb}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Warforged Dog",
+			"source": "Jackalope",
+			"size": "M",
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 25,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"enteries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 2}) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked {@condition prone|phb}."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	],
+	"race": [
+		{
+			"name": "Dwarf (Thalian)",
+			"source": "Cyranos",
+			"size": "M",
+			"speed": {
+				"walk": 25
+			},
+			"ability": [
+				{
+					"str": 1,
+					"con": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Thalian dwarves tend to be neutral, prefering to dedicate to their craft rather than politics or tradition."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish. When carved or written, Dwarvish appears as rows of horizontal and vertical fletched lines. Dwarves often use clay tablets to tally payments, account for shipments of ore, or send messages. It can be etched on leaves of copper and gold as a prayer to the gods.These metal scrolls are then melted into the bronze of swords or armor, believed to imbue them with the words of the smith."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Thalian Resilience",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison and fire damage."
+					]
+				},
+				{
+					"name": "Dwarven Combat Training",
+					"type": "entries",
+					"entries": [
+						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}."
+					]
+				},
+				{
+					"name": "Tool Proficiency",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+					]
+				},
+				{
+					"name": "Stonecunning",
+					"type": "entries",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			],
+			"heightAndWeight": {
+    	"baseHeight": 44,
+    	"heightMod": "2d4",
+    	"baseWeight": 115,
+    	"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Fenri (Deathhound)",
+			"source": "Jackalope",
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri typically mature around 8 years of age. Fenri rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Fenri (Hound) tend to strictly adhere to the laws of nature and gods, tending towards lawful neutral alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Fenri (Hound) typically stand between 6 and 7 feet tall and weigh between 200 and 240 lbs. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision ",
+					"entries": [
+						"Your connection to the afterlife grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canine Senses",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furry Fiend",
+					"entries": [
+						"You have advantage on Intimidation (Charisma) checks against Tabaxi."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Scales",
+					"entries": [
+						"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. You can use this trait once per long rest."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			],
+			"heightAndWeight": {
+    	"baseHeight": 64,
+    	"heightMod": "2d8",
+    	"baseWeight": 175,
+    	"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Fenri (Bloodhound)",
+			"source": "Jackalope",
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri typically mature around 8 years of age. Fenri rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Fenri (Hunter) tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Fenri (Hunter) typically stand between 4 and 6 feet tall and weigh between 150 and 200 lbs. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canine Senses",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furry Fiend",
+					"entries": [
+						"You have advantage on Intimidation (Charisma) checks against Tabaxi."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite of Laelaps",
+					"entries": [
+						"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "All Fours.",
+					"entries": [
+						"You can take the dash action as bonus action, when you do so, you run on all fours."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			],
+			"heightAndWeight": {
+    	"baseHeight": 54,
+    	"heightMod": "2d8",
+    	"baseWeight": 100,
+    	"weightMod": "1d4"
+			}
+		},
+		{
+			"name": "Thalian Cyclops",
+			"source": "Cyranos",
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Thalian Cyclopes mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Thalian Cyclopes tend to be neutral, prefering to dedicate to their craft rather than politics or tradition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Thalian Cyclopes are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thalian Resilience",
+					"entries": [
+						"You have resistance against fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with {@item smith's tools|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Forgemaster",
+					"entries": [
+						"You can cast the {@spell identify|phb} spell as a ritual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poor Depth Perception",
+					"entries": [
+						"You have disadvantage on any attack roll against a target more than 30 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Deep under the mighty volcano of Thalia generations of cyclopes have laboured for thousands of years, producing some of the greatest weapons in the known world, including the thunderbolts of Zeus."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			],
+			"heightAndWeight": {
+    	"baseHeight": 74,
+    	"heightMod": "2d10",
+    	"baseWeight": 200,
+    	"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Eldritch Cannon",
+			"source": "Tin",
+			"size": "S",
+			"speed": {
+				"walk": 25
+			},
+			"ability": [
+				{
+        "choose": {
+            "from": [
+                "str",
+                "dex",
+                "int",
+                "wis",
+                "cha"
+            ],
+            "amount": 1
+        },
+				"con": 2
+    }
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"A typical cannon is between two and three years old. The maximum cannon lifespans remains a mystery; so far, cannons have shown no signs of deterioration due to age. You are immune to magical aging effects."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most cannons take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Cannons stand just over 2 feet tall and average about 20 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common. You can also speak using your Machine Speech trait."
+					]
+				},
+				{
+					"name": "Machine Speech",
+					"type": "entries",
+					"entries": [
+						"Machine Speech is a series of beeps at varying pitch and length. At the DM's discretion, certain other creatures may understand or speak this language."
+					]
+				},
+				{
+					"name": "Constructed Resilience",
+					"type": "entries",
+					"entries": [
+						"You were created to have remarkable fortitude, represented by the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being poisoned, and you have resistance to {@condition poison|phb} damage.",
+								"You don't need to eat, drink, or breathe.",
+								"You are immune to disease.",
+								"You don't need to sleep, and magic can't put you to sleep."
+							]
+						}
+					]
+				},
+				{
+					"name": "Sentry's Rest.",
+					"type": "entries",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
+					]
+				},
+				{
+					"name": "Natural Armor.",
+					"type": "entries",
+					"entries": [
+						"Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+					]
+				},
+				{
+					"name": "Shell Defence.",
+					"type": "entries",
+					"entries": [
+						"You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are {@condition prone|phb}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell."
+					]
+				},
+				{
+					"name": "Force Ballista.",
+					"type": "entries",
+					"entries": [
+						"If you have the Spellcasting or the Pact Magic class feature, the {@spell Tin's Force Ballista|Tin} spell is added to the spell list of your spellcasting class."
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Time Stasis",
+			"source": "Jackalope",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "creature",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an hourglass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell lets you freeze a creature or object in time. Choose a creature, of size Large or smaller, or a non-magical object, that is not greater than 10ft in any dimension, that you can see within range. If the target is a creature or is an object carried or worn by a creature, it must succeed on a Dexterity saving throw or be frozen in time for the spell's duration.",
+				"While frozen, a target is {@condition incapacitated|phb}, can't move or speak, and is unaware of its surroundings. It is also unaffected by any external forces such as gravity, attacks and spells."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can affect one additional creature or object for each slot level above 3rd."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Tin's Force Ballista",
+			"source": "Tin",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You fire a small dart of magically compressed matter at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d8} force damage. The target must succeed on a Strength saving throw or be pushed up to 10 feet in a straight line away from you.",
+				"This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"races": [
+				{
+					"name": "Eldritch Cannon",
+					"source": "Tin"
+				}
+			]
+		}
+	],
+	"vehicle": [
+		{
+			"name": "Rowboat",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "L",
+			"dimensions": [
+				"10 ft.",
+				"5 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 2,
+			"capPassenger": 2,
+			"capCargo": 0.25,
+			"pace": 3,
+			"str": 11,
+			"dex": 8,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"vulnerable": [
+				"fire"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 11,
+				"hp": 50,
+				"dt": 8
+			},
+			"movement": [
+				{
+					"name": "Oars",
+					"isControl": true,
+					"ac": 12,
+					"hp": 25,
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"15 ft.",
+								"Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 1
+			},
+			"action": [
+				"On its turn, the rowboat can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The rowboat can move using its oars."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Small Ship",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"30 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 4,
+			"capPassenger": 8,
+			"capCargo": 1,
+			"pace": 4,
+			"str": 16,
+			"dex": 8,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 150,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+						"Small ships typically include a ballista only when they are equipped for combat. If a small ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200lbs."
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 2,
+				"2": 4
+			},
+			"action": [
+				"On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fire Ballista.",
+							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Medium Ship",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"70 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 30,
+			"capPassenger": 50,
+			"capCargo": 10,
+			"pace": 4,
+			"str": 18,
+			"dex": 8,
+			"con": 15,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 15 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Dragonsmaw",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Mangonels",
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
+						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
+					]
+				},
+				{
+					"name": "Naval Ram",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 10,
+				"2": 20,
+				"3": 30
+			},
+			"action": [
+				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than thirty crew and only 1 action if it has fewer than twenty. It can't take these actions if it has fewer than ten crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fire Ballista.",
+							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Fire Dragonsmaws.",
+							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
+						},
+						{
+							"type": "item",
+							"name": "Fire Mangonels.",
+							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Large Ship",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"100 ft.",
+				"30 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 80,
+			"capPassenger": 100,
+			"capCargo": 100,
+			"pace": 5,
+			"str": 20,
+			"dex": 6,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 18
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 500,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 40 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Dragonsmaw",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Mangonels",
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
+						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
+					]
+				},
+				{
+					"name": "Naval Ram",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 20,
+				"2": 40,
+				"3": 80
+			},
+			"action": [
+				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than eighty crew and only 1 action if it has fewer than forty. It can't take these actions if it has fewer than twenty crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fire Ballista.",
+							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Fire Dragonsmaws.",
+							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
+						},
+						{
+							"type": "item",
+							"name": "Fire Mangonels.",
+							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flagship",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"120 ft.",
+				"40 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 100,
+			"capPassenger": 200,
+			"capCargo": 200,
+			"pace": 6,
+			"str": 24,
+			"dex": 6,
+			"con": 24,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 800,
+				"dt": 20
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 18,
+					"hp": 600,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 40 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"50 ft.; 20 ft. while sailing into the wind; 70 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"weapon": [
+				{
+					"name": "Ballista",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
+						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Dragonsmaw",
+					"ac": 15,
+					"hp": 50,
+					"entries": [
+						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
+					]
+				},
+				{
+					"name": "Mangonels",
+					"ac": 15,
+					"hp": 100,
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
+						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
+					]
+				},
+				{
+					"name": "Naval Ram",
+					"ac": 20,
+					"hp": 100,
+					"dt": 10,
+					"entries": [
+						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 40,
+				"2": 60,
+				"3": 80,
+				"4": 100
+			},
+			"action": [
+				"On its turn, the ship can take 4 actions, choosing from the options below. It can take only 3 actions if it has fewer than one hundred crew, only 2 action if it has fewer than eighty crew and only 1 action if it has fewer than sixty. It can't take these actions if it has fewer than forty crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Fire Ballista.",
+							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Fire Dragonsmaws.",
+							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
+						},
+						{
+							"type": "item",
+							"name": "Fire Mangonels.",
+							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+						},
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Lesboat",
+			"source": "Cyranos",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"25 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 4,
+			"capPassenger": 8,
+			"capCargo": 1,
+			"pace": 4,
+			"str": 16,
+			"dex": 8,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 150,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 2,
+				"2": 4
+			},
+			"action": [
+				"On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		}
+	],
+	"variant": [
+		{
+			"name": "Adamantine Ammunition (Cyranos)",
+			"type": "GV",
+			"source": "Cyranos",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "none",
+				"source": "Cyranos",
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " (Cyranos)",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this ammunition, unless it is magic ammunition that already has a bonus to those rolls.",
+					"Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever an adamantine ammunition hits an object, the hit is a critical hit.",
+					"The adamantine version of twenty pieces of ammunition costs 750 gp more than the normal version and takes at least one workweek to make, whether the ammunition is made of the metal or coated with it. Adamantine ammunition can only be made at The Forge on Thalia."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Adamantine Armor (Cyranos)",
+			"type": "GV",
+			"source": "Cyranos",
+			"requires": [
+				{
+					"type": "HA"
+				},
+				{
+					"type": "MA"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "none",
+				"source": "Cyranos",
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " (Cyranos)",
+				"entries": [
+					"You gain a +1 bonus to AC while you wear this armor, unless it is magic armor that already has a bonus to AC.",
+					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+					"The adamantine version of a set of armor costs 750 gp more than the normal version and takes at least one workweek to make, whether the armor is made of the metal or coated with it. Adamantine armor can only be made at The Forge on Thalia."
+				],
+				"bonusAc": "+1"
+			}
+		},
+		{
+			"name": "Adamantine Weapon (Cyranos)",
+			"type": "GV",
+			"source": "Cyranos",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "none",
+				"source": "Cyranos",
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " (Cyranos)",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this weapon, unless it is a magic weapon that already has a bonus to those rolls.",
+					"Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
+					"The adamantine version of a melee weapon costs 750 gp more than the normal version and takes at least one workweek to make, whether the weapon is made of the metal or coated with it. Adamantine weapons can only be made at The Forge on Thalia."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Underworld Weapon",
+			"type": "GV",
+			"source": "Cyranos",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "rare",
+				"source": "Cyranos",
+				"namePrefix": "Underworld ",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
+					"When you use this weapon to kill a humanoid creature you can expend one charge to cast {@spell animate dead|phb} on that creature."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Rifled Firearm",
+			"type": "GV",
+			"source": "Caligos",
+			"requires": [
+				{
+					"age": "renaissance",
+				  "firearm": true
+				}
+			],
+			"inherits": {
+				"rarity": "none",
+				"source": "Caligos",
+				"namePrefix": "Rifled ",
+				"entries": [
+					"Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
+					"The normal and long range of a rifled firearm are both doubled.",
+					"This has no effect on firearms with the Wide Shot property."
+				]
+			}
+		}
+	]
+}
