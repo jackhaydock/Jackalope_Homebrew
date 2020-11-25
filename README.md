@@ -20,7 +20,7 @@ https://5e.tools/managebrew.html
 
 3. Click "Load from URL"
 4. Copy/Paste this url
-https://raw.githubusercontent.com/jackhaydock/TSoC_Homebrew/master/TSoC.json
+https://raw.githubusercontent.com/jackhaydock/Jackalope_Homebrew/master/Jackalope.json
 5. Done
 
 You should then be able to see the sources and labels mentioned above.
