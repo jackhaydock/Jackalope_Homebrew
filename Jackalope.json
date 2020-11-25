@@ -2447,7 +2447,7 @@
 			]
 		},
 		{
-			"name": "Legionsbane +2",
+			"name": "Legionsbane",
 			"source": "Caligos",
 			"age": "renaissance",
 			"type": "R",
@@ -3277,6 +3277,21 @@
 				"MW"
 			]
 		}
+	],
+	"optionalfeature": [
+    {
+        "name": "Pact Gunsmith",
+        "source": "Caligos",
+        "featureType": "EI",
+				"prerequisite": [
+    			{
+        		"pact": "Blade"
+    			}
+				],
+        "entries": [
+            "You can create a pact weapon that is a {@item wheellock pistol|caligos}, {@item wheellock musket|caligos}, {@item flintlock pistol|caligos} or {@item flintlock musket|caligos}. Additionally you can transform any magical firearm into your pact weapon."
+        ]
+    }
 	],
 	"race": [
 		{
