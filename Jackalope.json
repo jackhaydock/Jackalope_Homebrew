@@ -2462,9 +2462,8 @@
 			"bonusWeapon": "+2",
 			"dmgType": "P",
 			"range": "50/200",
-			"reload": 8,
 			"property": [
-				"RLD",
+				"LD",
 				"A"
 			],
 			"entries": [
@@ -2479,7 +2478,7 @@
 			"rarity": "uncommon",
 			"source": "Caligos",
 			"entries": [
-				"While wearing this mask, you are immune to the {@condition blinded|phb} condition."
+				"This leather and metal mask features goggles and a beak. While wearing this mask, you are immune to the {@condition blinded|phb} condition."
 			]
 		},
 		{
@@ -2491,6 +2490,28 @@
 			"source": "Caligos",
 			"entries": [
 			"This set of carefully crafted set of lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property , after which attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon "
+			]
+		},
+		{
+			"name": "Homing Ink Tattoo",
+			"wondrous": "true",
+			"tattoo": "true",
+			"rarity": "rare",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo features a series of runic glyphs. These each glyph corisponds to a particular teleportation circle that is known by the bearer. Whenever the bearer studies a new circle, its glyph is added to the design of this tattoo.",
+				"You can use this tattoo to cast the {@spell teleportation circle} without expending a spell slot (you must still provide the material components). Once you use this feature, you cannot do so again until the next dawn."
+			]
+		},
+		{
+			"name": "Arcane Ink Tattoo",
+			"wondrous": "true",
+			"tattoo": "true",
+			"rarity": "rare",
+			"source": "Jackalope",
+			"entries": [
+				"Produced by a special needle, this magic tattoo can improve the bearer's abilities. When this tattoo is applied, increase one of your abilty score by 1, to a maximum of 24. You can only bear one tattoo of this kind."
 			]
 		}
 	],
