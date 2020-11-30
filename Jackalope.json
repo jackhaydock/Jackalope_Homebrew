@@ -2241,8 +2241,7 @@
 				"A"
 			],
 			"entries": [
-				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs.",
-				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
 			]
 		},
 		{
@@ -2263,11 +2262,11 @@
 			"property": [
 				"LD",
 				"A",
-				"2H"
+				"2H",
+				"H"
 			],
 			"entries": [
-				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs.",
-				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
 			]
 		},
 		{
@@ -2290,8 +2289,7 @@
 				"A"
 			],
 			"entries": [
-				"This firearm uses a flint striker wheel to ignite its powder. This is the most common design for modern firearms.",
-				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+				"This firearm uses a flint striker to ignite its powder. This is the most common design for modern firearms."
 			]
 		},
 		{
@@ -2312,60 +2310,11 @@
 			"property": [
 				"LD",
 				"A",
-				"2H"
+				"2H",
+				"H"
 			],
 			"entries": [
-				"This firearm uses a flint striker wheel to ignite its powder. This is the most common design for modern firearms.",
-				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
-			]
-		},
-		{
-			"name": "Caplock Pistol",
-			"source": "Caligos",
-			"age": "renaissance",
-			"type": "R",
-			"weaponCategory": "martial",
-			"weapon": true,
-			"firearm": true,
-			"rarity": "none",
-			"value": 100000,
-			"weight": 3,
-			"ammunition": true,
-			"dmg1": "1d10",
-			"dmgType": "P",
-			"range": "30/90",
-			"property": [
-				"LD",
-				"A"
-			],
-			"entries": [
-				"This firearm uses a hammer striking a percusion cap to ignite its powder. This design is a very recent invention, as such these firearms are extremely rare.",
-				"<b><i>Shielded Powder.</i></b> Powder in caplocks is less exposed to moisture, reducing chances of misfire. Humid conditions, such as light rain or in a swamp, do not affect this weapon's ability to fire. While exposed to heavy moisture, such as heavy rain or being completely submerged, ranged attack rolls made with this weapon have disadvantage."
-			]
-		},
-		{
-			"name": "Caplock Musket",
-			"source": "Caligos",
-			"age": "renaissance",
-			"type": "R",
-			"weaponCategory": "martial",
-			"weapon": true,
-			"firearm": true,
-			"rarity": "none",
-			"value": 200000,
-			"weight": 10,
-			"ammunition": true,
-			"dmg1": "1d12",
-			"dmgType": "P",
-			"range": "40/120",
-			"property": [
-				"LD",
-				"A",
-				"2H"
-			],
-			"entries": [
-				"This firearm uses a hammer striking a percusion cap to ignite its powder. This design is a very recent invention, as such these firearms are extremely rare.",
-				"<b><i>Shielded Powder.</i></b> Powder in caplocks is less exposed to moisture, reducing chances of misfire. Humid conditions, such as light rain or in a swamp, do not affect this weapon's ability to fire. While exposed to heavy moisture, such as heavy rain or being completely submerged, ranged attack rolls made with this weapon have disadvantage."
+				"This firearm uses a flint striker to ignite its powder. This is the most common design for modern firearms."
 			]
 		},
 		{
@@ -2377,7 +2326,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 80000,
+			"value": 75000,
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -2388,8 +2337,32 @@
 				"A"
 			],
 			"entries": [
-				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon.",
-				"<b><i>Exposed Powder.</i></b> Moisture can cause this weapon to misfire. While this weapon is exposed to humid conditions, such as light rain or in a swamp, ranged attack rolls made with this weapon have disadvantage. While exposed to heavy moisture, such as heavy rain or being completely submerged, this weapon cannot be fired at all."
+				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
+			]
+		},
+		{
+			"name": "Pepperbox Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 100000,
+			"weight": 15,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			],
+			"entries": [
+				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
 			]
 		},
 		{
@@ -2406,16 +2379,15 @@
 			"ammunition": true,
 			"dmg1": "2d4",
 			"dmgType": "P",
-			"range": "15ft. cone",
-			"reload": 1,
+			"range": "cone 15",
 			"property": [
-				"RLD",
+				"LD",
 				"A",
 				"S"
 			],
 			"entries": [
-				"This advanced firearm design features five barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
-				"<b><i>Wide Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses five pieces of ammunition."
+				"This advanced firearm design features several barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
+				"<b><i>Wide-Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses five pieces of ammunition."
 			]
 		},
 		{
@@ -2432,10 +2404,9 @@
 			"ammunition": true,
 			"dmg1": "2d6",
 			"dmgType": "P",
-			"range": "30ft. cone",
-			"reload": 1,
+			"range": "cone 30",
 			"property": [
-				"RLD",
+				"LD",
 				"A",
 				"S",
 				"2H",
@@ -2443,11 +2414,12 @@
 			],
 			"entries": [
 				"This advanced firearm design features a wide flared barrel in which multiple bullets can fit. When the trigger is pulled, all bullets are fired simultaneously.",
-				"<b><i>Wide Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses ten pieces of ammunition."
+				"<b><i>Improvised-Ammunition.</i></b> This weapon can be loaded with any ten tiny objects, such as gravel or ball bearings. When you do so, any creature targeted by an attack from this weapon has advantage on the saving throw to avoid being hit. The damage for this kind of attack is 1d4.",
+				"<b><i>Wide-Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses ten pieces of ammunition."
 			]
 		},
 		{
-			"name": "Legionsbane",
+			"name": "Legionsbane Pistol",
 			"source": "Caligos",
 			"age": "renaissance",
 			"type": "R",
@@ -2489,7 +2461,7 @@
 			"weight": 5,
 			"source": "Caligos",
 			"entries": [
-			"This set of carefully crafted set of lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property , after which attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon "
+			"This set of carefully crafted set of lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property , after which attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon. This does not have any effect on firearms with the Wide-Shot property."
 			]
 		},
 		{
@@ -4802,7 +4774,7 @@
 				"entries": [
 					"Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
 					"The normal and long range of a rifled firearm are both doubled.",
-					"This has no effect on firearms with the Wide Shot property."
+					"This has no effect on firearms with the Wide-Shot property."
 				]
 			}
 		}
