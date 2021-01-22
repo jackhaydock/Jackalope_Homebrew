@@ -679,7 +679,8 @@
 				"N"
 			],
 			"domains": [
-				"Knowledge"
+				"Knowledge",
+				"Time"
 			],
 			"pantheon": "Cyranos",
 			"category": "Titan",
@@ -2349,7 +2350,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 100000,
+			"value": 150000,
 			"weight": 15,
 			"ammunition": true,
 			"dmg1": "1d12",
@@ -2483,7 +2484,16 @@
 			"rarity": "rare",
 			"source": "Jackalope",
 			"entries": [
-				"Produced by a special needle, this magic tattoo can improve the bearer's abilities. When this tattoo is applied, increase one of your abilty score by 1, to a maximum of 24. You can only bear one tattoo of this kind."
+				"Produced by a special needle, this magic tattoo can improve the bearer's abilities. When this tattoo is applied, increase one of your abilty scores by 1, to a maximum of 24. You can only bear one tattoo of this kind."
+			]
+		},
+		{
+			"name": "Xerc's Tin Foil Hat",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Tin",
+			"entries": [
+				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being charmed or frightened."
 			]
 		}
 	],
