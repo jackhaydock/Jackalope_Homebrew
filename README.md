@@ -4,8 +4,8 @@ Homebrew collection for 5e.tools for my 5e campaign settings.
 What each source/label means:
 - **Jackalope: General**/**J:General**
   - Allowed in any of my campaigns unless stated otherwise.
-- **Jackalope: The Magical Adventures of Lord Mayor Tin**/**J:Tin**
-  - Meant for a specific character and are **not** allowed in any campaign unless stated otherwise.
+- **Jackalope: The Magical Adventures of the Jackalope Brigade**/**J:JB**
+  - Meant for specific PCs and are **not** allowed in any campaign unless stated otherwise.
 - **Jackalope: The Sea of Cyranos**/**J:Cyranos**
   - Meant for the Sea of Cyranos campaign setting and **only** allowed in that setting unless stated otherwise.
 - **Jackalope: The Skies of Caligos**/**J:Caligos**

@@ -38,10 +38,10 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "Tin",
-				"abbreviation": "J:Tin",
+				"json": "JB",
+				"abbreviation": "J:JB",
 				"color": "b30000",
-				"full": "Jackalope: The Magical Adventures of Lord Mayor Tin",
+				"full": "Jackalope: The Magical Adventures of the Jackalope Brigade",
 				"authors": [
 					"Jackalope"
 				],
@@ -2491,9 +2491,22 @@
 			"name": "Xerc's Tin Foil Hat",
 			"wondrous": "true",
 			"rarity": "rare",
-			"source": "Tin",
+			"source": "JB",
 			"entries": [
 				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
+			]
+		},
+		{
+			"name": "Wild Magic Faggot",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"This odd bundle of twigs from unknown, magical plants can be used in place of a wand.",
+				"The hourglass has 3 charges and regains {@dice 1d4-1} charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
+				"When you use this wand to cast a spell of 1st level or higher, you can expend any number of charges to gain a bonus to the spell's attack rolls. The bonus is equal to the number of charges expended.",
+				"Whenever charges are expended, you trigger a Wild Magic Surge."
 			]
 		}
 	],
@@ -3657,7 +3670,7 @@
 		},
 		{
 			"name": "Eldritch Cannon",
-			"source": "Tin",
+			"source": "JB",
 			"size": "S",
 			"speed": {
 				"walk": 25
@@ -3825,7 +3838,7 @@
 		},
 		{
 			"name": "Tin's Force Ballista",
-			"source": "Tin",
+			"source": "JB",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -3860,7 +3873,7 @@
 			"races": [
 				{
 					"name": "Eldritch Cannon",
-					"source": "Tin"
+					"source": "JB"
 				}
 			]
 		}
