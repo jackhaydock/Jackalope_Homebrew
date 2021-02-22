@@ -1,4 +1,4 @@
-# TSoC_Homebrew
+# Jackalope Homebrew
 Homebrew collection for 5e.tools for my 5e campaign settings.
 
 What each source/label means:
