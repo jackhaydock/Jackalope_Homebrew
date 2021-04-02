@@ -3316,7 +3316,20 @@
         "entries": [
             "You can create a pact weapon that is a {@item wheellock pistol|caligos}, {@item wheellock musket|caligos}, {@item flintlock pistol|caligos} or {@item flintlock musket|caligos}. Additionally you can transform any magical firearm into your pact weapon."
         ]
-    }
+    },
+		{
+			"name": "Doomerang",
+			"source": "Jackalope",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+					"You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range is doubled."
+			]
+		}
 	],
 	"race": [
 		{
@@ -3874,7 +3887,7 @@
 			],
 			"entries": [
 				"You fire a small dart of magically compressed matter at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d8} force damage. The target must succeed on a Strength saving throw or be pushed up to 5 feet in a straight line away from you.",
-				"This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
 			"savingThrow": [
 				"strength"
@@ -3885,6 +3898,58 @@
 					"source": "JB"
 				}
 			]
+		},
+		{
+			"name": "Boomerang Blade",
+			"source": "Jackalope",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You magically launch the weapon used in the spell's casting at one creature you can see within range. Make a ranged spell attack. On a hit, the target suffers the weapon attack's normal effects, plus an extra {@dice 1d6} force damage. Hit or miss the weapon then returns to your hand.",
+				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
