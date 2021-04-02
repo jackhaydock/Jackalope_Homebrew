@@ -14,6 +14,18 @@
 				"targetSchema": "1.0.0"
 			},
 			{
+				"json": "JS",
+				"abbreviation": "J:Sub",
+				"color": "e8dfc7",
+				"full": "Jackalope: Subclasses",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			},
+			{
 				"json": "Cyranos",
 				"abbreviation": "J:Cyranos",
 				"color": "ff9900",
@@ -3950,6 +3962,208 @@
 					}
 				]
 			}
+		}
+	],
+	"subclass": [
+		{
+			"name": "Time Domain",
+			"shortName": "Time",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"Time Domain|Cleric|PHB|Time|JS|1",
+					"Optional Rule: Time Stasis|Cleric|PHB|Time|JS|1",
+					"Temporal Control|Cleric|PHB|Time|JS|1",
+					"Channel Divinity: Rewrite History|Cleric|PHB|Time|JS|2",
+					"Quickened Evasion|Cleric|PHB|Time|JS|6",
+					"Potent Spellcasting|Cleric|PHB|Time|JS|8",
+					"Temporal Halt|Cleric|PHB|Time|JS|17",
+					"Optional Rule: Additional Dunamancy Spells|Cleric|PHB|Time|JS|17"
+			],
+			"subclassSpells": [
+				{
+					"name": "Gift of Alacrity",
+					"source": "EGW"
+				},
+				{
+					"name": "Feather Fall",
+					"source": "PHB"
+				},
+				{
+					"name": "Immovable Object",
+					"source": "EGW"
+				},
+				{
+					"name": "Hold Person",
+					"source": "PHB"
+				},
+				{
+					"name": "Slow",
+					"source": "PHB"
+				},
+				{
+					"name": "Haste",
+					"source": "PHB"
+				},
+				{
+					"name": "Dimension Door",
+					"source": "PHB"
+				},
+				{
+					"name": "Freedom of Movement",
+					"source": "PHB"
+				},
+				{
+					"name": "Far Step",
+					"source": "PHB"
+				},
+				{
+					"name": "Temporal Shunt",
+					"source": "EGW"
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Time Domain",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 1,
+			"entries": [
+				"The forces of time and entropy are some of the most powerful in the universe. Eventually time will consume everything, even the universe itself. The gods and goddesses who control the flow of time, such as Kronos or Talitus control the lives, deaths and fate of every being in existence. Followers of these deities can employ chronomancy to alter their fate and that of their allies.",
+				{
+					"type": "table",
+					"caption": "Time Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell gift of alacrity}, {@spell feather fall}"
+						],
+						[
+							"3rd",
+							"{@spell immovable object}, {@spell hold person}"
+						],
+						[
+							"5th",
+							"{@spell slow}, {@spell haste}"
+						],
+						[
+							"7th",
+							"{@spell dimension door}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell far step}, {@spell temporal shunt}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Optional Rule: Time Stasis",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"If your Dungeon Master allows, you can replace either the {@spell slow|PHB} or {@spell haste|PHB} spell in your time domain spells with the {@spell Time Stasis|Jackalope}."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Temporal Control",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting when you choose this domain at 1st level, you have advantage on your initiative rolls, provided you are not {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Rewrite History",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"When you or a creature you can see within 30ft of you takes damage or healing, you can use your channel divinity as a reaction to reroll a single die, they must then take the result of the new roll."
+			]
+		},
+		{
+			"name": "Quickened Evasion",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You can control the flow of time to improve evasive capabilities for you or your allies. When you or a creature within 30ft of you is targeted by an attack roll or makes a Dexterity saving throw, you can use your reaction to add your wisdom modifier to the creature’s AC or saving throw. You can choose to use this feature after the die is rolled, but before the outcome is determined.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Temporal Halt",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"You learn the {@spell Time Stop} spell as a cleric spell, it does not count towards your prepared spells. When you cast it as a cleric spell you can target one additional creature to be unaffected by the spell, allowing them to also use actions and move as normal for the duration of the spell. The spell ends for both of you, if either of you perform any action that would end the spell for you, as described in the spell’s description."
+			]
+		},
+		{
+			"name": "Optional Rule: Additional Dunamancy Spells",
+			"source": "JS",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "JS",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"If your Dungeon Master allows, you may add the {@spell Reality Break|egw} and {@spell Time Ravage|egw} spells to your cleric spell list."
+			]
 		}
 	],
 	"vehicle": [
