@@ -4021,6 +4021,10 @@
 				{
 					"name": "Temporal Shunt",
 					"source": "EGW"
+				},
+				{
+					"name": "Time Stasis",
+					"source": "Jackalope"
 				}
 			]
 		}
@@ -4050,23 +4054,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell gift of alacrity}, {@spell feather fall}"
+							"{@spell gift of alacrity|egw}, {@spell feather fall|phb}"
 						],
 						[
 							"3rd",
-							"{@spell immovable object}, {@spell hold person}"
+							"{@spell immovable object|egw}, {@spell hold person|phb}"
 						],
 						[
 							"5th",
-							"{@spell slow}, {@spell haste}"
+							"{@spell slow|phb}, {@spell haste|phb}"
 						],
 						[
 							"7th",
-							"{@spell dimension door}, {@spell freedom of movement}"
+							"{@spell dimension door|phb}, {@spell freedom of movement|phb}"
 						],
 						[
 							"9th",
-							"{@spell far step}, {@spell temporal shunt}"
+							"{@spell far step|phb}, {@spell temporal shunt|egw}"
 						]
 					]
 				}
