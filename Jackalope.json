@@ -447,7 +447,7 @@
 						"name": "Suggested Characteristics",
 						"type": "entries",
 						"entries": [
-							"As a thrall you are, or were, expected to be submissive and quiet as you carried out your chores and errands without complaint. Some thralls accept this fate while others are more rebelious and openly despise their master.",
+							"As a thrall you are, or were, expected to be submissive and quiet as you carried out your chores and errands without complaint. Some thralls accept this fate while others are more rebelious and openly despise their masters.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -601,7 +601,10 @@
 			],
 			"fluff": {
 				"entries": [
-					"You are, or were, a thrall to a particular individual or clan in the Northlands. A thrall are slaves forced to work or fight after being defeated in battle or kidnapped during a raid."
+					"You are, or were, a thrall to a particular individual or clan in the Northlands. Thralls are the lowest sapient beings on the social ladder, they are the slaves and serfs of the clan.",
+					"Most thralls are basic labourers such as farmers, miners and haulers. A few are put into service as house servants, concubines and cooks. Especially strong and loyal thralls may end up as housecarls, bodyguards and even raiders in their own right.",
+					"Sometimes entire hamlets and villages are held as thralls to a nearby clan under threat of raiding. Though particular individuals may also be seized and taken home to serve as personal thralls.",
+					"Even under the kindest masters, the life of a thrall is hard. You have, or had, no freedom or possessions and had to make do with whatever food and clothing your masters allow. You are, or were, expected to serve without complaint with your life as the only reward."
 				]
 			}
 		}
@@ -4193,7 +4196,7 @@
 			},
 			"components": {
 				"s": true,
-				"m": "a melee weapon worth at least 1 sp"
+				"m": "a melee weapon that does not have the Heavy property."
 			},
 			"duration": [
 				{
@@ -4201,8 +4204,8 @@
 				}
 			],
 			"entries": [
-				"You magically launch the weapon used in the spell's casting at one creature you can see within range. Make a ranged spell attack. On a hit, the target suffers the weapon attack's normal effects, plus an extra {@dice 1d6} force damage. Hit or miss the weapon then returns to your hand.",
-				"This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"You magically launch the weapon used in the spell's casting at one creature you can see within range. Make a ranged spell attack. On a hit, the target suffers the weapon attack's normal effects, plus an extra {@dice 1d4} force damage. Hit or miss the weapon then returns to your hand.",
+				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"classes": {
 				"fromClassList": [
@@ -4234,14 +4237,14 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
-					"Time Domain|Cleric|PHB|Time|Jackalope|1",
-					"Optional Rule: Time Stasis|Cleric|PHB|Time|Jackalope|1",
-					"Temporal Control|Cleric|PHB|Time|Jackalope|1",
-					"Channel Divinity: Rewrite History|Cleric|PHB|Time|Jackalope|2",
-					"Quickened Evasion|Cleric|PHB|Time|Jackalope|6",
-					"Potent Spellcasting|Cleric|PHB|Time|Jackalope|8",
-					"Temporal Halt|Cleric|PHB|Time|Jackalope|17",
-					"Optional Rule: Additional Dunamancy Spells|Cleric|PHB|Time|Jackalope|17"
+					"Time Domain|Cleric|PHB|Time|JS|1",
+					"Optional Rule: Time Stasis|Cleric|PHB|Time|JS|1",
+					"Temporal Control|Cleric|PHB|Time|JS|1",
+					"Channel Divinity: Rewrite History|Cleric|PHB|Time|JS|2",
+					"Quickened Evasion|Cleric|PHB|Time|JS|6",
+					"Potent Spellcasting|Cleric|PHB|Time|JS|8",
+					"Temporal Halt|Cleric|PHB|Time|JS|17",
+					"Optional Rule: Additional Dunamancy Spells|Cleric|PHB|Time|JS|17"
 			],
 			"subclassSpells": [
 				{
@@ -4298,7 +4301,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"entries": [
 				"The forces of time and entropy are some of the most powerful in the universe. Eventually time will consume everything, even the universe itself. The gods and goddesses who control the flow of time, such as Kronos or Talitus control the lives, deaths and fate of every being in existence. Followers of these deities can employ chronomancy to alter their fate and that of their allies.",
@@ -4344,7 +4347,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"header": 2,
 			"entries": [
@@ -4358,7 +4361,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"header": 2,
 			"entries": [
@@ -4371,7 +4374,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 2,
 			"header": 2,
 			"entries": [
@@ -4384,7 +4387,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4398,7 +4401,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4411,7 +4414,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4424,7 +4427,7 @@
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
+			"subclasssource": "Jackalope",
 			"level": 17,
 			"header": 2,
 			"entries": [
