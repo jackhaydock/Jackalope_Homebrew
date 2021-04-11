@@ -14,10 +14,10 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "JS",
-				"abbreviation": "J:Sub",
-				"color": "e8dfc7",
-				"full": "Jackalope: Subclasses",
+				"json": "Cyranos",
+				"abbreviation": "J:Cyranos",
+				"color": "ff9900",
+				"full": "Jackalope: The Sea of Cyranos",
 				"authors": [
 					"Jackalope"
 				],
@@ -26,10 +26,10 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "Cyranos",
-				"abbreviation": "J:Cyranos",
-				"color": "ff9900",
-				"full": "Jackalope: The Sea of Cyranos",
+				"json": "AshAndSnow",
+				"abbreviation": "J:AnS",
+				"color": "90c8de",
+				"full": "Jackalope: Ash and Snow",
 				"authors": [
 					"Jackalope"
 				],
@@ -88,7 +88,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "One type of {@item gaming set}"
+							"entry": "One type of {@item gaming set|phb}"
 						},
 						{
 							"type": "item",
@@ -98,7 +98,7 @@
 						{
 							"type": "item",
 							"name": "Equipment",
-							"entry": "A ceremonial circlet or diadem (A mark of your ascension to Amazon), a set of {@item common clothes}, and a belt pouch containing 15gp "
+							"entry": "A ceremonial circlet or diadem (A mark of your ascension to Amazon), a set of {@item common clothes|phb}, and a belt pouch containing 15gp "
 						}
 					]
 				},
@@ -320,7 +320,7 @@
 								],
 								[
 									"4",
-									"My hatred of my enemies is blinding and unreasoning"
+									"My hatred of my enemies is blinding and unreasoning."
 								],
 								[
 									"5",
@@ -340,6 +340,268 @@
 					"You hail from a famous tribe of warrior women known as the Amazons. Amazons pride themselves on their strength and independence. Men are not permitted among their ranks and are only used for breeding.",
           "Some tribes have agreements with neighbouring tribes and settlements in which, once a year the strongest men are chosen to mate with the Amazons. Any girls born from this union are raised as Amazons themselves while the boys are sent back to their fathers.",
           "In more aggressive tribes, men are captured during raids, enslaved and then slaughtered after the deed is done. Any boys resulting from these unions are usually killed or abandoned."
+				]
+			}
+		},
+		{
+			"name": "Thrall",
+			"source": "AshAndSnow",
+			"skillProficiencies": [
+				{
+        "choose": {
+            "from": [
+                "athletics",
+                "animal handling",
+                "insight",
+                "survival"
+            ],
+            "count": 2
+          }
+        }
+			],
+			"toolProficiencies": [
+        {
+          "artisan's tools": true
+			  }
+      ],
+			"languageProficiencies": [
+        {
+          "any": true
+        }
+      ],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose two from {@skill Athletics}, {@skill Animal Handling}, {@skill insight} and {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A collar or set of manacles, a set of {@item common clothes|phb}, and a belt pouch containing 5gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Hard Knock Life",
+					"type": "entries",
+					"entries": [
+						"You are used to living with great difficulty and can survive with next to nothing. You can survive on half the amount of food and water as others.",
+						"In addition, when in a settlement larger than a village, you can believably pose as a beggar or pauper to elicit sympathy and get enough food or coppers to live a squalid life at no expense."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Thrall Status",
+					"type": "entries",
+					"entries": [
+						"You can roll on the table to determine your current status, or chose one that best fits your character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Status"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am still a thrall in service to a master."
+								],
+								[
+									"2",
+									"I have escaped my bonds and am now free."
+								],
+								[
+									"3",
+									"I was rescued from my old masters by someone else."
+								],
+								[
+									"4",
+									"I was granted my freedom by my old masters."
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+							"As a thrall you are, or were, expected to be submissive and quiet as you carried out your chores and errands without complaint. Some thralls accept this fate while others are more rebelious and openly despise their masters.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am submissive and often hesitant to complain, make eye contact or speak out of turn."
+								],
+								[
+									"2",
+									"I call everyone 'sir' or 'lady' without really thinking about it."
+								],
+								[
+									"3",
+									"I automatically start doing chores like cleaning out of habit."
+								],
+								[
+									"4",
+									"I am terrified of ropes, chains and whips."
+								],
+								[
+									"5",
+									"I look out for my friends and allies."
+								],
+								[
+									"6",
+									"I am rebellious and hate being told what to do."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I want to prove my strength by subjugating my own thralls. (Evil)"
+								],
+								[
+									"2",
+									"People should respect and obey their betters. (Lawful)"
+								],
+								[
+									"3",
+									"Thralldom is a cruel tradition that should not exist. (Good)"
+								],
+								[
+									"4",
+									"No one should have authority over others. (Chaotic)"
+								],
+								[
+									"5",
+									"I just want to leave my past behind and lead my own life. (Neutral)"
+								],
+								[
+									"6",
+									"I want to make something of my life, I will be a somebody. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I want revenge on those who hold/held me in bondage, at any cost."
+								],
+								[
+									"2",
+									"Despite everything, I still feel a sense of loyalty to my masters."
+								],
+								[
+									"3",
+									"I owe everything to those who freed me."
+								],
+								[
+									"4",
+									"I am my own master now, I owe nothing to anyone."
+								],
+								[
+									"5",
+									"I feel a kinship with anyone who has suffered as a thrall and wish to help them however I can."
+								],
+								[
+									"6",
+									"I long to return to my old life and family before I became a thrall, or at least whatever is left of them."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The cruelty of my masters has made me nervous and shy in social situations."
+								],
+								[
+									"2",
+									"I tend to go along with others unquestioningly, even when I disagree with them."
+								],
+								[
+									"3",
+									"I value my own life as lesser and more expendable than those around me."
+								],
+								[
+									"4",
+									"I have a habit of stealing food as I fear I'll go hungry otherwise."
+								],
+								[
+									"5",
+									"I am overly protective of my belongings and refuse to share, even with close friends."
+								],
+								[
+									"6",
+									"I distrust people as I fear everyone I meet is secretly trying to make me their own thrall."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You are, or were, a thrall to a particular individual or clan in the Northlands. A thrall are slaves forced to work or fight after being defeated in battle or kidnapped during a raid."
 				]
 			}
 		}
@@ -3968,7 +4230,7 @@
 		{
 			"name": "Time Domain",
 			"shortName": "Time",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -4032,11 +4294,11 @@
 	"subclassFeature": [
 		{
 			"name": "Time Domain",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"entries": [
 				"The forces of time and entropy are some of the most powerful in the universe. Eventually time will consume everything, even the universe itself. The gods and goddesses who control the flow of time, such as Kronos or Talitus control the lives, deaths and fate of every being in existence. Followers of these deities can employ chronomancy to alter their fate and that of their allies.",
@@ -4078,11 +4340,11 @@
 		},
 		{
 			"name": "Optional Rule: Time Stasis",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"header": 2,
 			"entries": [
@@ -4092,11 +4354,11 @@
 		{
 			"type": "entries",
 			"name": "Temporal Control",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 1,
 			"header": 2,
 			"entries": [
@@ -4105,11 +4367,11 @@
 		},
 		{
 			"name": "Channel Divinity: Rewrite History",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 2,
 			"header": 2,
 			"entries": [
@@ -4118,11 +4380,11 @@
 		},
 		{
 			"name": "Quickened Evasion",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 6,
 			"header": 2,
 			"entries": [
@@ -4132,11 +4394,11 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 8,
 			"header": 2,
 			"entries": [
@@ -4145,11 +4407,11 @@
 		},
 		{
 			"name": "Temporal Halt",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 17,
 			"header": 2,
 			"entries": [
@@ -4158,11 +4420,11 @@
 		},
 		{
 			"name": "Optional Rule: Additional Dunamancy Spells",
-			"source": "JS",
+			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Time",
-			"subclassSource": "JS",
+			"subclasssource": "Jackalope",
 			"level": 17,
 			"header": 2,
 			"entries": [
