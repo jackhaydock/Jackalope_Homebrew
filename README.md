@@ -8,6 +8,8 @@ What each source/label means:
   - Meant for specific PCs and are **not** allowed in any campaign unless stated otherwise.
 - **Jackalope: The Sea of Cyranos**/**J:Cyranos**
   - Meant for the Sea of Cyranos campaign setting and **only** allowed in that setting unless stated otherwise.
+- **Jackalope: Ash and Snow**/**J:AnS**
+  - Meant for the Ash and Snow campaign setting and **only** allowed in that setting unless stated otherwise.    
 - **Jackalope: The Skies of Caligos**/**J:Caligos**
   - Meant for the Skies of Caligos campaign setting and **only** allowed in that setting unless stated otherwise.
 
