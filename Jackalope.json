@@ -4243,6 +4243,7 @@
 					"Channel Divinity: Rewrite History|Cleric|PHB|Time|Jackalope|2",
 					"Quickened Evasion|Cleric|PHB|Time|Jackalope|6",
 					"Potent Spellcasting|Cleric|PHB|Time|Jackalope|8",
+					"Blessed Strikes|Cleric|PHB|Time|Jackalope|8",
 					"Temporal Halt|Cleric|PHB|Time|Jackalope|17",
 					"Optional Rule: Additional Dunamancy Spells|Cleric|PHB|Time|Jackalope|17"
 			],
@@ -4351,7 +4352,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"If your Dungeon Master allows, you can replace either the {@spell slow|PHB} or {@spell haste|PHB} spell in your time domain spells with the {@spell Time Stasis|Jackalope}."
+				"If your Dungeon Master allows, you can replace either the {@spell slow|PHB} or {@spell haste|PHB} spell in your time domain spells with the {@spell Time Stasis|Jackalope} spell."
 			]
 		},
 		{
@@ -4378,7 +4379,8 @@
 			"level": 2,
 			"header": 2,
 			"entries": [
-				"When you or a creature you can see within 30ft of you takes damage or healing, you can use your channel divinity as a reaction to reroll a single die, they must then take the result of the new roll."
+				"Starting at 2nd level, you can use your Channel Divinity to rewrite a single moment in time.",
+				"When you or a creature you can see within 30ft of you rolls damage or healing, you can use your channel divinity as a reaction to force them to reroll a single die of your choice, they must then take the result of the new roll."
 			]
 		},
 		{
@@ -4391,7 +4393,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You can control the flow of time to improve evasive capabilities for you or your allies. When you or a creature within 30ft of you is targeted by an attack roll or makes a Dexterity saving throw, you can use your reaction to add your wisdom modifier to the creature’s AC or saving throw. You can choose to use this feature after the die is rolled, but before the outcome is determined.",
+				"At 6th level, you can control the flow of time to improve evasive capabilities for you or your allies. When you or a creature within 30ft of you is targeted by an attack roll or makes a Dexterity saving throw, you can use your reaction to add your wisdom modifier to the creature’s AC or saving throw. You can choose to use this feature after the die is rolled, but before the outcome is determined.",
 				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
 			]
 		},
@@ -4405,7 +4407,21 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any {@class cleric|phb} cantrip."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "Jackalope",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"<i>8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature</i>",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
 			]
 		},
 		{
@@ -4418,7 +4434,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"You learn the {@spell Time Stop} spell as a cleric spell, it does not count towards your prepared spells. When you cast it as a cleric spell you can target one additional creature to be unaffected by the spell, allowing them to also use actions and move as normal for the duration of the spell. The spell ends for both of you, if either of you perform any action that would end the spell for you, as described in the spell’s description."
+				"At 17th level, you learn the {@spell Time Stop} spell as a cleric spell, it does not count towards your prepared spells. When you cast it as a cleric spell you can target one additional creature to be unaffected by the spell, allowing them to also use actions and move as normal for the duration of the spell. The spell ends for both of you if either of you perform any action that would end the spell for you, as described in the spell’s description."
 			]
 		},
 		{
