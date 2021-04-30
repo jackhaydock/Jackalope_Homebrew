@@ -2210,6 +2210,25 @@
 					"cha": 1
 				}
 			]
+		},
+		{
+			"name": "Blood Mage Initiate",
+			"source": "Jackalope",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"You can harness the power of your own blood to enhance your spells. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that restores hit points or deals damage, you can roll {@dice 2d4} and add the number rolled as a bonus to the hit points regained or the damage dealt. You take necrotic damage equal to the number rolled, which can't be reduced in any way.",
+						"When you finish a short rest, you can choose to recover expended spell slots. None of the slots can be 6th level or higher and you take necrotic damage equal to five times the combined level of the spell slots, which can't be reduced in any way."
+					]
+				}
+			]
 		}
 	],
 	"item": [
