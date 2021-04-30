@@ -3861,15 +3861,43 @@
 								"type": "entries",
 								"name": "The Scales",
 								"entries": [
-									"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. You can use this trait once per long rest."
+									"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. Once you use this trait, you can't use it again until you finish a long rest."
 								]
 							}
+						]
+					},
+					{
+						"name": "Watchdog",
+						"source": "Jackalope",
+						"ability": [
+							{
+								"wis": 2,
+								"cha": 1
+							}
 						],
-						"overwrite": {
-							"entries": [
-
-							]
-						}
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Deductive Intuition",
+								"entries": [
+									"When you make an Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sniff 'Em Out",
+								"entries": [
+									"You can cast the {@spell detect evil and good|phb} and {@spell detect poison and disease|phb} spells with this trait. Starting at 3rd level, you can also cast the {@spell see invisibility|phb} spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells, and you don't require material components for them."
+								]
+							}
+						]
 					}
 				],
 			"languageProficiencies": [
