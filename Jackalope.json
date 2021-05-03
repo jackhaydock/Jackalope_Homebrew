@@ -2828,6 +2828,18 @@
 			"entries": [
 				"These boots allow you to hover dramatically up to 1 foot above the ground as a bonus action. Whilst hovering, you move as if you were walking. The boots do not grant you a flying speed or any protection from terrain, falls or traps."
 			]
+		},
+		{
+			"name": "Scroll of Unique Wish",
+			"type": "SC",
+			"rarity": "very rare",
+			"source": "Jackalope",
+			"attachedSpells": [
+				"wish"
+			],
+			"entries": [
+				"This scroll allows a creature to cast the {@spell wish|phb} spell. In addition to the usual drawbacks of the spell, if the creature's wish has ever been wished before, the wish fails and instead summons an {@creature avatar of death|dmg} that is hostile to the creature. The Dungeon Master decides if the wish is unique. Whether the wish suceeds or fails, the scroll burns up and can't be used again."
+			]
 		}
 	],
 	"monster": [
