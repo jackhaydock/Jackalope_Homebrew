@@ -3116,6 +3116,24 @@
 			"entries": [
 				"This scroll allows a creature to cast the {@spell wish|phb} spell. In addition to the usual drawbacks of the spell, if the creature's wish has ever been wished before, the wish fails and instead summons an {@creature avatar of death|dmg} that is hostile to the creature. The Dungeon Master decides if the wish is unique. Whether the wish suceeds or fails, the scroll burns up and can't be used again."
 			]
+		},
+		{
+			"name": "Poppy of Hypnos",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"source": "Cyranos",
+			"entries": [
+				"When this poppy blooms, or is punctured as an action, it releases a potent mist. All creatures within range are targeted by the {@spell sleep|phb} spell at 2nd level."
+			]
+		},
+		{
+			"name": "Molly",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "Cyranos",
+			"entries": [
+				"This white flowering herb is known for prtoecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8hrs."
+			]
 		}
 	],
 	"monster": [
@@ -4423,7 +4441,7 @@
 					"name": "Force Ballista.",
 					"type": "entries",
 					"entries": [
-						"If you have the Spellcasting or the Pact Magic class feature, the {@spell Tin's Force Ballista|Tin} spell is added to the spell list of your spellcasting class."
+						"If you have the Spellcasting or the Pact Magic class feature, the {@spell Tin's Force Ballista|JB} spell is added to the spell list of your spellcasting class."
 					]
 				}
 			]
