@@ -60,6 +60,18 @@
 				"version": "1.0.0",
 				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
 				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "Ratpack",
+				"abbreviation": "J:Ratpack",
+				"color": "197531",
+				"full": "Jackalope: The Ratpack",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 0,
@@ -4128,12 +4140,7 @@
 								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 							]
 						}
-					],
-					"overwrite": {
-						"entries": [
-
-						]
-					}
+					]
 				},
 					{
 						"name": "Chaser",
@@ -4442,6 +4449,455 @@
 					"type": "entries",
 					"entries": [
 						"If you have the Spellcasting or the Pact Magic class feature, the {@spell Tin's Force Ballista|JB} spell is added to the spell list of your spellcasting class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rat",
+			"source": "Ratpack",
+			"size": "M",
+			"speed": "30 in. or 2.5",
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Rats tend to mature around 6 months and rarely live more than 2 years in the wild. Some domesticated rats can live an extra year or two."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Rats are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Rats come in various sizes, usually between 9 and 12 inches long, not including the tail. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak Beast Speech and Rodent."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Form",
+					"entries": [
+						"Your type is beast rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 inches of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Susceptibility",
+					"entries": [
+						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to posion damage and have disadvantage on saving throws to avoid the poison condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disease Resistance",
+					"entries": [
+						"You have advantage on saving throws to avoid diseases."
+					]
+				}
+			],
+			"subraces": [
+					{
+					"name": "Big Rat",
+					"source": "Ratpack",
+					"ability": [
+						{
+							"str": 2,
+							"choose": {
+								"from": [
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+								],
+							"count": 1,
+							"amount": 1
+							}
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Menacing",
+							"entries": [
+								"You gain proficiency in the Intimidation skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Powerful Build",
+							"entries": [
+								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+							]
+						}
+					]
+				},
+					{
+						"name": "Plague Rat",
+						"source": "Ratpack",
+						"ability": [
+							{
+								"con": 2,
+								"choose": {
+            			"from": [
+                	"str",
+                	"dex",
+                	"int",
+                	"wis",
+                	"cha"
+            			],
+            		"count": 1,
+            		"amount": 1
+        				}
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Plague Bite",
+								"entries": [
+									"Any creature you hit with an unarmed attack must succeed on DC 10 Constitution saving throw or gain the poisoned condition and contract {@disease sewer plague|dmg}."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Plague",
+								"entries": [
+									"Whenever you finish a long rest, you must roll a {@dice d20} and consult the table below.",
+									{
+										"type": "table",
+										"colLabels": [
+											"d20",
+											"Outcome"
+										],
+										"colStyles": [
+											"col-1 text-center",
+											"col-11"
+										],
+										"rows": [
+											[
+												"11-20",
+												"Nothing happens."
+											],
+											[
+												"2-9",
+												"You gain one level of exhaustion."
+											],
+											[
+												"1",
+												"You drop to 0 hitpoints and fail one deathsave."
+											]
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+		},
+		{
+			"name": "Mouse",
+			"source": "Ratpack",
+			"size": "S",
+			"speed": {
+				"walk": "25 in. or 2"
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+						"str",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+					"count": 1,
+					"amount": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Mice tend to mature around 6 months and rarely live more than 2 years in the wild. Some domesticated mice can live an extra year or two."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Mice are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Mice are usually less than 4 inches long, not including tail. Your size is small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak Beast Speech and Rodent."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Form",
+					"entries": [
+						"Your type is beast rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 inches of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Susceptibility",
+					"entries": [
+						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to posion damage and have disadvantage on saving throws to avoid the poison condition."
+					]
+				},
+				{
+					"name": "Quiet as a mouse",
+					"type": "entries",
+					"entries": [
+						"You have proficiency in the Stealth skill and can perform the Hide action as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spider",
+			"source": "Ratpack",
+			"size": "S",
+			"speed": {
+				"walk": "25 in. or 2",
+				"climb": "25 in. or 2"
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+					"count": 3,
+					"amount": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Spiders tend to live less than three years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Spiders are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Spiders can have legspans ranging from 2 to 5 inches. Your size is small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak Beast Speech and Arthropod."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 inches of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Form",
+					"entries": [
+						"Your type is beast rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spider Climb",
+					"entries": [
+						"You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Web Sense",
+					"entries": [
+						"While in contact with a web, you know the exact location of any other creature in contact with the same web."
+					]
+				},
+				{
+					"name": "Web Walker",
+					"type": "entries",
+					"entries": [
+						"The spider ignores movement restrictions caused by webbing."
+					]
+				},
+				{
+					"name": "Silksmith",
+					"type": "entries",
+					"entries": [
+						"As an action, you can produce up 100 inches of silk rope. Once you do so, you cannot do so again until you finish a short or long rest."
+					]
+				},
+				{
+					"name": "Webshooter",
+					"type": "entries",
+					"entries": [
+						"Starting at 3rd level, you can cast the {@spell web|phb} spell (spell save DC14). Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You don't require material components for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Toad",
+			"source": "Ratpack",
+			"size": "S",
+			"speed": {
+				"walk": "25 in. or 2",
+				"swim": "25 in. or 2"
+			},
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+					"count": 1,
+					"amount": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Toads usually mature from tadpoles after 50 days. Toads can live up 12 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Toads tend towards chaotic alignments."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Toads can be up to 5 inches. Your size is small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak Beast Speech and Aquatic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beast Form",
+					"entries": [
+						"Your type is beast rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"The frog can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leapfrog",
+					"entries": [
+						"Whenever you make a long or high jump, you can double the range, even when making a standing jump."
+					]
+				},
+				{
+					"name": "Long Tongue",
+					"type": "entries",
+					"entries": [
+						"When you take the {@action grapple} action, you target target a creature up to 15 inches away. The creature must be small or smaller. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature pulled to within 5 inches of you."
 					]
 				}
 			]

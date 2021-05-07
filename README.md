@@ -12,6 +12,8 @@ What each source/label means:
   - Meant for the Ash and Snow campaign setting and **only** allowed in that setting unless stated otherwise.    
 - **Jackalope: The Skies of Caligos**/**J:Caligos**
   - Meant for the Skies of Caligos campaign setting and **only** allowed in that setting unless stated otherwise.
+- **Jackalope: The Ratpack**/**J:Ratpack**
+  - Meant for the Ratpack campaign setting and **only** allowed in that setting unless stated otherwise.
 
 *NOTE: You can delete individual sources in the homebrew manager after importing, it is recommended that you do this for the sources that aren't relevant to you.*
 
