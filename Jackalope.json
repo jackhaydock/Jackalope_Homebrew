@@ -4558,42 +4558,6 @@
 			],
 			"subraces": [
 				{
-				"name": "Street Rat",
-				"source": "Ratpack",
-				"ability": [
-					{
-						"wis": 2,
-						"choose": {
-							"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"cha"
-							],
-						"count": 1,
-						"amount": 1
-						}
-					}
-				],
-				"entries": [
-					{
-						"type": "entries",
-						"name": "Pack Tactics",
-						"entries": [
-							"You have advantage on attack rolls against a creature if at least one of your allies is within 5 inches of the creature, and the ally isn't {@condition incapacitated}."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Street Smarts",
-						"entries": [
-							"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when in areas of heavy construction such as towns and dungeons."
-						]
-					}
-				]
-			},
-				{
 					"name": "Giant Rat",
 					"source": "Ratpack",
 					"traitTags": [
@@ -4621,7 +4585,7 @@
 							"type": "entries",
 							"name": "Menacing",
 							"entries": [
-								"You gain proficiency in the Intimidation skill."
+								"You gain proficiency in the {@skill Intimidation} skill."
 							]
 						},
 						{
@@ -4633,9 +4597,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Thick Hide",
+							"name": "Savage Attacks",
 							"entries": [
-								"You gain a +1 bonus to Armor Class when you aren't wearing heavy armour."
+								"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
 							]
 						}
 					]
@@ -4720,7 +4684,139 @@
 								]
 							}
 						]
-					}
+					},
+				{
+						"name": "Lab Rat",
+						"source": "Ratpack",
+						"traitTags": [
+							"Magic Resistance",
+							"Tool Proficiency",
+							"Spellcasting"
+						],
+						"ability": [
+							{
+								"int": 2,
+								"choose": {
+									"from": [
+									"str",
+									"dex",
+									"con",
+									"wis",
+									"cha"
+									],
+								"count": 1,
+								"amount": 1
+								}
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Rodent Cunning",
+								"entries": [
+									"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Lab Training",
+								"entries": [
+									"You gain proficiency with one type of {@item artisan's tools|phb} of your choice."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Glyph Master",
+								"entries": [
+									"You can spend one minute to read or write up to 25 words in any written language."
+								]
+							}
+						]
+					},
+				{
+					"name": "Street Rat",
+					"source": "Ratpack",
+					"ability": [
+						{
+							"wis": 2,
+							"choose": {
+								"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"cha"
+								],
+							"count": 1,
+							"amount": 1
+							}
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pack Tactics",
+							"entries": [
+								"You have advantage on attack rolls against a creature if at least one of your allies is within 5 inches of the creature, and the ally isn't {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Street Smarts",
+							"entries": [
+								"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when in areas of heavy construction such as towns and dungeons."
+							]
+						}
+					]
+				},
+				{
+					"name": "Piper Rat",
+					"source": "Ratpack",
+					"traitTags": [
+						"Skill Proficiency",
+						"Spellcasting",
+						"Tool Proficiency"
+					],
+					"ability": [
+						{
+							"cha": 2,
+							"choose": {
+								"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis"
+								],
+							"count": 1,
+							"amount": 1
+							}
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Reveler",
+							"entries": [
+								"You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one {@item musical instrument|phb} of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Strong Willed",
+							"entries": [
+								"You have advantage on saving throws to avoid being {@condition Charmed} or {@condition Frightened}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Showoff",
+							"entries": [
+								"You know the {@spell Prestidigitation|phb} and {@spell Thaumaturgy|phb} cantrips."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
