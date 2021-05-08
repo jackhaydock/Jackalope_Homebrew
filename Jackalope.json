@@ -4525,8 +4525,44 @@
 				}
 			],
 			"subraces": [
+				{
+				"name": "Street Rat",
+				"source": "Ratpack",
+				"ability": [
 					{
-					"name": "Big Rat",
+						"wis": 2,
+						"choose": {
+							"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"cha"
+							],
+						"count": 1,
+						"amount": 1
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Pack Tactics",
+						"entries": [
+							"You have advantage on attack rolls against a creature if at least one of your allies is within 5 inches of the creature, and the ally isn't {@condition incapacitated}."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Street Smarts",
+						"entries": [
+							"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when navigating city streets and allyways."
+						]
+					}
+				]
+			},
+				{
+					"name": "Giant Rat",
 					"source": "Ratpack",
 					"ability": [
 						{
@@ -4561,7 +4597,7 @@
 						}
 					]
 				},
-					{
+				{
 						"name": "Plague Rat",
 						"source": "Ratpack",
 						"ability": [
@@ -4623,6 +4659,78 @@
 						]
 					}
 				]
+		},
+		{
+			"name": "Warforged Rat",
+			"source": "Ratpack",
+			"size": "M",
+			"speed": "30 in. or 2.5",
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+						"str",
+						"dex"
+						],
+					"count": 1,
+					"amount": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Rats tend to mature around 6 months and rarely live more than 2 years in the wild. Some domesticated rats can live an extra year or two."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Warforged Rats are tend towards lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Warforged Rats come in various sizes, usually between 9 and 12 inches long, not including the tail. Your size is medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak Beast Speech and Rodent."
+					]
+				},
+				{
+					"name": "Constructed Resilience",
+					"type": "entries",
+					"entries": [
+						"You were created to have remarkable fortitude, represented by the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being poisoned, and you have resistance to {@condition poison|phb} damage.",
+								"You don't need to eat, drink, or breathe.",
+								"You are immune to disease.",
+								"You don't need to sleep, and magic can't put you to sleep."
+							]
+						}
+					]
+				},
+				{
+					"name": "Sentry's Rest.",
+					"type": "entries",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
+					]
+				}
+			]
 		},
 		{
 			"name": "Mouse",
