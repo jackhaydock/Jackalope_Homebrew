@@ -3964,6 +3964,17 @@
 		{
 			"name": "Dwarf (Thalian)",
 			"source": "Cyranos",
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"weaponProficiencies": [
+    		"battleaxe|phb",
+    		"handaxe|phb",
+    		"light hammer|phb",
+				"warhammer|phb"
+			],
 			"size": "M",
 			"speed": {
 				"walk": 25
@@ -4112,6 +4123,10 @@
 					{
 					"name": "Wardog",
 					"source": "Jackalope",
+					"traitTags": [
+						"Powerful Build",
+						"Skill Proficiency"
+					],
 					"ability": [
 						{
 							"str": 2,
@@ -4171,6 +4186,7 @@
 					{
 						"name": "Deathhound",
 						"source": "Jackalope",
+						"darkvision": 60,
 						"ability": [
 							{
 								"con": 2,
@@ -4197,6 +4213,10 @@
 					{
 						"name": "Watchdog",
 						"source": "Jackalope",
+						"traitTags": [
+							"Spellcasting"
+						],
+						"darkvision": 60,
 						"ability": [
 							{
 								"wis": 2,
@@ -4244,6 +4264,13 @@
 		{
 			"name": "Thalian Cyclops",
 			"source": "Cyranos",
+			"darkvision": 60,
+			"traitTags": [
+				"Damage Resistance",
+				"Powerful Build",
+				"Spellcasting",
+				"Tool Proficiency"
+			],
 			"ability": [
 				{
 					"con": 2,
@@ -4272,13 +4299,6 @@
 					"name": "Size",
 					"entries": [
 						"Thalian Cyclopes are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
 					]
 				},
 				{
@@ -4313,7 +4333,7 @@
 					"type": "entries",
 					"name": "Magic Forgemaster",
 					"entries": [
-						"You can cast the {@spell identify|phb} spell as a ritual."
+						"You can cast the {@spell identify|phb} spell as a ritual. You don't require material components when you cast it using this feature."
 					]
 				},
 				{
@@ -4352,6 +4372,15 @@
 		{
 			"name": "Eldritch Cannon",
 			"source": "JB",
+			"darkvision": 60,
+			"traitTags": [
+				"Condition Immunity",
+				"Improved Resting",
+				"Damage Resistance",
+				"Natural Armor",
+				"Spellcasting",
+				"Uncommon Race"
+			],
 			"size": "S",
 			"speed": {
 				"walk": 25
@@ -4456,9 +4485,12 @@
 		{
 			"name": "Rat",
 			"source": "Ratpack",
+			"darkvision": "60 in. or 5",
+			"traitTags": [
+				"Damage Resistance"
+			],
 			"size": "M",
 			"speed": "30 in. or 2.5",
-			"darkvision": 60,
 			"entries": [
 				{
 					"type": "entries",
@@ -4564,6 +4596,10 @@
 				{
 					"name": "Giant Rat",
 					"source": "Ratpack",
+					"traitTags": [
+						"Powerful Build",
+						"Skill Proficiency"
+					],
 					"ability": [
 						{
 							"str": 2,
@@ -4690,6 +4726,13 @@
 		{
 			"name": "Warforged Rat",
 			"source": "Ratpack",
+			"traitTags": [
+				"Condition Immunity",
+				"Damage Resistance",
+				"Improved Resting",
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
 			"size": "M",
 			"speed": "30 in. or 2.5",
 			"ability": [
@@ -4787,11 +4830,15 @@
 		{
 			"name": "Mouse",
 			"source": "Ratpack",
+			"darkvision": "60 in. or 5",
+			"traitTags": [
+				"Skill Proficiency"
+			],
 			"size": "S",
 			"speed": {
 				"walk": "25 in. or 2"
 			},
-			"darkvision": 60,
+
 			"ability": [
 				{
 					"dex": 2,
@@ -4877,12 +4924,15 @@
 		{
 			"name": "Spider",
 			"source": "Ratpack",
+			"darkvision": "60 in. or 5",
+			"traitTags": [
+				"Spellcasting"
+			],
 			"size": "S",
 			"speed": {
 				"walk": "25 in. or 2",
 				"climb": "25 in. or 2"
 			},
-			"darkvision": 60,
 			"ability": [
 				{
 					"choose": {
@@ -4982,6 +5032,9 @@
 		{
 			"name": "Toad",
 			"source": "Ratpack",
+			"traitTags": [
+    		"Amphibious"
+			],
 			"size": "S",
 			"speed": {
 				"walk": "25 in. or 2",
