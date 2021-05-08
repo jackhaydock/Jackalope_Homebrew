@@ -4721,7 +4721,7 @@
 							}
 						]
 					}
-				]
+			]
 		},
 		{
 			"name": "Warforged Rat",
@@ -4916,7 +4916,21 @@
 					"name": "Quiet as a mouse",
 					"type": "entries",
 					"entries": [
-						"You have proficiency in the Stealth skill and can perform the Hide action as a bonus action."
+						"You have proficiency in the {@skill Stealth} skill."
+					]
+				},
+				{
+					"name": "Mouse Nimbleness",
+					"type": "entries",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"type": "entries",
+					"entries": [
+						"You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
 					]
 				}
 			]
@@ -5110,7 +5124,7 @@
 					"name": "Long Tongue",
 					"type": "entries",
 					"entries": [
-						"When you take the {@action grapple} action, you target target a creature up to 15 inches away. The creature must be small or smaller. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature pulled to within 5 inches of you."
+						"When you take the {@action grapple} action, you can target a creature up to 15 inches away. The creature must be small or smaller. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature pulled to within 5 inches of you."
 					]
 				}
 			]
