@@ -4621,7 +4621,7 @@
 								"type": "entries",
 								"name": "Plague Bite",
 								"entries": [
-									"Any creature you hit with an unarmed attack must succeed on DC 10 Constitution saving throw or gain the poisoned condition and contract {@disease sewer plague|dmg}."
+									"Any creature you hit with an unarmed attack must succeed on DC 10 Constitution saving throw or gain the poisoned condition."
 								]
 							},
 							{
@@ -4641,16 +4641,36 @@
 										],
 										"rows": [
 											[
-												"11-20",
-												"Nothing happens."
+												"20",
+												"Your unarmed attacks deal an additional {@dice 1d8} posion damage until the end of your next long rest."
 											],
 											[
-												"2-9",
-												"You gain one level of exhaustion."
+												"17-19",
+												"Your unarmed attacks deal an additional {@dice 1d6} posion damage until the end of your next long rest."
+											],
+											[
+												"14-16",
+												"Your unarmed attacks deal an additional {@dice 1d4} posion damage until the end of your next long rest."
+											],
+											[
+												"11-13",
+												"Your unarmed attacks deal an additional 1 posion damage until the end of your next long rest."
+											],
+											[
+												"8-10",
+												"You regain half your maximum hit points (minimum of 1) from finishing this long rest"
+											],
+											[
+												"5-7",
+												"You regain no hit points from finishing this long rest"
+											],
+											[
+												"2-4",
+												"You regain no hit points from finishing this long rest and gain one level of exhaustion."
 											],
 											[
 												"1",
-												"You drop to 0 hitpoints and fail one deathsave."
+												"You drop to 0 hit points and gain one level of exhaustion."
 											]
 										]
 									}
