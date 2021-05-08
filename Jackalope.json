@@ -4556,7 +4556,7 @@
 						"type": "entries",
 						"name": "Street Smarts",
 						"entries": [
-							"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when navigating city streets and allyways."
+							"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when in areas of heavy construction such as towns and dungeons."
 						]
 					}
 				]
@@ -4593,6 +4593,13 @@
 							"name": "Powerful Build",
 							"entries": [
 								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Thick Hide",
+							"entries": [
+								"You gain a +1 bonus to Armor Class when you aren't wearing heavy armour."
 							]
 						}
 					]
@@ -4691,7 +4698,10 @@
 					"choose": {
 						"from": [
 						"str",
-						"dex"
+						"dex",
+						"int",
+						"wis",
+						"cha"
 						],
 					"count": 1,
 					"amount": 1
