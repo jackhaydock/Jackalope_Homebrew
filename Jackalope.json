@@ -4490,7 +4490,9 @@
 				"Damage Resistance"
 			],
 			"size": "M",
-			"speed": "30 in. or 2.5",
+			"speed": {
+				"walk": "30 in. or 2.5"
+			},
 			"entries": [
 				{
 					"type": "entries",
@@ -4772,11 +4774,9 @@
 				{
 					"name": "Ship Rat",
 					"source": "Ratpack",
-					"overwrite": {
-						"speed": {
-							"walk": "30 in. or 2.5",
-							"swim": "30 in. or 2.5"
-						}
+					"speed": {
+						"walk": "30 in. or 2.5",
+						"swim": "30 in. or 2.5"
 					},
 					"traitTags": [
 						"Skill Proficiency",
