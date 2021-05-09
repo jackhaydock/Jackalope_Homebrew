@@ -4770,11 +4770,16 @@
 					]
 				},
 				{
-					"name": "Piper Rat",
+					"name": "Ship Rat",
 					"source": "Ratpack",
+					"overwrite": {
+						"speed": {
+							"walk": "30 in. or 2.5",
+							"swim": "30 in. or 2.5"
+						}
+					},
 					"traitTags": [
 						"Skill Proficiency",
-						"Spellcasting",
 						"Tool Proficiency"
 					],
 					"ability": [
@@ -4796,6 +4801,13 @@
 					"entries": [
 						{
 							"type": "entries",
+							"name": "Swim Speed",
+							"entries": [
+								"You have a swimming speed of 30 inches."
+							]
+						},
+						{
+							"type": "entries",
 							"name": "Reveler",
 							"entries": [
 								"You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one {@item musical instrument|phb} of your choice."
@@ -4806,13 +4818,6 @@
 							"name": "Strong Willed",
 							"entries": [
 								"You have advantage on saving throws to avoid being {@condition Charmed} or {@condition Frightened}."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Showoff",
-							"entries": [
-								"You know the {@spell Prestidigitation|phb} and {@spell Thaumaturgy|phb} cantrips."
 							]
 						}
 					]
@@ -5200,6 +5205,13 @@
 					"name": "Beast Form",
 					"entries": [
 						"Your type is beast rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swim Speed",
+					"entries": [
+						"You have a swimming speed of 30 inches."
 					]
 				},
 				{
