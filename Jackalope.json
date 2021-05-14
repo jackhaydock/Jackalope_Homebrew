@@ -3146,6 +3146,17 @@
 			"entries": [
 				"This white flowering herb is known for prtoecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8hrs."
 			]
+		},
+		{
+			"name": "Temporal Gearbox",
+			"wondrous": "true",
+			"rarity": "very rare",
+			"source": "Jackalope",
+			"entries": [
+				"This set of incrementally larger gears connected to a crank can be used to imprison a creature in a slower timestream. As an action you can point this device at a creature and turn the crank, forcing the creature to make a DC12 Wisdom saving throw. On a fail, the creature's perception of time is slowed to the speed where a single heartbeat takes a year (one round in combat takes 6 years).",
+				"The creature can act normally but only at their usual speed, even a quick action such as blinking can appear to take weeks or even months. For this reason, this device is commonly used as a torture device. The Dungeon Master decides how this experience affects the creature; rolling for one or more {@variantrule Madness|dmg} effects would be appropriate.",
+				"On subsequent turns, you can use an action to continue turning the crank, keeping the effect going. Otherwise, the effect lasts until the start of your next turn. At the end of each of it's turns, the creature can attempt to make the wisdom saving throw again, breaking free on a success. Once a creature has succeeded on a saving throw, it cannot be affected by this item again for 7 days."
+			]
 		}
 	],
 	"monster": [
