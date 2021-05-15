@@ -2937,7 +2937,7 @@
 				"A"
 			],
 			"entries": [
-				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
 			]
 		},
 		{
@@ -2962,7 +2962,7 @@
 				"H"
 			],
 			"entries": [
-				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
 			]
 		},
 		{
@@ -2987,7 +2987,7 @@
 			],
 			"entries": [
 				"This advanced firearm design features several barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
-				"<b><i>Wide-Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses five pieces of ammunition."
+				"{@b {@i Wide-Shot.}} When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 15ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses five pieces of ammunition."
 			]
 		},
 		{
@@ -3014,8 +3014,8 @@
 			],
 			"entries": [
 				"This advanced firearm design features a wide flared barrel in which multiple bullets can fit. When the trigger is pulled, all bullets are fired simultaneously.",
-				"<b><i>Improvised-Ammunition.</i></b> This weapon can be loaded with any ten tiny objects, such as gravel or ball bearings. When you do so, any creature targeted by an attack from this weapon has advantage on the saving throw to avoid being hit. The damage for this kind of attack is {@dice 1d4}.",
-				"<b><i>Wide-Shot.</i></b> When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses ten pieces of ammunition."
+				"{@b {@i Improvised-Ammunition.}} This weapon can be loaded with any ten tiny objects, such as gravel or ball bearings. When you do so, any creature targeted by an attack from this weapon has advantage on the saving throw to avoid being hit. The damage for this kind of attack is {@dice 1d4}.",
+				"{@b {@i Wide-Shot.}} When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a DC 12 Dexterity saving throw. A target takes this weapons damage on a failed save, or half as much damage on a successful one. This action uses ten pieces of ammunition."
 			]
 		},
 		{
@@ -3041,7 +3041,7 @@
 			"entries": [
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
-				"<b><i>Multi-Barrel.</i></b> When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This addtional attack ignores the loading property of this weapon."
 			]
 		},
 		{
@@ -5415,7 +5415,6 @@
 			"classSource": "PHB",
 			"subclassFeatures": [
 					"Time Domain|Cleric|PHB|Time|Jackalope|1",
-					"Optional Rule: Time Stasis|Cleric|PHB|Time|Jackalope|1",
 					"Temporal Control|Cleric|PHB|Time|Jackalope|1",
 					"Channel Divinity: Rewrite History|Cleric|PHB|Time|Jackalope|2",
 					"Quickened Evasion|Cleric|PHB|Time|Jackalope|6",
@@ -5506,7 +5505,7 @@
 						],
 						[
 							"5th",
-							"{@spell slow|phb}, {@spell haste|phb}"
+							"{@spell slow|phb}, {@spell haste|phb}*"
 						],
 						[
 							"7th",
@@ -5517,20 +5516,8 @@
 							"{@spell far step|xge}, {@spell temporal shunt|egw}"
 						]
 					]
-				}
-			]
-		},
-		{
-			"name": "Optional Rule: Time Stasis",
-			"source": "Jackalope",
-			"className": "Cleric",
-			"classSource": "PHB",
-			"subclassShortName": "Time",
-			"subclassSource": "Jackalope",
-			"level": 1,
-			"header": 2,
-			"entries": [
-				"If your Dungeon Master allows, you can replace either the {@spell slow|PHB} or {@spell haste|PHB} spell in your time domain spells with the {@spell Time Stasis|Jackalope} spell."
+				},
+				"{@note *If your DM allows, you can replace either the {@spell slow|PHB} or {@spell haste|PHB} spell in your time domain spells with the {@spell Time Stasis|Jackalope} spell.}"
 			]
 		},
 		{
@@ -5598,7 +5585,7 @@
 			"level": 8,
 			"header": 2,
 			"entries": [
-				"<i>8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature</i>",
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
 				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
 			]
 		},
@@ -5625,7 +5612,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"If your Dungeon Master allows, you may add the {@spell Reality Break|egw} and {@spell Time Ravage|egw} spells to your cleric spell list."
+				"If your DM allows, you may add the {@spell Reality Break|egw} and {@spell Time Ravage|egw} spells to your cleric spell list."
 			]
 		}
 	],
@@ -6551,6 +6538,132 @@
 					"This has no effect on firearms with the Wide-Shot property."
 				]
 			}
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Hindering Traits",
+			"source": "Jackalope",
+			"ruleType": "O",
+			"entries":[
+				"Even the strongest heroes can have things that hold them back. These flaws have the opportunity make the character's story more interesting as they struggle to overcome challenges unique to them. The rules below are an optional way to encourage players to build flawed characters.",
+				"The Dungeon Master can decide to implement these rule in one of the following ways during character creation:",
+				{
+					"type": "list",
+					"items": [
+						"Each player is forced to take a number of Hindering traits at the begining of the game.",
+						"The players can freely choose or roll for a number of Hindering traits.",
+						"The DM can incentivize players to take Hindering traits by offering rewards for taking them. Examples of rewards could include; +2 ASI for rolling a minor trait or a feat for rolling a major trait."
+					]
+				},
+				"The DM may also decide to assign certain traits to characters during the game if they experience strong traumas that would believable lead to the trait developing.",
+				{
+					"type": "entries",
+					"name": "Hindering Trait Tables",
+					"entries": [
+							"The DM may choose which of the below tables are available and their respective rewards, if any. ",
+							{
+								"type": "table",
+								"colLabels": [
+									"d12",
+									"Minor Hindering Traits"
+								],
+								"colStyles": [
+									"col-1 text-center",
+									"col-11"
+								],
+								"rows": [
+									[
+										"1",
+										"{@b Weak.} Your Strengh score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"2",
+										"{@b Clumsy.} Your Dexterity score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"3",
+										"{@b Glass Bones.} Your Constitution score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"4",
+										"{@b Absent Minded.} Your Intelligence score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"5",
+										"{@b Clueless.} Your Wisdom score is permanently reduced by 3, to a minimum of 3 (to a minimum of 3)."
+									],
+									[
+										"6",
+										"{@b Weak Willed.} Your Charisma score is permanently reduced by 3, to a minimum of 3 (to a minimum of 3)."
+									],
+									[
+										"7",
+										"{@b Inept.} Randomly choose a skill, or have the DM choose. You cannot have a modifier higher than 0 for this skill, regardless of proficiency or expertise, and you gain disadvantage on any rolls made with this skill."
+									],
+									[
+										"8",
+										"{@b Short Sighted.} You have disadvantage on any Wisdom (Perception) checks and attack rolls against targets more than 30 feet away."
+									],
+									[
+										"9",
+										"{@b Long Sighted.} You have disadvantage on any Wisdom (Perception) checks and attack rolls against targets less than 10 feet away."
+									],
+									[
+										"10",
+										"{@b Phobia.} You have an irrational fear of a particular thing, such as dogs, darkness or large bodies of water. When you are confronted by this thing, you must succeed on a DC12 Wisdom saving throw or become {@condition frightened} by it until it is no longer visible."
+									],
+									[
+										"11",
+										"{@b Infatuation.} You adore a particular type of creature or person, such as cute kittens or people with a specific hair colour. When you are confronted by a creature belonging to this group, you must make a DC12 Wisdom saving throw. On a fail, you become {@condition charmed} by the creature and wish to spend time with them, regardless of other any other pressing matters. This lasts for 1 hour or until you take damage."
+									],
+									[
+										"12",
+										"{@b Vice.} You are addicted to a particular substance or activity, such as alcohol or gambling. Whenever you finish a long rest without having indulged in your vice since the last long rest, you must suceeded on a DC12 Charisma check or gain a level of exhaustion."
+									]
+								]
+							},
+							{
+								"type": "table",
+								"colLabels": [
+									"d6",
+									"Major Hindering Traits"
+								],
+								"colStyles": [
+									"col-1 text-center",
+									"col-11"
+								],
+								"rows": [
+									[
+										"1",
+										"{@b Blind.} You permanently have the {@condition blinded} condition."
+									],
+									[
+										"2",
+										"{@b Deaf.} You permanently have the {@condition deafened} condition."
+									],
+									[
+										"3",
+										"{@b Mute.} You cannot speak."
+									],
+									[
+										"4",
+										"{@b Illiterate.} You cannot read any languages without magic assistance, nor can you learn to."
+									],
+									[
+										"5",
+										"{@b Missing or Paralyzed Leg.*} Your movement speeds (except flying), jumping distance and jumping height are all halved (rounded down). Additionally you have disadvantge on any checks or saving throws that require the use of your legs, such as climbing.*"
+									],
+									[
+										"6",
+										"{@b Missing or Paralyzed Arm.*} You only have one hand for items, weapons and spells. Additionally you have disadvantage on any checks or saving throws that require the use of arms or hands, such as climbing.*"
+									]
+								]
+							},
+							"{@note *The DM may decide that your body also rejects any attempts to magically restore or replace the limb, including {@item prosthetic limb|tce|prosthetic limbs}.}"
+						]
+					}
+			]
 		}
 	]
 }
