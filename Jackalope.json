@@ -6768,6 +6768,327 @@
 						]
 					}
 			]
+		},
+		{
+			"name": "Potions of Unknown Effect",
+			"source": "Jackalope",
+			"ruleType": "O",
+			"entries":[
+				"Alchemy is a complex science and few mortals can be expected to truly understand everything there is to know. Fortunately, knowing things is not always required to do things. ",
+				{
+					"type": "entries",
+					"name": "Creating the Potion",
+					"entries": [
+						"You can spend 1 hour using Alchemist's Supplies to attempt to create a potion. You must also provide some component harvested from a creature of CR 1 or above, creating the potion consumes this component. When you make the potion, make a Wisdom (Alchemist's Supplies) check and consult the table below to determine the result.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Check",
+								"Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1-10",
+									"You fail to make any drinkable liquid."
+								],
+								[
+									"11-15",
+									"You make a potion with one effect. You do not know the effect before it is consumed."
+								],
+								[
+									"16-20",
+									"You make a potion with one effect. You know the effect before it is consumed."
+								],
+								[
+									"21-25",
+									"You make a potion with two effects. You know the only one of the effects before it is consumed."
+								],
+								[
+									"26+",
+									"You make a potion with two effects. You know both of the effects before it is consumed."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Potion Effects",
+					"entries": [
+						"The DM will determine the effects of the potions by rolling on the table below. Any known effects should be rolled when the potion is created, any unknown effects can be rolled at any point before the potion is consumed so long as they are kept hidden until the effect occurs.",
+						"The DM can make a straight roll, however if they wish to be kind or cruel they may roll with advantage or disadvantge respectively.",
+						{
+							"type": "table",
+							"colLabels": [
+								"1d100",
+								"Effect",
+								"Description"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1-2",
+									"Coma",
+									"The drinker instantly drops to 0 hitpoints and falls {@condition unconscious}, they are automatically stabilised."
+								],
+								[
+									"3-4",
+									"Greater Poison",
+									"The drinker takes {@dice 2d6+2} poison damage and gains the {@condition poisoned} condition for one minute."
+								],
+								[
+									"5-6",
+									"Poison",
+									"The drinker takes {@dice 1d6+1} poison damage and gains the {@condition poisoned} condition for one minute."
+								],
+								[
+									"7-8",
+									"Emetic",
+									"The drinker immediately vomits and is {@condition incapacitated} until the end of their next turn."
+								],
+								[
+									"9-10",
+									"Sedative",
+									"The drinker gains a level of exhaustion."
+								],
+								[
+									"11-12",
+									"Narcotic",
+									"The drinker falls {@condition unconscious} and cannot be revived by non-magical means for {@dice 1d4} minutes. This does affect hitpoints."
+								],
+								[
+									"13-14",
+									"Laxative",
+									"The drinker feels a sudden urge to empty their bowels and has disadvantage on ability checks until they do so."
+								],
+								[
+									"15-16",
+									"Diuretic",
+									"The drinker feels a sudden urge to empty their bladder and has disadvantage on ability checks until they do so."
+								],
+								[
+									"17-18",
+									"Lubricant",
+									"The drinker's feet are unable to gain any traction. If the creature is standing on their feet at the end of each of their turns, they must make a DC14 Dexterity save or become {@condition prone}. This lasts for 1 minute."
+								],
+								[
+									"19-20",
+									"Frostbite",
+									"The drinker takes {@dice 1d6} cold damage and all their fingers fall off. They are unable to perform any action that would require the use of fingers, such as making a weapon attack. Their fingers regrow after {@dice 2d4} minutes."
+								],
+								[
+									"21-22",
+									"Clearwood",
+									"All wooden items become invisible to the drinker for 1 hour. They have disadvantage when using items or weapons made mostly of wood or when attacking creatures made of, or wearing, mostly wood."
+								],
+								[
+									"23-24",
+									"Clearmetal",
+									"All metal items become invisible to the drinker for 1 hour. They have disadvantage when using items or weapons made mostly of metal or when attacking creatures made of, or wearing, mostly metal."
+								],
+								[
+									"25-26",
+									"Mute",
+									"The drinker cannot speak in any language for 1 hour."
+								],
+								[
+									"27-28",
+									"Hallucinogenic",
+									"The drinker is {@condition blinded} by shapes and colours only they can see for 1d4 minutes."
+								],
+								[
+									"29-30",
+									"Gigglewater",
+									"The drinker is hit by the effects of {@spell Tasha's Hideous Laughter|phb}. They automatically fail the save."
+								],
+								[
+									"31-32",
+									"Identity Crisis",
+									"The first person the drinker sees, the drinker believes they are that person for {@dice 2d4} minutes. They believe the original person is trying to impersonate them and cannot be convinced otherwise until the effect wears off."
+								],
+								[
+									"33-34",
+									"Aphrodisiac",
+									"The drinker is {@condition charmed} by the first creature they see after drinking for {@dice 1d4} hours."
+								],
+								[
+									"35-36",
+									"Colour Change",
+									"The drinker's skin changes a random colour that is unnatural for their race. This lasts until the end of the next long rest."
+								],
+								[
+									"37-38",
+									"Elder Hair",
+									"The drinker's hair turns a shocking white. This lasts until the end of the next long rest."
+								],
+								[
+									"39-40",
+									"Hair Growth",
+									"The hair on the drinker's head grows by {@dice 1d4} inches, even if they didn't have any to begin with."
+								],
+								[
+									"41-42",
+									"The Answer",
+									"The drinker has an epiphany and they suddenly understands the meaning of life, the universe and everything. They, and anyone they tell, suddenly forget it after {@dice 1d6} seconds, any attempts to write it down or record it are also destroyed."
+								],
+								[
+									"43-44",
+									"Body Growth",
+									"The drinker's height permanently increases by {@dice 2d4} inches."
+								],
+								[
+									"45-46",
+									"Body Shrink",
+									"The drinker's height permanently decreases by {@dice 2d4} inches."
+								],
+								[
+									"47-48",
+									"Gullible",
+									"The drinker believes anything they are told by anyone they consider friendly for one minute."
+								],
+								[
+									"49-50",
+									"Songbird",
+									"The drinker can only communicate through rhyme and song for one hour. This applies even to writing."
+								],
+								[
+									"51-52",
+									"Anti-Aging",
+									"The drinker becomes younger by {@dice 2d4} years."
+								],
+								[
+									"53-54",
+									"Aging",
+									"The drinker becomes older by {@dice 2d4} years."
+								],
+								[
+									"55-56",
+									"Honesty",
+									"The drinker cannot lie for one hour."
+								],
+								[
+									"57-58",
+									"Daydream",
+									"The drinker believes they are currently in a dream and nothing they see or hear is actually real for one minute."
+								],
+								[
+									"59-60",
+									"Plant Speak",
+									"The drinker can sense the innermost thoughts and emotions of every plant within a 120ft radius for 10 minutes. They do not necessarily understand them."
+								],
+								[
+									"61-62",
+									"Boney",
+									"The drinker can see their own skeleton for 10 minutes."
+								],
+								[
+									"63-64",
+									"Fudge",
+									"The drinker realises they are in a game but no one believes them. They and can choose to reroll a single check or save they make within 1 hour. The reroll must be made before the outcome of the roll is known. After the hour, the drinker forgets all about the outer world."
+								],
+								[
+									"65-66",
+									"Handy",
+									"The drinker grows an extra arm and hand for 10 minutes, they are able to use this arm as a bonus action to take the {@action Attack} (one weapon attack only) or {@action Use an Object} action."
+								],
+								[
+									"67-68",
+									"Polyglot",
+									"The drinker learns a new language chosen by the DM and can speak it fluently for {@dice 2d4} days."
+								],
+								[
+									"69-70",
+									"Pheremones",
+									"Any creature within 10ft of the drinker must make a Wisdom save against the drinker's Charisma or be {@condition charmed} by them for one hour."
+								],
+								[
+									"71-72",
+									"Bestial",
+									"The drinker's nails grow long and sharp, their unarmed attacks become {@dice 1d10} + their Strength modifier slashing damage for one minute."
+								],
+								[
+									"73-74",
+									"Polymorph",
+									"The drinker gains the effects of the {@spell Polymorph} spell, they are turned into a random beast of CR1 or lower. The DM decides the beast."
+								],
+								[
+									"75-76",
+									"Dasher",
+									"The drinker's walking speed is increased by 15ft for one hour."
+								],
+								[
+									"77-78",
+									"Thick Skin",
+									"The drinker gains +2 bonus to their AC for one minute."
+								],
+								[
+									"79-80",
+									"Steroid",
+									"The drinker has advantage on all Strength checks and saves for one minute."
+								],
+								[
+									"81-82",
+									"Stimulant",
+									"The drinker has advantage on all Dexterity checks and saves for one minute."
+								],
+								[
+									"83-84",
+									"Booster",
+									"The drinker has advantage on all Constitution checks and saves for one minute."
+								],
+								[
+									"85-86",
+									"Cognitive",
+									"The drinker has advantage on all Intelligence checks and saves for one minute."
+								],
+								[
+									"86-87",
+									"Third Eye",
+									"The drinker has advantage on all Wisdom checks and saves for one minute."
+								],
+								[
+									"88-89",
+									"Snake Oil",
+									"The drinker has advantage on all Charisma checks and saves for one minute."
+								],
+								[
+									"91-92",
+									"Healing",
+									"The drinker restores {@dice 2d4+2} hitpoints."
+								],
+								[
+									"93-94",
+									"Greater Healing",
+									"The drinker restores {@dice 4d4+4} hitpoints."
+								],
+								[
+									"95-96",
+									"Energetic",
+									"The drinker instantly gains the benefits of a short rest."
+								],
+								[
+									"97-98",
+									"Hyper-Energetic",
+									"The drinker instantly gains the benefits of a long rest."
+								],
+								[
+									"99-100",
+									"Wild Magic",
+									"A Wild Magic Surge occurs, originating from the drinker."
+								]
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
