@@ -1427,7 +1427,7 @@
 			],
 			"pantheon": "Cyranos",
 			"category": "Olympian",
-			"province": "War, Battle, Aggression, Brute Strengh",
+			"province": "War, Battle, Aggression, Brute Strength",
 			"symbol": "Spear",
 			"customProperties": {
 				"Sex": "Male",
@@ -2336,7 +2336,7 @@
 				"War"
 			],
 			"pantheon": "Anarchium",
-			"province": "Predators, hunting and strengh of the pack (Violence and savagry in Caligos Imperium)",
+			"province": "Predators, hunting and strength of the pack (Violence and savagry in Caligos Imperium)",
 			"symbol": "Wolf",
 			"customProperties": {
 				"Sex": "Male",
@@ -2440,7 +2440,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two artificer infusions from the Artificer Infusions section at the end of the class's description. Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions, turning it into a magic item as per the Infuse Item rules on page 54 of Eberron: Rising from the Last War, however you can only infuse one object at a time.",
+						"You learn two artificer infusions from the Artificer Infusions section at the end of the class's description. Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions.",
 						"Alternatively, if you already have at least two levels in the Artificer class, you learn two additional infusions of your choice and can infuse one additional item at a time."
 					]
 				}
@@ -2847,7 +2847,8 @@
 			"range": "30/90",
 			"property": [
 				"LD",
-				"A"
+				"A",
+				"L"
 			],
 			"entries": [
 				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
@@ -2895,7 +2896,8 @@
 			"range": "30/90",
 			"property": [
 				"LD",
-				"A"
+				"A",
+				"L"
 			],
 			"entries": [
 				"This firearm uses a flint striker to ignite its powder. This is the most common design for modern firearms."
@@ -3153,7 +3155,7 @@
 			"rarity": "uncommon",
 			"source": "Cyranos",
 			"entries": [
-				"This white flowering herb is known for prtoecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8hrs."
+				"This white flowering herb is known for protecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8 hours."
 			]
 		},
 		{
@@ -3165,6 +3167,26 @@
 				"This set of incrementally larger gears connected to a crank can be used to imprison a creature in a slower timestream. As an action you can point this device at a creature and turn the crank, forcing the creature to make a DC12 Wisdom saving throw. On a fail, the creature's perception of time is slowed to the speed where a single heartbeat takes a year (one round in combat takes 6 years).",
 				"The creature can act normally but only at their usual speed, even a quick action such as blinking can appear to take weeks or even months. For this reason, this device is commonly used as a torture device. The Dungeon Master decides how this experience affects the creature; rolling for one or more {@variantrule Madness|dmg} effects would be appropriate.",
 				"On subsequent turns, you can use an action to continue turning the crank, keeping the effect going. Otherwise, the effect lasts until the start of your next turn. At the end of each of it's turns, the creature can attempt to make the wisdom saving throw again, breaking free on a success. Once a creature has succeeded on a saving throw, it cannot be affected by this item again for 7 days."
+			]
+		},
+		{
+			"name": "Anti-Magic Collar",
+			"wondrous": "true",
+			"rarity": "rare",
+			"source": "Jackalope",
+			"entries": [
+				"This silver collar can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells.",
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes mundane. On a fail, the creature gains a level of exhaustion."
+			]
+		},
+		{
+			"name": "Cruel Anti-Magic Collar",
+			"wondrous": "true",
+			"rarity": "very rare",
+			"source": "Jackalope",
+			"entries": [
+				"This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 17 Strength check. On a success, the collar is broken and becomes mundane. On a fail, the creature gains a level of exhaustion."
 			]
 		}
 	],
@@ -6679,7 +6701,7 @@
 								"rows": [
 									[
 										"1",
-										"{@b Weak.} Your Strengh score is permanently reduced by 3 (to a minimum of 3)."
+										"{@b Weak.} Your Strength score is permanently reduced by 3 (to a minimum of 3)."
 									],
 									[
 										"2",
