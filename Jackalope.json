@@ -2541,6 +2541,31 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Whipmaster",
+			"source": "Jackalope",
+			"ability": [
+				{
+        "choose": {
+            "from": [
+                "str",
+                "dex"
+            ],
+            "amount": 1
+        	}
+    		}
+			],
+			"entries": [
+				"You have mastered the art of using whips. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you wield a {@item whip|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action. While you have a creature grappled in this way, you cannot use the whip for any other actions."
+					]
+				}
+			]
 		}
 	],
 	"item": [
