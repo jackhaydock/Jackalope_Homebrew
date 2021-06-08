@@ -2563,7 +2563,7 @@
 					"items": [
 						"When you wield a {@item whip|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
 						"Whips gain the Light property while you wield them",
-						"When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action. While you have a creature grappled in this way, you cannot use the whip for any other actions."
+						"When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action against that creature. While you have a creature grappled in this way, you cannot use the whip for any other actions."
 					]
 				}
 			]
@@ -3202,7 +3202,7 @@
 			"source": "Jackalope",
 			"entries": [
 				"This silver collar can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells.",
-				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes mundane. On a fail, the creature gains a level of exhaustion."
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
 			]
 		},
 		{
@@ -3212,7 +3212,7 @@
 			"source": "Jackalope",
 			"entries": [
 				"This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
-				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 17 Strength check. On a success, the collar is broken and becomes mundane. On a fail, the creature gains a level of exhaustion."
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
 			]
 		}
 	],
@@ -5207,7 +5207,7 @@
 					"name": "Webshooter",
 					"type": "entries",
 					"entries": [
-						"Starting at 3rd level, you can cast the {@spell web|phb} spell (spell save DC14). Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You don't require material components for this spell."
+						"Starting at 3rd level, you can cast the {@spell web|phb} spell (spell save DC14). Once you cast the spell with this trait, you can't cast that spell with it again until you finish a long rest. You don't require material components for this spell."
 					]
 				}
 			]
@@ -5300,7 +5300,7 @@
 					"name": "Long Tongue",
 					"type": "entries",
 					"entries": [
-						"When you take the {@action grapple} action, you can target a creature up to 15 inches away. The creature must be small or smaller. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature pulled to within 5 inches of you."
+						"When you take the {@action grapple} action, you can target a creature up to 15 inches away. The creature must be small or tiny. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature is pulled to within 5 inches of you."
 					]
 				}
 			]
