@@ -15,18 +15,17 @@ What each source/label means:
 - **Jackalope: The Ratpack**/**J:Ratpack**
   - Meant for the Ratpack campaign setting and **only** allowed in that setting unless stated otherwise.
 
-*NOTE: You can delete individual sources in the homebrew manager after importing, it is recommended that you do this for the sources that aren't relevant to you.*
+*NOTE: You can delete individual sources or items in the homebrew manager after importing if you wish. I recommend not deleting the Jackalope: General source as some other sources are dependent on it.*
 
 ## How to Import
 
 1. Goto
 https://5e.tools/managebrew.html
 
-3. Click "Load from URL"
-4. Copy/Paste this url
-https://raw.githubusercontent.com/jackhaydock/Jackalope_Homebrew/master/Jackalope.json
-5. Done
+2. Click "Load from URL"
+3. Copy/Paste this url: `https://raw.githubusercontent.com/jackhaydock/Jackalope_Homebrew/master/Jackalope.json`
+4. Done
 
-You should then be able to see the sources and labels mentioned above.
+You should then be able to see the sources and labels mentioned above, all the items will appear in their respective lists.
 
-*NOTE: you will need to repeat this every time I update this, which I do frequently. I recommend deleting the old version before importing again as sometimes it bugs out and you'll get duplicate items*
+*NOTE: you will need to repeat this every time I update this, which I do frequently. I recommend deleting the old version before importing again as sometimes it bugs out and you'll get duplicate items.*
