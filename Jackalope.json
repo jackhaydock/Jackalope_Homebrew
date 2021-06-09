@@ -3091,6 +3091,55 @@
 			]
 		},
 		{
+			"name": "Firearm Bullet",
+			"source": "Caligos",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 20,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a basic lead bullet and a precise measure of black powder for optimal usage with most firearms."
+			]
+		},
+		{
+			"name": "Piercing Bullet",
+			"source": "Caligos",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 500,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a specially designed lead bullet and a precise measure of black powder for optimal usage with most firearms.",
+				"You gain a +5 bonus to attack rolls made with this piece of specialised ammunition. Once it hits a target, the ammunition is destroyed. If the target is a creature, you subtract {@dice 1d4+1} from the attack's damage roll (to a minimum of 1)."
+			]
+		},
+		{
+			"name": "Fragmentation Bullet",
+			"source": "Caligos",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 500,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a specially designed lead bullet and a precise measure of black powder for optimal usage with most firearms.",
+				"You take a -5 penalty to attack rolls made with this piece of specialised ammunition. Once it hits a target, the ammunition is destroyed. If the target is a creature, you add a {@dice 1d4+1} bonus to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Bullet Pouch",
+			"source": "Caligos",
+			"age": "renaissance",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"entries": [
+				"This pouch can hold 20 {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
+			]
+		},
+		{
 			"name": "Firearm Scope",
 			"wondrous": "true",
 			"rarity": "none",
