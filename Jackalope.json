@@ -3082,6 +3082,34 @@
 			]
 		},
 		{
+			"name": "Gunsword",
+			"source": "Caligos",
+			"age": "renaissance",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "rare",
+			"weight": 5,
+			"entries": [
+				"This combination rapier and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
+				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item rapier|phb} for melee attacks or a {@item wheellock pistol|caligos} for ranged attacks."
+			]
+		},
+		{
+			"name": "Gunaxe",
+			"source": "Caligos",
+			"age": "renaissance",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "very rare",
+			"weight": 8,
+			"entries": [
+				"This combination battleaxe and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
+				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item battleaxe|phb} for melee attacks or a {@item wheellock musket|caligos} for ranged attacks."
+			]
+		},
+		{
 			"name": "Inquisitor Mask",
 			"wondrous": "true",
 			"rarity": "uncommon",
@@ -3148,6 +3176,17 @@
 			"source": "Caligos",
 			"entries": [
 			"This set of carefully crafted lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property , after which attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with this weapon. This does not have any effect on firearms with the Wide-Shot property."
+			]
+		},
+		{
+			"name": "Bayonet",
+			"wondrous": "true",
+			"rarity": "none",
+			"value": 50000,
+			"weight": 2,
+			"source": "Caligos",
+			"entries": [
+			"This blade can be fixed to any firearm with the Two-Handed property as an action. The blade can then be used to make a melee weapon attack as part of an {@action attack} action. This attack has the Finese property. On a hit, this attack deals {@dice 1d6} piercing damage."
 			]
 		},
 		{
