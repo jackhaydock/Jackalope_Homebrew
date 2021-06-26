@@ -2562,8 +2562,86 @@
 					"type": "list",
 					"items": [
 						"When you wield a {@item whip|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
-						"Whips gain the Light property while you wield them",
+						"Whips gain the Light property while you wield them.",
 						"When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action against that creature. While you have a creature grappled in this way, you cannot use the whip for any other actions."
+					]
+				}
+			]
+		},
+		{
+			"name": "Angelic Nuisance",
+			"source": "Jackalope",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar",
+							"subrace": "fallen"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Necrotic Shroud trait one additional time before finishing a long rest.",
+						"The range of your Necrotic Shroud trait is increased by 5ft.",
+						"While using your Necrotic Shroud trait, if a creature you see within 5ft of you is targeted with an attack roll from a source other than you, you can use your wings as a reaction to distract them. Attack rolls against this creature have advantage until the start of your next turn, or until it is more than 5ft away from you.",
+						"If your subrace changes to protector or scourge aasimar, you replace this feat with the {@feat angelic guardian|jackalope} or {@feat angelic beacon|jackalope} feat respectively."
+					]
+				}
+			]
+		},
+		{
+			"name": "Angelic Guardian",
+			"source": "Jackalope",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar",
+							"subrace": "protector"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Radiant Soul trait one additional time before finishing a long rest.",
+						"The flying speed granted by your Radiant Soul trait is increased by 10ft.",
+						"While using your Radiant Soul trait, if a creature you see within 5ft of you is targeted with an attack roll, you can use your wings as a reaction to shield them from harm. Attack rolls against this creature have disadvantage until the start of your next turn, or until it is more than 5ft away from you.",
+						"If your subrace changes to fallen or scourge aasimar, you replace this feat with the {@feat angelic nuisance|jackalope} or {@feat angelic beacon|jackalope} feat respectively."
+					]
+				}
+			]
+		},
+		{
+			"name": "Angelic Beacon",
+			"source": "Jackalope",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar",
+							"subrace": "scourge"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Radiant Consumption trait one additional time before finishing a long rest.",
+						"The ranges of your Radiant Consumption trait are increased by 5ft.",
+						"While using your Radiant Consumption trait, if a creature you see within 5ft of you makes an attack roll, you can your searing light as a reaction to daze them. The creature has disadvantage on attack rolls until the start of your next turn, or until it is more than 5ft away from you.",
+						"If your subrace changes to fallen or protector aasimar, you replace this feat with the {@feat angelic nuisance|jackalope} or {@feat angelic guardian|jackalope} feat respectively."
 					]
 				}
 			]
