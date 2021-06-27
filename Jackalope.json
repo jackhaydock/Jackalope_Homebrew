@@ -2645,6 +2645,30 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Angelic Healer",
+			"source": "Jackalope",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Healing Hands trait as either a bonus action or an action.",
+						"You can use your Healing Hands trait a number of times equal to your proficiency bonus. You regain all uses upon finishing a long rest",
+						"When you heal a creature with your Healing Hands trait, the creature regains a number of hitpoints equal to {@dice 1d4} for each of your levels."
+					]
+				}
+			]
 		}
 	],
 	"item": [
