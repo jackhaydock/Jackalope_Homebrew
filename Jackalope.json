@@ -6895,7 +6895,7 @@
 					"items": [
 						"Each player is forced to take a number of Hindering traits at the begining of the game.",
 						"The players can freely choose or roll for a number of Hindering traits.",
-						"The DM can incentivize players to take Hindering traits by offering rewards for taking them. Examples of rewards could include; +2 ASI for rolling a minor trait or a feat for rolling a major trait."
+						"The DM can incentivize players to take Hindering traits by offering rewards for taking them. Examples of rewards could include ASI, Feats or Charms."
 					]
 				},
 				"The DM may also decide to assign certain traits to characters during the game if they experience strong traumas that would believable lead to the trait developing.",
@@ -7017,37 +7017,44 @@
 					"type": "entries",
 					"name": "Creating the Potion",
 					"entries": [
-						"You can spend 1 hour using Alchemist's Supplies to attempt to create a potion. You must also provide some component harvested from a creature of CR 1 or above, creating the potion consumes this component. When you make the potion, make a Wisdom (Alchemist's Supplies) check and consult the table below to determine the result.",
+						"You can spend 1 hour using Alchemist's Supplies to attempt to create a potion. You must also provide some special component harvested from a creature of CR 1 or above, such as a giant scorpion stinger or a cyclops eye, creating the potion consumes this component. When you make the potion, make a Wisdom (Alchemist's Supplies) check and consult the table below to determine the result. Regardless of what you roll, you do not know the effect of the potion until it is consumed.",
 						{
 							"type": "table",
 							"colLabels": [
 								"Check",
+								"Quality",
 								"Result"
 							],
 							"colStyles": [
+								"col-1 text-center",
 								"col-1 text-center",
 								"col-11"
 							],
 							"rows": [
 								[
 									"1-10",
+									"Inert",
 									"You fail to make any drinkable liquid."
 								],
 								[
 									"11-15",
-									"You make a potion with one effect. You do not know the effect before it is consumed."
+									"Lesser",
+									"The potion has one effect. Upon consumption, roll {@dice 2d100dh1|2d100}, take the lowest roll and consult the Potion Effects table below."
 								],
 								[
 									"16-20",
-									"You make a potion with one effect. You know the effect before it is consumed."
+									"Basic",
+									"The potion has one effect. Upon consumption, roll {@dice 1d100} and consult the Potion Effects table below."
 								],
 								[
 									"21-25",
-									"You make a potion with two effects. You know the only one of the effects before it is consumed."
+									"Greater",
+									"The potion has one effect. Upon consumption, {@dice 2d100dh1|2d100}, take the highest roll and consult the Potion Effects table below."
 								],
 								[
 									"26+",
-									"You make a potion with two effects. You know both of the effects before it is consumed."
+									"Superior",
+									"The potion has two effects. Upon consumption, roll {@dice 4d100dl2|4d100}, take the two highest rolls and consult the Potion Effects table below."
 								]
 							]
 						}
@@ -7057,8 +7064,6 @@
 					"type": "entries",
 					"name": "Potion Effects",
 					"entries": [
-						"The DM will determine the effects of the potions by rolling on the table below. Any known effects should be rolled when the potion is created, any unknown effects can be rolled at any point before the potion is consumed so long as they are kept hidden until the effect occurs.",
-						"The DM can make a straight roll, however if they wish to be kind or cruel they may roll with advantage or disadvantge respectively.",
 						{
 							"type": "table",
 							"colLabels": [
