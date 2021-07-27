@@ -6749,6 +6749,411 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Karvi",
+			"source": "AshAndSnow",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 4,
+			"capPassenger": 12,
+			"capCargo": 2,
+			"pace": 3,
+			"str": 16,
+			"dex": 6,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 14,
+				"hp": 150,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the karvi can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The karvi can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Snekke",
+			"source": "AshAndSnow",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 20,
+			"capPassenger": 20,
+			"capCargo": 0.25,
+			"pace": 4,
+			"str": 14,
+			"dex": 10,
+			"con": 15,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 200,
+				"dt": 12
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 10 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the snekke can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The snekke can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeid",
+			"source": "AshAndSnow",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"90 ft.",
+				"15 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 30,
+			"capPassenger": 20,
+			"capCargo": 4,
+			"pace": 5,
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 15 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 2,
+				"2": 4
+			},
+			"action": [
+				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The skeid can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drakkar",
+			"source": "AshAndSnow",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"120 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 40,
+			"capPassenger": 40,
+			"capCargo": 8,
+			"pace": 6,
+			"str": 20,
+			"dex": 6,
+			"con": 18,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 400,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 17,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 20 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The skeid can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
 		}
 	],
 	"variant": [
