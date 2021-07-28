@@ -2460,7 +2460,7 @@
 					"type": "list",
 					"items": [
 						"When using a {@item spear|phb} in one hand and a {@item shield|phb} in the other, the weapon's damage die changes as if you wielded the weapon in two hands, from a {@dice d6} to a {@dice d8}. (This benefit has no effect if another feature has already improved the weapon's die.)",
-						"Attacking at long range doesn't impose disadvantage on your thrown weapon attack rolls with spears.",
+						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with spears.",
 						"When an ally within 5 feet of you is attacked, you can use your reaction to grant them a +2 bonus to AC against the triggering attack. You must be wielding a {@item shield|phb} to use this feature."
 					]
 				}
@@ -2535,9 +2535,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls when using a weapon with the thrown property.",
-						"You can add your proficiency bonus to any ranged weapon attack rolls when using a weapon with the thrown property even if you are not normally proficient with that weapon.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attacks when using a weapon with the thrown property."
+						"Attacking at long range doesn't impose disadvantage on your ranged attack rolls when using a weapon with the thrown property.",
+						"You can add your proficiency bonus to any ranged attack rolls when using a weapon with the thrown property even if you are not normally proficient with that weapon.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
 					]
 				}
 			]
@@ -2838,7 +2838,7 @@
 			"weight": 3,
 			"source": "Cyranos",
 			"entries": [
-				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a thrown attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
+				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a ranged attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
 			],
 			"type": "M",
 			"rarity": "Rare",
