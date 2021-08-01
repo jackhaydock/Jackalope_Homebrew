@@ -3404,6 +3404,18 @@
 				"This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
 				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
 			]
+		},
+		{
+			"name": "Ice Skates",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 5,
+			"type": "G",
+			"source": "AshAndSnow",
+			"entries": [
+				"You can take one minute to don or doff these special boots.",
+				"While wearing these boots, slippery ice does not count as difficult terrain for you but all other terrain does. Additionally you automatically pass any Dexterity (Acrobatics) checks to avoid falling prone on slippery ice, provided you are not {@condition incapacitated|phb}."
+			]
 		}
 	],
 	"monster": [
