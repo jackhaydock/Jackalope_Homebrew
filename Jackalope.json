@@ -2424,7 +2424,7 @@
 	],
 	"feat": [
 		{
-			"name": "Daedalian Tinkerer",
+			"name": "Tinkerer",
 			"source": "Jackalope",
 			"prerequisite": [
 				{
@@ -2440,14 +2440,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two artificer infusions from the Artificer Infusions section at the end of the class's description. Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions.",
-						"Alternatively, if you already have at least two levels in the Artificer class, you learn two additional infusions of your choice and can infuse one additional item at a time."
+						"You learn two {@optfeature artificer infusion|tce|Artificer Infusions} of your choice from the artificer class (these are added to any existing artificer infusions you know from any other source).  Whenever you gain a level, you can replace one of these Artificer Infusion options with another one from the artificer class.",
+						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions (if you can already infuse items, the number of items you can have infused at once is increased by one)."
 					]
-				}
-			],
-			"ability": [
-				{
-					"int": 1
 				}
 			]
 		},
@@ -3414,7 +3409,7 @@
 			"source": "AshAndSnow",
 			"entries": [
 				"You can take one minute to don or doff these special boots.",
-				"While wearing these boots, slippery ice does not count as difficult terrain for you but all other terrain does. Additionally you automatically pass any Dexterity (Acrobatics) checks to avoid falling prone on slippery ice, provided you are not {@condition incapacitated|phb}."
+				"While wearing these boots, slippery ice does not count as difficult terrain for you but all other terrain does. Additionally, you automatically pass any Dexterity (Acrobatics) checks to avoid falling prone on slippery ice, provided you are not {@condition incapacitated|phb}."
 			]
 		}
 	],
