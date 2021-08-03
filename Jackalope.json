@@ -2767,7 +2767,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"These sandals are cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, your attunement to the object cannot be broken, and any successful weapon attacks against you are treated as critical hits."
+						"These sandals are cursed. Attuning to them curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, your attunement to the object cannot be broken, and any successful weapon attacks against you are treated as critical hits."
 					]
 				}
 			]
@@ -7308,6 +7308,44 @@
 					"The normal and long range of a rifled firearm are both doubled.",
 					"This has no effect on firearms with the Wide-Shot property."
 				]
+			}
+		},
+		{
+			"name": "Soul Syphon Weapon",
+			"type": "GV",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"rarity": "rare",
+				"source": "Jackalope",
+				"namePrefix": "Soul Syphon ",
+				"entries": [
+					"Whenever you hit with a critical hit using this weapon, the bonus to this weapon's attack and damage rolls increases by 1 (to a maximum of +10).",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"This weapon is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, whenever you hit with a critical hit using this weapon, your hit point maximum is reduced by {@dice 4d4}. If your hit point maximum is reduced to 0 or lower, you instantly die and your soul is consumed by the weapon, you can not be resurrected. If the curse is broken, the weapon's bonus to attack and damage rolls is reduced to 0."
+						]
+					}
+				],
+				"bonusWeapon": "+1"
 			}
 		}
 	],
