@@ -2860,16 +2860,6 @@
 			]
 		},
 		{
-			"name": "Pocket Sand",
-			"rarity": "none",
-			"weight": 0.0625,
-			"source": "Jackalope",
-			"entries": [
-				"This fine sand or grit can be used to impede the vision of your foes.",
-				"As an action, pocket sand can be thrown at a creature with exposed eyes that is within 10ft of you. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the begining of its next turn."
-			]
-		},
-		{
 			"name": "Hippolyta's Girdle",
 			"wondrous": "true",
 			"rarity": "rare",
@@ -7798,6 +7788,15 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Pocket Sand",
+			"source": "Jackalope",
+			"ruleType": "O",
+			"entries": [
+				"Sometimes, you need to fight dirty. If your character has a free hand and quick access to a handful of sand or grit, such as with a {@item scholar's pack|phb} or being on sandy terrain, they can use it to gain a small advantage in combat.",
+				"As an action, the sand can be thrown at a creature within 5ft of you that has exposed eyes. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the start of its next turn."
 			]
 		}
 	]
