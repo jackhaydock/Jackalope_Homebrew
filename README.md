@@ -13,7 +13,11 @@ What each source/label means:
 - **Jackalope: The Skies of Caligos**/**J:Caligos**
   - Meant for the Skies of Caligos campaign setting and **only** allowed in that setting unless stated otherwise.
 - **Jackalope: The Ratpack**/**J:Ratpack**
-  - Meant for the Ratpack campaign setting and **only** allowed in that setting unless stated otherwise.
+  - Meant for the Ratpack one-shot setting and **only** allowed in that setting unless stated otherwise.
+- **Jackalope: Jackalope: Children of Morrigan**/**J:Morrigan**
+  - Meant for the Children of Morrigan campaign setting and **only** allowed in that setting unless stated otherwise.
+
+If you are using this homebrew as a DM for your own games, you can obviously ignore the above rulings and decide for yourself what to allow.
 
 *NOTE: You can delete individual sources or items in the homebrew manager after importing if you wish. I recommend not deleting the Jackalope: General source as some other sources are dependent on it.*
 

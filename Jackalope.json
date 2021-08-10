@@ -72,6 +72,18 @@
 				"version": "1.0.0",
 				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
 				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "CoM",
+				"abbreviation": "J:Morrigan",
+				"color": "2f7024",
+				"full": "Jackalope: Children of Morrigan",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 0,
@@ -3411,6 +3423,30 @@
 				"You can take one minute to don or doff these special boots.",
 				"While wearing these boots, slippery ice does not count as difficult terrain for you but all other terrain does. Additionally, you automatically pass any Dexterity (Acrobatics) checks to avoid falling prone on slippery ice, provided you are not {@condition incapacitated|phb}."
 			]
+		},
+		{
+			"name": "Gáe Bulg",
+			"weight": 3,
+			"source": "CoM",
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"As an action, you can perform a special ranged attack with this weapon by kicking it towards a creature. On a hit, this weapon impales the creature and opens thirty barbs, making it very difficult to remove. While impaled, a creature takes {@dice 2d6} piercing damage for every 10 feet it travels. When used in this way, the Gáe Bulg cannot be used for this type of attack again until the next dawn.",
+				"The Gáe Bulg can be removed from an impaled creature, or its corpse, with either a DC 18 athletics (Strength) or medicine (Wisdom) check as an action. On a fail, the creature takes {@dice 4d6} piercing damage and the creature is still impaled. On a success, the creature takes half the damage and the Gáe Bulg is removed."
+			],
+			"type": "M",
+			"rarity": "Legendary",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"baseItem": "spear|phb",
+			"range": "30/80",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"dmgType": "P"
 		}
 	],
 	"monster": [
