@@ -3555,7 +3555,8 @@
 			"weight": 40,
 			"entries": [
 				"This contraption grants mobility to those who may impaired due to injuries, disabilities or curses.",
-				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
+				"{@b {@i Size.}} Your wheelchair is designed for you and is the same size as you. If a magic effect or spell changes your size, the chair changes with you.",
+				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft, regardless of your race. If a magic effect or spell changes your walking speed, your speed in the chair also changes. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
 				"{@b {@i Poor Mobility.}} Terrain that is not flat and hard, such as mud or sand, is considered difficult terrain. (this can be mitgated by upgrades).",
 				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as difficult terrain for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
 				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of by magic effects, features, items or spells, any effects on you also effect the chair.",
@@ -3659,7 +3660,20 @@
 			"value": 5000,
 			"weight": 40,
 			"entries": [
-				"These heavy lead wheels afixed to a {@item wheelchair|JWC}. When you are within 5ft of a creature that is medium or smaller and {@condition prone|phb}, you make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier bludgeoning damage.",
+				"These heavy lead wheels afixed to a {@item wheelchair|JWC}. When you are within 5 feet of a creature that is medium or smaller and {@condition prone|phb}, you make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier bludgeoning damage.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Remote Beacon",
+			"source": "JWC",
+			"wondrous": "true",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"value": 30000,
+			"weight": 2,
+			"entries": [
+				"This magic gemstone can be afixed to a {@item wheelchair|JWC}. While attuned, so long as the chair is on the same plane as you, you always know where it is. If the chair is within 100 feet of you, you can control it telepathically. As a bonus action, you can command it to move up to 30ft in a direction of your choice. You may also make use of any addtional upgrades on the wheelchair. For example, if the chair has the {@item ram|JWC} upgrade, you may use an action to have it make a ram attack.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		}
