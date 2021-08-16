@@ -84,6 +84,18 @@
 				"version": "1.0.0",
 				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
 				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "JWC",
+				"abbreviation": "J:Wheelchair",
+				"color": "492e17",
+				"full": "Jackalope: Wheelchair",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 0,
@@ -3534,6 +3546,121 @@
 			"entries": [
 				"When you hit with a ranged attack using this weapon, the shield bounces back to your hand after the hit.",
 				"If you hit with a critical hit, you can make an addtional ranged attack with this weapon against another target within 10ft of the original target."
+			]
+		},
+		{
+			"name": "Wheelchair",
+			"source": "JWC",
+			"value": 1000,
+			"weight": 40,
+			"entries": [
+				"This contraption grants mobility to those who may impaired due to injuries, disabilities or curses.",
+				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
+				"{@b {@i Poor Mobility.}} Terrain that is not flat and hard, such as mud or sand, is considered difficult terrain. (this can be mitgated by upgrades).",
+				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as difficult terrain for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
+				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of by magic effects, features, items or spells, any effects on you also effect the chair.",
+				"{@b {@i Upgrading the Wheelchair.}} Using a set of {@item tinker's tools|phb} over 1 hour, a creature can afix, or remove, wheelchair upgrades. A wheelchair cannot have more than four upgrades at once."
+			]
+		},
+		{
+			"name": "All-terrain Wheels",
+			"source": "JWC",
+			"value": 2000,
+			"weight": 10,
+			"entries": [
+				"This pair of wheels come with a kit of spikes, snow chains and special tyres that can be afixed to a {@item wheelchair|JWC}. You can ignore the Poor Mobility property of the wheelchair as the wheels can traverse the terrain as easily as with legs.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Hoverstone",
+			"source": "JWC",
+			"wondrous": "true",
+			"rarity": "common",
+			"value": 5000,
+			"weight": 2,
+			"entries": [
+				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to hover the chair a few inches above the ground. You can use a bonus action to start or stop hovering. While hovering, you ignore the Gravity property of the wheelchair as you glide up and down inclines and stairs.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Floats and Oars",
+			"source": "JWC",
+			"wondrous": "true",
+			"rarity": "rare",
+			"value": 150000,
+			"weight": 10,
+			"entries": [
+				"This series of inflable bladders can be used to float the {@item wheelchair|JWC}. As an action you can inflate, or deflate, the bladders to make the chair float on water. While the bladders are inflated, you can not descend underwater. Using two hands for the oars gives you a swim speed of 30ft.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Spider Legs",
+			"source": "JWC",
+			"wondrous": "true",
+			"rarity": "rare",
+			"value": 250000,
+			"weight": 30,
+			"entries": [
+				"This foldable set of mechanical spider legs can fit snuggly on the underside of a {@item wheelchair|JWC}. As an action, you can deploy the legs for 1 hour or until you retract them as an action. While the legs are deployed, you gain a climb speed of 30ft and ignore the Poor Mobility and Gravity properties of the wheelchair. Once you use this feature, you can't do so again until the next dawn.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Greater Hoverstone",
+			"source": "JWC",
+			"wondrous": "true",
+			"rarity": "rare",
+			"reqAttune": true,
+			"value": 500000,
+			"weight": 2,
+			"entries": [
+				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to make the chair fly. As an action, you can activate the stone for 1 hour or until you deactive it as an action. While the stone is activated, you have a fly speed of 30ft. Once you use this feature, you can't do so again until the next dawn.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Weapon Mount",
+			"source": "JWC",
+			"value": 500,
+			"weight": 5,
+			"entries": [
+				"This special pivoting mount can be fixed to the armrest of a {@item wheelchair|JWC}. You can spend 1 minute to mount, or remove, a single melee weapon, a {@item light crossbow|phb} or a {@item heavy crossbow|phb}. You can only mount one weapon in this way at once. While mounted, the weapon can be used as normal but does not cost an action to draw or stow the weapon and you cannot be disarmed of the weapon so long as you are in the chair.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Armoured Plates",
+			"source": "JWC",
+			"value": 25000,
+			"weight": 60,
+			"entries": [
+				"These heavy plates can offer you some extra cover for a {@item wheelchair|JWC}. While you are in the chair, you gain a +2 to AC.",
+				"You also gain disadvantage on Dexterity (Stealth) checks while in the chair.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Ram",
+			"source": "JWC",
+			"value": 5000,
+			"weight": 30,
+			"entries": [
+				"This heavy ram can be afixed to front of a {@item wheelchair|JWC}. This can be used as a {@item portable ram|phb}.",
+				"Additionally, if you move at least 10 feet in a straight line toward a creature or object, you can make a special melee weapon attack against them in which you crash into them with the ram. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier as bludgeoning damage.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Heavy Wheels",
+			"source": "JWC",
+			"value": 5000,
+			"weight": 40,
+			"entries": [
+				"These heavy lead wheels afixed to a {@item wheelchair|JWC}. When you are within 5ft of a creature that is medium or smaller and {@condition prone|phb}, you make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier bludgeoning damage.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		}
 	],
