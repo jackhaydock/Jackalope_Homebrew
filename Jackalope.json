@@ -3684,10 +3684,13 @@
 			"wondrous": "true",
 			"rarity": "uncommon",
 			"reqAttune": true,
-			"value": 30000,
+			"value": 50000,
 			"weight": 2,
 			"entries": [
-				"This magic gemstone can be afixed to a {@item wheelchair|JWC}. While attuned, so long as the chair is on the same plane as you, you always know where it is. If the chair is within 100 feet of you, you can control it telepathically. As a bonus action, you can command it to move up to 30ft in a direction of your choice. You may also make use of any addtional upgrades on the wheelchair. For example, if the chair has the {@item ram|JWC} upgrade, you may use an action to have it make a ram attack.",
+				"This magic gemstone can be afixed to a {@item wheelchair|JWC}. While attuned, so long as the chair is on the same plane as you, you always know where it is.",
+				"If you are not in the chair, it is treated as a {@creature Animated object (Medium)|phb}. It cannot act on its own but, if it is within 100ft of you, you may use a bonus action to telepathically command it to move, or an action to command it to make a single melee weapon attack using your senses.",
+				"If the wheelchair is reduced to 0 hitpoints, the wheelchair is not destroyed but the beacon becomes inert and will not respond to any commands until it is repaired over 1 hour with {@item tinker's tools} or with the {@spell mending|phb} cantrip.",
+				"The chair can benefit from any addtional upgrades afixed to it while you are controlling it in this way.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		}
