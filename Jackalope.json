@@ -3557,7 +3557,7 @@
 				"This contraption grants mobility to those who may impaired due to injuries, disabilities or curses.",
 				"{@b {@i Size.}} Your wheelchair is designed for you and is the same size as you. If a magic effect or spell changes your size, the chair changes with you.",
 				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft, regardless of your race. If a magic effect or spell changes your walking speed, your speed in the chair also changes. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
-				"{@b {@i Poor Mobility.}} Terrain that is not flat and hard, such as mud or sand, is considered difficult terrain. (this can be mitgated by upgrades).",
+				"{@b {@i Poor Mobility.}} Terrain that is not flat and firm, such as mud or sand, is considered difficult terrain. (this can be mitgated by upgrades).",
 				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as difficult terrain for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
 				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of by magic effects, features, items or spells, any effects on you also effect the chair.",
 				"{@b {@i Upgrading the Wheelchair.}} Using a set of {@item tinker's tools|phb} over 1 hour, a creature can afix, or remove, wheelchair upgrades. A wheelchair cannot have more than four upgrades at once. If a wheelchair has multiple upgrades that require attunement, you may treat the wheelchair as a single item for the purposes of attunement."
@@ -3570,6 +3570,18 @@
 			"weight": 10,
 			"entries": [
 				"This pair of wheels come with a kit of spikes, snow chains and special tyres that can be afixed to a {@item wheelchair|JWC}. You can ignore the Poor Mobility property of the wheelchair as the wheels can traverse the terrain as easily as with legs.",
+				"This upgrade can not be afixed at the same time as the {@item Racing Wheels|JWC} upgrade.",
+				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
+			]
+		},
+		{
+			"name": "Racing Wheels",
+			"source": "JWC",
+			"value": 2000,
+			"weight": 5,
+			"entries": [
+				"This pair of lightweight, narrow wheels can be afixed to a {@item wheelchair|JWC}. Your base walking speed is increased by 10ft when not on difficult terrain.",
+				"This upgrade can not be afixed at the same time as the {@item All-terrain Wheels|JWC} upgrade.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
