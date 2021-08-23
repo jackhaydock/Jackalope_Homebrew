@@ -5923,6 +5923,130 @@
 					"halfling": true
 				}
 			]
+		},
+		{
+			"name": "Yamatlaca",
+			"source": "Jackalope",
+			"size": "M",
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri typically mature around 8 years of age. Yamatlaca rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Yamatlaca often serve as guards for farmers and caravans, tending towards lawful and neutral alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"With their long necks upright, Yamatlaca typically stand just above 7 feet tall. Your size is medium"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Big Eyes, Bigger Ears",
+					"entries": [
+						"You have advantage on Wisdom (perception) checks that rely on sight or hearing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bold Beasts",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spit",
+					"entries": [
+						"Your spit is a natural ranged weapon, which you can use to make a ranged attack with a range of 30 feet (long range 60 feet). You are proficient with this attack. On a hit, you choose to deal bludgeoning damage equal to {@dice 1d4} + your Dexterity modifier. Alternatively you can forgo the damage of the attack and instead give the target disadvantge on its next attack roll."
+					]
+				}
+			],
+			"subraces": [
+					{
+					"name": "Mountain",
+					"source": "Jackalope",
+					"ability": [
+						{
+							"con": 2,
+							"str": 1
+						}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Thick Wool",
+							"entries": [
+								"You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hiker",
+							"entries": [
+								"Your travel pace over mountain terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+							]
+						}
+					]
+				},
+					{
+						"name": "Desert",
+						"source": "Jackalope",
+						"ability": [
+							{
+								"con": 2,
+								"dex": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Sunbaked",
+								"entries": [
+									"You have resistance to fire damage. You also have advantage on Constitution saving throws against extreme heat."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sandwalker",
+								"entries": [
+									"Your travel pace over desert terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+								]
+							}
+						]
+					}
+				],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			]
 		}
 	],
 	"spell": [
