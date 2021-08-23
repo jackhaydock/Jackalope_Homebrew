@@ -5993,9 +5993,15 @@
 					"source": "Jackalope",
 					"ability": [
 						{
-							"con": 2,
+			        "choose": {
+			            "from": [
+			                "con",
+			                "wis"
+			            ],
+			            "amount": 2
+			        },
 							"str": 1
-						}
+		    		}
 					],
 					"entries": [
 						{
@@ -6019,9 +6025,15 @@
 						"source": "Jackalope",
 						"ability": [
 							{
-								"con": 2,
+				        "choose": {
+				            "from": [
+				                "con",
+				                "wis"
+				            ],
+				            "amount": 2
+				        },
 								"dex": 1
-							}
+			    		}
 						],
 						"entries": [
 							{
