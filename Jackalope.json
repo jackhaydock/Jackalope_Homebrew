@@ -3579,7 +3579,7 @@
 			"entries": [
 				"This set of wheels come with a kit of spikes, snow chains and special tyres that can be afixed to a {@item wheelchair|JWC}. You can ignore the Poor Mobility property of the wheelchair as the wheels can traverse the terrain as easily as with legs.",
 				"This upgrade can not be afixed at the same time as the {@item Racing Wheels|JWC} upgrade.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and you are separated from it, the benefits of this upgrade apply to the chair rather than you.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3591,7 +3591,7 @@
 			"entries": [
 				"This set of lightweight, narrow wheels can be afixed to a {@item wheelchair|JWC}. Your base walking speed is increased by 10ft when not on difficult terrain.",
 				"This upgrade can not be afixed at the same time as the {@item All-terrain Wheels|JWC} upgrade.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and you are separated from it, the benefits of this upgrade apply to the chair rather than you.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3604,20 +3604,20 @@
 			"weight": 2,
 			"entries": [
 				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to hover the chair a few inches above the ground. You can use a bonus action to start or stop hovering. While hovering, you ignore the Gravity property of the wheelchair as you glide up and down inclines and stairs.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can use a bonus action to activate, or deactivate, the stone even when you are not in the chair. This can be done as part of the same bonus action used to command the wheelchair to take the {@action Move} action.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. Activating or deactivating the stone can be done as part of the same bonus action used to command the chair to move.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
 		{
-			"name": "Floats and Oars",
+			"name": "Floats",
 			"source": "JWC",
 			"wondrous": "true",
 			"rarity": "rare",
 			"value": 150000,
 			"weight": 10,
 			"entries": [
-				"This series of inflable bladders can be used to float the {@item wheelchair|JWC}. As an action you can inflate, or deflate, the bladders to make the chair float on water. While the bladders are inflated, you can not descend underwater. Using two hands for the oars gives you a swim speed of 30ft.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can use an action to inflate, or deflate, the bladders even when you are not in the chair.",
+				"This series of inflable bladders can be used to float the {@item wheelchair|JWC}. As an action you can inflate, or deflate, the bladders to make the chair float on water. While the bladders are inflated, you have a swim speed of 30ft (unless you already have a higher swim speed from another source) and you can not descend underwater but your walking speed is halved.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the bladders to inflate or deflate.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3630,8 +3630,8 @@
 			"value": 250000,
 			"weight": 30,
 			"entries": [
-				"This foldable set of mechanical spider legs can fit snuggly on the underside of a {@item wheelchair|JWC}. As an action, you can deploy the legs for 1 hour or until you retract them as an action. While the legs are deployed, you gain a climb speed of 30ft and ignore the Poor Mobility and Gravity properties of the wheelchair. Once you use this feature, you can't do so again until the next dawn.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can use an action to deploy, or retract, the legs even when you are not in the chair.",
+				"This foldable set of mechanical spider legs can fit snuggly on the underside of a {@item wheelchair|JWC}. As an action, you can deploy the legs for 1 hour or until you retract them as an action. While the legs are deployed, you gain a climb speed of 30ft (unless you already have a higher climb speed from another source) and ignore the Poor Mobility and Gravity properties of the wheelchair. Once you use this feature, you can't do so again until the next dawn.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the legs to deploy or retract.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3644,8 +3644,8 @@
 			"value": 500000,
 			"weight": 2,
 			"entries": [
-				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to make the chair fly. As an action, you can activate the stone for 1 hour or until you deactive it as an action. While the stone is activated, you have a fly speed of 30ft. Once you use this feature, you can't do so again until the next dawn.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can use an action to activate, or deactivate, the stone even when you are not in the chair.",
+				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to make the chair fly. As an action, you can activate the stone for 1 hour or until you deactive it as an action. While the stone is activated, you have a fly speed of 30ft (unless you already have a higher fly speed from another source). Once you use this feature, you can't do so again until the next dawn.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the stone to activate or deactivate.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3657,7 +3657,7 @@
 			"entries": [
 				"This special pivoting mount can be fixed to the armrest of a {@item wheelchair|JWC}. You can spend 1 minute to mount, or remove, a single melee weapon, a {@item light crossbow|phb} or a {@item heavy crossbow|phb}. You can only mount one weapon in this way at once. While mounted, the weapon can be used as normal but does not cost an action to draw or stow the weapon and you cannot be disarmed of the weapon so long as you are in the chair.",
 				"{@note If your DM allows, you may also mount firearms using this upgrade.}",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and has a melee weapon mounted, you can add that weapon's melee attacks to the wheelchair's statblock.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and has a melee weapon mounted, you add that weapon's melee attacks to the wheelchair's statblock.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3669,7 +3669,7 @@
 			"entries": [
 				"These heavy plates can offer you some extra cover for a {@item wheelchair|JWC}. While you are in the chair, you gain a +2 to AC.",
 				"You also gain disadvantage on Dexterity (Stealth) checks while in the chair.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and you are separated from it, the benefits of this upgrade apply to the chair rather than you.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3681,7 +3681,7 @@
 			"entries": [
 				"This heavy ram can be afixed to front of a {@item wheelchair|JWC}. This can be used as a {@item portable ram|phb}.",
 				"Additionally, if you move at least 10 feet in a straight line toward a creature or object that is not larger than you, you can make a special melee weapon attack against them in which you crash into them with the ram. You are proficient with this attack. On a hit, you deal {@dice 1d6} plus your Strength modifier as bludgeoning damage, the target must also make a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked {@condition prone}.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can add the attack granted by this upgrade to the wheelchair's statblock. The wheelchair has proficiency with this attack.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. Addtionally, you add the attack granted by this upgrade to the wheelchair's statblock.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3691,8 +3691,8 @@
 			"value": 6000,
 			"weight": 40,
 			"entries": [
-				"These heavy lead wheels afixed to a {@item wheelchair|JWC}. When you are within 5 feet of a creature that is not larger than you and {@condition prone|phb}, you can make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier bludgeoning damage. If you are at least one size larger than the creature, you add an addtional {@dice 1d4} to the damage dealt.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you can add the attack granted by this upgrade to the wheelchair's statblock. The wheelchair has proficiency with this attack.",
+				"These heavy lead wheels afixed to a {@item wheelchair|JWC}. When you are within 5 feet of a creature that is not larger than you and {@condition prone|phb}, you can make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier as bludgeoning damage. If you are at least one size larger than the creature, you add an addtional {@dice 1d4} to the damage dealt.",
+				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you add the attack granted by this upgrade to the wheelchair's statblock.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
 		},
@@ -3706,8 +3706,8 @@
 			"weight": 2,
 			"entries": [
 				"This magic gemstone can be afixed to a {@item wheelchair|JWC}. While attuned, so long as the chair is on the same plane as you, you always know where it is.",
-				"If you are not in the chair, it is treated as a {@creature Animated object (Medium)|phb}. It cannot act on its own but, if it is within 100ft of you, you may use a bonus action to telepathically command it to take the {@action Move} action. Addtionally you can use action to command the chair to take the {@action Attack} (one weapon attack only), {@action Dash}, {@action Disengage}, {@action Dodge} or {@action Hide} action.",
-				"Depending on what other upgrades are afixed to the chair, the wheelchair may have additional actions and benefits when using this feature. See each respective upgrade for more details.",
+				"If you are not in the chair, it is treated as an {@creature Animated object (Medium)|phb}. It cannot act on its own but, if it is within 100ft of you, you may use a bonus action to telepathically command it to move up to its full movement. Addtionally, you can use action to command the chair to take the {@action Attack} (one weapon attack only), {@action Dash}, {@action Disengage}, {@action Dodge} or {@action Hide} action.",
+				"Additional upgrades afixed to this wheelchair may grant further actions, see respective upgrade descriptions for more information.",
 				"If the wheelchair is reduced to 0 hitpoints, the wheelchair is not destroyed but the beacon becomes inert and will not respond to any commands until it is repaired over 1 hour with {@item tinker's tools} or with the {@spell mending|phb} cantrip.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
 			]
