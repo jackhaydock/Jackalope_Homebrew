@@ -3729,6 +3729,80 @@
 			"entries": [
 				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone|phb}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
 			]
+		},
+		{
+			"name": "Chronicles of Alvergia",
+			"source": "Jackalope",
+			"rarity": "none",
+			"type": "$",
+			"value": 1000,
+			"weight": 4,
+			"entries": [
+				"This heavy tome is part of a 12 volume compendium written by Annaleus of Rubin and contains information about the geography, politics, cultures, wildlife, theologies and cultures of the regions within Alvergia. Most versions are written in either common or elvish but versions can exist in most written languages. Each volume is worth about 10gp and covers a specific region in Alvergia, but the entire collection as a set is worth about 250gp.",
+				"When you possess a volume of the book you may ask the DM for a piece of lore relating to the volume's respective region and they may give you some tidbits. For example, you could ask for details regarding a particular god or about the laws and customs of a city. The information should be something that a well researched scholar would know and deem worthy to mention. The DM may decide that a topic is too specific, insignificant or secret to appear in the volumes. They may also decide that a topic is broad enough to require several hours, or even days, of reading to fully understand it.",
+				"Below are the regions covered by each volume.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Volume",
+						"Region Covered"
+					],
+					"colStyles": [
+						"col-2",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Vol. I",
+							"The Sea of Cyranos"
+						],
+						[
+							"Vol. II",
+							"Enereon and Brindsmarch"
+						],
+						[
+							"Vol. III",
+							"The Evandrin Isles"
+						],
+						[
+							"Vol. IV",
+							"Ilahli"
+						],
+						[
+							"Vol. V",
+							"The Northlands"
+						],
+						[
+							"Vol. VI",
+							"Solis"
+						],
+						[
+							"Vol. VII",
+							"The Empire of Telnyr"
+						],
+						[
+							"Vol. VIII",
+							"The Pelais Coast and the Feywild"
+						],
+						[
+							"Vol. IX",
+							"The Plains of Vorkyr"
+						],
+						[
+							"Vol. X",
+							"The Dunes of Xheros"
+						],
+						[
+							"Vol. XI",
+							"Xia and the Forest of Muhai"
+						],
+						[
+							"Vol. XII",
+							"The Oceans and Lonely Islands"
+						]
+					]
+				}
+			]
 		}
 	],
 	"monster": [
