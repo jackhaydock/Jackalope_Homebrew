@@ -6201,7 +6201,7 @@
 					},
 					{
 						"name": "Artificer",
-						"source": "PHB"
+						"source": "TCE"
 					}
 				]
 			}
@@ -6337,6 +6337,76 @@
 					},
 					{
 						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Mirror",
+			"source": "Jackalope",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a vial of quicksilver"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a magic, spectral mirror, that is no larger than 5 feet in any dimension, at a point you can see within range. Whenever a spell, that is cast in a line, hits the mirror, it is reflected at an angle of your choice for the remainder of its range and the mirror is destroyed. If this would result in a creature or object being hit by the spell multiple times, they are subjected to the effects of the spell for each time.",
+				"On each of your turns after you cast this spell, you can use a bonus action to move the mirror up to 30 feet in any direction. If the mirror is ever more than 30 feet from you, it is destroyed."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can create two mirrors simultaneously and move them both independently with the same bonus action. When you cast this spell using a spell slot of 8th level or higher, you can create and control up to three mirrors simultaneously."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
