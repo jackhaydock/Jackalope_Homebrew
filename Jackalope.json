@@ -6298,6 +6298,53 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Reverse Teleport",
+			"source": "Jackalope",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "min"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You choose a creature you are familiar with. If the creature is willing, is on the same plane of existence as you and is not incapacitated, they are then instantly transported to a space within 10 feet of you.",
+				"The creature instinctively understands that the spell will transport them and recognizes you as the caster if it knows you but it does not know where it will transported to."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
