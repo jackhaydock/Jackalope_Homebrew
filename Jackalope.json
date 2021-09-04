@@ -4632,6 +4632,18 @@
 					"Choose one of the following damage types when creating the weapon: acid, cold, fire, lightning or poison.",
 					"This weapon has 4 charges. When making a weapon attack with this weapon, you can expend one charge to deal an additional {@dice 1d6} of the chosen damage type. The weapon regains {@dice 1d4} charges daily at dawn."
 			]
+		},
+		{
+			"name": "Agile Fighting",
+			"source": "Jackalope",
+			"featureType": [
+					"FS:B",
+					"FS:F",
+					"FS:R"
+			],
+			"entries": [
+					"All melee weapons that lack the heavy, two handed or special properties gain the finesse property when you wield them."
+			]
 		}
 	],
 	"race": [
