@@ -6155,6 +6155,38 @@
 								]
 							}
 						]
+					},
+					{
+						"name": "Jungle",
+						"source": "Jackalope",
+						"ability": [
+							{
+				        "choose": {
+				            "from": [
+				                "con",
+				                "wis"
+				            ],
+				            "amount": 2
+				        },
+								"dex": 1
+			    		}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Jungle Scavenger",
+								"entries": [
+									"You have advantage on saving throws against being poisoned, and you have resistance to poison damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Jungle Delver",
+								"entries": [
+									"Your travel pace in jungle terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+								]
+							}
+						]
 					}
 				],
 			"languageProficiencies": [
