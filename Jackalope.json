@@ -2894,7 +2894,9 @@
 			"reqAttune": true,
 			"source": "Cyranos",
 			"entries": [
-				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
+				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.",
+				"This item has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
+				"As an action, you can expend one charge to cast the {@spell Enlarge/Reduce|phb} spell on yourself without providing material components. You have advantage on saving throws to maintain concentration for this casting."
 			]
 		},
 		{
