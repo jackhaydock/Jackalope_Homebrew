@@ -4599,6 +4599,91 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Jackalope",
+			"source": "Jackalope",
+			"size": "S",
+			"type": {
+				"type": "Fey"
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 17,
+			"con": 13,
+			"int": 3,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"passive": 14,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the jackalope can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"With the DM's permission, the {@spell find familiar|phb} spell can summon a jackalope."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The jackalope has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ventriloquy",
+					"entries": [
+						"The jackalope can cast the {@spell minor illusion|phb} cantrip at will without providing somatic or material components. When it does so, the spell has a range of 60ft but it can only create voices and sounds. The jackalope's spell save DC for this casting is 16."
+					]
+				},
+				{
+					"name": "Antlers",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) bludegeoning damage."
+					]
+ 				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Cunning Action",
+				"Keen Senses"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
 		}
 	],
 	"optionalfeature": [
