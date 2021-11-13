@@ -5143,6 +5143,40 @@
 								]
 							}
 						]
+					},
+					{
+						"name": "Vulpine",
+						"source": "Jackalope",
+						"darkvision": 60,
+						"ability": [
+							{
+								"dex": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Vulpine Slyness",
+								"entries": [
+									"When you make an Dexterity (Stealth) or a Charisma (Deception) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Quick Reflexes",
+								"entries": [
+									"When targeted by an attack from a creature you can see, and you are not {@condition incapacitated}, you may use your reaction to give the attack roll disadvantage."
+								]
+							}
+						]
 					}
 				],
 			"languageProficiencies": [
@@ -6671,7 +6705,6 @@
 				}
 			]
 		}
-
 	],
 	"spell": [
 		{
