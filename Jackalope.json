@@ -8386,6 +8386,111 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Catamaran",
+			"source": "Jackalope",
+			"vehicleType": "SHIP",
+			"size": "H",
+			"dimensions": [
+				"20 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 2,
+			"capPassenger": 4,
+			"capCargo": 0.5,
+			"pace": 4,
+			"str": 12,
+			"dex": 10,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 12,
+				"hp": 100,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 1,
+				"2": 2
+			},
+			"action": [
+				"On its turn, the catamaran can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than two crew. It can't take these actions if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
 		}
 	],
 	"variant": [
