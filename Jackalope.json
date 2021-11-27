@@ -4961,6 +4961,120 @@
 			}
 		},
 		{
+			"name": "Dwarf (Ocean)",
+			"source": "Jackalope",
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"weaponProficiencies": [
+    		"battleaxe|phb",
+    		"handaxe|phb",
+    		"light hammer|phb",
+				"warhammer|phb",
+				"spear|phb",
+				"trident|phb",
+				"light crossbow|phb",
+				"net|phb"
+			],
+			"size": "M",
+			"speed": {
+				"walk": 25,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"str": 1,
+					"con": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common, Dwarvish and Aquan."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"Accustomed to life underwater, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Deep Resilience",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison and cold damage."
+					]
+				},
+				{
+					"name": "Depth Diver",
+					"type": "entries",
+					"entries": [
+						"You have a swimming speed of 30 feet, and you can breathe air and water."
+					]
+				},
+				{
+					"name": "Ocean Dwarf Combat Training",
+					"type": "entries",
+					"entries": [
+						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light crossbow|phb}, {@item light hammer|phb}, {@item spear|phb}, {@item trident|phb}, {@item net|phb}, and {@item warhammer|phb}."
+					]
+				},
+				{
+					"name": "Tool Proficiency",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+					]
+				},
+				{
+					"name": "Stonecunning",
+					"type": "entries",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true
+				}
+			],
+			"heightAndWeight": {
+    	"baseHeight": 44,
+    	"heightMod": "2d4",
+    	"baseWeight": 115,
+    	"weightMod": "2d6"
+			}
+		},
+		{
 			"name": "Fenri",
 			"source": "Jackalope",
 			"size": "M",
