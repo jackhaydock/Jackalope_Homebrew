@@ -4855,6 +4855,21 @@
 						]
 					}
 			]
+		},
+		{
+			"name": "Elemental Blast",
+			"source": "Jackalope",
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"spell": [
+						"Eldritch Blast"
+					]
+				}
+			],
+			"entries": [
+					"When you cast Eldritch Blast, you can change the damage type to acid, cold, fire, lightning, or poison. If you cast multiple beams, you can choose the damage type of each beam individually."
+			]
 		}
 	],
 	"race": [
