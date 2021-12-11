@@ -7309,7 +7309,7 @@
 					"Webslinger|Warlock|PHB|Darkweaver|Jackalope|6",
 					"Quickweb|Warlock|PHB|Darkweaver|Jackalope|6",
 					"Spider Bite|Warlock|PHB|Darkweaver|Jackalope|10",
-					"Toxin Immunity|Warlock|PHB|Darkweaver|Jackalope|14",
+					"Toxin Tolerance Improved|Warlock|PHB|Darkweaver|Jackalope|14",
 					"Wall Walker|Warlock|PHB|Darkweaver|Jackalope|14"
 			],
 			"subclassSpells": [
@@ -7583,7 +7583,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Starting at 1st level, you can use an action to produce webbing that takes the form of an item you choose from the following list; a {@item net|phb}, {@item manacles|phb} (no lock), a {@item sack|phb}, {@item silk rope (50 feet)|phb}, a {@item sling|phb}, or a {@item whip|phb}. If your DM allows, you may also create any other non-magical item that could believably be made using spider webs. You are proficient with any weapons produced using this feature.",
+				"Starting at 1st level, you can use an action to produce webbing that takes the form of an item you choose from the following list; a {@item net|phb}, a {@item sack|phb}, {@item silk rope (50 feet)|phb}, a {@item sling|phb}, or a {@item whip|phb}. If your DM allows, you may also create any other non-magical item that could believably be made using spider webs. You are proficient with any weapons produced using this feature.",
 				"The maximum number of items you can produce with this feature at one time is equal to your proficiency bonus. If you try to exceed your maximum, the oldest item disintegrates, and then the new item is produced."
 			]
 		},
@@ -7597,7 +7597,8 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, you gain resistance to poison damage and advantage on saving throws to avoid or remove the {@condition poisoned} condition."
+				"At 6th level, you gain resistance to poison damage and advantage on saving throws to avoid or remove the {@condition poisoned} condition.",
+				"When you reach 14th level in this class, you gain immunity to poison damage and the poisoned condition."
 			]
 		},
 		{
@@ -7656,7 +7657,7 @@
 			]
 		},
 		{
-			"name": "Toxin Immunity",
+			"name": "Toxin Tolerance Improved",
 			"source": "Jackalope",
 			"className": "Warlock",
 			"classSource": "PHB",
