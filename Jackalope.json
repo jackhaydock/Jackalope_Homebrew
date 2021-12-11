@@ -7174,6 +7174,60 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Greater Ceremony",
+			"source": "Jackalope",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "500 gp worth of powdered silver, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
+				"{@b Communion.} You touch one humanoid who wishes to speak directly to your god. They can cast the {@spell commune|phb} spell once as a ritual and without providing material components.",
+				"{@b Last Will and Testament.} You touch a humanoid that wishes to leave possessions with another when they die. The target names a creature they are familiar with to be their heir. When the target dies, their body, along with any items they are wearing or carrying, are transported magically to a space within 5ft of the heir, even across planes. If the heir themselves is dead, the items do not teleport. A target can gain the is rite again to change their designated heir, they may only have one heir at a time. The target loses this rite when they die.",
+				"{@b Oath of Friendship.} You touch two humanoids who wish to never harm one another. These targets are permanently {@condition charmed} by each other (even if they are otherwise immune to the charmed condition) and cannot perform any action that would directly harm the other, even if compelled to do so by any means short of a {@spell wish|phb} spell. A target can only benefit from this rite once and loses it if either of the targets dies.",
+				"{@b Procreation.} You touch adult humanoids who wish to have a child together, regardless of their number, their fertility or the combination of their races and sexes. One of the targets becomes pregnant. Alternatively, an egg or artificial womb is created externally within 10 feet of you. After an appropriate amount of time (or {@dice 2d6+2} months), a child is born or hatches. The race and statistics of the child are decided by the DM. A target can only benefit from this rite again after the child is born, hatched or dies.",
+				"{@b Purity Ward.} You touch one humanoid that wishes to remain pure. The target is immune to disease, immune to lycanthropy and can't become undead by any means short of a {@spell wish|phb} spell.",
+				"{@b Standing Vigil.} You touch one humanoid who wishes to protect a particular creature, location or object. While they are within 30ft of the subject of their protection, they do not need to eat, drink or sleep and when they take a long rest, they appear inert and motionless but are not rendered {@condition unconscious|phb}, and they can see and hear as normal. A creature can benefit from this rite only once and loses the rite if the subject of their protection dies or is destroyed.",
+				"{@b Transition.} You touch one humanoid that wishes to permanently change their age, appearance, race or sex. The target describes what they wish to be and, if the DM allows, they are then transformed. If the target changes race, they take on the racial traits and ability score improvements of their new race and discard the ones of their previous race. If the target's current form is the result of a curse or other magic effect, this rite has no effect until the curse or effect is removed. A creature can only benefit from this rite once.",
+				"{@b Undying Devotion.} You touch a target who wishes to serve your god, even after death. If a spell, such as {@spell raise dead|phb}, has the sole effect of restoring them to life (but not undeath), the caster doesn't need material components to cast the spell on them. A creature can benefit from this rite only once and loses the rite once it is used."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
