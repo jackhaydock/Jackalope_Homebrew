@@ -7293,6 +7293,67 @@
 					"source": "Jackalope"
 				}
 			]
+		},
+		{
+			"name": "The Darkweaver Warlock",
+			"shortName": "Darkweaver",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"The Darkweaver|Warlock|PHB|Darkweaver|Jackalope|1",
+					"Expanded Spell List|Warlock|PHB|Darkweaver|Jackalope|1",
+					"Nest Crawler|Warlock|PHB|Darkweaver|Jackalope|1",
+					"Silk Spinner|Warlock|PHB|Darkweaver|Jackalope|1",
+					"Toxin Tolerance|Warlock|PHB|Darkweaver|Jackalope|6",
+					"Webslinger|Warlock|PHB|Darkweaver|Jackalope|6",
+					"Quickweb|Warlock|PHB|Darkweaver|Jackalope|6",
+					"Spider Bite|Warlock|PHB|Darkweaver|Jackalope|10",
+					"Toxin Immunity|Warlock|PHB|Darkweaver|Jackalope|14",
+					"Wall Walker|Warlock|PHB|Darkweaver|Jackalope|14"
+			],
+			"subclassSpells": [
+				{
+					"name": "Sleep",
+					"source": "EGW"
+				},
+				{
+					"name": "Snare",
+					"source": "XGE"
+				},
+				{
+					"name": "Find Steed",
+					"source": "PHB"
+				},
+				{
+					"name": "Web",
+					"source": "PHB"
+				},
+				{
+					"name": "Spirit Guardians",
+					"source": "PHB"
+				},
+				{
+					"name": "Stinking Cloud",
+					"source": "PHB"
+				},
+				{
+					"name": "Giant Insect",
+					"source": "PHB"
+				},
+				{
+					"name": "Phantasmal Killer",
+					"source": "PHB"
+				},
+				{
+					"name": "Contagion",
+					"source": "PHB"
+				},
+				{
+					"name": "Insect Plague",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -7437,6 +7498,187 @@
 			"header": 2,
 			"entries": [
 				"If your DM allows, you may add the {@spell Reality Break|egw} and {@spell Time Ravage|egw} spells to your cleric spell list."
+			]
+		},
+		{
+			"name": "The Darkweaver",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"entries": [
+				"Your patron is a powerful spider-like being from the depths of the Underdark. You serve the whims of an aranea, chwidencha, drider, gee'aantu, giant spider or even figures such as Arachne or Lolth."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Darkweaver lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Darkweaver Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell sleep|phb}, {@spell snare|xge}"
+						],
+						[
+							"2nd",
+							"{@spell find steed|phb} ({@creature giant wolf spider} only), {@spell web|phb}"
+						],
+						[
+							"3rd",
+							"{@spell spirit guardians|phb} (appear as spiders), {@spell stinking cloud|phb}"
+						],
+						[
+							"4th",
+							"{@spell giant insect|phb}, {@spell phantasmal killer|phb}"
+						],
+						[
+							"5th",
+							"{@spell contagion|phb}, {@spell insect plague|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Nest Crawler",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, you are acclimated to underground spider nests, you have a climbing speed equal to your walking speed, and you ignore movement restrictions caused by webbing.",
+				"Additionally, you have darkvision out to a range of 120 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+			]
+		},
+		{
+			"name": "Silk Spinner",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you can use an action to produce webbing that takes the form of an item you choose from the following list; a {@item net|phb}, {@item manacles|phb} (no lock), a {@item sack|phb}, {@item silk rope (50 feet)|phb}, a {@item sling|phb}, or a {@item whip|phb}. If your DM allows, you may also create any other non-magical item that could believably be made using spider webs. You are proficient with any weapons produced using this feature.",
+				"The maximum number of items you can produce with this feature at one time is equal to your proficiency bonus. If you try to exceed your maximum, the oldest item disintegrates, and then the new item is produced."
+			]
+		},
+		{
+			"name": "Toxin Tolerance",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain resistance to poison damage and advantage on saving throws to avoid or remove the {@condition poisoned} condition."
+			]
+		},
+		{
+			"name": "Webslinger",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use a bonus action to fire a web at a creature, object or part of the environment that you can see within 30ft. You use this web in one of the following ways, if the effect allows the target to make a saving throw, use your warlock spell save DC.",
+				{
+					"type": "list",
+					"items": [
+						"If you target a creature or object that is large or smaller, you can pull it up to 15ft towards you without provoking opportunity attacks. If the target is a creature, they may attempt a Strength saving throw to avoid this effect.",
+						"If you target a creature or object that is medium or larger or an anchor point (such as a wall or tree), you can pull yourself up to 15ft towards it without provoking opportunity attacks. If the target is a creature, they may attempt a Dexterity saving throw to prevent this effect. You cannot use this effect if you are {@condition grappled} or {@condition restrained}.",
+						"If you target a creature that is large or smaller, you can knock them {@condition prone}. The creature may attempt a Strength saving throw to avoid this effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Quickweb",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you see a creature within 30ft (including yourself), take damage, you can use your Webslinger feature as a reaction to attempt to move them, potentially having them avoid the damage. You can use the feature in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Spider Bite",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when you hit a creature with a weapon attack or spell attack using a warlock cantrip, you can choose to apply one of the following additional effects.",
+				{
+					"type": "list",
+					"items": [
+						"You summon a horde of spectral spiders to swarm over the creature. The creature must make a Wisdom saving throw against your warlock spell save DC or be {@condition frightened} of you. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success.",
+						"You deliver a potent venom through the attack. The creature must make a Constitution saving throw against your warlock spell save DC or become {@condition poisoned}. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success."
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Toxin Immunity",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain immunity to poison damage and the {@condition poisoned} condition."
+			]
+		},
+		{
+			"name": "Wall Walker",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "Jackalope",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can cast the {@spell spider climb} spell at will, and without consuming a spell slot. When you do so, you can cast it on up to ten willing creatures, and you automatically pass saving throws to maintain concentration on this spell."
 			]
 		}
 	],
