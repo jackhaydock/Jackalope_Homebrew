@@ -3827,6 +3827,17 @@
 				"This specially designed teapot features two separate compartments that can hold different liquids, such as tea and poison. It also features a pair of secret holes on the handle, with which you to control which liquid is poured by covering specific holes. When you pour from this teapot, choose one or both of the liquids to be poured.",
 				"You have advantage on Dexterity (Sleight of Hand) checks made to avoid creatures noticing anything usual about the way you pour the teapot."
 			]
+		},
+		{
+			"name": "Hydra Blood",
+			"source": "Jackalope",
+			"rarity": "none",
+			"type": "G",
+			"poison": true,
+			"value": 25000,
+			"entries": [
+				"This poison must be harvested from a dead or {@condition incapacitated|phb} {@creature hydra|mm}. You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 12 Constitution saving throw or take {@dice 4d6} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+			]
 		}
 	],
 	"monster": [
