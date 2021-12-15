@@ -2765,7 +2765,7 @@
 			"entries": [
 				"This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side.",
 				"The hourglass has 2 charges and regains {@dice 1d3-1} charges daily at dawn.",
-				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|jackalope} spell (save DC 12) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|jackalope} spell (save DC 12) from it. For 1 charge, you cast the 4th-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
 			]
 		},
 		{
@@ -6862,7 +6862,7 @@
 		{
 			"name": "Time Stasis",
 			"source": "Jackalope",
-			"level": 3,
+			"level": 4,
 			"school": "E",
 			"time": [
 				{
@@ -6901,7 +6901,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, you can affect one additional creature or object for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature or object for each slot level above 4th."
 					]
 				}
 			],
