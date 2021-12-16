@@ -3838,6 +3838,17 @@
 			"entries": [
 				"This poison must be harvested from a dead or {@condition incapacitated|phb} {@creature hydra|mm}. You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 12 Constitution saving throw or take {@dice 4d6} poison damage. Once applied, the poison retains potency for 1 minute before drying."
 			]
+		},
+		{
+			"name": "Cloak of Endless Poultry",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"attunement": "true",
+			"wondrous": "true",
+			"entries": [
+				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
+				"As an action you can expend a charge and open the cloak and {@dice 1d4} {@creature chicken|jackalope|chickens} fall out into adjacent spaces. The chickens are friendly to you and your allies, they will follow you and may attack any creatures or objects that attack you but are otherwise unable to understand any commands you make. The chickens last for 1 hour or until they die, after which they either enter the cloak again or disappear in a puff of feathers."
+			]
 		}
 	],
 	"monster": [
@@ -4703,6 +4714,79 @@
 			],
 			"damageTags": [
 				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Chicken",
+			"source": "Jackalope",
+			"size": "S",
+			"type": {
+				"type": "Beast"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4-2"
+			},
+			"speed": {
+				"walk": 35,
+				"fly": 10
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 3,
+			"wis": 9,
+			"cha": 5,
+			"skill": {
+				"perception": "+1"
+			},
+			"passive": 9,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Bad Flier",
+					"entries": [
+						"The chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+					]
+				},
+				{
+					"name": "Headless",
+					"entries": [
+						"If the chicken is reduced to 0 hit points by non-magical damage, it does not die immediately. Instead, it remains alive but headless for {@dice 1d4} rounds, or until it takes additional damage from any source. While headless, the chicken is blinded, deafened, cannot use its peck attack, cannot restore hit points and must move at least 20ft in a random direction on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Peck",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
 			],
 			"miscTags": [
 				"MW"
