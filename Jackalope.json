@@ -4766,7 +4766,7 @@
 				{
 					"name": "Headless",
 					"entries": [
-						"If the chicken is reduced to 0 hit points by non-magical damage, it does not die immediately. Instead, it remains alive but headless for {@dice 1d4} rounds, or until it takes additional damage from any source. While headless, the chicken is blinded, deafened, cannot use its peck attack, cannot restore hit points and must move at least 20ft in a random direction on each of its turns."
+						"If the chicken is reduced to 0 hit points by non-magical damage, it does not die immediately. Instead, it remains alive but headless for {@dice 1d4} rounds, or until it takes additional damage from any source. While headless, the chicken is {@condition blinded|phb}, {@condition deafened|phb}, cannot use its peck attack, cannot restore hit points and must move at least 20ft in a random direction on each of its turns."
 					]
 				}
 			],
