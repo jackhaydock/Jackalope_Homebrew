@@ -3849,6 +3849,17 @@
 				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
 				"As an action you can expend a charge and open the cloak and {@dice 1d4} {@creature chicken|jackalope|chickens} fall out into adjacent spaces. The chickens are friendly to you and your allies, they will follow you and may attack any creatures or objects that attack you but are otherwise unable to understand any commands you make. The chickens last for 1 hour or until they die, after which they either enter the cloak again or disappear in a puff of feathers."
 			]
+		},
+		{
+			"name": "Nautical Bone Charm",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"attunement": "true",
+			"wondrous": "true",
+			"entries": [
+				"This broken bone is inscribed with arcane runes and has 3 charges. It regains {@dice 1d4-1} charges daily at dawn.",
+				"As an action, you can expend a number of charges to cast the {@spell Spectral Crew|jackalope} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+			]
 		}
 	],
 	"monster": [
