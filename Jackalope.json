@@ -3843,7 +3843,7 @@
 			"name": "Cloak of Endless Poultry",
 			"source": "Jackalope",
 			"rarity": "rare",
-			"attunement": "true",
+			"reqAttune": true,
 			"wondrous": "true",
 			"entries": [
 				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
@@ -3854,7 +3854,7 @@
 			"name": "Nautical Bone Charm",
 			"source": "Jackalope",
 			"rarity": "rare",
-			"attunement": "true",
+			"reqAttune": true,
 			"wondrous": "true",
 			"entries": [
 				"This broken bone is inscribed with arcane runes and has 3 charges. It regains {@dice 1d4-1} charges daily at dawn.",
