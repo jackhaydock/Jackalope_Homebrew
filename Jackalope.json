@@ -7501,7 +7501,7 @@
 					"Toxin Tolerance|Warlock|PHB|Darkweaver|Jackalope|6",
 					"Webslinger|Warlock|PHB|Darkweaver|Jackalope|6",
 					"Quickweb|Warlock|PHB|Darkweaver|Jackalope|6",
-					"Spider Bite|Warlock|PHB|Darkweaver|Jackalope|10",
+					"Spider Bites|Warlock|PHB|Darkweaver|Jackalope|10",
 					"Toxin Tolerance Improved|Warlock|PHB|Darkweaver|Jackalope|14",
 					"Wall Walker|Warlock|PHB|Darkweaver|Jackalope|14"
 			],
@@ -7862,13 +7862,14 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, you can use a bonus action to fire a web at a creature, object or part of the environment that you can see within 30ft. You use this web in one of the following ways, if the effect allows the target to make a saving throw, use your warlock spell save DC.",
+				"Starting at 6th level, you can use a bonus action to fire a web to move objects and creatures. Choose an object or creature you can see within 30ft and choose one of the following effects.",
 				{
 					"type": "list",
+					"style": "list-hang-notitle",
 					"items": [
-						"If you target a creature or object that is large or smaller, you can pull it up to 15ft towards you without provoking opportunity attacks. If the target is a creature, they may attempt a Strength saving throw to avoid this effect.",
-						"If you target a creature or object that is medium or larger or an anchor point (such as a wall or tree), you can pull yourself up to 15ft towards it without provoking opportunity attacks. If the target is a creature, they may attempt a Dexterity saving throw to prevent this effect. You cannot use this effect if you are {@condition grappled} or {@condition restrained}.",
-						"If you target a creature that is large or smaller, you can knock them {@condition prone}. The creature may attempt a Strength saving throw to avoid this effect."
+						"{@b Pull.} You pull the target up to 15ft towards you. The target must be an object or creature that is large or smaller and is not fixed in place (such as a wall or tree). If you target a creature, or an object worn or carried by a creature, the creature can make a Strength saving throw against your warlock spell save DC to avoid this effect.",
+						"{@b Trip.} You pull the target {@condition prone.} The target must be a creature that is large or smaller. The creature can make a Strength saving throw against your warlock spell save DC to avoid this effect.",
+						"{@b Zip.} Pull yourself up to 15ft towards the target. The target must be an object or creature that is medium or larger or is fixed in place (such as a wall or tree). You also cannot use this effect if you are {@condition grappled} or {@condition restrained}. If you target a creature, or an object worn or carried by a creature, the creature can make a Dexterity saving throw against your warlock spell save DC to avoid this effect."
 					]
 				}
 			]
@@ -7883,11 +7884,11 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"Starting at 6th level, when you see a creature within 30ft (including yourself) take damage, you can use your Webslinger feature as a reaction to attempt to move them, potentially having them avoid the damage. You can use the feature in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+				"Starting at 6th level, when you see a creature within 30ft (including yourself) take damage, you can use the Pull or Zip effect from your Webslinger feature as a reaction to attempt to move them, potentially having them avoid the damage. You can use the feature in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 			]
 		},
 		{
-			"name": "Spider Bite",
+			"name": "Spider Bites",
 			"source": "Jackalope",
 			"className": "Warlock",
 			"classSource": "PHB",
@@ -7896,12 +7897,13 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you hit a creature with a weapon attack or spell attack using a warlock cantrip, you can choose to apply one of the following additional effects.",
+				"Starting at 10th level, once per turn, when you hit a creature with an attack using a weapon or warlock cantrip, you can choose to apply one of the following additional effects.",
 				{
 					"type": "list",
+					"style": "list-hang-notitle",
 					"items": [
-						"You summon a horde of spectral spiders to swarm over the creature. The creature must make a Wisdom saving throw against your warlock spell save DC or be {@condition frightened} of you. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success.",
-						"You deliver a potent venom through the attack. The creature must make a Constitution saving throw against your warlock spell save DC or become {@condition poisoned}. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success."
+						"{@b Terrifying Horde.} You summon a horde of spectral spiders to swarm over the creature. The creature must make a Wisdom saving throw against your warlock spell save DC or be {@condition frightened} of you for 1 minute. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success.",
+						"{@b Toxic Venom.} You deliver a potent venom through the attack. The creature must make a Constitution saving throw against your warlock spell save DC or be {@condition poisoned} for 1 minute. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success."
 					]
 				},
 				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
