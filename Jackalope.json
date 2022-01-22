@@ -9630,6 +9630,37 @@
 				],
 				"bonusWeapon": "+1"
 			}
+		},
+		{
+			"name": "Weapon of Insults",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of Insults",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you hit a creature with this weapon, it whispers insults to them. If the hit is a critical hit, the insults are so damming that the creature takes an extra {@dice 1d6} psychic damage."
+				],
+				"bonusWeapon": "+1"
+			}
 		}
 	],
 	"variantrule": [
