@@ -7169,6 +7169,52 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ariesian",
+			"source": "Jackalope",
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sure-Footed",
+					"entries": [
+						"Climbing does not cost you extra movement. In addition, you have advantage on Strength and Dexterity saving throws made against effects that would knock you prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wooly Coat",
+					"entries": [
+						"While you have a full coat of wool you have resistance to cold damage and advantage on saving throws against extreme cold, however you also have vulnerability to fire damage and disadvantage on saving throws against extreme heat.",
+						" If your coat is sheared, over the course of 10 minutes, you lose the effects of this trait until your wool grows back after {@dice 1d6+1} days"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headbutt",
+					"entries": [
+						"You have a thick skull or heavy horns, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			]
 		}
 	],
 	"spell": [
