@@ -5313,7 +5313,10 @@
 		{
 			"name": "Fenri",
 			"source": "Jackalope",
-			"size": "M",
+			"size": [
+				"S",
+				"M"
+			],
 			"speed": 30,
 			"entries": [
 				{
@@ -5334,7 +5337,7 @@
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Fenri come in many breeds and vary greatly in size, they typically stand between 4 and 7 feet tall and weigh between 150 and 240 lbs. Your size is medium."
+						"Fenri come in many breeds and vary greatly in size, they typically stand between 3 and 7 feet tall and weigh between 50 and 240 lbs. Your size is small or medium (your choice)."
 					]
 				},
 				{
@@ -5540,13 +5543,7 @@
 					"common": true,
 					"choose": true
 				}
-			],
-			"heightAndWeight": {
-    	"baseHeight": 54,
-    	"heightMod": "2d12",
-    	"baseWeight": 100,
-    	"weightMod": "1d4+2"
-			}
+			]
 		},
 		{
 			"name": "Thalian Cyclops",
@@ -7245,7 +7242,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. Often found roaming the mountains and hills in large herds, finding comfort in crowds, but some lone wanderers make their way down from the hills."
+					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
 				]
 			}
 		}
