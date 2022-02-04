@@ -7058,7 +7058,6 @@
 		{
 			"name": "Mallardian",
 			"source": "Jackalope",
-			"darkvision": 60,
 			"ability": [
 				{
 					"dex": 2,
@@ -7082,23 +7081,84 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Looks like a duck.",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Looks like a duck",
 					"entries": [
 						"While not wearing armor or holding items, you are virtually indistinguishable from a large duck. A creature can make a DC15 Investigation (Intelligence) check to determine your true nature."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Walks like a duck.",
+					"name": "Walks like a duck",
 					"entries": [
 						"You can stand on and move across any liquid surface as if it were solid ground."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Quacks like a duck.",
+					"name": "Quacks like a duck",
 					"entries": [
 						"You can communicate simple messages to ducks and other aquatic birds. They can understand the meaning of your words, though you have no special ability to understand them in return."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			]
+		},
+		{
+			"name": "Poultrian",
+			"source": "Jackalope",
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+							"from": [
+								"str",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": "S",
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bad Flier",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You fall at the end of a turn if you are airborne and the only thing holding you aloft is your flying speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glider",
+					"entries": [
+						"When you are falling, and you are not {@condition incapacitated|phb}, you can use a reaction to slow your rate of descent to 60 feet per round. If you land while using this trait, you take no falling damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peck",
+					"entries": [
+						"Your beak is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
