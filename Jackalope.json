@@ -5529,6 +5529,12 @@
 						]
 					}
 				],
+			"fluff": {
+				"entries": [
+					"The fenri are a canine like people, usually less aggressive than their gnoll cousins, though not always. Fenri can make excellent companions, but only if they want to.",
+					"Just like dogs, fenri come in a wide variety of shapes, sizes and colours."
+				]
+			},
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -6779,7 +6785,13 @@
 					"common": true,
 					"choose": true
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					"These large, courageous humanoids have bestial appearances resembling camelids, such as llamas, alpacas or camels. Their large eyes and ears grant them keen senses which, combined with their natural courage, make them popular as guards for farms and merchant caravans. However, you should never insult a Yamatlaca, else you may learn about their infamous spit the hard way.",
+					"Yamatlaca can be found in many climates, from the highest mountains to the hottest deserts and muggist swamp."
+				]
+			}
 		},
 		{
 			"name": "Kobold",
@@ -7078,6 +7090,12 @@
 				"walk": 30,
 				"fly": 30
 			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": true
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7114,7 +7132,12 @@
 						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					"The nature of these people has always confused scholars, even mallardians themselves may not be quite sure what they are and where their people came from. By most metrics they appear to be simple ducks, yet they can walk, talk and fight like other humanoids."
+				]
+			}
 		},
 		{
 			"name": "Poultrian",
@@ -7168,7 +7191,12 @@
 						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					"While these feathered beings resemble birds and possess wings, they are terrible fliers. They may have been mighty fliers once, but have found the ability waning over the many generations since."
+				]
+			}
 		},
 		{
 			"name": "Ariesian",
@@ -7197,7 +7225,7 @@
 					"name": "Wooly Coat",
 					"entries": [
 						"While you have a full coat of wool you have resistance to cold damage and advantage on saving throws against extreme cold, however you also have vulnerability to fire damage and disadvantage on saving throws against extreme heat.",
-						" If your coat is sheared, over the course of 10 minutes, you lose the effects of this trait until your wool grows back after {@dice 1d6+1} days"
+						" If your coat is sheared over the course of 10 minutes, you lose the effects of this trait until your wool grows back after {@dice 1d6+1} days"
 					]
 				},
 				{
@@ -7214,7 +7242,12 @@
 						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. Often found roaming the mountains and hills in large herds, finding comfort in crowds, but some lone wanderers make their way down from the hills."
+				]
+			}
 		}
 	],
 	"spell": [
