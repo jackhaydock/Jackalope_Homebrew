@@ -7054,6 +7054,61 @@
 					"draconic": true
 				}
 			]
+		},
+		{
+			"name": "Mallardian",
+			"source": "Jackalope",
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+							"from": [
+								"str",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": "S",
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Looks like a duck.",
+					"entries": [
+						"While not wearing armor or holding items, you are virtually indistinguishable from a large duck. A creature can make a DC15 Investigation (Intelligence) check to determine your true nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Walks like a duck.",
+					"entries": [
+						"You can stand on and move across any liquid surface as if it were solid ground."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quacks like a duck.",
+					"entries": [
+						"You can communicate simple messages to ducks and other aquatic birds. They can understand the meaning of your words, though you have no special ability to understand them in return."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			]
 		}
 	],
 	"spell": [
