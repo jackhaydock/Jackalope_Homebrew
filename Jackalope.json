@@ -7245,6 +7245,73 @@
 					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
 				]
 			}
+		},
+		{
+			"name": "Dryad",
+			"source": "Jackalope",
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fey",
+					"entries": [
+						"Your creature type is fey, rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Spirit",
+					"entries": [
+						"You know the {@spell druidcraft|phb} cantrip."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dryad Magic",
+					"entries": [
+						"You can cast the {@spell animal friendship|phb}, {@spell entangle} and {@spell charm person} spells with this trait and without material components. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.",
+						"  Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
+				]
+			}
 		}
 	],
 	"spell": [
