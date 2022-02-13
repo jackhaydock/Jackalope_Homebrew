@@ -2985,6 +2985,49 @@
 			]
 		},
 		{
+			"name": "Matchlock Pistol",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 10000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A",
+				"L"
+			]
+		},
+		{
+			"name": "Matchlock Musket",
+			"source": "Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 20000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			]
+		},
+		{
 			"name": "Wheellock Pistol",
 			"source": "Caligos",
 			"age": "renaissance",
@@ -2993,7 +3036,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 15000,
+			"value": 25000,
 			"weight": 3,
 			"ammunition": true,
 			"dmg1": "1d8",
@@ -3003,9 +3046,6 @@
 				"LD",
 				"A",
 				"L"
-			],
-			"entries": [
-				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
 			]
 		},
 		{
@@ -3017,7 +3057,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 30000,
+			"value": 50000,
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -3028,9 +3068,6 @@
 				"A",
 				"2H",
 				"H"
-			],
-			"entries": [
-				"This firearm uses a friction wheel to ignite its powder. The delicacy of this design means it can't handle as much powder, making it weaker than modern designs."
 			]
 		},
 		{
@@ -3042,7 +3079,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 25000,
+			"value": 40000,
 			"weight": 3,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -3052,9 +3089,6 @@
 				"LD",
 				"A",
 				"L"
-			],
-			"entries": [
-				"This firearm uses a flint striker to ignite its powder. This is the most common design for modern firearms."
 			]
 		},
 		{
@@ -3066,7 +3100,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 50000,
+			"value": 80000,
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d12",
@@ -3077,9 +3111,6 @@
 				"A",
 				"2H",
 				"H"
-			],
-			"entries": [
-				"This firearm uses a flint striker to ignite its powder. This is the most common design for modern firearms."
 			]
 		},
 		{
@@ -3091,7 +3122,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 75000,
+			"value": 60000,
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -3114,7 +3145,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 150000,
+			"value": 120000,
 			"weight": 15,
 			"ammunition": true,
 			"dmg1": "1d12",
@@ -3139,7 +3170,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 80000,
+			"value": 75000,
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "2d4",
@@ -3164,7 +3195,7 @@
 			"weapon": true,
 			"firearm": true,
 			"rarity": "none",
-			"value": 100000,
+			"value": 150000,
 			"weight": 15,
 			"ammunition": true,
 			"dmg1": "2d6",
@@ -3241,6 +3272,7 @@
 			"name": "Inquisitor Mask",
 			"wondrous": "true",
 			"rarity": "uncommon",
+			"age": "renaissance",
 			"source": "Caligos",
 			"entries": [
 				"This leather and metal mask features goggles and a beak is worn by members of the Inquisition within the Caligos Imperium.. While wearing this mask, you are immune to the {@condition blinded|phb} condition."
@@ -3250,6 +3282,7 @@
 			"name": "Inquisitor Coat",
 			"wondrous": "true",
 			"rarity": "rare",
+			"age": "renaissance",
 			"source": "Caligos",
 			"reqAttune": true,
 			"entries": [
@@ -3260,6 +3293,7 @@
 			"name": "Inquisition Enforcer's Cane",
 			"wondrous": "true",
 			"rarity": "rare",
+			"age": "renaissance",
 			"source": "Caligos",
 			"reqAttune": true,
 			"entries": [
@@ -3271,6 +3305,7 @@
 			"name": "Inquisition Officer's Cane",
 			"wondrous": "true",
 			"rarity": "rare",
+			"age": "renaissance",
 			"source": "Caligos",
 			"reqAttune": true,
 			"entries": [
@@ -3282,6 +3317,7 @@
 			"name": "Inquisition Sharpshooter's Cane",
 			"wondrous": "true",
 			"rarity": "rare",
+			"age": "renaissance",
 			"source": "Caligos",
 			"reqAttune": true,
 			"entries": [
@@ -3342,6 +3378,7 @@
 			"name": "Firearm Scope",
 			"wondrous": "true",
 			"rarity": "none",
+			"age": "renaissance",
 			"value": 20000,
 			"weight": 5,
 			"source": "Caligos",
@@ -3353,6 +3390,7 @@
 			"name": "Bayonet",
 			"wondrous": "true",
 			"rarity": "none",
+			"age": "renaissance",
 			"value": 1500,
 			"weight": 2,
 			"source": "Caligos",
@@ -4918,7 +4956,40 @@
     			}
 				],
         "entries": [
-            "You can create a pact weapon that is a {@item wheellock pistol|caligos}, {@item wheellock musket|caligos}, {@item flintlock pistol|caligos} or {@item flintlock musket|caligos}. Additionally you can transform any magical firearm into your pact weapon."
+            "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Warlock Level",
+								"Weapon Forms"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1st",
+									"{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}"
+								],
+								[
+									"3rd",
+									"{@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
+								],
+								[
+									"5th",
+									"{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
+								],
+								[
+									"7th",
+									"{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
+								],
+								[
+									"9th",
+									"{@item gunaxe|caligos}, {@item gunsword|caligos}"
+								]
+							]
+						}
         ]
     },
 		{
@@ -10083,6 +10154,7 @@
 			],
 			"inherits": {
 				"rarity": "none",
+				"age": "renaissance",
 				"source": "Caligos",
 				"namePrefix": "Rifled ",
 				"entries": [
