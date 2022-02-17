@@ -5137,6 +5137,7 @@
 			"speed": {
 				"walk": 25
 			},
+			"darkvision": 60,
 			"ability": [
 				{
 					"str": 2,
@@ -5144,34 +5145,6 @@
 				}
 			],
 			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Thalian dwarves tend to be neutral, prefering to dedicate to their craft rather than politics or tradition."
-					]
-				},
-				{
-					"name": "Size",
-					"type": "entries",
-					"entries": [
-						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
-					]
-				},
-				{
-					"name": "Languages",
-					"type": "entries",
-					"entries": [
-						"You can speak, read, and write Common and Dwarvish. When carved or written, Dwarvish appears as rows of horizontal and vertical fletched lines. Dwarves often use clay tablets to tally payments, account for shipments of ore, or send messages. It can be etched on leaves of copper and gold as a prayer to the gods.These metal scrolls are then melted into the bronze of swords or armor, believed to imbue them with the words of the smith."
-					]
-				},
 				{
 					"name": "Darkvision",
 					"type": "entries",
@@ -5211,15 +5184,9 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"dwarvish": true
+					"any": 1
 				}
-			],
-			"heightAndWeight": {
-    	"baseHeight": 44,
-    	"heightMod": "2d4",
-    	"baseWeight": 115,
-    	"weightMod": "2d6"
-			}
+			]
 		},
 		{
 			"name": "Dwarf (Ocean)",
@@ -5244,6 +5211,7 @@
 				"walk": 25,
 				"swim": 30
 			},
+			"darkvision": 60,
 			"ability": [
 				{
 					"str": 1,
@@ -5251,41 +5219,6 @@
 				}
 			],
 			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order."
-					]
-				},
-				{
-					"name": "Size",
-					"type": "entries",
-					"entries": [
-						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
-					]
-				},
-				{
-					"name": "Languages",
-					"type": "entries",
-					"entries": [
-						"You can speak, read, and write Common, Dwarvish and Aquan."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"type": "entries",
-					"entries": [
-						"Accustomed to life underwater, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
 				{
 					"name": "Deep Resilience",
 					"type": "entries",
@@ -5325,15 +5258,9 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"dwarvish": true
+					"any": 1
 				}
-			],
-			"heightAndWeight": {
-    	"baseHeight": 44,
-    	"heightMod": "2d4",
-    	"baseWeight": 115,
-    	"weightMod": "2d6"
-			}
+			]
 		},
 		{
 			"name": "Fenri",
