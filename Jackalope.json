@@ -4001,6 +4001,17 @@
 				"This clear, glass bottle can hold up to a gallon of liquid. When there is liquid in the bottle, you may cast {@spell Bazoz's Spicy Water|jackalope} on the liquid at will.",
 				"If you pour the liquid out of the bottle, the effects remain active in the liquid for 1 hour, or until you use the bottle to cast the cantrip again."
 			]
+		},
+		{
+			"name": "Brine Poison",
+			"source": "Jackalope",
+			"rarity": "none",
+			"type": "G",
+			"poison": true,
+			"entries": [
+				"This poison is harvested from brine pools deep underwater, the extreme salinity is toxic to most creatures. You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 12 Constitution saving throw or take {@dice 2d4} poison damage and become {@condition incapacitated|phb} until the end of its next turn. Once applied, the poison retains potency for 1 minute before drying.",
+				"At the DM's discretion, if a creature is not acclimated to high salinity environments, they have disadvantge on the saving throw and take double the poison damage on a fail."
+			]
 		}
 	],
 	"monster": [
