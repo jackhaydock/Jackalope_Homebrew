@@ -5179,12 +5179,19 @@
 					"entries": [
 						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
 				}
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"any": 1
+					"any": 1,
+					"common": true
 				}
 			]
 		},
@@ -5252,6 +5259,13 @@
 					"type": "entries",
 					"entries": [
 						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
 			],
