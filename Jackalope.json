@@ -6819,273 +6819,82 @@
 			"name": "Kobold",
 			"source": "Jackalope",
 			"size": "S",
-			"speed": 25,
-			"ability": [
-				{
-					"dex": 2,
-					"choose": {
-							"from": [
-								"str",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"amount": 1
-					}
-				}
-			],
+			"speed": 30,
+			"darkvision": 60,
+			"lineage": "VRGR",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Darkvision",
 					"entries": [
-						"Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Alignment",
+					"name": " Draconic Cry.",
 					"entries": [
-						"Kobolds tend toward no particular alignment."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 25 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Draconic."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Distraction",
-					"entries": [
-						"Whether by roaring, grovelling or just plain being annoying, you can use an action to distract any number of creatures you choose within 10ft of you. Until the end of your next turn, attack rolls against these creatures gain advantage. Once you use this trait, you cannot do so again until you finish a short or long rest."
+						"As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
 				}
 			],
 			"subraces": [
 					{
-					"name": "Cave",
+					"name": "Wilderness",
 					"source": "Jackalope",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Superior Darkvision",
+							"name": "Wilderness Legacy",
 							"entries": [
-								"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+								"Accustomed to life in the wild, you have adapted to extreme environments. Choose one of the following legacy options for your kobold.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										"{@b {@i Cave Dweller.}} The range of your darkvsion increases to 120ft. In addition, you have advantage on Dexterity (Stealth) checks to hide in rocky terrain or dim light.",
+										"{@b {@i Cliff Climber.}} You have a climbing speed equal to your walking speed. In addition, you can jump up to your full long jump or high jump distance, even without a running start.",
+										"{@b {@i See Diver.}} You have a Swimming speed equal to your walking speed and can breathe underwater."
+									]
+								}
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Stone Camouflage",
+							"name": "Languages",
 							"entries": [
-								"You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+								"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 							]
 						}
 					]
 				},
+				{
+				"name": "Mutant",
+				"source": "Jackalope",
+				"entries": [
 					{
-						"name": "Cliff",
-						"source": "Jackalope",
+						"type": "entries",
+						"name": "Mutant Legacy",
 						"entries": [
+							"You have developed some mutation that separates you from other kobolds. Choose one of the following legacy options for your kobold.",
 							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Cliff Climber",
-								"entries": [
-									"You have a climbing speed equal to your walking speed. In addition, if you are hanging from a wall or ledge, you can jump up to your full long jump or high jump distance, even without a running start."
-								]
-							}
-						]
-					},
-					{
-						"name": "Draconic",
-						"source": "Jackalope",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Draconic Resistance",
-								"entries": [
-									"Choose one type of dragon from the table below. You gain resistance to the damage type associated with the dragon type you choose, as shown in the table.",
-									{
-										"type": "table",
-										"colLabels": [
-											"Dragon Type",
-											"Damage Type"
-										],
-										"colStyles": [
-											"text-center",
-											"text-center"
-										],
-										"rows": [
-											[
-												"Amethyst",
-												"Force"
-											],
-											[
-												"Black",
-												"Acid"
-											],
-											[
-												"Blue",
-												"Lightning"
-											],
-											[
-												"Brass",
-												"Fire"
-											],
-											[
-												"Bronze",
-												"Lightning"
-											],
-											[
-												"Copper",
-												"Acid"
-											],
-											[
-												"Crystal",
-												"Radiant"
-											],
-											[
-												"Emerald",
-												"Psychic"
-											],
-											[
-												"Gold",
-												"Fire"
-											],
-											[
-												"Green",
-												"Poison"
-											],
-											[
-												"Red",
-												"Fire"
-											],
-											[
-												"Sapphire",
-												"Thunder"
-											],
-											[
-												"Silver",
-												"Cold"
-											],
-											[
-												"Topaz",
-												"Necrotic"
-											],
-											[
-												"White",
-												"Cold"
-											]
-										]
-									}
-
-								]
-							}
-						]
-					},
-					{
-						"name": "Sea",
-						"source": "Jackalope",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Deep Diver",
-								"entries": [
-									"You have a Swimming speed equal to your walking speed and can breathe underwater."
-								]
-							}
-						]
-					},
-					{
-						"name": "Tiny",
-						"source": "Jackalope",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Small Target",
-								"entries": [
-									"You have a +1 bonus to your armor class."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Little build",
-								"entries": [
-									"You count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
-								]
-							}
-						]
-					},
-					{
-						"name": "Vicious",
-						"source": "Jackalope",
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Natural Weapons",
-								"entries": [
-									"You have sharp teath, claws, horns or tail spikes which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+								"type": "list",
+								"style": "list-hang-notitle",
+								"items": [
+									"{@b {@i Draconic Hide.}} You have resistance to one of the following damage types (choose when you select this race); acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.",
+									"{@b {@i Tiny Target.}} You have a +1 bonus to your armor class. In addition, you count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures.",
+									"{@b {@i Vicious Weapons.}} You have sharp teath, claws, horns or tail spikes which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
 								]
 							}
 						]
 					}
-				],
+				]
+			}
+			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"draconic": true
+					"any": 1,
+					"common": true
 				}
 			]
 		},
