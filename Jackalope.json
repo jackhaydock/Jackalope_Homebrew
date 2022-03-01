@@ -3598,20 +3598,21 @@
 			"name": "Bouncing Shield",
 			"type": "S",
 			"rarity": "uncommon",
-			"ac": 2,
-			"type": "R",
+			"type": "M",
 			"weapon": true,
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"source": "Jackalope",
 			"property": [
 				"F",
+				"L",
 				"T"
 			],
 			"range": "20/60",
 			"entries": [
-				"When you hit with a ranged attack using this weapon, the shield bounces back to your hand after the hit.",
-				"If you hit with a critical hit, you can make an addtional ranged attack with this weapon against another target within 10ft of the original target."
+				"While wielding this weapon, you gain a +2 bonus to AC if you are using no shield.",
+				"When you make a ranged attack using this weapon, the shield bounces back to your hand after the attack.",
+				"If you hit with a critical hit, you can make an addtional weapon attack with the shield against another target within 10ft of the original target."
 			]
 		},
 		{
