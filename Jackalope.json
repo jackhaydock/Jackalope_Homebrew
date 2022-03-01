@@ -7819,6 +7819,105 @@
 					"source": "EGW"
 				}
 			]
+		},
+		{
+			"name": "The Dragon Warlock",
+			"shortName": "Dragon",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"The Dragon|Warlock|PHB|Dragon|Jackalope|1",
+					"Expanded Spell List|Warlock|PHB|Dragon|Jackalope|1",
+					"Draconic Affinity|Warlock|PHB|Dragon|Jackalope|1",
+					"Chaotic Affinity|Warlock|PHB|Dragon|Jackalope|1",
+					"Dragon Head|Warlock|PHB|Dragon|Jackalope|1",
+					"Draconic Reflex|Warlock|PHB|Dragon|Jackalope|6",
+					"Scaled Wings|Warlock|PHB|Dragon|Jackalope|10",
+					"Dragon Shape|Warlock|PHB|Dragon|Jackalope|14"
+			],
+			"subclassSpells": [
+				{
+					"name": "Absorb Elements",
+					"source": "XGE"
+				},
+				{
+					"name": "Chromatic Orb",
+					"source": "PHB"
+				},
+				{
+					"name": "Cure Wounds",
+					"source": "PHB"
+				},
+				{
+					"name": "Command",
+					"source": "PHB"
+				},
+				{
+					"name": "Dragon's Breath",
+					"source": "XGE"
+				},
+				{
+					"name": "Scorching Ray",
+					"source": "PHB"
+				},
+				{
+					"name": "Lesser Restoration",
+					"source": "PHB"
+				},
+				{
+					"name": "Calm Emotions",
+					"source": "PHB"
+				},
+				{
+					"name": "Lightning Bolt",
+					"source": "PHB"
+				},
+				{
+					"name": "Fireball",
+					"source": "PHB"
+				},
+				{
+					"name": "Protection from Energy",
+					"source": "PHB"
+				},
+				{
+					"name": "Sending",
+					"source": "PHB"
+				},
+				{
+					"name": "Fire Shield",
+					"source": "PHB"
+				},
+				{
+					"name": "Ice Storm",
+					"source": "PHB"
+				},
+				{
+					"name": "Aura of Life",
+					"source": "PHB"
+				},
+				{
+					"name": "Phantasmal Killer",
+					"source": "PHB"
+				},
+				{
+					"name": "Summon Draconic Spirit",
+					"source": "FTD"
+				},
+				{
+					"name": "Cone of Cold",
+					"source": "PHB"
+				},
+				{
+					"name": "Greater Restoration",
+					"source": "PHB"
+				},
+				{
+					"name": "Greater Restoration",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -8447,6 +8546,240 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, you no longer age unless you choose to, and you can't be aged magically. Additionally, you no longer need to breathe, eat, drink or sleep."
+			]
+		},
+		{
+			"name": "The Dragon",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"entries": [
+				"Dragons are among the most powerful beings on the material plane and sometimes beyond. The strongest dragons may take on mortal followers and grant them a share of their power."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Dragon lets you choose from an expanded list of spells when you learn a warlock spell. The Dragon Expanded Spells table shows the dragon spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron’s dragon form: chromatic, metallic or gem.",
+				{
+					"type": "table",
+					"caption": "Dragon Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Dragon Spells",
+						"Chromatic Spells",
+						"Metallic Spells",
+						"Gem Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col",
+						"col",
+						"col"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Absorb Elements|xge}",
+							"{@spell Chromatic Orb|phb}",
+							"{@spell Cure Wounds|phb}",
+							"{@spell Command|phb}"
+						],
+						[
+							"2nd",
+							"{@spell Dragon's Breath|xge}",
+							"{@spell Scorching Ray|phb}",
+							"{@spell Lesser Restoration|phb}",
+							"{@spell Calm Emotions|phb}"
+						],
+						[
+							"3rd",
+							"{@spell Lightning Bolt|phb}",
+							"{@spell Fireball|phb}",
+							"{@spell Protection from Energy|phb}",
+							"{@spell Sending|phb}"
+						],
+						[
+							"4th",
+							"{@spell Fire Shield|phb}",
+							"{@spell Ice Storm|phb}",
+							"{@spell Aura of Life|phb}",
+							"{@spell Phantasmal Killer|phb}"
+						],
+						[
+							"5th",
+							"{@spell Summon Draconic Spirit|ftd}",
+							"{@spell Cone of Cold|phb}",
+							"{@spell Greater Restoration|phb}",
+							"{@spell Telekinesis|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Affinity",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, choose one of the following damage types; acid, cold, fire, lightning, or poison. You have resistance to this damage type."
+			]
+		},
+		{
+			"name": "Chaotic Affinity",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"{@note Optional Feature which replaces Draconic Affinity}",
+				"Starting at 1st level, whenever you finish a short or long rest, roll a d10 and consult the table below. You have resistance to this damage type until the end of your next short or long rest.",
+				{
+					"type": "table",
+					"colLabels": [
+						"1d10",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"acid"
+						],
+						[
+							"2",
+							"cold"
+						],
+						[
+							"3",
+							"fire"
+						],
+						[
+							"4",
+							"force"
+						],
+						[
+							"5",
+							"lightning"
+						],
+						[
+							"6",
+							"necrotic"
+						],
+						[
+							"7",
+							"poison"
+						],
+						[
+							"8",
+							"psychic"
+						],
+						[
+							"9",
+							"radiant"
+						],
+						[
+							"10",
+							"thunder"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Head",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you can use a bonus action to summon a spectral dragon head above or next to your own. The head remains for 1 minute, or until you dismiss it (no action required), after which it vanishes. The head vanishes early if you are incapacitated or you die.",
+				"When you create the head, you can use it in one of the ways in the Dragon Head Actions list below. Until the head vanishes, you can use a bonus action on each of your turns to use the head in one of these ways again.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"name": "Dragon Head Actions",
+					"items": [
+						"{@bold Bite.} You use the head to make a melee spell attack against a creature within 5ft of you. On a hit, the target takes piercing damage equal to {@dice 1d8} + plus your Charisma modifier. This attack counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+						"{@bold Breath.} You use the head to exhale destructive energy in a 15-foot cone. Each creature in that area must make a Dexterity saving throw against your warlock spell save DC, taking {@dice 2d6} damage of the type associated with your Draconic Affinity (or Chaotic Affinity) feature on a failed save, or half as much damage on a successful one.",
+						"{@bold Grasp.} You use the head to take the {@action Grapple} action against a creature within 10 feet of you. You may use your warlock spell attack modifier in place of your Athletics (Strength) for the contested rolls. You do not require a free hand to grapple a creature in this way and the creature is released if the head vanishes. While you have a creature grappled in this way, you cannot use the head for any other actions, except to release the creature (no action required).",
+						"{@bold Preparation.} You prepare the head for upcoming events. You gain one additional reaction until the start of your next turn. You may only take one reaction on each turn in combat.",
+						"{@bold Darksight.} You use the head to gain darkvision out to 60ft and gain advantage of Perception (Wisdom) checks until the start of your next turn. In addition, you can see through magical darkness while using this feature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Reflex",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you, or a creature you see within 15ft of you, takes damage of the type associated with your Draconic Affinity (or Chaotic Affinity) feature, you can use a reaction in one of the following ways based on your patron’s dragon form:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@bold Chromatic.} The creature takes an additional {@dice 1d6} damage of the same type. When you reach 10th level in this class, the damage increases to {@dice 2d6}.",
+						"{@bold Metallic.} The damage taken by the creature is reduced by {@dice 1d8}. When you reach 10th level in this class, the damage increases to {@dice 2d6}.",
+						"{@bold Gem.} The creature must make a Wisdom saving throw against your warlock spell save DC. On a fail, they are {@condition frightened} by the source of the damage until the end of its next turn. When you reach 10th level in this class, the {@condition frightened} condition lasts for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scaled Wings",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you can use an action to unfurl a pair of draconic wings and gain a flying speed of 60ft for 10 minutes. You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Dragon Shape",
+			"source": "Jackalope",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "Jackalope",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can cast the {@spell polymorph|phb} spell on yourself without expending a spell slot. When you cast the spell using this feature, you chose the form of a dragon whose challenge rating is equal to or less than yours, rather than a beast. Once you use this feature, you cannot do so again until you finish a long rest."
 			]
 		}
 	],
