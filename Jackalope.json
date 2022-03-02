@@ -3334,7 +3334,19 @@
 			"value": 100,
 			"weight": 1,
 			"entries": [
-				"This pouch can hold 20 {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
+				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
+			]
+		},
+		{
+			"name": "Bottomless Bullet Pouch",
+			"source": "Caligos",
+			"age": "renaissance",
+			"wondrous": "true",
+			"rarity": "Uncommon",
+			"reqAttune": true,
+			"entries": [
+				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action.",
+				"Additionally, You can place a nonmagical bullet in the pouch. From then on, whenever the bullet is removed, a perfect duplicate is created inside the pouch, effectively providing an unlimited supply of that particular bullet. As an action, you can permanently remove a bullet, preventing it from creating any further duplicates."
 			]
 		},
 		{
