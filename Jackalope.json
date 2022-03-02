@@ -8581,7 +8581,39 @@
 			"subclassSource": "Jackalope",
 			"level": 1,
 			"entries": [
-				"Dragons are among the most powerful beings on the material plane and sometimes beyond. The strongest dragons may take on mortal followers and grant them a share of their power."
+				"Dragons are among the most powerful beings on the material plane and sometimes beyond. The strongest dragons may take on mortal followers and grant them a share of their power.",
+				"Choose your patron’s dragon form or determine it randomly, using the Dragon Form table below.",
+				{
+					"type": "table",
+					"caption": "Dragon Form",
+					"colLabels": [
+						"1d3",
+						"Dragon Form",
+						"Example Patrons"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2 text-center",
+						"col"
+					],
+					"rows": [
+						[
+							"1",
+							"Chromatic",
+							"Black Dragon, Blue Dragon, Dragon Turtle, Green Dragon, Red Dragon, Tiamat or White Dragon"
+						],
+						[
+							"2",
+							"Metallic",
+							"Bahamut, Brass Dragon, Bronze Dragon, Copper Dragon or Gold Dragon"
+						],
+						[
+							"3",
+							"Gem",
+							"Amethyst Dragon, Crystal Dragon, Emerald Dragon, Moonstone Dragon, Sapphire Dragon or Topaz Dragon"
+						]
+					]
+				}
 			]
 		},
 		{
