@@ -7964,6 +7964,64 @@
 					"source": "PHB"
 				}
 			]
+		},
+		{
+			"name": "Feast Domain",
+			"shortName": "Feast",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"Feast Domain|Cleric|PHB|Feast|Jackalope|1",
+					"Gracious Host|Cleric|PHB|Feast|Jackalope|1",
+					"Channel Divinity: Halls of Merriment|Cleric|PHB|Feast|Jackalope|2",
+					"Spell Storing Snacks|Cleric|PHB|Feast|Jackalope|6",
+					"Potent Spellcasting|Cleric|PHB|Feast|Jackalope|8",
+					"Blessed Strikes|Cleric|PHB|Feast|Jackalope|8",
+					"Gourmet Snacks|Cleric|PHB|Feast|Jackalope|17"
+			],
+			"subclassSpells": [
+				{
+					"name": "Goodberry",
+					"source": "PHB"
+				},
+				{
+					"name": "Purify Food and Drink",
+					"source": "PHB"
+				},
+				{
+					"name": "Calm Emotions",
+					"source": "PHB"
+				},
+				{
+					"name": "Protection from Poison",
+					"source": "PHB"
+				},
+				{
+					"name": "Create Food and Water",
+					"source": "PHB"
+				},
+				{
+					"name": "Motivational Speech",
+					"source": "AI"
+				},
+				{
+					"name": "Aura of Purity",
+					"source": "PHB"
+				},
+				{
+					"name": "Fabricate",
+					"source": "PHB"
+				},
+				{
+					"name": "Greater Restoration",
+					"source": "PHB"
+				},
+				{
+					"name": "Rary's Telepathic Bond",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -8858,6 +8916,139 @@
 			"header": 2,
 			"entries": [
 				"Starting at 14th level, you can cast the {@spell polymorph|phb} spell on yourself without expending a spell slot. When you cast the spell using this feature, you chose the form of a dragon whose challenge rating is equal to or less than yours, rather than a beast. Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Feast Domain",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"entries": [
+				"Food is about more than just sustenance. The act of gathering around the fire or table to share food and stories brings communities together and forms a bond greater than the sum of its parts.",
+				"Deities of the Feast could include, but are not limited to; Dagda, Dionysus, Olga and Demeter.",
+				{
+					"type": "table",
+					"caption": "Feast Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell goodberry|phb}, {@spell purify food and drink|phb}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions|phb}, {@spell protection from poison|phb}"
+						],
+						[
+							"5th",
+							"{@spell create food and water|phb}, {@spell motivational speech|ai}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity|phb}, {@spell fabricate|phb}"
+						],
+						[
+							"9th",
+							"{@spell greater restoration|phb}, {@spell rary's telepathic bond|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Gracious Host",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, you gain proficiency with {@item brewer's supplies|phb} and {@item cook's utensils|phb}.",
+				"Additionally, you know the {@spell prestidigitation|phb} and {@spell produce flame|phb} cantrips. These count as cleric cantrips for you, but they don’t count against the number of cleric cantrips you know."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Halls of Merriment",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"As an action, you can use your Channel Divinity to fill the area around you with the sounds and smells of a joyous feast for 1 minute. Once on each of your turns for the duration, you can choose a number of creatures equal to your proficiency bonus that you can see within 30ft of you to become intoxicated with the cheerful atmosphere of the feast. Until the start of your next turn, these creatures have advantage on any Charisma checks and saving throws they make, but have disadvantage on any Wisdom checks and saving throws they make."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Spell Storing Snacks",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can produce a special snack or drink that is infused with magic. With {@item brewer's supplies|phb}, {@item cook's utensils|phb} or your {@item holy symbol|phb} in hand, you can produce a snack over the course of 10 minutes and store a single spell in it by expending a spell slot of a high enough level and providing any material components. The spell must be a cleric spell between 1st and 5th level that you have prepared, it must have a casting time of either 1 action or 1 bonus action and must be incapable of targeting more than one creature at the spell's current level. The snack lasts until it is consumed or until the end of your next long rest.",
+				"When a creature consumes the snack as an action, the spell is cast with them as the target. The spell uses your spellcasting ability. If the spell normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any {@class cleric|phb} cantrip."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Gourmet Snacks",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Feast",
+			"subclassSource": "Jackalope",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you roll for damage or healing on a spell cast using your Spell Storing Snacks feature, you can instead choose to deal maximum damage or healing, instead of rolling. Once you use this feature, you cannot do so again until you finish a long rest."
 			]
 		}
 	],
