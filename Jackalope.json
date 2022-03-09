@@ -7579,6 +7579,65 @@
 					"source": "PHB"
 				}
 			]
+		},
+		{
+			"name": "Experimenter",
+			"shortName": "Experimenter",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassFeatures": [
+					"Experimenter|Artificer|TCE|Experimenter|Jackalope|3",
+					"Experimenter Spells|Artificer|TCE|Experimenter|Jackalope|3",
+					"Additional Infusion|Artificer|TCE|Experimenter|Jackalope|3",
+					"Experimental Artifice|Artificer|TCE|Experimenter|Jackalope|3",
+					"Radiation Burst|Artificer|TCE|Experimenter|Jackalope|5",
+					"Marginal Control|Artificer|TCE|Experimenter|Jackalope|9",
+					"Unbalanced Inspiration|Artificer|TCE|Experimenter|Jackalope|9",
+					"Dubious Reserves|Artificer|TCE|Experimenter|Jackalope|15"
+			],
+			"subclassSpells": [
+				{
+					"name": "Chaos Bolt",
+					"source": "XGE"
+				},
+				{
+					"name": "Jim's Magic Missile",
+					"source": "AI"
+				},
+				{
+					"name": "Nathair's Mischief",
+					"source": "FTD"
+				},
+				{
+					"name": "Pyrotechnics",
+					"source": "XGE"
+				},
+				{
+					"name": "Blink",
+					"source": "PHB"
+				},
+				{
+					"name": "Hypnotic Pattern",
+					"source": "PHB"
+				},
+				{
+					"name": "Confusion",
+					"source": "PHB"
+				},
+				{
+					"name": "Polymorph",
+					"source": "PHB"
+				},
+				{
+					"name": "Animate Objects",
+					"source": "PHB"
+				},
+				{
+					"name": "Destructive Wave",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -8606,6 +8665,247 @@
 			"header": 2,
 			"entries": [
 				"Starting at 17th level, when you roll for damage or healing on a spell cast using your Spell Storing Snacks feature, you can instead choose to deal maximum damage or healing, instead of rolling. Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Experimenter",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 3,
+			"entries": [
+				"Experimentation is a critical part of arcane research, most prefer to take a more cautious approach, rarely venturing beyond their own capabilities. You however prefer to push as far as you can go just to see what happens. This means the artifice you produce can be very powerful but is chaotic and difficult to control, even you don't fully understand it."
+			]
+		},
+		{
+			"name": "Experimenter Spells",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Experimenter Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Experimenter Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd Level",
+							"{@spell chaos bolt|xge}, {@spell jim's magic missile |ai}"
+						],
+						[
+							"5th Level",
+							"{@spell nathair's mischief|ftd}, {@spell pyrotechnics|xge}"
+						],
+						[
+							"9th Level",
+							"{@spell blink|phb}, {@spell hypnotic pattern|phb}"
+						],
+						[
+							"13th Level",
+							"{@spell confusion|phb}, {@spell polymorph|phb}"
+						],
+						[
+							"17th Level",
+							"{@spell animate objects|phb}, {@spell destructive wave|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Additional Infusion",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you can infuse one additional item at a time."
+			]
+		},
+		{
+			"name": "Experimental Artifice",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, whenever you expend an artificer spell slot, the DM may have you roll a d20. If you roll a 1, you trigger a chaos effect and must roll on the chaos effects table below. When you trigger a chaos effect, you cannot do so again until the current one ends.",
+				"If a chaos effect is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+				{
+					"type": "table",
+					"caption": "Chaos Effects",
+					"colLabels": [
+						"1d20",
+						"Chaos Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Each of your infused items becomes non-magical and loses any benefits granted by the infusion. This lasts 1 minute, after which the items regain the benefits of the infusion."
+						],
+						[
+							"2",
+							"Each of your infused items lets out a horrifying scream. Any creatures within 5ft of an infused item must make a Wisdom saving throw against your artificer spell save DC or be {@condition frightened} of the item until the end of your next turn."
+						],
+						[
+							"3",
+							"Each of your infused items lets out a toxic vapor. Any creatures within 5ft of an infused item must make a Constitution saving throw against your artificer spell save DC or be {@condition poisoned} until the end of your next turn."
+						],
+						[
+							"4",
+							"Each creature that is wearing or carrying at least one of your infused items is instantly transported 30ft in a random direction, including up or down. If they arrive in a space already occupied by an object or a creature, they take {@dice 2d6} force damage and are transported back to their original space."
+						],
+						[
+							"5",
+							"Each of your infused items emits a harmless but foul smelling smoke or fluid of a random color for 1 minute. Each creature that is wearing or carrying at least one of your infused items has disadvantage on any ability check to interact socially for this duration."
+						],
+						[
+							"6",
+							"Each of your infused items begin emitting dramatic music for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions have advantage on Charisma checks, but also have disadvantage on Dexterity (Stealth) checks."
+						],
+						[
+							"7",
+							"Each of your infused items begin to produce a dense fog in the surrounding area for 1 minute. For the duration, the area in a 10-foot radius sphere centered on the item is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) can disperse the fog until the end of your next turn, after which the area becomes obscured again."
+						],
+						[
+							"8",
+							"Each of your infused items deposits burning coals next to it as casts the {@spell create bonfire|xge} cantrip in a random space adjacent to it. This casting uses your character level and artificer spell save DC."
+						],
+						[
+							"9",
+							"Each of your infused items begin producing colorful bubbles for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions rise vertically 5 feet on each of their turns, as if under the effect of the {@spell levitate|phb} spell."
+						],
+						[
+							"10",
+							"Each creature that is wearing or carrying at least one of your infused items must roll a {@dice d2}. On a 1, they shrink for 1 minute, as if affected by the Reduce effect of the {@spell enlarge/reduce|phb} spell. On a 2, they grow for 1 minute, as if affected by the Enlarge effect of the same spell."
+						],
+						[
+							"11",
+							"Each creature that is wearing or carrying at least one of your infused items grows an additional eye that grants them blindsight out to 15ft for 1 minute."
+						],
+						[
+							"12",
+							"Each creature that is wearing or carrying at least one of your infused items becomes {@condition invisible} for 1 minute, or until they make an attack or cast a spell."
+						],
+						[
+							"13",
+							"Each creature that is wearing or carrying at least one of your infused items can immediately use their reaction to move up to their full movement without provoking opportunity attacks."
+						],
+						[
+							"14",
+							"Each creature that is wearing or carrying at least one of your infused items is gains {@dice 1d8} temporary hit points for each item they wear or carry as the items start humming a calming melody."
+						],
+						[
+							"15",
+							"Each creature that is wearing or carrying at least one of your infused items is joined by a random tiny beast of CR 0, such as a {@creature cat|mm} or {@creature hare|IDRotF}. The creature and the beast are both {@condition charmed} by each other. The beast obeys the creature's commands and acts on their turn. This lasts for one hour, until the beast dies or if it's ever more than 30ft away from the creature, after which the beast disappears into mist."
+						],
+						[
+							"16",
+							"If a creature uses one of your infused items to make a weapon attack in the next minute, they can roll one additional damage die when determining the damage of the attack as the weapon grows an extra blade, head or round."
+						],
+						[
+							"17",
+							"If a creature uses one of your infused items as a spellcasting focus to cast a spell in the next minute, they gain a bonus to one of the spell's damage or healing rolls equal to {@dice 1d8}."
+						],
+						[
+							"18",
+							"If a creature uses one of your infused items as armor, or a shield, and is hit by an attack in the next minute, the attacker takes {@dice 1d6} force damage as the item counterattacks."
+						],
+						[
+							"19",
+							"Once on each of your turns for the next minute, you can choose one of your infused items to shoot a spark of lightning at a creature of your choice within 15ft of it (no action required). The creature must make a Dexterity saving throw against your artificer spell save DC or take {@dice 2d6} lightning damage."
+						],
+						[
+							"20",
+							"Each creature that is wearing or carrying at least one of your infused items regains an expended spell slot of 3rd-level or lower (the creature's choice)."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiation Burst",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can use an action can broadcast a wave of energy that may help or hinder those nearby. Roll a number of d8s equal to your proficiency bonus, the effect is determined by whether you rolled an even or an odd total on the dice:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@bold Soothing (Even).} Any creatures within 15ft of you gain temporary hit points equal to the result of the roll. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect.",
+						"{@bold Withering (Odd).} Any creatures within 15ft of you must make a Constitution saving throw against your artificer spell save DC. Each creature takes force damage equal to the result of the roll on a failed save, or half as much damage on a successful one. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect."
+					]
+				},
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Marginal Control",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, whenever you roll a d20 for your Experimental Artifice feature, you may roll 2 d20s and choose which result to use."
+			]
+		},
+		{
+			"name": "Unbalanced Inspiration",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, when you roll for an ability check or attack roll, you can utilise your chaotic artifice to gain advantage on the roll. Until the start of your next turn, you have disadvantage on all saving throws.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Dubious Reserves",
+			"source": "Jackalope",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Experimenter",
+			"subclassSource": "Jackalope",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th, you can use an action to touch a magical item that has expended charges, and have it instantly regain {@dice 1d6-1} charges. To use this feature, the item must be capable of regaining charges daily.",
+				"Once you use this feature, you can't do so again until you finish a long rest or until you expend an artificer spell slot of 3rd level or higher. Expending a spell slot in this way automatically triggers a chaos effect as described in your Experimental Artifice feature."
 			]
 		}
 	],
