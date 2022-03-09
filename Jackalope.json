@@ -62,18 +62,6 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "Ratpack",
-				"abbreviation": "J:Ratpack",
-				"color": "197531",
-				"full": "Jackalope: The Ratpack",
-				"authors": [
-					"Jackalope"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-				"targetSchema": "1.0.0"
-			},
-			{
 				"json": "CoM",
 				"abbreviation": "J:Morrigan",
 				"color": "2f7024",
@@ -5811,52 +5799,20 @@
 			]
 		},
 		{
-			"name": "Rat",
-			"source": "Ratpack",
-			"darkvision": "60 in. or 5",
+			"name": "Ratfolk",
+			"source": "Jackalope",
+			"size": "S",
+			"speed": 30,
+			"darkvision": 60,
+			"lineage": "VRGR",
 			"traitTags": [
 				"Damage Resistance"
 			],
-			"size": "M",
+			"size": "S",
 			"speed": {
-				"walk": "30 in. or 2.5"
+				"walk": "30"
 			},
 			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"Rats tend to mature around 6 months and rarely live more than 2 years in the wild. Some domesticated rats can live an extra year or two."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"Rats are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Rats come in various sizes, usually between 9 and 12 inches long, not including the tail. Your size is medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak Beast Speech and Rodent."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Form",
-					"entries": [
-						"Your type is beast rather than humanoid."
-					]
-				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
@@ -5875,54 +5831,30 @@
 					"type": "entries",
 					"name": "Poison Susceptibility",
 					"entries": [
-						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to poison damage and have disadvantage on saving throws to avoid the poison condition."
+						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to poison damage and have disadvantage on saving throws to avoid or remove the poison condition."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Disease Resistance",
 					"entries": [
-						"You have advantage on saving throws to avoid diseases."
+						"You have advantage on saving throws to avoid or remove diseases."
 					]
 				}
 			],
 			"subraces": [
 				{
 					"name": "Giant Rat",
-					"source": "Ratpack",
+					"source": "Jackalope",
 					"traitTags": [
-						"Powerful Build",
 						"Skill Proficiency"
-					],
-					"ability": [
-						{
-							"str": 2,
-							"choose": {
-								"from": [
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-								],
-							"count": 1,
-							"amount": 1
-							}
-						}
 					],
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Menacing",
+							"name": "Hulking Frame",
 							"entries": [
-								"You gain proficiency in the {@skill Intimidation} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Powerful Build",
-							"entries": [
-								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+								"You gain proficiency in the {@skill Athletics} and {@skill Intimidation} skills."
 							]
 						},
 						{
@@ -5935,153 +5867,117 @@
 					]
 				},
 				{
-						"name": "Plague Rat",
-						"source": "Ratpack",
-						"ability": [
-							{
-								"con": 2,
-								"choose": {
-            			"from": [
-                	"str",
-                	"dex",
-                	"int",
-                	"wis",
-                	"cha"
-            			],
-            		"count": 1,
-            		"amount": 1
-        				}
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Plague Bite",
-								"entries": [
-									"Once per turn, when you hit a creature with an unarmed attack you can force that creature to roll a DC10 Constitution saving throw or gain the poisoned condition."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "The Plague",
-								"entries": [
-									"Whenever you finish a long rest, you must roll a {@dice d20} and consult the table below.",
-									{
-										"type": "table",
-										"colLabels": [
-											"d20",
-											"Outcome"
-										],
-										"colStyles": [
-											"col-1 text-center",
-											"col-11"
-										],
-										"rows": [
-											[
-												"20",
-												"Once per turn, when you hit a creature with an unarmed attack you can deal an addtional {@dice 1d8} poison damage. This lasts until the end of your next long rest."
-											],
-											[
-												"17-19",
-												"Once per turn, when you hit a creature with an unarmed attack you can deal an addtional {@dice 1d6} poison damage. This lasts until the end of your next long rest."
-											],
-											[
-												"14-16",
-												"Once per turn, when you hit a creature with an unarmed attack you can deal an addtional {@dice 1d4} poison damage. This lasts until the end of your next long rest."
-											],
-											[
-												"11-13",
-												"Once per turn, when you hit a creature with an unarmed attack you can deal an addtional 1 poison damage. This lasts until the end of your next long rest."
-											],
-											[
-												"8-10",
-												"You regain half your maximum hit points (minimum of 1) from finishing this long rest"
-											],
-											[
-												"5-7",
-												"You regain no hit points from finishing this long rest"
-											],
-											[
-												"2-4",
-												"You regain no hit points from finishing this long rest and gain one level of exhaustion."
-											],
-											[
-												"1",
-												"You drop to 0 hit points and gain one level of exhaustion."
-											]
-										]
-									}
-								]
-							}
-						]
-					},
-				{
-						"name": "Lab Rat",
-						"source": "Ratpack",
-						"traitTags": [
-							"Magic Resistance",
-							"Tool Proficiency",
-							"Spellcasting"
-						],
-						"ability": [
-							{
-								"int": 2,
-								"choose": {
-									"from": [
-									"str",
-									"dex",
-									"con",
-									"wis",
-									"cha"
+					"name": "Plague Rat",
+					"source": "Jackalope",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Plague Bite",
+							"entries": [
+								"Once per turn, when you hit a creature with an unarmed strike you can force that creature to roll a DC10 Constitution saving throw or gain the {@condition poisoned} condition for 1 minute."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Plague",
+							"entries": [
+								"Whenever you finish a long rest, you must roll a {@dice d20} and consult the table below to determine the effect. The effect lasts until the end of your next long rest, or until the it is removed by the {@spell lesser restoration|phb} or {@spell greater restoration|phb} spell.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d20",
+										"Plague Effect"
 									],
-								"count": 1,
-								"amount": 1
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"You have disadvantge on all ability checks, attack rolls and saving throws."
+										],
+										[
+											"2",
+											"You have disadvantge on all ability checks and saving throws."
+										],
+										[
+											"3",
+											"You have disadvantge on Strength checks and saving throws."
+										],
+										[
+											"4",
+											"You have disadvantge on Dexterity checks and saving throws."
+										],
+										[
+											"5",
+											"You have disadvantge on Constitution checks and saving throws."
+										],
+										[
+											"6",
+											"You have disadvantge on Intelligence checks and saving throws."
+										],
+										[
+											"7",
+											"You have disadvantge on Wisdom checks and saving throws."
+										],
+										[
+											"8",
+											"You have disadvantge on Charisma checks and saving throws."
+										],
+										[
+											"9-12",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 1d4} poison damage."
+										],
+										[
+											"13-16",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 2d4} poison damage."
+										],
+										[
+											"17-20",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 3d4} poison damage."
+										]
+									]
 								}
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Rodent Cunning",
-								"entries": [
-									"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Lab Training",
-								"entries": [
-									"You gain proficiency with one type of {@item artisan's tools|phb} of your choice."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Glyph Master",
-								"entries": [
-									"You can spend one minute to read or write up to 25 words in any written language."
-								]
-							}
-						]
-					},
+							]
+						}
+					]
+				},
+				{
+					"name": "Lab Rat",
+					"source": "Jackalope",
+					"traitTags": [
+						"Magic Resistance",
+						"Tool Proficiency",
+						"Spellcasting"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Rodent Cunning",
+							"entries": [
+								"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lab Training",
+							"entries": [
+								"You gain proficiency with one type of {@item artisan's tools|phb} of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Glyph Master",
+							"entries": [
+								"You can spend one minute to read or write up to 25 words in any written language."
+							]
+						}
+					]
+				},
 				{
 					"name": "Street Rat",
-					"source": "Ratpack",
-					"ability": [
-						{
-							"wis": 2,
-							"choose": {
-								"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"cha"
-								],
-							"count": 1,
-							"amount": 1
-							}
-						}
-					],
+					"source": "Jackalope",
 					"entries": [
 						{
 							"type": "entries",
@@ -6101,37 +5997,21 @@
 				},
 				{
 					"name": "Ship Rat",
-					"source": "Ratpack",
+					"source": "Jackalope",
 					"speed": {
-						"walk": "30 in. or 2.5",
-						"swim": "30 in. or 2.5"
+						"walk": "30",
+						"swim": "30"
 					},
 					"traitTags": [
 						"Skill Proficiency",
 						"Tool Proficiency"
 					],
-					"ability": [
-						{
-							"cha": 2,
-							"choose": {
-								"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis"
-								],
-							"count": 1,
-							"amount": 1
-							}
-						}
-					],
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Swim Speed",
+							"name": "Speed",
 							"entries": [
-								"You have a swimming speed of 30 inches."
+								"Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
 							]
 						},
 						{
@@ -6149,418 +6029,32 @@
 							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"name": "Warforged Rat",
-			"source": "Ratpack",
-			"traitTags": [
-				"Condition Immunity",
-				"Damage Resistance",
-				"Improved Resting",
-				"Skill Proficiency",
-				"Tool Proficiency"
-			],
-			"size": "M",
-			"speed": "30 in. or 2.5",
-			"ability": [
-				{
-					"con": 2,
-					"choose": {
-						"from": [
-						"str",
-						"dex",
-						"int",
-						"wis",
-						"cha"
-						],
-					"count": 1,
-					"amount": 1
-					}
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects."
-					]
 				},
 				{
-					"type": "entries",
-					"name": "Alignment",
+					"name": "Mouse",
+					"source": "Jackalope",
 					"entries": [
-						"Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Warforged Rats come in various sizes, usually between 9 and 12 inches long, not including the tail. Your size is medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak Beast Speech and Rodent."
-					]
-				},
-				{
-					"name": "Constructed Resilience",
-					"type": "entries",
-					"entries": [
-						"You were created to have remarkable fortitude, represented by the following benefits:",
 						{
-							"type": "list",
-							"items": [
-								"You have advantage on saving throws against being poisoned, and you have resistance to {@condition poison|phb} damage.",
-								"You don't need to eat, drink, or breathe.",
-								"You are immune to disease.",
-								"You don't need to sleep, and magic can't put you to sleep."
+							"type": "entries",
+							"name": "Quiet as a mouse",
+							"entries": [
+								"You have proficiency in the Stealth skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mouse Nimbleness",
+							"entries": [
+								"You count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
+							]
+						},
+						{
+							"type": "entries",
+							"name": " Nimble Escape",
+							"entries": [
+								"You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
 							]
 						}
-					]
-				},
-				{
-					"name": "Sentry's Rest",
-					"type": "entries",
-					"entries": [
-						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
-					]
-				},
-				{
-					"name": "Integrated Protection",
-					"type": "entries",
-					"entries": [
-						"Your body has built-in defensive layers, which can be enhanced with armor:",
-						{
-							"type": "list",
-							"items": [
-								"You gain a +1 bonus to Armor Class.",
-								"You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
-								"While you live, the armor incorporated into your body can't be removed against your will."
-							]
-						}
-					]
-				},
-				{
-					"name": "Specialized Design",
-					"type": "entries",
-					"entries": [
-						"You gain one skill proficiency and one tool proficiency of your choice."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mouse",
-			"source": "Ratpack",
-			"darkvision": "60 in. or 5",
-			"traitTags": [
-				"Skill Proficiency"
-			],
-			"size": "S",
-			"speed": {
-				"walk": "25 in. or 2"
-			},
-
-			"ability": [
-				{
-					"dex": 2,
-					"choose": {
-						"from": [
-						"str",
-						"con",
-						"int",
-						"wis",
-						"cha"
-						],
-					"count": 1,
-					"amount": 1
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Mice tend to mature around 6 months and rarely live more than 2 years in the wild. Some domesticated mice can live an extra year or two."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Mice are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
-					]
-				},
-				{
-					"name": "Size",
-					"type": "entries",
-					"entries": [
-						"Mice are usually less than 4 inches long, not including tail. Your size is small."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak Beast Speech and Rodent."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Form",
-					"entries": [
-						"Your type is beast rather than humanoid."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 inches of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Keen Smell",
-					"entries": [
-						"You have advantage on Wisdom (Perception) checks that rely on smell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Poison Susceptibility",
-					"entries": [
-						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to poison damage and have disadvantage on saving throws to avoid the poison condition."
-					]
-				},
-				{
-					"name": "Quiet as a mouse",
-					"type": "entries",
-					"entries": [
-						"You have proficiency in the {@skill Stealth} skill."
-					]
-				},
-				{
-					"name": "Mouse Nimbleness",
-					"type": "entries",
-					"entries": [
-						"You can move through the space of any creature that is of a size larger than yours."
-					]
-				},
-				{
-					"name": "Nimble Escape",
-					"type": "entries",
-					"entries": [
-						"You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
-					]
-				}
-			]
-		},
-		{
-			"name": "Spider",
-			"source": "Ratpack",
-			"darkvision": "60 in. or 5",
-			"traitTags": [
-				"Spellcasting"
-			],
-			"size": "S",
-			"speed": {
-				"walk": "25 in. or 2",
-				"climb": "25 in. or 2"
-			},
-			"ability": [
-				{
-					"choose": {
-						"from": [
-						"str",
-						"dex",
-						"con",
-						"int",
-						"wis",
-						"cha"
-						],
-					"count": 3,
-					"amount": 1
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Spiders tend to live less than three years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Spiders are almost always chaotic in nature. They are rarely wholly evil or good, tending more towards neutral alignments."
-					]
-				},
-				{
-					"name": "Size",
-					"type": "entries",
-					"entries": [
-						"Spiders can have legspans ranging from 2 to 5 inches. Your size is small."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak Beast Speech and Arthropod."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 inches of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Form",
-					"entries": [
-						"Your type is beast rather than humanoid."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Spider Climb",
-					"entries": [
-						"You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Web Sense",
-					"entries": [
-						"While in contact with a web, you know the exact location of any other creature in contact with the same web."
-					]
-				},
-				{
-					"name": "Web Walker",
-					"type": "entries",
-					"entries": [
-						"The spider ignores movement restrictions caused by webbing."
-					]
-				},
-				{
-					"name": "Silksmith",
-					"type": "entries",
-					"entries": [
-						"As an action, you can produce up 100 inches of silk rope. Once you do so, you cannot do so again until you finish a short or long rest."
-					]
-				},
-				{
-					"name": "Webshooter",
-					"type": "entries",
-					"entries": [
-						"Starting at 3rd level, you can cast the {@spell web|phb} spell (spell save DC14). Once you cast the spell with this trait, you can't cast that spell with it again until you finish a long rest. You don't require material components for this spell."
-					]
-				}
-			]
-		},
-		{
-			"name": "Toad",
-			"source": "Ratpack",
-			"traitTags": [
-    		"Amphibious"
-			],
-			"size": "S",
-			"speed": {
-				"walk": "25 in. or 2",
-				"swim": "25 in. or 2"
-			},
-			"ability": [
-				{
-					"str": 2,
-					"choose": {
-						"from": [
-						"dex",
-						"con",
-						"int",
-						"wis",
-						"cha"
-						],
-					"count": 1,
-					"amount": 1
-					}
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Toads usually mature from tadpoles after 50 days. Toads can live up 12 years."
-					]
-				},
-				{
-					"name": "Alignment",
-					"type": "entries",
-					"entries": [
-						"Toads tend towards chaotic alignments."
-					]
-				},
-				{
-					"name": "Size",
-					"type": "entries",
-					"entries": [
-						"Toads can be up to 5 inches. Your size is small."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak Beast Speech and Aquatic."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Beast Form",
-					"entries": [
-						"Your type is beast rather than humanoid."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Swim Speed",
-					"entries": [
-						"You have a swimming speed of 25 inches."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Amphibious",
-					"entries": [
-						"The frog can breathe air and water."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Leapfrog",
-					"entries": [
-						"Whenever you make a long or high jump, you can double the range, even when making a standing jump."
-					]
-				},
-				{
-					"name": "Long Tongue",
-					"type": "entries",
-					"entries": [
-						"When you take the {@action grapple} action, you can target a creature up to 15 inches away. The creature must be small or tiny. While you have a creature grappled in this way, you can use a bonus action to make another grapple check. If you succeed, the creature is pulled to within 5 inches of you."
 					]
 				}
 			]
