@@ -50,18 +50,6 @@
 				"targetSchema": "1.0.0"
 			},
 			{
-				"json": "JB",
-				"abbreviation": "J:JB",
-				"color": "b30000",
-				"full": "Jackalope: The Magical Adventures of the Jackalope Brigade",
-				"authors": [
-					"Jackalope"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-				"targetSchema": "1.0.0"
-			},
-			{
 				"json": "CoM",
 				"abbreviation": "J:Morrigan",
 				"color": "2f7024",
@@ -3464,7 +3452,7 @@
 			"name": "Xerc's Tin Foil Hat",
 			"wondrous": "true",
 			"rarity": "rare",
-			"source": "JB",
+			"source": "Jackalope",
 			"entries": [
 				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
 			]
@@ -3473,7 +3461,7 @@
 			"name": "Xerc's Medicinal Cheese",
 			"wondrous": "true",
 			"rarity": "uncommon",
-			"source": "JB",
+			"source": "Jackalope",
 			"entries": [
 				"This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
 				"When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier."
@@ -5694,8 +5682,8 @@
 			]
 		},
 		{
-			"name": "Eldritch Cannon",
-			"source": "JB",
+			"name": "Awakened Cannon",
+			"source": "Jackalope",
 			"darkvision": 60,
 			"traitTags": [
 				"Condition Immunity",
@@ -5706,9 +5694,7 @@
 				"Uncommon Race"
 			],
 			"size": "S",
-			"speed": {
-				"walk": 25
-			},
+			"speed": 30,
 			"ability": [
 				{
         "choose": {
@@ -5787,22 +5773,28 @@
 					"name": "Natural Armor.",
 					"type": "entries",
 					"entries": [
-						"Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
-					]
-				},
-				{
-					"name": "Shell Defence.",
-					"type": "entries",
-					"entries": [
-						"You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are {@condition prone|phb}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell."
+						"Due to your shell and the shape of your body, you are ill-suited to wearing armor and gain no benefit from wearing it. Your shell provides ample protection, however; your base armor class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
 					]
 				},
 				{
 					"name": "Force Ballista.",
 					"type": "entries",
 					"entries": [
-						"If you have the Spellcasting or the Pact Magic class feature, the {@spell Tin's Force Ballista|JB} spell is added to the spell list of your spellcasting class."
+						"You know the {@spell Tin's Force Ballista|Jackalope} cantrip.",
+						"  Intelligence, Wisdom, or Charisma is your spellcasting ability for this cantrip when you cast it with this trait (choose when you select this race)."
 					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Eldritch Cannons are the living weapons of artificers. Most are simple unthinking machines but, in rare circumstances, a cannon may gain sentience and free will, becoming an Awakened Cannon.",
+					"Cannons come in all manner of sizes and shapes, despite this, they are treated as humanoids and are capable of all the actions of typical humanoids."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"machine speech": true
 				}
 			]
 		},
@@ -6776,7 +6768,7 @@
 		},
 		{
 			"name": "Tin's Force Ballista",
-			"source": "JB",
+			"source": "Jackalope",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -6811,9 +6803,17 @@
 			"races": [
 				{
 					"name": "Eldritch Cannon",
-					"source": "JB"
+					"source": "Jackalope"
 				}
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
 		},
 		{
 			"name": "Boomerang Blade",
