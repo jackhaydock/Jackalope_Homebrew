@@ -5254,6 +5254,11 @@
 					]
 				}
 			],
+			"traitTags": [
+				"Damage Resistance",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
 			"languageProficiencies": [
 				{
 					"any": 1,
@@ -5335,10 +5340,16 @@
 					]
 				}
 			],
+			"traitTags": [
+				"Amphibious",
+				"Damage Resistance",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"any": 1
+					"any": 1,
+					"common": true
 				}
 			]
 		},
@@ -5499,6 +5510,9 @@
 							"Spellcasting"
 						],
 						"darkvision": 60,
+						"traitTags": [
+							"Spellcasting"
+						],
 						"ability": [
 							{
 								"wis": 2,
@@ -5572,8 +5586,8 @@
 			},
 			"languageProficiencies": [
 				{
-					"common": true,
-					"choose": true
+					"any": 1,
+					"common": true
 				}
 			]
 		},
@@ -5674,16 +5688,10 @@
 			},
 			"languageProficiencies": [
 				{
-					"common": true,
-					"choose": true
+					"any": 1,
+					"common": true
 				}
-			],
-			"heightAndWeight": {
-    	"baseHeight": 74,
-    	"heightMod": "2d10",
-    	"baseWeight": 200,
-    	"weightMod": "2d6"
-			}
+			]
 		},
 		{
 			"name": "Eldritch Cannon",
@@ -5869,6 +5877,9 @@
 				{
 					"name": "Plague Rat",
 					"source": "Jackalope",
+					"traitTags": [
+						"Unarmed Strike"
+					],
 					"entries": [
 						{
 							"type": "entries",
@@ -5948,8 +5959,7 @@
 					"source": "Jackalope",
 					"traitTags": [
 						"Magic Resistance",
-						"Tool Proficiency",
-						"Spellcasting"
+						"Tool Proficiency"
 					],
 					"entries": [
 						{
@@ -6033,6 +6043,9 @@
 				{
 					"name": "Mouse",
 					"source": "Jackalope",
+					"traitTags": [
+						"Skill Proficiency"
+					],
 					"entries": [
 						{
 							"type": "entries",
@@ -6220,6 +6233,9 @@
 			"subraces": [
 					{
 					"name": "Mountain",
+					"traitTags": [
+						"Damage Resistance"
+					],
 					"source": "Jackalope",
 					"ability": [
 						{
@@ -6252,6 +6268,9 @@
 				},
 					{
 						"name": "Desert",
+						"traitTags": [
+							"Damage Resistance"
+						],
 						"source": "Jackalope",
 						"ability": [
 							{
@@ -6284,6 +6303,9 @@
 					},
 					{
 						"name": "Jungle",
+						"traitTags": [
+							"Damage Resistance"
+						],
 						"source": "Jackalope",
 						"ability": [
 							{
@@ -6317,8 +6339,8 @@
 				],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"choose": true
+					"any": 1,
+					"common": true
 				}
 			],
 			"fluff": {
@@ -6353,49 +6375,56 @@
 			],
 			"subraces": [
 					{
-					"name": "Wilderness",
-					"source": "Jackalope",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Wilderness Legacy",
-							"entries": [
-								"Accustomed to life in the wild, you have adapted to extreme environments. Choose one of the following legacy options for your kobold.",
-								{
-									"type": "list",
-									"style": "list-hang-notitle",
-									"items": [
-										"{@b {@i Cave Dweller.}} The range of your darkvsion increases to 120ft. In addition, you have advantage on Dexterity (Stealth) checks to hide in rocky terrain or dim light.",
-										"{@b {@i Cliff Climber.}} You have a climbing speed equal to your walking speed. In addition, you can jump up to your full long jump or high jump distance, even without a running start.",
-										"{@b {@i Sea Diver.}} You have a Swimming speed equal to your walking speed and can breathe underwater."
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-				"name": "Mutant",
-				"source": "Jackalope",
-				"entries": [
-					{
-						"type": "entries",
-						"name": "Mutant Legacy",
+						"name": "Wilderness",
+						"traitTags": [
+							"Amphibious"
+						],
+						"source": "Jackalope",
 						"entries": [
-							"You have developed some mutation that separates you from other kobolds. Choose one of the following legacy options for your kobold.",
 							{
-								"type": "list",
-								"style": "list-hang-notitle",
-								"items": [
-									"{@b {@i Draconic Hide.}} You have resistance to one of the following damage types (choose when you select this race); acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.",
-									"{@b {@i Tiny Target.}} You have a +1 bonus to your armor class. In addition, you count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures.",
-									"{@b {@i Vicious Weapons.}} You have sharp teath, claws, horns or tail spikes which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+								"type": "entries",
+								"name": "Wilderness Legacy",
+								"entries": [
+									"Accustomed to life in the wild, you have adapted to extreme environments. Choose one of the following legacy options for your kobold.",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											"{@b {@i Cave Dweller.}} The range of your darkvsion increases to 120ft. In addition, you have advantage on Dexterity (Stealth) checks to hide in rocky terrain or dim light.",
+											"{@b {@i Cliff Climber.}} You have a climbing speed equal to your walking speed. In addition, you can jump up to your full long jump or high jump distance, even without a running start.",
+											"{@b {@i Sea Diver.}} You have a Swimming speed equal to your walking speed and can breathe underwater."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Mutant",
+						"traitTags": [
+							"Damage Resistance",
+							"Unarmed Strike"
+						],
+						"source": "Jackalope",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Mutant Legacy",
+								"entries": [
+									"You have developed some mutation that separates you from other kobolds. Choose one of the following legacy options for your kobold.",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											"{@b {@i Draconic Hide.}} You have resistance to one of the following damage types (choose when you select this race); acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.",
+											"{@b {@i Tiny Target.}} You have a +1 bonus to your armor class. In addition, you count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures.",
+											"{@b {@i Vicious Weapons.}} You have sharp teath, claws, horns or tail spikes which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+										]
+									}
 								]
 							}
 						]
 					}
-				]
-			}
 			],
 			"languageProficiencies": [
 				{
@@ -6429,8 +6458,8 @@
 			},
 			"languageProficiencies": [
 				{
-					"common": true,
-					"choose": true
+					"any": 1,
+					"common": true
 				}
 			],
 			"entries": [
@@ -6499,6 +6528,15 @@
 				"walk": 30,
 				"fly": 30
 			},
+			"traitTags": [
+				"Unarmed Strike"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -6549,6 +6587,16 @@
 				"M"
 			],
 			"speed": 30,
+			"traitTags": [
+				"Damage Resistance",
+				"Unarmed Strike"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -6609,6 +6657,15 @@
 				"M"
 			],
 			"speed": 30,
+			"traitTags": [
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
