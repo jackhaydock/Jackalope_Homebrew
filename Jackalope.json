@@ -8502,7 +8502,7 @@
 					"style": "list-hang-notitle",
 					"items": [
 						"{@bold Chromatic.} The creature takes an additional {@dice 1d6} damage of the same type. When you reach 10th level in this class, the damage increases to {@dice 2d6}.",
-						"{@bold Metallic.} The damage taken by the creature is reduced by {@dice 1d8}. When you reach 10th level in this class, the damage increases to {@dice 2d6}.",
+						"{@bold Metallic.} The damage taken by the creature is reduced by {@dice 1d8}. When you reach 10th level in this class, the damage reduced increases to {@dice 2d8}.",
 						"{@bold Gem.} The creature must make a Wisdom saving throw against your warlock spell save DC. On a fail, they are {@condition frightened} by the source of the damage until the end of its next turn. When you reach 10th level in this class, the {@condition frightened} condition lasts for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
 					]
 				}
