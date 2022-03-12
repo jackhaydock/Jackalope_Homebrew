@@ -3589,26 +3589,27 @@
 			"dmgType": "P"
 		},
 		{
-			"name": "Bouncing Shield",
-			"type": "S",
+			"name": "Shield of Bouncing",
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"type": "M",
 			"weapon": true,
-			"baseItem": "shield|phb",
 			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
 			"dmgType": "B",
+			"weaponCategory": "Simple",
 			"source": "Jackalope",
 			"property": [
-				"F",
 				"L",
-				"T"
+				"T",
+				"V"
 			],
 			"range": "20/60",
 			"entries": [
-				"While wielding this shield, you gain a +2 bonus to AC if you are using no other shield.",
-				"When you make a ranged attack using this shield, the shield bounces back to your hand after the attack.",
-				"If you hit with a critical hit, you can make an addtional weapon attack with the shield against another target within 10ft of the original target."
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"In additon to a simple melee weapon, this weapon can be used as a {@item shield|phb}, granting a +2 bonus to your armour class if you are wielding no other shield.",
+				"Additionally, when you make a ranged attack using this weapon, the weapon bounces back to your hand after the attack."
 			]
 		},
 		{
