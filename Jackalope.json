@@ -2637,6 +2637,30 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Volatile Spit",
+			"source": "Jackalope",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "Yamatlaca"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"Your spit attacks are stronger than most. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Both the normal range and long range of your spit attack are doubled.",
+						"The damage die for your spit attack increases from a {@dice d4} to a {@dice d6}.",
+						"You can use a bonus action to build up acidic saliva before spitting it. The next time you hit a target with your spit attack, you deal an additional {@dice 1d6} acid damage."
+					]
+				}
+			]
 		}
 	],
 	"item": [
