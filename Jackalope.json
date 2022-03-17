@@ -6726,6 +6726,94 @@
 					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
 				]
 			}
+		},
+		{
+			"name": "Urodel",
+			"source": "Jackalope",
+			"alias": [
+				"Axo",
+				"Salaman"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+							"from": [
+								"str",
+								"dex",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Amphibious",
+				"Improved Resting"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slimy",
+					"entries": [
+						"You have advantage on rolls to avoid or escape the {@condition grappled|phb} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regeneration",
+					"entries": [
+						"Whenever you roll a hit die to regain hit points, you may add your proficiency bonus to the result of each roll. In addition, during a long rest, you can regrow any non-vital organs or limbs you have lost, such as arms, legs or eyes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"In the jungles and swamps of the world, many forms of life exist that can seem strange or alien to outsiders. This includes the Urodels, an amphibious and slimy people resembling large salamanders.",
+					"Also refered to as Axoes or Salamans, the Urodels are extraordinarily resilient thanks to their natural regeneration abilities, even regrowing entire limbs in a matter of hours."
+				]
+			}
 		}
 	],
 	"spell": [
