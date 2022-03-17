@@ -4963,7 +4963,7 @@
     {
         "name": "Pact Gunsmith",
         "source": "Caligos",
-        "featureType": "EI",
+        "featureType": ["EI"],
 				"prerequisite": [
     			{
         		"pact": "Blade"
@@ -5006,7 +5006,7 @@
 		{
 			"name": "Doomerang",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Blade"
@@ -5019,7 +5019,7 @@
 		{
 			"name": "Potent Weapon",
 			"source": "Jackalope",
-			"featureType": "AI",
+			"featureType": ["AI"],
 			"prerequisite": [
 				{
 					"item": [
@@ -5082,7 +5082,7 @@
 		{
 			"name": "Improved Pact Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield"
@@ -5096,7 +5096,7 @@
 		{
 			"name": "Guardian Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield"
@@ -5109,7 +5109,7 @@
 		{
 			"name": "Oversized Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield",
@@ -5123,7 +5123,7 @@
 		{
 			"name": "Feather Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield"
@@ -5136,7 +5136,7 @@
 		{
 			"name": "Immovable Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield",
@@ -5150,7 +5150,7 @@
 		{
 			"name": "Floating Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield"
@@ -5163,7 +5163,7 @@
 		{
 			"name": "Offensive Shield",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"pact": "Pact of the Shield"
@@ -5184,7 +5184,7 @@
 		{
 			"name": "Elemental Blast",
 			"source": "Jackalope",
-			"featureType": "EI",
+			"featureType": ["EI"],
 			"prerequisite": [
 				{
 					"spell": [
