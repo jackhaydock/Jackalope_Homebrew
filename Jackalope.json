@@ -2446,7 +2446,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two {@optfeature artificer infusion|tce|Artificer Infusions} of your choice from the artificer class (these are added to any existing artificer infusions you know from any other source).  Whenever you gain a level, you can replace one of these Artificer Infusion options with another one from the artificer class.",
+						"You learn two {@filter artificer infusions|optionalfeatures|Feature Type=AI} of your choice from the artificer class (these are added to any existing artificer infusions you know from any other source).  Whenever you gain a level, you can replace one of these Artificer Infusion options with another one from the artificer class.",
 						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions (if you can already infuse items, the number of items you can have infused at once is increased by one)."
 					]
 				}
@@ -3267,7 +3267,7 @@
 			"reqAttune": true,
 			"entries": [
 				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Enforcer.",
-				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any melee weapon that lacks the light and special properties. You can transform it back into a cane with another bonus action."
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter melee weapon that lacks the light and special properties|items|type=!futuristic;melee weapon;!modern;!treasure|property=!light;!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
 			]
 		},
 		{
@@ -3279,7 +3279,7 @@
 			"reqAttune": true,
 			"entries": [
 				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Officer.",
-				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any melee weapon that lacks the two-handed and special properties. You can transform it back into a cane with another bonus action."
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter melee weapon that lacks the two-handed and special properties|items|type=!futuristic;melee weapon;!modern;!treasure|property=!special;!two-handed|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
 			]
 		},
 		{
@@ -3291,7 +3291,7 @@
 			"reqAttune": true,
 			"entries": [
 				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Sharpshooter.",
-				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any ranged weapon that lacks the special property. You can transform it back into a cane with another bonus action."
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter ranged weapon that lacks the special property|items|type=!futuristic;!modern;range;!treasure|property=!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
 			]
 		},
 		{
@@ -8953,7 +8953,7 @@
 						],
 						[
 							"15",
-							"Each creature that is wearing or carrying at least one of your infused items is joined by a random tiny beast of CR 0, such as a {@creature cat|mm} or {@creature hare|IDRotF}. The creature and the beast are both {@condition charmed} by each other. The beast obeys the creature's commands and acts on their turn. This lasts for one hour, until the beast dies or if it's ever more than 30ft away from the creature, after which the beast disappears into mist."
+							"Each creature that is wearing or carrying at least one of your infused items is joined by a random {@filter tiny beast of CR 0|bestiary|Challenge Rating=[&0]|type=beast|miscellaneous=!swarm|size=t}, such as a {@creature cat|mm} or {@creature hare|IDRotF}. The creature and the beast are both {@condition charmed} by each other. The beast obeys the creature's commands and acts on their turn. This lasts for one hour, until the beast dies or if it's ever more than 30ft away from the creature, after which the beast disappears into mist."
 						],
 						[
 							"16",
