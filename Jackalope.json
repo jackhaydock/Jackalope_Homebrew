@@ -5013,7 +5013,7 @@
 				}
 			],
 			"entries": [
-					"You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range is doubled."
+					"You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range of the attack is doubled."
 			]
 		},
 		{
@@ -6959,24 +6959,46 @@
 				}
 			],
 			"range": {
-				"type": "point",
-				"distance": {
-					"type": "feet",
-					"amount": 30
+			"type": "radius",
+			"distance": {
+				"type": "feet",
+				"amount": 30
 				}
 			},
 			"components": {
 				"s": true,
-				"m": "a melee weapon that does not have the Heavy property."
+				"m":
+					{
+						"text": "a melee weapon worth at least 1 sp",
+						"cost": 10
+				}
 			},
 			"duration": [
 				{
-					"type": "instant"
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
 				}
 			],
 			"entries": [
-				"You magically launch the weapon used in the spell's casting at one creature you can see within range. Make a ranged spell attack. On a hit, the target suffers the weapon attack's normal effects, plus an extra {@dice 1d4} force damage. Hit or miss the weapon then returns to your hand.",
+				"You launch the weapon used in the spell's casting and make a ranged attack with it against a creature you can see within 30 feet of you, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. On a hit, the target suffers the weapon attack's normal effects, and takes an additional {@dice 1d4} force damage. Hit or miss the weapon then returns to your hand.",
 				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "force damage on hit",
+					"scaling": {
+						"1": "1d4",
+						"5": "2d4",
+						"11": "3d4",
+						"17": "4d4"
+					}
+				}
+			],
+			"damageInflict": [
+				"force"
 			],
 			"classes": {
 				"fromClassList": [
