@@ -895,6 +895,303 @@
 					"You are a raider for your clan in The Northlands. You lead a brutal and violent life constantly just an axe swing away from death, but it's worth it. The treasure you bring back to your clan grants you much glory and renown."
 				]
 			}
+		},
+		{
+			"name": "Magus of Hecate",
+			"source": "Cyranos",
+			"skillProficiencies": [
+				{
+					"arcana": true,
+					"religion": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Arcana}, {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One exotic language of your choice (agreed with the DM)."
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A bottle of black ink, a quill, a small knife, a ring or amulet signifying your membership in the Magi of Hecate, a set of {@item fine clothes|phb}, and a belt pouch containing 10gp."
+						}
+					]
+				},
+				{
+					"name": "Feature: Magi Membership",
+					"type": "entries",
+					"entries": [
+						"If you are still welcome with the Magi, you can rely on certain benefits that membership provides. You can meet up with colleagues in most settlements larger than a village. These colleagues can help you find information, jobs and make connections to potential allies and patrons. You can usually find enough odd jobs to fund a modest lifestyle with the Magi's help.",
+            "You may also earn small discounts when procuring services from other magi, such as performing certain spells, buying and crafting magic items or hiring tutors and mercenaries.",
+						"You must pay dues of 5 gp per month to the Magi of Hecate. If you miss payments, you must make up back dues to remain in the Magi's good graces. If you miss too many payments, you may be expelled and need to earn your way back in to regain the benefits of membership."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Magus Specialism",
+					"type": "entries",
+					"entries": [
+						"Some magi have specialist roles and tend towards jobs aligning with their specialisms. You can select your specialism from the table below or roll randomly, you may also come up with your own.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d12",
+								"Specialism",
+								"Typical Jobs"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Generalist.",
+									"No specialism."
+								],
+								[
+									"2",
+									"Utilitarian.",
+									"Repairing tools and furniture and performing basic tasks for people."
+								],
+								[
+									"3",
+									"Entertainer.",
+									"Performing party tricks, conjuring wine and fireworks."
+								],
+								[
+									"4",
+									"Alchemist.",
+									"Making and identifying potions and poisons."
+								],
+								[
+									"5",
+									"Archivist.",
+									"Collecting, trading and studying magic items and records."
+								],
+								[
+									"6",
+									"Healer.",
+									"Mending wounds, curing diseases and breaking curses."
+								],
+								[
+									"7",
+									"Enchanter.",
+									"Creating magic items, glyphs and wards."
+								],
+								[
+									"8",
+									"Tutor.",
+									"Training mages, from beginners to experts."
+								],
+								[
+									"9",
+									"Mercenary.",
+									"Fighting, supporting expeditions or training magically-enhanced troops."
+								],
+								[
+									"10",
+									"Zoologist.",
+									"Study of magic creatures and extra-planar beings."
+								],
+								[
+									"11",
+									"Researcher.",
+									"Experimenting and studying new spells and magic."
+								],
+								[
+									"12",
+									"Advisor.",
+									"Advisor to political, religious and military leaders, particularly on subjects related to magic."
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+							"Generally, most magi have experience with magic and are accomplished spellcasters, though this is not technically a requirement, the study of magic or magic items is usually enough to grant you membership. Despite their official devotion to Hecate, the magi tend to be more academic or vocational than religious.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I always listen deeply and think carefully before speaking."
+								],
+								[
+									"2",
+									"I am often insulted by the petty requests common people make of magi, they are a waste of my talents."
+								],
+								[
+									"3",
+									"I find my work or study far more interesting than dealing with people."
+								],
+								[
+									"4",
+									"I quote (or misquote) sacred texts and proverbs in almost every situation."
+								],
+								[
+									"5",
+									"I add a magical flair to almost everything I do, even simple activities like eating a meal or opening a book."
+								],
+								[
+									"6",
+									"I am always trying to talk people into hiring my services, even when they don't need them."
+								],
+								[
+									"7",
+									"I don't part with my money easily and will haggle tirelessly to get the best deal possible."
+								],
+								[
+									"8",
+									"I look down upon those who don't (or can't) use magic."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Generosity. My talents were given to me so that I could use them to benefit the world. (Good) "
+								],
+								[
+									"2",
+									"Law. Magic should be used to enforce the laws of both gods and mortals. (Lawful)"
+								],
+								[
+									"3",
+									"Knowledge. Improving personal and public knowledge should always be a goal, no matter who uses it. (Neutral)"
+								],
+								[
+									"4",
+									"Change. Magic is a tool with which anyone can change the world. (Chaotic)"
+								],
+								[
+									"5",
+									"Gain. I joined the magi solely to seek power, influence or wealth, that desire still drives me above all others. (Evil)"
+								],
+								[
+									"6",
+									"Aspiration. I seek to prove myself a worthy magus to the world and to Hecate herself. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I adore some or all of my colleagues and will do whatever I can to help them."
+								],
+								[
+									"2",
+									"Protecting, and providing for, my clients or students is my highest priority."
+								],
+								[
+									"3",
+									"My workshop or study is one place I feel truly safe and comfortable."
+								],
+								[
+									"4",
+									"Everything I do, I do to impress a specific person."
+								],
+								[
+									"5",
+									"My life's work is pursuing or protecting the answer to some great mystery."
+								],
+								[
+									"6",
+									"I have a rival magus, I will do all I can to be better than them."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"My curiosity regarding unknown magics can often lead me into danger."
+								],
+								[
+									"2",
+									"I'm quick to assume that someone is trying to cheat me."
+								],
+								[
+									"3",
+									"I always expect to be treated like nobility, even where I have no such authority or status."
+								],
+								[
+									"4",
+									"I frequently overwork myself at the cost of sleepy or eating properly."
+								],
+								[
+									"5",
+									"I am never wrong, even when I am."
+								],
+								[
+									"6",
+									"I fear that I am a fraud and can never live up to the praise and expectations placed upon me."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You hail from a famous tribe of warrior women known as the Amazons. Amazons pride themselves on their strength and independence. Men are not permitted among their ranks and are only used for breeding.",
+          "Some tribes have agreements with neighbouring tribes and settlements in which, once a year the strongest men are chosen to mate with the Amazons. Any girls born from this union are raised as Amazons themselves while the boys are sent back to their fathers.",
+          "In more aggressive tribes, men are captured during raids, enslaved and then slaughtered after the deed is done. Any boys resulting from these unions are usually killed or abandoned."
+				]
+			}
 		}
 	],
 	"deity": [
