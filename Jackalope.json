@@ -2891,7 +2891,7 @@
 			]
 		},
 		{
-			"name": "Angelic Force",
+			"name": "Angelic Revelation",
 			"source": "Jackalope",
 			"prerequisite": [
     		{
@@ -2907,12 +2907,12 @@
 				{
 					"type": "list",
 					"items": [
-						"You can use your Celestial Revelation trait again after finishing a short or long rest.",
-						"The range of your Necrotic Shroud trait is increased to 15ft.",
-						"The range of your Radiant Consumption trait is increased to 15ft. In addition, the light produced by this trait produces bright light out to 20ft and dim light out an additional 20ft.",
-						"The flying speed granted by your Radiant Soul trait is increased by 10ft."
+						"You can use your Celestial Revelation trait again after finishing a short or long rest. In addtion, when you finish a short or long rest, you can change your Celestial Revelation for a different one.",
+						"When you use the Necrotic Shroud or Radiant Consumption revelation, the range is 15ft, rather than 10ft. In addition, when you use the Radiant Soul revelation, your speed is increased by 10ft for the duration of your transformation.",
+						"When you, or a creature you can see within 5ft is targeted by an attack roll and you are using your Celestial Revelation trait, you can use a reaction to impose disadvantage on the attack roll as you obscure the targeted creature with your light or wings."
 					]
-				}
+				},
+				"{@note This feat was designed for use with the {@race aasimar|mpmm} race from Mordenkainen Presents: Monsters of the Multiverse. It may require adjustment to work with older versions of the race.}"
 			]
 		},
 		{
