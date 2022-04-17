@@ -4312,6 +4312,16 @@
 			"entries": [
 				"This eyeliner is imbued with magic powders that grant the wearer benefits for a short duration. As an action, you can apply the eyeliner to a creature. That creature has truesight out to 60ft for the next 8 hours, after which the eyeliner ceases to be magical."
 			]
+		},
+		{
+			"name": "Ring of False Death",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": "true",
+			"entries": [
+				"This dark metal ring is popular with spies and criminals. When you take damage, you can use a reaction to cast the {@spell feign death|phb} spell on yourself without providing material components. Once you do so, you can not do so again until the next dawn."
+			]
 		}
 	],
 	"monster": [
