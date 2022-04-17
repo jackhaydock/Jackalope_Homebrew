@@ -10919,6 +10919,111 @@
 				],
 				"bonusWeapon": "+1"
 			}
+		},
+		{
+			"name": "Entrapping Ammunition",
+			"type": "GV",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"namePrefix": "Entrapping ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the arrow transforms into a {@item net|phb}. The target is restrained as described in the net's description."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Enlarging Ammunition",
+			"type": "GV",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"namePrefix": "Enlarging ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Shrinking Ammunition",
+			"type": "GV",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"namePrefix": "Shrinking ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Shielding Ammunition",
+			"type": "GV",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"namePrefix": "Shielding ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Smoking Ammunition",
+			"type": "GV",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"namePrefix": "Smoking ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
 		}
 	],
 	"variantrule": [
