@@ -11222,6 +11222,168 @@
 				],
 				"bonusWeapon": "+1"
 			}
+		},
+		{
+			"name": "Weapon of the Enforcer",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a strength score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Enforcer",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Strength modifier, instead of Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Dancer",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a dexterity score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Dancer",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Dexterity modifier, instead of Strength modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Survivor",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a constitution score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Survivor",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Constitution modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Scholar",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a intelligence score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Scholar",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Prophet",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a wisdom score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				},
+				{
+					"type": "R",
+					"dmgType": "P"
+				},
+				{
+					"type": "R",
+					"dmgType": "S"
+				},
+				{
+					"type": "R",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Prophet",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Wisdom modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Herald",
+			"type": "GV",
+			"rarity": "uncommon",
+			"reqAttune": "by a creature with a charisma score of 13 or higher",
+			"source": "Jackalope",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"rarity": "uncommon",
+				"source": "Jackalope",
+				"nameSuffix": " of the Herald",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
 		}
 	],
 	"variantrule": [
