@@ -4328,7 +4328,7 @@
 		{
 			"name": "Amazon Huntress",
 			"source": "Cyranos",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "humanoid"
 			},
@@ -4419,7 +4419,7 @@
 		{
 			"name": "Amazon Warrior",
 			"source": "Cyranos",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "humanoid"
 			},
@@ -4524,7 +4524,7 @@
 		{
 			"name": "Mercenary Captain",
 			"source": "Cyranos",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "humanoid"
 			},
@@ -4623,7 +4623,7 @@
 		{
 			"name": "Mercenary Hoplite",
 			"source": "Cyranos",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "humanoid"
 			},
@@ -4708,7 +4708,7 @@
 		{
 			"name": "Mercenary Archer",
 			"source": "Cyranos",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "humanoid"
 			},
@@ -4784,7 +4784,7 @@
 		{
 			"name": "Warforged Bodyguard",
 			"source": "Jackalope",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -4903,7 +4903,7 @@
 		{
 			"name": "Warforged Horse",
 			"source": "Cyranos",
-			"size": "L",
+			"size": ["L"],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -4974,7 +4974,7 @@
 		{
 			"name": "Warforged Boar",
 			"source": "Cyranos",
-			"size": "L",
+			"size": ["L"],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -5045,7 +5045,7 @@
 		{
 			"name": "Warforged Dog",
 			"source": "Jackalope",
-			"size": "M",
+			"size": ["M"],
 			"type": {
 				"type": "construct",
 				"tags": [
@@ -5110,7 +5110,7 @@
 		{
 			"name": "Jackalope",
 			"source": "Jackalope",
-			"size": "S",
+			"size": ["S"],
 			"type": {
 				"type": "Fey"
 			},
@@ -5195,7 +5195,7 @@
 		{
 			"name": "Chicken",
 			"source": "Jackalope",
-			"size": "S",
+			"size": ["S"],
 			"type": {
 				"type": "Beast"
 			},
@@ -5519,7 +5519,7 @@
     		"light hammer|phb",
 				"warhammer|phb"
 			],
-			"size": "M",
+			"size": ["M"],
 			"speed": {
 				"walk": 25
 			},
@@ -5594,7 +5594,7 @@
 				"light crossbow|phb",
 				"net|phb"
 			],
-			"size": "M",
+			"size": ["M"],
 			"speed": {
 				"walk": 25,
 				"swim": 30
@@ -5921,7 +5921,7 @@
 					"str": 1
 				}
 			],
-			"size": "M",
+			"size": ["M"],
 			"speed": 30,
 			"entries": [
 				{
@@ -6025,7 +6025,7 @@
 				"Spellcasting",
 				"Uncommon Race"
 			],
-			"size": "S",
+			"size": ["S"],
 			"speed": 30,
 			"ability": [
 				{
@@ -6138,7 +6138,7 @@
 				"Rodent"
 			],
 			"source": "Jackalope",
-			"size": "S",
+			"size": ["S"],
 			"speed": 30,
 			"darkvision": 60,
 			"lineage": "VRGR",
@@ -6403,7 +6403,7 @@
 			"traitTags": [
 				"Tool Proficiency"
 			],
-			"size": "S",
+			"size": ["S"],
 			"speed": {
 				"walk": 25
 			},
@@ -6501,7 +6501,7 @@
 				"Llama"
 			],
 			"source": "Jackalope",
-			"size": "M",
+			"size": ["M"],
 			"speed": 30,
 			"entries": [
 				{
@@ -6684,7 +6684,7 @@
 		{
 			"name": "Kobold",
 			"source": "Jackalope",
-			"size": "S",
+			"size": ["S"],
 			"speed": 30,
 			"darkvision": 60,
 			"lineage": "VRGR",
@@ -6786,7 +6786,7 @@
 					}
 				}
 			],
-			"size": "S",
+			"size": ["S"],
 			"speed": {
 				"walk": 30,
 				"fly": 30
@@ -6862,7 +6862,7 @@
 					}
 				}
 			],
-			"size": "S",
+			"size": ["S"],
 			"speed": {
 				"walk": 30,
 				"fly": 30
@@ -9575,7 +9575,7 @@
 			"name": "Rowboat",
 			"source": "Jackalope",
 			"vehicleType": "SHIP",
-			"size": "L",
+			"size": ["L"],
 			"dimensions": [
 				"10 ft.",
 				"5 ft."
@@ -9659,7 +9659,7 @@
 			"name": "Small Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"30 ft.",
 				"10 ft."
@@ -9780,7 +9780,7 @@
 			"name": "Medium Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"70 ft.",
 				"20 ft."
@@ -9940,7 +9940,7 @@
 			"name": "Large Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"100 ft.",
 				"30 ft."
@@ -10100,7 +10100,7 @@
 			"name": "Flagship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"120 ft.",
 				"40 ft."
@@ -10261,7 +10261,7 @@
 			"name": "Lesboat",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"25 ft.",
 				"10 ft."
@@ -10366,7 +10366,7 @@
 			"name": "Karvi",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"60 ft.",
 				"20 ft."
@@ -10466,7 +10466,7 @@
 			"name": "Snekke",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"60 ft.",
 				"10 ft."
@@ -10566,7 +10566,7 @@
 			"name": "Skeid",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"90 ft.",
 				"15 ft."
@@ -10671,7 +10671,7 @@
 			"name": "Drakkar",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": "G",
+			"size": ["G"],
 			"dimensions": [
 				"120 ft.",
 				"20 ft."
@@ -10771,7 +10771,7 @@
 			"name": "Catamaran",
 			"source": "Jackalope",
 			"vehicleType": "SHIP",
-			"size": "H",
+			"size": ["H"],
 			"dimensions": [
 				"20 ft.",
 				"10 ft."
