@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
 	"_meta": {
 		"sources": [
 			{
@@ -378,7 +379,7 @@
       ],
 			"languageProficiencies": [
         {
-          "any": true
+          "any": 1
         }
       ],
 			"entries": [
@@ -3042,7 +3043,7 @@
 		},
 		{
 			"name": "Hourglass of Kronos",
-			"wondrous": "true",
+			"wondrous": true,
 			"source": "Cyranos",
 			"rarity": "rare",
 			"weight": 1,
@@ -3056,7 +3057,7 @@
 		},
 		{
 			"name": "Orb of Helios and Selene",
-			"wondrous": "true",
+			"wondrous": true,
 			"source": "Cyranos",
 			"rarity": "uncommon",
 			"weight": 3,
@@ -3067,7 +3068,7 @@
 		},
 		{
 			"name": "Sandals of the Styx",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3086,7 +3087,7 @@
 		},
 		{
 			"name": "Bellerophon's Horn",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3098,7 +3099,7 @@
 		},
 		{
 			"name": "Sandals of Atalanta",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3108,7 +3109,7 @@
 		},
 		{
 			"name": "Wings of Daedalus",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3119,7 +3120,7 @@
 		},
 		{
 			"name": "Helm of Darkness",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3132,7 +3133,7 @@
 		},
 		{
 			"name": "Nemean Lion Pelt",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"reqAttune": true,
@@ -3151,7 +3152,7 @@
 				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a ranged attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
 			],
 			"type": "M",
-			"rarity": "Rare",
+			"rarity": "rare",
 			"reqAttune": true,
 			"weaponCategory": "simple",
 			"property": [
@@ -3166,7 +3167,7 @@
 		},
 		{
 			"name": "Hippolyta's Girdle",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"reqAttune": true,
 			"source": "Cyranos",
@@ -3178,7 +3179,7 @@
 		},
 		{
 			"name": "Bolt of Zeus",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Cyranos",
 			"charges": 12,
@@ -3190,7 +3191,7 @@
 		},
 		{
 			"name": "Necklace of Beards",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"entries": [
@@ -3199,7 +3200,7 @@
 		},
 		{
 			"name": "Ring of Theatrics",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3209,7 +3210,7 @@
 		},
 		{
 			"name": "Ring of Tricks",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3219,7 +3220,7 @@
 		},
 		{
 			"name": "Gloves of the Gardener",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3536,7 +3537,7 @@
 		},
 		{
 			"name": "Inquisitor Mask",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"age": "renaissance",
 			"source": "Caligos",
@@ -3546,7 +3547,7 @@
 		},
 		{
 			"name": "Inquisitor Coat",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"age": "renaissance",
 			"source": "Caligos",
@@ -3557,7 +3558,7 @@
 		},
 		{
 			"name": "Inquisition Enforcer's Cane",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"age": "renaissance",
 			"source": "Caligos",
@@ -3569,7 +3570,7 @@
 		},
 		{
 			"name": "Inquisition Officer's Cane",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"age": "renaissance",
 			"source": "Caligos",
@@ -3581,7 +3582,7 @@
 		},
 		{
 			"name": "Inquisition Sharpshooter's Cane",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"age": "renaissance",
 			"source": "Caligos",
@@ -3644,8 +3645,8 @@
 			"name": "Bottomless Bullet Pouch",
 			"source": "Caligos",
 			"age": "renaissance",
-			"wondrous": "true",
-			"rarity": "Uncommon",
+			"wondrous": true,
+			"rarity": "uncommon",
 			"reqAttune": true,
 			"entries": [
 				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action.",
@@ -3654,7 +3655,7 @@
 		},
 		{
 			"name": "Firearm Scope",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "none",
 			"age": "renaissance",
 			"value": 20000,
@@ -3666,7 +3667,7 @@
 		},
 		{
 			"name": "Bayonet",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "none",
 			"age": "renaissance",
 			"value": 1500,
@@ -3678,8 +3679,8 @@
 		},
 		{
 			"name": "Homing Ink Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "rare",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3691,8 +3692,8 @@
 		},
 		{
 			"name": "Springstep Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3704,8 +3705,8 @@
 		},
 		{
 			"name": "Strong Grip Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3717,8 +3718,8 @@
 		},
 		{
 			"name": "Loyalty Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3731,8 +3732,8 @@
 		},
 		{
 			"name": "Burning Fist Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3747,8 +3748,8 @@
 		},
 		{
 			"name": "Wild Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3760,8 +3761,8 @@
 		},
 		{
 			"name": "Arcane Enhancement Tattoo",
-			"wondrous": "true",
-			"tattoo": "true",
+			"wondrous": true,
+			"tattoo": true,
 			"rarity": "rare",
 			"source": "Jackalope",
 			"entries": [
@@ -3771,7 +3772,7 @@
 		},
 		{
 			"name": "Xerc's Tin Foil Hat",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Jackalope",
 			"entries": [
@@ -3780,7 +3781,7 @@
 		},
 		{
 			"name": "Xerc's Medicinal Cheese",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"entries": [
@@ -3790,7 +3791,7 @@
 		},
 		{
 			"name": "Wild Magic Faggot",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"source": "Jackalope",
 			"reqAttune": true,
@@ -3805,7 +3806,7 @@
 		},
 		{
 			"name": "Boots of Dramatic Hovering",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"source": "Jackalope",
 			"entries": [
@@ -3826,7 +3827,7 @@
 		},
 		{
 			"name": "Poppy of Hypnos",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"source": "Cyranos",
 			"entries": [
@@ -3844,7 +3845,7 @@
 		},
 		{
 			"name": "Temporal Gearbox",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "very rare",
 			"source": "Jackalope",
 			"entries": [
@@ -3855,7 +3856,7 @@
 		},
 		{
 			"name": "Anti-Magic Collar",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"source": "Jackalope",
 			"entries": [
@@ -3865,7 +3866,7 @@
 		},
 		{
 			"name": "Cruel Anti-Magic Collar",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "very rare",
 			"source": "Jackalope",
 			"entries": [
@@ -3895,7 +3896,7 @@
 				"The Gáe Bulg can be removed from an impaled creature, or its corpse, with either a DC 18 Strength (Athletics) or Wisdom (Medicine) check as an action. On a fail, the creature takes {@dice 4d6} piercing damage and the creature is still impaled. On a success, the creature takes half the damage and the Gáe Bulg is removed."
 			],
 			"type": "M",
-			"rarity": "Legendary",
+			"rarity": "legendary",
 			"reqAttune": true,
 			"weaponCategory": "simple",
 			"property": [
@@ -3935,6 +3936,7 @@
 		},
 		{
 			"name": "Wheelchair",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 1000,
 			"weight": 40,
@@ -3958,6 +3960,7 @@
 		},
 		{
 			"name": "All-terrain Wheels",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 2000,
 			"weight": 10,
@@ -3970,6 +3973,7 @@
 		},
 		{
 			"name": "Racing Wheels",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 2000,
 			"weight": 5,
@@ -3983,7 +3987,7 @@
 		{
 			"name": "Hoverstone",
 			"source": "JWC",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "common",
 			"value": 5000,
 			"weight": 2,
@@ -3996,7 +4000,7 @@
 		{
 			"name": "Floats",
 			"source": "JWC",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"value": 150000,
 			"weight": 10,
@@ -4009,7 +4013,7 @@
 		{
 			"name": "Spider Legs",
 			"source": "JWC",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"reqAttune": true,
 			"value": 250000,
@@ -4023,7 +4027,7 @@
 		{
 			"name": "Greater Hoverstone",
 			"source": "JWC",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "rare",
 			"reqAttune": true,
 			"value": 500000,
@@ -4036,6 +4040,7 @@
 		},
 		{
 			"name": "Weapon Mount",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 500,
 			"weight": 5,
@@ -4048,6 +4053,7 @@
 		},
 		{
 			"name": "Armoured Plates",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 25000,
 			"weight": 60,
@@ -4060,6 +4066,7 @@
 		},
 		{
 			"name": "Ram",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 8000,
 			"weight": 30,
@@ -4072,6 +4079,7 @@
 		},
 		{
 			"name": "Heavy Wheels",
+			"rarity": "none",
 			"source": "JWC",
 			"value": 6000,
 			"weight": 40,
@@ -4084,7 +4092,7 @@
 		{
 			"name": "Remote Beacon",
 			"source": "JWC",
-			"wondrous": "true",
+			"wondrous": true,
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"value": 50000,
@@ -4193,7 +4201,7 @@
 			"name": "Tome of Many Cheeses",
 			"source": "Jackalope",
 			"rarity": "uncommon",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This slightly damp catalogue of different types of cheeses has a funny smell. As an action, you can choose one of the cheeses listed and summon up to 5lbs of that type of cheese in a space adjacent to you. The cheese disappears if it is not consumed within 24 hours. Once you summon cheese, you cannot do so again until the next dawn.",
 				"In addition, whenever you find a new form of non-magical cheese, you can spend 10 minutes describing it on a new page in the book. It can then be summoned using the book."
@@ -4227,7 +4235,7 @@
 			"source": "Jackalope",
 			"rarity": "rare",
 			"reqAttune": true,
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
 				"As an action you can expend a charge and open the cloak and {@dice 1d4} {@creature chicken|jackalope|chickens} fall out into adjacent spaces. The chickens are friendly to you and your allies, they will follow you and may attack any creatures or objects that attack you but are otherwise unable to understand any commands you make. The chickens last for 1 hour or until they die, after which they either enter the cloak again or disappear in a puff of feathers."
@@ -4238,7 +4246,7 @@
 			"source": "Jackalope",
 			"rarity": "rare",
 			"reqAttune": true,
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This broken bone is inscribed with arcane runes and has 5 charges. It regains {@dice 1d4+1} charges daily at dawn.",
 				"As an action, you can expend a number of charges to cast the {@spell Spectral Crew|jackalope} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
@@ -4248,7 +4256,7 @@
 			"name": "+1 Pugilist Bracers",
 			"source": "Jackalope",
 			"rarity": "uncommon",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"While wearing these leather bracers, you have a +1 bonus to attack and damage rolls made with unarmed strikes.",
 				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
@@ -4258,7 +4266,7 @@
 			"name": "+2 Pugilist Bracers",
 			"source": "Jackalope",
 			"rarity": "rare",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"While wearing these leather bracers, you have a +2 bonus to attack and damage rolls made with unarmed strikes.",
 				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
@@ -4268,7 +4276,7 @@
 			"name": "+3 Pugilist Bracers",
 			"source": "Jackalope",
 			"rarity": "very rare",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"While wearing these leather bracers, you have a +3 bonus to attack and damage rolls made with unarmed strikes.",
 				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
@@ -4278,7 +4286,7 @@
 			"name": "Bottle of Delights",
 			"source": "Jackalope",
 			"rarity": "common",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This clear, glass bottle can hold up to a gallon of liquid. When there is liquid in the bottle, you may cast {@spell Bazoz's Spicy Water|jackalope} on the liquid at will.",
 				"If you pour the liquid out of the bottle, the effects remain active in the liquid for 1 hour, or until you use the bottle to cast the cantrip again."
@@ -4299,7 +4307,7 @@
 			"name": "Silent Hammer",
 			"source": "Jackalope",
 			"rarity": "common",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This small, metal hammer produces no noise when used to strike something. The object or creature struck with the hammer also produces no noise as a result of the striking."
 			]
@@ -4308,7 +4316,7 @@
 			"name": "Magic Eyeliner",
 			"source": "Jackalope",
 			"rarity": "rare",
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This eyeliner is imbued with magic powders that grant the wearer benefits for a short duration. As an action, you can apply the eyeliner to a creature. That creature has truesight out to 60ft for the next 8 hours, after which the eyeliner ceases to be magical."
 			]
@@ -4318,7 +4326,7 @@
 			"source": "Jackalope",
 			"rarity": "rare",
 			"reqAttune": true,
-			"wondrous": "true",
+			"wondrous": true,
 			"entries": [
 				"This dark metal ring is popular with spies and criminals. When you take damage, you can use a reaction to cast the {@spell feign death|phb} spell on yourself without providing material components. Once you do so, you can not do so again until the next dawn."
 			]
@@ -5182,7 +5190,6 @@
 			],
 			"familiar": true,
 			"traitTags": [
-				"Cunning Action",
 				"Keen Senses"
 			],
 			"damageTags": [
@@ -5509,15 +5516,9 @@
 			"name": "Dwarf (Thalian)",
 			"source": "Cyranos",
 			"traitTags": [
-				"Damage Resistance",
 				"Skill Proficiency",
-				"Tool Proficiency"
-			],
-			"weaponProficiencies": [
-    		"battleaxe|phb",
-    		"handaxe|phb",
-    		"light hammer|phb",
-				"warhammer|phb"
+				"Tool Proficiency",
+				"Weapon Proficiency"
 			],
 			"size": ["M"],
 			"speed": {
@@ -5584,15 +5585,11 @@
 		{
 			"name": "Dwarf (Ocean)",
 			"source": "Jackalope",
-			"weaponProficiencies": [
-    		"battleaxe|phb",
-    		"handaxe|phb",
-    		"light hammer|phb",
-				"warhammer|phb",
-				"spear|phb",
-				"trident|phb",
-				"light crossbow|phb",
-				"net|phb"
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
 			],
 			"size": ["M"],
 			"speed": {
@@ -5649,12 +5646,6 @@
 						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
-			],
-			"traitTags": [
-				"Amphibious",
-				"Damage Resistance",
-				"Tool Proficiency",
-				"Weapon Proficiency"
 			],
 			"languageProficiencies": [
 				{
@@ -5731,42 +5722,42 @@
 			],
 			"subraces": [
 					{
-					"name": "Wardog",
-					"source": "Jackalope",
-					"traitTags": [
-						"Powerful Build",
-						"Skill Proficiency"
-					],
-					"ability": [
-						{
-							"str": 2,
-							"cha": 1
-						}
-					],
-					"entries": [
-						{
-							"type": "entries",
-							"name": " Menacing",
-							"entries": [
-								"You gain proficiency in the {@skill Intimidation} skill."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Brutal Maw",
-							"entries": [
-								"After taking the Attack action to make a melee attack, you can use a bonus action to make an unarmed attack with your teeth. On a hit, you deal piercing damage equal to {@dice 1d4} + your Strength modifier."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Powerful Build",
-							"entries": [
-								"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-							]
-						}
-					]
-				},
+						"name": "Wardog",
+						"source": "Jackalope",
+						"traitTags": [
+							"Powerful Build",
+							"Skill Proficiency"
+						],
+						"ability": [
+							{
+								"str": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": " Menacing",
+								"entries": [
+									"You gain proficiency in the {@skill Intimidation} skill."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Brutal Maw",
+								"entries": [
+									"After taking the Attack action to make a melee attack, you can use a bonus action to make an unarmed attack with your teeth. On a hit, you deal piercing damage equal to {@dice 1d4} + your Strength modifier."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Powerful Build",
+								"entries": [
+									"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+								]
+							}
+						]
+					},
 					{
 						"name": "Chaser",
 						"source": "Jackalope",
@@ -5910,9 +5901,7 @@
 			"source": "Cyranos",
 			"darkvision": 60,
 			"traitTags": [
-				"Damage Resistance",
 				"Powerful Build",
-				"Spellcasting",
 				"Tool Proficiency"
 			],
 			"ability": [
@@ -6018,11 +6007,8 @@
 			"source": "Jackalope",
 			"darkvision": 60,
 			"traitTags": [
-				"Condition Immunity",
 				"Improved Resting",
-				"Damage Resistance",
 				"Natural Armor",
-				"Spellcasting",
 				"Uncommon Race"
 			],
 			"size": ["S"],
@@ -6142,9 +6128,6 @@
 			"speed": 30,
 			"darkvision": 60,
 			"lineage": "VRGR",
-			"traitTags": [
-				"Damage Resistance"
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -6868,7 +6851,7 @@
 				"fly": 30
 			},
 			"traitTags": [
-				"Unarmed Strike"
+				"Natural Weapon"
 			],
 			"languageProficiencies": [
 				{
@@ -6931,8 +6914,7 @@
 			],
 			"speed": 30,
 			"traitTags": [
-				"Damage Resistance",
-				"Unarmed Strike"
+				"Natural Weapon"
 			],
 			"languageProficiencies": [
 				{
@@ -7000,9 +6982,6 @@
 				"M"
 			],
 			"speed": 30,
-			"traitTags": [
-				"Spellcasting"
-			],
 			"languageProficiencies": [
 				{
 					"any": 1,
@@ -8349,7 +8328,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Temporal Control",
 			"source": "Jackalope",
 			"className": "Cleric",
@@ -9241,7 +9219,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Gracious Host",
 			"source": "Jackalope",
 			"className": "Cleric",
@@ -9256,7 +9233,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Channel Divinity: Halls of Merriment",
 			"source": "Jackalope",
 			"className": "Cleric",
@@ -9270,7 +9246,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Spell Storing Snacks",
 			"source": "Jackalope",
 			"className": "Cleric",
@@ -9313,7 +9288,6 @@
 			]
 		},
 		{
-			"type": "entries",
 			"name": "Gourmet Snacks",
 			"source": "Jackalope",
 			"className": "Cleric",
@@ -9575,7 +9549,7 @@
 			"name": "Rowboat",
 			"source": "Jackalope",
 			"vehicleType": "SHIP",
-			"size": ["L"],
+			"size": "L",
 			"dimensions": [
 				"10 ft.",
 				"5 ft."
@@ -9593,9 +9567,6 @@
 			"int": 0,
 			"wis": 0,
 			"cha": 0,
-			"vulnerable": [
-				"fire"
-			],
 			"immune": [
 				"poison",
 				"psychic"
@@ -9659,7 +9630,7 @@
 			"name": "Small Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"30 ft.",
 				"10 ft."
@@ -9780,7 +9751,7 @@
 			"name": "Medium Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"70 ft.",
 				"20 ft."
@@ -9940,7 +9911,7 @@
 			"name": "Large Ship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"100 ft.",
 				"30 ft."
@@ -10100,7 +10071,7 @@
 			"name": "Flagship",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"120 ft.",
 				"40 ft."
@@ -10261,7 +10232,7 @@
 			"name": "Lesboat",
 			"source": "Cyranos",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"25 ft.",
 				"10 ft."
@@ -10366,7 +10337,7 @@
 			"name": "Karvi",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"60 ft.",
 				"20 ft."
@@ -10466,7 +10437,7 @@
 			"name": "Snekke",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"60 ft.",
 				"10 ft."
@@ -10566,7 +10537,7 @@
 			"name": "Skeid",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"90 ft.",
 				"15 ft."
@@ -10671,7 +10642,7 @@
 			"name": "Drakkar",
 			"source": "AshAndSnow",
 			"vehicleType": "SHIP",
-			"size": ["G"],
+			"size": "G",
 			"dimensions": [
 				"120 ft.",
 				"20 ft."
@@ -10771,7 +10742,7 @@
 			"name": "Catamaran",
 			"source": "Jackalope",
 			"vehicleType": "SHIP",
-			"size": ["H"],
+			"size": "H",
 			"dimensions": [
 				"20 ft.",
 				"10 ft."
@@ -10877,13 +10848,13 @@
 		{
 			"name": "Adamantine Ammunition (Cyranos)",
 			"type": "GV",
-			"source": "Cyranos",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "none",
 				"source": "Cyranos",
@@ -10900,7 +10871,6 @@
 		{
 			"name": "Adamantine Armor (Cyranos)",
 			"type": "GV",
-			"source": "Cyranos",
 			"requires": [
 				{
 					"type": "HA"
@@ -10910,6 +10880,7 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "none",
 				"source": "Cyranos",
@@ -10926,7 +10897,6 @@
 		{
 			"name": "Adamantine Weapon (Cyranos)",
 			"type": "GV",
-			"source": "Cyranos",
 			"requires": [
 				{
 					"type": "M",
@@ -10942,6 +10912,7 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "none",
 				"source": "Cyranos",
@@ -10958,8 +10929,6 @@
 		{
 			"name": "Underworld Weapon",
 			"type": "GV",
-			"reqAttune": true,
-			"source": "Cyranos",
 			"requires": [
 				{
 					"type": "M",
@@ -10971,8 +10940,10 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "rare",
+				"reqAttune": true,
 				"source": "Cyranos",
 				"charges": 3,
 				"recharge": "dawn",
@@ -10988,14 +10959,14 @@
 		{
 			"name": "Rifled Firearm",
 			"type": "GV",
-			"source": "Caligos",
 			"requires": [
 				{
-					"age": "renaissance",
+				  "age": "renaissance",
 				  "firearm": true
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "none",
 				"age": "renaissance",
 				"source": "Caligos",
@@ -11010,10 +10981,6 @@
 		{
 			"name": "Soul Syphon Weapon",
 			"type": "GV",
-			"rarity": "rare",
-			"reqAttune": true,
-			"curse": true,
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M",
@@ -11029,7 +10996,10 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "rare",
+				"reqAttune": true,
+				"curse": true,
 				"source": "Jackalope",
 				"namePrefix": "Soul Syphon ",
 				"entries": [
@@ -11048,9 +11018,6 @@
 		{
 			"name": "Weapon of Insults",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M",
@@ -11066,7 +11033,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": true,
 				"source": "Jackalope",
 				"nameSuffix": " of Insults",
 				"entries": [
@@ -11079,9 +11048,6 @@
 		{
 			"name": "Weapon of Elements",
 			"type": "GV",
-			"rarity": "rare",
-			"reqAttune": true,
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M",
@@ -11109,7 +11075,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "rare",
+				"reqAttune": true,
 				"source": "Jackalope",
 				"nameSuffix": " of Elements",
 				"entries": [
@@ -11121,13 +11089,13 @@
 		{
 			"name": "Entrapping Ammunition",
 			"type": "GV",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
 				"source": "Jackalope",
@@ -11142,13 +11110,13 @@
 		{
 			"name": "Enlarging Ammunition",
 			"type": "GV",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
 				"source": "Jackalope",
@@ -11163,13 +11131,13 @@
 		{
 			"name": "Shrinking Ammunition",
 			"type": "GV",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
 				"source": "Jackalope",
@@ -11184,13 +11152,13 @@
 		{
 			"name": "Shielding Ammunition",
 			"type": "GV",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
 				"source": "Jackalope",
@@ -11205,13 +11173,13 @@
 		{
 			"name": "Smoking Ammunition",
 			"type": "GV",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "A"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
 				"source": "Jackalope",
@@ -11226,16 +11194,15 @@
 		{
 			"name": "Weapon of the Enforcer",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a strength score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "R"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a strength score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Enforcer",
 				"entries": [
@@ -11248,16 +11215,15 @@
 		{
 			"name": "Weapon of the Dancer",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a dexterity score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M"
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a dexterity score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Dancer",
 				"entries": [
@@ -11270,9 +11236,6 @@
 		{
 			"name": "Weapon of the Survivor",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a constitution score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M"
@@ -11282,7 +11245,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a constitution score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Survivor",
 				"entries": [
@@ -11295,9 +11260,6 @@
 		{
 			"name": "Weapon of the Scholar",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a intelligence score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M"
@@ -11307,7 +11269,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a intelligence score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Scholar",
 				"entries": [
@@ -11320,9 +11284,6 @@
 		{
 			"name": "Weapon of the Prophet",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a wisdom score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M",
@@ -11350,7 +11311,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a wisdom score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Prophet",
 				"entries": [
@@ -11363,9 +11326,6 @@
 		{
 			"name": "Weapon of the Herald",
 			"type": "GV",
-			"rarity": "uncommon",
-			"reqAttune": "by a creature with a charisma score of 13 or higher",
-			"source": "Jackalope",
 			"requires": [
 				{
 					"type": "M"
@@ -11375,7 +11335,9 @@
 				}
 			],
 			"inherits": {
+				"page": "0",
 				"rarity": "uncommon",
+				"reqAttune": "by a creature with a wisdom score of 13 or higher",
 				"source": "Jackalope",
 				"nameSuffix": " of the Herald",
 				"entries": [
