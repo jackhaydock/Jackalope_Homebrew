@@ -7818,6 +7818,108 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Ray of Impotence",
+			"source": "Jackalope",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose one of the following damage types; acid, cold, fire, lightning, force, necrotic, poison, psychic, radiant, or thunder. Make a ranged spell attack against the target. On a hit, the target deals only half damage with chosen damage type until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ray of Lumbering",
+			"source": "Jackalope",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Dexterity until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
