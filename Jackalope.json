@@ -3760,6 +3760,21 @@
 			]
 		},
 		{
+			"name": "Subdermal Chain Tattoo",
+			"wondrous": true,
+			"tattoo": true,
+			"rarity": "uncommon",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo features spiralling patterns of chains, ropes, vines or webs.",
+				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
+				"{@b {@i Chain Weapon.}} While the tattoo is on your skin, you can summon a chain to your free hand as a bonus action, or as part of an attack you make with the chain. You can dismiss the chain again as a bonus action. You cannot be disarmed of the chain.",
+				"  The chain is a simple melee weapon with the finesse and reach properties. On a hit, it deals bludgeoning or slashing (your choice) damage equal to {@dice 1d8} plus the ability modifier you used for the attack roll. The chain counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+				"  Alternatively, when you summon the chain, you can attach it to a melee weapon that lacks the two-handed or heavy property. The weapon gains the reach property while the chain is attached."
+			]
+		},
+		{
 			"name": "Arcane Enhancement Tattoo",
 			"wondrous": true,
 			"tattoo": true,
