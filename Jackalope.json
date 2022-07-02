@@ -5523,6 +5523,28 @@
 			"entries": [
 					"When you cast Eldritch Blast, you can change the damage type to acid, cold, fire, lightning, or poison. If you cast multiple beams, you can choose the damage type of each beam individually."
 			]
+		},
+		{
+			"name": "Wings of Flight",
+			"source": "Jackalope",
+			"featureType": ["AI"],
+			"prerequisite": [
+				{
+					"level": {
+					"level": 6,
+					"class": {
+						"name": "Artificer"
+					}
+				},
+					"item": [
+						"A Backpack, Cloak or Suit of Armor (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+					"This pair of wood, leather and metal wings grants the wearer a fly speed of 20ft, provided they are not wearing heavy armor. In addition, the wearer has advantage on Dexterity saving throws while being held aloft by these wings.",
+					"This fly speed increases to 30ft when you reach 10th level in this class."
+			]
 		}
 	],
 	"race": [
