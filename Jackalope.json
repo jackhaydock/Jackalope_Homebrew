@@ -7934,6 +7934,59 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Rising Words",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You target a creature in range and utter a phrase or joke so abhorrent to the creature that you awaken a furious anger inside them. The targeted creature can immediately use a reaction (even if they are {@condition unconscious}) to move up to its movement speed toward you, without provoking opportunity attacks, before making an unarmed strike against you.",
+				"The target can choose to use your spellcasting ability modifier in place of its Strength modifier for the attack roll and damage. On a hit, you suffer the attack's normal effects and the creature regains hit points equal to twice the damage dealt.",
+				"If the targeted creature is {@condition unconscious} and does not hit you with an attack, or still has 0 hit points after the attack, it remains {@condition unconscious} once the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the amount of hit points regained by the creature on a hit increases by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
