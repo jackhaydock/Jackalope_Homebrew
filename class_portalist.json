@@ -662,7 +662,7 @@
 					"type": "list",
 					"items": [
 						"Wherever you would use Intelligence for your portalist features or specialism features, such as your Spellcasting and Redirect Missile features, you instead use your chosen ability.",
-						"If you choose Charisma, you replace one of the saving throw proficiencies you gain from this class with Charisma. When you reach 20th level in this class, you replace the same ability with Charisma in your Pandimensional Mind features.",
+						"If you choose Charisma, you replace one of the saving throw proficiencies you gain from this class with Charisma. When you reach 20th level in this class, you replace the same ability with Charisma in your Pandimensional Mind feature.",
 						"If you play a multiclass character, you must have at least a score of 13 in your chosen ability to take a level in this class, or to take a level in another class if you are already a portalist. You no longer require an Intelligence score of 13 or higher to do this."
 					]
 				}
@@ -858,7 +858,7 @@
       "classSource": "J:Portal",
       "level": 18,
       "entries": [
-        "At 18th level, you learn the {@spell plane shift|phb} and {@spell teleport|phb} spells. You can cast each of these spells without expending a spell slot, you must still provide material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest."
+        "At 18th level, you learn the {@spell teleport|phb} spell and can cast it without expending a spell slot. Once you cast it using this feature, you can not do so again until you finish a long rest."
       ]
     },
 		{
@@ -1006,8 +1006,7 @@
 				"Banishment|PHB",
 				"Summon Aberration|TCE",
 				"Conjure Elemental|PHB",
-				"Planar Binding|PHB",
-				"Plane Shift|PHB"
+				"Planar Binding|PHB"
 			]
 		}
 	],
@@ -1589,7 +1588,7 @@
 						],
 						[
 							"9th",
-							"{@spell summon fey|tce}, {@spell summon lesser demons|phb}"
+							"{@spell summon fey|tce}, {@spell summon lesser demons|xge}"
 						],
 						[
 							"13th",
@@ -1778,7 +1777,7 @@
       "level": 6,
 			"header": 2,
       "entries": [
-        "At 6th level, you lean one additional Extraplanar Environment of your choice."
+        "At 6th level, you learn one additional Extraplanar Environment of your choice."
       ]
     },
 		{
@@ -1813,7 +1812,7 @@
       "level": 10,
 			"header": 2,
       "entries": [
-        "At 10th level, you lean one additional Extraplanar Environment of your choice."
+        "At 10th level, you learn one additional Extraplanar Environment of your choice."
       ]
     },
 		{
@@ -1839,7 +1838,7 @@
       "level": 15,
 			"header": 2,
       "entries": [
-        "At 15th level, you lean one additional Extraplanar Environment of your choice."
+        "At 15th level, you learn one additional Extraplanar Environment of your choice."
       ]
     },
 		{
@@ -1852,7 +1851,7 @@
       "level": 18,
 			"header": 2,
       "entries": [
-        "At 18th level, you learn the {@spell Plane Shift|phb} spell and can cast it without expending a spell slot or providing material components. Once you cast it using this feature, you can not do so again until you finish a long rest."
+        "At 18th level, you learn the {@spell plane shift|phb} spell and can cast it without expending a spell slot or providing material components. Once you cast it using this feature, you can not do so again until you finish a long rest."
       ]
     }
 	]
