@@ -5561,6 +5561,19 @@
 					"This magic tool or instrument grants a +2 bonus to ability checks made using it.",
 					"This bonus increases to +4 when you reach 10th level in this class."
 			]
+		},
+		{
+			"name": "Eldritch Cavalier",
+			"source": "Jackalope",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+					"You can cast the {@spell find steed|phb} spell at will."
+			]
 		}
 	],
 	"race": [
