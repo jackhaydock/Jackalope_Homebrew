@@ -612,7 +612,7 @@
 									"type": "entries",
 									"name": "Quick Build",
 									"entries": [
-										"You can make a portalist quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the {@spell fire bolt|phb} and {@spell message|phb}, along with te 1st-level spells {@spell catapult|xge} and {@spell magnify gravity|egw}."
+										"You can make a portalist quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the {@spell fire bolt|phb} and {@spell message|phb} cantrips, along with the 1st-level spells {@spell catapult|xge} and {@spell magnify gravity|egw}."
 									]
 								},
 								{
@@ -699,8 +699,8 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"At 1st level, you know two cantrips of your choice from the {@filter portalist spell list|spells|level=0|class=portalist (j:portalist)}. At higher levels, you learn additional portalist cantrips of your choice, as shown in the Cantrips Known column of the Portalist table.",
-						"When you gain a level in this class, you can replace one of the portalist cantrips you know with another cantrip from the {@filter portalist spell list|spells|level=0|class=portalist (j:portalist)}."
+						"At 1st level, you know two cantrips of your choice from the {@filter portalist spell list|spells|class=portalist (j:portalist)}. At higher levels, you learn additional portalist cantrips of your choice, as shown in the Cantrips Known column of the Portalist table.",
+						"When you gain a level in this class, you can replace one of the portalist cantrips you know with another cantrip from the {@filter portalist spell list|spells|class=portalist (j:portalist)}."
 					]
 				},
 				{
@@ -1134,7 +1134,7 @@
       "level": 10,
 			"header": 2,
       "entries": [
-        "Starting at 10th level, if you move one of your Paired Portals into the space of a creature or object that is equal or smaller than the maximum size allowed by the portal, you can transport that creature or object as if they had entered the portal themselves.",
+        "Starting at 10th level, if you move one of your Paired Portals into the space of a creature or object that is equal or smaller than the maximum size allowed by the portal, you can transport that creature or object as if they had entered the portal themself.",
 				"If a creature is unwilling, they may make a Charisma saving throw against your portalist spell save DC to avoid being transported. On a success, the portal passes by them harmlessly. Whether the creature succeeds or fails, you cannot attempt to transport them unwillingly in this way again until the start of your next turn.",
 				"Once you successfully transport a creature or object using this feature, you cannot do so again until the start of your next turn."
       ]
@@ -1176,7 +1176,7 @@
 			"subclassSource": "J:Portal",
       "level": 3,
       "entries": [
-        "Most portalists choose to focus upon folding space alone to create their portals but some have noticed that space and time are constituents of the same thing. You can punch holes through time as well as space."
+        "Most portalists choose to focus upon folding space alone to create their portals but some have noticed that space and time are constituents of the same thing. You can punch holes through time as well as space allowing you to perform certains activities in non chronological order"
       ]
     },
 		{
@@ -1363,7 +1363,7 @@
       "level": 15,
 			"header": 2,
       "entries": [
-        "At 10th level, you learn one additional Rewind Feature of your choice."
+        "At 15th level, you learn one additional Rewind Feature of your choice."
       ]
     },
 		{
@@ -1685,7 +1685,7 @@
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"A burst of pure flame scorches the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take 4d6 fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
+								"A burst of pure flame scorches the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 4d6} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
 							]
 						},
 						{
@@ -1712,7 +1712,7 @@
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"A storm of haunting images and sounds fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take 2d6 psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
+								"A storm of haunting images and sounds fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 2d6} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
 							]
 						},
 						{
