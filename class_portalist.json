@@ -247,12 +247,12 @@
             {
                 "choose": {
                     "from": [
+												"athletics",
                         "arcana",
                         "history",
                         "insight",
                         "investigation",
-                        "medicine",
-                        "religion"
+                        "perception"
                     ],
                     "count": 2
                 }
@@ -281,12 +281,12 @@
 		            {
 		                "choose": {
 		                    "from": [
-		                        "arcana",
-		                        "history",
-		                        "insight",
-		                        "investigation",
-		                        "medicine",
-		                        "religion"
+													"athletics",
+													"arcana",
+													"history",
+													"insight",
+													"investigation",
+													"perception"
 		                    ],
 		                    "count": 1
 		                }
@@ -335,6 +335,7 @@
 				"Light|PHB",
 				"Lightning Lure|TCE",
 				"Mage Hand|PHB",
+				"Magic Stone|XGE",
 				"Mending|PHB",
 				"Message|PHB",
 				"Minor Illusion|PHB",
@@ -570,6 +571,7 @@
 				"Gust|EvolvingCantrips",
 				"Light|EvolvingCantrips",
 				"Mage Hand|EvolvingCantrips",
+				"Magic Stone|EvolvingCantrips",
 				"Mending|EvolvingCantrips",
 				"Message|EvolvingCantrips",
 				"Minor Illusion|EvolvingCantrips",
@@ -758,8 +760,9 @@
       "level": 2,
       "entries": [
         "Starting at 2nd level, you can use an action to create a pair of magical portals at two points you can see within 30ft of you. The portals remain in place for 1 minute, after which both portals vanish. The portals vanish early if you dismiss them (no action required), if you use this feature again, if you are ever more than 100ft away from either portal or if you die.",
-				"When a creature or object that is Large or smaller enters one of your portals, they are instantly transported to the location of the other portal along with any items they are wearing or carrying.",
-				"Once on each of your subsequent turns, you can use an action to move one or both of your Paired Portals up to 15ft each in any direction. The portals vanish if they are ever more than 100ft from each other or from you. Whilst the portal is moving, it cannot be used to transport creatures or objects, instead passing harmlessly by them.",
+				"When a creature or object that is Large or smaller enters one of your portals, they are instantly transported to the location of the other portal along with any items they are wearing or carrying. If a pair of portals vanishes whilst a creature or object is moving through them, they are harmlessly shunted out of one of the portals (your choice which).",
+				"If a creature or object falls 30ft or more before entering a portal, they exit the second portal at a similar speed. They fall 15ft in a direction of your choice away from the second portal.",
+				"You can use a subsequent action to move one or both of your Paired Portals up to 15ft each in any direction. The portals vanish if they are ever more than 100ft from each other or from you. Whilst the portal is moving, it cannot be used to transport creatures or objects, instead passing harmlessly by them.",
 				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
       ]
     },
