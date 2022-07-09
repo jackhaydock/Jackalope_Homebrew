@@ -41,7 +41,6 @@
 				"Specialism Feature|Portalist|J:Portal|15|J:Portal",
 				"Ability Score Improvement|Fighter|PHB|16",
 				"Long Distance Portals|Portalist|J:Portal|18|J:Portal",
-				"Specialism Feature|Portalist|J:Portal|18|J:Portal",
 				"Ability Score Improvement|Fighter|PHB|19",
 				"Pandimensional Mind|Portalist|J:Portal|20|J:Portal"
 			],
@@ -773,7 +772,7 @@
       "classSource": "J:Portal",
       "level": 3,
       "entries": [
-        "At 3rd level, you choose your specialism, each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level and again at 6th, 10th, 14th and 18th level."
+        "At 3rd level, you choose your specialism, each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level and again at 6th, 10th and 15th level."
       ],
 			"gainSubclassFeature": true
     },
@@ -807,7 +806,7 @@
       "level": 7,
       "entries": [
         "Starting 7th level, you can attempt to redirect incoming attacks with portals. When you are targeted by a ranged weapon attack, you can use a reaction to subtract your Intelligence modifier (minimum of 1) from the attack roll.",
-				"If the attack misses, you can then make can then make a ranged spell attack (range 30ft) with the attack's missile as part of the same reaction. On a hit, the spell attack deals 1d8 + your Intelligence modifier damage of the same type as the original attack.",
+				"If the attack misses, you can then make can then make a ranged spell attack (range 30ft) with the attack's missile as part of the same reaction. On a hit, the spell attack deals {@dice 1d8} + your Intelligence modifier damage of the same type as the original attack.",
 				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
       ]
     },
@@ -862,19 +861,9 @@
       "classSource": "J:Portal",
       "level": 18,
       "entries": [
-        "At 18th level, you learn the {@spell teleport|phb} spell and can cast it without expending a spell slot. Once you cast it using this feature, you can not do so again until you finish a long rest."
+        "At 18th level, you learn the {@spell teleport|phb} and {@spell plane shift|phb} spells. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest.",
+				"When you cast the {@spell plane shift|phb} spell, you do not need to provide material components if you have been to the target plane before or if you touch an object or willing creature that is native to that plane during the casting."
       ]
-    },
-		{
-      "name": "Specialism Feature",
-      "source": "J:Portal",
-      "className": "Portalist",
-      "classSource": "J:Portal",
-      "level": 18,
-      "entries": [
-        "At 18th level, you gain a feature granted by your portal specialism."
-      ],
-			"gainSubclassFeature": true
     },
 		{
       "name": "Pandimensional Mind",
@@ -902,8 +891,7 @@
 					"Rapid Shifting|Portalist|J:Portal|Relocation|J:Portal|6",
 					"Scaled Portals|Portalist|J:Portal|Relocation|J:Portal|10",
 					"Incoming Transport|Portalist|J:Portal|Relocation|J:Portal|10",
-					"WIP FEATURE|Portalist|J:Portal|Relocation|J:Portal|15",
-					"Dimensional Spaghettification|Portalist|J:Portal|Relocation|J:Portal|18"
+					"Dimensional Spaghettification|Portalist|J:Portal|Relocation|J:Portal|15"
 			],
 			"subclassSpells": [
 				"Expeditious Retreat|PHB",
@@ -935,8 +923,7 @@
 					"Time Travel|Portalist|J:Portal|Temporal|J:Portal|10",
 					"Additional Rewind|Portalist|J:Portal|Temporal|J:Portal|10",
 					"Multitasker|Portalist|J:Portal|Temporal|J:Portal|15",
-					"Additional Rewind|Portalist|J:Portal|Temporal|J:Portal|15",
-					"WIP FEATURE|Portalist|J:Portal|Temporal|J:Portal|18"
+					"Additional Rewind|Portalist|J:Portal|Temporal|J:Portal|15"
 			],
 			"subclassSpells": [
 				"Gift Of Alacrity|EGW",
@@ -965,8 +952,7 @@
 					"Immaterial Weapon|Portalist|J:Portal|Hoard|J:Portal|3",
 					"Hoard Armor|Portalist|J:Portal|Hoard|J:Portal|6",
 					"Improved Immaterial Weapon|Portalist|J:Portal|Hoard|J:Portal|10",
-					"WIP FEATURE|Portalist|J:Portal|Hoard|J:Portal|15",
-					"Immaterial Armory|Portalist|J:Portal|Hoard|J:Portal|18"
+					"Immaterial Armory|Portalist|J:Portal|Hoard|J:Portal|15"
 			],
 			"subclassSpells": [
 				"Shield|PHB",
@@ -997,8 +983,7 @@
 					"Residual Portal|Portalist|J:Portal|Extraplanar|J:Portal|10",
 					"Additional Extraplanar Environment|Portalist|J:Portal|Extraplanar|J:Portal|10",
 					"Expanded Environments|Portalist|J:Portal|Extraplanar|J:Portal|15",
-					"Additional Extraplanar Environment|Portalist|J:Portal|Extraplanar|J:Portal|15",
-					"Plane Jumping|Portalist|J:Portal|Extraplanar|J:Portal|18"
+					"Additional Extraplanar Environment|Portalist|J:Portal|Extraplanar|J:Portal|15"
 			],
 			"subclassSpells": [
 				"Find Familiar|PHB",
@@ -1162,10 +1147,10 @@
       "classSource": "J:Portal",
 			"subclassShortName": "Relocation",
 			"subclassSource": "J:Portal",
-      "level": 18,
+      "level": 15,
 			"header": 2,
       "entries": [
-        "Starting at 18th level, if you move both of your Paired Portals simultaneously into the space of the same creature or object, you can rapidly stretch and squash the target through multiple dimensions. If the target is a creature, they may make a Charisma saving throw against your portalist spell save DC, to resist the effect. The target takes {@dice 5d10} force damage, or half as much on a save, before being returned to its space.",
+        "Starting at 15th level, if you move both of your Paired Portals simultaneously into the space of the same creature or object, you can rapidly stretch and squash the target through multiple dimensions. If the target is a creature, they may make a Charisma saving throw against your portalist spell save DC, to resist the effect. The target takes {@dice 5d10} force damage, or half as much on a save, before being returned to its space.",
 				"If this damage leaves the target with 0 hit points, it dismantled into infinitely small particles and scattered throughout the multiverse, along with any non-magical items they are wearing or carrying. A creature killed in this way can only be restored to life by means of a {@spell true resurrection} or a {@spell wish} spell.",
 				"You can use this feature a number of times equal to your Proficiency Bonus, you regain all expended uses at the end of a long rest."
       ]
@@ -1370,19 +1355,6 @@
       ]
     },
 		{
-      "name": "WIP FEATURE",
-      "source": "J:Portal",
-      "className": "Portalist",
-      "classSource": "J:Portal",
-			"subclassShortName": "Temporal",
-			"subclassSource": "J:Portal",
-      "level": 18,
-			"header": 2,
-      "entries": [
-        "WIP"
-      ]
-    },
-		{
       "name": "Hoard Portalist",
       "source": "J:Portal",
       "className": "Portalist",
@@ -1520,7 +1492,7 @@
       ]
     },
 		{
-      "name": "WIP FEATURE",
+      "name": "Immaterial Armory",
       "source": "J:Portal",
       "className": "Portalist",
       "classSource": "J:Portal",
@@ -1529,20 +1501,7 @@
       "level": 15,
 			"header": 2,
       "entries": [
-        "WIP"
-      ]
-    },
-		{
-      "name": "Immaterial Armory",
-      "source": "J:Portal",
-      "className": "Portalist",
-      "classSource": "J:Portal",
-			"subclassShortName": "Hoard",
-			"subclassSource": "J:Portal",
-      "level": 18,
-			"header": 2,
-      "entries": [
-        "Starting at 18th level, when you use your Immaterial Weapon feature to summon a weapon, you can summon two weapons instead of one. Each weapon can have different damage types or properties.",
+        "Starting at 15th level, when you use your Immaterial Weapon feature to summon a weapon, you can summon two weapons instead of one. Each weapon can have different damage types or properties.",
 				"In addition, if you drop either of the weapons, it floats harmlessly at your side rather than falling to the floor. You can then use a free hand to draw it again without requiring an action."
       ]
     },
@@ -1635,15 +1594,34 @@
       "entries": [
         {
 					"type": "options",
+					"style": "list-hang-notitle",
 					"count": 2,
 					"entries": [
 						{
-							"name": "Abyss",
+							"name": "Negative Energy Plane",
 							"consusmes": {
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"WIP"
+								"A wash of withering energy fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d6} necrotic damage, and be unable to regain hit points until the start of its next turn. On a success, the creature takes half damage and this effect does not prevent them regaining hit points."
+							]
+						},
+						{
+							"name": "Upper Planes",
+							"consusmes": {
+								"name": "Environmental Portal"
+							},
+							"entries": [
+								"An alluring and comforting song fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or refuse to willingly leave the area before the start of its next turn."
+							]
+						},
+						{
+							"name": "Lower Planes",
+							"consusmes": {
+								"name": "Environmental Portal"
+							},
+							"entries": [
+								"A cloud of caustic poison fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 1d6} poison damage, {@dice 1d6} fire damage and become {@condition poisoned} until the start of their next turn. On a success, the creature takes half damage and is not {@condition poisoned}."
 							]
 						},
 						{
@@ -1652,11 +1630,11 @@
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"WIP"
+								"Gravity ceases to function within the area. Creatures or loose objects in the area begin to levitate. Creatures without a fly speed can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing."
 							]
 						},
 						{
-							"name": "Celestial Plane",
+							"name": "Positive Energy Plane",
 							"consusmes": {
 								"name": "Environmental Portal"
 							},
@@ -1688,7 +1666,7 @@
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"A burst of pure flame scorches the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 4d6} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
+								"A raging inferno fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 3d6} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
 							]
 						},
 						{
@@ -1697,7 +1675,7 @@
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"The area rapidly fills with water. The area is filled with water. Any non-magical fires within range are extinguished."
+								"A vast volume of water fills the area. Any non-magical fires within the area are extinguished."
 							]
 						},
 						{
@@ -1710,12 +1688,12 @@
 							]
 						},
 						{
-							"name": "Far Realms",
+							"name": "Far Realm",
 							"consusmes": {
 								"name": "Environmental Portal"
 							},
 							"entries": [
-								"A storm of haunting images and sounds fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 2d6} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
+								"A storm of haunting images and sounds fill the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 2d6} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
 							]
 						},
 						{
@@ -1728,30 +1706,12 @@
 							]
 						},
 						{
-							"name": "Nine Hells",
-							"consusmes": {
-								"name": "Environmental Portal"
-							},
-							"entries": [
-								"WIP"
-							]
-						},
-						{
 							"name": "Shadowfell",
 							"consusmes": {
 								"name": "Environmental Portal"
 							},
 							"entries": [
 								"A thick and unsettling darkness fills the area. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it."
-							]
-						},
-						{
-							"name": "Underdark",
-							"consusmes": {
-								"name": "Environmental Portal"
-							},
-							"entries": [
-								"A swarm of spiders or cloud of spores fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d6} poison damage and be {@condition poisoned} until the end of its next turn. On a success, the creature takes half damage and is not {@condition poisoned}."
 							]
 						}
 					]
@@ -1800,7 +1760,7 @@
 					"items": [
 						"The creature gains resistance to one of the following damage types of your choice; acid, cold, fire, lightning, necrotic, psychic, radiant or thunder.",
 						"The creature gains a flying speed of 30ft. If the creature already has a fly speed of 30ft or higher, its fly speed is increased by 10ft.",
-						"The creature has advantage on rolls to avoid or remove the {@condition charmed} or {@condition frightened} condition.",
+						"The creature has advantage on rolls to avoid or remove the {@condition charmed}, {@condition frightened} or {@condition poisoned} condition.",
 						"The creature gains temporary hit points equal to twice your portalist level."
 					]
 				}
@@ -1843,19 +1803,6 @@
 			"header": 2,
       "entries": [
         "At 15th level, you learn one additional Extraplanar Environment of your choice."
-      ]
-    },
-		{
-      "name": "Plane Jumping",
-      "source": "J:Portal",
-      "className": "Portalist",
-      "classSource": "J:Portal",
-			"subclassShortName": "Extraplanar",
-			"subclassSource": "J:Portal",
-      "level": 18,
-			"header": 2,
-      "entries": [
-        "At 18th level, you learn the {@spell plane shift|phb} spell and can cast it without expending a spell slot or providing material components. Once you cast it using this feature, you can not do so again until you finish a long rest."
       ]
     }
 	]
