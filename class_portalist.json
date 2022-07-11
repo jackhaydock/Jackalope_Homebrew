@@ -1586,7 +1586,7 @@
 						{
 							"name": "Negative Energy Plane",
 							"entries": [
-								"A wash of withering energy fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d6} necrotic damage, and be unable to regain hit points until the start of its next turn. On a success, the creature takes half damage and this effect does not prevent them regaining hit points."
+								"A wash of withering energy fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} necrotic damage, and be unable to regain hit points until the start of its next turn. On a success, the creature takes half damage and this effect does not prevent them regaining hit points."
 							]
 						},
 						{
@@ -1598,7 +1598,7 @@
 						{
 							"name": "Lower Planes",
 							"entries": [
-								"A cloud of caustic poison fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 1d6} poison damage, {@dice 1d6} fire damage and become {@condition poisoned} until the start of their next turn. On a success, the creature takes half damage and is not {@condition poisoned}."
+								"A cloud of caustic poison fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} poison damage and become {@condition poisoned} until the start of their next turn. On a success, the creature takes half damage and is not {@condition poisoned}."
 							]
 						},
 						{
@@ -1610,25 +1610,25 @@
 						{
 							"name": "Positive Energy Plane",
 							"entries": [
-								"A blinding light fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d6} radiant damage and be {@condition blinded} until the start of their next turn. On a success, a creature takes half damage and is not {@condition blinded}."
+								"A blinding light fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} radiant damage and be {@condition blinded} until the start of their next turn. On a success, a creature takes half damage and is not {@condition blinded}."
 							]
 						},
 						{
 							"name": "Elemental Plane of Air",
 							"entries": [
-								"A powerful torrent of wind erupts from the portal and swirls through the area. Ranged weapon attacks have disadvantage if they pass through the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Strength saving throw or be pushed 10ft away from the portal. If this movement would push the creature into the space of another creature or object that is its size or larger, they both take {@dice 2d6} bludgeoning damage."
+								"A powerful torrent of wind erupts from the portal and swirls through the area. Ranged weapon attacks have disadvantage if they pass through the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Strength saving throw or be pushed 10ft away from the portal. If this movement would push the creature into the space of another creature or object that is its size or larger, they both take {@dice 2d4} bludgeoning damage."
 							]
 						},
 						{
 							"name": "Elemental Plane of Earth",
 							"entries": [
-								"A flurry of sharp rocks shoot from the portal and cover the ground in the area. Creatures in the area when you create it must make a Dexterity saving throw or take {@dice 2d6} piercing damage. The area becomes {@quickref difficult terrain||3} and any creature that falls prone within the area takes {@dice 2d6} piercing damage."
+								"A flurry of sharp rocks shoot from the portal and cover the ground in the area. Creatures in the area when you create it must make a Dexterity saving throw or take {@dice 2d4} piercing damage. The area becomes {@quickref difficult terrain||3} and any creature that falls prone within the area takes {@dice 2d4} piercing damage."
 							]
 						},
 						{
 							"name": "Elemental Plane of Fire",
 							"entries": [
-								"A raging inferno fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 3d6} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
+								"A raging inferno fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 4d4} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
 							]
 						},
 						{
@@ -1646,7 +1646,7 @@
 						{
 							"name": "Far Realm",
 							"entries": [
-								"A storm of haunting images and sounds fill the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 2d6} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
+								"A storm of haunting images and sounds fill the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 3d4} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
 							]
 						},
 						{
