@@ -3897,7 +3897,7 @@
 			"source": "AshAndSnow",
 			"entries": [
 				"These special boots each feature a blade with which the wearer can glide over ice. You can don or doff these boots over 1 minute.",
-				"While wearing these boots, slippery ice is no longer considered difficult terrain for you but all other terrain is. In addition, if you are not travelling uphill, moving 2 feet on slippery ice only costs 1 foot of movement for you."
+				"While wearing these boots, slippery ice is no longer considered {@quickref difficult terrain||3} for you but all other terrain is. In addition, if you are not travelling uphill, moving 2 feet on slippery ice only costs 1 foot of movement for you."
 			]
 		},
 		{
@@ -3958,8 +3958,8 @@
 				"This contraption grants mobility to those who may be impaired due to injuries, disabilities or curses.",
 				"{@b {@i Size.}} Your wheelchair is designed for you and is the same size as you. If a magic effect or spell changes your size, the chair changes with you.",
 				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft, regardless of your race. If a magic effect or spell changes your walking speed, your speed in the chair also changes. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
-				"{@b {@i Poor Mobility.}} Terrain that is not flat and firm, such as mud or sand, is considered difficult terrain.",
-				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as difficult terrain for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
+				"{@b {@i Poor Mobility.}} Terrain that is not flat and firm, such as mud or sand, is considered {@quickref difficult terrain||3}.",
+				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as {@quickref difficult terrain||3} for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
 				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of by magic effects, features, items or spells, any effects on you also effect the chair.",
 				"{@b {@i Upgrading the Wheelchair.}} Using a set of {@item tinker's tools|phb} over 1 hour, a creature can afix, or remove, wheelchair upgrades. A wheelchair cannot have more than four upgrades at once. If a wheelchair has multiple upgrades that require attunement, you may treat the wheelchair as a single item for the purposes of attunement.",
 				{
@@ -3992,7 +3992,7 @@
 			"value": 2000,
 			"weight": 5,
 			"entries": [
-				"This set of lightweight, narrow wheels can be afixed to a {@item wheelchair|JWC}. Your base walking speed is increased by 10ft when not on difficult terrain.",
+				"This set of lightweight, narrow wheels can be afixed to a {@item wheelchair|JWC}. Your base walking speed is increased by 10ft when not on {@quickref difficult terrain||3}.",
 				"This upgrade can not be afixed at the same time as the {@item All-terrain Wheels|JWC} upgrade.",
 				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
 				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
@@ -7302,7 +7302,7 @@
 								"type": "entries",
 								"name": "Glacial Walker",
 								"entries": [
-									"Slippery ice and deep snow do not count as difficult terrain for you, and you automatically pass saving throws to avoid failing prone on slippery ice. In addition, you have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
+									"Slippery ice and deep snow do not count as {@quickref difficult terrain||3} for you, and you automatically pass saving throws to avoid failing prone on slippery ice. In addition, you have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
 								]
 							},
 							{
@@ -9100,7 +9100,7 @@
 					"style": "list-hang-notitle",
 					"items": [
 						"{@b Dancer.} You can use a bonus action to take the {@action Disengage} or {@action Dodge} action. You may also use this bonus action as part of the same one you use to trigger the rush.",
-						"{@b Strider.} Difficult terrain does not slow you down.",
+						"{@b Strider.} {@quickref Difficult terrain||3} does not slow you down.",
 						"{@b Striker.} You can use a bonus action to gain advantage on your next attack roll within the same rush. You may also use this bonus action as part of the same one you use to trigger the rush."
 					]
 				},
