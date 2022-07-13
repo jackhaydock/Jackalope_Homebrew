@@ -988,6 +988,34 @@
 				"Greater Restoration|PHB",
 				"Skill Empowerment|XGE"
 			]
+		},
+		{
+			"name": "Multiplication Portalist",
+			"shortName": "Multiplication",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Multiplication Portalist|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+          "Replication Pocket|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Duplicate Spell|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Potent Spells|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|5",
+					"Cloning Portal|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|10",
+					"Triplicate Spell|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Chromatic Orb|PHB",
+				"Ice Knife|XGE",
+				"Mirror Image|PHB",
+				"Scorching Ray|PHB",
+				"Conjure Barrage|PHB",
+				"Vampiric Touch|PHB",
+				"Summon Construct|TCE",
+				"Wall of Fire|PHB",
+				"Mislead|PHB",
+				"Steel Wind Strike|XGE"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -1942,6 +1970,134 @@
 			"header": 2,
 			"entries": [
 				"WIP FEATURE"
+			]
+		},
+		{
+      "name": "Multiplication Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Sometimes more is better. You can use your portals to split certain item and spells across multiple points in space, effectively creating a duplicate of the original. Duplicating a creature is more difficult, though you can replicate their image to decieve and confuse though who percieve them."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Multiplication Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Multiplication Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell chromatic orb|phb}, {@spell ice knife|xge}"
+						],
+						[
+							"5th",
+							"{@spell mirror image|phb}, {@spell scorching ray|phb}"
+						],
+						[
+							"9th",
+							"{@spell conjure barrage|phb}, {@spell vampiric touch|phb}"
+						],
+						[
+							"13th",
+							"{@spell summon construct|tce} (appears as duplicate of you), {@spell wall of fire|phb}"
+						],
+						[
+							"17th",
+							"{@spell mislead|phb}, {@spell steel wind strike|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Replication Pocket",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you can spend 1 minute to duplicate a single nonmagical item that is inside your Deep Pocket. The created duplicate lasts for 1 hour, or until you use this feature again. If viewed with the Detect Magic spell, the duplicate appears magical and as part of the illusion school of magic."
+			]
+		},
+		{
+			"name": "Duplicate Spell",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, when you make a spell attack as part of a portalist spell or cantrip, you can use a bonus action to make one additional spell attack as part of the same spell. For example, if you cast {@spell fire bolt|phb}, you can use this feature to make two attacks. While if you cast {@spell scorching ray|phb} at 2nd-level, you can use this feature to make four attacks instead of three.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Starting at 5th level, you can increase the potency of your spells. Once per turn, when you cast a portalist spell, you can roll a {@dice d8} and add the result to one of the spell's damage rolls."
+			]
+		},
+		{
+			"name": "Cloning Portal",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when a creature travels through one of your Paired Portals, you can use a reaction to create an illusionary duplicate of the creature that exits the second portal at the same time into an adjacent space. The duplicate is an object that occupies its own space, has an AC of 10 and 1 hit point. The duplicate lasts for 1 minute, until you dismiss it (no action required) or until either the duplicate or the original creature take damage, after which it vanishes.",
+				"As part of the same reaction you use to create the duplicate, you can move the duplicate up to 30ft, the duplicate must remain within 30ft of the second portal. For the duration, you can also use an action or bonus action on your turn to move the duplicate in the same way.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+			]
+		},
+		{
+			"name": "Triplicate Spell",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you use your Duplicate Spell feature, you can make two additional spell attacks as part of the spell, rather than just one.",
+				"Using this feature does not consume a use of your Duplicate Spell feature. Once you use this feature, you can not do so again until you finish a long rest."
 			]
 		}
 	]
