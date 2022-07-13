@@ -851,7 +851,7 @@
           "Roaming Portals|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
 					"Quick Extraction|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
 					"Rapid Shifting|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|5",
-					"Scaled Portals|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|10",
+					"Scaled Portal|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|10",
 					"Incoming Transport|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|10",
 					"Dimensional Spaghettification|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|15"
 			],
@@ -882,7 +882,7 @@
 					"Rewind Features|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
 					"Extra Attack|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|5",
 					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|5",
-					"Time Travel|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|10",
+					"Time Travel Portal|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|10",
 					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|10",
 					"Temporal Reserves|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|15",
 					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|15"
@@ -1119,7 +1119,7 @@
       ]
     },
 		{
-      "name": "Scaled Portals",
+      "name": "Scaled Portal",
       "source": "J:Portal(R)",
       "className": "Portalist (Revised)",
       "classSource": "J:Portal(R)",
@@ -1318,7 +1318,7 @@
       "level": 5,
 			"header": 2,
       "entries": [
-        "You can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+        "Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
       ]
     },
 		{
@@ -1335,7 +1335,7 @@
       ]
     },
 		{
-      "name": "Time Travel",
+      "name": "Time Travel Portal",
       "source": "J:Portal(R)",
       "className": "Portalist (Revised)",
       "classSource": "J:Portal(R)",
@@ -1516,7 +1516,7 @@
       "level": 5,
 			"header": 2,
       "entries": [
-        "You can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+        "Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
       ]
     },
 		{
