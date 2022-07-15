@@ -915,7 +915,7 @@
 					"Extra Attack|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|5",
 					"Cluttered Portal|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|10",
 					"Improved Immaterial Weapon|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|10",
-					"WIP|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|15"
+					"Knick-Knack Attack|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|15"
 			],
 			"subclassSpells": [
 				"Shield|PHB",
@@ -1562,7 +1562,7 @@
       ]
     },
 		{
-      "name": "WIP",
+      "name": "Knick-Knack Attack",
       "source": "J:Portal(R)",
       "className": "Portalist (Revised)",
       "classSource": "J:Portal(R)",
@@ -1571,7 +1571,8 @@
       "level": 15,
 			"header": 2,
       "entries": [
-        "WIP"
+        "Starting at 15th level, when you take the {@action Attack} action on your turn, you can replace one of the attacks with a special attack in which you launch a flurry of miscellaneous items from the hoard at your targets. Chose up to five objects or creatures within 30ft of you. Make a ranged spell attack against each target. On a hit, a target takes {@dice 4d8} force damage. Each creature you hit must also make a Strength saving throw against your portalist spell save DC or be knocked {@condition prone}.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
       ]
     },
 		{
