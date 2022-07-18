@@ -973,8 +973,8 @@
           "Multiversal Expertise|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
 					"Trading Minds|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
 					"Steal Fate|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|5",
-					"Reality Shifter|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|10",
-					"WIP FEATURE|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|15"
+					"Transmuting Portal|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|10",
+					"Reality Shifter|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|15"
 			],
 			"subclassSpells": [
 				"Comprehend Languages|PHB",
@@ -1946,7 +1946,7 @@
 			]
 		},
 		{
-			"name": "Reality Shifter",
+			"name": "Transmuting Portal",
 			"source": "J:Portal(R)",
 			"className": "Portalist (Revised)",
 			"classSource": "J:Portal(R)",
@@ -1955,13 +1955,20 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, if your current reality is not to your liking, you can pull part of a subtly different one into your own. You can attempt to cast a spell from the {@filter abjuration or transmutation school of magic|spells|school=a;t} without expending a spell slot or providing material components with a listed cost of 100gp or lower. The spell can be from any list, but counts as a portalist spell for this casting. You must make an Intelligence check or the casting fails with no effect. The DC for this check is equal to 10 plus twice the spell's level (DC10 for a cantrip).",
-				"The DM may choose to allow other changes to reality that are not covered by the qualifying spells. In this case, using this feature requires one minute and the DM decides the DC for the Intelligence check.",
-				"Once you use this feature, you cannot do so again until you finish a long rest."
+				"Starting at 10th level, when a creature travels through one of your paired portals, you can use a reaction to alter the creature's attributes. The target must succeed on a Charisma saving throw (the target can choose to fail), or gain one of the following effects of your choice until the start of its next turn:",
+				{
+					"type": "list",
+					"items": [
+						"The damage the creature deals with weapon attacks is increased or decreased by {@dice 1d10} (your choice).",
+						"The creature gains a climbing and swimming speed equal to twice its walking speed. Alternatively, you can remove the creature's current climbing and swimming speeds.",
+						"Once before the effect ends, the creature can cast a cantrip it doesn't know from any spell list. The creature uses its choice of Intelligence, Wisdom or Charisma as its spellcasting ability for this cantrip."
+					]
+				},
+				"You can use this reaction a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
 			]
 		},
 		{
-			"name": "WIP FEATURE",
+			"name": "Reality Shifter",
 			"source": "J:Portal(R)",
 			"className": "Portalist (Revised)",
 			"classSource": "J:Portal(R)",
@@ -1970,7 +1977,9 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"WIP FEATURE"
+				"Starting at 10th level, if your current reality is not to your liking, you can pull part of a subtly different one into your own. You can attempt to cast a spell from the {@filter abjuration or transmutation school of magic|spells|school=a;t} without expending a spell slot or providing material components with a listed cost of 100gp or lower. The spell can be from any list, but counts as a portalist spell for this casting. You must make an Intelligence check or the casting fails with no effect. The DC for this check is equal to 10 plus twice the spell's level (DC10 for a cantrip).",
+				"The DM may choose to allow other changes to reality that are not covered by the qualifying spells. In this case, using this feature takes one minute and the DM decides the DC for the Intelligence check.",
+				"Once you use this feature, you cannot do so again until you finish a long rest."
 			]
 		},
 		{
