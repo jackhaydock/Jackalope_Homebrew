@@ -662,8 +662,8 @@
 					"type": "entries",
 					"name": "Cantrips",
 					"entries": [
-						"At 1st level, you know two cantrips of your choice from the {@filter portalist spell list|spells|class=portalist (J:Portal(R)ist)}. At higher levels, you learn additional portalist cantrips of your choice, as shown in the Cantrips Known column of the Portalist table.",
-						"When you gain a level in this class, you can replace one of the portalist cantrips you know with another cantrip from the {@filter portalist spell list|spells|class=portalist (J:Portal(R)ist)}."
+						"At 1st level, you know two cantrips of your choice from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}. At higher levels, you learn additional portalist cantrips of your choice, as shown in the Cantrips Known column of the Portalist table.",
+						"When you gain a level in this class, you can replace one of the portalist cantrips you know with another cantrip from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}."
 					]
 				},
 				{
@@ -671,7 +671,7 @@
 					"name": "Preparing and Casting Spells",
 					"entries": [
 						"The Portalist table shows how many spell slots you have to cast your portalist spells. To cast one of your portalist spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-						"You prepare the list of portalist spells that are available for you to cast, choosing from the {@filter portalist spell list|spells|level=0|class=portalist (J:Portal(R)ist)}. When you do so, choose a number of portalist spells equal to your Intelligence modifier + half your portalist level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"You prepare the list of portalist spells that are available for you to cast, choosing from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}. When you do so, choose a number of portalist spells equal to your Intelligence modifier + half your portalist level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
 						"For example, if you are a 5th-level portalist, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
 						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of portalist spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
 					]
