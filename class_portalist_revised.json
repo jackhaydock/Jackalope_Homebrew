@@ -838,6 +838,91 @@
       ]
     }
 	],
+	"spell": [
+		{
+			"name": "Switch",
+			"source": "Jackalope",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose two willing creatures within range that are not {@condition incapacitated} or {@condition restrained} (this can include yourself). Both creatures then instantly swap places."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist (Revised)",
+						"source": "J:Portal(R)"
+					}
+				]
+			}
+		},
+		{
+			"name": "Compress/Stretch",
+			"source": "Jackalope",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You warp space in a 30-foot cone in one of the following ways for the spell's duration:",
+				"{@b {@i Compress.}} Any creature other than you must spend 2 feet of movement for every 1 foot it moves inside the area.",
+				"{@b {@i Stretch.}} A creature moving through the area only spends 1 foot of movement for every 2 feet it moves inside the area."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist (Revised)",
+						"source": "J:Portal(R)"
+					}
+				]
+			}
+		}
+	],
 	"subclass": [
 		{
 			"name": "Relocation Portalist",
