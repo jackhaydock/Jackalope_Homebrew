@@ -30,7 +30,7 @@
 				"Portal Specialism|Portalist (Revised)|J:Portal(R)|3|J:Portal(R)",
 				"Ability Score Improvement|Fighter|PHB|4",
 				"Specialism Feature|Portalist (Revised)|J:Portal(R)|5|J:Portal(R)",
-				"Switch|Portalist (Revised)|J:Portal(R)|6|J:Portal(R)",
+				"Space Warp|Portalist (Revised)|J:Portal(R)|6|J:Portal(R)",
 				"Redirect Missile|Portalist (Revised)|J:Portal(R)|7|J:Portal(R)",
 				"Ability Score Improvement|Fighter|PHB|8",
 				"Specialism Feature|Portalist (Revised)|J:Portal(R)|10|J:Portal(R)",
@@ -750,14 +750,14 @@
 			"gainSubclassFeature": true
     },
 		{
-      "name": "Switch",
+      "name": "Space Warp",
       "source": "J:Portal(R)",
       "className": "Portalist (Revised)",
       "classSource": "J:Portal(R)",
       "level": 6,
       "entries": [
-        "Starting at 6th level, you can use an action to choose two willing creatures you can see within 30ft that are not {@condition incapacitated} or {@condition restrained} (this can include yourself). Both creatures then instantly swap places.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest"
+        "Starting at 6th level, you can bend space in your favour to move faster. Your speed increases by 10 feet.",
+				"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Intelligence modifier."
       ]
     },
 		{
