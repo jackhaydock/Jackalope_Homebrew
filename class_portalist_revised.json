@@ -1,0 +1,2200 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Portal(R)",
+				"abbreviation": "J:Portalist(R)",
+				"color": "7e61f2",
+				"full": "Jackalope: Portalist (Revised) Class",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"class": [
+		{
+			"name": "Portalist (Revised)",
+			"source": "J:Portal(R)",
+			"classFeatures": [
+				"Optional Feature: Alternate Ability Portalist|Portalist (Revised)|J:Portal(R)|1|J:Portal(R)",
+				"Deep Pockets|Portalist (Revised)|J:Portal(R)|1|J:Portal(R)",
+				"Spellcasting|Portalist (Revised)|J:Portal(R)|1|J:Portal(R)",
+				"Paired Portals|Portalist (Revised)|J:Portal(R)|2|J:Portal(R)",
+				"Portal Specialism|Portalist (Revised)|J:Portal(R)|3|J:Portal(R)",
+				"Ability Score Improvement|Fighter|PHB|4",
+				"Specialism Feature|Portalist (Revised)|J:Portal(R)|5|J:Portal(R)",
+				"Space Warp|Portalist (Revised)|J:Portal(R)|6|J:Portal(R)",
+				"Redirect Missile|Portalist (Revised)|J:Portal(R)|7|J:Portal(R)",
+				"Ability Score Improvement|Fighter|PHB|8",
+				"Specialism Feature|Portalist (Revised)|J:Portal(R)|10|J:Portal(R)",
+				"Multiportals|Portalist (Revised)|J:Portal(R)|11|J:Portal(R)",
+				"Ability Score Improvement|Fighter|PHB|12",
+				"Entangled Objects|Portalist (Revised)|J:Portal(R)|14|J:Portal(R)",
+				"Specialism Feature|Portalist (Revised)|J:Portal(R)|15|J:Portal(R)",
+				"Ability Score Improvement|Fighter|PHB|16",
+				"Long Distance Portals|Portalist (Revised)|J:Portal(R)|18|J:Portal(R)",
+				"Ability Score Improvement|Fighter|PHB|19",
+				"Pandimensional Mind|Portalist (Revised)|J:Portal(R)|20|J:Portal(R)"
+			],
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"int",
+				"wis"
+			],
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=portalist (J:Portal(R))}"
+					],
+					"rows": [
+						["2"],
+						["2"],
+						["2"],
+						["3"],
+						["3"],
+						["3"],
+						["3"],
+						["3"],
+						["3"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"],
+						["4"]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Portalist}",
+						"{@filter 2nd|spells|level=2|class=Portalist}",
+						"{@filter 3rd|spells|level=3|class=Portalist}",
+						"{@filter 4th|spells|level=4|class=Portalist}",
+						"{@filter 5th|spells|level=5|class=Portalist}"
+					],
+					"rowsSpellProgression": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"startingProficiencies": {
+          "armor": [
+              "light",
+              "{@item shield|phb|shields}"
+          ],
+          "weapons": [
+              "simple",
+              "{@item shortsword|phb|shortswords}"
+          ],
+          "skills": [
+            {
+                "choose": {
+                    "from": [
+												"athletics",
+                        "arcana",
+                        "history",
+                        "insight",
+                        "investigation",
+                        "perception"
+                    ],
+                    "count": 2
+                }
+            }
+        ]
+      },
+			"startingEquipment": {
+          "default": [
+              "(a) two {@item shortsword|phb|shortswords} or (b) any two {@filter simple weapons|items|source=phb|type=simple weapon=sand|category=basic}",
+              "(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+              "(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+              "{@item leather armor|phb} and 2 {@item dagger|phb|daggers}"
+          ],
+          "additionalFromBackground": true,
+          "goldAlternative": "{@dice 5d4*10|5d4 x 10}"
+      },
+			"multiclassing": {
+          "requirements": {
+              "int": 13
+          },
+          "proficienciesGained": {
+							"weapons": [
+								"simple"
+							],
+              "armor": [
+                  "light"
+              ],
+							"skills": [
+		            {
+		                "choose": {
+		                    "from": [
+													"athletics",
+													"arcana",
+													"history",
+													"insight",
+													"investigation",
+													"perception"
+		                    ],
+		                    "count": 1
+		                }
+		            }
+		        ]
+          }
+      },
+			"spellcastingAbility": "int",
+			"casterProgression": "artificer",
+			"preparedSpells": "<$level$> / 2 + <$int_mod$>",
+			"cantripProgression": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4
+			],
+			"classSpells": [
+				"Acid Splash|PHB",
+				"Booming Blade|TCE",
+				"Chill Touch|PHB",
+			  "Control Flames|PHB",
+			  "Create Bonfire|XGE",
+				"Dancing Lights|PHB",
+				"Druidcraft|PHB",
+				"Fire Bolt|PHB",
+				"Frostbite|XGE",
+				"Green-Flame Blade|TCE",
+				"Gust|XGE",
+				"Infestation|XGE",
+				"Light|PHB",
+				"Lightning Lure|TCE",
+				"Mage Hand|PHB",
+				"Magic Stone|XGE",
+				"Mending|PHB",
+				"Message|PHB",
+				"Minor Illusion|PHB",
+				"Mold Earth|XGE",
+				"Poison Spray|PHB",
+				"Prestidigitation|PHB",
+				"Ray of Frost|PHB",
+				"Shape Water|XGE",
+				"Shocking Grasp|PHB",
+				"Sword Burst|XGE",
+				"Thaumaturgy|PHB",
+				"Thorn Whip|PHB",
+				"True Strike|PHB",
+				"Word of Radiance|XGE",
+
+				"Absorb Elements|XGE",
+				"Armor of Agathys|PHB",
+				"Arms of Hadar|PHB",
+				"Burning Hands|PHB",
+				"Catapult|XGE",
+				"Cause Fear|XGE",
+				"Chaos Bolt|XGE",
+				"Chromatic Orb|PHB",
+				"Color Spray|PHB",
+				"Create or Destroy Water|PHB",
+				"Cure Wounds|PHB",
+				"Detect Magic|PHB",
+				"Disguise Self|PHB",
+				"Distort Value|AI",
+				"Earth Tremor|XGE",
+				"Entangle|PHB",
+				"Feather Fall|PHB",
+				"Fog Cloud|PHB",
+				"Frost Fingers|IDRotF",
+				"Goodberry|PHB",
+				"Grease|PHB",
+				"Hellish Rebuke|PHB",
+				"Ice Knife|XGE",
+				"Identify|PHB",
+				"Illusory Script|PHB",
+				"Jump|PHB",
+				"Longstrider|PHB",
+				"Mage Armor|PHB",
+				"Magic Missile|PHB",
+				"Magnify Gravity|EGW",
+				"Protection from Evil and Good|PHB",
+				"Sanctuary|PHB",
+				"Shield|PHB",
+				"Silent Image|PHB",
+				"Sleep|PHB",
+				"Snare|XGE",
+				"Tasha's Caustic Brew|TCE",
+				"Tenser's Floating Disk|PHB",
+				"Thunderwave|PHB",
+				"Witch Bolt|PHB",
+
+				"Aganazzar's Scorcher|XGE",
+				"Arcane Lock|PHB",
+				"Blindness/Deafness|PHB",
+				"Blur|PHB",
+				"Cloud of Daggers|PHB",
+				"Continual Flame|PHB",
+				"Darkness|PHB",
+				"Darkvision|PHB",
+				"Dust Devil|XGE",
+				"Earthbind|XGE",
+				"Enhance Ability|PHB",
+				"Enlarge/Reduce|PHB",
+				"Flaming Sphere|PHB",
+				"Gift of Gab|AI",
+				"Gust of Wind|PHB",
+				"Heat Metal|PHB",
+				"Hold Person|PHB",
+				"Immovable Object|EGW",
+				"Invisibility|PHB",
+				"Kinetic Jaunt|SCC",
+				"Knock|PHB",
+				"Levitate|PHB",
+				"Magic Mouth|PHB",
+				"Maximilian's Earthen Grasp|XGE",
+				"Melf's Acid Arrow|PHB",
+				"Mirror Image|PHB",
+				"Misty Step|PHB",
+				"Moonbeam|PHB",
+				"Pass without Trace|PHB",
+				"Pyrotechnics|XGE",
+				"Rime's Binding Ice|FTD",
+				"Rope Trick|PHB",
+				"Scorching Ray|PHB",
+				"Shadow Blade|XGE",
+				"Shatter|PHB",
+				"Silence|PHB",
+				"Skywrite|XGE",
+				"Snilloc's Snowball Swarm|XGE",
+				"Spike Growth|PHB",
+				"Vortex Warp|SCC",
+				"Warding Wind|XGE",
+				"Web|PHB",
+				"Wristpocket|EGW",
+
+				"Ashardalon's Stride|FTD",
+				"Blink|PHB",
+				"Call Lightning|PHB",
+				"Catnap|XGE",
+				"Clairvoyance|PHB",
+				"Conjure Animals|PHB",
+				"Counterspell|PHB",
+				"Create Food and Water|PHB",
+				"Daylight|PHB",
+				"Dispel Magic|PHB",
+				"Elemental Weapon|PHB",
+				"Enemies Abound|XGE",
+				"Erupting Earth|XGE",
+				"Fear|PHB",
+				"Fireball|PHB",
+				"Fly|PHB",
+				"Glyph of Warding|PHB",
+				"Haste|PHB",
+				"Hunger of Hadar|PHB",
+				"Hypnotic Pattern|PHB",
+				"Leomund's Tiny Hut|PHB",
+				"Lightning Arrow|PHB",
+				"Lightning Bolt|PHB",
+				"Magic Circle|PHB",
+				"Major Image|PHB",
+				"Meld into Stone|PHB",
+				"Melf's Minute Meteors|XGE",
+				"Nondetection|PHB",
+				"Phantom Steed|PHB",
+				"Protection from Energy|PHB",
+				"Sending|PHB",
+				"Sleet Storm|PHB",
+				"Stinking Cloud|PHB",
+				"Thunder Step|XGE",
+				"Tidal Wave|XGE",
+				"Tiny Servant|XGE",
+				"Wall of Sand|XGE",
+				"Wall of Water|XGE",
+				"Water Breathing|PHB",
+				"Water Walk|PHB",
+				"Wind Wall|PHB",
+
+				"Arcane Eye|PHB",
+				"Banishment|PHB",
+				"Blight|PHB",
+				"Control Water|PHB",
+				"Dimension Door|PHB",
+				"Elemental Bane|XGE",
+				"Evard's Black Tentacles|PHB",
+				"Fabricate|PHB",
+				"Fire Shield|PHB",
+				"Freedom of Movement|PHB",
+				"Grasping Vine|PHB",
+				"Gravity Sinkhole|EGW",
+				"Hallucinatory Terrain|PHB",
+				"Ice Storm|PHB",
+				"Leomund's Secret Chest|PHB",
+				"Mordenkainen's Faithful Hound|PHB",
+				"Mordenkainen's Private Sanctum|PHB",
+				"Otiluke's Resilient Sphere|PHB",
+				"Sickening Radiance|XGE",
+				"Stone Shape|PHB",
+				"Storm Sphere|XGE",
+			  "Vitriolic Sphere|XGE",
+				"Wall of Fire|PHB",
+				"Watery Sphere|XGE",
+
+				"Antilife Shell|PHB",
+				"Banishing Smite|PHB",
+				"Bigby's Hand|PHB",
+				"Circle of Power|PHB",
+				"Cloudkill|PHB",
+				"Cone of Cold|PHB",
+				"Contact Other Plane|PHB",
+				"Contagion|PHB",
+				"Control Winds|XGE",
+				"Creation|PHB",
+				"Dawn|XGE",
+				"Destructive Wave|PHB",
+				"Enervation|XGE",
+				"Far Step|XGE",
+				"Flame Strike|PHB",
+				"Immolation|XGE",
+				"Insect Plague|PHB",
+				"Maelstrom|XGE",
+				"Mislead|PHB",
+				"Negative Energy Flood|XGE",
+				"Passwall|PHB",
+				"Planar Binding|PHB",
+				"Rary's Telepathic Bond|PHB",
+				"Scrying|PHB",
+				"Seeming|PHB",
+				"Steel Wind Strike|XGE",
+				"Telekinesis|PHB",
+				"Teleportation Circle|PHB",
+				"Transmute Rock|XGE",
+				"Wall of Force|PHB",
+				"Wall of Light|XGE",
+				"Wall of Stone|PHB",
+				"Wrath of Nature|XGE",
+
+				"Boomerang Blade|Jackalope",
+				"Control Flames|EvolvingCantrips",
+				"Dancing Lights|EvolvingCantrips",
+				"Druidcraft|EvolvingCantrips",
+				"Gust|EvolvingCantrips",
+				"Light|EvolvingCantrips",
+				"Mage Hand|EvolvingCantrips",
+				"Magic Stone|EvolvingCantrips",
+				"Mending|EvolvingCantrips",
+				"Message|EvolvingCantrips",
+				"Minor Illusion|EvolvingCantrips",
+				"Mold Earth|EvolvingCantrips",
+				"Prestidigitation|EvolvingCantrips",
+				"Shape Water|EvolvingCantrips",
+				"Thaumaturgy|EvolvingCantrips",
+				"True Strike|EvolvingCantrips",
+
+				"Arcane Mirror|Jackalope",
+				"Ray of Impotence|Jackalope",
+				"Time Stasis|Jackalope"
+      ],
+			"fluff": [
+				{
+          "name": "Portalist (Revised)",
+          "type": "section",
+          "entries": [
+            "The fabric of space is far more flexible than many realise. Portalists have learned the art of folding space in just the right way and then punching a hole through it, creating portals through which one can instantly transport to another point in space.",
+						"Portalists can open momentary gateways to other realms within space or into the weave itself. These gateways are used to release, or absorb, matter and energy into, or out of, the portalist's world. The use of these gateways can appear very much like the spells of mages.",
+						{
+							"type": "entries",
+							"name": "Creating a Portalist",
+							"entries": [
+								"To create an portalist, consult the subsections which give you hit points, proficiencies, and starting equipment. Then look at the Portalist table to see which features you get at each level. The descriptions of those features appear below.",
+								{
+									"type": "entries",
+									"name": "Quick Build",
+									"entries": [
+										"You can make a portalist quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the sage background. Third, choose the {@spell fire bolt|phb} and {@spell message|phb} cantrips, along with the 1st-level spells {@spell catapult|xge} and {@spell magnify gravity|egw}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Multiclassing and the Portalist",
+									"entries": [
+										"If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.",
+										{
+											"type": "entries",
+											"name": "Ability Score Minimum",
+											"entries": [
+												"As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already a portalist."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Proficiencies Gained",
+											"entries": [
+												"If portalist isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, simple weapons and one skill from the following; {@skill athletics}, {@skill arcana}, {@skill history}, {@skill insight}, {@skill investigation}, and {@skill perception}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Spell Slots",
+											"entries": [
+												"Add half your levels (rounded up) in the portalist class to the appropriate levels from other classes to determine your available spell slots."
+											]
+										}
+									]
+								}
+							]
+						}
+          ]
+        }
+			]
+		}
+	],
+	"classFeature": [
+		{
+      "name": "Optional Feature: Alternate Ability Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 1,
+      "entries": [
+        "Sometimes intuition or determination is more useful than raw knowledge when bending space. If the DM allows, you can use Wisdom or Charisma for your portalist features rather than Intelligence. If you do so, make the following changes to your portalist:",
+				{
+					"type": "list",
+					"items": [
+						"Wherever you would use Intelligence for your portalist features or specialism features, such as your Spellcasting and Redirect Missile features, you instead use your chosen ability.",
+						"If you choose Charisma, you replace one of the saving throw proficiencies you gain from this class with Charisma. When you reach 20th level in this class, you replace the same ability with Charisma in your Pandimensional Mind feature.",
+						"If you play a multiclass character, you must have at least a score of 13 in your chosen ability to take a level in this class, or to take a level in another class if you are already a portalist. You no longer require an Intelligence score of 13 or higher to do this."
+					]
+				}
+      ]
+    },
+		{
+      "name": "Deep Pockets",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 1,
+      "entries": [
+        "At 1st level, you learn the art of creating small extradimensional spaces. At the end of a long rest, you can touch an empty, nonmagical bag or pocket and grant it the effects of a {@item bag of holding|dmg}. You can only have one bag or pocket modified in this way at a time, if you create another one, the previous one ceases to be magical and the contents spill out into an adjacent space."
+      ]
+    },
+		{
+      "name": "Spellcasting",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 1,
+      "entries": [
+        "You can open portals to realms of the arcane, allowing you to cast spells. See {@book chapter 10|PHB|10} of the Player's Handbook for the general rules of spellcasting.",
+				{
+					"type": "inset",
+					"name": "Thinking with Portals",
+					"entries": [
+						"As a portalist, you use tiny portals when you cast your spells. When describing your spellcasting, think about how you're using portals to perform the spell effect. If you cast {@spell fire bolt} or {@spell fireball}, you could be quickly opening and closing a portal to the elemental plane of fire, allowing a limited quantity of magical fire to enter your plane and hit your targets. When you cast {@spell mage armor} or {@spell shield}, you could open a portal in front of you that a missed attack enters rather than hitting you. The effect of the spell is the same as for a spellcaster of any other class, but your method of spellcasting is special.",
+						"Such details don't limit you in any way or provide you with any benefit beyond the spell's effects. You don't have to justify how you're using portals to cast a spell. But describing your spellcasting creatively is a fun way to distinguish yourself from other spellcasters."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you know two cantrips of your choice from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}. At higher levels, you learn additional portalist cantrips of your choice, as shown in the Cantrips Known column of the Portalist table.",
+						"When you gain a level in this class, you can replace one of the portalist cantrips you know with another cantrip from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Portalist table shows how many spell slots you have to cast your portalist spells. To cast one of your portalist spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of portalist spells that are available for you to cast, choosing from the {@filter portalist spell list|spells|class=portalist (j:portalist(r))}. When you do so, choose a number of portalist spells equal to your Intelligence modifier + half your portalist level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level portalist, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can change your list of prepared spells when you finish a long rest. Preparing a new list of portalist spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Intelligence is your spellcasting ability for your portalist spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an portalist spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an portalist spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"You can cast an portalist spell as a ritual if that spell has the ritual tag and you have the spell prepared."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an {@item arcane focus|phb} as a spellcasting focus for your portalist spells."
+					]
+				}
+      ]
+    },
+		{
+      "name": "Paired Portals",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, you can use an action to create a pair of opaque or translucent portals at two points you can see within 30ft of you. The portals remain in place for 1 minute, after which both portals vanish. The portals vanish early if you dismiss them (no action required), if you use this feature again, if you are ever more than 60ft away from either portal or if you die.",
+				"When a creature or object that is Large or smaller enters one of your portals, they are instantly transported to the location of the other portal along with any items they are wearing or carrying. If a pair of portals vanishes whilst a creature or object is moving through them, they are harmlessly shunted out of one of the portals (your choice which).",
+				"If an object or creature falls 30ft or more before entering a portal, it retains some of its speed when exiting the second portal. The object or creature falls 15ft in a direction of your choice away from the second portal. The distance an object or creature fell before entering the first portal is not included when calculating the damage they take from falling immediately after exiting the second portal",
+				"Once per turn, you can use an action to move one or both of your Paired Portals up to 15ft each in any direction. The portals vanish if they are ever more than 60ft from each other or from you. Whilst the portal is moving, it cannot be used to transport creatures or objects, instead passing harmlessly by them.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+      ]
+    },
+		{
+      "name": "Portal Specialism",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you choose your specialism, each of which is detailed at the end of the class's description. Your choice grants you features at 3rd level and again at 5th, 10th and 15th level."
+      ],
+			"gainSubclassFeature": true
+    },
+		{
+      "name": "Specialism Feature",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 5,
+      "entries": [
+        "At 5th level, you gain a feature granted by your portal specialism."
+      ],
+			"gainSubclassFeature": true
+    },
+		{
+      "name": "Space Warp",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 6,
+      "entries": [
+        "Starting at 6th level, you can bend space in your favour to move faster. Your speed increases by 10 feet.",
+				"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Intelligence modifier."
+      ]
+    },
+		{
+      "name": "Redirect Missile",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 7,
+      "entries": [
+        "Starting 7th level, you can attempt to redirect incoming attacks with portals. When you are targeted by a ranged weapon attack, you can use a reaction to subtract your Intelligence modifier (minimum of 1) from the attack roll.",
+				"If the attack misses, you can then make can then make a ranged spell attack (range 30ft) with the attack's missile as part of the same reaction. On a hit, the spell attack deals {@dice 1d8} + your Intelligence modifier damage of the same type as the original attack.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+      ]
+    },
+		{
+      "name": "Specialism Feature",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 10,
+      "entries": [
+        "At 10th level, you gain a feature granted by your portal specialism."
+      ],
+			"gainSubclassFeature": true
+    },
+		{
+      "name": "Multiportals",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 11,
+      "entries": [
+        "Starting at 11th level, your Paired Portals no longer vanish if you use the feature again within 1 minute. However, if you try to create more than two pairs of portals simultaneously, the oldest pair vanishes.",
+				"Additionally, you may expend a portalist spell slot of 1st-level or higher to use your Paired Portal feature without expending a use of the feature."
+      ]
+    },
+		{
+      "name": "Entangled Objects",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 14,
+      "entries": [
+        "Starting at 14th level, you can split an object across two points in space yet have them physically remain the same object. Over the course of 8 hours, you touch a tiny, non-magical object and produce two instances of the object. The objects appear to be separate but are linked such that any alterations to the properties of one object, such as its temperature or color, will also occur in the other. You can only have one pair of objects entangled in this way at one time, if you entangle a second pair, the first collapses back into a single non-magical object.",
+				"As an action, you can touch a willing creature that is holding one of the objects and instantly transport them to the location of the other object, along with any items they are wearing or carrying. The entangled objects do not need to be on the same plane of existence for this feature to work. At any point within the next 10 minutes, the transported creature can use an action to return to the space they were transported from. If the space is occupied, they appear in the nearest unoccupied space."
+      ]
+    },
+		{
+      "name": "Specialism Feature",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 15,
+      "entries": [
+        "At 15th level, you gain a feature granted by your portal specialism."
+      ],
+			"gainSubclassFeature": true
+    },
+		{
+      "name": "Long Distance Portals",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 18,
+      "entries": [
+        "At 18th level, you learn the {@spell teleport|phb} and {@spell plane shift|phb} spells. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest.",
+				"When you cast the {@spell plane shift|phb} spell, you do not need to provide material components if you have been to the target plane before or if you touch an object or willing creature that is native to that plane during the casting."
+      ]
+    },
+		{
+      "name": "Pandimensional Mind",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+      "level": 20,
+      "entries": [
+        "At 20th level, your mind has ascended beyond your previous limitations. Your Intelligence and Wisdom scores increase by 4, to a maximum of 24."
+      ]
+    }
+	],
+	"spell": [
+		{
+			"name": "Switch",
+			"source": "Jackalope",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose two willing creatures you can see within range that are not {@condition incapacitated} or {@condition restrained} (this can include yourself). Both creatures then instantly swap places."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist (Revised)",
+						"source": "J:Portal(R)"
+					}
+				]
+			}
+		},
+		{
+			"name": "Compress/Stretch",
+			"source": "Jackalope",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a spring or piece of rubber"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You warp space in a 30-foot cone in one of the following ways for the spell's duration:",
+				"{@b {@i Compress.}} A creature moving through the area only spends 1 foot of movement for every 2 feet it moves inside the area.",
+				"{@b {@i Stretch.}} Any creature other than you must spend 2 feet of movement for every 1 foot it moves inside the area."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist (Revised)",
+						"source": "J:Portal(R)"
+					}
+				]
+			}
+		}
+	],
+	"subclass": [
+		{
+			"name": "Relocation Portalist",
+			"shortName": "Relocation",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Relocation Portalist|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
+          "Roaming Portals|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
+					"Quick Extraction|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|3",
+					"Rapid Shifting|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|5",
+					"Scaled Portal|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|10",
+					"Incoming Transport|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|10",
+					"Dimensional Spaghettification|Portalist (Revised)|J:Portal(R)|Relocation|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Expeditious Retreat|PHB",
+				"Tenser's Floating Disk|PHB",
+				"Spider Climb|PHB",
+				"Vortex Warp|SCC",
+				"Pulse Wave|EGW",
+				"Thunder Step|XGE",
+				"Dimension Door|PHB",
+				"Gravity Sinkhole|EGW",
+				"Far Step|XGE",
+				"Teleportation Circle|PHB"
+			]
+		},
+		{
+			"name": "Temporal Portalist",
+			"shortName": "Temporal",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Temporal Portalist|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
+          "Bonus Proficiency|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
+					"Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
+					"Rewind Features|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|3",
+					"Extra Attack|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|5",
+					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|5",
+					"Time Travel Portal|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|10",
+					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|10",
+					"Temporal Reserves|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|15",
+					"Additional Rewind|Portalist (Revised)|J:Portal(R)|Temporal|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Gift Of Alacrity|EGW",
+				"Shield|PHB",
+				"Hold Person|PHB",
+				"Fortune's Favor|EGW",
+				"Catnap|XGE",
+				"Slow|PHB",
+				"Death Ward|PHB",
+				"Staggering Smite|PHB",
+				"Hold Monster|PHB",
+				"Temporal Shunt|EGW"
+			]
+		},
+		{
+			"name": "Hoard Portalist",
+			"shortName": "Hoard",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Hoard Portalist|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|3",
+					"Gifts of the Hoard|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|3",
+					"Immaterial Weapon|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|3",
+					"Hoard Armor|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|3",
+					"Extra Attack|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|5",
+					"Cluttered Portal|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|10",
+					"Improved Immaterial Weapon|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|10",
+					"Knick-Knack Attack|Portalist (Revised)|J:Portal(R)|Hoard|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Shield|PHB",
+				"Thunderous Smite|PHB",
+				"Branding Smite|PHB",
+				"Mirror Image|PHB",
+				"Blinding Smite|PHB",
+				"Create Food and Water|PHB",
+				"Fabricate|PHB",
+				"Staggering Smite|PHB",
+				"Wall of Force|PHB",
+				"Creation|PHB"
+			]
+		},
+		{
+			"name": "Extraplanar Portalist",
+			"shortName": "Extraplanar",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Extraplanar Portalist|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|3",
+          "Environmental Portal|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|3",
+					"Extraplanar Environments|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|3",
+					"Focused Summons|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|5",
+					"Additional Extraplanar Environment|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|5",
+					"Residual Portal|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|10",
+					"Additional Extraplanar Environment|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|10",
+					"Expanded Environments|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|15",
+					"Additional Extraplanar Environment|Portalist (Revised)|J:Portal(R)|Extraplanar|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Find Familiar|PHB",
+				"Protection from Evil and Good|PHB",
+				"Find Steed|PHB",
+				"Summon Beast|TCE",
+				"Summon Fey|TCE",
+				"Summon Lesser Demons|XGE",
+				"Banishment|PHB",
+				"Summon Aberration|TCE",
+				"Conjure Elemental|PHB",
+				"Planar Binding|PHB"
+			]
+		},
+		{
+			"name": "Reality Portalist",
+			"shortName": "Reality",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Reality Portalist|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
+          "Multiversal Expertise|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
+					"Trading Minds|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|3",
+					"Steal Fate|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|5",
+					"Transmuting Portal|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|10",
+					"Reality Shifter|Portalist (Revised)|J:Portal(R)|Reality|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Comprehend Languages|PHB",
+				"Distort Value|AI",
+				"Alter Self|PHB",
+				"Borrowed Knowledge|SCC",
+				"Blink|PHB",
+				"Counterspell|PHB",
+				"Fabricate|PHB",
+				"Greater Invisibility|PHB",
+				"Greater Restoration|PHB",
+				"Skill Empowerment|XGE"
+			]
+		},
+		{
+			"name": "Multiplication Portalist",
+			"shortName": "Multiplication",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+      "subclassFeatures": [
+					"Multiplication Portalist|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Specialism Spells|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+          "Replication Pocket|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Duplicate Spell|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|3",
+					"Potent Spells|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|5",
+					"Cloning Portal|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|10",
+					"Triplicate Spell|Portalist (Revised)|J:Portal(R)|Multiplication|J:Portal(R)|15"
+			],
+			"subclassSpells": [
+				"Chromatic Orb|PHB",
+				"Ice Knife|XGE",
+				"Mirror Image|PHB",
+				"Scorching Ray|PHB",
+				"Conjure Barrage|PHB",
+				"Vampiric Touch|PHB",
+				"Summon Construct|TCE",
+				"Wall of Fire|PHB",
+				"Mislead|PHB",
+				"Steel Wind Strike|XGE"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+      "name": "Relocation Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Bending space is the prowess of any portalist, but in any field there are the expert that rise above others. You have mastered the bending of space such that location is an attribute as changable as one's facial expressions."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Relocation Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Relocation Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell expeditious retreat|phb}, {@spell tenser's floating disk|phb}"
+						],
+						[
+							"5th",
+							"{@spell spider climb|phb}, {@spell vortex warp|scc}"
+						],
+						[
+							"9th",
+							"{@spell pulse wave|egw}, {@spell thunder step|xge}"
+						],
+						[
+							"13th",
+							"{@spell dimension door|phb}, {@spell gravity sinkhole|egw}"
+						],
+						[
+							"17th",
+							"{@spell far step|xge}, {@spell teleportation circle|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+      "name": "Roaming Portals",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you can use a bonus action to create or move your Paired Portals rather than an action. You can still only move your portals once per turn. In addition, you can move the portals up to 30ft in a turn and the portals may be up to 150ft from each other, or from you, before vanishing."
+      ]
+    },
+		{
+      "name": "Quick Extraction",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, when you or a willing creature you can see takes damage while within 10ft of one of your Paired Portals, you can use your reaction to have the portal instantly transport them to the location of the other portal, along with any items they are wearing or carrying. The damage taken by the creature is reduced by {@dice 1d8} + your portalist level. Both portals then immediately vanish."
+      ]
+    },
+		{
+      "name": "Rapid Shifting",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "Starting at 5th level, you can use a series of rapid, short-distance portals to protect yourself, or another, from harm. You can use a bonus action on your turn to take the {@action Dodge} or {@action Disengage} action.",
+				"Alternatively, you can use this bonus action to target a creature you can see within 30ft. Before the start of your next turn, that creature can use a bonus action to take the {@action Dodge} or {@action Disengage} action."
+      ]
+    },
+		{
+      "name": "Scaled Portal",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, you can resize your Paired Portals as a bonus action to prevent creatures and objects above a certain size from entering the portal. You chose the maximum size from the following list; tiny, small, medium, large or huge."
+      ]
+    },
+		{
+      "name": "Incoming Transport",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, if you move one of your Paired Portals into the space of a creature or object that is equal or smaller than the maximum size allowed by the portal, you can use a reaction to transport that creature or object as if they had entered the portal themself.",
+				"An unwilling creature can make a Charisma saving throw against your portalist spell save DC to avoid being transported."
+      ]
+    },
+		{
+      "name": "Dimensional Spaghettification",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Relocation",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "Starting at 15th level, if you move both of your Paired Portals simultaneously into the space of the same creature or object, you can rapidly stretch and squash the target through multiple dimensions. If the target is a creature, they may make a Charisma saving throw against your portalist spell save DC, to resist the effect. The target takes {@dice 5d10} force damage, or half as much on a save, before being returned to its space.",
+				"If this damage leaves the target with 0 hit points, it is dismantled into infinitely small particles and scattered throughout the multiverse, along with any non-magical items they are wearing or carrying. A creature killed in this way can only be restored to life by means of a {@spell true resurrection} or a {@spell wish} spell.",
+				"You can use this feature a number of times equal to your Proficiency Bonus, you regain all expended uses at the end of a long rest."
+      ]
+    },
+		{
+      "name": "Temporal Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Most portalists choose to focus upon folding space alone to create their portals but some have noticed that space and time are constituents of the same thing. You can punch holes through time as well as space allowing you to perform certains activities in non chronological order"
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Temporal Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Temporal Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell gift of alacrity|egw}, {@spell shield|phb}"
+						],
+						[
+							"5th",
+							"{@spell hold person|phb}, {@spell fortune's favor|egw}"
+						],
+						[
+							"9th",
+							"{@spell catnap|xge}, {@spell slow|phb}"
+						],
+						[
+							"13th",
+							"{@spell death ward|phb}, {@spell staggering smite|phb}"
+						],
+						[
+							"17th",
+							"{@spell hold monster|phb}, {@spell temporal shunt|egw}"
+						]
+					]
+				}
+			]
+		},
+		{
+      "name": "Bonus Proficiency",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "At 3rd level, you gain proficiency with medium armor, and martial weapons."
+      ]
+    },
+		{
+      "name": "Rewind",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you can portal yourself back in time a few seconds. Your ability to do this is represented by your Temporal Points. You have a number of points equal to twice your proficiency bonus. You regain all expended points when you finish a long rest.",
+				"When you choose this specialism, you know two Rewind Features from the list below. You gain additional features at 5th, 10th and 15th level. Each time you gain a level in this class, you can replace one rewind feature you know with a different one.",
+				"Once per turn, you can spend temporal points on one of your Rewind features."
+      ]
+    },
+		{
+      "name": "Rewind Features",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+				{
+					"type": "options",
+					"style": "list-hang-notitle",
+					"count": 2,
+					"entries": [
+						{
+							"name": "Helping Hand",
+							"entries": [
+								"You can spend 1 temporal point to take the {@action Help} action as a bonus action on your turn. Alternatively, you can spend 1 temporal point as a bonus action to gain advantage on your next attack roll or ability check before the start of your next turn."
+							]
+						},
+						{
+							"name": "Historical Harm",
+							"entries": [
+								"As a bonus action, choose a creature you can see within 30ft, and that you have dealt damage to using an attack or spell within the past minute, you can expend a number of temporal points to deal force damage to that creature equal to {@dice 1d6} per point expended."
+							]
+						},
+						{
+							"name": "Historical Healing",
+							"entries": [
+								"When you or a creature you can see within 30ft takes damage, you can use a reaction to expend any number of temporal points to grant them {@dice 1d6} temporary hit points for each point expended. These temporary hit points can be used against the triggering damage."
+							]
+						},
+						{
+							"name": "Refund Arcana",
+							"entries": [
+								"When you expend a spell slot of 1st-level or higher, you can spend a number of temporal points equal to three times the level of the spell slot to immediately regain the spell slot."
+							]
+						},
+						{
+							"name": "Relay Dash",
+							"entries": [
+								"When you move 5ft or more on your turn, you can spend 1 temporal point to take the {@action Dash} action as a bonus action."
+							]
+						},
+						{
+							"name": "Repeated Strike",
+							"entries": [
+								"When you take the {@action Attack} action on your turn, you can spend 1 temporal point to make one additional weapon attack as a bonus action."
+							]
+						},
+						{
+							"name": "Swift Escape",
+							"entries": [
+								"You can spend 1 temporal point to take the {@action Dodge} or {@action Disengage} action as a bonus action on your turn."
+							]
+						}
+					]
+				}
+      ]
+    },
+		{
+      "name": "Extra Attack",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+      ]
+    },
+		{
+      "name": "Additional Rewind",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "At 5th level, you learn one additional Rewind Feature of your choice."
+      ]
+    },
+		{
+      "name": "Time Travel Portal",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, when you or a creature you see enters one of your Paired Portals, you can use a reaction to apply one of the following effects to that creature. If multiple creatures enter the portal at the same time, such as one creature grappling another one, you choose only one of the creatures to target with this feature.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Early Arrival.} The creature emerges from the second portal slightly earlier than when they entered the first. The creature can take one additional action immediately. That action can be used only to take the {@action Attack} (one weapon attack only), {@action Cast a Spell} (cantrip only), {@action Dash}, {@action Help}, {@action Hide}, or {@action Use an Object} action.",
+						"{@b Late Arrival.} The creature must make a Charisma saving throw against your portalist spell save DC. On a fail, the creature does not emerge from the second portal until the start of its next turn or until the portals vanish (whichever happens sooner). Until then, the creature effectively exists outside of time in a harmless demiplane and is {@condition incapacitated}."
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
+      ]
+    },
+		{
+      "name": "Additional Rewind",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "At 10th level, you learn one additional Rewind Feature of your choice."
+      ]
+    },
+		{
+      "name": "Temporal Reserves",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "Starting at 15th level, when you roll for initiative and have no temporal points remaining, you can regain 2 points.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
+      ]
+    },
+		{
+      "name": "Additional Rewind",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Temporal",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "At 15th level, you learn one additional Rewind Feature of your choice."
+      ]
+    },
+		{
+      "name": "Hoard Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Across the multiverse, many beings collect treasures and magic items in great caches known as hoards. You have gained access to one or more of these hoards and have some limited ability to borrow items from it. The nature of your access can vary, perhaps you have made some deal with the hoard's owner or perhaps you are just skilled enough to take the items without being noticed."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Hoard Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Hoard Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell mage armor|phb}, {@spell thunderous smite|phb}"
+						],
+						[
+							"5th",
+							"{@spell branding smite|phb}, {@spell mirror image|phb}"
+						],
+						[
+							"9th",
+							"{@spell blinding smite|phb}, {@spell create food and water|phb}"
+						],
+						[
+							"13th",
+							"{@spell fabricate|phb}, {@spell staggering smite|phb}"
+						],
+						[
+							"17th",
+							"{@spell creation|phb}, {@spell wall of force|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+      "name": "Gifts of the Hoard",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you can pull miscellaneous items from a hoard elsewhere in the multiverse. You can spend 1 minute to summon a single, nonmagical, non-living item that fits in one hand and has a listed cost of 50gp or lower. You cannot summon a specific item, such as a particular key or book, but you can summon generic items with which you are familiar, such as a set of tools or a lantern.",
+				"The summoned item lasts for 1 hour, or until you use this feature again, after which it vanishes and returns to the hoard. If viewed with the {@spell detect magic|phb} spell, the item appears magical and as part of the conjuration school of magic."
+      ]
+    },
+		{
+      "name": "Immaterial Weapon",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you can use a bonus action to summon a melee weapon from beyond the material plane to your empty hand. The weapon disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.",
+				"When you summon the weapon, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are proficient with the weapon while you wield it, and You may use your Intelligence modifier, instead of Strength or Dexterity, for the weapon's attack and damage rolls.",
+						"You can use the weapon as a spellcasting focus for your portalist spells.",
+						"When you summon the weapon, you decide its appearance and damage type from the following list; bludgeoning, piercing or slashing.",
+						"When you summon the weapon, you can assign one of the following properties to it; finesse, heavy, light, reach, thrown (range 30/90ft), or versatile ({@dice 1d10}).",
+						"On a hit, the weapon deals damage equal to {@dice 1d8} plus the ability modifier you used for the attack roll. The weapon's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+					]
+				}
+      ]
+    },
+		{
+      "name": "Hoard Armor",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you can summon a set of armor that provides deeper protection than typical armor. When you cast the {@spell mage armor|phb} spell on yourself, your maximum hit points increase for the spell's duration by an amount equal to five times the level of the spell slot expended. Your current hit points also increase by the same amount when you cast the spell."
+      ]
+    },
+		{
+      "name": "Extra Attack",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "Starting at 5th level, you can attack twice, rather than once, whenever you take the {@action Attack} action on your turn."
+      ]
+    },
+		{
+      "name": "Cluttered Portal",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, when a creature travels through one of your paired portals, you can use a reaction to have them become surrounded by miscellaneous objects from the hoard. Until the start of its next turn, the creature gains one of the following effects of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"The objects arrange themselves to block or deflect incoming attacks. The creature has a +2 bonus to its armor class.",
+						"The objects arrange themselves to guide attacks into weak spots in the creature's armor or hide. The creature has a -2 penalty to its armor class."
+					]
+				},
+				"You can use this reaction a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
+      ]
+    },
+		{
+      "name": "Improved Immaterial Weapon",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, You gain additional benefits when you summon your Immaterial Weapon:",
+				{
+					"type": "list",
+					"items": [
+						"You have a +2 bonus to attack and damage rolls with the immaterial weapon.",
+						"When you summon the weapon, you can choose its damage type from the following expanded list; acid, bludgeoning, cold, fire, lightning, necrotic, piercing, posion, radiant, slashing or thunder.",
+						"When you summon the weapon, you can choose to grant the weapon two properties from the given list rather than just one."
+					]
+				}
+      ]
+    },
+		{
+      "name": "Knick-Knack Attack",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Hoard",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "Starting at 15th level, when you take the {@action Attack} action on your turn, you can replace one of the attacks with a special attack in which you launch a flurry of miscellaneous items from the hoard at your targets. Chose up to five objects or creatures within 30ft of you. Make a ranged spell attack against each target. On a hit, a target takes {@dice 4d8} force damage. Each creature you hit must also make a Strength saving throw against your portalist spell save DC or be knocked {@condition prone}.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
+      ]
+    },
+		{
+      "name": "Extraplanar Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Your portals are not constrained to just one plane of existence. With great difficulty, you can use your portals to pull aspects from other planes into your own, with all the danger and choas that brings."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Extraplanar Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				"Whenever you gain a portalist level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be from the {@filter conjuration school of magic|spells|level=1;2;3;4;5|school=c}.",
+				{
+					"type": "table",
+					"caption": "Extraplanar Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell find familiar|phb}, {@spell protection from evil and good|phb}"
+						],
+						[
+							"5th",
+							"{@spell find steed|phb}, {@spell summon beast|tce}"
+						],
+						[
+							"9th",
+							"{@spell summon fey|tce}, {@spell summon lesser demons|xge}"
+						],
+						[
+							"13th",
+							"{@spell banishment|phb}, {@spell summon aberration|tce}"
+						],
+						[
+							"17th",
+							"{@spell conjure elemental|phb}, {@spell planar binding|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+      "name": "Environmental Portal",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        "Starting at 3rd level, you learn how to pull the harsh environments of other planes into your own.",
+				"{@b {@i Environments.}} When you choose this specialism, you learn two of the environments from the \"Extraplanar Environments\" list below. You learn additional environments when you reach 5th level and again at 10th and 15th level. Each time you learn new environments, you can also replace one environment you know with a different one.",
+				"{@b {@i Saving Throws.}} Some of your environments require your target to make a saving throw to resist the environment's effects. The saving throw DC is equal to your portalist spell save DC.",
+				"As an action you can create a portal at a point you can see within 60ft. The area within a 10ft-radius sphere centered on the portal is filled with an effect determined by the environment you choose. This effect lasts for 1 minute, after which both the portal and the environment vanish. They also vanish early if you dismiss them (no action required), if you use this feature again or if you are incapacitated.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. You may also use this feature again by expending a spell slot of 1st level or higher."
+      ]
+    },
+		{
+      "name": "Extraplanar Environments",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+			"header": 2,
+      "entries": [
+        {
+					"type": "options",
+					"style": "list-hang-notitle",
+					"count": 2,
+					"entries": [
+						{
+							"name": "Negative Energy Plane",
+							"entries": [
+								"A wash of withering energy fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} necrotic damage, and be unable to regain hit points until the start of its next turn. On a success, the creature takes half damage and this effect does not prevent them regaining hit points."
+							]
+						},
+						{
+							"name": "Upper Planes",
+							"entries": [
+								"An alluring and comforting song fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or refuse to willingly leave the area before the start of its next turn."
+							]
+						},
+						{
+							"name": "Lower Planes",
+							"entries": [
+								"A cloud of caustic poison fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} poison damage and become {@condition poisoned} until the start of their next turn. On a success, the creature takes half damage and is not {@condition poisoned}."
+							]
+						},
+						{
+							"name": "Astral Sea",
+							"entries": [
+								"Gravity ceases to function within the area. Creatures or loose objects in the area begin to levitate. Creatures without a fly speed can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing."
+							]
+						},
+						{
+							"name": "Positive Energy Plane",
+							"entries": [
+								"A blinding light fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Constitution saving throw or take {@dice 2d4} radiant damage and be {@condition blinded} until the start of their next turn. On a success, a creature takes half damage and is not {@condition blinded}."
+							]
+						},
+						{
+							"name": "Elemental Plane of Air",
+							"entries": [
+								"A powerful torrent of wind erupts from the portal and swirls through the area. Ranged weapon attacks have disadvantage if they pass through the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Strength saving throw or be pushed 10ft away from the portal. If this movement would push the creature into the space of another creature or object that is its size or larger, they both take {@dice 2d4} bludgeoning damage."
+							]
+						},
+						{
+							"name": "Elemental Plane of Earth",
+							"entries": [
+								"A flurry of sharp rocks shoot from the portal and cover the ground in the area. Creatures in the area when you create it must make a Dexterity saving throw or take {@dice 2d4} piercing damage. The area becomes {@quickref difficult terrain||3} and any creature that falls prone within the area takes {@dice 2d4} piercing damage."
+							]
+						},
+						{
+							"name": "Elemental Plane of Fire",
+							"entries": [
+								"A raging inferno fills the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Dexterity saving throw or take {@dice 4d4} fire damage. On a success, a creature takes half damage. Any flammable objects in the area ignite if they aren't being worn or carried."
+							]
+						},
+						{
+							"name": "Elemental Plane of Water",
+							"entries": [
+								"A vast volume of water fills the area. Any non-magical fires within the area are extinguished."
+							]
+						},
+						{
+							"name": "Ethereal Plane",
+							"entries": [
+								"A swarm of ethereal beings fill the air. Each creature within the area has disadvantage on attack rolls and Wisdom (Perception) checks as they are distracted by the beings."
+							]
+						},
+						{
+							"name": "Far Realm",
+							"entries": [
+								"A storm of haunting images and sounds fill the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or take {@dice 2d4} psychic damage and be {@condition frightened} of the portal until the start of its next turn. On a success, the creature takes half damage and is not frightened."
+							]
+						},
+						{
+							"name": "Feywild",
+							"entries": [
+								"Faint smells and songs fill the area. A creature that enters the area for the first time on a turn or starts its turn there, must make a Wisdom saving throw or be {@condition charmed} by you until the start of its next turn."
+							]
+						},
+						{
+							"name": "Shadowfell",
+							"entries": [
+								"A thick and unsettling darkness fills the area. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it."
+							]
+						}
+					]
+				}
+      ]
+    },
+		{
+      "name": "Focused Summons",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "Starting at 5th level, when you make a saving throw to maintain concentration on a spell from the conjuration or evocation schools of magic, you can gain a bonus to the roll equal to your Intelligence modifier (minimum of 1)."
+      ]
+    },
+		{
+      "name": "Additional Extraplanar Environment",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 5,
+			"header": 2,
+      "entries": [
+        "At 5th level, you learn one additional Extraplanar Environment of your choice."
+      ]
+    },
+		{
+      "name": "Residual Portal",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "Starting at 10th level, when a creature travels through one of your Paired Portals, you can use a reaction to have them briefly travel through another plane of existence and absorb power from it. Until the start of its next turn, the creature gains one of the following benefits of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"The creature gains resistance to one of the following damage types of your choice; acid, cold, fire, lightning, necrotic, psychic, radiant or thunder.",
+						"The creature has advantage on rolls to avoid or remove the {@condition charmed}, {@condition frightened} or {@condition poisoned} condition.",
+						"The creature gains temporary hit points equal to twice your portalist level."
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
+      ]
+    },
+		{
+      "name": "Additional Extraplanar Environment",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 10,
+			"header": 2,
+      "entries": [
+        "At 10th level, you learn one additional Extraplanar Environment of your choice."
+      ]
+    },
+		{
+      "name": "Expanded Environments",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "Starting at 15th level, the area affected by your Environmental Portal feature is now your choice of; a 10ft-radius sphere, a 20ft-radius sphere or a 30ft cone originating from the portal."
+      ]
+    },
+		{
+      "name": "Additional Extraplanar Environment",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Extraplanar",
+			"subclassSource": "J:Portal(R)",
+      "level": 15,
+			"header": 2,
+      "entries": [
+        "At 15th level, you learn one additional Extraplanar Environment of your choice."
+      ]
+    },
+		{
+      "name": "Reality Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Sometimes reality is not what you want it to be, but that doesn't mean it has to stay that way. There potentially infinite worlds within the multiverse, some very similiar to yours. You can use your portals to bring some of these subtle differences into your own world or yourself."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Extraplanar Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Reality Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell comprehend languages|PHB}, {@spell distort value|ai}"
+						],
+						[
+							"5th",
+							"{@spell alter self|phb}, {@spell borrowed knowledge|scc}"
+						],
+						[
+							"9th",
+							"{@spell blink|phb}, {@spell counterspell|phb}"
+						],
+						[
+							"13th",
+							"{@spell fabricate|phb}, {@spell greater invisibility|phb}"
+						],
+						[
+							"17th",
+							"{@spell greater restoration|phb}, {@spell skill empowerment|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Multiversal Expertise",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you learn from the experiences of multiple versions of yourself across the multiverse. Choose one of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill or tool.",
+				"Whenever you finish a long rest, you can replace the skill or tool that gains this benefit with another skill or tool with which you are proficient."
+			]
+		},
+		{
+			"name": "Trading Minds",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you can exchange certain attributes with an alternate version of yourself. As an action, you gain one of the following effects of your choice:",
+				{
+					"type": "list",
+					"items": [
+						"You change one of your prepared portalist spells to a different one of the same level. The new spell must be from the portalist spell list or your specialism spells.",
+						"You change one of your proficiencies in a specific tool, gaming set or musical instrument for another one of your choice.",
+						"You end one of the following conditions on yourself; {@condition blinded}, {@condition charmed}, {@condition deafened} or {@condition frightened}."
+					]
+				},
+				"This effect lasts until the end of your next short or long rest. Once you use this feature, you cannot do so again until the end of your next short or long rest."
+			]
+		},
+		{
+			"name": "Steal Fate",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Starting at 5th level, you can bend the fate of your reality to fit that of another. When you or a creature you can see within 30ft rolls for an attack roll, ability check or saving throw, you can use your reaction to impose advantage or disadvantage on the roll (your choice).",
+				"You can use this feature a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Transmuting Portal",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when a creature travels through one of your paired portals, you can use a reaction to alter the creature's attributes. The target must succeed on a Charisma saving throw (the target can choose to fail), or gain one of the following effects of your choice until the start of its next turn:",
+				{
+					"type": "list",
+					"items": [
+						"The damage the creature deals with weapon attacks is increased or decreased by {@dice 1d10} (your choice).",
+						"The creature gains a climbing and swimming speed equal to twice its walking speed. Alternatively, you can remove the creature's current climbing and swimming speeds.",
+						"Once before the effect ends, the creature can cast a cantrip it doesn't know from any spell list. The creature uses its choice of Intelligence, Wisdom or Charisma as its spellcasting ability for this cantrip."
+					]
+				},
+				"You can use this reaction a number of times equal to your proficiency bonus, you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Reality Shifter",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Reality",
+			"subclassSource": "J:Portal(R)",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, if your current reality is not to your liking, you can pull part of a subtly different one into your own. You can attempt to cast a spell from the {@filter abjuration or transmutation school of magic|spells|school=a;t} without expending a spell slot or providing material components with a listed cost of 100gp or lower. The spell can be from any list, but counts as a portalist spell for this casting. You must make an Intelligence check or the casting fails with no effect. The DC for this check is equal to 10 plus twice the spell's level (DC10 for a cantrip).",
+				"The DM may choose to allow other changes to reality that are not covered by the qualifying spells. In this case, using this feature takes one minute and the DM decides the DC for the Intelligence check.",
+				"Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+      "name": "Multiplication Portalist",
+      "source": "J:Portal(R)",
+      "className": "Portalist (Revised)",
+      "classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+      "level": 3,
+      "entries": [
+        "Sometimes more is better. You can use your portals to split certain item and spells across multiple points in space, effectively creating a duplicate of the original. Duplicating a creature is more difficult, though you can replicate their image to decieve and confuse though who percieve them."
+      ]
+    },
+		{
+			"name": "Specialism Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Multiplication Specialism Spells table. These spells count as portalist spells for you, but they don't count against the number of portalist spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Multiplication Specialism Spells",
+					"colLabels": [
+						"Portalist Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell chromatic orb|phb}, {@spell ice knife|xge}"
+						],
+						[
+							"5th",
+							"{@spell mirror image|phb}, {@spell scorching ray|phb}"
+						],
+						[
+							"9th",
+							"{@spell conjure barrage|phb}, {@spell vampiric touch|phb}"
+						],
+						[
+							"13th",
+							"{@spell summon construct|tce} (appears as duplicate of you), {@spell wall of fire|phb}"
+						],
+						[
+							"17th",
+							"{@spell mislead|phb}, {@spell steel wind strike|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Replication Pocket",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you can spend 1 minute to duplicate a single nonmagical item that is inside your Deep Pocket. The created duplicate lasts for 1 hour, or until you use this feature again. If viewed with the {@spell detect magic|phb} spell, the duplicate appears magical and as part of the illusion school of magic."
+			]
+		},
+		{
+			"name": "Duplicate Spell",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, when you make a spell attack as part of a portalist spell or cantrip, you can use a bonus action to make one additional spell attack as part of the same spell. For example, if you cast {@spell fire bolt|phb}, you can use this feature to make two attacks. While if you cast {@spell scorching ray|phb} at 2nd-level, you can use this feature to make four attacks instead of three.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spells",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Starting at 5th level, you can increase the potency of your spells. Once per turn, when you cast a portalist spell, you can roll a {@dice d8} and add the result to one of the spell's damage rolls."
+			]
+		},
+		{
+			"name": "Cloning Portal",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when a creature travels through one of your Paired Portals, you can use a reaction to create an illusionary duplicate of the creature that exits the second portal at the same time into an adjacent space. The duplicate is an object that occupies its own space, has an AC of 10 and 1 hit point. The duplicate lasts for 1 minute, until you dismiss it (no action required) or until either the duplicate or the original creature take damage, after which it vanishes.",
+				"As part of the same reaction you use to create the duplicate, you can move the duplicate up to 30ft, the duplicate must remain within 30ft of the second portal. For the duration, you can also use an action or bonus action on your turn to move the duplicate in the same way.",
+				"You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses each time you finish a long rest."
+			]
+		},
+		{
+			"name": "Triplicate Spell",
+			"source": "J:Portal(R)",
+			"className": "Portalist (Revised)",
+			"classSource": "J:Portal(R)",
+			"subclassShortName": "Multiplication",
+			"subclassSource": "J:Portal(R)",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you use your Duplicate Spell feature, you can make two additional spell attacks as part of the spell, rather than just one.",
+				"Using this feature does not consume a use of your Duplicate Spell feature. Once you use this feature, you can not do so again until you finish a long rest."
+			]
+		}
+	]
+}
