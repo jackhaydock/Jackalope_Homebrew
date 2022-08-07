@@ -4354,6 +4354,86 @@
 			"weight": 1,
 			"value": 1500,
 			"entries": []
+		},
+		{
+			"name": "Body Modder's Tools",
+			"source": "Jackalope",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"additionalEntries": [
+				"Proficiency with body modder's tools represents your ability to safely modify a creature's body with grafts, implants, piercings, scarification and tattoos. You also acquire an understanding of the history and symbolism of body modifications, which can aid you in producing and examining them.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"This kit includes needles, syringes, scalpels, gauze and small bottles of various dyes, inks, disinfectants and other chemicals."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcana",
+					"entries": [
+						"You gain additional insight when identifying the materials and patterns used in magic tattoos and other modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History and Religion",
+					"entries": [
+						"You have greater understanding of the cultural and religious significance of certain body modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medicine",
+					"entries": [
+						"You can recognise and treat infections caused by unclean punctures and wounds. You also have better chances of spotting when a creature's appearance has been nonmagically modified, such as implanted horns or dyed skin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Modify",
+					"entries": [
+						"As part of a long rest, you can expend at least 10gp worth of materials to perform (or reverse) a body modification on a willing creature, such as a tattoo or piercing. The DM may decide that more complex modifications require more valuable materials."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Body Modder's Tools",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Dye, tattoo or scar a creature's fur or skin.",
+							"10"
+						],
+						[
+							"Give a creature a piercing or expander.",
+							"10"
+						],
+						[
+							"Graft or implant horns, scales, spikes, a tail or other decorative body parts.",
+							"15"
+						],
+						[
+							"Slightly alter the shape of a humanoid's facial features.",
+							"15"
+						],
+						[
+							"Make a humanoid appear as a different but similar race, or as a different sex.",
+							"20"
+						]
+					]
+				}
+			]
 		}
 	],
 	"monster": [
