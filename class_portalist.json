@@ -922,6 +922,51 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Unshakeable Tail",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a metal rod"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You target a creature within range and bind your position to theirs. An unwilling creature can make a Charisma saving throw to avoid the effects. For the duration, if the target moves, you also move the same distance and in the same direction simultaneously. For example, if the target walks 10 feet northwards, you are also moved 10 feet northwards.",
+				"The spell does not hold you aloft or allow you to pass through obstacles that you normally couldn't, such as walls or other creatures. Your movement, or lack of movement, does not affect theirs. You are not moved if a creature teleports, such as with the misty step spell. The spell ends early if you are ever more than 30ft from the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist",
+						"source": "Jackalope"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
