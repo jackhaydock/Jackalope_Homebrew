@@ -3489,7 +3489,8 @@
 			"reqAttune": true,
 			"weapon": true,
 			"firearm": true,
-			"rarity": "legendary",
+			"rarity": "artifact",
+			"baseItem": "pepperbox pistol|caligos",
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -3501,37 +3502,36 @@
 				"A"
 			],
 			"entries": [
+				"This heavy steel pistol is the personal sidearm of Maximilian Steinhauser Von Stahlnich II, war hero and High Chancellor of Gaulsberg. It has seen many conflicts and seen much use.",
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
 				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This attack ignores the loading property of this weapon."
 			]
 		},
 		{
-			"name": "Gunsword",
+			"name": "Grand Inquisitor's Baculus",
 			"source": "Caligos",
 			"age": "renaissance",
+			"type": "M",
+			"rarity": "artifact",
+			"baseItem": "halberd|phb",
+			"weight": 12,
 			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
 			"weapon": true,
 			"firearm": true,
-			"rarity": "rare",
-			"weight": 5,
+			"bonusWeapon": "+2",
 			"entries": [
-				"This combination rapier and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
-				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item rapier|phb} for melee attacks or a {@item wheellock pistol|caligos} for ranged attacks."
-			]
-		},
-		{
-			"name": "Gunaxe",
-			"source": "Caligos",
-			"age": "renaissance",
-			"weaponCategory": "martial",
-			"weapon": true,
-			"firearm": true,
-			"rarity": "very rare",
-			"weight": 8,
-			"entries": [
-				"This combination battleaxe and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
-				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item battleaxe|phb} for melee attacks or a {@item wheellock musket|caligos} for ranged attacks."
+				"This black and silver halberd is a symbol of office for the Grand Inquisitor of the Caligos Imperium. While this weapon is mostly ceremonial, it is still a functional and formidable weapon.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"Once per turn, this weapon can channel the power of the Iuris Legion deal an extra {@dice 2d10} radiant damage on a hit.",
+				"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item pepperbox pistol|Caligos}."
 			]
 		},
 		{
@@ -11887,6 +11887,57 @@
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
 					"When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"rarity": "rare",
+				"reqAttune": true,
+				"source": "Caligos",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock pistol|Caligos}."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Heavy Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"property": "2H"
+				},
+				{
+					"type": "M",
+					"property": "V"
+				}
+			],
+			"inherits": {
+				"rarity": "very rare",
+				"reqAttune": true,
+				"source": "Caligos",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Heavy Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with this weapon as part of the {@action Attack} action on your turn, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock musket|Caligos}."
 				],
 				"bonusWeapon": "+1"
 			}
