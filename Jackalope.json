@@ -4443,6 +4443,26 @@
 				"This segmented, metal ring has a surprisingly large interior compartment and can be used to hide weapons.",
 				"Over the course of 10 minutes, you can magically fold and store a single weapon inside the ring. You can then use a bonus action to unfold the wepon and summon it to your empty hand."
 			]
+		},
+		{
+			"name": "Voltaic Balls",
+			"source": "Jackalope",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"baseItem": "ball bearings (bag of 1,000)|phb",
+			"entries": [
+				"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make the saving throw. If a creature in the area takes lightning damage, they take an additional {@dice 1d12} lightning damage.",
+				"Additionally, while holding the bag, you can use a bonus action to command any balls within 15ft to magically fly back into the bag via the most direct route.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, you are filled with an overwhelming urge to put one or more of the ball bearings in your mouth. While you do not have any ball bearings in your mouth, you have disadvantage on ability checks, attack rolls and saving throws. While you have at least one ball bearing in your mouth, you are vulnerable to lightning damage. You are unwilling to part with all of the balls until the curse is broken with remove curse or similar magic, keeping at least one ball on your person at all times."
+					]
+				}
+			]
 		}
 	],
 	"monster": [
