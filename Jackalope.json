@@ -8270,6 +8270,57 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Caustic Smite",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon emits a burst of caustic acid, and the attack deals an extra {@dice 1d6} acid damage to the target. Each creature other than you that is within 5 feet of the target (including the target) must make a Dexterity saving throw. A creature takes {@dice 1d6} acid damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, both the initial damage and the damage dealt to creatures within 5 feet increase by {@dice 1d6} each for every two slot levels above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
