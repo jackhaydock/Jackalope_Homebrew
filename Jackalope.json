@@ -5637,6 +5637,21 @@
 			]
 		},
 		{
+			"name": "Energy Shield",
+			"source": "Jackalope",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield",
+					"level": 7
+				}
+			],
+			"entries": [
+					"Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
+					"In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
+			]
+		},
+		{
 			"name": "Elemental Blast",
 			"source": "Jackalope",
 			"featureType": ["EI"],
