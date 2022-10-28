@@ -5607,7 +5607,19 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
 			]
 		},
 		{
@@ -5804,7 +5816,19 @@
 				"P"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
 			]
 		},
 		{
@@ -6041,7 +6065,19 @@
 				"B"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
 			]
 		},
 		{
@@ -6278,7 +6314,19 @@
 				"B"
 			],
 			"miscTags": [
+				"AOE",
 				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
 			]
 		},
 		{
@@ -6519,6 +6567,882 @@
 				"B"
 			],
 			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Wyrmling)",
+			"source": "JDragon",
+			"size": ["M"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 16,
+			"int": 13,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"con": "+5",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 1d6} lightning damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage and 4 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Young)",
+			"source": "JDragon",
+			"size": ["L"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 15,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"dex": "+4",
+				"con": "+7",
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 1d10} lightning damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite and claw attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage and 6 ({@damage 1d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 42 ({@damage 12d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Adult)",
+			"source": "JDragon",
+			"size": ["H"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 212,
+				"formula": "17d12 + 102"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 22,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"con": "+11",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+12",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d6} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage and 10 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 60-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 20} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Ancient)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 28,
+			"dex": 12,
+			"con": 26,
+			"int": 19,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"dex": "+8",
+				"con": "+15",
+				"wis": "+10",
+				"cha": "+12"
+			},
+			"skill": {
+				"perception": "+17",
+				"stealth": "+8"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}",
+							"{@spell chain lightning|phb}",
+							"{@spell fizban's platinum shield|ftd}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d10} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage and 11 {@damage 2d10} lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 120-foot cone. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 77 ({@damage 22d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				},
+				{
+
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 24} Dexterity saving throw or take 16 ({@damage 2d6 + 9}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Greatwyrm)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120
+			},
+			"str": 30,
+			"dex": 15,
+			"con": 29,
+			"int": 21,
+			"wis": 22,
+			"cha": 28,
+			"save": {
+				"dex": "+10",
+				"con": "+17",
+				"wis": "+13",
+				"cha": "+17"
+			},
+			"skill": {
+				"perception": "+21",
+				"stealth": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 31,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"charmed, frightened, poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 25}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}",
+							"{@spell chain lightning|phb}",
+							"{@spell fizban's platinum shield|ftd}",
+							"{@spell power word stun|phb}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d12} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The greatwyrm doesn't require food or drink."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d10 + 11}) piercing damage and 13 ({@damage 2d12}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d8 + 11}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} in this way at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d10 + 11}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 25} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 300-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 84 ({@damage 13d12}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
 				"MW"
 			]
 		}
@@ -6931,7 +7855,7 @@
 			"entries": [
 					"You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
 					"Add the following reaction to the dragon's statblock:",
-					"{@b {@i Energy Conduit.}} When the dragon would take damage of a type it is immune to, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					"{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
 			]
 		},
 		{
@@ -6970,6 +7894,16 @@
 			]
 		},
 		{
+			"name": "Immutable Form",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
+					"Add the following trait to the dragon's statblock:",
+					"{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
+			]
+		},
+		{
 			"name": "Iron Will",
 			"source": "JDragon",
 			"featureType": ["Draconic Traits"],
@@ -6992,6 +7926,16 @@
 					"Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
 					"{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
 					"Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
+			]
+		},
+		{
+			"name": "Multiple Heads",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
+					"Add the following trait to the dragon's statblock:",
+					"{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
 			]
 		},
 		{
@@ -13861,6 +14805,40 @@
 			"entries": [
 				"Sometimes, you need to fight dirty. If your character has a free hand and quick access to a handful of sand or grit, such as with a {@item scholar's pack|phb} or being on sandy terrain, they can use it to gain a small advantage in combat.",
 				"As an action, the sand can be thrown at a creature within 5ft of you that has exposed eyes. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the start of its next turn."
+			]
+		},
+		{
+			"name": "Creating Custom Dragons",
+			"source": "JDragon",
+			"entries": [
+				"A number of dragon statblocks exist, but sometimes you may want a more unique dragon to your world or stories. These rules seek to provide an easy way to build custom dragons when the existing statblocks do not fit. Remember that these are guidelines only and you may adjust anything as you see fit.",
+				"First, choose the dragon's age and select the respective statblock from the list below:",
+				{
+					"type": "list",
+					"items": [
+						"{@creature Custom Dragon (Wyrmling)|JDragon}",
+						"{@creature Custom Dragon (Young)|JDragon}",
+						"{@creature Custom Dragon (Adult)|JDragon}",
+						"{@creature Custom Dragon (Ancient)|JDragon}",
+						"{@creature Custom Dragon (Greatwyrm)|JDragon}"
+					]
+				},
+				"Within each statblock you will need to choose a damage type for its draconic essence trait. You will also choose a dragon form; Breathmaster, Mauler or Relentless, which determines certain traits in its stat block.",
+				"If you wish, you may then add a number of {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits} to further distiguish the dragon.",
+				{
+					"type": "entries",
+					"name": "Example: Voltaic Dragon",
+					"entries": [
+						"Voltan is a renowned enchanter and tinkerer who is a frequent target for thieves. He decides to build a dragon-like contraption to defend his vaults.",
+						"First, we decide the dragon's age. Since the party is 2nd-level and this is the first incarnation, we shall choose a {@creature Custom Dragon (Wyrmling)|JDragon|wyrmling}.",
+						"Second, we decide the damage type associated with its Draconic Essence trait. If we imagine the dragon being designed to electrocute intruders, we shall choose lightning damage.",
+						"Third, we decide the dragon's form. Since the dragon intends to slaughter intruders quickly, we shall choose Mauler.",
+						"Finally, we decide any addtional traits to add. Since the dragon was constructed and lacks emotion, we shall choose {@optfeature construct design|JDragon} and {@optfeature iron will|JDragon} traits.",
+						"Now we have a {@creature voltaic dragon (wyrmling)|JDragon} that should hopefully provide an interesting challenge for a low level party.",
+						"Over several decades, Voltan upgrades the dragon in various ways. Choosing different base statblocks and adding even more traits each time we end up with the statblocks for a {@creature voltaic dragon (young)|JDragon} and a {@creature voltaic dragon (adult)|JDragon}.",
+						"Voltan then decides to have the dragon upgrade itself, allowing it to outlive him. Over the next few centuries, the dragon begins hoarding magic items to enchance itself. Eventually, having exhausted the resources of its own world, the dragon heads out to the astral sea, harvesting the remains of dead gods. We can make the statblocks for the {@creature voltaic dragon (ancient)|JDragon} and the {@creature voltaic dragon (greatwyrm)|JDragon}"
+					]
+				}
 			]
 		}
 	]
