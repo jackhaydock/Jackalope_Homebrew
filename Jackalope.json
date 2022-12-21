@@ -10789,6 +10789,58 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Merciful Touch",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A coin worth at least 1cp which the spell consumes and a bowl"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature and imbue them with the magic of mercy. For the duration, when the target reduces a creature to 0 hit points, they can choose to incapacitate the creature rather than killing them. The creature is {@condition unconscious} and stable."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
