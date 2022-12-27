@@ -73,6 +73,30 @@
 				"version": "1.0.0",
 				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
 				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "JDragon",
+				"abbreviation": "J:Dragons",
+				"color": "c95d0a",
+				"full": "Jackalope: Custom Dragons",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "JRune",
+				"abbreviation": "J:Runestones",
+				"color": "ac8db5",
+				"full": "Jackalope: Runestones",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 0,
@@ -1171,7 +1195,7 @@
 								],
 								[
 									"4",
-									"I frequently overwork myself at the cost of sleepy or eating properly."
+									"I frequently overwork myself at the cost of sleeping or eating properly."
 								],
 								[
 									"5",
@@ -1188,9 +1212,8 @@
 			],
 			"fluff": {
 				"entries": [
-					"You hail from a famous tribe of warrior women known as the Amazons. Amazons pride themselves on their strength and independence. Men are not permitted among their ranks and are only used for breeding.",
-          "Some tribes have agreements with neighbouring tribes and settlements in which, once a year the strongest men are chosen to mate with the Amazons. Any girls born from this union are raised as Amazons themselves while the boys are sent back to their fathers.",
-          "In more aggressive tribes, men are captured during raids, enslaved and then slaughtered after the deed is done. Any boys resulting from these unions are usually killed or abandoned."
+					"You are, or were, a member of the much exalted Magi of Hecate, a group of acolytes and academics studying magic and magic items as well as providing magical services, for a fee. Many magi may try to distance themselves from their reputation as mages-for-hire or mercenaries but even magi need money.",
+          "It is common for groups of magi to covene in and around temples, shrines and academic institutions to exchange services, knowledge and to collaborate in arcane research and work. Magi can be found in such places in most cities and large towns."
 				]
 			}
 		}
@@ -2959,6 +2982,14 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Magic Initiate (Variant)",
+			"source": "Jackalope",
+			"entries": [
+				"You learn two cantrips and one 1st-level spell of your choice. You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+				"  Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+			]
 		}
 	],
 	"item": [
@@ -3171,6 +3202,8 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"source": "Cyranos",
+			"charges": 3,
+			"recharge": "dawn",
 			"entries": [
 				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.",
 				"This item has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
@@ -3490,7 +3523,8 @@
 			"reqAttune": true,
 			"weapon": true,
 			"firearm": true,
-			"rarity": "legendary",
+			"rarity": "artifact",
+			"baseItem": "pepperbox pistol|caligos",
 			"weight": 10,
 			"ammunition": true,
 			"dmg1": "1d10",
@@ -3502,37 +3536,36 @@
 				"A"
 			],
 			"entries": [
+				"This heavy steel pistol is the personal sidearm of Maximilian Steinhauser Von Stahlnich II, war hero and High Chancellor of Gaulsberg. It has seen many conflicts and seen much use.",
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
 				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
 				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This attack ignores the loading property of this weapon."
 			]
 		},
 		{
-			"name": "Gunsword",
+			"name": "Grand Inquisitor's Baculus",
 			"source": "Caligos",
 			"age": "renaissance",
+			"type": "M",
+			"rarity": "artifact",
+			"baseItem": "halberd|phb",
+			"weight": 12,
 			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
 			"weapon": true,
 			"firearm": true,
-			"rarity": "rare",
-			"weight": 5,
+			"bonusWeapon": "+2",
 			"entries": [
-				"This combination rapier and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
-				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item rapier|phb} for melee attacks or a {@item wheellock pistol|caligos} for ranged attacks."
-			]
-		},
-		{
-			"name": "Gunaxe",
-			"source": "Caligos",
-			"age": "renaissance",
-			"weaponCategory": "martial",
-			"weapon": true,
-			"firearm": true,
-			"rarity": "very rare",
-			"weight": 8,
-			"entries": [
-				"This combination battleaxe and firearm is more common as a novelty collector's item than an actual weapon. Regardless it is still viable as a weapon.",
-				"When making a weapon attack with this weapon, you choose whether to make a melee or ranged attack. The attack uses the damage, properties and requirements of a {@item battleaxe|phb} for melee attacks or a {@item wheellock musket|caligos} for ranged attacks."
+				"This black and silver halberd is a symbol of office for the Grand Inquisitor of the Caligos Imperium. While this weapon is mostly ceremonial, it is still a functional and formidable weapon.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"Once per turn, this weapon can channel the power of the Iuris Legion deal an extra {@dice 2d10} radiant damage on a hit.",
+				"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item pepperbox pistol|Caligos}."
 			]
 		},
 		{
@@ -3726,7 +3759,7 @@
 			"entries": [
 				"Produced by a special needle, this magic tattoo features twisting and looping patterns.",
 				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Bonded Weapon.}} You can perform a ritual to bond with a weapon you touch over the course on an hour, this can be done during a short rest. You can only bond to one weapon at a time. So long as the bonded weapon is within 60ft of you, you can use a bonus action to summon it to your hand via the most direct route.",
+				"{@b {@i Bonded Weapon.}} You can perform a ritual to bond with a weapon you touch over the course of an hour, this can be done during a short rest. You can only bond to one weapon at a time. So long as the bonded weapon is within 60ft of you, you can use a bonus action to summon it to your hand via the most direct route.",
 				"  Any creatures that would be hit by the weapon on its path to your hand, must make a DC12 Dexterity saving throw or take {@dice 1d6} of the weapon's damage type."
 			]
 		},
@@ -3757,6 +3790,20 @@
 				"Produced by a special needle, this magic tattoo features a chaotic and colourful pattern that never seems to look the same each time you look at it.",
 				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
 				"{@b {@i Chaotic Reserves.}} As an action you can roll {@dice 1d6-1} and recover expended spell slots with a combined level that is equal to or less than the result of the roll. If the result is a 0, you must instead roll a Wild Magic Surge. Once you use this feature, you cannot do so again until the next dawn."
+			]
+		},
+		{
+			"name": "Far Tether Tattoo",
+			"wondrous": true,
+			"tattoo": true,
+			"rarity": "uncommon",
+			"source": "Jackalope",
+			"reqAttune": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo features the design of a dart or arrow on the hand with the image of a rope or chain tightly coiled up the forearm.",
+				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
+				"{@b {@i Assisted Grasp.}} When you take the {@action grapple} or {@action shove} action on your turn, you can use a bonus action to gain advantage on the Strength (Athletics) check.",
+				"{@b {@i Far Reach.}} As a bonus action, you can cast the {@spell runner's rope|jackalope} spell without expending a spell slot or providing material components. Once you use this bonus action, you cannot do so again until the next dawn."
 			]
 		},
 		{
@@ -3934,7 +3981,7 @@
 			"dmg2": "1d8",
 			"bonusWeapon": "+1",
 			"dmgType": "B",
-			"weaponCategory": "Simple",
+			"weaponCategory": "simple",
 			"source": "Jackalope",
 			"property": [
 				"L",
@@ -3944,7 +3991,7 @@
 			"range": "20/60",
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"In additon to a simple melee weapon, this weapon can be used as a {@item shield|phb}, granting a +2 bonus to your armour class if you are wielding no other shield.",
+				"In additon to a simple melee weapon, this weapon can be used as a {@item shield|phb}, granting a +2 bonus to your armor class if you are wielding no other shield.",
 				"Additionally, when you make a ranged attack using this weapon, the weapon bounces back to your hand after the attack."
 			]
 		},
@@ -4066,7 +4113,7 @@
 			]
 		},
 		{
-			"name": "Armoured Plates",
+			"name": "Armored Plates",
 			"rarity": "none",
 			"source": "JWC",
 			"value": 25000,
@@ -4250,6 +4297,8 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"charges": 5,
+			"recharge": "dawn",
 			"entries": [
 				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
 				"As an action you can expend a charge and open the cloak and {@dice 1d4} {@creature chicken|jackalope|chickens} fall out into adjacent spaces. The chickens are friendly to you and your allies, they will follow you and may attack any creatures or objects that attack you but are otherwise unable to understand any commands you make. The chickens last for 1 hour or until they die, after which they either enter the cloak again or disappear in a puff of feathers."
@@ -4261,6 +4310,8 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"charges": 5,
+			"recharge": "dawn",
 			"entries": [
 				"This broken bone is inscribed with arcane runes and has 5 charges. It regains {@dice 1d4+1} charges daily at dawn.",
 				"As an action, you can expend a number of charges to cast the {@spell Spectral Crew|jackalope} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
@@ -4354,6 +4405,228 @@
 			"weight": 1,
 			"value": 1500,
 			"entries": []
+		},
+		{
+			"name": "Body Modder's Tools",
+			"source": "Jackalope",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"additionalEntries": [
+				"Proficiency with body modder's tools represents your ability to safely modify a creature's body with grafts, implants, piercings, scarification and tattoos. You also acquire an understanding of the history and symbolism of body modifications, which can aid you in producing and examining them.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"This kit includes needles, syringes, scalpels, gauze and small bottles of various dyes, inks, disinfectants and other chemicals."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcana",
+					"entries": [
+						"You gain additional insight when identifying the materials and patterns used in magic tattoos and other modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History and Religion",
+					"entries": [
+						"You have greater understanding of the cultural and religious significance of certain body modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medicine",
+					"entries": [
+						"You can recognise and treat infections caused by unclean punctures and wounds. You also have better chances of spotting when a creature's appearance has been nonmagically modified, such as implanted horns or dyed skin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Modify",
+					"entries": [
+						"As part of a long rest, you can expend at least 10gp worth of materials to perform (or reverse) a body modification on a willing creature, such as a tattoo or piercing. The DM may decide that more complex modifications require more valuable materials."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Body Modder's Tools",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Dye, tattoo or scar a creature's fur or skin.",
+							"10"
+						],
+						[
+							"Give a creature a piercing or expander.",
+							"10"
+						],
+						[
+							"Graft or implant horns, scales, spikes, a tail or other decorative body parts.",
+							"15"
+						],
+						[
+							"Slightly alter the shape of a humanoid's facial features.",
+							"15"
+						],
+						[
+							"Make a humanoid appear as a different but similar race, or as a different sex.",
+							"20"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Ring of Folding",
+			"source": "Jackalope",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This segmented, metal ring has a surprisingly large interior compartment and can be used to hide weapons.",
+				"Over the course of 10 minutes, you can magically fold and store a single weapon inside the ring. You can then use a bonus action to unfold the wepon and summon it to your empty hand."
+			]
+		},
+		{
+			"name": "Voltaic Ball Bearings (bag of 1,000)",
+			"source": "Jackalope",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"baseItem": "ball bearings (bag of 1,000)|phb",
+			"entries": [
+				"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make the saving throw. If a creature in the area takes lightning damage, they take an additional {@dice 1d12} lightning damage.",
+				"Additionally, while holding the bag, you can use a bonus action to command any balls within 15ft to magically fly back into the bag via the most direct route.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, you are filled with an overwhelming urge to put one or more of the ball bearings in your mouth. While you do not have any ball bearings in your mouth, you have disadvantage on ability checks, attack rolls and saving throws. While you have at least one ball bearing in your mouth, you are vulnerable to lightning damage. You are unwilling to part with all of the balls until the curse is broken with remove curse or similar magic, keeping at least one ball on your person at all times."
+					]
+				}
+			]
+		},
+		{
+			"name": "+1 Bloody Runestone",
+			"source": "JRune",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon always appears to be covered in wet blood, and cannot be cleaned of it. While attuned to the weapon, you have advantage on Charisma (Intimidation) checks against creatures that can see the weapon."
+			]
+		},
+		{
+			"name": "+1 Glimmering Runestone",
+			"source": "JRune",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon always appears clean and freshly polished with a satisfying sheen. While attuned to the weapon, you have advantage on Charisma (Persuasion) checks against creatures that can see the weapon."
+			]
+		},
+		{
+			"name": "+1 Charming Runestone",
+			"source": "JRune",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon constantly emits an inaudible resonance that hinders creatures abilities to determine falsehoods. While attuned to the weapon, you have advantage on Charisma (Deception) checks against creatures that can see the weapon and are not {@condition deafened}."
+			]
+		},
+		{
+			"name": "+1 Distracting Runestone",
+			"source": "JRune",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, when you hit a target with this weapon or fire a piece of ammunition from this weapon you can cause the target or ammunition to produce one of the following effects until the start of your next turn.",
+				{
+					"type": "list",
+					"items": [
+						"The target or ammunition sheds bright light out to a 15-foot radius and dim light for an additional 15 feet.",
+						"The target or ammunition emits a whistling noise that can be heard up to 60ft."
+					]
+				}
+			]
+		},
+		{
+			"name": "+1 Glamour Runestone",
+			"source": "JRune",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, you can use a bonus action to alter the colors, sigils and patterns of the armor or to magically clean, dry or soil the armor. As part of the same bonus action, you can all alter any nonmagical clothing you are wearing in the same way. The armor or clothing retains its shape, materials and statistics and the effect ends if you use this bonus action again or you doff it. For example, you may alter a dirty brown tabbard into pristine red and white one bearing the sigil of a particular deity or noble."
+			]
+		},
+		{
+			"name": "+1 Stubborn Runestone",
+			"source": "JRune",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, the armor fills your mind with stubborn voices, warning you against manipulitive effects. While attuned, you have advantage on saving throws to avoid or remove the {@condition charmed} condition."
+			]
+		},
+		{
+			"name": "+1 Bolstering Runestone",
+			"source": "JRune",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, the armor fills your mind with reassuring voices, helping you maintain your courage. While you have advantage on saving throws to avoid or remove the {@condition frightened} condition."
+			]
+		},
+		{
+			"name": "Gauntlets of the Hurricane",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"These leather and iron scale gauntlets grant the wielder remarkable strength and control with melee weapons. This item has 3 charges, and regains {@dice 1d4} charges daily at dawn.",
+				"While attuned, you can use a bonus action to expend one charge and gain the following benefits for the next 10 minutes:",
+				{
+					"type": "list",
+					"items": [
+						"You can ignore the heavy property and any Strength requirements on melee weapons.",
+						"You can wield a melee weapon in one hand as if you were wielding it with two hands.",
+						"You can use two-weapon fighting even when the melee weapons you are wielding aren't light or one-handed. You can also add your ability modifier to the damage of the second attack."
+					]
+				}
+			]
 		}
 	],
 	"monster": [
@@ -4371,7 +4644,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item Studded Leather Armour|phb}"
+						"{@item Studded Leather Armor|phb}"
 					]
 				}
 			],
@@ -4462,7 +4735,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item Studded Leather Armour|phb}",
+						"{@item Studded Leather Armor|phb}",
 						"Shield"
 					]
 				}
@@ -5208,7 +5481,7 @@
 				{
 					"name": "Antlers",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) bludegeoning damage."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) bludgeoning damage."
 					]
  				}
 			],
@@ -5295,6 +5568,2029 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Custom Dragon (Wyrmling)",
+			"source": "JDragon",
+			"size": ["M"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 16,
+			"int": 13,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"con": "+5",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"(See Draconic Essence Trait)"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"Choose a damage type; acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The chosen type determines the dragon's damage immunity and the damage type for several other traits.",
+						"  If the dragon gains immunity to poison damage from this trait, it is recommended that it also gains immunity to the poisoned condition."
+					]
+				},
+				{
+					"name": "Destructive Maw (Mauler Only)",
+					"entries": [
+						"The dragon deals an extra {@dice 1d6} damage with its bite attack. The extra damage is of the type associated with the dragon's Draconic Essence trait."
+					]
+				},
+				{
+					"name": "Enhanced Attacks (Mauler Only)",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite attack."
+					]
+				},
+				{
+					"name": "Enhanced Breath Weapons (Breathmaster Only)",
+					"entries": [
+						"The dragon has +1 bonus to the DC for its breath weapons.",
+						"  In addition, if the dragon can cast spells, it has a +1 bonus to its spell save DC."
+					]
+				},
+				{
+					"name": "Enhanced Defence (Relentless Only)",
+					"entries": [
+						"The dragon has a +1 bonus to its Armor Class and saving throws."
+					]
+				},
+				{
+					"name": "Relentless Endurance (Relentless Only, Recharges after a Short or Long Rest)",
+					"entries": [
+						"If damage would reduce the dragon to 0 hit points, it instead drops to 1 hit point."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 4d10}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with the dragon's Draconic Essence trait."
+								},
+								{
+									"type": "item",
+									"name": "Secondary Breath (Breathmaster Only)",
+									"entries": [
+											"The dragon has a second breath weapon (chosen when the dragon is created) from the Secondary Breath Weapons table below.",
+											"  When the dragon uses its secondary breath, it makes an exhalation in a 15-foot cone. Each creature in that area must make a {@dc 13} saving throw, the type of which is determined by the type of breath weapon. On failed save, a creature is subject to the associated effect shown in the table. ",
+											{
+												"type": "table",
+												"colLabels": [
+													"Breath Weapon",
+													"Saving Throw",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1",
+													"col-11"
+												],
+												"rows": [
+													[
+														"Depriving Breath",
+														"Constitution",
+														"On a failed save, the creature the creature is either {@condition blinded} or {@condition deafened} (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition"
+													],
+													[
+														"Forceful Breath",
+														"Strength",
+														"On a failed save, the creature is moved 15 feet towards or away from the dragon (dragon's choice)."
+													],
+													[
+														"Immobilizing Breath",
+														"Constitution",
+														"On a failed save, the creature is {@condition incapacitated} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Pheremone Breath",
+														"Wisdom",
+														"On a failed save, the creature the creature is either {@condition charmed} or {@condition frightened} by the dragon (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Sleep Breath",
+														"Constitution",
+														"On a failed save, the creature falls {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+													],
+													[
+														"Weakening Breath",
+														"Wisdom",
+														"On a failed save, the creature must subtract {@dice 1d6} from any attack rolls or ability checks it makes for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													]
+												]
+											}
+										]
+									}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Custom Dragon (Young)",
+			"source": "JDragon",
+			"size": ["L"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 15,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"dex": "+4",
+				"con": "+7",
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"(See Draconic Essence Trait)"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"Choose a damage type; acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The chosen type determines the dragon's damage immunity and the damage type for several other traits.",
+						"  If the dragon gains immunity to poison damage from this trait, it is recommended that it also gains immunity to the poisoned condition."
+					]
+				},
+				{
+					"name": "Destructive Maw (Mauler Only)",
+					"entries": [
+						"The dragon deals an extra {@dice 1d10} damage with its bite attack. The extra damage is of the type associated with the dragon's Draconic Essence trait."
+					]
+				},
+				{
+					"name": "Enhanced Attacks (Mauler Only)",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite and claw attacks."
+					]
+				},
+				{
+					"name": "Enhanced Breath Weapons (Breathmaster Only)",
+					"entries": [
+						"The dragon has +1 bonus to the DC for its breath weapons.",
+						"  In addition, if the dragon can cast spells, it has a +1 bonus to its spell save DC."
+					]
+				},
+				{
+					"name": "Enhanced Defence (Relentless Only)",
+					"entries": [
+						"The dragon has a +1 bonus to its Armor Class and saving throws."
+					]
+				},
+				{
+					"name": "Relentless Endurance (Relentless Only, Recharges after a Short or Long Rest)",
+					"entries": [
+						"If damage would reduce the dragon to 0 hit points, it instead drops to 1 hit point."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 42 ({@damage 12d6}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with the dragon's Draconic Essence trait."
+								},
+								{
+									"type": "item",
+									"name": "Secondary Breath (Breathmaster Only)",
+									"entries": [
+											"The dragon has a second breath weapon (chosen when the dragon is created) from the Secondary Breath Weapons table below.",
+											"  When the dragon uses its secondary breath, it makes an exhalation in a 30-foot cone. Each creature in that area must make a {@dc 14} saving throw, the type of which is determined by the type of breath weapon. On failed save, a creature is subject to the associated effect shown in the table. ",
+											{
+												"type": "table",
+												"colLabels": [
+													"Breath Weapon",
+													"Saving Throw",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1",
+													"col-11"
+												],
+												"rows": [
+													[
+														"Depriving Breath",
+														"Constitution",
+														"On a failed save, the creature the creature is either {@condition blinded} or {@condition deafened} (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition"
+													],
+													[
+														"Forceful Breath",
+														"Strength",
+														"On a failed save, the creature is moved 30 feet towards or away from the dragon (dragon's choice)."
+													],
+													[
+														"Immobilizing Breath",
+														"Constitution",
+														"On a failed save, the creature is {@condition incapacitated} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Pheremone Breath",
+														"Wisdom",
+														"On a failed save, the creature the creature is either {@condition charmed} or {@condition frightened} by the dragon (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Sleep Breath",
+														"Constitution",
+														"On a failed save, the creature falls {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+													],
+													[
+														"Weakening Breath",
+														"Wisdom",
+														"On a failed save, the creature must subtract {@dice 1d6} from any attack rolls or ability checks it makes for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													]
+												]
+											}
+										]
+									}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Custom Dragon (Adult)",
+			"source": "JDragon",
+			"size": ["H"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 212,
+				"formula": "17d12 + 102"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 22,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"con": "+11",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+12",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"(See Draconic Essence Trait)"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "14",
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"Choose a damage type; acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The chosen type determines the dragon's damage immunity and the damage type for several other traits.",
+						"  If the dragon gains immunity to poison damage from this trait, it is recommended that it also gains immunity to the poisoned condition."
+					]
+				},
+				{
+					"name": "Destructive Maw (Mauler Only)",
+					"entries": [
+						"The dragon deals an extra {@dice 2d6} damage with its bite attack. The extra damage is of the type associated with the dragon's Draconic Essence trait."
+					]
+				},
+				{
+					"name": "Enhanced Attacks (Mauler Only)",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks."
+					]
+				},
+				{
+					"name": "Enhanced Breath Weapons (Breathmaster Only)",
+					"entries": [
+						"The dragon has +1 bonus to the DC for its breath weapons.",
+						"  In addition, if the dragon can cast spells, it has a +1 bonus to its spell save DC."
+					]
+				},
+				{
+					"name": "Enhanced Defence (Relentless Only)",
+					"entries": [
+						"The dragon has a +1 bonus to its Armor Class and saving throws."
+					]
+				},
+				{
+					"name": "Relentless Endurance (Relentless Only, Recharges after a Short or Long Rest)",
+					"entries": [
+						"If damage would reduce the dragon to 0 hit points, it instead drops to 1 hit point."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 15 ft., one target. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 60-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 56 ({@damage 16d6}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with the dragon's Draconic Essence trait."
+								},
+								{
+									"type": "item",
+									"name": "Secondary Breath (Breathmaster Only)",
+									"entries": [
+											"The dragon has a second breath weapon (chosen when the dragon is created) from the Secondary Breath Weapons table below.",
+											"  When the dragon uses its secondary breath, it makes an exhalation in a 60-foot cone. Each creature in that area must make a {@dc 17} saving throw, the type of which is determined by the type of breath weapon. On failed save, a creature is subject to the associated effect shown in the table. ",
+											{
+												"type": "table",
+												"colLabels": [
+													"Breath Weapon",
+													"Saving Throw",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1",
+													"col-11"
+												],
+												"rows": [
+													[
+														"Depriving Breath",
+														"Constitution",
+														"On a failed save, the creature the creature is either {@condition blinded} or {@condition deafened} (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition"
+													],
+													[
+														"Forceful Breath",
+														"Strength",
+														"On a failed save, the creature is moved 45 feet towards or away from the dragon (dragon's choice)."
+													],
+													[
+														"Immobilizing Breath",
+														"Constitution",
+														"On a failed save, the creature is {@condition incapacitated} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Pheremone Breath",
+														"Wisdom",
+														"On a failed save, the creature the creature is either {@condition charmed} or {@condition frightened} by the dragon (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Sleep Breath",
+														"Constitution",
+														"On a failed save, the creature falls {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+													],
+													[
+														"Weakening Breath",
+														"Wisdom",
+														"On a failed save, the creature must subtract {@dice 1d6} from any attack rolls or ability checks it makes for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													]
+												]
+											}
+										]
+									}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 20} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Custom Dragon (Ancient)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 28,
+			"dex": 12,
+			"con": 26,
+			"int": 19,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"dex": "+8",
+				"con": "+15",
+				"wis": "+10",
+				"cha": "+12"
+			},
+			"skill": {
+				"perception": "+17",
+				"stealth": "+8"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"(See Draconic Essence Trait)"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"Choose a damage type; acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The chosen type determines the dragon's damage immunity and the damage type for several other traits.",
+						"  If the dragon gains immunity to poison damage from this trait, it is recommended that it also gains immunity to the poisoned condition."
+					]
+				},
+				{
+					"name": "Destructive Maw (Mauler Only)",
+					"entries": [
+						"The dragon deals an extra {@dice 2d10} damage with its bite attack. The extra damage is of the type associated with the dragon's Draconic Essence trait."
+					]
+				},
+				{
+					"name": "Enhanced Attacks (Mauler Only)",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks."
+					]
+				},
+				{
+					"name": "Enhanced Breath Weapons (Breathmaster Only)",
+					"entries": [
+						"The dragon has +1 bonus to the DC for its breath weapons.",
+						"  In addition, if the dragon can cast spells, it has a +1 bonus to its spell save DC."
+					]
+				},
+				{
+					"name": "Enhanced Defence (Relentless Only)",
+					"entries": [
+						"The dragon has a +1 bonus to its Armor Class and saving throws."
+					]
+				},
+				{
+					"name": "Relentless Endurance (Relentless Only, Recharges after a Short or Long Rest)",
+					"entries": [
+						"If damage would reduce the dragon to 0 hit points, it instead drops to 1 hit point."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 15 ft., one target. {@h}20 ({@damage 2d10 + 9}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 9}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}16 ({@damage 2d8 + 9}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 120-foot cone. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 77 ({@damage 22d6}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with the dragon's Draconic Essence trait."
+								},
+								{
+									"type": "item",
+									"name": "Secondary Breath (Breathmaster Only)",
+									"entries": [
+											"The dragon has a second breath weapon (chosen when the dragon is created) from the Secondary Breath Weapons table below.",
+											"  When the dragon uses its secondary breath, it makes an exhalation in a 120-foot cone. Each creature in that area must make a {@dc 20} saving throw, the type of which is determined by the type of breath weapon. On failed save, a creature is subject to the associated effect shown in the table. ",
+											{
+												"type": "table",
+												"colLabels": [
+													"Breath Weapon",
+													"Saving Throw",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1",
+													"col-11"
+												],
+												"rows": [
+													[
+														"Depriving Breath",
+														"Constitution",
+														"On a failed save, the creature the creature is either {@condition blinded} or {@condition deafened} (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition"
+													],
+													[
+														"Forceful Breath",
+														"Strength",
+														"On a failed save, the creature is moved 60 feet towards or away from the dragon (dragon's choice)."
+													],
+													[
+														"Immobilizing Breath",
+														"Constitution",
+														"On a failed save, the creature is {@condition incapacitated} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Pheremone Breath",
+														"Wisdom",
+														"On a failed save, the creature the creature is either {@condition charmed} or {@condition frightened} by the dragon (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Sleep Breath",
+														"Constitution",
+														"On a failed save, the creature falls {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+													],
+													[
+														"Weakening Breath",
+														"Wisdom",
+														"On a failed save, the creature must subtract {@dice 1d6} from any attack rolls or ability checks it makes for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													]
+												]
+											}
+										]
+									}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 24} Dexterity saving throw or take 16 ({@damage 2d6 + 9}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Custom Dragon (Greatwyrm)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120
+			},
+			"str": 30,
+			"dex": 15,
+			"con": 29,
+			"int": 21,
+			"wis": 22,
+			"cha": 28,
+			"save": {
+				"dex": "+10",
+				"con": "+17",
+				"wis": "+13",
+				"cha": "+17"
+			},
+			"skill": {
+				"perception": "+21",
+				"stealth": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 31,
+			"immune": [
+				"(See Draconic Essence Trait)"
+			],
+			"conditionImmune": [
+				"charmed, frightened, poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "28",
+			"trait": [
+				{
+					"name": "Draconic Essence",
+					"entries": [
+						"Choose a damage type; acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder. The chosen type determines the dragon's damage immunity and the damage type for several other traits."
+					]
+				},
+				{
+					"name": "Destructive Maw (Mauler Only)",
+					"entries": [
+						"The dragon deals an extra {@dice 2d12} damage with its bite attack. The extra damage is of the type associated with the dragon's Draconic Essence trait."
+					]
+				},
+				{
+					"name": "Enhanced Attacks (Mauler Only)",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks."
+					]
+				},
+				{
+					"name": "Enhanced Breath Weapons (Breathmaster Only)",
+					"entries": [
+						"The dragon has +1 bonus to the DC for its breath weapons.",
+						"  In addition, if the dragon can cast spells, it has a +1 bonus to its spell save DC."
+					]
+				},
+				{
+					"name": "Enhanced Defence (Relentless Only)",
+					"entries": [
+						"The dragon has a +1 bonus to its Armor Class and saving throws."
+					]
+				},
+				{
+					"name": "Relentless Endurance (Relentless Only, Recharges after a Short or Long Rest)",
+					"entries": [
+						"If damage would reduce the dragon to 0 hit points, it instead drops to 1 hit point."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The greatwyrm doesn't require food or drink."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d8 + 10}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} in this way at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 25} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 300-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 84 ({@damage 13d12}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with the dragon's Draconic Essence trait."
+								},
+								{
+									"type": "item",
+									"name": "Secondary Breath (Breathmaster Only)",
+									"entries": [
+											"The dragon has a second breath weapon (chosen when the dragon is created) from the Secondary Breath Weapons table below.",
+											"  When the dragon uses its secondary breath, it makes an exhalation in a 300-foot cone. Each creature in that area must make a {@dc 25} saving throw, the type of which is determined by the type of breath weapon. On failed save, a creature is subject to the associated effect shown in the table. ",
+											{
+												"type": "table",
+												"colLabels": [
+													"Breath Weapon",
+													"Saving Throw",
+													"Effect"
+												],
+												"colStyles": [
+													"col-1",
+													"col-1",
+													"col-11"
+												],
+												"rows": [
+													[
+														"Depriving Breath",
+														"Constitution",
+														"On a failed save, the creature the creature is either {@condition blinded} or {@condition deafened} (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition"
+													],
+													[
+														"Forceful Breath",
+														"Strength",
+														"On a failed save, the creature is moved 60 feet towards or away from the dragon (dragon's choice)."
+													],
+													[
+														"Immobilizing Breath",
+														"Constitution",
+														"On a failed save, the creature is {@condition incapacitated} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Pheremone Breath",
+														"Wisdom",
+														"On a failed save, the creature the creature is either {@condition charmed} or {@condition frightened} by the dragon (dragon's choice) for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+													],
+													[
+														"Sleep Breath",
+														"Constitution",
+														"On a failed save, the creature falls {@condition unconscious} for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+													],
+													[
+														"Weakening Breath",
+														"Wisdom",
+														"On a failed save, the creature must subtract {@dice 1d6} from any attack rolls or ability checks it makes for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+													]
+												]
+											}
+										]
+									}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Custom Dragons",
+					"source": "JDragon",
+					"entries": [
+						"This statblock is designed to be used to create dragons to fit your worlds and stories. You are encouraged to add your own flavor to each dragon you create, possibly even adding additional text to certain traits. For example, a dragon with Immobilizing Breath could be exhaling frost to freeze creatures in place, slowing time in the area or filling the area with an incapacitating toxin.",
+						"To add even more unique flair to a dragon, consider adding one or more {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Wyrmling)",
+			"source": "JDragon",
+			"size": ["M"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d8 + 24"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 16,
+			"int": 13,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"con": "+5",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 1d6} lightning damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage and 4 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 15-foot cone. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Young)",
+			"source": "JDragon",
+			"size": ["L"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 142,
+				"formula": "15d10 + 60"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 18,
+			"int": 15,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"dex": "+4",
+				"con": "+7",
+				"wis": "+4",
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+7",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 17,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 1d10} lightning damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite and claw attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage and 6 ({@damage 1d10}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 42 ({@damage 12d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Adult)",
+			"source": "JDragon",
+			"size": ["H"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 212,
+				"formula": "17d12 + 102"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 24,
+			"dex": 12,
+			"con": 22,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"dex": "+6",
+				"con": "+11",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+12",
+				"stealth": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 17}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d6} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage and 10 ({@damage 2d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 17} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 60-foot cone. Each creature in that area must make a {@dc 17} Dexterity saving throw, taking 56 ({@damage 16d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 20} Dexterity saving throw or take 14 ({@damage 2d6 + 7}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Ancient)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "dragon",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 28,
+			"dex": 12,
+			"con": 26,
+			"int": 19,
+			"wis": 17,
+			"cha": 20,
+			"save": {
+				"dex": "+8",
+				"con": "+15",
+				"wis": "+10",
+				"cha": "+12"
+			},
+			"skill": {
+				"perception": "+17",
+				"stealth": "+8"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 27,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "22",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 20}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}",
+							"{@spell chain lightning|phb}",
+							"{@spell fizban's platinum shield|ftd}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d10} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage and 11 {@damage 2d10} lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 16} to hit, reach 20 ft., one target. {@h}17 ({@damage 2d8 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 20} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 120-foot cone. Each creature in that area must make a {@dc 20} Dexterity saving throw, taking 77 ({@damage 22d6}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				},
+				{
+
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 24} Dexterity saving throw or take 16 ({@damage 2d6 + 9}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		},
+		{
+			"name": "Voltaic Dragon (Greatwyrm)",
+			"source": "JDragon",
+			"size": ["G"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"custom"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 444,
+				"formula": "24d20 + 192"
+			},
+			"speed": {
+				"walk": 60,
+				"fly": 120
+			},
+			"str": 30,
+			"dex": 15,
+			"con": 29,
+			"int": 21,
+			"wis": 22,
+			"cha": 28,
+			"save": {
+				"dex": "+10",
+				"con": "+17",
+				"wis": "+13",
+				"cha": "+17"
+			},
+			"skill": {
+				"perception": "+21",
+				"stealth": "+10"
+			},
+			"senses": [
+				"truesight 120 ft."
+			],
+			"passive": 31,
+			"immune": [
+				"lightning",
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed, frightened, poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "28",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The dragon casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 25}):"
+					],
+					"will": [
+						"{@spell lightning lure|tce}",
+						"{@spell thunderclap|xge}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell thunderwave|pgb}",
+							"{@spell lightning bolt|phb}",
+							"{@spell thunder step|phb}",
+							"{@spell chain lightning|phb}",
+							"{@spell fizban's platinum shield|ftd}",
+							"{@spell power word stun|phb}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Destructive Maw",
+					"entries": [
+						"The dragon deals an extra {@dice 2d12} damage with its bite attack (included in the attack)."
+					]
+				},
+				{
+					"name": "Enhanced Attacks",
+					"entries": [
+						"The dragon has a +1 bonus to attack and damage rolls made with its bite, claw and tail attacks (included in the attacks)."
+					]
+				},
+				{
+					"name": "Construct Design",
+					"entries": [
+						"The dragon is immune to disease. It also does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+					]
+				},
+				{
+					"name": "Energy Conduit",
+					"entries": [
+						"When the dragon would take lightning damage, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The dragon is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Legendary Resistance (4/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The greatwyrm doesn't require food or drink."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d10 + 11}) piercing damage and 13 ({@damage 2d12}) lightning damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 5 ft., one target. {@h}20 ({@damage 2d8 + 11}) slashing damage. If the target is a Huge or smaller creature, it is {@condition grappled} (escape {@dc 20}) and is {@condition restrained} until this grapple ends. The greatwyrm can have only one creature {@condition grappled} in this way at a time."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 19} to hit, reach 15 ft., one target. {@h}22 ({@damage 2d10 + 11}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 26} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 25} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dragon Breath",
+									"entry": "The dragon exhales destructive energy in a 300-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 84 ({@damage 13d12}) lightning damage on a failed save, or half as much damage on a successful one."
+								}
+							]
+						}
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 26} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S",
+				"B"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
 		}
 	],
 	"optionalfeature": [
@@ -5334,7 +7630,7 @@
 								],
 								[
 									"9th",
-									"{@item gunaxe|caligos}, {@item gunsword|caligos}"
+									"{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
 								]
 							]
 						},
@@ -5520,6 +7816,21 @@
 			]
 		},
 		{
+			"name": "Energy Shield",
+			"source": "Jackalope",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield",
+					"level": 7
+				}
+			],
+			"entries": [
+					"Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
+					"In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
+			]
+		},
+		{
 			"name": "Elemental Blast",
 			"source": "Jackalope",
 			"featureType": ["EI"],
@@ -5583,6 +7894,272 @@
 			],
 			"entries": [
 					"You can cast the {@spell find steed|phb} spell at will."
+			]
+		},
+		{
+			"name": "Alternative Abilty Scores",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+				"Some dragons may find their power in the gathering of knowledge rather than the strength of their personality. For example, a papyrus dragon's greatest strength is its vast knowledge. As such, its Intelligence and Charisma scores are swapped to better reflect its nature.",
+				"Swap the dragon's Intelligence, Wisdom or Charisma score for that of a different ability from the same list.  The DC for the dragon's traits (excluding spellcasting) do not change as a result of theis trait."
+			]
+		},
+		{
+			"name": "Alternative Creature Type",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Sometimes, just because it looks and acts like a dragon, doesn't mean it it actually is one. For example, a tree dragon's soul is bound to a specific tree and it is made of awakened wood. As such, its creature type is plant rather than dragon.",
+					"Change the dragon's creature type to another of your choice."
+			]
+		},
+		{
+			"name": "Bad Flier",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Not all dragons are good fliers, the dragon may have damaged wings or be inexperienced with them. For example, a cave dragon may have never had the space to properly utilize its wings, leading them to atrophy.",
+					"Half the dragon's flying speed and add the follwoing trait to the dragon's statblock:",
+					"{@b {@i Bad Flier.}} The dragon falls at the end of each of its turns if the only thing holding it aloft is its fly speed."
+			]
+		},
+		{
+			"name": "Burrower",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons are adept at digging through loose earth. For example, a desert dragon can burrow through sand dunes as easily as it can walk on top of them.",
+					"Add a burrowing speed to the dragon's statblock equal to the dragon's walking speed."
+			]
+		},
+		{
+			"name": "Charming Presence",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"prerequisite": [
+				{
+					"other": "Frightful Presence trait"
+				}
+			],
+			"entries": [
+					"Some dragon may be more alluring than terrifying. For example, a siren dragon might sing to charm those around it.",
+					"Creatures who fail the saving throw against the dragon's Frightful Presence trait are {@condition charmed} rather than {@condition frightened}."
+			]
+		},
+		{
+			"name": "Climber",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons are adept at scaling vertical surfaces. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+					"Add a climbing speed to the dragon's statblock equal to the dragon's walking speed."
+			]
+		},
+		{
+			"name": "Construct Design",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"The dragon may have been constructed by magic or science, rather than born. Or perhaps it is composed primarily of inorganic matter. For example, a stone dragon is powered by magic rather than biology, and so is a contruct rather than a dragon.",
+					"Make the following changes to the dragon's statblock:",
+					{
+						"type": "list",
+						"items": [
+							"The dragon's creature's type is contruct rather than dragon.",
+							"The dragon is immune to poison and psychic damage.",
+							"The dragon is immune to disease and the {@condition poisoned} condition.",
+							"The dragon does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+						]
+					}
+			]
+		},
+		{
+			"name": "Diver",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons are adept at swimming. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+					"Add a swimming speed to the dragon's statblock equal to the dragon's walking speed. Also, add the following trait:",
+					"{@b {@i Amphibious.}} The dragon can breathe air and water."
+			]
+		},
+		{
+			"name": "Draconic Mount",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"For a multitude of reasons, a dragon may serve as the mount of another creature. For example, a cavalry dragon has bonded with a knight and the pair are a formidable force on the battlefield.",
+					"Add the following reaction to the dragon's statblock:",
+					"{@b {@i Protect Rider.}} When an attack would target a creature mounted on the dragon, the dragon can use a reaction to force the attack to target it instead."
+			]
+		},
+		{
+			"name": "Energy Conduit",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
+					"Add the following reaction to the dragon's statblock:",
+					"{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+			]
+		},
+		{
+			"name": "Fey Ancestry",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Not all dragons trace their origin to the material plane. For example, a fairy dragon may trace their origin, at least in part, to the feywild",
+					"Make the following changes to the dragon's statblock:",
+					{
+						"type": "list",
+						"items": [
+							"The dragon's creature's type is fey rather than dragon.",
+							"The dragon is immune to the {@condition charmed} condition.",
+							"Magic cannot put the dragon to sleep."
+						]
+					}
+			]
+		},
+		{
+			"name": "Grounded",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Not all dragons can fly, either losing the ability to do so or never having it to begin with. For example, a gladiator dragon may have had its wings removed as a wyrmling to prevent it escaping the arena.",
+					"Remove the dragon's base flying speed."
+			]
+		},
+		{
+			"name": "Hidecarved",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons carve magical runes on their scales to improve their resilience. For example, ",
+					"The dragon has one or more Hidecarved Wards, described in chapter 3 of Fizban's Treasury of Dragons."
+			]
+		},
+		{
+			"name": "Immutable Form",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
+					"Add the following trait to the dragon's statblock:",
+					"{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
+			]
+		},
+		{
+			"name": "Iron Will",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons posses extrodinary willpower, or none at all. For example, a zombie dragon is no longer truly conscious and cannot be manipulated.",
+					"The dragon is immune to the {@condition charmed} and {@condition frightened} conditions."
+			]
+		},
+		{
+			"name": "Minion Master",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"prerequisite": [
+				{
+					"other": "Young or older"
+				}
+			],
+			"entries": [
+					"Some dragons prefer to have underlings work for them. For example, many dragons may command {@creature kobolds|MM|kobold}, however, a forest dragon might command {@creature awakened tree|MM|awakened trees}, or a royal dragon might command dragonborn {@creature knight|MM|knights}.",
+					"Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
+					"{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
+					"Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
+			]
+		},
+		{
+			"name": "Multiple Heads",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
+					"Add the following trait to the dragon's statblock:",
+					"{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+			]
+		},
+		{
+			"name": "Poison Fangs",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons can utilize poison to make their attacks more danagerous. For example, an underdark dragon may drink {@item drow poison|dmg}, and deliver the poison to the target of its next bite attack.",
+					"Add the following bonus action to the dragon's statblock:",
+					"{@b {@i Poison Fangs.}} The dragon can use a bonus action to coat its teeth with poison (as if they were a melee weapon). The next time the dragon hits a creature with its bite attack, that creature is subject to the effects of the poison."
+			]
+		},
+		{
+			"name": "Quick Caster",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"prerequisite": [
+				{
+					"other": "Legendary Actions",
+					"spellcasting": true
+				}
+			],
+			"entries": [
+					"A dragon may be able to perform magic quickly. For example, an iron dragon can use a legendary action to harden its hide by casting {@spell blade ward|phb} on itself.",
+					"Add the following legendary action to the dragon's statblock:",
+					"{@b {@i Quick Cast.}} The dragon casts a spell it knows that has a casting time of one action or one bonus action. The number of legendary actions expended is equal to the spell's level (1 for a cantrip)."
+			]
+		},
+		{
+			"name": "Secondary Essence",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons possess affinity for multiple forms of destructive energy. For example, a thermal dragon has mastery of heat, both producing and removing it. Both fire and cold damage are associated with its Draconic Essence trait.",
+					"Choose a second damage type for the dragon's Draconic Essence trait. When the dragon uses its Dragon Breath or Destructive Maw trait, it choses which of the damage types to deal."
+			]
+		},
+		{
+			"name": "Signature Spellcaster",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"prerequisite": [
+				{
+					"other": "Young or older"
+				}
+			],
+			"entries": [
+					"A dragon might be especially talented at particular spells. For example, a spider dragon can cast the {@spell web|phb} spell at will.",
+					"Choose up to 2 spells of 3rd-level or lower. The dragon can cast these spells at will, without providing material components. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons posses innate magical talents. For example, a black hole dragon may know spells such as {@spell magnify gravity|egw} and {@spell gravity sinkhole|egw}. Meanwhile, a divine dragon may know spells such as {@spell cure wounds|phb} and {@spell greater restoration|phb}.",
+					"Choose a number of cantrips and spells up to the dragon's proficiency bonus. The maximum level of each spell known depends on the dragon's age; cantrips only for wyrmlings, 3rd-level or lower for young dragons, 5th-level or lower for adults, 7th-lower or lower for ancients and 9th-level or lower for greatwyrms.",
+					"For each spell of 1st-level or higher, the dragon can cast it once per day. The dragon does not need to provide material components for cantrips or spells that it casts. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+			]
+		},
+		{
+			"name": "Telepathy",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons have telepathic abilities. For example, a psionic dragon can communicate with the minds of those around it.",
+					"Add the following trait to the dragon's statblock:",
+					"{@b {@i Telepathy.}} The dragon can speak telepathically with any other creature within 120ft."
+			]
+		},
+		{
+			"name": "Unusual Size",
+			"source": "JDragon",
+			"featureType": ["Draconic Traits"],
+			"entries": [
+					"Some dragons are noticably larger or smaller than expected for their age. For example, a giant dragon may be significantly larger than normal dragons.",
+					"Increase or decrease the dragon's size category by one."
 			]
 		}
 	],
@@ -7104,7 +9681,8 @@
 			],
 			"fluff": {
 				"entries": [
-					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
+					"Dryads are the spirits of trees manifested in near humanoid form, typically with a feminine appearance. They are often found has protectors of woodland areas, overseeing the trees and beasts and protecting them from encroaching wildfires, hunters and deforestation.",
+					"In Cyranos in Alvergia, they are often found in tribes led by a queen and are known to mingle with tribes of satyrs, centaurs and wood elves."
 				]
 			}
 		},
@@ -7798,7 +10376,7 @@
 			"entries": [
 				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
 				"{@b Communion.} You touch one humanoid who wishes to speak directly to your god. They can cast the {@spell commune|phb} spell once as a ritual and without providing material components.",
-				"{@b Last Will and Testament.} You touch a humanoid that wishes to leave possessions with another when they die. The target names a creature they are familiar with to be their heir. When the target dies, their body, along with any items they are wearing or carrying, are transported magically to a space within 5ft of the heir, even across planes. If the heir themselves is dead, the items do not teleport. A target can gain the is rite again to change their designated heir, they may only have one heir at a time. The target loses this rite when they die.",
+				"{@b Last Will and Testament.} You touch a humanoid that wishes to leave possessions with another when they die. The target names a creature they are familiar with to be their heir. When the target dies, their body, along with any items they are wearing or carrying, are transported magically to a space within 5ft of the heir, even across planes. If the heir themselves is dead, the items do not teleport. A target can gain this rite again to change their designated heir, they may only have one heir at a time. The target loses this rite when they die.",
 				"{@b Oath of Friendship.} You touch two humanoids who wish to never harm one another. These targets are permanently {@condition charmed} by each other (even if they are otherwise immune to the charmed condition) and cannot perform any action that would directly harm the other, even if compelled to do so by any means short of a {@spell wish|phb} spell. A target can only benefit from this rite once and loses it if either of the targets dies.",
 				"{@b Procreation.} You touch adult humanoids who wish to have a child together, regardless of their number, their fertility or the combination of their races and sexes. One of the targets becomes pregnant. Alternatively, an egg or artificial womb is created externally within 10 feet of you. After an appropriate amount of time (or {@dice 2d6+2} months), a child is born or hatches. The race and statistics of the child are decided by the DM. A target can only benefit from this rite again after the child is born, hatched or dies.",
 				"{@b Purity Ward.} You touch one humanoid that wishes to remain pure. The target is immune to disease, immune to lycanthropy and can't become undead by any means short of a {@spell wish|phb} spell.",
@@ -8044,6 +10622,221 @@
 					},
 					{
 						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Runner's Rope",
+			"source": "Jackalope",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a barbed or threaded dart"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You fire a magical dart at an object you can see within range that is Huge or larger, or that is fixed in place (such as a wall or ceiling). The dart remains fixed to the target for the spell's duration, and a 30ft long magic rope extends from the dart to your empty hand. You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks you make using the rope.",
+				"When you cast the spell, or as a subsequent bonus action on each of your turns for the spell's duration, you can touch the rope and perform one of the following actions:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b {@i Reel In.}} You reduce the length of the rope by up to 30ft. Any creatures grasping the rope are moved towards the dart by a number of feet equal to the number you reduce the rope by, following the path of the rope. A creature that is not {@condition restrained} by the rope can let go of the rope at any point during this movement to stop moving.",
+						"{@b {@i Reel Out.}} You extend the length of the rope by up to 30ft (to a maximum of 100ft).",
+						"{@b {@i Reshoot.}} The dart and rope vanish, and you fire a new dart at a new target within range."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chain Blade",
+			"source": "Jackalope",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch the weapon used in the spell's casting and chains extend from your wrist to the weapon. Until the start of your next turn, that weapon's reach is 5 feet greater than normal."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Caustic Smite",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon emits a burst of caustic acid, and the attack deals an extra {@dice 1d6} acid damage to the target. Each creature other than you that is within 5 feet of the target (including the target) must make a Dexterity saving throw. A creature takes {@dice 1d6} acid damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, both the initial damage and the damage dealt to creatures within 5 feet increase by {@dice 1d6} each for every two slot levels above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Merciful Touch",
+			"source": "Jackalope",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A coin worth at least 1cp which the spell consumes and a bowl"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature and imbue them with the magic of mercy. For the duration, when the target reduces a creature to 0 hit points, they can choose to incapacitate the creature rather than killing them. The creature is {@condition unconscious} and stable."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
 						"source": "PHB"
 					}
 				]
@@ -11433,6 +14226,8 @@
 				"reqAttune": true,
 				"source": "Jackalope",
 				"nameSuffix": " of Elements",
+				"charges": 3,
+				"recharge": "dawn",
 				"entries": [
 					"This weapon has 3 charges, and it regains {@dice 1d3} expened charges daily at dawn. As a bonus action, you can expend a number of charges to cast {@spell elemental weapon|phb} on it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. This casting of the spell does not require concentration and lasts for the full duration. The spell ends early if you cast it again using this weapon."
 				],
@@ -11476,7 +14271,7 @@
 				"namePrefix": "Enlarging ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
-					"When you hit a target with this ammunition, you forgo damage and the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+					"When you hit a target with this ammunition, you forgo damage and the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
 				],
 				"bonusWeapon": "+1"
 			}
@@ -11497,7 +14292,7 @@
 				"namePrefix": "Shrinking ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
-					"When you hit a target with this ammunition, you forgo damage and the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+					"When you hit a target with this ammunition, you forgo damage and the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
 				],
 				"bonusWeapon": "+1"
 			}
@@ -11518,7 +14313,7 @@
 				"namePrefix": "Shielding ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
-					"When you hit a target with this ammunition, you forgo damage and the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+					"When you hit a target with this ammunition, you forgo damage and the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
 				],
 				"bonusWeapon": "+1"
 			}
@@ -11539,7 +14334,7 @@
 				"namePrefix": "Smoking ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
-					"When you hit a target with this ammunition, you forgo damage and the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell. The spell does not require concentration for this casting and last for its full duration."
+					"When you hit a target with this ammunition, you forgo damage and the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
 				],
 				"bonusWeapon": "+1"
 			}
@@ -11696,6 +14491,57 @@
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
 					"When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"rarity": "rare",
+				"reqAttune": true,
+				"source": "Caligos",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock pistol|Caligos}."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Heavy Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"property": "2H"
+				},
+				{
+					"type": "M",
+					"property": "V"
+				}
+			],
+			"inherits": {
+				"rarity": "very rare",
+				"reqAttune": true,
+				"source": "Caligos",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Heavy Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with this weapon as part of the {@action Attack} action on your turn, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock musket|Caligos}."
 				],
 				"bonusWeapon": "+1"
 			}
@@ -12159,6 +15005,40 @@
 			"entries": [
 				"Sometimes, you need to fight dirty. If your character has a free hand and quick access to a handful of sand or grit, such as with a {@item scholar's pack|phb} or being on sandy terrain, they can use it to gain a small advantage in combat.",
 				"As an action, the sand can be thrown at a creature within 5ft of you that has exposed eyes. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the start of its next turn."
+			]
+		},
+		{
+			"name": "Creating Custom Dragons",
+			"source": "JDragon",
+			"entries": [
+				"A number of dragon statblocks exist, but sometimes you may want a more unique dragon to your world or stories. These rules seek to provide an easy way to build custom dragons when the existing statblocks do not fit. Remember that these are guidelines only and you may adjust anything as you see fit.",
+				"First, choose the dragon's age and select the respective statblock from the list below:",
+				{
+					"type": "list",
+					"items": [
+						"{@creature Custom Dragon (Wyrmling)|JDragon}",
+						"{@creature Custom Dragon (Young)|JDragon}",
+						"{@creature Custom Dragon (Adult)|JDragon}",
+						"{@creature Custom Dragon (Ancient)|JDragon}",
+						"{@creature Custom Dragon (Greatwyrm)|JDragon}"
+					]
+				},
+				"Within each statblock you will need to choose a damage type for its draconic essence trait. You will also choose a dragon form; Breathmaster, Mauler or Relentless, which determines certain traits in its stat block.",
+				"If you wish, you may then add a number of {@filter additional draconic traits|optionalfeatures|source=erlw;jackalope;caligos;phb;tce;xge;jdragon|feature type=draconic traits} to further distiguish the dragon.",
+				{
+					"type": "entries",
+					"name": "Example: Voltaic Dragon",
+					"entries": [
+						"Voltan is a renowned enchanter and tinkerer who is a frequent target for thieves. He decides to build a dragon-like contraption to defend his vaults.",
+						"First, we decide the dragon's age. Since the party is 2nd-level and this is the first incarnation, we shall choose a {@creature Custom Dragon (Wyrmling)|JDragon|wyrmling}.",
+						"Second, we decide the damage type associated with its Draconic Essence trait. If we imagine the dragon being designed to electrocute intruders, we shall choose lightning damage.",
+						"Third, we decide the dragon's form. Since the dragon intends to slaughter intruders quickly, we shall choose Mauler.",
+						"Finally, we decide any addtional traits to add. Since the dragon was constructed and lacks emotion, we shall choose {@optfeature construct design|JDragon} and {@optfeature iron will|JDragon} traits.",
+						"Now we have a {@creature voltaic dragon (wyrmling)|JDragon} that should hopefully provide an interesting challenge for a low level party.",
+						"Over several decades, Voltan upgrades the dragon in various ways. Choosing different base statblocks and adding even more traits each time we end up with the statblocks for a {@creature voltaic dragon (young)|JDragon} and a {@creature voltaic dragon (adult)|JDragon}.",
+						"Voltan then decides to have the dragon upgrade itself, allowing it to outlive him. Over the next few centuries, the dragon begins hoarding magic items to enchance itself. Eventually, having exhausted the resources of its own world, the dragon heads out to the astral sea, harvesting the remains of dead gods. We can make the statblocks for the {@creature voltaic dragon (ancient)|JDragon} and the {@creature voltaic dragon (greatwyrm)|JDragon}"
+					]
+				}
 			]
 		}
 	]
