@@ -11333,6 +11333,65 @@
 					"source": "PHB"
 				}
 			]
+		},
+		{
+			"name": "Null Domain",
+			"shortName": "Null",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"Null Domain|Cleric|PHB|Null|Jackalope|1",
+					"Antidivine Resistance|Cleric|PHB|Null|Jackalope|1",
+					"Energy Thief|Cleric|PHB|Null|Jackalope|1",
+					"Channel Divinity: Deny Power|Cleric|PHB|Null|Jackalope|2",
+					"Consume Spell|Cleric|PHB|Null|Jackalope|6",
+					"Potent Spellcasting|Cleric|PHB|Arcana",
+					"Blessed Strikes|Cleric|PHB|Arcana",
+					"Improved Energy Thief|Cleric|PHB|Null|Jackalope|17"
+			],
+			"subclassSpells": [
+				{
+					"name": "Protection from Evil and Good",
+					"source": "PHB"
+				},
+				{
+					"name": "Silvery Barbs",
+					"source": "SCC"
+				},
+				{
+					"name": "Lesser Restoration",
+					"source": "PHB"
+				},
+				{
+					"name": "Silence",
+					"source": "PHB"
+				},
+				{
+					"name": "CounterSpell",
+					"source": "PHB"
+				},
+				{
+					"name": "Dispel Magic",
+					"source": "PHB"
+				},
+				{
+					"name": "Aura of Purity",
+					"source": "PHB"
+				},
+				{
+					"name": "Ray of Impotence",
+					"source": "Jackalope"
+				},
+				{
+					"name": "Dispel Evil and Good",
+					"source": "PHB"
+				},
+				{
+					"name": "Passwall",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -12687,6 +12746,122 @@
 			"header": 2,
 			"entries": [
 				"Starting at 17th level, when you cast {@spell conjure animals|phb} using your Critter Horde feature, you can cast it at 5th-level rather than 3rd-level."
+			]
+		},
+		{
+			"name": "Null Domain",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"entries": [
+				"Unlike many other clerics, you do not draw your power from a god, at least not in the typical sense. Your power may be drawn from the creatures and life around you. You may be a follower of a personification of nothingness, such as Chaos. You may have deep desire to oppose the influence of gods on the multiverse, using unorthodox methods to understand and imitate divine magic. You may even be a follower of a now dead god, holding on to the last remnants of their power.",
+				"However your power originates, you act as a siphon of divine and magical energy, sapping it from the world around you, absorbing, redirecting or even outright destroying it. Such clerics might violate the common understandings of the world and the gods, sometimes resulting in them becoming sources of great confusion, fear and even hatred. Though others may be as fascinated and awed by them as they are confused.",
+				"At each indicated cleric level, you add the listed spells to your spells prepared.",
+				{
+					"type": "table",
+					"caption": "Null Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell protection from evil and good|phb}, {@spell silvery barbs|scc}"
+						],
+						[
+							"3rd",
+							"{@spell lesser restoration|phb}, {@spell silence|phb}"
+						],
+						[
+							"5th",
+							"{@spell counterspell|phb}, {@spell dispel magic|phb}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity|phb}, {@spell ray of impotence|jackalope}"
+						],
+						[
+							"9th",
+							"{@spell dispel evil and good|phb}, {@spell passwall|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Antidivine Resistance",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting when you choose this domain at 1st level, you have resistance to radiant and necrotic damage."
+			]
+		},
+		{
+			"name": "Energy Thief",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, when a creature you can see within 30 feet of you is targeted by a spell or magic effect that deals damage or restores hit points to it, you can use a reaction to forcibly draw some of the energy towards yourself. The damage or healing is then divided evenly between you and the target creature (this is calculated before resistances or other damage reductions). If you are concentrating on a spell when you use this reaction, this damage does not break your concentration.",
+				"You can use this feature a number of times equal to proficiency bonus, and you regain all uses at the end of a long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Deny Power",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"You can use your Channel Divinity to weaken connections to sources of power and strength, especially external ones such as deities and other planes. As an action, you choose a number of creatures up to your proficiency bonus that you can see within 60 feet of you and force them to make a Wisdom saving throw. If a creature is a celestial, elemental, fey, fiend or undead, it has disadvantage on this saving throw. The DM may also decide that a creature has disadvantage if it draws powers from other beings or planes, such as clerics or warlocks.",
+				"A creature that fails this saving throw has disadvantage on attack rolls and other creatures have advantage on saving throws against the creature's spells and magic effects. These effects last for 1 minute or until you are {@condition incapacitated}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
+			]
+		},
+		{
+			"name": "Consume Spell",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting a 6th level, you can siphon magical energy from others and immediately redirect it. Whenever you successfully cause a spell to fail using the {@spell counterspell|phb} spell, you can cast a cantrip you know as part of the same reaction. The cantrip must have a casting time of 1 action or 1 bonus action and must target only yourself or only the target of the counterspell."
+			]
+		},
+		{
+			"name": "Improved Energy Thief",
+			"source": "Jackalope",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Null",
+			"subclassSource": "Jackalope",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you use your Energy Thief feature, you can choose to take all of the damage or healing, rather than dividing evenly between you and the target creature.",
+				"Additionally, you can choose to channel the damage or healing you would receive to a second willing creature you can see within 10ft of you instead."
 			]
 		}
 	],
