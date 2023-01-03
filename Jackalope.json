@@ -4637,6 +4637,17 @@
 			"entries": [
 				"This jade stone bears a carving resembling a key on one side and one resembling a lock on the other. As an action, you can use this stone to expend 3 Ki points to cast either the {@spell arcane lock|phb} or {@spell knock|phb} spell. You must still provide any material components."
 			]
+		},
+		{
+			"name": "Ki Focusing Ring",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": "by a monk with the spellcasting or pact magic feature",
+			"entries": [
+				"This bimetallic, two-finger ring allows you to focus your Ki into magical reserves, or do the reverse. While attuned, you can use an action and spend 2 or more Ki points to recover an expended spell slot of a level equal to half the number of Ki points expended (rounded up). The recovered spell slot cannot be higher than 5th-level.",
+				"Alternatively, you can use an action and expend a spell slot to recover a number of expended Ki points equal to the level of the spell slot expended."
+			]
 		}
 	],
 	"monster": [
