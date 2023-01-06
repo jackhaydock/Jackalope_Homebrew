@@ -4648,6 +4648,19 @@
 				"This bimetallic, two-finger ring allows you to focus your Ki into magical reserves, or do the reverse. While attuned, you can use an action and spend 2 or more Ki points to recover an expended spell slot of a level equal to half the number of Ki points expended (rounded up). The recovered spell slot cannot be higher than 5th-level.",
 				"Alternatively, you can use an action and expend a spell slot to recover a number of expended Ki points equal to the level of the spell slot expended."
 			]
+		},
+		{
+			"name": "Boots of Explosive Propulsion",
+			"source": "Jackalope",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"These scorched leather and metal boots grant you extraordinary movement capabilities. This item has 3 charges, and regains {@dice 1d4} charges daily at dawn.",
+				"As a bonus action, you can expend a charge and cast the {@spell explosive propulsion|jackalope} (save DC 15) spell on yourself, you do not provide material components for this casting. In addition, the spell does not require concentration and lasts for the full duration, or until you end the effect (no action required)."
+			]
 		}
 	],
 	"monster": [
