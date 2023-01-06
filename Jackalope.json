@@ -10802,6 +10802,7 @@
 					]
 				}
 			],
+			
 			"classes": {
 				"fromClassList": [
 					{
@@ -10858,6 +10859,82 @@
 				"fromClassList": [
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Explosive Propulsion",
+			"source": "Jackalope",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of metallic powder and a fuse"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature and choose one of the following damage types: acid, cold, fire, lightning, necrotic, poison, psychic, radiant or thunder. The target gains a flying speed of 40 feet for the duration, as if propelled by matter or energy of the chosen type. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+				"Additionally, for the spell's duration, if the target flies 15ft or more in a straight line immediately before making a melee attack or impacting a solid surface, such as the ground or a wall, they can choose to emit a blast of destructive energy. Any creatures within 10ft of the target (excluding the target itself) must make a must make a Dexterity saving throw. A creature takes {@dice 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage dealt by the burst increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
 						"source": "PHB"
 					}
 				]
