@@ -11453,7 +11453,7 @@
 			"classSource": "PHB",
 			"subclassFeatures": [
 					"Null Domain|Cleric|PHB|Null|Jackalope|1",
-					"Antidivine Resistance|Cleric|PHB|Null|Jackalope|1",
+					"Divineless|Cleric|PHB|Null|Jackalope|1",
 					"Energy Thief|Cleric|PHB|Null|Jackalope|1",
 					"Channel Divinity: Deny Power|Cleric|PHB|Null|Jackalope|2",
 					"Consume Spell|Cleric|PHB|Null|Jackalope|6",
@@ -12966,7 +12966,7 @@
 			]
 		},
 		{
-			"name": "Antidivine Resistance",
+			"name": "Divineless",
 			"source": "Jackalope",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -12975,7 +12975,8 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"Starting when you choose this domain at 1st level, you have resistance to radiant and necrotic damage."
+				"Starting when you choose this domain at 1st level, you have resistance to radiant and necrotic damage.",
+				"Additionally, you can use a broken remnant of an object that once represented worship, devotion or servitude as a spellcasting focus for your cleric spells. This could include a damaged {@item holy symbol|phb}, a severed chain, burned vestmets or holy books, shattered stained glass or even a piece of flesh or bone from a dead god."
 			]
 		},
 		{
