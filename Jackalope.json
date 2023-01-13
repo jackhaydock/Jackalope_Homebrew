@@ -10759,7 +10759,19 @@
 				}
 			],
 			"entries": [
-				"You touch the weapon used in the spell's casting and chains extend from your wrist to the weapon. Until the start of your next turn, that weapon's reach is 5 feet greater than normal."
+				"You touch the weapon used in the spell's casting and chains extend from your wrist to the weapon. Until the start of your next turn, that weapon's reach is 5 feet greater than normal.",
+				"This spell's damage increases when you reach certain levels. At 5th level, melee attacks with the weapon deal an extra {@dice 1d4} force damage to the target on a hit. This damage increases by {@dice 1d4} at 11th level ({@dice 2d4}) and 17th level ({@dice 3d4})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "force damage on hit",
+					"scaling": {
+						"1": "0",
+						"5": "1d4",
+						"11": "2d4",
+						"17": "3d4"
+					}
+				}
 			],
 			"classes": {
 				"fromClassList": [
