@@ -15,6 +15,67 @@
             }
         ]
     },
+    "race": [
+        {
+            "name": "Mutated Lacertal (Beep)",
+            "source": "JPP",
+            "alias": [
+				"Bird",
+				"Dinosaur",
+				"Beep"
+			],
+            "skillProficiencies": [
+                {
+                    "perception": true
+                }
+            ],
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "lineage": "VRGR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Winged Form",
+                    "entries": [
+                        "You have a flying speed equal to your movement speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Malformed Wings",
+                    "entries": [
+                        "You fall at the end of your turn if you are airborne and the only thing holding you aloft is your flying speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Divine Magic",
+                    "page": 8,
+                    "entries": [
+                        "Your exposure to the magic of Delamir has given you some innate spellcasting, connected to the elements. You know one cantrip from the {@filter Primal Spell list|spells|level=0|group=primal}. Whenever you finish a Long Rest, you can replace that spell with a different one from the Primal Spell list.",
+                        "Intelligence, Wisdom or Charisma is your spellcasting ability for any spell you cast with this trait (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "page": 8,
+                    "entries": [
+                        "You have Proficiency in the {@skill Perception} Skill."
+                    ]
+                }
+            ]
+        }
+    ],
     "item": [
         {
 			"name": "Xerc's Tin Foil Hat",
