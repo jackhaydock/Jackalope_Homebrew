@@ -24,6 +24,7 @@
 				"Dinosaur",
 				"Beep"
 			],
+            "lineage": "VRGR",
             "skillProficiencies": [
                 {
                     "perception": true
@@ -40,7 +41,26 @@
                 "walk": 30,
                 "fly": 30
             },
-            "lineage": "VRGR",
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": {
+                            "_": [
+                                {
+                                    "choose": "level=0|group=primal"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
             "entries": [
                 {
                     "type": "entries",
@@ -72,6 +92,89 @@
                     "entries": [
                         "You have Proficiency in the {@skill Perception} Skill."
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Tempestborn (Zintrin)",
+            "source": "JPP",
+            "alias": [
+				"Aasimar",
+				"Half-Elf",
+				"Zintrin"
+			],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "resist": [
+                "lightning",
+                "thunder"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "light#c"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Tempestborn Resistance",
+                    "entries": [
+                        "You have resistance to lightning damage and thunder damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Healing Hands",
+                    "entries": [
+                        "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light Bearer",
+                    "entries": [
+                        "You know the {@spell light} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for this cantrip (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fulgur's Fury",
+                    "entries": [
+                        "When you reach 3rd level, you can use a bonus action to unleash the divine lightning within yourself, causing arcs of lightning to emenate from you. Your transformation lasts for 1 minute or until you end it as a bonus action.",
+                        "During your transformation, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes lightning damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra lightning damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+                        "Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
                 }
             ]
         }
