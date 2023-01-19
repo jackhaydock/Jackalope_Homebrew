@@ -278,6 +278,65 @@
                 "In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
                 "Finally, when you cast a warlock spell using this tooth, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you roll a 99 or higher, you regain an expended warlock spell slot."
             ]
+        },
+        {
+            "name": "Broddah's Clockhand Maul",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 12,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "2H"
+            ],
+            "dmg1": "2d6",
+            "dmgType": "B",
+            "hammer": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand has been fused with stone. It's possible this was intended as a challenge for adventurers to free the hand from the stone. Unfotunately, the most recent adventurer to come across it, simply took the stone along with the hand.",
+                "This weapon uses the statistics of a {@item maul|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Longsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 4,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand was once wielded by an {@creature Efreeti} in the volcano of Thalia.",
+                "This weapon uses the statistics of a {@item longsword|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Shortsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 3,
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This narrow bronze clockhand was once wielded by a {@creature fire elemental myrmidon|mpmm} in the volcano of Thalia. It was very proud it.",
+                "This weapon uses the statistics of a {@item shortsword|phb}, but is otherwise considered an improvised weapon."
+            ]
         }
     ]
 }
