@@ -188,8 +188,7 @@
 			"rarity": "rare",
 			"source": "JPP",
 			"entries": [
-				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}.",
-                "{@note Items under the J:Partypack source are meant for specific characters or memes and are not intended for play beyond specific instances. Do not assume all these items will be allowed for all characters or campaigns.}"
+				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
 			]
 		},
 		{
@@ -199,9 +198,86 @@
 			"source": "JPP",
 			"entries": [
 				"This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
-				"When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier.",
-                "{@note Items under the J:Partypack source are meant for specific characters or memes and are not intended for play beyond specific instances. Do not assume all these items will be allowed for all characters or campaigns.}"
+				"When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier."
 			]
-		}
+		},
+        {
+			"name": "Xerc's Unicorn Totem",
+			"wondrous": true,
+			"rarity": "artefact",
+			"source": "JPP",
+            "reqAttune": true,
+			"entries": [
+				"This carved pale wood totem resembles a unicorn's head. While attuned to this item, you know the {@spell gust|xge} and {@spell magic stone|xge} cantrips and Wisdom is your spellcasting modifier for them.",
+                "When you cast the gust cantrip, the air erupts from your mouth and smells distictly of cheese. Similarly, the stones you imbue with the magic stone cantrip smell of cheese for the duration of the spell."
+			]
+		},
+        {
+			"name": "Xerc's WeeWoo Bardiche",
+			"rarity": "artefact",
+			"source": "JPP",
+            "type": "M",
+            "weight": 6,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "R",
+                "2H"
+            ],
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "weapon": true,
+            "entries": [],
+            "bonusWeapon": "+1",
+            "reqAttune": true,
+			"entries": [
+				"Wielded by the mighty orc chieftain Xerc, this polearm appears as brutal as it is deadly. It also goes \"WeeWoo\" ver loudly when danger is near",
+                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@quickref Surprise|PHB|3|0|surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+		    ]
+		},
+        {
+            "name": "+1 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artefect",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock",
+                    "subclass": "fathomless"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+1",
+            "bonusSpellSaveDc": "+1",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon.",
+                "While holding this tooth, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+2 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artefect",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock",
+                    "subclass": "fathomless"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+2",
+            "bonusSpellSaveDc": "+2",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon. Since its discovery, it has been enhanced by Teximus of Thalia and also by a chaotic being from the realms of Madness.",
+                "While holding this tooth, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+                "Finally, when you cast a warlock spell using this tooth, you can roll on the Wild Magic Surge table in the Player's Handbook. If the result is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you roll a 99 or higher, you regain an expended warlock spell slot."
+            ]
+        }
     ]
 }
