@@ -1,0 +1,41 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "JPP",
+                "abbreviation": "J:Partypack",
+                "color": "9bff00",
+                "full": "Jackalope: Partypack",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "item": [
+        {
+			"name": "Xerc's Tin Foil Hat",
+			"wondrous": true,
+			"rarity": "rare",
+			"source": "JPP",
+			"entries": [
+				"This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}.",
+                "{@note Items under the J:Partypack source are meant for specific characters or memes and are not intended for play beyond specific instances. Do not assume all these items will be allowed for all characters or campaigns.}"
+			]
+		},
+		{
+			"name": "Xerc's Medicinal Cheese",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"source": "JPP",
+			"entries": [
+				"This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
+				"When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier.",
+                "{@note Items under the J:Partypack source are meant for specific characters or memes and are not intended for play beyond specific instances. Do not assume all these items will be allowed for all characters or campaigns.}"
+			]
+		}
+    ]
+}
