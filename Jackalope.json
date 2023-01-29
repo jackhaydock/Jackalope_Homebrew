@@ -3988,7 +3988,7 @@
 				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft, regardless of your race. If a magic effect or spell changes your walking speed, your speed in the chair also changes. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
 				"{@b {@i Poor Mobility.}} Terrain that is not flat and firm, such as mud or sand, is considered {@quickref difficult terrain||3}.",
 				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as {@quickref difficult terrain||3} for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
-				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of by magic effects, features, items or spells, any effects on you also effect the chair.",
+				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of magic effects, features, items or spells, any effects on you also affect the chair.",
 				"{@b {@i Upgrading the Wheelchair.}} Using a set of {@item tinker's tools|phb} over 1 hour, a creature can afix, or remove, wheelchair upgrades. A wheelchair cannot have more than four upgrades at once. If a wheelchair has multiple upgrades that require attunement, you may treat the wheelchair as a single item for the purposes of attunement.",
 				{
 					"type": "inset",
@@ -4585,7 +4585,7 @@
 			"entries": [
 				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
 				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
-				"Additionally, the armor fills your mind with reassuring voices, helping you maintain your courage. While you have advantage on saving throws to avoid or remove the {@condition frightened} condition."
+				"Additionally, the armor fills your mind with reassuring voices, helping you maintain your courage. While you wear the armor, you have advantage on saving throws to avoid or remove the {@condition frightened} condition."
 			]
 		},
 		{
@@ -9446,7 +9446,7 @@
 										"items": [
 											"{@b {@i Master Slinger.}} When you wield a {@item sling|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die). In addition, your ranged attacks with slings ignore half cover and three-quarters cover.",
 											"{@b {@i Potent Inventor.}} You have proficiency in one of the following tools of your choice: {@item alchemist's supplies|phb}, {@item brewer's supplies|phb}, {@item herbalism kit|phb}, {@item poisoner's kit|phb}.",
-											"{@b {@i Scrambling Cavalier.}} Mounting a willing creature only costs you 5 feet of movement. While mounted, you can use a bonus action to increase your mount's speed by 10 feet until the start of your turn, provided you are still mounted on them."
+											"{@b {@i Scrambling Cavalier.}} Mounting a willing creature only costs you 5 feet of movement. While mounted, you can use a bonus action to increase your mount's speed by 10 feet until the start of your next turn, provided you are still mounted on them."
 										]
 									}
 								]
