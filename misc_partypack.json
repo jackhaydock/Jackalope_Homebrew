@@ -179,6 +179,76 @@
                     "anyStandard": 1
                 }
             ]
+        },
+        {
+            "name": "Otterfolk (Broddah)",
+            "source": "JPP",
+            "alias": [
+				"Otter",
+				"Broddah",
+				"The Sea of Cyranos"
+			],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Aquatic Affinity",
+                    "entries": [
+                        "Adapting effortlessly to water, you can hold your breath for up to 10 minutes and have a swimming speed equal to your walking speed. In addition, you can see up to 30 feet in murky water as if it were clear."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Au Naturel",
+                    "entries": [
+                        "You are proficient in the {@skill nature} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Furious Claws",
+                    "entries": [
+                        "Your retractable claws are natural weapons, which you can use to make unarmed strikes. If you hit with such an attack, you inflict slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after dealing damage in this way you can make a second attack with them as a bonus action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Rolling Stone",
+                    "entries": [
+                        "You are proficient with vehicles."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shake It Off",
+                    "entries": [
+                        "When you make a saving throw to avoid the {@condition blinded}, {@condition deafened}, {@condition aralyzed}, {@condition petrified}, {@condition poisoned} or {@condition stunned} condition, you may use a reaction to give yourself advantage on the roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Water Diviner",
+                    "entries": [
+                        "You inherently know in which direction and how far away to find the nearest major bodies of water, even deep underground. Otterfolk can often be found in the greater world as hired dowsers"
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
         }
     ],
     "item": [
