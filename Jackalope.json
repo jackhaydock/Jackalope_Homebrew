@@ -10991,6 +10991,48 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Silencing Smite",
+			"source": "Jackalope",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be silenced until the spell ends. While silenced, the creature cannot speak or cast spells with verbal components."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"subclass": [
