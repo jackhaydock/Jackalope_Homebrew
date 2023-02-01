@@ -426,6 +426,17 @@
 				"Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
                 "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin."
 			]
+		},
+        {
+			"name": "Watermelon of Healing",
+			"type": "P",
+			"rarity": "legendary",
+			"source": "JPP",
+			"entries": [
+				"This watermelon was grown using an infusion of various elixirs, protecting it from decay and granting restorative properties when consumed. It weighs {@dice 3d6+12} pounds when found. Some variants are magically flavored to taste like all manor of foodstuffs.",
+                "You can use an action to eat a number of pounds of the watermelon and regain {@dice 1d4+1} hit points for each pound consumed. If you attempt to consume 4 pounds or more in a single action, you must succeed on a Constitution saving throw (DC 8 + pounds consumed), or fail to regain any hit points and become {@condition incapacitated} until the end of your next turn as you begin vomiting profusely.",
+                "Additionally, If you consume 15 pounds or more in a single turn without failing the saving throw, you have advantage on Charisma (Intimidation) checks against creatures that saw you consume the melon for the next minute."
+			]
 		}
     ],
     "vehicle": [
