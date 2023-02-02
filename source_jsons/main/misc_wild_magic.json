@@ -5,8 +5,8 @@
             {
 				"json": "J:Wild",
 				"abbreviation": "J:Wild",
-				"color": "e8dfc7",
-				"full": "Jackalope: Wild Subclasses",
+				"color": "54b946",
+				"full": "Jackalope: Wild Magic",
 				"authors": [
 					"Jackalope"
 				],
@@ -19,6 +19,23 @@
 			}
         ]
     },
+	"item": [
+		{
+			"name": "Wild Magic \"Wand\"",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"source": "J:Wild",
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"This odd bundle of loosly bound twigs from unknown, magical plants can be used in place of a wand.",
+				"This item has 3 charges and regains {@dice 1d4-1} charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
+				"When you use this wand to cast a spell of 1st level or higher, you can expend any number of charges to gain a bonus to the spell's attack rolls. The bonus is equal to the number of charges expended.",
+				"Whenever charges are expended, you trigger a Wild Magic Surge."
+			]
+		}
+	],
     "subclass": [  
 		{
 			"name": "Experimenter",
