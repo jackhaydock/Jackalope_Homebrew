@@ -25,6 +25,8 @@ My items will have the following sources/labels making it easy to identify them 
 - Legacy Collection (generally not allowed for actual play in my games unless stated otherwise)
   - **Jackalope: Portalist Class (Legacy)/J:Portalist**: Older version of the Portalist, likely even more broken.
 
+If inline links don't work, it may be refering to something that is in one of the other sources that you don't have.
+
 ## How to Import
 
 #### 5eTools
