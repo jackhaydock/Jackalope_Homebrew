@@ -1,0 +1,478 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Firearms",
+				"abbreviation": "J:Firearms",
+				"color": "873600",
+				"full": "Jackalope: Firearms",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "feat": [
+        {
+			"name": "Gunsmith",
+			"source": "J:Firearms",
+			"prerequisite": [
+    		{
+				"other": "proficiency with firearms"
+    		}
+			],
+			"entries": [
+				"You have learned how to efficiently create and modify firearms. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"It takes you half the usual time and gold to craft firearms and bullets.",
+						"You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|caligos|rifle a firearm} or to produce a {@item firearm scope|caligos}.",
+						"At the end of each long rest, with smith's tools in your hand, you can touch one non-magical firearm to grant it a +1 bonus to all attack and damage rolls made with the weapon. This benefit lasts until the end of your next long rest."
+					]
+				}
+			]
+		}
+    ],
+    "item": [
+        {
+			"name": "Firearm Bullet",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 20,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a basic lead bullet and a precise measure of black powder for optimal usage with most firearms."
+			]
+		},
+		{
+			"name": "Piercing Bullet",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 500,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a specially designed lead bullet and a precise measure of black powder for optimal usage with most firearms.",
+				"You gain a +5 bonus to attack rolls made with this piece of specialised ammunition. Once it hits a target, the ammunition is destroyed. If the target is a creature, you subtract {@dice 1d4+1} from the attack's damage roll (to a minimum of 1)."
+			]
+		},
+		{
+			"name": "Fragmentation Bullet",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"rarity": "none",
+			"type": "A",
+			"value": 500,
+			"weight": 0.125,
+			"entries": [
+				"This paper cartridge contains a specially designed lead bullet and a precise measure of black powder for optimal usage with most firearms.",
+				"You take a -5 penalty to attack rolls made with this piece of specialised ammunition. Once it hits a target, the ammunition is destroyed. If the target is a creature, you add a {@dice 1d4+1} bonus to the attack's damage roll."
+			]
+		},
+		{
+			"name": "Bullet Pouch",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"entries": [
+				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
+			]
+		},
+		{
+			"name": "Bottomless Bullet Pouch",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"entries": [
+				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action.",
+				"Additionally, You can place a nonmagical bullet in the pouch. From then on, whenever the bullet is removed, a perfect duplicate is created inside the pouch, effectively providing an unlimited supply of that particular bullet. As an action, you can permanently remove a bullet, preventing it from creating any further duplicates."
+			]
+		},
+		{
+			"name": "Firearm Scope",
+			"wondrous": true,
+			"rarity": "none",
+			"age": "renaissance",
+			"value": 20000,
+			"weight": 5,
+			"source": "J:Firearms",
+			"entries": [
+			"This set of carefully crafted lenses makes aiming at long range easier. You can spend 10 minutes afixing this scope to a firearm with the Two-Handed property, after which attacking at long range doesn't impose disadvantage on your ranged attack rolls with this weapon. This does not have any effect on firearms with the Wide-Shot property."
+			]
+		},
+		{
+			"name": "Bayonet",
+			"wondrous": true,
+			"rarity": "none",
+			"age": "renaissance",
+			"value": 1500,
+			"weight": 2,
+			"source": "J:Firearms",
+			"entries": [
+			"This blade can be fixed to any firearm with the Two-Handed property as an action. The blade can then be used to make a melee weapon attack as part of an {@action attack} action. This attack has the Finese property. On a hit, this attack deals {@dice 1d4} piercing damage."
+			]
+		},
+        {
+			"name": "Matchlock Pistol",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 10000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A",
+				"L"
+			]
+		},
+        {
+			"name": "Matchlock Musket",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 20000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			]
+		},
+		{
+			"name": "Wheellock Pistol",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A",
+				"L"
+			]
+		},
+		{
+			"name": "Wheellock Musket",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 50000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			]
+		},
+		{
+			"name": "Flintlock Pistol",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 40000,
+			"weight": 3,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A",
+				"L"
+			]
+		},
+		{
+			"name": "Flintlock Musket",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 80000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			]
+		},
+		{
+			"name": "Pepperbox Pistol",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 60000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This attack ignores the loading property of this weapon."
+			]
+		},
+		{
+			"name": "Pepperbox Musket",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 120000,
+			"weight": 15,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			],
+			"entries": [
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This attack ignores the loading property of this weapon."
+			]
+		},
+		{
+			"name": "Duckfoot Pistol",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 75000,
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"range": "cone 15",
+			"property": [
+				"LD",
+				"A",
+				"S"
+			],
+			"entries": [
+				"This advanced firearm design features several barrels placed at different angles alongside each other, resembling a duck's foot. When the trigger is pulled, all barrels fire simultaneously casting a wide arc of bullets.",
+				"{@b {@i Wide-Shot.}} When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a Dexterity saving throw, or take the damage of this weapon. The DC for this saving throw equals 8 + your Dexterity bonus + your proficiency bonus if you are proficient with this weapon. This action uses five pieces of ammunition."
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "J:Firearms",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"value": 150000,
+			"weight": 15,
+			"ammunition": true,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"range": "cone 30",
+			"property": [
+				"LD",
+				"A",
+				"S",
+				"2H",
+				"H"
+			],
+			"entries": [
+				"This advanced firearm design features a wide flared barrel in which multiple bullets can fit. When the trigger is pulled, all bullets are fired simultaneously.",
+				"{@b {@i Improvised-Ammunition.}} This weapon can be loaded with any ten tiny objects, such as gravel or ball bearings. When you do so, any creature targeted by an attack from this weapon has advantage on the saving throw to avoid being hit. The damage for this kind of attack is {@dice 1d4}.",
+				"{@b {@i Wide-Shot.}} When you make an attack with this weapon, you do not target a single creature. Instead every creature within a 30ft cone originating from the weapon must make a Dexterity saving throw, or take the damage of this weapon. The DC for this saving throw equals 8 + your Dexterity bonus + your proficiency bonus if you are proficient with this weapon. This action uses five pieces of ammunition."
+			]
+		}
+    ],
+    "optionalFeature": [
+        {
+            "name": "Pact Gunsmith",
+            "source": "J:Firearms",
+            "featureType": ["EI"],
+                    "prerequisite": [
+                    {
+                    "pact": "Blade"
+                    }
+                    ],
+            "entries": [
+                "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
+                            {
+                                "type": "table",
+                                "colLabels": [
+                                    "Warlock Level",
+                                    "Weapon Forms"
+                                ],
+                                "colStyles": [
+                                    "col-1 text-center",
+                                    "col-11"
+                                ],
+                                "rows": [
+                                    [
+                                        "3rd",
+                                        "{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}, {@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
+                                    ],
+                                    [
+                                        "5th",
+                                        "{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
+                                    ],
+                                    [
+                                        "7th",
+                                        "{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
+                                    ],
+                                    [
+                                        "9th",
+                                        "{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
+                                    ]
+                                ]
+                            },
+                            "Additionally, you can transform any magical firearm into your pact weapon."
+            ]
+        }
+    ],
+    "variant": [
+        {
+			"name": "Rifled Firearm",
+			"type": "GV",
+			"requires": [
+				{
+				  "age": "renaissance",
+				  "firearm": true
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "none",
+				"age": "renaissance",
+				"source": "J:Firearms",
+				"namePrefix": "Rifled ",
+				"entries": [
+					"Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
+					"The normal and long range of a rifled firearm are both doubled.",
+					"This has no effect on firearms with the Wide-Shot property."
+				]
+			}
+		},
+        {
+			"name": "Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"rarity": "rare",
+				"reqAttune": true,
+				"source": "J:Firearms",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock pistol|Caligos}."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Heavy Gun Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"property": "2H"
+				},
+				{
+					"type": "M",
+					"property": "V"
+				}
+			],
+			"inherits": {
+				"rarity": "very rare",
+				"reqAttune": true,
+				"source": "J:Firearms",
+				"age": "renaissance",
+				"firearm": true,
+				"namePrefix": "Heavy Gun-",
+				"entries": [
+					"This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you make an attack with this weapon as part of the {@action Attack} action on your turn, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock musket|Caligos}."
+				],
+				"bonusWeapon": "+1"
+			}
+		}
+    ]
+}
