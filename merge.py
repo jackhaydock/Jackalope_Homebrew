@@ -3,12 +3,10 @@ import json, glob
 def build_json(files):
     output = {}
     for f in files:
-        print(f)
         with open(f, 'r', encoding="ascii", errors="replace") as infile:
             data = json.load(infile)
 
             for k in data.keys():
-                print(k)
                 if k in output.keys():
                     if k == "$schema":
                         continue
