@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Morrigan",
+				"abbreviation": "J:Morrigan",
+				"color": "2f7024",
+				"full": "Jackalope: Children of Morrigan",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "item": [
+        {
+			"name": "Gáe Bulg",
+			"weight": 3,
+			"source": "J:Morrigan",
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"As an action, you can perform a special ranged attack with this weapon by kicking it towards a creature. On a hit, this weapon impales the creature and opens thirty barbs, making it very difficult to remove. While impaled, a creature takes {@dice 2d6} piercing damage for every 10 feet it travels. When used in this way, the Gáe Bulg cannot be used for this type of attack again until the next dawn.",
+				"The Gáe Bulg can be removed from an impaled creature, or its corpse, with either a DC 18 Strength (Athletics) or Wisdom (Medicine) check as an action. On a fail, the creature takes {@dice 4d6} piercing damage and the creature is still impaled. On a success, the creature takes half the damage and the Gáe Bulg is removed."
+			],
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weaponCategory": "simple",
+			"property": [
+				"T",
+				"V"
+			],
+			"baseItem": "spear|phb",
+			"range": "30/80",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"bonusWeapon": "+2",
+			"dmgType": "P"
+		}
+    ]
+}
