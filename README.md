@@ -3,20 +3,22 @@ Homebrew collection for [5e.tools](https://5e.tools) for my 5e campaign settings
 
 My items will have the following sources/labels making it easy to identify them within 5eTools
 - Main Collection
-  - __**Jackalope: General/J:General**__: General collection of stuff
+  - __**Jackalope: General/J:General**__: General collection of stuff.
   - **Jackalope: Ash and Snow/J:AnS**: Stuff for my viking themed setting, Ash and Snow.
   - **Jackalope: Beastkin/J:Beastkin**: Various animalistic races and subraces. Also includes some racial feats.
-  - **Jackalope: Children of Morrigan/J:Morrigan**: Stuff for my old celtic themed setting, Children of Morrigan.
+  - **Jackalope: Children of Morrigan/J:Morrigan**: Stuff for my celtic folklore themed setting, Children of Morrigan.
   - **Jackalope: Custom Dragons/J:Dragons**: Rules and examples for building custom dragons.
+  - **Jackalope: Firearms/J:Firearms**: Firearms from matchlock to flintlock. Also includes accessories, mods, feats and invocations.
   - **Jackalope: Kobolds/J:Kobolds**: Extra kobold subraces, may get feats, item and statblocks later.
   - **Jackalope: Portalist Class/J:Portalist**: Portal themed half-caster class.
   - **Jackalope: Runestones/J:Runestones**: Transferable enchantments for magic items.
+  - **Jackalope: Tattoos/J:Tattoos**: Magic tattoos.
   - **Jackalope: Temporal Subclasses/J:Temporal**: Time themed subclasses for multiples classes.
   - **Jackalope: The Sea of Cyranos/J:Cyranos**: Stuff for my classic greek themed setting, The Sea of Cyranos.
   - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos (includes firearms).
   - **Jackalope: Wheelchair/J:Wheelchair**: Wheelchair and upgrades (inspired by Combat Wheelchair but simplified).
 - Extra Collection (generally not allowed for actual play in my games unless stated otherwise)
-  - **Jackalope: Partypack/J:Partypack**: Memes and character specific stuff 
+  - **Jackalope: Partypack/J:Partypack**: Memes and character specific stuff.
 - Legacy Collection (generally not allowed for actual play in my games unless stated otherwise)
   - **Jackalope: Portalist Class (Legacy)/J:Portalist**: Older version of the Portalist, likely even more broken.
 
