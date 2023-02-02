@@ -3,34 +3,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Jackalope",
+				"json": "J:General",
 				"abbreviation": "J:General",
 				"color": "e8dfc7",
 				"full": "Jackalope: General",
-				"authors": [
-					"Jackalope"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-				"targetSchema": "1.0.0"
-			},
-			{
-				"json": "Cyranos",
-				"abbreviation": "J:Cyranos",
-				"color": "ff9900",
-				"full": "Jackalope: The Sea of Cyranos",
-				"authors": [
-					"Jackalope"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-				"targetSchema": "1.0.0"
-			},
-			{
-				"json": "AshAndSnow",
-				"abbreviation": "J:AnS",
-				"color": "90c8de",
-				"full": "Jackalope: Ash and Snow",
 				"authors": [
 					"Jackalope"
 				],
@@ -61,2207 +37,12 @@
 				"version": "1.0.0",
 				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
 				"targetSchema": "1.0.0"
-			},
-			{
-				"json": "JWC",
-				"abbreviation": "J:Wheelchair",
-				"color": "492e17",
-				"full": "Jackalope: Wheelchair",
-				"authors": [
-					"Jackalope"
-				],
-				"version": "1.0.0",
-				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
-	"background": [
-		{
-			"name": "Amazon",
-			"source": "Cyranos",
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"intimidation": true
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Athletics}, {@skill Intimidation}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "One type of {@item gaming set|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "One of your choice"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A ceremonial circlet or diadem (A mark of your ascension to Amazon), a set of {@item common clothes|phb}, and a belt pouch containing 15gp "
-						}
-					]
-				},
-				{
-					"name": "Restriction: Female Only",
-					"type": "entries",
-					"entries": [
-						"Only women can become Amazons, men are exiled or slaughtered once they have fulfilled their purpose."
-					]
-				},
-				{
-					"name": "Feature: Amazon Pride",
-					"type": "entries",
-					"entries": [
-						"Amazons are well revered warriors. Whether you are loved or feared, you find that people are often willing to be more lenient with prices and services.",
-            "Provided you are still welcome with the Amazons, you can expect free lodging and food for you and your companions within Amazon camps, so long as the men don't stay too long."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Reason For Leaving",
-					"type": "entries",
-					"entries": [
-						"You have been separated from your tribe for some reason. You can roll on the table to determine why, or chose one that best fits your character.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Reason"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I was sent on a special mission by my queen, one only I could complete."
-								],
-								[
-									"2",
-									"I was captured and later escaped, I am trying to find my tribe again."
-								],
-								[
-									"3",
-									"I was shunned and exiled for refusing to kill/leave my mate/son."
-								],
-								[
-									"4",
-									"The tribe brings back painful memories, I had to leave."
-								],
-								[
-									"5",
-									"I am searching for artefacts and allies to help my tribe."
-								],
-								[
-									"6",
-									"I disagreed with the tribe and decided to go my own way."
-								],
-								[
-									"7",
-									"I am the only surviving member of my tribe, I am searching for other Amazon tribes."
-								],
-								[
-									"8",
-									"I simply wanted to explore the world."
-								]
-							]
-						}
-					]
-					},
-					{
-						"name": "Suggested Characteristics",
-						"type": "entries",
-						"entries": [
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I speak down to all men as if they are animals."
-								],
-								[
-									"2",
-									"I only know war and wilderness, social etiquette and commerce are alien to me."
-								],
-								[
-									"3",
-									"I am constantly looking for a fight to prove myself to strangers."
-								],
-								[
-									"4",
-									"The sight of people living ordinary lives amuses me for some reason."
-								],
-								[
-									"5",
-									"I am always ready for battle, I don't have time for bathing or looking nice."
-								],
-								[
-									"6",
-									"I don't like subterfuge, I will not lie and hate when others lie."
-								],
-								[
-									"7",
-									"The simplest, most direct method is usually the best."
-								],
-								[
-									"8",
-									"I like to scare companions with stories from my life with the tribe."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I only value strength, I care not for morals or wisdom. (Evil)"
-								],
-								[
-									"2",
-									"I must follow the customs and laws of my tribe, even if I don't like it. (Lawful)"
-								],
-								[
-									"3",
-									"I must use what strength I have to serve the greater good. (Good)"
-								],
-								[
-									"4",
-									"I refuse to follow orders I disapprove of. (Chaotic)"
-								],
-								[
-									"5",
-									"An honourable enemy can always become a good friend. (Neutral)"
-								],
-								[
-									"6",
-									"Ambition, I will be more than just another woman, I will be legendary. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I serve my queen, I have no other loyalties."
-								],
-								[
-									"2",
-									"I will serve Ares to my dying breath."
-								],
-								[
-									"3",
-									"My honour is my life."
-								],
-								[
-									"4",
-									"No man shall ever rule me."
-								],
-								[
-									"5",
-									"My tribe is wrong about men, I shall never shun/execute an innocent man."
-								],
-								[
-									"6",
-									"I fight for those who cannot fight for themselves."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I have little respect for anyone who is not a proven warrior."
-								],
-								[
-									"2",
-									"To surrender in battle is the greatest shame I can feel."
-								],
-								[
-									"3",
-									"I made a terrible mistake in battle that cost many lives-and I would do anything to keep that mistake secret."
-								],
-								[
-									"4",
-									"My hatred of my enemies is blinding and unreasoning."
-								],
-								[
-									"5",
-									"I obey my queen, even when I disagree with the order."
-								],
-								[
-									"6",
-									"I refuse to follow the laws of the lands beyond my tribe, this constantly gets me in trouble."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You hail from a famous tribe of warrior women known as the Amazons. Amazons pride themselves on their strength and independence. Men are not permitted among their ranks and are only used for breeding.",
-          "Some tribes have agreements with neighbouring tribes and settlements in which, once a year the strongest men are chosen to mate with the Amazons. Any girls born from this union are raised as Amazons themselves while the boys are sent back to their fathers.",
-          "In more aggressive tribes, men are captured during raids, enslaved and then slaughtered after the deed is done. Any boys resulting from these unions are usually killed or abandoned."
-				]
-			}
-		},
-		{
-			"name": "Thrall",
-			"source": "AshAndSnow",
-			"skillProficiencies": [
-				{
-        "choose": {
-            "from": [
-                "athletics",
-                "animal handling",
-                "insight",
-                "survival"
-            ],
-            "count": 2
-          }
-        }
-			],
-			"toolProficiencies": [
-        {
-          "artisan's tools": true
-			  }
-      ],
-			"languageProficiencies": [
-        {
-          "any": 1
-        }
-      ],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "Choose two from {@skill Athletics}, {@skill Animal Handling}, {@skill insight} and {@skill Survival}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "One type of {@item artisan's tools|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "One of your choice"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A collar or set of manacles, a set of {@item common clothes|phb}, and a belt pouch containing 5gp"
-						}
-					]
-				},
-				{
-					"name": "Feature: Hard Knock Life",
-					"type": "entries",
-					"entries": [
-						"You are used to living with great difficulty and can survive with next to nothing. You can survive on half the amount of food and water as others.",
-						"In addition, when in a settlement larger than a village, you can believably pose as a beggar or pauper to elicit sympathy and get enough food or coppers to live a squalid life at no expense."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Thrall Status",
-					"type": "entries",
-					"entries": [
-						"You can roll on the table to determine your current status, or chose one that best fits your character.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d4",
-								"Status"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I am still a thrall in service to a master."
-								],
-								[
-									"2",
-									"I have escaped my bonds and am now free."
-								],
-								[
-									"3",
-									"I was rescued from my old masters by someone else."
-								],
-								[
-									"4",
-									"I was granted my freedom by my old masters."
-								]
-							]
-						}
-					]
-					},
-					{
-						"name": "Suggested Characteristics",
-						"type": "entries",
-						"entries": [
-							"As a thrall you are, or were, expected to be submissive and quiet as you carried out your chores and errands without complaint. Some thralls accept this fate while others are more rebelious and openly despise their masters.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I am submissive and often hesitant to complain, make eye contact or speak out of turn."
-								],
-								[
-									"2",
-									"I call everyone 'sir' or 'lady' without really thinking about it."
-								],
-								[
-									"3",
-									"I automatically start doing chores like cleaning out of habit."
-								],
-								[
-									"4",
-									"I am terrified of ropes, chains and whips."
-								],
-								[
-									"5",
-									"I look out for my friends and allies."
-								],
-								[
-									"6",
-									"I am rebellious and hate being told what to do."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I want to prove my strength by subjugating my own thralls. (Evil)"
-								],
-								[
-									"2",
-									"People should respect and obey their betters. (Lawful)"
-								],
-								[
-									"3",
-									"Thralldom is a cruel tradition that should not exist. (Good)"
-								],
-								[
-									"4",
-									"No one should have authority over others. (Chaotic)"
-								],
-								[
-									"5",
-									"I just want to leave my past behind and lead my own life. (Neutral)"
-								],
-								[
-									"6",
-									"I want to make something of my life, I will be a somebody. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I want revenge on those who hold/held me in bondage, at any cost."
-								],
-								[
-									"2",
-									"Despite everything, I still feel a sense of loyalty to my masters."
-								],
-								[
-									"3",
-									"I owe everything to those who freed me."
-								],
-								[
-									"4",
-									"I am my own master now, I owe nothing to anyone."
-								],
-								[
-									"5",
-									"I feel a kinship with anyone who has suffered as a thrall and wish to help them however I can."
-								],
-								[
-									"6",
-									"I long to return to my old life and family before I became a thrall, or at least whatever is left of them."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"The cruelty of my masters has made me nervous and shy in social situations."
-								],
-								[
-									"2",
-									"I tend to go along with others unquestioningly, even when I disagree with them."
-								],
-								[
-									"3",
-									"I value my own life as lesser and more expendable than those around me."
-								],
-								[
-									"4",
-									"I have a habit of stealing food as I fear I'll go hungry otherwise."
-								],
-								[
-									"5",
-									"I am overly protective of my belongings and refuse to share, even with close friends."
-								],
-								[
-									"6",
-									"I distrust people as I fear everyone I meet is secretly trying to make me their own thrall."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You are, or were, a thrall to a particular individual or clan in the Northlands. Thralls are the lowest sapient beings on the social ladder, they are the slaves and serfs of the clan.",
-					"Most thralls are basic labourers such as farmers, miners and haulers. A few are put into service as house servants, concubines and cooks. Especially strong and loyal thralls may end up as housecarls, bodyguards and even raiders in their own right.",
-					"Sometimes entire hamlets and villages are held as thralls to a nearby clan under threat of raiding. Though particular individuals may also be seized and taken home to serve as personal thralls.",
-					"Even under the kindest masters, the life of a thrall is hard. You have, or had, no freedom or possessions and had to make do with whatever food and clothing your masters allow. You are, or were, expected to serve without complaint with your life as the only reward."
-				]
-			}
-		},
-		{
-			"name": "Raider",
-			"source": "AshAndSnow",
-			"skillProficiencies": [
-				{
-					"athletics": true,
-					"intimidation": true
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Athletics}, {@skill Intimidation}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "One type of {@item gaming set|phb} or {@item musical instrument|phb}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "One of your choice"
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A helmet or set of bracers bearing the sigil of your clan, a {@item gaming set|phb} or {@item musical instrument|phb} of your choice, a set of {@item common clothes|phb}, and a belt pouch containing 10gp "
-						}
-					]
-				},
-				{
-					"name": "Feature: Hearth and Home",
-					"type": "entries",
-					"entries": [
-						"Provided you are still welcome, you can always find free food and lodging of a modest standard for you and your companions when in a settlement owned by your clan. Those who fear your clan's banners may also provide food and lodging if you agree to not burn down their homes."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Role In Raider Crew",
-					"type": "entries",
-					"entries": [
-						"All raiders are expected to fight but usually also have more specialised roles. You can roll on the table to determine why, or chose one that best fits your character.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d10",
-								"Role"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Skipper"
-								],
-								[
-									"2",
-									"Helmsman"
-								],
-								[
-									"3",
-									"Shiphand or Oarsman"
-								],
-								[
-									"4",
-									"Navigator"
-								],
-								[
-									"5",
-									"Warrior"
-								],
-								[
-									"6",
-									"Scout or Hunter"
-								],
-								[
-									"7",
-									"Healer or Shaman"
-								],
-								[
-									"8",
-									"Shipbuilder"
-								],
-								[
-									"9",
-									"Skald, horn blower or war drummer"
-								],
-								[
-									"10",
-									"Support staff (cook, blacksmith, or the like)"
-								]
-							]
-						}
-					]
-					},
-					{
-						"name": "Suggested Characteristics",
-						"type": "entries",
-						"entries": [
-							"Raiders are battle hardened warriors who strike fear into the hearts of their victims, possessing unwavering determination and fury in battle. Many raiders claim to not fear death as a good, honourable death is the ultimate goal of any raider.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Nothing brings me more joy than the heat of battle."
-								],
-								[
-									"2",
-									"I am extremely loyal to my clan and it's traditions."
-								],
-								[
-									"3",
-									"I can get very competitive in almost everything I do."
-								],
-								[
-									"4",
-									"I enjoy battles of wit as much as I enjoy battles of blood."
-								],
-								[
-									"5",
-									"I am always the loudest and merriest one at a feast."
-								],
-								[
-									"6",
-									"I like to resolve matters quickly, even if my solutions seem hasty."
-								],
-								[
-									"7",
-									"I live everyday as if it is my last, because it could well be."
-								],
-								[
-									"8",
-									"I take great care in my appearance, if I die today I want to look good doing it."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"The strong take what they want, the weak suffer what they must. (Evil)"
-								],
-								[
-									"2",
-									"I must obey my jarl, even if I don't like their demands. (Lawful)"
-								],
-								[
-									"3",
-									"We should only take from those who can spare it or don't deserve what they have. (Good)"
-								],
-								[
-									"4",
-									"Only the gods have true authority over my life, jarls and banners mean little to me. (Chaotic)"
-								],
-								[
-									"5",
-									"The prosperity of one's clan is all that matters, however you choose to provide for it. (Neutral)"
-								],
-								[
-									"6",
-									"One day, all the mead halls in the land will be filled with songs of my glory. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I serve my jarl and my clan, I have no other loyalties."
-								],
-								[
-									"2",
-									"My loyalty lies with my crewmates, no one else."
-								],
-								[
-									"3",
-									"Honour is everything to me."
-								],
-								[
-									"4",
-									"I have someone back home that I hope I can provide for with the treasures I seize."
-								],
-								[
-									"5",
-									"My clan's jarl is a weak or cruel ruler I will see them punished or usurped if I can."
-								],
-								[
-									"6",
-									"I still hold a grudge against another raider or clan for what they did to me."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I can't help but take what I want, even when I am not raiding."
-								],
-								[
-									"2",
-									"I am haunted by memories of something I did or saw during a raid."
-								],
-								[
-									"3",
-									"I often lose control in the heat of battle."
-								],
-								[
-									"4",
-									"If someone questions my courage or honour, I will never back down no matter how dangerous the situation."
-								],
-								[
-									"5",
-									"I can get very agressive when I'm drunk, and I'm drunk often."
-								],
-								[
-									"6",
-									"While I claim not to fear death, I am actually terrified of it."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You are a raider for your clan in The Northlands. You lead a brutal and violent life constantly just an axe swing away from death, but it's worth it. The treasure you bring back to your clan grants you much glory and renown."
-				]
-			}
-		},
-		{
-			"name": "Magus of Hecate",
-			"source": "Cyranos",
-			"skillProficiencies": [
-				{
-					"arcana": true,
-					"religion": true
-				}
-			],
-			"entries": [
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Arcana}, {@skill Religion}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "One exotic language of your choice (agreed with the DM)."
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "A bottle of black ink, a quill, a small knife, a ring or amulet signifying your membership in the Magi of Hecate, a set of {@item fine clothes|phb}, and a belt pouch containing 10gp."
-						}
-					]
-				},
-				{
-					"name": "Feature: Magi Membership",
-					"type": "entries",
-					"entries": [
-						"If you are still welcome with the Magi, you can rely on certain benefits that membership provides. You can meet up with colleagues in most settlements larger than a village. These colleagues can help you find information, jobs and make connections to potential allies and patrons. You can usually find enough odd jobs to fund a modest lifestyle with the Magi's help.",
-            "You may also earn small discounts when procuring services from other magi, such as performing certain spells, buying and crafting magic items or hiring tutors and mercenaries.",
-						"You must pay dues of 5 gp per month to the Magi of Hecate. If you miss payments, you must make up back dues to remain in the Magi's good graces. If you miss too many payments, you may be expelled and need to earn your way back in to regain the benefits of membership."
-					],
-					"data": {
-						"isFeature": true
-					}
-				},
-				{
-					"name": "Magus Specialism",
-					"type": "entries",
-					"entries": [
-						"Some magi have specialist roles and tend towards jobs aligning with their specialisms. You can select your specialism from the table below or roll randomly, you may also come up with your own.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d12",
-								"Specialism",
-								"Typical Jobs"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-1",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Generalist.",
-									"No specialism."
-								],
-								[
-									"2",
-									"Utilitarian.",
-									"Repairing tools and furniture and performing basic tasks for people."
-								],
-								[
-									"3",
-									"Entertainer.",
-									"Performing party tricks, conjuring wine and fireworks."
-								],
-								[
-									"4",
-									"Alchemist.",
-									"Making and identifying potions and poisons."
-								],
-								[
-									"5",
-									"Archivist.",
-									"Collecting, trading and studying magic items and records."
-								],
-								[
-									"6",
-									"Healer.",
-									"Mending wounds, curing diseases and breaking curses."
-								],
-								[
-									"7",
-									"Enchanter.",
-									"Creating magic items, glyphs and wards."
-								],
-								[
-									"8",
-									"Tutor.",
-									"Training mages, from beginners to experts."
-								],
-								[
-									"9",
-									"Mercenary.",
-									"Fighting, supporting expeditions or training magically-enhanced troops."
-								],
-								[
-									"10",
-									"Zoologist.",
-									"Study of magic creatures and extra-planar beings."
-								],
-								[
-									"11",
-									"Researcher.",
-									"Experimenting and studying new spells and magic."
-								],
-								[
-									"12",
-									"Advisor.",
-									"Advisor to political, religious and military leaders, particularly on subjects related to magic."
-								]
-							]
-						}
-					]
-					},
-					{
-						"name": "Suggested Characteristics",
-						"type": "entries",
-						"entries": [
-							"Generally, most magi have experience with magic and are accomplished spellcasters, though this is not technically a requirement, the study of magic or magic items is usually enough to grant you membership. Despite their official devotion to Hecate, the magi tend to be more academic or vocational than religious.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I always listen deeply and think carefully before speaking."
-								],
-								[
-									"2",
-									"I am often insulted by the petty requests common people make of magi, they are a waste of my talents."
-								],
-								[
-									"3",
-									"I find my work or study far more interesting than dealing with people."
-								],
-								[
-									"4",
-									"I quote (or misquote) sacred texts and proverbs in almost every situation."
-								],
-								[
-									"5",
-									"I add a magical flair to almost everything I do, even simple activities like eating a meal or opening a book."
-								],
-								[
-									"6",
-									"I am always trying to talk people into hiring my services, even when they don't need them."
-								],
-								[
-									"7",
-									"I don't part with my money easily and will haggle tirelessly to get the best deal possible."
-								],
-								[
-									"8",
-									"I look down upon those who don't (or can't) use magic."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Generosity. My talents were given to me so that I could use them to benefit the world. (Good) "
-								],
-								[
-									"2",
-									"Law. Magic should be used to enforce the laws of both gods and mortals. (Lawful)"
-								],
-								[
-									"3",
-									"Knowledge. Improving personal and public knowledge should always be a goal, no matter who uses it. (Neutral)"
-								],
-								[
-									"4",
-									"Change. Magic is a tool with which anyone can change the world. (Chaotic)"
-								],
-								[
-									"5",
-									"Gain. I joined the magi solely to seek power, influence or wealth, that desire still drives me above all others. (Evil)"
-								],
-								[
-									"6",
-									"Aspiration. I seek to prove myself a worthy magus to the world and to Hecate herself. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bond"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I adore some or all of my colleagues and will do whatever I can to help them."
-								],
-								[
-									"2",
-									"Protecting, and providing for, my clients or students is my highest priority."
-								],
-								[
-									"3",
-									"My workshop or study is one place I feel truly safe and comfortable."
-								],
-								[
-									"4",
-									"Everything I do, I do to impress a specific person."
-								],
-								[
-									"5",
-									"My life's work is pursuing or protecting the answer to some great mystery."
-								],
-								[
-									"6",
-									"I have a rival magus, I will do all I can to be better than them."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaw"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"My curiosity regarding unknown magics can often lead me into danger."
-								],
-								[
-									"2",
-									"I'm quick to assume that someone is trying to cheat me."
-								],
-								[
-									"3",
-									"I always expect to be treated like nobility, even where I have no such authority or status."
-								],
-								[
-									"4",
-									"I frequently overwork myself at the cost of sleeping or eating properly."
-								],
-								[
-									"5",
-									"I am never wrong, even when I am."
-								],
-								[
-									"6",
-									"I fear that I am a fraud and can never live up to the praise and expectations placed upon me."
-								]
-							]
-						}
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"You are, or were, a member of the much exalted Magi of Hecate, a group of acolytes and academics studying magic and magic items as well as providing magical services, for a fee. Many magi may try to distance themselves from their reputation as mages-for-hire or mercenaries but even magi need money.",
-          "It is common for groups of magi to covene in and around temples, shrines and academic institutions to exchange services, knowledge and to collaborate in arcane research and work. Magi can be found in such places in most cities and large towns."
-				]
-			}
-		}
-	],
 	"deity": [
-		{
-			"name": "Chaos",
-			"source": "Cyranos",
-			"title": "The Original Entity",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"None"
-			],
-			"pantheon": "Cyranos",
-			"category": "Chaos",
-			"province": "Nothing and Everything",
-			"symbol": "Purple Vortex",
-			"customProperties": {
-				"Sex": "None",
-				"Typical Forms": "None",
-				"Worshipers": "Secret Cultists"
-			},
-			"entries": [
-				"Chaos was the first entity to exist, they are older than the cosmos itself. To worship Chaos is to worship absence and nothingness. Chaos does not grant any boons or rewards for worship."
-			]
-		},
-		{
-			"name": "Erebus",
-			"source": "Cyranos",
-			"title": "The Darkness",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"Death",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "Darkness",
-			"symbol": "Black Cirle or Spiral",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Black Mist, Shadow",
-				"Worshipers": "Secret Cultists, Thieves, Assassins"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Nyx",
-			"source": "Cyranos",
-			"title": "The Night",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Death",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "Night",
-			"symbol": "Three Phase Moon",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Black Mist, Shadow",
-				"Worshipers": "Thieves, Spies, Assassins"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Aether",
-			"source": "Cyranos",
-			"title": "The Heavens",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "The Upper Sky, Celestial Plane",
-			"symbol": "White Sun",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "White Mist",
-				"Worshipers": "Lesser Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hemera",
-			"source": "Cyranos",
-			"title": "The Day",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "Day",
-			"symbol": "Yelow Sun",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Yellow Mist",
-				"Worshipers": "Lesser Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Uranus",
-			"source": "Cyranos",
-			"title": "The Sky, King of Primordials",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"Tempest"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "The Sky",
-			"symbol": "Uranus",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Air Elemental",
-				"Worshipers": "Secret Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Pontus",
-			"source": "Cyranos",
-			"title": "The Sea",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Tempest"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "The Seas and Oceans",
-			"symbol": "Water Serpent",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Water Elemental",
-				"Worshipers": "Secret Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Gaia",
-			"source": "Cyranos",
-			"title": "The Ground",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Nature"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "The Ground, Mortal Plane",
-			"symbol": "Pregnant Woman",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Earth Elemental",
-				"Worshipers": "Some Temples, Midwives"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Tartarus",
-			"source": "Cyranos",
-			"title": "The Underworld",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"Death",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Primordial",
-			"province": "The Underworld, Pit of Tartarus",
-			"symbol": "Bottomless Pit",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Fire Elemental",
-				"Worshipers": "Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Atlas",
-			"source": "Cyranos",
-			"title": "The Skybearer Titan",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"War"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Endurance, Holds up the Sky",
-			"symbol": "Hollow Orb",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Goliath",
-				"Worshipers": "Cults, Athletes"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Eos",
-			"source": "Cyranos",
-			"title": "The Dawn Titan",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "The Dawn",
-			"symbol": "Sunrise",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Aasimar",
-				"Worshipers": "Some Temples and Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Helios",
-			"source": "Cyranos",
-			"title": "The Sun Titan",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "The Sun (former)",
-			"symbol": "Glowing Chariot",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Fire Genasi, Fire Elemental",
-				"Worshipers": "Some Temples and Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hyperion",
-			"source": "Cyranos",
-			"title": "The Light Titan",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"domains": [
-				"Knowledge",
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Light",
-			"symbol": "Glowing Chariot",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Fire Genasi, Fire Elemental",
-				"Worshipers": "Some Temples and Cults"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Kronos",
-			"source": "Cyranos",
-			"title": "The Time Titan",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"domains": [
-				"Order"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Time, Kings",
-			"symbol": "Golden Scythe",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Aasimar, Currently Incorporeal in the pit of Tartarus",
-				"Worshipers": "Secret Cults, Chronurgy Mages"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Mnemosyne",
-			"source": "Cyranos",
-			"title": "The Memory Titan",
-			"alignment": [
-				"N",
-				"N"
-			],
-			"domains": [
-				"Knowledge",
-				"Time"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Memory",
-			"symbol": "Oil Lamp",
-			"customProperties": {
-				"Sex": "FeMale",
-				"Typical Forms": "Aasimar",
-				"Worshipers": "Secret Cults, Echantment Mages, Storytellers"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Oceanus",
-			"source": "Cyranos",
-			"title": "The Ocean Titan",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Tempest"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Oceans, Father of Oceanids (Tritons)",
-			"symbol": "Crab Claw",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Triton, Water Elemental, Merman, Giant Crab",
-				"Worshipers": "Secret Cults, Tritons, Sailors"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Prometheus",
-			"source": "Cyranos",
-			"title": "Father of Humans",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Trickery",
-				"Life",
-				"Forge"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Creator of Humans, Dwarves, Elves and Orcs",
-			"symbol": "Torch",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Human",
-				"Worshipers": "Temples, Human supremacists"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Selene",
-			"source": "Cyranos",
-			"title": "The Moon Titan",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Light",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Moon (former), Lycanthropy",
-			"symbol": "Crescent Moon",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Aasimar",
-				"Worshipers": "Temples, Lycanthropes"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Themis",
-			"source": "Cyranos",
-			"title": "The Order Titan",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Knowledge",
-				"Order"
-			],
-			"pantheon": "Cyranos",
-			"category": "Titan",
-			"province": "Law and Order",
-			"symbol": "Scales",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Aasimar",
-				"Worshipers": "Paladins, Justicars, Judges"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Aphrodite",
-			"source": "Cyranos",
-			"title": "Lady of Beauty",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Light",
-				"Peace"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Love, Beauty",
-			"symbol": "Open Clam",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Elf, Aasimar, Manifestation of viewer's desires",
-				"Worshipers": "Priests, Lovers, Whores, Performers"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Apollo",
-			"source": "Cyranos",
-			"title": "Lord of Music",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Feast",
-				"Knowledge",
-				"Life",
-				"Light"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Music, Lyre, Poetry, Archery, The Sun, Prophecies and Oracles",
-			"symbol": "Lyre",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Elf, Aasimar",
-				"Worshipers": "Bards, Poets, Oracles, Fortune Tellers, Archers, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Ares",
-			"source": "Cyranos",
-			"title": "Lord of War",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"War"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "War, Battle, Aggression, Brute Strength",
-			"symbol": "Spear",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Orc, Dwarf, Bull",
-				"Worshipers": "Warriors, Gladiators, Amazons, Temples, Orcs"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Artemis",
-			"source": "Cyranos",
-			"title": "Lady of the Hunt",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Life",
-				"Nature",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "The Moon, Hunting, Maidenhood",
-			"symbol": "Bow",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Elf, Dryad, White Hart",
-				"Worshipers": "Cultists, Hunters, Maidens, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Athena",
-			"source": "Cyranos",
-			"title": "Lady of Wisdom",
-			"alignment": [
-				"L",
-				"G"
-			],
-			"domains": [
-				"Knowledge",
-				"War"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Wisdom, Martial Strategy, Politics and Elves",
-			"symbol": "Owl",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Elf, Human, Owl",
-				"Worshipers": "Warriors, Amazons, Generals, Politicians, Scholars, Elves"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Demeter",
-			"source": "Cyranos",
-			"title": "Lady of the Harvest",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"domains": [
-				"Life",
-				"Feast",
-				"Nature"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Harvest, Fertility and Food",
-			"symbol": "Head of Wheat",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Human, Firbolg",
-				"Worshipers": "Farmers, Cooks, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Dionysus",
-			"source": "Cyranos",
-			"title": "Lord of Wine",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Life",
-				"Feast",
-				"Nature"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Wine, Debauchery and Parties",
-			"symbol": "Grape Bunch",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Human, Satyr, Goat",
-				"Worshipers": "Performers, Whore, Hedonists, Innkeepers, Vineyards, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hephaestus",
-			"source": "Cyranos",
-			"title": "Lord of the Forge",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"domains": [
-				"Arcana",
-				"Knowledge",
-				"Forge"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Fire, Metalworking, Smithing, Dwarves, Contructs",
-			"symbol": "Anvil",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Dwarf, Fire Genasi, Warforged",
-				"Worshipers": "Smiths, Tinkers, Firewielders, Dwarves, Warforged, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hera",
-			"source": "Cyranos",
-			"title": "Lady of Marriage",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Trickery"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Women, Marriage, Family, Punishing Adulterers and Bigamists",
-			"symbol": "Peacock Feather",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Elf, Human",
-				"Worshipers": "Women, Married Couples, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hermes",
-			"source": "Cyranos",
-			"title": "Lord of Messengers",
-			"alignment": [
-				"C",
-				"G"
-			],
-			"domains": [
-				"Life",
-				"Trickery"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "Thieves, Messengers, Travellers, Shepherds, Medicine, Psychopomp for Great Heroes",
-			"symbol": "Caduceus",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Human",
-				"Worshipers": "Thieves, Messengers, Travellers, Shepherds, Physicians, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Poseidon",
-			"source": "Cyranos",
-			"title": "Lord of the Sea",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Tempest"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "The Sea, Horses",
-			"symbol": "Trident",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Water Genasi, Triton, Merman, Hippocampus",
-				"Worshipers": "Sailors, Pirates, Fishermen, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Zeus",
-			"source": "Cyranos",
-			"title": "Lord of the Sky",
-			"alignment": [
-				"N",
-				"N"
-			],
-			"domains": [
-				"Arcana",
-				"Tempest"
-			],
-			"pantheon": "Cyranos",
-			"category": "Olympian",
-			"province": "King of Olympians, The Sky, Lighting, Xenia, Kings",
-			"symbol": "Lightning Bolts",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Human, Air Genasi, Eagle",
-				"Worshipers": "Kings, Sailors, Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hades",
-			"source": "Cyranos",
-			"title": "King of the Underworld",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Death",
-				"Grave"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Underworld, Dead Souls, Infernal Beings",
-			"symbol": "Black Ram",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Grey Tiefling, Skeleton",
-				"Worshipers": "Undertakers, Graveyard Keepers, Necromancers, Temples, Cultists, Assassins"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hecate",
-			"source": "Cyranos",
-			"title": "Mistress of Magic",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Arcana",
-				"Knowledge",
-				"Trickery",
-				"Twilight"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Magic",
-			"symbol": "Twin Moons",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Elf, Green Tiefling",
-				"Worshipers": "Mages, Scholars of Magic, Some Temples"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Hestia",
-			"source": "Cyranos",
-			"title": "The Hearthkeeper",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"domains": [
-				"Life",
-				"Feast",
-				"Peace"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "The Hearth, Home",
-			"symbol": "Flame",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Halfling",
-				"Worshipers": "Housekeepers, Servants"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Nike",
-			"source": "Cyranos",
-			"title": "The Victor",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"War"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Victory",
-			"symbol": "Feather and Sword",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Human",
-				"Worshipers": "Athletes, Warriors"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Tyche",
-			"source": "Cyranos",
-			"title": "The Fortune Controller",
-			"alignment": [
-				"N",
-				"N"
-			],
-			"domains": [
-				"Trickery"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Fortune and Destiny",
-			"symbol": "Pentagram",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Human",
-				"Worshipers": "Politicians"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Pan",
-			"source": "Cyranos",
-			"title": "The Wild One",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"domains": [
-				"Life",
-				"Nature"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Wilderness, Panic, Animals, Satyrs",
-			"symbol": "Panflute",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Satyr",
-				"Worshipers": "Satyrs, Dryads, Druids"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Thanatos",
-			"source": "Cyranos",
-			"title": "The Soul Guide",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Death",
-				"Grave"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Personification of Death, Psychopomp for dead souls",
-			"symbol": "Black Feather",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Black Winged Aasimar",
-				"Worshipers": "Assassins, Executioners, Undertakers, Graveyardkeepers, Judges"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Nemesis",
-			"source": "Cyranos",
-			"title": "The Vengeful",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"domains": [
-				"Death",
-				"Grave",
-				"Order"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Revenge, Divine Retributuion, Punishment",
-			"symbol": "Sword and Hourglass",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Aasimar, Representation of Viewer's Sins",
-				"Worshipers": "Vilgilantes, Judges, Justicars"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Dolos",
-			"source": "Cyranos",
-			"title": "The Liar",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"Trickery"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Trickery, Guile, Lying",
-			"symbol": "Clay Statue",
-			"customProperties": {
-				"Sex": "Male",
-				"Typical Forms": "Human",
-				"Worshipers": "Con Artists, Tricksters"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Apate",
-			"source": "Cyranos",
-			"title": "The Fraudster",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"domains": [
-				"Trickery"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Trickery, Fraud, Deception",
-			"symbol": "Girdle",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Human",
-				"Worshipers": "Con Artists, Fraudsters"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Alethiea",
-			"source": "Cyranos",
-			"title": "The Honest",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"domains": [
-				"Order"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Honesty and Truth",
-			"symbol": "Book",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Aasimar",
-				"Worshipers": "Historians, Scholars"
-			},
-			"entries": [
-				""
-			]
-		},
-		{
-			"name": "Eleos",
-			"source": "Cyranos",
-			"title": "The Honest",
-			"alignment": [
-				"N",
-				"G"
-			],
-			"domains": [
-				"Life",
-				"Peace"
-			],
-			"pantheon": "Cyranos",
-			"category": "Lesser Gods",
-			"province": "Charity, Pity, Compassion and Mercy",
-			"symbol": "Empty Bowl",
-			"customProperties": {
-				"Sex": "Female",
-				"Typical Forms": "Human",
-				"Worshipers": "Beggars, Missionaries, Healers"
-			},
-			"entries": [
-				""
-			]
-		},
 		{
 			"name": "Rexus",
 			"source": "Caligos",
@@ -2728,7 +509,7 @@
 	"feat": [
 		{
 			"name": "Tinkerer",
-			"source": "Jackalope",
+			"source": "J:General",
 			"prerequisite": [
 				{
 					"ability": [
@@ -2751,7 +532,7 @@
 		},
 		{
 			"name": "Hoplite",
-			"source": "Cyranos",
+			"source": "J:General",
 			"entries": [
 				"You adopt the fighting style of the hoplite, with {@item spear|phb} and {@item shield|phb}. You gain the following benefits:",
 				{
@@ -2765,23 +546,8 @@
 			]
 		},
 		{
-			"name": "Oceanid Warrior",
-			"source": "Cyranos",
-			"entries": [
-				"You learn the fighting style of the Oceanids. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"When you wield a {@item trident|phb} or {@item bident|cyranos}, its damage die changes from a {@dice d6} to a {@dice d8} when wielded in one hand, and from a {@dice d8} to a {@dice d10} when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon's die.)",
-						"When you make a melee attack with a {@item trident|phb} or {@item bident|cyranos} against a creature while either of you are underwater, you gain advantage on the attack roll.",
-						"Your reach with {@item trident|phb|tridents} or {@item bident|cyranos|bidents} with which you are proficient is increased by 5 feet."
-					]
-				}
-			]
-		},
-		{
 			"name": "Pit Fighter",
-			"source": "Jackalope",
+			"source": "J:General",
 			"prerequisite": [
 				{
 					"ability": [
@@ -2808,7 +574,7 @@
 		},
 		{
 			"name": "Blood Mage Initiate",
-			"source": "Jackalope",
+			"source": "J:General",
 			"prerequisite": [
 				{
 					"spellcasting": true
@@ -2827,7 +593,7 @@
 		},
 		{
 			"name": "Throwing Weapon Master",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"You have mastered the art of throwing weapons. You gain the following benefits:",
 				{
@@ -2842,7 +608,7 @@
 		},
 		{
 			"name": "Whipmaster",
-			"source": "Jackalope",
+			"source": "J:General",
 			"ability": [
 				{
         "choose": {
@@ -2868,7 +634,7 @@
 		},
 		{
 			"name": "Angelic Healer",
-			"source": "Jackalope",
+			"source": "J:General",
 			"prerequisite": [
     		{
 				"race": [
@@ -2892,7 +658,7 @@
 		},
 		{
 			"name": "Angelic Revelation",
-			"source": "Jackalope",
+			"source": "J:General",
 			"prerequisite": [
     		{
 				"race": [
@@ -2937,7 +703,7 @@
 		},
 		{
 			"name": "Magic Initiate (Variant)",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"You learn two cantrips and one 1st-level spell of your choice. You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
 				"  Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
@@ -2947,7 +713,7 @@
 	"item": [
 		{
 			"name": "Knuckledusters",
-			"source": "jackalope",
+			"source": "J:General",
 			"type": "M",
 			"weapon": true,
 			"sword": false,
@@ -2962,223 +728,10 @@
 			]
 		},
 		{
-			"name": "Bident",
-			"source": "Cyranos",
-			"type": "M",
-			"weapon": true,
-			"sword": false,
-			"weaponCategory": "martial",
-			"rarity": "none",
-			"value": 500,
-			"weight": 4,
-			"dmg1": "1d6",
-			"dmg2": "1d8",
-			"dmgType": "P",
-			"property": [
-				"T",
-				"V"
-			],
-			"range": "20/60"
-		},
-		{
-			"name": "Kopis",
-			"source": "Cyranos",
-			"type": "M",
-			"weapon": true,
-			"sword": true,
-			"weaponCategory": "martial",
-			"rarity": "none",
-			"value": 2500,
-			"weight": 3,
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"property": [
-				"F",
-				"L"
-			]
-		},
-		{
-			"name": "Khopesh",
-			"source": "Cyranos",
-			"type": "M",
-			"weapon": true,
-			"sword": true,
-			"weaponCategory": "martial",
-			"rarity": "none",
-			"value": 3000,
-			"weight": 4,
-			"dmg1": "1d8",
-			"dmgType": "S",
-			"property": [
-				"F"
-			]
-		},
-		{
-			"name": "Satyr's Wine",
-			"type": "P",
-			"rarity": "none",
-			"value": 1500,
-			"source": "Cyranos",
-			"weight": 0.5,
-			"entries": [
-				"This sweet wine is made by satyrs from forest fruits grown by dryads. When you drink this wine, you must make a DC 10 Constitution saving throw. On a failed save, you become {@condition charmed} by all creatures that you can see of any species and gender you are normally attracted to. You can repeat the saving throw at the end of every hour until you succeed and are no longer {@condition charmed}."
-			]
-		},
-		{
-			"name": "Hourglass of Kronos",
-			"wondrous": true,
-			"source": "Cyranos",
-			"rarity": "rare",
-			"weight": 1,
-			"charges": 2,
-			"recharge": "dawn",
-			"entries": [
-				"This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side.",
-				"The hourglass has 2 charges and regains {@dice 1d3-1} charges daily at dawn.",
-				"While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|jackalope} spell (save DC 12) from it. For 1 charge, you cast the 4th-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
-			]
-		},
-		{
-			"name": "Orb of Helios and Selene",
-			"wondrous": true,
-			"source": "Cyranos",
-			"rarity": "uncommon",
-			"weight": 3,
-			"entries": [
-				"This tiny glass orb sheds dim light in a 5-foot radius and shows an image of the sun, during the day, or the moon, during the night.",
-				"While holding this orb, you can use an action to read the image and determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane."
-			]
-		},
-		{
-			"name": "Sandals of the Styx",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"curse": true,
-			"entries": [
-				"These sandals have supposedly been dipped in the river styx at the border of the underworld and thus grant the wearer the powers of Achilles.",
-				"While wearing these sandals all non-magical weapon attacks against you have disadvantage.",
-				{
-					"type": "entries",
-					"name": "Curse",
-					"entries": [
-						"These sandals are cursed. Attuning to them curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, your attunement to the object cannot be broken, and any successful weapon attacks against you are treated as critical hits."
-					]
-				}
-			]
-		},
-		{
-			"name": "Bellerophon's Horn",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"entries": [
-				"Once attuned to the horn you can blow it to summon a {@creature pegasus|mm}.",
-				"The pegasus is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the pegasus defends itself but takes no other actions.",
-				"When the pegasus drops to 0 hit points, it disappears in a cloud of mist, leaving behind no physical form, and cannot be summoned again until dawn the next dawn. You can also dismiss the pegasus at any time as an action, causing it to disappear in the same way."
-			]
-		},
-		{
-			"name": "Sandals of Atalanta",
-			"wondrous": true,
-			"rarity": "uncommon",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"entries": [
-				"While you are attuned to and wearing these sandals your walking speed increases by 10ft."
-			]
-		},
-		{
-			"name": "Wings of Daedalus",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"entries": [
-				"While you are attuned to and wearing these wings you gain a flying speed of 30ft.",
-				"These wings require both arms to operate and so you cannot use your arms or hands whilst flying or hovering. Whilst on the ground, you can remove your arms from the contraption and use them normally while the wings hang uselessly off your back."
-			]
-		},
-		{
-			"name": "Helm of Darkness",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"charges": 3,
-			"recharge": "dawn",
-			"entries": [
-				"The helm has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
-				"As an action, you can expend one charge to cast {@spell greater invisibility|phb} on yourself."
-			]
-		},
-		{
-			"name": "Nemean Lion Pelt",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"reqAttune": true,
-			"entries": [
-				"While wearing this pelt, you have resistance to non-magical bludgeoning, piercing, and slashing damage.",
-				"This pelt cannot be worn over medium or heavy armor."
-			]
-		},
-		{
-			"name": "Spear of Kelphalos",
-			"weight": 3,
-			"source": "Cyranos",
-			"charges": 3,
-			"recharge": "dawn",
-			"entries": [
-				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a ranged attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
-			],
-			"type": "M",
-			"rarity": "rare",
-			"reqAttune": true,
-			"weaponCategory": "simple",
-			"property": [
-				"T",
-				"V"
-			],
-			"baseItem": "spear|phb",
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmg2": "1d8",
-			"dmgType": "P"
-		},
-		{
-			"name": "Hippolyta's Girdle",
-			"wondrous": true,
-			"rarity": "rare",
-			"reqAttune": true,
-			"source": "Cyranos",
-			"charges": 3,
-			"recharge": "dawn",
-			"entries": [
-				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.",
-				"This item has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
-				"As an action, you can expend one charge to cast the {@spell Enlarge/Reduce|phb} spell on yourself without providing material components. You have advantage on saving throws to maintain concentration for this casting."
-			]
-		},
-		{
-			"name": "Bolt of Zeus",
-			"wondrous": true,
-			"rarity": "rare",
-			"source": "Cyranos",
-			"charges": 12,
-			"entries": [
-				"Crafted by the cyclopes, this crackling, golden bolt holds the power of zeus",
-				"This item has {@dice 3d4} charges when it is found. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell lightning bolt|phb} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
-				"If you expend the bolt's last charge roll a d20. On a 1, the bolt explodes and deals {@dice 8d6} lightning damage to all creatures within 10ft. If the roll is not a 1, the bolt crumbles into ashes and is destroyed."
-			]
-		},
-		{
 			"name": "Necklace of Beards",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"While wearing this necklace a creature's beard grows by half an inch after each long rest, even if they could not normally grow a beard."
 			]
@@ -3187,7 +740,7 @@
 			"name": "Ring of Theatrics",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, you can cast {@spell thaumaturgy|phb} as an action."
@@ -3197,7 +750,7 @@
 			"name": "Ring of Tricks",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"While wearing this ring, you can cast {@spell prestidigitation|phb} as an action."
@@ -3207,7 +760,7 @@
 			"name": "Gloves of the Gardener",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"While wearing these gloves, you can cast {@spell druidcraft|phb} as an action."
@@ -3216,7 +769,7 @@
 		{
 			"name": "Shield Strap",
 			"rarity": "none",
-			"source": "Jackalope",
+			"source": "J:General",
 			"value": 500,
 			"weight": 1,
 			"type": "G",
@@ -3231,7 +784,7 @@
 			"value": 2000,
 			"weight": 4,
 			"ac": 1,
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"This small shield is made from wood or metal and is strapped to the forearm, leaving the hand free. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield or buckler at a time. You cannot use weapons with the two handed property while wielding this buckler."
 			]
@@ -3667,7 +1220,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features a series of runic sigils. Each sigil corresponds to a particular teleportation circle that you know. Whenever you commit a circle's sigil to memory, the sigil is added to the design of this tattoo.",
@@ -3680,7 +1233,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features a coil like pattern rising up your ankles and calves.",
@@ -3693,7 +1246,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features muscle like patterns.",
@@ -3706,7 +1259,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features twisting and looping patterns.",
@@ -3720,7 +1273,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"charges": 6,
 			"recharge": "dawn",
@@ -3736,7 +1289,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features a chaotic and colourful pattern that never seems to look the same each time you look at it.",
@@ -3749,7 +1302,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features the design of a dart or arrow on the hand with the image of a rope or chain tightly coiled up the forearm.",
@@ -3763,7 +1316,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features spiralling patterns of chains, ropes, vines or webs.",
@@ -3778,7 +1331,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "very rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"Produced by a special needle, this magic tattoo can enhance your abilities. Choose an ability, when you get this tattoo, your chosen ability score is permanently increased by 1. You can't increase an ability score above 22 using this tattoo."
 			]
@@ -3787,7 +1340,7 @@
 			"name": "Wild Magic Faggot",
 			"wondrous": true,
 			"rarity": "uncommon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"reqAttune": true,
 			"charges": 3,
 			"recharge": "dawn",
@@ -3802,7 +1355,7 @@
 			"name": "Boots of Dramatic Hovering",
 			"wondrous": true,
 			"rarity": "common",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"These boots allow you to hover dramatically up to 1 foot above the ground as a bonus action. Whilst hovering, you move as if you were walking. The boots do not grant you a flying speed or any protection from terrain, falls or traps."
 			]
@@ -3811,7 +1364,7 @@
 			"name": "Scroll of Unique Wish",
 			"type": "SC",
 			"rarity": "very rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"attachedSpells": [
 				"wish"
 			],
@@ -3820,28 +1373,10 @@
 			]
 		},
 		{
-			"name": "Poppy of Hypnos",
-			"wondrous": true,
-			"rarity": "uncommon",
-			"source": "Cyranos",
-			"entries": [
-				"When this poppy blooms, or takes damage, it releases a potent mist. All creatures within range are targeted by the {@spell sleep|phb} spell at 2nd level. The poppy then wilters and can not cast the spell again."
-			]
-		},
-		{
-			"name": "Molly",
-			"type": "P",
-			"rarity": "uncommon",
-			"source": "Cyranos",
-			"entries": [
-				"This white flowering herb is known for protecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8 hours."
-			]
-		},
-		{
 			"name": "Temporal Gearbox",
 			"wondrous": true,
 			"rarity": "very rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"This set of incrementally larger gears connected to a crank can be used to imprison a creature in a slower timestream. As an action you can point this device at a creature and turn the crank, forcing the creature to make a DC12 Wisdom saving throw. On a fail, the creature's perception of time is slowed to the speed where a single heartbeat takes a year (one round in combat takes 6 years).",
 				"The creature can act normally but only at their usual speed, even a quick action such as blinking can appear to take weeks or even months. For this reason, this device is commonly used as a torture device. The Dungeon Master decides how this experience affects the creature; rolling for one or more {@variantrule Madness|dmg} effects would be appropriate.",
@@ -3852,7 +1387,7 @@
 			"name": "Anti-Magic Collar",
 			"wondrous": true,
 			"rarity": "rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"This silver collar can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells.",
 				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
@@ -3862,22 +1397,10 @@
 			"name": "Cruel Anti-Magic Collar",
 			"wondrous": true,
 			"rarity": "very rare",
-			"source": "Jackalope",
+			"source": "J:General",
 			"entries": [
 				"This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
 				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
-			]
-		},
-		{
-			"name": "Ice Skates",
-			"rarity": "none",
-			"value": 1500,
-			"weight": 5,
-			"type": "G",
-			"source": "AshAndSnow",
-			"entries": [
-				"These special boots each feature a blade with which the wearer can glide over ice. You can don or doff these boots over 1 minute.",
-				"While wearing these boots, slippery ice is no longer considered {@quickref difficult terrain||3} for you but all other terrain is. In addition, if you are not travelling uphill, moving 2 feet on slippery ice only costs 1 foot of movement for you."
 			]
 		},
 		{
@@ -3915,7 +1438,7 @@
 			"bonusWeapon": "+1",
 			"dmgType": "B",
 			"weaponCategory": "simple",
-			"source": "Jackalope",
+			"source": "J:General",
 			"property": [
 				"L",
 				"T",
@@ -3927,181 +1450,10 @@
 				"In additon to a simple melee weapon, this weapon can be used as a {@item shield|phb}, granting a +2 bonus to your armor class if you are wielding no other shield.",
 				"Additionally, when you make a ranged attack using this weapon, the weapon bounces back to your hand after the attack."
 			]
-		},
-		{
-			"name": "Wheelchair",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 1000,
-			"weight": 40,
-			"entries": [
-				"This contraption grants mobility to those who may be impaired due to injuries, disabilities or curses.",
-				"{@b {@i Size.}} Your wheelchair is designed for you and is the same size as you. If a magic effect or spell changes your size, the chair changes with you.",
-				"{@b {@i Speed.}} While sitting in a wheelchair, you effectively have a base walking speed of 30ft, regardless of your race. If a magic effect or spell changes your walking speed, your speed in the chair also changes. If you have a climb, swim or fly speeds, these are not affected by the chair. Seatbelts ensure that the chair comes with you however you move.",
-				"{@b {@i Poor Mobility.}} Terrain that is not flat and firm, such as mud or sand, is considered {@quickref difficult terrain||3}.",
-				"{@b {@i Gravity.}} Travelling up steep inclines or stairs counts as {@quickref difficult terrain||3} for you when in the chair. When travelling down steep inclines or stairs, you can travel 2 feet for every 1 foot of movement used.",
-				"{@b {@i Magic Effects and Features.}} The wheelchair is considered part of you for the purposes of magic effects, features, items or spells, any effects on you also affect the chair.",
-				"{@b {@i Upgrading the Wheelchair.}} Using a set of {@item tinker's tools|phb} over 1 hour, a creature can afix, or remove, wheelchair upgrades. A wheelchair cannot have more than four upgrades at once. If a wheelchair has multiple upgrades that require attunement, you may treat the wheelchair as a single item for the purposes of attunement.",
-				{
-					"type": "inset",
-					"name": "Handsfree Variant",
-					"entries": [
-						"If you also have limited use of your hands and arms, the DM may allow you a specialised chair that allows you to replicate the functions of hands.",
-						"You have telepathic control over one or two pseudo hands that function indentically to regular arms and hands. These could be mechanical arms attached to the chair, spectral hands floating around the chair or some other form that you and the DM decide upon. You may use any combination of regular hands and pseudo hands but can not have more than two total at any one time, unless you gain them from another source."
-					]
-				}
-			]
-		},
-		{
-			"name": "All-terrain Wheels",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 2000,
-			"weight": 10,
-			"entries": [
-				"This set of wheels come with a kit of spikes, snow chains and special tyres that can be afixed to a {@item wheelchair|JWC}. You can ignore the Poor Mobility property of the wheelchair as the wheels can traverse the terrain as easily as with legs.",
-				"This upgrade can not be afixed at the same time as the {@item Racing Wheels|JWC} upgrade.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Racing Wheels",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 2000,
-			"weight": 5,
-			"entries": [
-				"This set of lightweight, narrow wheels can be afixed to a {@item wheelchair|JWC}. Your base walking speed is increased by 10ft when not on {@quickref difficult terrain||3}.",
-				"This upgrade can not be afixed at the same time as the {@item All-terrain Wheels|JWC} upgrade.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Hoverstone",
-			"source": "JWC",
-			"wondrous": true,
-			"rarity": "common",
-			"value": 5000,
-			"weight": 2,
-			"entries": [
-				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to hover the chair a few inches above the ground. You can use a bonus action to start or stop hovering. While hovering, you ignore the Gravity property of the wheelchair as you glide up and down inclines and stairs.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. Activating or deactivating the stone can be done as part of the same bonus action used to command the chair to move.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Floats",
-			"source": "JWC",
-			"wondrous": true,
-			"rarity": "rare",
-			"value": 150000,
-			"weight": 10,
-			"entries": [
-				"This series of inflable bladders can be used to float the {@item wheelchair|JWC}. As an action you can inflate, or deflate, the bladders to make the chair float on water. While the bladders are inflated, you have a swim speed of 30ft (unless you already have a higher swim speed from another source) and you can not descend underwater but your walking speed is halved.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the bladders to inflate or deflate.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Spider Legs",
-			"source": "JWC",
-			"wondrous": true,
-			"rarity": "rare",
-			"reqAttune": true,
-			"value": 250000,
-			"weight": 30,
-			"entries": [
-				"This foldable set of mechanical spider legs can fit snuggly on the underside of a {@item wheelchair|JWC}. As an action, you can deploy the legs for 1 hour or until you retract them as an action. While the legs are deployed, you gain a climb speed of 30ft (unless you already have a higher climb speed from another source) and ignore the Poor Mobility and Gravity properties of the wheelchair. Once you use this feature, you can't do so again until the next dawn.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the legs to deploy or retract.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Greater Hoverstone",
-			"source": "JWC",
-			"wondrous": true,
-			"rarity": "rare",
-			"reqAttune": true,
-			"value": 500000,
-			"weight": 2,
-			"entries": [
-				"This magic gemstone can be fixed to the armrest of a {@item wheelchair|JWC}, granting you the ability to make the chair fly. As an action, you can activate the stone for 1 hour or until you deactive it as an action. While the stone is activated, you have a fly speed of 30ft (unless you already have a higher fly speed from another source). Once you use this feature, you can't do so again until the next dawn.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. You can use an action to telepathically command the stone to activate or deactivate.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Weapon Mount",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 500,
-			"weight": 5,
-			"entries": [
-				"This special pivoting mount can be fixed to the armrest of a {@item wheelchair|JWC}. You can spend 1 minute to mount, or remove, a single melee weapon, a {@item light crossbow|phb} or a {@item heavy crossbow|phb}. You can only mount one weapon in this way at once. While mounted, the weapon can be used as normal but does not cost an action to draw or stow the weapon and you cannot be disarmed of the weapon so long as you are in the chair.",
-				"{@note If your DM allows, you may also mount firearms using this upgrade.}",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade and has a melee weapon mounted, you add that weapon's melee attacks to the wheelchair's statblock.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Armored Plates",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 25000,
-			"weight": 60,
-			"entries": [
-				"These heavy plates can offer you some extra cover for a {@item wheelchair|JWC}. While you are in the chair, you gain a +2 to AC.",
-				"You also gain disadvantage on Dexterity (Stealth) checks while in the chair.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Ram",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 8000,
-			"weight": 30,
-			"entries": [
-				"This heavy ram can be afixed to front of a {@item wheelchair|JWC}. This can be used as a {@item portable ram|phb}.",
-				"Additionally, if you move at least 10 feet in a straight line toward a creature or object that is not larger than you, you can make a special melee weapon attack against them in which you crash into them with the ram. You are proficient with this attack. On a hit, you deal {@dice 1d6} plus your Strength modifier as bludgeoning damage, the target must also make a Strength saving throw (DC 8 + your Strength modifier + your proficiency bonus) or be knocked {@condition prone}.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, and you are not in the wheelchair, it gains the benefits of this upgrade rather than you. Addtionally, you add the attack granted by this upgrade to the wheelchair's statblock.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Heavy Wheels",
-			"rarity": "none",
-			"source": "JWC",
-			"value": 6000,
-			"weight": 40,
-			"entries": [
-				"These heavy lead wheels can be afixed to a {@item wheelchair|JWC}. When you are within 5 feet of a creature that is not larger than you and {@condition prone|phb}, you can make a special melee weapon attack against them in which you roll over them. You are proficient with this attack. On a hit, you deal {@dice 1d8} plus your Strength modifier as bludgeoning damage. If you are at least one size larger than the creature, you add an addtional {@dice 1d4} to the damage dealt.",
-				"If the wheelchair also has the {@item Remote Beacon|JWC} upgrade, you add the attack granted by this upgrade to the wheelchair's statblock.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
-		{
-			"name": "Remote Beacon",
-			"source": "JWC",
-			"wondrous": true,
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"value": 50000,
-			"weight": 2,
-			"entries": [
-				"This magic gemstone can be afixed to a {@item wheelchair|JWC}. While attuned, so long as the chair is on the same plane as you, you always know where it is.",
-				"If you are not in the chair, it is treated as an {@creature Animated object (Medium)|phb}. It cannot act on its own but, if it is within 100ft of you, you may use a bonus action to telepathically command it to move up to its full movement. Addtionally, you can use an action to command the chair to take the {@action Attack} (one weapon attack only), {@action Dash}, {@action Disengage}, {@action Dodge} or {@action Hide} action.",
-				"Additional upgrades afixed to this wheelchair may grant further actions, see respective upgrade descriptions for more information.",
-				"If the wheelchair is reduced to 0 hitpoints, the wheelchair is not destroyed but the beacon becomes inert and will not respond to any commands until it is repaired over 1 hour with {@item tinker's tools} or with the {@spell mending|phb} cantrip.",
-				"{@b {@i Wheelchair Upgrade.}} This item is an upgrade for the {@item wheelchair|JWC}. See the wheelchair statblock for information on adding or removing upgrades."
-			]
-		},
+		}
 		{
 			"name": "Longshoreman's Hook",
-			"source": "Jackalope",
+			"source": "J:General",
 			"type": "M",
 			"weapon": true,
 			"weaponCategory": "simple",
@@ -4119,7 +1471,7 @@
 		},
 		{
 			"name": "Chronicles of Alvergia",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "none",
 			"type": "$",
 			"value": 2500,
@@ -4193,7 +1545,7 @@
 		},
 		{
 			"name": "Tome of Many Cheeses",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
@@ -4203,7 +1555,7 @@
 		},
 		{
 			"name": "Assassin's Teapot",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "none",
 			"type": "G",
 			"value": 15000,
@@ -4215,7 +1567,7 @@
 		},
 		{
 			"name": "Hydra Blood",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "none",
 			"type": "G",
 			"poison": true,
@@ -4226,7 +1578,7 @@
 		},
 		{
 			"name": "Cloak of Endless Poultry",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
@@ -4239,7 +1591,7 @@
 		},
 		{
 			"name": "Nautical Bone Charm",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
@@ -4252,7 +1604,7 @@
 		},
 		{
 			"name": "+1 Pugilist Bracers",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
@@ -4262,7 +1614,7 @@
 		},
 		{
 			"name": "+2 Pugilist Bracers",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
@@ -4272,7 +1624,7 @@
 		},
 		{
 			"name": "+3 Pugilist Bracers",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "very rare",
 			"wondrous": true,
 			"entries": [
@@ -4282,7 +1634,7 @@
 		},
 		{
 			"name": "Bottle of Delights",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -4292,7 +1644,7 @@
 		},
 		{
 			"name": "Brine Poison",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "none",
 			"type": "G",
 			"poison": true,
@@ -4303,7 +1655,7 @@
 		},
 		{
 			"name": "Silent Hammer",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -4312,7 +1664,7 @@
 		},
 		{
 			"name": "Magic Eyeliner",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
@@ -4321,7 +1673,7 @@
 		},
 		{
 			"name": "Ring of False Death",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
@@ -4331,7 +1683,7 @@
 		},
 		{
 			"name": "Spellcaster's Glove",
-			"source": "Jackalope",
+			"source": "J:General",
 			"type": "SCF",
 			"scfType": "arcane",
 			"rarity": "none",
@@ -4341,7 +1693,7 @@
 		},
 		{
 			"name": "Body Modder's Tools",
-			"source": "Jackalope",
+			"source": "J:General",
 			"type": "AT",
 			"rarity": "none",
 			"weight": 8,
@@ -4421,7 +1773,7 @@
 		},
 		{
 			"name": "Ring of Folding",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
@@ -4431,7 +1783,7 @@
 		},
 		{
 			"name": "Voltaic Ball Bearings (bag of 1,000)",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "uncommon",
 			"wondrous": true,
 			"reqAttune": true,
@@ -4451,7 +1803,7 @@
 		},
 		{
 			"name": "Gauntlets of the Hurricane",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": true,
@@ -4472,7 +1824,7 @@
 		},
 		{
 			"name": "Ki Stone",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": "by a monk",
@@ -4482,7 +1834,7 @@
 		},
 		{
 			"name": "Ki Focusing Ring",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": "by a monk with the spellcasting or pact magic feature",
@@ -4493,7 +1845,7 @@
 		},
 		{
 			"name": "Boots of Explosive Propulsion",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": true,
@@ -4506,7 +1858,7 @@
 		},
 		{
 			"name": "Spectacles of Glinting",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
@@ -4515,7 +1867,7 @@
 		},
 		{
 			"name": "Pocketplane Locket",
-			"source": "Jackalope",
+			"source": "J:General",
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
@@ -4528,204 +1880,8 @@
 	],
 	"monster": [
 		{
-			"name": "Amazon Huntress",
-			"source": "Cyranos",
-			"size": ["M"],
-			"type": {
-				"type": "humanoid"
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 16,
-					"from": [
-						"{@item Studded Leather Armor|phb}"
-					]
-				}
-			],
-			"hp": {
-				"average": 70,
-				"formula": ""
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 16,
-			"int": 11,
-			"wis": 16,
-			"cha": 15,
-			"skill": {
-				"acrobatics": "+6",
-				"perception": "+5",
-				"survival": "+5"
-			},
-			"passive": 17,
-			"languages": [
-				"Common"
-			],
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Brave",
-					"entries": [
-						"The Amazon Huntress has advantage on saving throws against being frightened."
-					]
-				},
-				{
-					"name": "Brute",
-					"entries": [
-						"A weapon deals one extra die of its damage when the Amazon Huntress hits with it (included in the attack)."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The Amazon Huntress makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Longbow",
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}14 ({@damage 2d8 + 4}) piercing damage."
-					]
- 				},
-				{
-					"name": "Kopis",
-					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 4}) slashing damage."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"THW"
-			]
-		},
-		{
-			"name": "Amazon Warrior",
-			"source": "Cyranos",
-			"size": ["M"],
-			"type": {
-				"type": "humanoid"
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item Studded Leather Armor|phb}",
-						"Shield"
-					]
-				}
-			],
-			"hp": {
-				"average": 80,
-				"formula": ""
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 13,
-			"con": 16,
-			"int": 10,
-			"wis": 12,
-			"cha": 15,
-			"skill": {
-				"athletics": "+8",
-				"intimidation": "+4"
-			},
-			"passive": 11,
-			"languages": [
-				"Common"
-			],
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Brave",
-					"entries": [
-						"The Amazon Warrior has advantage on saving throws against being frightened."
-					]
-				},
-				{
-					"name": "Brute",
-					"entries": [
-						"A weapon deals one extra die of its damage when the Amazon Warrior hits with it (included in the attack)."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The Amazon Warrior makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Spear",
-					"entries": [
-						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. and range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or {@h}13 ({@damage 2d8 + 4}) piercing damage if used with two hands to makes a melee attack."
-					]
- 				},
-				{
-					"name": "Shield Bash",
-					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage. If the target is Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
-					]
- 				},
-				{
-					"name": "Kopis",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 4}) slashing damage."
-					]
-				}
-			],
-			"reaction": [
-				{
-					"name": "Parry",
-					"entries": [
-						"The Amazon Warrior adds 3 to its AC against one melee attack that would hit it. To do so, the Amazon Hoplite must see the attacker and be wielding a melee weapon."
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"THW"
-			]
-		},
-		{
 			"name": "Mercenary Captain",
-			"source": "Cyranos",
+			"source": "J:General",
 			"size": ["M"],
 			"type": {
 				"type": "humanoid"
@@ -4824,7 +1980,7 @@
 		},
 		{
 			"name": "Mercenary Hoplite",
-			"source": "Cyranos",
+			"source": "J:General",
 			"size": ["M"],
 			"type": {
 				"type": "humanoid"
@@ -4909,7 +2065,7 @@
 		},
 		{
 			"name": "Mercenary Archer",
-			"source": "Cyranos",
+			"source": "J:General",
 			"size": ["M"],
 			"type": {
 				"type": "humanoid"
@@ -4985,7 +2141,7 @@
 		},
 		{
 			"name": "Warforged Bodyguard",
-			"source": "Jackalope",
+			"source": "J:General",
 			"size": ["M"],
 			"type": {
 				"type": "construct",
@@ -5104,7 +2260,7 @@
 		},
 		{
 			"name": "Warforged Horse",
-			"source": "Cyranos",
+			"source": "J:General",
 			"size": ["L"],
 			"type": {
 				"type": "construct",
@@ -5175,7 +2331,7 @@
 		},
 		{
 			"name": "Warforged Boar",
-			"source": "Cyranos",
+			"source": "J:General",
 			"size": ["L"],
 			"type": {
 				"type": "construct",
@@ -5246,7 +2402,7 @@
 		},
 		{
 			"name": "Warforged Dog",
-			"source": "Jackalope",
+			"source": "J:General",
 			"size": ["M"],
 			"type": {
 				"type": "construct",
@@ -5311,7 +2467,7 @@
 		},
 		{
 			"name": "Jackalope",
-			"source": "Jackalope",
+			"source": "J:General",
 			"size": ["S"],
 			"type": {
 				"type": "Fey"
@@ -5395,7 +2551,7 @@
 		},
 		{
 			"name": "Chicken",
-			"source": "Jackalope",
+			"source": "J:General",
 			"size": ["S"],
 			"type": {
 				"type": "Beast"
@@ -5513,7 +2669,7 @@
     },
 		{
 			"name": "Doomerang",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5526,7 +2682,7 @@
 		},
 		{
 			"name": "Potent Weapon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["AI"],
 			"prerequisite": [
 				{
@@ -5543,7 +2699,7 @@
 		},
 		{
 			"name": "Agile Fighting",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": [
 					"FS:B",
 					"FS:F",
@@ -5555,7 +2711,7 @@
 		},
 		{
 			"name": "Akimbo Shooting",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": [
 					"FS:F",
 					"FS:R"
@@ -5566,7 +2722,7 @@
 		},
 		{
 			"name": "Prone Fighting",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": [
 					"FS:F",
 					"FS:R"
@@ -5577,7 +2733,7 @@
 		},
 		{
 			"name": "Pact of the Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": [
 				"PB"
 			],
@@ -5589,7 +2745,7 @@
 		},
 		{
 			"name": "Improved Pact Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5603,7 +2759,7 @@
 		},
 		{
 			"name": "Guardian Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5616,7 +2772,7 @@
 		},
 		{
 			"name": "Oversized Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5630,7 +2786,7 @@
 		},
 		{
 			"name": "Feather Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5643,7 +2799,7 @@
 		},
 		{
 			"name": "Immovable Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5657,7 +2813,7 @@
 		},
 		{
 			"name": "Floating Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5670,7 +2826,7 @@
 		},
 		{
 			"name": "Offensive Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5691,7 +2847,7 @@
 		},
 		{
 			"name": "Energy Shield",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5706,7 +2862,7 @@
 		},
 		{
 			"name": "Elemental Blast",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5721,7 +2877,7 @@
 		},
 		{
 			"name": "Wings of Flight",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["AI"],
 			"prerequisite": [
 				{
@@ -5743,7 +2899,7 @@
 		},
 		{
 			"name": "Enhanced Tool",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["AI"],
 			"prerequisite": [
 				{
@@ -5759,7 +2915,7 @@
 		},
 		{
 			"name": "Eldritch Cavalier",
-			"source": "Jackalope",
+			"source": "J:General",
 			"featureType": ["EI"],
 			"prerequisite": [
 				{
@@ -5774,78 +2930,8 @@
 	],
 	"race": [
 		{
-			"name": "Dwarf (Thalian)",
-			"source": "Cyranos",
-			"traitTags": [
-				"Skill Proficiency",
-				"Tool Proficiency",
-				"Weapon Proficiency"
-			],
-			"size": ["M"],
-			"speed": {
-				"walk": 25
-			},
-			"darkvision": 60,
-			"ability": [
-				{
-					"str": 2,
-					"con": 2
-				}
-			],
-			"entries": [
-				{
-					"name": "Darkvision",
-					"type": "entries",
-					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"name": "Thalian Resilience",
-					"type": "entries",
-					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison and fire damage."
-					]
-				},
-				{
-					"name": "Dwarven Combat Training",
-					"type": "entries",
-					"entries": [
-						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}."
-					]
-				},
-				{
-					"name": "Tool Proficiency",
-					"type": "entries",
-					"entries": [
-						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
-					]
-				},
-				{
-					"name": "Stonecunning",
-					"type": "entries",
-					"entries": [
-						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
-					]
-				}
-			],
-			"languageProficiencies": [
-				{
-					"any": 1,
-					"common": true
-				}
-			]
-		},
-		{
 			"name": "Dwarf (Ocean)",
-			"source": "Jackalope",
+			"source": "J:General",
 			"traitTags": [
 				"Amphibious",
 				"Skill Proficiency",
@@ -5916,106 +3002,6 @@
 			]
 		},
 		{
-			"name": "Thalian Cyclops",
-			"source": "Cyranos",
-			"darkvision": 60,
-			"traitTags": [
-				"Powerful Build",
-				"Tool Proficiency"
-			],
-			"ability": [
-				{
-					"con": 2,
-					"str": 1
-				}
-			],
-			"size": ["M"],
-			"speed": 30,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Age",
-					"entries": [
-						"Thalian Cyclopes mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"Thalian Cyclopes tend to be neutral, prefering to dedicate to their craft rather than politics or tradition."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Thalian Cyclopes are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
-					]
-				},
-				{
-					"name": "Darkvision",
-					"type": "entries",
-					"entries": [
-						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"name": "Thalian Resilience",
-					"type": "entries",
-					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison and fire damage."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Tool Proficiency",
-					"entries": [
-						"You gain proficiency with {@item smith's tools|phb}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Magic Forgemaster",
-					"entries": [
-						"You can cast the {@spell identify|phb} spell as a ritual. You don't require material components when you cast it using this feature."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Poor Depth Perception",
-					"entries": [
-						"You have disadvantage on any attack roll against a target more than 30 feet away."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Powerful Build",
-					"entries": [
-						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-					]
-				}
-			],
-			"fluff": {
-				"entries": [
-					"Deep under the mighty volcano of Thalia generations of cyclopes have laboured for thousands of years, producing some of the greatest weapons in the known world, including the thunderbolts of Zeus."
-				]
-			},
-			"languageProficiencies": [
-				{
-					"any": 1,
-					"common": true
-				}
-			]
-		},
-		{
 			"name": "Awakened Cannon",
 			"alias": [
 				"Tin",
@@ -6023,7 +3009,7 @@
 				"Turret",
 				"Robot"
 			],
-			"source": "Jackalope",
+			"source": "J:General",
 			"darkvision": 60,
 			"traitTags": [
 				"Improved Resting",
@@ -6137,7 +3123,7 @@
 		},
 		{
 			"name": "Halfling (Leprechaun)",
-			"source": "Jackalope",
+			"source": "J:General",
 			"traitTags": [
 				"Tool Proficiency"
 			],
@@ -6232,7 +3218,7 @@
 		},
 		{
 			"name": "Dryad",
-			"source": "Jackalope",
+			"source": "J:General",
 			"ability": [
 				{
 					"cha": 2,
@@ -6306,7 +3292,7 @@
 		},
 		{
 			"name": "Gaian",
-			"source": "Jackalope",
+			"source": "J:General",
 			"alias": [
 				"rock",
 				"mineral"
@@ -6344,7 +3330,7 @@
 			"subraces": [
 					{
 						"name": "Gem",
-						"source": "Jackalope",
+						"source": "J:General",
 						"traitTags": [
 							"Darkvision",
 							"Damage Resistance",
@@ -6393,7 +3379,7 @@
 					},
 					{
 						"name": "Ice",
-						"source": "Jackalope",
+						"source": "J:General",
 						"traitTags": [
 							"Darkvision",
 							"Damage Resistance"
@@ -6441,7 +3427,7 @@
 					},
 					{
 						"name": "Magma",
-						"source": "Jackalope",
+						"source": "J:General",
 						"traitTags": [
 							"Darkvision",
 							"Damage Resistance"
@@ -6506,7 +3492,7 @@
 	"spell": [
 		{
 			"name": "Time Stasis",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 4,
 			"school": "E",
 			"time": [
@@ -6568,7 +3554,7 @@
 		},
 		{
 			"name": "Tin's Force Ballista",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -6617,7 +3603,7 @@
 		},
 		{
 			"name": "Boomerang Blade",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -6691,7 +3677,7 @@
 		},
 		{
 			"name": "Reverse Teleport",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 6,
 			"school": "C",
 			"time": [
@@ -6738,7 +3724,7 @@
 		},
 		{
 			"name": "Arcane Mirror",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 4,
 			"school": "C",
 			"time": [
@@ -6808,7 +3794,7 @@
 		},
 		{
 			"name": "Bazoz's Spicy Water",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -6875,7 +3861,7 @@
 		},
 		{
 			"name": "Greater Ceremony",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -6929,7 +3915,7 @@
 		},
 		{
 			"name": "Spectral Crew",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -7004,7 +3990,7 @@
 		},
 		{
 			"name": "Ray of Impotence",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 4,
 			"school": "N",
 			"time": [
@@ -7057,7 +4043,7 @@
 		},
 		{
 			"name": "Ray of Lumbering",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -7106,7 +4092,7 @@
 		},
 		{
 			"name": "Rising Words",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -7159,7 +4145,7 @@
 		},
 		{
 			"name": "Runner's Rope",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 2,
 			"school": "C",
 			"time": [
@@ -7217,7 +4203,7 @@
 		},
 		{
 			"name": "Chain Blade",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -7283,7 +4269,7 @@
 		},
 		{
 			"name": "Caustic Smite",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -7335,7 +4321,7 @@
 		},
 		{
 			"name": "Merciful Touch",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -7387,7 +4373,7 @@
 		},
 		{
 			"name": "Explosive Propulsion",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 4,
 			"school": "T",
 			"time": [
@@ -7463,7 +4449,7 @@
 		},
 		{
 			"name": "Silencing Smite",
-			"source": "Jackalope",
+			"source": "J:General",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -7508,7 +4494,7 @@
 		{
 			"name": "The Darkweaver Warlock",
 			"shortName": "Darkweaver",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7569,7 +4555,7 @@
 		{
 			"name": "The Hivemind Warlock",
 			"shortName": "Hivemind",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7627,7 +4613,7 @@
 		{
 			"name": "The Dragon Warlock",
 			"shortName": "Dragon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7726,7 +4712,7 @@
 		{
 			"name": "Feast Domain",
 			"shortName": "Feast",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7784,7 +4770,7 @@
 		{
 			"name": "Experimenter",
 			"shortName": "Experimenter",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassFeatures": [
@@ -7843,7 +4829,7 @@
 		{
 			"name": "Vermin",
 			"shortName": "Vermin",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7876,7 +4862,7 @@
 		{
 			"name": "Null Domain",
 			"shortName": "Null",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7935,7 +4921,7 @@
 		{
 			"name": "The Awakened Energy Warlock",
 			"shortName": "Awakened Energy",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassFeatures": [
@@ -7994,7 +4980,7 @@
 	"subclassFeature": [
 		{
 			"name": "The Darkweaver",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8006,7 +4992,7 @@
 		},
 		{
 			"name": "Expanded Spell List",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8053,7 +5039,7 @@
 		},
 		{
 			"name": "Nest Crawler",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8067,7 +5053,7 @@
 		},
 		{
 			"name": "Silk Spinner",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8081,7 +5067,7 @@
 		},
 		{
 			"name": "Toxin Tolerance",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8095,7 +5081,7 @@
 		},
 		{
 			"name": "Webslinger",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8117,7 +5103,7 @@
 		},
 		{
 			"name": "Quickweb",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8130,7 +5116,7 @@
 		},
 		{
 			"name": "Spider Bites",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8152,7 +5138,7 @@
 		},
 		{
 			"name": "Toxin Tolerance Improved",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8165,7 +5151,7 @@
 		},
 		{
 			"name": "Wall Walker",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Darkweaver",
@@ -8178,7 +5164,7 @@
 		},
 		{
 			"name": "The Hivemind",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8190,7 +5176,7 @@
 		},
 		{
 			"name": "Expanded Spell List",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8237,7 +5223,7 @@
 		},
 		{
 			"name": "Knowledge of the Hive",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8250,7 +5236,7 @@
 		},
 		{
 			"name": "Network Insight",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8279,7 +5265,7 @@
 		},
 		{
 			"name": "Hive Magic",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8292,7 +5278,7 @@
 		},
 		{
 			"name": "Hive Ritual",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8306,7 +5292,7 @@
 		},
 		{
 			"name": "Psychometry",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Hivemind",
@@ -8320,7 +5306,7 @@
 		},
 		{
 			"name": "The Dragon",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8364,7 +5350,7 @@
 		},
 		{
 			"name": "Expanded Spell List",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8431,7 +5417,7 @@
 		},
 		{
 			"name": "Draconic Affinity",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8444,7 +5430,7 @@
 		},
 		{
 			"name": "Chaotic Affinity",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8511,7 +5497,7 @@
 		},
 		{
 			"name": "Dragon Head",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8538,7 +5524,7 @@
 		},
 		{
 			"name": "Draconic Reflex",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8560,7 +5546,7 @@
 		},
 		{
 			"name": "Scaled Wings",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8573,7 +5559,7 @@
 		},
 		{
 			"name": "Dragon Shape",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Dragon",
@@ -8586,7 +5572,7 @@
 		},
 		{
 			"name": "Feast Domain",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8633,7 +5619,7 @@
 		},
 		{
 			"name": "Gracious Host",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8647,7 +5633,7 @@
 		},
 		{
 			"name": "Channel Divinity: Halls of Merriment",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8660,7 +5646,7 @@
 		},
 		{
 			"name": "Spell Storing Snacks",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8675,7 +5661,7 @@
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8688,7 +5674,7 @@
 		},
 		{
 			"name": "Blessed Strikes",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8702,7 +5688,7 @@
 		},
 		{
 			"name": "Gourmet Snacks",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Feast",
@@ -8715,7 +5701,7 @@
 		},
 		{
 			"name": "Experimenter",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8727,7 +5713,7 @@
 		},
 		{
 			"name": "Experimenter Spells",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8774,7 +5760,7 @@
 		},
 		{
 			"name": "Additional Infusion",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8787,7 +5773,7 @@
 		},
 		{
 			"name": "Experimental Artifice",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8895,7 +5881,7 @@
 		},
 		{
 			"name": "Radiation Burst",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8917,7 +5903,7 @@
 		},
 		{
 			"name": "Marginal Control",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8930,7 +5916,7 @@
 		},
 		{
 			"name": "Unbalanced Inspiration",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8944,7 +5930,7 @@
 		},
 		{
 			"name": "Dubious Reserves",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Artificer",
 			"classSource": "TCE",
 			"subclassShortName": "Experimenter",
@@ -8958,7 +5944,7 @@
 		},
 		{
 			"name": "Vermin",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -8970,7 +5956,7 @@
 		},
 		{
 			"name": "Beast Kin",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -8984,7 +5970,7 @@
 		},
 		{
 			"name": "Vermin Friend",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -9007,7 +5993,7 @@
 		},
 		{
 			"name": "Critter Horde",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -9021,7 +6007,7 @@
 		},
 		{
 			"name": "Quick Extraction",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -9034,7 +6020,7 @@
 		},
 		{
 			"name": "Greater Critter Horde",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Vermin",
@@ -9047,7 +6033,7 @@
 		},
 		{
 			"name": "Null Domain",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9095,7 +6081,7 @@
 		},
 		{
 			"name": "Divineless",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9109,7 +6095,7 @@
 		},
 		{
 			"name": "Energy Thief",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9123,7 +6109,7 @@
 		},
 		{
 			"name": "Channel Divinity: Deny Power",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9137,7 +6123,7 @@
 		},
 		{
 			"name": "Consume Spell",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9150,7 +6136,7 @@
 		},
 		{
 			"name": "Improved Energy Thief",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Null",
@@ -9164,7 +6150,7 @@
 		},
 		{
 			"name": "The Awakened Energy",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9177,7 +6163,7 @@
 		},
 		{
 			"name": "Expanded Spell List",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9225,7 +6211,7 @@
 		},
 		{
 			"name": "Energetic Affinity",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9250,7 +6236,7 @@
 		},
 		{
 			"name": "Charged Strike",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9263,7 +6249,7 @@
 		},
 		{
 			"name": "Destructive Storm",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9279,7 +6265,7 @@
 		},
 		{
 			"name": "Living Bolt",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9294,7 +6280,7 @@
 		},
 		{
 			"name": "Improved Energy Affinity",
-			"source": "Jackalope",
+			"source": "J:General",
 			"className": "Warlock",
 			"classSource": "PHB",
 			"subclassShortName": "Awakened Energy",
@@ -9310,7 +6296,7 @@
 	"vehicle": [
 		{
 			"name": "Rowboat",
-			"source": "Jackalope",
+			"source": "J:General",
 			"vehicleType": "SHIP",
 			"size": "L",
 			"dimensions": [
@@ -9390,1015 +6376,8 @@
 			]
 		},
 		{
-			"name": "Small Ship",
-			"source": "Cyranos",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"30 ft.",
-				"10 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 4,
-			"capPassenger": 8,
-			"capCargo": 1,
-			"pace": 4,
-			"str": 16,
-			"dex": 8,
-			"con": 13,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 15,
-				"hp": 150,
-				"dt": 10
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 12,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 2 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Small ships typically include a ballista only when they are equipped for combat. If a small ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200lbs."
-					]
-				}
-			],
-			"actionThresholds": {
-				"0": 0,
-				"1": 2,
-				"2": 4
-			},
-			"action": [
-				"On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The ship can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Medium Ship",
-			"source": "Cyranos",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"70 ft.",
-				"20 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 30,
-			"capPassenger": 50,
-			"capCargo": 10,
-			"pace": 4,
-			"str": 18,
-			"dex": 8,
-			"con": 15,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 15,
-				"hp": 300,
-				"dt": 15
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 16,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 15 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
-					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
-					]
-				}
-			],
-			"actionThresholds": {
-				"0": 0,
-				"1": 10,
-				"2": 20,
-				"3": 30
-			},
-			"action": [
-				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than thirty crew and only 1 action if it has fewer than twenty. It can't take these actions if it has fewer than ten crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Fire Dragonsmaws.",
-							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-						},
-						{
-							"type": "item",
-							"name": "Fire Mangonels.",
-							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The ship can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Large Ship",
-			"source": "Cyranos",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"100 ft.",
-				"30 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 80,
-			"capPassenger": 100,
-			"capCargo": 100,
-			"pace": 5,
-			"str": 20,
-			"dex": 6,
-			"con": 20,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 15,
-				"hp": 500,
-				"dt": 18
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 16,
-					"hp": 500,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 40 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
-					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
-					]
-				}
-			],
-			"actionThresholds": {
-				"0": 0,
-				"1": 20,
-				"2": 40,
-				"3": 80
-			},
-			"action": [
-				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than eighty crew and only 1 action if it has fewer than forty. It can't take these actions if it has fewer than twenty crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Fire Dragonsmaws.",
-							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-						},
-						{
-							"type": "item",
-							"name": "Fire Mangonels.",
-							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The ship can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Flagship",
-			"source": "Cyranos",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"120 ft.",
-				"40 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 100,
-			"capPassenger": 200,
-			"capCargo": 200,
-			"pace": 6,
-			"str": 24,
-			"dex": 6,
-			"con": 24,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 16,
-				"hp": 800,
-				"dt": 20
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 18,
-					"hp": 600,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 40 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"50 ft.; 20 ft. while sailing into the wind; 70 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
-					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
-					]
-				}
-			],
-			"actionThresholds": {
-				"0": 0,
-				"1": 40,
-				"2": 60,
-				"3": 80,
-				"4": 100
-			},
-			"action": [
-				"On its turn, the ship can take 4 actions, choosing from the options below. It can take only 3 actions if it has fewer than one hundred crew, only 2 action if it has fewer than eighty crew and only 1 action if it has fewer than sixty. It can't take these actions if it has fewer than forty crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Fire Ballista.",
-							"entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Fire Dragonsmaws.",
-							"entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-						},
-						{
-							"type": "item",
-							"name": "Fire Mangonels.",
-							"entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
-						},
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The ship can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Karvi",
-			"source": "AshAndSnow",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"60 ft.",
-				"20 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 4,
-			"capPassenger": 12,
-			"capCargo": 2,
-			"pace": 3,
-			"str": 16,
-			"dex": 6,
-			"con": 13,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 14,
-				"hp": 150,
-				"dt": 10
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 12,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 2 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				"On its turn, the karvi can take the move action below. It can't take this action if it has no crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The karvi can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Snekke",
-			"source": "AshAndSnow",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"60 ft.",
-				"10 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 20,
-			"capPassenger": 5,
-			"capCargo": 0.25,
-			"pace": 4,
-			"str": 14,
-			"dex": 10,
-			"con": 15,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 16,
-				"hp": 200,
-				"dt": 12
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 16,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 10 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				"On its turn, the snekke can take the move action below. It can't take this action if it has no crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The snekke can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Skeid",
-			"source": "AshAndSnow",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"90 ft.",
-				"15 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 30,
-			"capPassenger": 20,
-			"capCargo": 4,
-			"pace": 5,
-			"str": 18,
-			"dex": 8,
-			"con": 16,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 16,
-				"hp": 300,
-				"dt": 15
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 16,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 15 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"actionThresholds": {
-				"0": 0,
-				"1": 2,
-				"2": 4
-			},
-			"action": [
-				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The skeid can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Drakkar",
-			"source": "AshAndSnow",
-			"vehicleType": "SHIP",
-			"size": "G",
-			"dimensions": [
-				"120 ft.",
-				"20 ft."
-			],
-			"terrain": [
-				"sea"
-			],
-			"capCrew": 40,
-			"capPassenger": 40,
-			"capCargo": 8,
-			"pace": 6,
-			"str": 20,
-			"dex": 6,
-			"con": 18,
-			"int": 0,
-			"wis": 0,
-			"cha": 0,
-			"immune": [
-				"poison",
-				"psychic"
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"incapacitated",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"stunned",
-				"unconscious"
-			],
-			"hull": {
-				"ac": 16,
-				"hp": 400,
-				"dt": 15
-			},
-			"control": [
-				{
-					"name": "Helm",
-					"ac": 17,
-					"hp": 50,
-					"entries": [
-						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
-					]
-				}
-			],
-			"movement": [
-				{
-					"name": "Oars",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"20 ft. (requires at least 20 crew)"
-							]
-						}
-					]
-				},
-				{
-					"name": "Sails",
-					"ac": 12,
-					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
-					"speed": [
-						{
-							"mode": "water",
-							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
-				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Move.",
-							"entry": "The skeid can use its helm to move with its oars or sails."
-						}
-					]
-				}
-			]
-		},
-		{
 			"name": "Catamaran",
-			"source": "Jackalope",
+			"source": "J:General",
 			"vehicleType": "SHIP",
 			"size": "H",
 			"dimensions": [
@@ -10504,117 +6483,6 @@
 	],
 	"variant": [
 		{
-			"name": "Adamantine Ammunition (Cyranos)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "A"
-				}
-			],
-			"inherits": {
-				"page": "0",
-				"genericBonus": "+1",
-				"rarity": "none",
-				"source": "Cyranos",
-				"namePrefix": "Adamantine ",
-				"nameSuffix": " (Cyranos)",
-				"entries": [
-					"You have a +1 bonus to attack and damage rolls made with this ammunition, unless it is magic ammunition that already has a bonus to those rolls.",
-					"Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever an adamantine ammunition hits an object, the hit is a critical hit.",
-					"The adamantine version of twenty pieces of ammunition costs 750 gp more than the normal version and takes at least one workweek to make, whether the ammunition is made of the metal or coated with it. Adamantine ammunition can only be made at The Forge on Thalia."
-				],
-				"bonusWeapon": "+1"
-			}
-		},
-		{
-			"name": "Adamantine Armor (Cyranos)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "HA"
-				},
-				{
-					"type": "MA"
-				}
-			],
-			"inherits": {
-				"page": "0",
-				"genericBonus": "+1",
-				"rarity": "none",
-				"source": "Cyranos",
-				"namePrefix": "Adamantine ",
-				"nameSuffix": " (Cyranos)",
-				"entries": [
-					"You gain a +1 bonus to AC while you wear this armor, unless it is magic armor that already has a bonus to AC.",
-					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
-					"The adamantine version of a set of armor costs 750 gp more than the normal version and takes at least one workweek to make, whether the armor is made of the metal or coated with it. Adamantine armor can only be made at The Forge on Thalia."
-				],
-				"bonusAc": "+1"
-			}
-		},
-		{
-			"name": "Adamantine Weapon (Cyranos)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "M",
-					"dmgType": "P"
-				},
-				{
-					"type": "M",
-					"dmgType": "S"
-				},
-				{
-					"type": "M",
-					"dmgType": "B"
-				}
-			],
-			"inherits": {
-				"page": "0",
-				"genericBonus": "+1",
-				"rarity": "none",
-				"source": "Cyranos",
-				"namePrefix": "Adamantine ",
-				"nameSuffix": " (Cyranos)",
-				"entries": [
-					"You have a +1 bonus to attack and damage rolls made with this weapon, unless it is a magic weapon that already has a bonus to those rolls.",
-					"Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
-					"The adamantine version of a melee weapon costs 750 gp more than the normal version and takes at least one workweek to make, whether the weapon is made of the metal or coated with it. Adamantine weapons can only be made at The Forge on Thalia."
-				],
-				"bonusWeapon": "+1"
-			}
-		},
-		{
-			"name": "Underworld Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "M",
-					"dmgType": "P"
-				},
-				{
-					"type": "M",
-					"dmgType": "S"
-				}
-			],
-			"inherits": {
-				"page": "0",
-				"genericBonus": "+1",
-				"rarity": "rare",
-				"reqAttune": true,
-				"source": "Cyranos",
-				"charges": 3,
-				"recharge": "dawn",
-				"namePrefix": "Underworld ",
-				"entries": [
-					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-					"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
-					"When you use this weapon to kill a humanoid creature you can expend one charge to cast {@spell animate dead|phb} on that creature."
-				],
-				"bonusWeapon": "+1"
-			}
-		},
-		{
 			"name": "Rifled Firearm",
 			"type": "GV",
 			"requires": [
@@ -10658,7 +6526,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"curse": true,
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Soul Syphon ",
 				"entries": [
 					"Whenever you hit with a critical hit using this weapon, the bonus to this weapon's attack and damage rolls increases by 1 (to a maximum of +10).",
@@ -10694,7 +6562,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": true,
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of Insults",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10736,7 +6604,7 @@
 				"page": "0",
 				"rarity": "rare",
 				"reqAttune": true,
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of Elements",
 				"charges": 3,
 				"recharge": "dawn",
@@ -10758,7 +6626,7 @@
 				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Entrapping ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
@@ -10779,7 +6647,7 @@
 				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Enlarging ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
@@ -10800,7 +6668,7 @@
 				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Shrinking ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
@@ -10821,7 +6689,7 @@
 				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Shielding ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
@@ -10842,7 +6710,7 @@
 				"page": "0",
 				"genericBonus": "+1",
 				"rarity": "uncommon",
-				"source": "Jackalope",
+				"source": "J:General",
 				"namePrefix": "Smoking ",
 				"entries": [
 					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
@@ -10863,7 +6731,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a strength score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Enforcer",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10884,7 +6752,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a dexterity score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Dancer",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10908,7 +6776,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a constitution score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Survivor",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10932,7 +6800,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a intelligence score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Scholar",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10974,7 +6842,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a wisdom score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Prophet",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -10998,7 +6866,7 @@
 				"page": "0",
 				"rarity": "uncommon",
 				"reqAttune": "by a creature with a wisdom score of 13 or higher",
-				"source": "Jackalope",
+				"source": "J:General",
 				"nameSuffix": " of the Herald",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -11062,7 +6930,7 @@
 	"variantrule": [
 		{
 			"name": "Hindering Traits",
-			"source": "Jackalope",
+			"source": "J:General",
 			"ruleType": "O",
 			"entries":[
 				"Even the strongest heroes can have things that hold them back. These flaws have the opportunity make the character's story more interesting as they struggle to overcome challenges unique to them. The rules below are an optional way to encourage players to build flawed characters.",
@@ -11186,7 +7054,7 @@
 		},
 		{
 			"name": "Potions of Unknown Effect",
-			"source": "Jackalope",
+			"source": "J:General",
 			"ruleType": "O",
 			"entries":[
 				"Alchemy is a complex science and few mortals can be expected to truly understand everything there is to know. Fortunately, knowing things is not always required to do things. ",
@@ -11512,7 +7380,7 @@
 		},
 		{
 			"name": "Pocket Sand",
-			"source": "Jackalope",
+			"source": "J:General",
 			"ruleType": "O",
 			"entries": [
 				"Sometimes, you need to fight dirty. If your character has a free hand and quick access to a handful of sand or grit, such as with a {@item scholar's pack|phb} or being on sandy terrain, they can use it to gain a small advantage in combat.",
