@@ -1,0 +1,150 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Vermin",
+				"abbreviation": "J:Vermin",
+				"color": "e8dfc7",
+				"full": "Jackalope: General",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "subclass": [
+        {
+			"name": "Vermin",
+			"shortName": "Vermin",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"Vermin|Rogue|PHB|Vermin|J:Vermin|3",
+					"Beast Kin|Rogue|PHB|Vermin|J:Vermin|3",
+					"Vermin Friend|Rogue|PHB|Vermin|J:Vermin|3",
+					"Critter Horde|Rogue|PHB|Vermin|J:Vermin|9",
+					"Quick Extraction|Rogue|PHB|Vermin|J:Vermin|13",
+					"Greater Critter Horde|Rogue|PHB|Vermin|J:Vermin|17"
+			],
+			"subclassSpells": [
+				{
+					"name": "Animal Messenger",
+					"source": "PHB"
+				},
+				{
+					"name": "Speak with Animals",
+					"source": "PHB"
+				},
+				{
+					"name": "Find Familiar",
+					"source": "PHB"
+				},
+				{
+					"name": "Conjure Animals",
+					"source": "PHB"
+				}
+			]
+		}
+    ],
+    "subclassFeature": [
+        {
+			"name": "Vermin",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 3,
+			"entries": [
+				"The smaller beasts of of the world are often overlooked, or even despised, but not by you. You see the value in these creatures and thus have sought to befriend them. In return, they make resourceful allies."
+			]
+		},
+		{
+			"name": "Beast Kin",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain proficiency in the {@skill Animal Handling} skill if you don't already have it.",
+				"Additionally, you can cast the {@spell animal messenger|phb} and {@spell speak with animals|phb} spells as rituals."
+			]
+		},
+		{
+			"name": "Vermin Friend",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you can cast the {@spell find familiar} spell as a ritual and without proving material components. When you do so using this feature, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are within 300ft of them.",
+						"When the familiar takes damage while within 300ft of you, you can use your reaction to temporarily dismiss them to a pocket dimension without taking the damage. You can then use an action to make them reappear as described in the spell's description.",
+						"Your familiar's proficiency bonus is equal to yours. The familiar also gains the benefits of any feature, such as Expertise, that doubles your proficiency bonus.",
+						"Your familiar is proficient with {@item thieves' tools|phb} and {@item dagger|phb|daggers}, and can use them even if its form normally couldn't. At the DM's discretion, they may also use other tiny items such as keys, quills or vials of poison.",
+						"When you take the {@action Attack} action on your turn, you can forgo one of your own attacks to allow your familiar to use their reaction to make one attack of their own. This attack can benefit from your Sneak Attack feature if it uses a natural weapon (such as Bite or Talons), or a finesse or ranged weapon. All the other rules for Sneak Attack still apply."
+					]
+				}
+			]
+		},
+		{
+			"name": "Critter Horde",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, you can cast the {@spell conjure animals|phb} spell at 3rd-level without expending a spell slot. When you do so using this feature, you summon {@filter swarms of tiny beasts|bestiary|type=beast|tag=swarm|miscellaneous=} instead of beasts.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Quick Extraction",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, your vermin friend can touch a non-magical object, that weighs 10lbs or fewer, and use an action to teleport it instantly to your open hand. The object can not be one that is worn or carried by a creature other than the familiar, and it must be on the same plane of existence as you. The familiar can also teleport itself to a space within 5ft of you as part of the same action along with any items it is wearing or carrying."
+			]
+		},
+		{
+			"name": "Greater Critter Horde",
+			"source": "J:Vermin",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Vermin",
+			"subclassSource": "J:Vermin",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you cast {@spell conjure animals|phb} using your Critter Horde feature, you can cast it at 5th-level rather than 3rd-level."
+			]
+		}
+    ]
+}
