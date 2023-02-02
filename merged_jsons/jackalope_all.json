@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
     "_meta": {
         "sources": [
             {
@@ -163,6 +163,42 @@
                 "abbreviation": "J:Morrigan",
                 "color": "2f7024",
                 "full": "Jackalope: Children of Morrigan",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Shieldlock",
+                "abbreviation": "J:Shieldlock",
+                "color": "a1878d",
+                "full": "Jackalope: Pact of the Shield",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Gaian",
+                "abbreviation": "J:Gaian",
+                "color": "9e9e9e",
+                "full": "Jackalope: Gaian",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Wild",
+                "abbreviation": "J:Wild",
+                "color": "e8dfc7",
+                "full": "Jackalope: Wild Subclasses",
                 "authors": [
                     "Jackalope"
                 ],
@@ -5373,151 +5409,6 @@
             ]
         },
         {
-            "name": "Pact of the Shield",
-            "source": "J:General",
-            "featureType": [
-                "PB"
-            ],
-            "entries": [
-                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and it grants you a bonus to your AC equal to your proficiency bonus when you wield it, unless it is a magic shield that already grants you a higher bonus. You are proficient with the shield, and you cannot be disarmed of it against your will.",
-                "Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
-                "You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
-            ]
-        },
-        {
-            "name": "Improved Pact Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "You can use your pact shield as a spellcasting focus for your warlock spells.",
-                "Additionally, you can summon the shield to your empty hand as a reaction to being targeted by an attack. The AC bonus granted by the shield can be used against the triggering attack."
-            ]
-        },
-        {
-            "name": "Guardian Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "If a creature you can see within 30ft is targeted by an attack roll, and you are wielding your pact shield, you can use a reaction to teleport to a space adjacent to them and add the AC boost granted by the shield to the creature's AC until the start of your next turn. This effect ends early if the creature is ever more than 5 feet away from you."
-            ]
-        },
-        {
-            "name": "Oversized Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 5
-                }
-            ],
-            "entries": [
-                "As an action, you can grow your shield up to 10ft tall and wide and plant it in the ground. Any creatures behind the shield can use it for cover as if it were a solid wall. While in this form, you can not move the shield, and it is treated as an object with an AC equal to 14 + your proficiency bonus and a number of hit points equal to five times your proficiency bonus. The shield will remain in place for 1 minute or until it is reduced to 0 hit points, after which it disappears. It disappears early if you summon it back to your hand at its regular size or until it disappears by the normal rules of pact shields."
-            ]
-        },
-        {
-            "name": "Feather Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "When you fall while holding your pact shield, you descend 60 feet per round and take no damage from falling. You can allow other creatures, that are your size or smaller, to hold onto you and slow their own descent in the same manner."
-            ]
-        },
-        {
-            "name": "Immovable Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 5
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell Immovable Object|egw} spell on your pact shield using a warlock spell slot. You do not provide material components when you do so."
-            ]
-        },
-        {
-            "name": "Floating Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell Tenser's Floating Disk|phb} spell at will without expending a spell slot or providing material components. When you do so, your pact shield becomes the disk. The spell ends early if you summon the shield back to your hand."
-            ]
-        },
-        {
-            "name": "Offensive Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "Your pact shield becomes a melee weapon with the finesse, light and thrown properties with a normal range of 20 feet and a long range of 60 feet. You are proficient with attacks with the shield. The shield's damage die for attacks is a {@dice d6}, and the attacks deal bludgeoning damage. You also gain the following benefits.",
-                {
-                    "type": "list",
-                    "items": [
-                        "Attacks with the shield count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-                        "When you make a ranged attack using the shield, the shield returns to your hand immediately after the attack.",
-                        "If you make a critical hit with the shield, you may immediately make an additional attack with the shield."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Energy Shield",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 7
-                }
-            ],
-            "entries": [
-                "Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
-                "In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
-            ]
-        },
-        {
             "name": "Elemental Blast",
             "source": "J:General",
             "featureType": [
@@ -5589,6 +5480,510 @@
             ],
             "entries": [
                 "You can cast the {@spell find steed|phb} spell at will."
+            ]
+        },
+        {
+            "name": "Alternative Abilty Scores",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons may find their power in the gathering of knowledge rather than the strength of their personality. For example, a papyrus dragon's greatest strength is its vast knowledge. As such, its Intelligence and Charisma scores are swapped to better reflect its nature.",
+                "Swap the dragon's Intelligence, Wisdom or Charisma score for that of a different ability from the same list.  The DC for the dragon's traits (excluding spellcasting) do not change as a result of theis trait."
+            ]
+        },
+        {
+            "name": "Alternative Creature Type",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Sometimes, just because it looks and acts like a dragon, doesn't mean it it actually is one. For example, a tree dragon's soul is bound to a specific tree and it is made of awakened wood. As such, its creature type is plant rather than dragon.",
+                "Change the dragon's creature type to another of your choice."
+            ]
+        },
+        {
+            "name": "Bad Flier",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons are good fliers, the dragon may have damaged wings or be inexperienced with them. For example, a cave dragon may have never had the space to properly utilize its wings, leading them to atrophy.",
+                "Half the dragon's flying speed and add the follwoing trait to the dragon's statblock:",
+                "{@b {@i Bad Flier.}} The dragon falls at the end of each of its turns if the only thing holding it aloft is its fly speed."
+            ]
+        },
+        {
+            "name": "Burrower",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at digging through loose earth. For example, a desert dragon can burrow through sand dunes as easily as it can walk on top of them.",
+                "Add a burrowing speed to the dragon's statblock equal to the dragon's walking speed."
+            ]
+        },
+        {
+            "name": "Charming Presence",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Frightful Presence trait"
+                }
+            ],
+            "entries": [
+                "Some dragon may be more alluring than terrifying. For example, a siren dragon might sing to charm those around it.",
+                "Creatures who fail the saving throw against the dragon's Frightful Presence trait are {@condition charmed} rather than {@condition frightened}."
+            ]
+        },
+        {
+            "name": "Climber",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at scaling vertical surfaces. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+                "Add a climbing speed to the dragon's statblock equal to the dragon's walking speed."
+            ]
+        },
+        {
+            "name": "Construct Design",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "The dragon may have been constructed by magic or science, rather than born. Or perhaps it is composed primarily of inorganic matter. For example, a stone dragon is powered by magic rather than biology, and so is a contruct rather than a dragon.",
+                "Make the following changes to the dragon's statblock:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon's creature's type is contruct rather than dragon.",
+                        "The dragon is immune to poison and psychic damage.",
+                        "The dragon is immune to disease and the {@condition poisoned} condition.",
+                        "The dragon does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Diver",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at swimming. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+                "Add a swimming speed to the dragon's statblock equal to the dragon's walking speed. Also, add the following trait:",
+                "{@b {@i Amphibious.}} The dragon can breathe air and water."
+            ]
+        },
+        {
+            "name": "Draconic Mount",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "For a multitude of reasons, a dragon may serve as the mount of another creature. For example, a cavalry dragon has bonded with a knight and the pair are a formidable force on the battlefield.",
+                "Add the following reaction to the dragon's statblock:",
+                "{@b {@i Protect Rider.}} When an attack would target a creature mounted on the dragon, the dragon can use a reaction to force the attack to target it instead."
+            ]
+        },
+        {
+            "name": "Energy Conduit",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
+                "Add the following reaction to the dragon's statblock:",
+                "{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+            ]
+        },
+        {
+            "name": "Fey Ancestry",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons trace their origin to the material plane. For example, a fairy dragon may trace their origin, at least in part, to the feywild",
+                "Make the following changes to the dragon's statblock:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon's creature's type is fey rather than dragon.",
+                        "The dragon is immune to the {@condition charmed} condition.",
+                        "Magic cannot put the dragon to sleep."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grounded",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons can fly, either losing the ability to do so or never having it to begin with. For example, a gladiator dragon may have had its wings removed as a wyrmling to prevent it escaping the arena.",
+                "Remove the dragon's base flying speed."
+            ]
+        },
+        {
+            "name": "Hidecarved",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons carve magical runes on their scales to improve their resilience. For example, ",
+                "The dragon has one or more Hidecarved Wards, described in chapter 3 of Fizban's Treasury of Dragons."
+            ]
+        },
+        {
+            "name": "Immutable Form",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
+            ]
+        },
+        {
+            "name": "Iron Will",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons posses extrodinary willpower, or none at all. For example, a zombie dragon is no longer truly conscious and cannot be manipulated.",
+                "The dragon is immune to the {@condition charmed} and {@condition frightened} conditions."
+            ]
+        },
+        {
+            "name": "Minion Master",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Young or older"
+                }
+            ],
+            "entries": [
+                "Some dragons prefer to have underlings work for them. For example, many dragons may command {@creature kobolds|MM|kobold}, however, a forest dragon might command {@creature awakened tree|MM|awakened trees}, or a royal dragon might command dragonborn {@creature knight|MM|knights}.",
+                "Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
+                "{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
+                "Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
+            ]
+        },
+        {
+            "name": "Multiple Heads",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+            ]
+        },
+        {
+            "name": "Poison Fangs",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons can utilize poison to make their attacks more danagerous. For example, an underdark dragon may drink {@item drow poison|dmg}, and deliver the poison to the target of its next bite attack.",
+                "Add the following bonus action to the dragon's statblock:",
+                "{@b {@i Poison Fangs.}} The dragon can use a bonus action to coat its teeth with poison (as if they were a melee weapon). The next time the dragon hits a creature with its bite attack, that creature is subject to the effects of the poison."
+            ]
+        },
+        {
+            "name": "Quick Caster",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Legendary Actions",
+                    "spellcasting": true
+                }
+            ],
+            "entries": [
+                "A dragon may be able to perform magic quickly. For example, an iron dragon can use a legendary action to harden its hide by casting {@spell blade ward|phb} on itself.",
+                "Add the following legendary action to the dragon's statblock:",
+                "{@b {@i Quick Cast.}} The dragon casts a spell it knows that has a casting time of one action or one bonus action. The number of legendary actions expended is equal to the spell's level (1 for a cantrip)."
+            ]
+        },
+        {
+            "name": "Secondary Essence",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons possess affinity for multiple forms of destructive energy. For example, a thermal dragon has mastery of heat, both producing and removing it. Both fire and cold damage are associated with its Draconic Essence trait.",
+                "Choose a second damage type for the dragon's Draconic Essence trait. When the dragon uses its Dragon Breath or Destructive Maw trait, it choses which of the damage types to deal."
+            ]
+        },
+        {
+            "name": "Signature Spellcaster",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Young or older"
+                }
+            ],
+            "entries": [
+                "A dragon might be especially talented at particular spells. For example, a spider dragon can cast the {@spell web|phb} spell at will.",
+                "Choose up to 2 spells of 3rd-level or lower. The dragon can cast these spells at will, without providing material components. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons posses innate magical talents. For example, a black hole dragon may know spells such as {@spell magnify gravity|egw} and {@spell gravity sinkhole|egw}. Meanwhile, a divine dragon may know spells such as {@spell cure wounds|phb} and {@spell greater restoration|phb}.",
+                "Choose a number of cantrips and spells up to the dragon's proficiency bonus. The maximum level of each spell known depends on the dragon's age; cantrips only for wyrmlings, 3rd-level or lower for young dragons, 5th-level or lower for adults, 7th-lower or lower for ancients and 9th-level or lower for greatwyrms.",
+                "For each spell of 1st-level or higher, the dragon can cast it once per day. The dragon does not need to provide material components for cantrips or spells that it casts. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+            ]
+        },
+        {
+            "name": "Telepathy",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons have telepathic abilities. For example, a psionic dragon can communicate with the minds of those around it.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Telepathy.}} The dragon can speak telepathically with any other creature within 120ft."
+            ]
+        },
+        {
+            "name": "Unusual Size",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are noticably larger or smaller than expected for their age. For example, a giant dragon may be significantly larger than normal dragons.",
+                "Increase or decrease the dragon's size category by one."
+            ]
+        },
+        {
+            "name": "Pact Gunsmith",
+            "source": "J:Firearms",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Blade"
+                }
+            ],
+            "entries": [
+                "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Warlock Level",
+                        "Weapon Forms"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}, {@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
+                        ],
+                        [
+                            "5th",
+                            "{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
+                        ],
+                        [
+                            "7th",
+                            "{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
+                        ],
+                        [
+                            "9th",
+                            "{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
+                        ]
+                    ]
+                },
+                "Additionally, you can transform any magical firearm into your pact weapon."
+            ]
+        },
+        {
+            "name": "Pact of the Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "PB"
+            ],
+            "entries": [
+                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and it grants you a bonus to your AC equal to your proficiency bonus when you wield it, unless it is a magic shield that already grants you a higher bonus. You are proficient with the shield, and you cannot be disarmed of it against your will.",
+                "Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
+                "You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
+            ]
+        },
+        {
+            "name": "Improved Pact Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "You can use your pact shield as a spellcasting focus for your warlock spells.",
+                "Additionally, you can summon the shield to your empty hand as a reaction to being targeted by an attack. The AC bonus granted by the shield can be used against the triggering attack."
+            ]
+        },
+        {
+            "name": "Guardian Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "If a creature you can see within 30ft is targeted by an attack roll, and you are wielding your pact shield, you can use a reaction to teleport to a space adjacent to them and add the AC boost granted by the shield to the creature's AC until the start of your next turn. This effect ends early if the creature is ever more than 5 feet away from you."
+            ]
+        },
+        {
+            "name": "Oversized Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 5
+                }
+            ],
+            "entries": [
+                "As an action, you can grow your shield up to 10ft tall and wide and plant it in the ground. Any creatures behind the shield can use it for cover as if it were a solid wall. While in this form, you can not move the shield, and it is treated as an object with an AC equal to 14 + your proficiency bonus and a number of hit points equal to five times your proficiency bonus. The shield will remain in place for 1 minute or until it is reduced to 0 hit points, after which it disappears. It disappears early if you summon it back to your hand at its regular size or until it disappears by the normal rules of pact shields."
+            ]
+        },
+        {
+            "name": "Feather Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "When you fall while holding your pact shield, you descend 60 feet per round and take no damage from falling. You can allow other creatures, that are your size or smaller, to hold onto you and slow their own descent in the same manner."
+            ]
+        },
+        {
+            "name": "Immovable Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 5
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell Immovable Object|egw} spell on your pact shield using a warlock spell slot. You do not provide material components when you do so."
+            ]
+        },
+        {
+            "name": "Floating Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell Tenser's Floating Disk|phb} spell at will without expending a spell slot or providing material components. When you do so, your pact shield becomes the disk. The spell ends early if you summon the shield back to your hand."
+            ]
+        },
+        {
+            "name": "Offensive Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "Your pact shield becomes a melee weapon with the finesse, light and thrown properties with a normal range of 20 feet and a long range of 60 feet. You are proficient with attacks with the shield. The shield's damage die for attacks is a {@dice d6}, and the attacks deal bludgeoning damage. You also gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "Attacks with the shield count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                        "When you make a ranged attack using the shield, the shield returns to your hand immediately after the attack.",
+                        "If you make a critical hit with the shield, you may immediately make an additional attack with the shield."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Energy Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 7
+                }
+            ],
+            "entries": [
+                "Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
+                "In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
             ]
         }
     ],
@@ -5959,204 +6354,6 @@
                     "In Cyranos in Alvergia, they are often found in tribes led by a queen and are known to mingle with tribes of satyrs, centaurs and wood elves."
                 ]
             }
-        },
-        {
-            "name": "Gaian",
-            "source": "J:General",
-            "alias": [
-                "rock",
-                "mineral"
-            ],
-            "size": [
-                "S",
-                "M"
-            ],
-            "speed": 30,
-            "darkvision": 60,
-            "lineage": "VRGR",
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Size",
-                    "entries": [
-                        "You are Medium or Small. You choose the size when you select this race."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mineral Body",
-                    "entries": [
-                        "You do not need to breathe, eat or drink."
-                    ]
-                }
-            ],
-            "subraces": [
-                {
-                    "name": "Gem",
-                    "source": "J:General",
-                    "traitTags": [
-                        "Darkvision",
-                        "Damage Resistance",
-                        "Tool Proficiency"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": " Crystalline Flesh",
-                            "entries": [
-                                "You have resistance to psychic damage."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Diamond Mind",
-                            "entries": [
-                                "You have advantage on saving throws to avoid or remove the {@condition charmed|phb} and {@condition frightened|phb} conditions."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Jewelled Hide",
-                            "entries": [
-                                "As an action, you can grow a layer of resilient crystals over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to psychic damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} psychic damage.",
-                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Gaian Manifestation",
-                            "entries": [
-                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
-                                {
-                                    "type": "list",
-                                    "style": "list-hang-notitle",
-                                    "items": [
-                                        "{@b {@i Fingers of Quartz.}} When you make an unarmed strike, you can transform your fingers or hands into shards of crystal. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier psychic damage, instead of the bludgeoning damage normal for an unarmed strike. ",
-                                        "{@b {@i Heart of Ruby.}} You know the {@spell mind sliver|tce} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
-                                        "{@b {@i Jewel Affinity.}} You have proficiency with {@item jeweler's tools|phb} and advantage on checks made using them."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Ice",
-                    "source": "J:General",
-                    "traitTags": [
-                        "Darkvision",
-                        "Damage Resistance"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Frozen Flesh",
-                            "entries": [
-                                "You have resistance to cold damage."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Glacial Walker",
-                            "entries": [
-                                "Slippery ice and deep snow do not count as {@quickref difficult terrain||3} for you, and you automatically pass saving throws to avoid failing prone on slippery ice. In addition, you have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Arctic Hide",
-                            "entries": [
-                                "As an action, you can grow a layer of hardened ice over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to cold damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} cold damage.",
-                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Gaian Manifestation",
-                            "entries": [
-                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
-                                {
-                                    "type": "list",
-                                    "style": "list-hang-notitle",
-                                    "items": [
-                                        "{@b {@i Fingers of Frost.}} When you make an unarmed strike, you can transform your fingers or hands into icicles. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier cold damage, instead of the bludgeoning damage normal for an unarmed strike. ",
-                                        "{@b {@i Heart of Ice.}} You know the {@spell frostbite|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
-                                        "{@b {@i Ice Skater.}} By briefly freezing the ground at your feet, you can stand on and move across any liquid surface as if it were solid ground."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Magma",
-                    "source": "J:General",
-                    "traitTags": [
-                        "Darkvision",
-                        "Damage Resistance"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Scorched Flesh",
-                            "entries": [
-                                "You have resistance to fire damage."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Mantle Swimmer",
-                            "entries": [
-                                "Lava and magma pose no threat to you. You take no damage from it, and have a swim speed equal to your walking speed while submerged in it. In addition, while you are completely submerged in lava or magma, you are effectively {@condition invisible|phb}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Geothermal Hide",
-                            "entries": [
-                                "As an action, you can grow a layer of magma over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to fire damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} fire damage.",
-                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Gaian Manifestation",
-                            "entries": [
-                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
-                                {
-                                    "type": "list",
-                                    "style": "list-hang-notitle",
-                                    "items": [
-                                        "{@b {@i Fingers of Flame.}} When you make an unarmed strike, you can transform your fingers or hands into tendrils of lava and flame. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier fire damage, instead of the bludgeoning damage normal for an unarmed strike. ",
-                                        "{@b {@i Heart of Fire.}} You know the {@spell produce flame|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
-                                        "{@b {@i Burning Blood.}} At the end of a long rest, you can produce a number of flasks of {@item alchemist's fire (flask)|phb|alchemist's fire} equal to your proficiency bonus. These flasks last until they are used or until the end of your next long rest."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Gaians are beings awakened from the natural minerals of the world itself. Despite being composed of typically nonliving matter, these people are very much conscious, living beings in their own right.",
-                    "Gaians are usually awakened fully mature and alone with no families of their own, save the bonds they make with other creatures. They tend to be more malleable within the first few weeks, able to subtly alter their form and learn rapidly. As such, they usually adopt the forms, languages and cultures of those they interact with shortly after being awakened. No one is quite sure how they are awakened, though many suspect the whims of gods or nature spirits are often involved.",
-                    "No lifespan limit is known for gaians and they show no physical signs of aging. However they can still be wearied by time and those who do not fall to injury or disease will sometimes willingly return their source when they feel their time is up."
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "any": 1,
-                    "common": true
-                }
-            ]
         },
         {
             "name": "Kobold",
@@ -7437,6 +7634,204 @@
             "fluff": {
                 "entries": [
                     "Deep under the mighty volcano of Thalia generations of cyclopes have laboured for thousands of years, producing some of the greatest weapons in the known world, including the thunderbolts of Zeus."
+                ]
+            },
+            "languageProficiencies": [
+                {
+                    "any": 1,
+                    "common": true
+                }
+            ]
+        },
+        {
+            "name": "Gaian",
+            "source": "J:Gaian",
+            "alias": [
+                "rock",
+                "mineral"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "lineage": "VRGR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Medium or Small. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mineral Body",
+                    "entries": [
+                        "You do not need to breathe, eat or drink."
+                    ]
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Gem",
+                    "source": "J:Gaian",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance",
+                        "Tool Proficiency"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": " Crystalline Flesh",
+                            "entries": [
+                                "You have resistance to psychic damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Diamond Mind",
+                            "entries": [
+                                "You have advantage on saving throws to avoid or remove the {@condition charmed|phb} and {@condition frightened|phb} conditions."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Jewelled Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of resilient crystals over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to psychic damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} psychic damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Quartz.}} When you make an unarmed strike, you can transform your fingers or hands into shards of crystal. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier psychic damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Ruby.}} You know the {@spell mind sliver|tce} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Jewel Affinity.}} You have proficiency with {@item jeweler's tools|phb} and advantage on checks made using them."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Ice",
+                    "source": "J:Gaian",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Frozen Flesh",
+                            "entries": [
+                                "You have resistance to cold damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Glacial Walker",
+                            "entries": [
+                                "Slippery ice and deep snow do not count as {@quickref difficult terrain||3} for you, and you automatically pass saving throws to avoid failing prone on slippery ice. In addition, you have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Arctic Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of hardened ice over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to cold damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} cold damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Frost.}} When you make an unarmed strike, you can transform your fingers or hands into icicles. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier cold damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Ice.}} You know the {@spell frostbite|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Ice Skater.}} By briefly freezing the ground at your feet, you can stand on and move across any liquid surface as if it were solid ground."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Magma",
+                    "source": "J:Gaian",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Scorched Flesh",
+                            "entries": [
+                                "You have resistance to fire damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Mantle Swimmer",
+                            "entries": [
+                                "Lava and magma pose no threat to you. You take no damage from it, and have a swim speed equal to your walking speed while submerged in it. In addition, while you are completely submerged in lava or magma, you are effectively {@condition invisible|phb}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Geothermal Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of magma over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to fire damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} fire damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Flame.}} When you make an unarmed strike, you can transform your fingers or hands into tendrils of lava and flame. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier fire damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Fire.}} You know the {@spell produce flame|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Burning Blood.}} At the end of a long rest, you can produce a number of flasks of {@item alchemist's fire (flask)|phb|alchemist's fire} equal to your proficiency bonus. These flasks last until they are used or until the end of your next long rest."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Gaians are beings awakened from the natural minerals of the world itself. Despite being composed of typically nonliving matter, these people are very much conscious, living beings in their own right.",
+                    "Gaians are usually awakened fully mature and alone with no families of their own, save the bonds they make with other creatures. They tend to be more malleable within the first few weeks, able to subtly alter their form and learn rapidly. As such, they usually adopt the forms, languages and cultures of those they interact with shortly after being awakened. No one is quite sure how they are awakened, though many suspect the whims of gods or nature spirits are often involved.",
+                    "No lifespan limit is known for gaians and they show no physical signs of aging. However they can still be wearied by time and those who do not fall to injury or disease will sometimes willingly return their source when they feel their time is up."
                 ]
             },
             "languageProficiencies": [
@@ -9087,65 +9482,6 @@
             ]
         },
         {
-            "name": "Experimenter",
-            "shortName": "Experimenter",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassFeatures": [
-                "Experimenter|Artificer|TCE|Experimenter|Jackalope|3",
-                "Experimenter Spells|Artificer|TCE|Experimenter|Jackalope|3",
-                "Additional Infusion|Artificer|TCE|Experimenter|Jackalope|3",
-                "Experimental Artifice|Artificer|TCE|Experimenter|Jackalope|3",
-                "Radiation Burst|Artificer|TCE|Experimenter|Jackalope|5",
-                "Marginal Control|Artificer|TCE|Experimenter|Jackalope|9",
-                "Unbalanced Inspiration|Artificer|TCE|Experimenter|Jackalope|9",
-                "Dubious Reserves|Artificer|TCE|Experimenter|Jackalope|15"
-            ],
-            "subclassSpells": [
-                {
-                    "name": "Chaos Bolt",
-                    "source": "XGE"
-                },
-                {
-                    "name": "Jim's Magic Missile",
-                    "source": "AI"
-                },
-                {
-                    "name": "Nathair's Mischief",
-                    "source": "FTD"
-                },
-                {
-                    "name": "Pyrotechnics",
-                    "source": "XGE"
-                },
-                {
-                    "name": "Blink",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Hypnotic Pattern",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Confusion",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Polymorph",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Animate Objects",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Destructive Wave",
-                    "source": "PHB"
-                }
-            ]
-        },
-        {
             "name": "Vermin",
             "shortName": "Vermin",
             "source": "J:General",
@@ -9592,6 +9928,65 @@
                 {
                     "name": "Temporal Shunt",
                     "source": "EGW"
+                }
+            ]
+        },
+        {
+            "name": "Experimenter",
+            "shortName": "Experimenter",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassFeatures": [
+                "Experimenter|Artificer|TCE|Experimenter|J:Wild|3",
+                "Experimenter Spells|Artificer|TCE|Experimenter|J:Wild|3",
+                "Additional Infusion|Artificer|TCE|Experimenter|J:Wild|3",
+                "Experimental Artifice|Artificer|TCE|Experimenter|J:Wild|3",
+                "Radiation Burst|Artificer|TCE|Experimenter|J:Wild|5",
+                "Marginal Control|Artificer|TCE|Experimenter|J:Wild|9",
+                "Unbalanced Inspiration|Artificer|TCE|Experimenter|J:Wild|9",
+                "Dubious Reserves|Artificer|TCE|Experimenter|J:Wild|15"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "Chaos Bolt",
+                    "source": "XGE"
+                },
+                {
+                    "name": "Jim's Magic Missile",
+                    "source": "AI"
+                },
+                {
+                    "name": "Nathair's Mischief",
+                    "source": "FTD"
+                },
+                {
+                    "name": "Pyrotechnics",
+                    "source": "XGE"
+                },
+                {
+                    "name": "Blink",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Hypnotic Pattern",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Confusion",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Polymorph",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Animate Objects",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Destructive Wave",
+                    "source": "PHB"
                 }
             ]
         },
@@ -10437,249 +10832,6 @@
             "header": 2,
             "entries": [
                 "Starting at 17th level, when you roll for damage or healing on a spell cast using your Spell Storing Snacks feature, you can instead choose to deal maximum damage or healing, instead of rolling. Once you use this feature, you cannot do so again until you finish a long rest."
-            ]
-        },
-        {
-            "name": "Experimenter",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 3,
-            "entries": [
-                "Experimentation is a critical part of arcane research, most prefer to take a more cautious approach, rarely venturing beyond their own capabilities. You however prefer to push as far as you can go just to see what happens. This means the artifice you produce can be very powerful but is chaotic and difficult to control, even you don't fully understand it."
-            ]
-        },
-        {
-            "name": "Experimenter Spells",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 3,
-            "header": 2,
-            "entries": [
-                "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Experimenter Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
-                {
-                    "type": "table",
-                    "caption": "Experimenter Spells",
-                    "colLabels": [
-                        "Artificer Level",
-                        "Spell"
-                    ],
-                    "colStyles": [
-                        "col-3 text-center",
-                        "col-9"
-                    ],
-                    "rows": [
-                        [
-                            "3rd Level",
-                            "{@spell chaos bolt|xge}, {@spell jim's magic missile |ai}"
-                        ],
-                        [
-                            "5th Level",
-                            "{@spell nathair's mischief|ftd}, {@spell pyrotechnics|xge}"
-                        ],
-                        [
-                            "9th Level",
-                            "{@spell blink|phb}, {@spell hypnotic pattern|phb}"
-                        ],
-                        [
-                            "13th Level",
-                            "{@spell confusion|phb}, {@spell polymorph|phb}"
-                        ],
-                        [
-                            "17th Level",
-                            "{@spell animate objects|phb}, {@spell destructive wave|phb}"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Additional Infusion",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 3,
-            "header": 2,
-            "entries": [
-                "Starting at 3rd level, you can infuse one additional item at a time."
-            ]
-        },
-        {
-            "name": "Experimental Artifice",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 3,
-            "header": 2,
-            "entries": [
-                "Starting at 3rd level, whenever you expend an artificer spell slot, the DM may have you roll a d20. If you roll a 1, you trigger a chaos effect and must roll on the chaos effects table below. When you trigger a chaos effect, you cannot do so again until the current one ends.",
-                "If a chaos effect is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
-                {
-                    "type": "table",
-                    "caption": "Chaos Effects",
-                    "colLabels": [
-                        "1d20",
-                        "Chaos Effect"
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "Each of your infused items becomes non-magical and loses any benefits granted by the infusion. This lasts 1 minute, after which the items regain the benefits of the infusion."
-                        ],
-                        [
-                            "2",
-                            "Each of your infused items lets out a horrifying scream. Any creatures within 5ft of an infused item must make a Wisdom saving throw against your artificer spell save DC or be {@condition frightened} of the item until the end of your next turn."
-                        ],
-                        [
-                            "3",
-                            "Each of your infused items lets out a toxic vapor. Any creatures within 5ft of an infused item must make a Constitution saving throw against your artificer spell save DC or be {@condition poisoned} until the end of your next turn."
-                        ],
-                        [
-                            "4",
-                            "Each creature that is wearing or carrying at least one of your infused items is instantly transported 30ft in a random direction, including up or down. If they arrive in a space already occupied by an object or a creature, they take {@dice 2d6} force damage and are transported back to their original space."
-                        ],
-                        [
-                            "5",
-                            "Each of your infused items emits a harmless but foul smelling smoke or fluid of a random color for 1 minute. Each creature that is wearing or carrying at least one of your infused items has disadvantage on any ability check to interact socially for this duration."
-                        ],
-                        [
-                            "6",
-                            "Each of your infused items begin emitting dramatic music for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions have advantage on Charisma checks, but also have disadvantage on Dexterity (Stealth) checks."
-                        ],
-                        [
-                            "7",
-                            "Each of your infused items begin to produce a dense fog in the surrounding area for 1 minute. For the duration, the area in a 10-foot radius sphere centered on the item is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) can disperse the fog until the end of your next turn, after which the area becomes obscured again."
-                        ],
-                        [
-                            "8",
-                            "Each of your infused items deposits burning coals next to it as casts the {@spell create bonfire|xge} cantrip in a random space adjacent to it. This casting uses your character level and artificer spell save DC."
-                        ],
-                        [
-                            "9",
-                            "Each of your infused items begin producing colorful bubbles for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions rise vertically 5 feet on each of their turns, as if under the effect of the {@spell levitate|phb} spell."
-                        ],
-                        [
-                            "10",
-                            "Each creature that is wearing or carrying at least one of your infused items must roll a {@dice d2}. On a 1, they shrink for 1 minute, as if affected by the Reduce effect of the {@spell enlarge/reduce|phb} spell. On a 2, they grow for 1 minute, as if affected by the Enlarge effect of the same spell."
-                        ],
-                        [
-                            "11",
-                            "Each creature that is wearing or carrying at least one of your infused items grows an additional eye that grants them blindsight out to 15ft for 1 minute."
-                        ],
-                        [
-                            "12",
-                            "Each creature that is wearing or carrying at least one of your infused items becomes {@condition invisible} for 1 minute, or until they make an attack or cast a spell."
-                        ],
-                        [
-                            "13",
-                            "Each creature that is wearing or carrying at least one of your infused items can immediately use their reaction to move up to their full movement without provoking opportunity attacks."
-                        ],
-                        [
-                            "14",
-                            "Each creature that is wearing or carrying at least one of your infused items is gains {@dice 1d8} temporary hit points for each item they wear or carry as the items start humming a calming melody."
-                        ],
-                        [
-                            "15",
-                            "Each creature that is wearing or carrying at least one of your infused items is joined by a random {@filter tiny beast of CR 0|bestiary|Challenge Rating=[&0]|type=beast|miscellaneous=!swarm|size=t}, such as a {@creature cat|mm} or {@creature hare|IDRotF}. The creature and the beast are both {@condition charmed} by each other. The beast obeys the creature's commands and acts on their turn. This lasts for one hour, until the beast dies or if it's ever more than 30ft away from the creature, after which the beast disappears into mist."
-                        ],
-                        [
-                            "16",
-                            "If a creature uses one of your infused items to make a weapon attack in the next minute, they can roll one additional damage die when determining the damage of the attack as the weapon grows an extra blade, head or round."
-                        ],
-                        [
-                            "17",
-                            "If a creature uses one of your infused items as a spellcasting focus to cast a spell in the next minute, they gain a bonus to one of the spell's damage or healing rolls equal to {@dice 1d8}."
-                        ],
-                        [
-                            "18",
-                            "If a creature uses one of your infused items as armor, or a shield, and is hit by an attack in the next minute, the attacker takes {@dice 1d6} force damage as the item counterattacks."
-                        ],
-                        [
-                            "19",
-                            "Once on each of your turns for the next minute, you can choose one of your infused items to shoot a spark of lightning at a creature of your choice within 15ft of it (no action required). The creature must make a Dexterity saving throw against your artificer spell save DC or take {@dice 2d6} lightning damage."
-                        ],
-                        [
-                            "20",
-                            "Each creature that is wearing or carrying at least one of your infused items regains an expended spell slot of 3rd-level or lower (the creature's choice)."
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Radiation Burst",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 5,
-            "header": 2,
-            "entries": [
-                "Starting at 5th level, you can use an action can broadcast a wave of energy that may help or hinder those nearby. Roll a number of d8s equal to your proficiency bonus, the effect is determined by whether you rolled an even or an odd total on the dice:",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        "{@bold Soothing (Even).} Any creatures within 15ft of you gain temporary hit points equal to the result of the roll. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect.",
-                        "{@bold Withering (Odd).} Any creatures within 15ft of you must make a Constitution saving throw against your artificer spell save DC. Each creature takes force damage equal to the result of the roll on a failed save, or half as much damage on a successful one. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect."
-                    ]
-                },
-                "Once you use this feature, you cannot do so again until you finish a short or long rest."
-            ]
-        },
-        {
-            "name": "Marginal Control",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 9,
-            "header": 2,
-            "entries": [
-                "Starting at 9th level, whenever you roll a d20 for your Experimental Artifice feature, you may roll 2 d20s and choose which result to use."
-            ]
-        },
-        {
-            "name": "Unbalanced Inspiration",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 9,
-            "header": 2,
-            "entries": [
-                "Starting at 9th level, when you roll for an ability check or attack roll, you can utilise your chaotic artifice to gain advantage on the roll. Until the start of your next turn, you have disadvantage on all saving throws.",
-                "You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
-            ]
-        },
-        {
-            "name": "Dubious Reserves",
-            "source": "J:General",
-            "className": "Artificer",
-            "classSource": "TCE",
-            "subclassShortName": "Experimenter",
-            "subclassSource": "Jackalope",
-            "level": 15,
-            "header": 2,
-            "entries": [
-                "Starting at 15th, you can use an action to touch a magical item that has expended charges, and have it instantly regain {@dice 1d6-1} charges. To use this feature, the item must be capable of regaining charges daily.",
-                "Once you use this feature, you can't do so again until you finish a long rest or until you expend an artificer spell slot of 3rd level or higher. Expending a spell slot in this way automatically triggers a chaos effect as described in your Experimental Artifice feature."
             ]
         },
         {
@@ -12421,6 +12573,249 @@
             "header": 2,
             "entries": [
                 "Starting at 14th level, you no longer age unless you choose to, and you can't be aged magically. Additionally, you no longer need to breathe, eat, drink or sleep."
+            ]
+        },
+        {
+            "name": "Experimenter",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 3,
+            "entries": [
+                "Experimentation is a critical part of arcane research, most prefer to take a more cautious approach, rarely venturing beyond their own capabilities. You however prefer to push as far as you can go just to see what happens. This means the artifice you produce can be very powerful but is chaotic and difficult to control, even you don't fully understand it."
+            ]
+        },
+        {
+            "name": "Experimenter Spells",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Experimenter Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+                {
+                    "type": "table",
+                    "caption": "Experimenter Spells",
+                    "colLabels": [
+                        "Artificer Level",
+                        "Spell"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd Level",
+                            "{@spell chaos bolt|xge}, {@spell jim's magic missile |ai}"
+                        ],
+                        [
+                            "5th Level",
+                            "{@spell nathair's mischief|ftd}, {@spell pyrotechnics|xge}"
+                        ],
+                        [
+                            "9th Level",
+                            "{@spell blink|phb}, {@spell hypnotic pattern|phb}"
+                        ],
+                        [
+                            "13th Level",
+                            "{@spell confusion|phb}, {@spell polymorph|phb}"
+                        ],
+                        [
+                            "17th Level",
+                            "{@spell animate objects|phb}, {@spell destructive wave|phb}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Additional Infusion",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you can infuse one additional item at a time."
+            ]
+        },
+        {
+            "name": "Experimental Artifice",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, whenever you expend an artificer spell slot, the DM may have you roll a d20. If you roll a 1, you trigger a chaos effect and must roll on the chaos effects table below. When you trigger a chaos effect, you cannot do so again until the current one ends.",
+                "If a chaos effect is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
+                {
+                    "type": "table",
+                    "caption": "Chaos Effects",
+                    "colLabels": [
+                        "1d20",
+                        "Chaos Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Each of your infused items becomes non-magical and loses any benefits granted by the infusion. This lasts 1 minute, after which the items regain the benefits of the infusion."
+                        ],
+                        [
+                            "2",
+                            "Each of your infused items lets out a horrifying scream. Any creatures within 5ft of an infused item must make a Wisdom saving throw against your artificer spell save DC or be {@condition frightened} of the item until the end of your next turn."
+                        ],
+                        [
+                            "3",
+                            "Each of your infused items lets out a toxic vapor. Any creatures within 5ft of an infused item must make a Constitution saving throw against your artificer spell save DC or be {@condition poisoned} until the end of your next turn."
+                        ],
+                        [
+                            "4",
+                            "Each creature that is wearing or carrying at least one of your infused items is instantly transported 30ft in a random direction, including up or down. If they arrive in a space already occupied by an object or a creature, they take {@dice 2d6} force damage and are transported back to their original space."
+                        ],
+                        [
+                            "5",
+                            "Each of your infused items emits a harmless but foul smelling smoke or fluid of a random color for 1 minute. Each creature that is wearing or carrying at least one of your infused items has disadvantage on any ability check to interact socially for this duration."
+                        ],
+                        [
+                            "6",
+                            "Each of your infused items begin emitting dramatic music for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions have advantage on Charisma checks, but also have disadvantage on Dexterity (Stealth) checks."
+                        ],
+                        [
+                            "7",
+                            "Each of your infused items begin to produce a dense fog in the surrounding area for 1 minute. For the duration, the area in a 10-foot radius sphere centered on the item is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) can disperse the fog until the end of your next turn, after which the area becomes obscured again."
+                        ],
+                        [
+                            "8",
+                            "Each of your infused items deposits burning coals next to it as casts the {@spell create bonfire|xge} cantrip in a random space adjacent to it. This casting uses your character level and artificer spell save DC."
+                        ],
+                        [
+                            "9",
+                            "Each of your infused items begin producing colorful bubbles for 10 minutes. For the duration, any creatures that are wearing or carrying at least one of your infusions rise vertically 5 feet on each of their turns, as if under the effect of the {@spell levitate|phb} spell."
+                        ],
+                        [
+                            "10",
+                            "Each creature that is wearing or carrying at least one of your infused items must roll a {@dice d2}. On a 1, they shrink for 1 minute, as if affected by the Reduce effect of the {@spell enlarge/reduce|phb} spell. On a 2, they grow for 1 minute, as if affected by the Enlarge effect of the same spell."
+                        ],
+                        [
+                            "11",
+                            "Each creature that is wearing or carrying at least one of your infused items grows an additional eye that grants them blindsight out to 15ft for 1 minute."
+                        ],
+                        [
+                            "12",
+                            "Each creature that is wearing or carrying at least one of your infused items becomes {@condition invisible} for 1 minute, or until they make an attack or cast a spell."
+                        ],
+                        [
+                            "13",
+                            "Each creature that is wearing or carrying at least one of your infused items can immediately use their reaction to move up to their full movement without provoking opportunity attacks."
+                        ],
+                        [
+                            "14",
+                            "Each creature that is wearing or carrying at least one of your infused items is gains {@dice 1d8} temporary hit points for each item they wear or carry as the items start humming a calming melody."
+                        ],
+                        [
+                            "15",
+                            "Each creature that is wearing or carrying at least one of your infused items is joined by a random {@filter tiny beast of CR 0|bestiary|Challenge Rating=[&0]|type=beast|miscellaneous=!swarm|size=t}, such as a {@creature cat|mm} or {@creature hare|IDRotF}. The creature and the beast are both {@condition charmed} by each other. The beast obeys the creature's commands and acts on their turn. This lasts for one hour, until the beast dies or if it's ever more than 30ft away from the creature, after which the beast disappears into mist."
+                        ],
+                        [
+                            "16",
+                            "If a creature uses one of your infused items to make a weapon attack in the next minute, they can roll one additional damage die when determining the damage of the attack as the weapon grows an extra blade, head or round."
+                        ],
+                        [
+                            "17",
+                            "If a creature uses one of your infused items as a spellcasting focus to cast a spell in the next minute, they gain a bonus to one of the spell's damage or healing rolls equal to {@dice 1d8}."
+                        ],
+                        [
+                            "18",
+                            "If a creature uses one of your infused items as armor, or a shield, and is hit by an attack in the next minute, the attacker takes {@dice 1d6} force damage as the item counterattacks."
+                        ],
+                        [
+                            "19",
+                            "Once on each of your turns for the next minute, you can choose one of your infused items to shoot a spark of lightning at a creature of your choice within 15ft of it (no action required). The creature must make a Dexterity saving throw against your artificer spell save DC or take {@dice 2d6} lightning damage."
+                        ],
+                        [
+                            "20",
+                            "Each creature that is wearing or carrying at least one of your infused items regains an expended spell slot of 3rd-level or lower (the creature's choice)."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Radiation Burst",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 5,
+            "header": 2,
+            "entries": [
+                "Starting at 5th level, you can use an action can broadcast a wave of energy that may help or hinder those nearby. Roll a number of d8s equal to your proficiency bonus, the effect is determined by whether you rolled an even or an odd total on the dice:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        "{@bold Soothing (Even).} Any creatures within 15ft of you gain temporary hit points equal to the result of the roll. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect.",
+                        "{@bold Withering (Odd).} Any creatures within 15ft of you must make a Constitution saving throw against your artificer spell save DC. Each creature takes force damage equal to the result of the roll on a failed save, or half as much damage on a successful one. You may choose a number of creatures up to your proficiency bonus to be excluded from this effect."
+                    ]
+                },
+                "Once you use this feature, you cannot do so again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Marginal Control",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 9,
+            "header": 2,
+            "entries": [
+                "Starting at 9th level, whenever you roll a d20 for your Experimental Artifice feature, you may roll 2 d20s and choose which result to use."
+            ]
+        },
+        {
+            "name": "Unbalanced Inspiration",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 9,
+            "header": 2,
+            "entries": [
+                "Starting at 9th level, when you roll for an ability check or attack roll, you can utilise your chaotic artifice to gain advantage on the roll. Until the start of your next turn, you have disadvantage on all saving throws.",
+                "You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Dubious Reserves",
+            "source": "J:Wild",
+            "className": "Artificer",
+            "classSource": "TCE",
+            "subclassShortName": "Experimenter",
+            "subclassSource": "J:Wild",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "Starting at 15th, you can use an action to touch a magical item that has expended charges, and have it instantly regain {@dice 1d6-1} charges. To use this feature, the item must be capable of regaining charges daily.",
+                "Once you use this feature, you can't do so again until you finish a long rest or until you expend an artificer spell slot of 3rd level or higher. Expending a spell slot in this way automatically triggers a chaos effect as described in your Experimental Artifice feature."
             ]
         },
         {
@@ -17372,367 +17767,6 @@
             "level": 20,
             "entries": [
                 "At 20th level, your mind has ascended beyond your previous limitations. Your Intelligence and Wisdom scores increase by 4, to a maximum of 24."
-            ]
-        }
-    ],
-    "optionalfeature": [
-        {
-            "name": "Alternative Abilty Scores",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons may find their power in the gathering of knowledge rather than the strength of their personality. For example, a papyrus dragon's greatest strength is its vast knowledge. As such, its Intelligence and Charisma scores are swapped to better reflect its nature.",
-                "Swap the dragon's Intelligence, Wisdom or Charisma score for that of a different ability from the same list.  The DC for the dragon's traits (excluding spellcasting) do not change as a result of theis trait."
-            ]
-        },
-        {
-            "name": "Alternative Creature Type",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Sometimes, just because it looks and acts like a dragon, doesn't mean it it actually is one. For example, a tree dragon's soul is bound to a specific tree and it is made of awakened wood. As such, its creature type is plant rather than dragon.",
-                "Change the dragon's creature type to another of your choice."
-            ]
-        },
-        {
-            "name": "Bad Flier",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons are good fliers, the dragon may have damaged wings or be inexperienced with them. For example, a cave dragon may have never had the space to properly utilize its wings, leading them to atrophy.",
-                "Half the dragon's flying speed and add the follwoing trait to the dragon's statblock:",
-                "{@b {@i Bad Flier.}} The dragon falls at the end of each of its turns if the only thing holding it aloft is its fly speed."
-            ]
-        },
-        {
-            "name": "Burrower",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at digging through loose earth. For example, a desert dragon can burrow through sand dunes as easily as it can walk on top of them.",
-                "Add a burrowing speed to the dragon's statblock equal to the dragon's walking speed."
-            ]
-        },
-        {
-            "name": "Charming Presence",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Frightful Presence trait"
-                }
-            ],
-            "entries": [
-                "Some dragon may be more alluring than terrifying. For example, a siren dragon might sing to charm those around it.",
-                "Creatures who fail the saving throw against the dragon's Frightful Presence trait are {@condition charmed} rather than {@condition frightened}."
-            ]
-        },
-        {
-            "name": "Climber",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at scaling vertical surfaces. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
-                "Add a climbing speed to the dragon's statblock equal to the dragon's walking speed."
-            ]
-        },
-        {
-            "name": "Construct Design",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "The dragon may have been constructed by magic or science, rather than born. Or perhaps it is composed primarily of inorganic matter. For example, a stone dragon is powered by magic rather than biology, and so is a contruct rather than a dragon.",
-                "Make the following changes to the dragon's statblock:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon's creature's type is contruct rather than dragon.",
-                        "The dragon is immune to poison and psychic damage.",
-                        "The dragon is immune to disease and the {@condition poisoned} condition.",
-                        "The dragon does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Diver",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at swimming. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
-                "Add a swimming speed to the dragon's statblock equal to the dragon's walking speed. Also, add the following trait:",
-                "{@b {@i Amphibious.}} The dragon can breathe air and water."
-            ]
-        },
-        {
-            "name": "Draconic Mount",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "For a multitude of reasons, a dragon may serve as the mount of another creature. For example, a cavalry dragon has bonded with a knight and the pair are a formidable force on the battlefield.",
-                "Add the following reaction to the dragon's statblock:",
-                "{@b {@i Protect Rider.}} When an attack would target a creature mounted on the dragon, the dragon can use a reaction to force the attack to target it instead."
-            ]
-        },
-        {
-            "name": "Energy Conduit",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
-                "Add the following reaction to the dragon's statblock:",
-                "{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
-            ]
-        },
-        {
-            "name": "Fey Ancestry",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons trace their origin to the material plane. For example, a fairy dragon may trace their origin, at least in part, to the feywild",
-                "Make the following changes to the dragon's statblock:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon's creature's type is fey rather than dragon.",
-                        "The dragon is immune to the {@condition charmed} condition.",
-                        "Magic cannot put the dragon to sleep."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Grounded",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons can fly, either losing the ability to do so or never having it to begin with. For example, a gladiator dragon may have had its wings removed as a wyrmling to prevent it escaping the arena.",
-                "Remove the dragon's base flying speed."
-            ]
-        },
-        {
-            "name": "Hidecarved",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons carve magical runes on their scales to improve their resilience. For example, ",
-                "The dragon has one or more Hidecarved Wards, described in chapter 3 of Fizban's Treasury of Dragons."
-            ]
-        },
-        {
-            "name": "Immutable Form",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
-            ]
-        },
-        {
-            "name": "Iron Will",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons posses extrodinary willpower, or none at all. For example, a zombie dragon is no longer truly conscious and cannot be manipulated.",
-                "The dragon is immune to the {@condition charmed} and {@condition frightened} conditions."
-            ]
-        },
-        {
-            "name": "Minion Master",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Young or older"
-                }
-            ],
-            "entries": [
-                "Some dragons prefer to have underlings work for them. For example, many dragons may command {@creature kobolds|MM|kobold}, however, a forest dragon might command {@creature awakened tree|MM|awakened trees}, or a royal dragon might command dragonborn {@creature knight|MM|knights}.",
-                "Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
-                "{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
-                "Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
-            ]
-        },
-        {
-            "name": "Multiple Heads",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
-            ]
-        },
-        {
-            "name": "Poison Fangs",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons can utilize poison to make their attacks more danagerous. For example, an underdark dragon may drink {@item drow poison|dmg}, and deliver the poison to the target of its next bite attack.",
-                "Add the following bonus action to the dragon's statblock:",
-                "{@b {@i Poison Fangs.}} The dragon can use a bonus action to coat its teeth with poison (as if they were a melee weapon). The next time the dragon hits a creature with its bite attack, that creature is subject to the effects of the poison."
-            ]
-        },
-        {
-            "name": "Quick Caster",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Legendary Actions",
-                    "spellcasting": true
-                }
-            ],
-            "entries": [
-                "A dragon may be able to perform magic quickly. For example, an iron dragon can use a legendary action to harden its hide by casting {@spell blade ward|phb} on itself.",
-                "Add the following legendary action to the dragon's statblock:",
-                "{@b {@i Quick Cast.}} The dragon casts a spell it knows that has a casting time of one action or one bonus action. The number of legendary actions expended is equal to the spell's level (1 for a cantrip)."
-            ]
-        },
-        {
-            "name": "Secondary Essence",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons possess affinity for multiple forms of destructive energy. For example, a thermal dragon has mastery of heat, both producing and removing it. Both fire and cold damage are associated with its Draconic Essence trait.",
-                "Choose a second damage type for the dragon's Draconic Essence trait. When the dragon uses its Dragon Breath or Destructive Maw trait, it choses which of the damage types to deal."
-            ]
-        },
-        {
-            "name": "Signature Spellcaster",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Young or older"
-                }
-            ],
-            "entries": [
-                "A dragon might be especially talented at particular spells. For example, a spider dragon can cast the {@spell web|phb} spell at will.",
-                "Choose up to 2 spells of 3rd-level or lower. The dragon can cast these spells at will, without providing material components. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
-            ]
-        },
-        {
-            "name": "Spellcasting",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons posses innate magical talents. For example, a black hole dragon may know spells such as {@spell magnify gravity|egw} and {@spell gravity sinkhole|egw}. Meanwhile, a divine dragon may know spells such as {@spell cure wounds|phb} and {@spell greater restoration|phb}.",
-                "Choose a number of cantrips and spells up to the dragon's proficiency bonus. The maximum level of each spell known depends on the dragon's age; cantrips only for wyrmlings, 3rd-level or lower for young dragons, 5th-level or lower for adults, 7th-lower or lower for ancients and 9th-level or lower for greatwyrms.",
-                "For each spell of 1st-level or higher, the dragon can cast it once per day. The dragon does not need to provide material components for cantrips or spells that it casts. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
-            ]
-        },
-        {
-            "name": "Telepathy",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons have telepathic abilities. For example, a psionic dragon can communicate with the minds of those around it.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Telepathy.}} The dragon can speak telepathically with any other creature within 120ft."
-            ]
-        },
-        {
-            "name": "Unusual Size",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are noticably larger or smaller than expected for their age. For example, a giant dragon may be significantly larger than normal dragons.",
-                "Increase or decrease the dragon's size category by one."
-            ]
-        },
-        {
-            "name": "Pact Gunsmith",
-            "source": "J:Firearms",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Blade"
-                }
-            ],
-            "entries": [
-                "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
-                {
-                    "type": "table",
-                    "colLabels": [
-                        "Warlock Level",
-                        "Weapon Forms"
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "rows": [
-                        [
-                            "3rd",
-                            "{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}, {@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
-                        ],
-                        [
-                            "5th",
-                            "{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
-                        ],
-                        [
-                            "7th",
-                            "{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
-                        ],
-                        [
-                            "9th",
-                            "{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
-                        ]
-                    ]
-                },
-                "Additionally, you can transform any magical firearm into your pact weapon."
             ]
         }
     ],

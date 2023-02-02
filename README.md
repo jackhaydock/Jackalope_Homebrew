@@ -9,7 +9,9 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: Children of Morrigan/J:Morrigan**: Stuff for my celtic folklore themed setting, Children of Morrigan.
   - **Jackalope: Custom Dragons/J:Dragons**: Rules and examples for building custom dragons.
   - **Jackalope: Firearms/J:Firearms**: Firearms from matchlock to flintlock. Also includes accessories, mods, feats and invocations.
+  - **Jackalope: Gaian/J:Gaian**: Races spawned from typically unliving minerals, such as ice, magma and gems.
   - **Jackalope: Kobolds/J:Kobolds**: Extra kobold subraces, may get feats, item and statblocks later.
+  - **Jackalope: Pact of the Shield/J:Shieldlock**: Pact boon for warlock themed around defence and a summonable shield.
   - **Jackalope: Portalist Class/J:Portalist**: Portal themed half-caster class.
   - **Jackalope: Runestones/J:Runestones**: Transferable enchantments for magic items.
   - **Jackalope: Tattoos/J:Tattoos**: Magic tattoos.
@@ -17,6 +19,7 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: The Sea of Cyranos/J:Cyranos**: Stuff for my classic greek themed setting, The Sea of Cyranos.
   - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos (includes firearms).
   - **Jackalope: Wheelchair/J:Wheelchair**: Wheelchair and upgrades (inspired by Combat Wheelchair but simplified).
+  - **Jackalope: Wild Subclasses/J:Wild**: Wild magic and chaos themed subclasses for multiple classes.
 - Extra Collection (generally not allowed for actual play in my games unless stated otherwise)
   - **Jackalope: Partypack/J:Partypack**: Memes and character specific stuff.
 - Legacy Collection (generally not allowed for actual play in my games unless stated otherwise)
