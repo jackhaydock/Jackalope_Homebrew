@@ -1,0 +1,150 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Shieldlock",
+				"abbreviation": "J:Shieldlock",
+				"color": "a1878d",
+				"full": "Jackalope: Pact of the Shield",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "optionalfeature": [
+        {
+			"name": "Pact of the Shield",
+			"source": "J:Shieldlock",
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				"Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and it grants you a bonus to your AC equal to your proficiency bonus when you wield it, unless it is a magic shield that already grants you a higher bonus. You are proficient with the shield, and you cannot be disarmed of it against your will.",
+				"Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
+				"You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
+			]
+		},
+		{
+			"name": "Improved Pact Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield"
+				}
+			],
+			"entries": [
+					"You can use your pact shield as a spellcasting focus for your warlock spells.",
+					"Additionally, you can summon the shield to your empty hand as a reaction to being targeted by an attack. The AC bonus granted by the shield can be used against the triggering attack."
+			]
+		},
+		{
+			"name": "Guardian Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield"
+				}
+			],
+			"entries": [
+					"If a creature you can see within 30ft is targeted by an attack roll, and you are wielding your pact shield, you can use a reaction to teleport to a space adjacent to them and add the AC boost granted by the shield to the creature's AC until the start of your next turn. This effect ends early if the creature is ever more than 5 feet away from you."
+			]
+		},
+		{
+			"name": "Oversized Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield",
+					"level": 5
+				}
+			],
+			"entries": [
+					"As an action, you can grow your shield up to 10ft tall and wide and plant it in the ground. Any creatures behind the shield can use it for cover as if it were a solid wall. While in this form, you can not move the shield, and it is treated as an object with an AC equal to 14 + your proficiency bonus and a number of hit points equal to five times your proficiency bonus. The shield will remain in place for 1 minute or until it is reduced to 0 hit points, after which it disappears. It disappears early if you summon it back to your hand at its regular size or until it disappears by the normal rules of pact shields."
+			]
+		},
+		{
+			"name": "Feather Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield"
+				}
+			],
+			"entries": [
+					"When you fall while holding your pact shield, you descend 60 feet per round and take no damage from falling. You can allow other creatures, that are your size or smaller, to hold onto you and slow their own descent in the same manner."
+			]
+		},
+		{
+			"name": "Immovable Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield",
+					"level": 5
+				}
+			],
+			"entries": [
+					"You can cast the {@spell Immovable Object|egw} spell on your pact shield using a warlock spell slot. You do not provide material components when you do so."
+			]
+		},
+		{
+			"name": "Floating Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield"
+				}
+			],
+			"entries": [
+					"You can cast the {@spell Tenser's Floating Disk|phb} spell at will without expending a spell slot or providing material components. When you do so, your pact shield becomes the disk. The spell ends early if you summon the shield back to your hand."
+			]
+		},
+		{
+			"name": "Offensive Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield"
+				}
+			],
+			"entries": [
+					"Your pact shield becomes a melee weapon with the finesse, light and thrown properties with a normal range of 20 feet and a long range of 60 feet. You are proficient with attacks with the shield. The shield's damage die for attacks is a {@dice d6}, and the attacks deal bludgeoning damage. You also gain the following benefits.",
+					{
+						"type": "list",
+						"items": [
+							"Attacks with the shield count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+							"When you make a ranged attack using the shield, the shield returns to your hand immediately after the attack.",
+							"If you make a critical hit with the shield, you may immediately make an additional attack with the shield."
+						]
+					}
+			]
+		},
+		{
+			"name": "Energy Shield",
+			"source": "J:Shieldlock",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Pact of the Shield",
+					"level": 7
+				}
+			],
+			"entries": [
+					"Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
+					"In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
+			]
+		}
+    ]
+}
