@@ -1,0 +1,654 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "JPP",
+                "abbreviation": "J:Partypack",
+                "color": "9bff00",
+                "full": "Jackalope: Partypack",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "race": [
+        {
+            "name": "Mutated Lacertal (Beep)",
+            "source": "JPP",
+            "alias": [
+                "Bird",
+                "Dinosaur",
+                "Beep",
+                "Shifting Tides"
+            ],
+            "lineage": "VRGR",
+            "skillProficiencies": [
+                {
+                    "perception": true
+                }
+            ],
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": {
+                            "_": [
+                                {
+                                    "choose": "level=0|group=primal"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Winged Form",
+                    "entries": [
+                        "You have a flying speed equal to your movement speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Malformed Wings",
+                    "entries": [
+                        "You fall at the end of your turn if you are airborne and the only thing holding you aloft is your flying speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Divine Magic",
+                    "page": 8,
+                    "entries": [
+                        "Your exposure to the magic of Delamir has given you some innate spellcasting, connected to the elements. You know one cantrip from the {@filter Primal Spell list|spells|level=0|group=primal}. Whenever you finish a Long Rest, you can replace that spell with a different one from the Primal Spell list.",
+                        "Intelligence, Wisdom or Charisma is your spellcasting ability for any spell you cast with this trait (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "page": 8,
+                    "entries": [
+                        "You have Proficiency in the {@skill Perception} Skill."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tempestborn (Zintrin)",
+            "source": "JPP",
+            "alias": [
+                "Aasimar",
+                "Half-Elf",
+                "Zintrin",
+                "Shifting Tides"
+            ],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "resist": [
+                "lightning",
+                "thunder"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "light#c"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Tempestborn Resistance",
+                    "entries": [
+                        "You have resistance to lightning damage and thunder damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Healing Hands",
+                    "entries": [
+                        "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light Bearer",
+                    "entries": [
+                        "You know the {@spell light} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for this cantrip (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fulgur's Fury",
+                    "entries": [
+                        "When you reach 3rd level, you can use a bonus action to unleash the divine lightning within yourself, causing arcs of lightning to emenate from you. Your transformation lasts for 1 minute or until you end it as a bonus action.",
+                        "During your transformation, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes lightning damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra lightning damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+                        "Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
+        },
+        {
+            "name": "Otterfolk (Broddah)",
+            "source": "JPP",
+            "alias": [
+                "Otter",
+                "Broddah",
+                "The Sea of Cyranos"
+            ],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Aquatic Affinity",
+                    "entries": [
+                        "Adapting effortlessly to water, you can hold your breath for up to 10 minutes and have a swimming speed equal to your walking speed. In addition, you can see up to 30 feet in murky water as if it were clear."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Au Naturel",
+                    "entries": [
+                        "You are proficient in the {@skill nature} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Furious Claws",
+                    "entries": [
+                        "Your retractable claws are natural weapons, which you can use to make unarmed strikes. If you hit with such an attack, you inflict slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after dealing damage in this way you can make a second attack with them as a bonus action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Rolling Stone",
+                    "entries": [
+                        "You are proficient with vehicles."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shake It Off",
+                    "entries": [
+                        "When you make a saving throw to avoid the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned} or {@condition stunned} condition, you may use a reaction to give yourself advantage on the roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Water Diviner",
+                    "entries": [
+                        "You inherently know in which direction and how far away to find the nearest major bodies of water, even deep underground. Otterfolk can often be found in the greater world as hired dowsers"
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
+        }
+    ],
+    "item": [
+        {
+            "name": "Xerc's Tin Foil Hat",
+            "wondrous": true,
+            "rarity": "rare",
+            "source": "JPP",
+            "entries": [
+                "This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
+            ]
+        },
+        {
+            "name": "Xerc's Medicinal Cheese",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "source": "JPP",
+            "entries": [
+                "This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
+                "When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier."
+            ]
+        },
+        {
+            "name": "Xerc's Unicorn Totem",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "JPP",
+            "reqAttune": true,
+            "entries": [
+                "This carved pale wood totem resembles a unicorn's head. While attuned to this item, you know the {@spell gust|xge} and {@spell magic stone|xge} cantrips and Wisdom is your spellcasting modifier for them.",
+                "When you cast the gust cantrip, the air erupts from your mouth and smells distictly of cheese. Similarly, the stones you imbue with the magic stone cantrip smell of cheese for the duration of the spell."
+            ]
+        },
+        {
+            "name": "Xerc's WeeWoo Bardiche",
+            "rarity": "artifact",
+            "source": "JPP",
+            "type": "M",
+            "weight": 6,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "R",
+                "2H"
+            ],
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "weapon": true,
+            "bonusWeapon": "+1",
+            "reqAttune": true,
+            "entries": [
+                "Wielded by the mighty orc chieftain Xerc, this polearm appears as brutal as it is deadly. It also goes \"WeeWoo\" very loudly when danger is near",
+                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@quickref Surprise|PHB|3|0|surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+            ]
+        },
+        {
+            "name": "+1 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artifact",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock",
+                    "subclass": "fathomless"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+1",
+            "bonusSpellSaveDc": "+1",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon.",
+                "While holding this tooth, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+2 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artifact",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock",
+                    "subclass": "fathomless"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+2",
+            "bonusSpellSaveDc": "+2",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon. Since its discovery, it has been enhanced by Teximus of Thalia and also by a chaotic being from the realms of Madness.",
+                "While holding this tooth, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest.",
+                "Finally, when you cast a warlock spell using this tooth, you can roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook. If the result is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you roll a 99 or higher, you regain an expended warlock spell slot."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Maul",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 12,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "2H"
+            ],
+            "dmg1": "2d6",
+            "dmgType": "B",
+            "hammer": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand was found fused with stone in the volcano of Thalia. It's possible this was intended as a challenge for adventurers to free the hand from the stone. Unfotunately, the most recent adventurer to come across it, simply took the stone along with the hand.",
+                "This weapon uses the statistics of a {@item maul|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Btoothdah's Clockhand Longsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 4,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand was found in the volcano of Thalia.",
+                "This weapon uses the statistics of a {@item longsword|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Shortsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 3,
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This narrow bronze clockhand was once wielded by an {@creature fire elemental myrmidon|mpmm} in the volcano of Thalia. It was very proud it.",
+                "This weapon uses the statistics of a {@item shortsword|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Potion of MADNESS",
+            "type": "P",
+            "rarity": "rare",
+            "source": "JPP",
+            "entries": [
+                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
+            ]
+        },
+        {
+            "name": "MADNESS Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "JPP",
+            "entries": [
+                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
+                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin."
+            ]
+        },
+        {
+            "name": "Watermelon of Healing",
+            "type": "P",
+            "rarity": "legendary",
+            "source": "JPP",
+            "entries": [
+                "This watermelon was grown using an infusion of various elixirs, protecting it from decay and granting restorative properties when consumed. It weighs {@dice 3d6+12} pounds when found. Some variants are magically flavored to taste like all manor of foodstuffs.",
+                "You can use an action to eat a number of pounds of the watermelon and regain {@dice 1d4+1} hit points for each pound consumed. If you attempt to consume 4 pounds or more in a single action, you must succeed on a Constitution saving throw (DC 8 + pounds consumed), or fail to regain any hit points and become {@condition incapacitated} until the end of your next turn as you begin vomiting profusely.",
+                "Additionally, If you consume 15 pounds or more in a single turn without failing the saving throw, you have advantage on Charisma (Intimidation) checks against creatures that saw you consume the melon for the next minute."
+            ]
+        }
+    ],
+    "vehicle": [
+        {
+            "name": "Holo Holo",
+            "source": "JPP",
+            "vehicleType": "SHIP",
+            "size": "H",
+            "dimensions": [
+                "20 ft.",
+                "10 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 2,
+            "capPassenger": 4,
+            "capCargo": 0.5,
+            "pace": 4,
+            "str": 12,
+            "dex": 10,
+            "con": 11,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "hull": {
+                "ac": 12,
+                "hp": 100,
+                "dt": 10
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 12,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 2 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 20 damage taken ",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "action": [
+                "On its turn, the catamaran can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than two crew. It can't take these actions if it has no crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Move.",
+                            "entry": "The ship can use its helm to move with its oars or sails."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lesboat",
+            "source": "JPP",
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "25 ft.",
+                "10 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 4,
+            "capPassenger": 8,
+            "capCargo": 1,
+            "pace": 4,
+            "str": 16,
+            "dex": 8,
+            "con": 13,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 150,
+                "dt": 10
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 12,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 2 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 20 damage taken ",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 2,
+                "2": 4
+            },
+            "action": [
+                "On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Move.",
+                            "entry": "The ship can use its helm to move with its oars or sails."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
