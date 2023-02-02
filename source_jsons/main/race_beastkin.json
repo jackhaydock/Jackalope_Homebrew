@@ -1,0 +1,1043 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Beastkin",
+				"abbreviation": "J:Beastkin",
+				"color": "947262",
+				"full": "Jackalope: Beastkin",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "race": [
+		{
+			"name": "Fenri",
+			"source": "J:Beastkin",
+			"alias": [
+				"Anubis",
+				"Canine",
+				"Dog",
+				"Fox",
+				"Wolf"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Fenri typically mature around 8 years of age. Fenri rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Fenri tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Fenri come in many breeds and vary greatly in size, they typically stand between 3 and 7 feet tall and weigh between 50 and 240 lbs. Your size is small or medium (your choice)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canine Senses",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Furry Fiend",
+					"entries": [
+						"You have advantage on Charisma (Intimidation) checks against Tabaxi."
+					]
+				}
+			],
+			"subraces": [
+					{
+						"name": "Wardog",
+						"source": "J:Beastkin",
+						"traitTags": [
+							"Powerful Build",
+							"Skill Proficiency"
+						],
+						"ability": [
+							{
+								"str": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": " Menacing",
+								"entries": [
+									"You gain proficiency in the {@skill Intimidation} skill."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Brutal Maw",
+								"entries": [
+									"After taking the Attack action to make a melee attack, you can use a bonus action to make an unarmed attack with your teeth. On a hit, you deal piercing damage equal to {@dice 1d4} + your Strength modifier."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Powerful Build",
+								"entries": [
+									"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+								]
+							}
+						]
+					},
+					{
+						"name": "Chaser",
+						"source": "J:Beastkin",
+						"ability": [
+							{
+								"dex": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Hunter's Grip",
+								"entries": [
+									"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "All Fours.",
+								"entries": [
+									"You can take the {@action Dash} action as bonus action, when you do so, you run on all fours."
+								]
+							}
+						]
+					},
+					{
+						"name": "Deathhound",
+						"source": "J:Beastkin",
+						"darkvision": 60,
+						"ability": [
+							{
+								"con": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"Your connection to the afterlife grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "The Scales",
+								"entries": [
+									"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. Once you use this trait, you can't use it again until you finish a long rest."
+								]
+							}
+						]
+					},
+					{
+						"name": "Watchdog",
+						"source": "J:Beastkin",
+						"traitTags": [
+							"Spellcasting"
+						],
+						"darkvision": 60,
+						"ability": [
+							{
+								"wis": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Deductive Intuition",
+								"entries": [
+									"When you make an Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sniff 'Em Out",
+								"entries": [
+									"You can cast the {@spell detect evil and good|phb} and {@spell detect poison and disease|phb} spells with this trait without providinf material components. Starting at 3rd level, you can also cast the {@spell see invisibility|phb} spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest.",
+									" Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race)."
+								]
+							}
+						]
+					},
+					{
+						"name": "Vulpine",
+						"source": "J:Beastkin",
+						"darkvision": 60,
+						"ability": [
+							{
+								"dex": 2,
+								"cha": 1
+							}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Darkvision",
+								"entries": [
+									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Vulpine Slyness",
+								"entries": [
+									"When you make an Dexterity (Stealth) or a Charisma (Deception) check, you can roll a {@dice d4} and add the number rolled to the ability check."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Quick Reflexes",
+								"entries": [
+									"When targeted by an attack from a creature you can see, and you are not {@condition incapacitated}, you may use your reaction to give the attack roll disadvantage."
+								]
+							}
+						]
+					}
+				],
+			"fluff": {
+				"entries": [
+					"The fenri are a canine like people, usually less aggressive than their gnoll cousins, though not always. Fenri can make excellent companions, but only if they want to.",
+					"Just like dogs, fenri come in a wide variety of shapes, sizes and colours."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			]
+		},
+		{
+			"name": "Ratfolk",
+			"alias": [
+				"Rat",
+				"Mouse",
+				"Rodent"
+			],
+			"source": "J:Beastkin",
+			"size": ["S"],
+			"speed": 30,
+			"darkvision": 60,
+			"lineage": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Susceptibility",
+					"entries": [
+						"Your inability to vomit hinders your ability to handle poisons. You are vulnerable to poison damage and have disadvantage on saving throws to avoid or remove the poison condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Disease Resistance",
+					"entries": [
+						"You have advantage on saving throws to avoid or remove diseases."
+					]
+				}
+			],
+			"subraces": [
+				{
+					"name": "Giant Rat",
+					"source": "J:Beastkin",
+					"traitTags": [
+						"Skill Proficiency"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hulking Frame",
+							"entries": [
+								"You gain proficiency in the {@skill Athletics} and {@skill Intimidation} skills."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Savage Attacks",
+							"entries": [
+								"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+							]
+						}
+					]
+				},
+				{
+					"name": "Plague Rat",
+					"source": "J:Beastkin",
+					"traitTags": [
+						"Unarmed Strike"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Plague Bite",
+							"entries": [
+								"Once per turn, when you hit a creature with an unarmed strike you can force that creature to roll a DC12 Constitution saving throw or gain the {@condition poisoned} condition for 1 minute."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Plague",
+							"entries": [
+								"Whenever you finish a long rest, you must roll a {@dice d20} and consult the table below to determine the effect. The effect lasts until the end of your next long rest, or until it is removed by the {@spell lesser restoration|phb} or {@spell greater restoration|phb} spell.",
+								{
+									"type": "table",
+									"colLabels": [
+										"d20",
+										"Plague Effect"
+									],
+									"colStyles": [
+										"col-1 text-center",
+										"col-11"
+									],
+									"rows": [
+										[
+											"1",
+											"You have disadvantge on all ability checks, attack rolls and saving throws."
+										],
+										[
+											"2",
+											"You have disadvantge on all ability checks and saving throws."
+										],
+										[
+											"3",
+											"You have disadvantge on Strength checks and saving throws."
+										],
+										[
+											"4",
+											"You have disadvantge on Dexterity checks and saving throws."
+										],
+										[
+											"5",
+											"You have disadvantge on Constitution checks and saving throws."
+										],
+										[
+											"6",
+											"You have disadvantge on Intelligence checks and saving throws."
+										],
+										[
+											"7",
+											"You have disadvantge on Wisdom checks and saving throws."
+										],
+										[
+											"8",
+											"You have disadvantge on Charisma checks and saving throws."
+										],
+										[
+											"9-12",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 1d4} poison damage."
+										],
+										[
+											"13-16",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 2d4} poison damage."
+										],
+										[
+											"17-20",
+											"When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 3d4} poison damage."
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Lab Rat",
+					"source": "J:Beastkin",
+					"traitTags": [
+						"Magic Resistance",
+						"Tool Proficiency"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Rodent Cunning",
+							"entries": [
+								"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lab Training",
+							"entries": [
+								"You gain proficiency with one type of {@item artisan's tools|phb} of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Glyph Master",
+							"entries": [
+								"You can spend one minute to read or write up to 25 words in any written language."
+							]
+						}
+					]
+				},
+				{
+					"name": "Street Rat",
+					"source": "J:Beastkin",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Pack Tactics",
+							"entries": [
+								"You have advantage on attack rolls against a creature if at least one of your allies is within 5 feet of the creature, and the ally isn't {@condition incapacitated}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Street Smarts",
+							"entries": [
+								"You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when in areas of heavy construction such as towns and dungeons."
+							]
+						}
+					]
+				},
+				{
+					"name": "Ship Rat",
+					"source": "J:Beastkin",
+					"speed": {
+						"walk": "30",
+						"swim": "30"
+					},
+					"traitTags": [
+						"Skill Proficiency",
+						"Tool Proficiency"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Speed",
+							"entries": [
+								"Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Reveler",
+							"entries": [
+								"You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one {@item musical instrument|phb} of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Strong Willed",
+							"entries": [
+								"You have advantage on saving throws to avoid being {@condition Charmed} or {@condition Frightened}."
+							]
+						}
+					]
+				},
+				{
+					"name": "Mouse",
+					"source": "J:Beastkin",
+					"traitTags": [
+						"Skill Proficiency"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Quiet as a mouse",
+							"entries": [
+								"You have proficiency in the Stealth skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mouse Nimbleness",
+							"entries": [
+								"You count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
+							]
+						},
+						{
+							"type": "entries",
+							"name": " Nimble Escape",
+							"entries": [
+								"You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Yamatlaca",
+			"alias": [
+				"Alpaca",
+				"Camel",
+				"Camelid",
+				"Llama"
+			],
+			"source": "J:Beastkin",
+			"size": ["M"],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Yamatlaca typically mature around 8 years of age. Yamatlaca rarely live beyond 50 years of age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Yamatlaca often serve as guards for farmers and caravans, tending towards lawful and neutral alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"With their long necks upright, Yamatlaca typically stand just above 7 feet tall. Your size is medium"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Big Eyes, Bigger Ears",
+					"entries": [
+						"You have advantage on Wisdom (perception) checks that rely on sight or hearing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bold Beasts",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spit",
+					"entries": [
+						"Your spit is a natural ranged weapon, which you can use to make a ranged attack with a range of 30 feet (long range 60 feet). You are proficient with this attack. On a hit, you choose to deal bludgeoning damage equal to {@dice 1d4} + your Dexterity modifier. Alternatively you can forgo the damage of the attack and instead give the target disadvantge on its next attack roll."
+					]
+				}
+			],
+			"subraces": [
+					{
+					"name": "Mountain",
+					"traitTags": [
+						"Damage Resistance"
+					],
+					"source": "J:Beastkin",
+					"ability": [
+						{
+			        "choose": {
+			            "from": [
+			                "con",
+			                "wis"
+			            ],
+			            "amount": 2
+			        },
+							"str": 1
+		    		}
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Thick Wool",
+							"entries": [
+								"You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Hiker",
+							"entries": [
+								"Your travel pace over mountain terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+							]
+						}
+					]
+				},
+					{
+						"name": "Desert",
+						"traitTags": [
+							"Damage Resistance"
+						],
+						"source": "J:Beastkin",
+						"ability": [
+							{
+				        "choose": {
+				            "from": [
+				                "con",
+				                "wis"
+				            ],
+				            "amount": 2
+				        },
+								"dex": 1
+			    		}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Sunbaked",
+								"entries": [
+									"You have resistance to fire damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sandwalker",
+								"entries": [
+									"Your travel pace over desert terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+								]
+							}
+						]
+					},
+					{
+						"name": "Jungle",
+						"traitTags": [
+							"Damage Resistance"
+						],
+						"source": "J:Beastkin",
+						"ability": [
+							{
+				        "choose": {
+				            "from": [
+				                "con",
+				                "wis"
+				            ],
+				            "amount": 2
+				        },
+								"dex": 1
+			    		}
+						],
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Jungle Scavenger",
+								"entries": [
+									"You have advantage on saving throws against being poisoned, and you have resistance to poison damage."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Jungle Delver",
+								"entries": [
+									"Your travel pace in jungle terrain is doubled as is the travel pace of up to ten companions while they're within 60 feet of you and you're not {@condition incapacitated|phb}."
+								]
+							}
+						]
+					}
+				],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"fluff": {
+				"entries": [
+					"These large, courageous humanoids have bestial appearances resembling camelids, such as llamas, alpacas or camels. Their large eyes and ears grant them keen senses which, combined with their natural courage, make them popular as guards for farms and merchant caravans. However, you should never insult a Yamatlaca, else you may learn about their infamous spit the hard way.",
+					"Yamatlaca can be found in many climates, from the highest mountains to the hottest deserts and muggist swamp."
+				]
+			}
+		},
+		{
+			"name": "Mallardian",
+			"alias": [
+				"Duck",
+				"Goose"
+			],
+			"source": "J:Beastkin",
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+							"from": [
+								"str",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": ["S"],
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Looks like a duck",
+					"entries": [
+						"While not wearing armor or holding items, you are virtually indistinguishable from a large duck. A creature can make a DC15 Intelligence (Investigation) check to determine your true nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Walks like a duck",
+					"entries": [
+						"You can stand on and move across any liquid surface as if it were solid ground."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quacks like a duck",
+					"entries": [
+						"You can communicate simple messages to ducks and other aquatic birds. They can understand the meaning of your words, though you have no special ability to understand them in return."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The nature of these people has always confused scholars, even mallardians themselves may not be quite sure what they are and where their people came from. By most metrics they appear to be simple ducks, yet they can walk, talk and fight like other humanoids."
+				]
+			}
+		},
+		{
+			"name": "Poultrian",
+			"alias": [
+				"Chicken",
+				"Rooster"
+			],
+			"source": "J:Beastkin",
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+							"from": [
+								"str",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": ["S"],
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bad Flier",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You fall at the end of a turn if you are airborne and the only thing holding you aloft is your flying speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glider",
+					"entries": [
+						"When you are falling, and you are not {@condition incapacitated|phb}, you can use a reaction to slow your rate of descent to 60 feet per round. If you land while using this trait, you take no falling damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Peck",
+					"entries": [
+						"Your beak is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"While these feathered beings resemble birds and possess wings, they are terrible fliers. They may have been mighty fliers once, but have found the ability waning over the many generations since."
+				]
+			}
+		},
+		{
+			"name": "Ariesian",
+			"alias": [
+				"Goat",
+				"Sheep"
+			],
+			"source": "J:Beastkin",
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sure-Footed",
+					"entries": [
+						"Climbing does not cost you extra movement. In addition, you have advantage on Strength and Dexterity saving throws made against effects that would knock you prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wooly Coat",
+					"entries": [
+						"While you have a full coat of wool you have resistance to cold damage, however you also have vulnerability to fire damage and disadvantage on saving throws against extreme heat.",
+						" If your coat is sheared over the course of 10 minutes, you lose the effects of this trait (unless you get them from another source) until your wool grows back after {@dice 1d6+1} days"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headbutt",
+					"entries": [
+						"You have a thick skull or heavy horns, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"A mountain people with hooves, horns and wooly coats, they are sometimes confused for goats or sheep, often to their annoyance. They frequently be found roaming the mountains and hills in large herds, finding comfort in crowds, though some lone wanderers make their way down from the hills."
+				]
+			}
+		},
+		{
+			"name": "Urodel",
+			"source": "J:Beastkin",
+			"alias": [
+				"Axo",
+				"Salaman"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+							"from": [
+								"str",
+								"dex",
+								"int",
+								"wis",
+								"cha"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Amphibious",
+				"Improved Resting"
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slimy",
+					"entries": [
+						"You have advantage on rolls to avoid or escape the {@condition grappled|phb} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regeneration",
+					"entries": [
+						"Whenever you roll a hit die to regain hit points, you may add your proficiency bonus to the result of each roll. In addition, during a long rest, you can regrow any non-vital organs or limbs you have lost, such as arms, legs or eyes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"In the jungles and swamps of the world, many forms of life exist that can seem strange or alien to outsiders. This includes the Urodels, an amphibious and slimy people resembling large salamanders.",
+					"Also refered to as Axoes or Salamans, the Urodels are extraordinarily resilient thanks to their natural regeneration abilities, even regrowing entire limbs in a matter of hours."
+				]
+			}
+		}
+    ],
+	"feat": [
+		{
+			"name": "Volatile Spit",
+			"source": "J:Beastkin",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "Yamatlaca"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"Your spit attacks are stronger than most. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Both the normal range and long range of your spit attack are doubled.",
+						"The damage die for your spit attack increases from a {@dice d4} to a {@dice d6}.",
+						"You can use a bonus action to build up acidic saliva before spitting it. The next time you hit a target with your spit attack within the next minute, you deal an additional {@dice 1d6} acid damage."
+					]
+				}
+			]
+		}
+	]
+}

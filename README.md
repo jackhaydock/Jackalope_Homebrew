@@ -5,6 +5,7 @@ My items will have the following sources/labels making it easy to identify them 
 - Main Collection
   - __**Jackalope: General/J:General**__: General collection of stuff
   - **Jackalope: Ash and Snow/J:AnS**: Stuff for my viking themed setting, Ash and Snow.
+  - **Jackalope: Beastkin/J:Beastkin**: Various animalistic races and subraces. Also includes some racial feats.
   - **Jackalope: Children of Morrigan/J:Morrigan**: Stuff for my old celtic themed setting, Children of Morrigan.
   - **Jackalope: Custom Dragons/J:Dragons**: Rules and examples for building custom dragons.
   - **Jackalope: Kobolds/J:Kobolds**: Extra kobold subraces, may get feats, item and statblocks later.

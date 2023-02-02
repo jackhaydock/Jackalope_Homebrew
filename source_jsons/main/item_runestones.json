@@ -1,0 +1,112 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Runestones",
+				"abbreviation": "J:Runestones",
+				"color": "ac8db5",
+				"full": "Jackalope: Runestones",
+				"authors": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "item": [
+        {
+			"name": "+1 Bloody Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon always appears to be covered in wet blood, and cannot be cleaned of it. While attuned to the weapon, you have advantage on Charisma (Intimidation) checks against creatures that can see the weapon."
+			]
+		},
+		{
+			"name": "+1 Glimmering Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon always appears clean and freshly polished with a satisfying sheen. While attuned to the weapon, you have advantage on Charisma (Persuasion) checks against creatures that can see the weapon."
+			]
+		},
+		{
+			"name": "+1 Charming Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, the weapon constantly emits an inaudible resonance that hinders creatures abilities to determine falsehoods. While attuned to the weapon, you have advantage on Charisma (Deception) checks against creatures that can see the weapon and are not {@condition deafened}."
+			]
+		},
+		{
+			"name": "+1 Distracting Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"Additionally, when you hit a target with this weapon or fire a piece of ammunition from this weapon you can cause the target or ammunition to produce one of the following effects until the start of your next turn.",
+				{
+					"type": "list",
+					"items": [
+						"The target or ammunition sheds bright light out to a 15-foot radius and dim light for an additional 15 feet.",
+						"The target or ammunition emits a whistling noise that can be heard up to 60ft."
+					]
+				}
+			]
+		},
+		{
+			"name": "+1 Glamour Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, you can use a bonus action to alter the colors, sigils and patterns of the armor or to magically clean, dry or soil the armor. As part of the same bonus action, you can all alter any nonmagical clothing you are wearing in the same way. The armor or clothing retains its shape, materials and statistics and the effect ends if you use this bonus action again or you doff it. For example, you may alter a dirty brown tabbard into pristine red and white one bearing the sigil of a particular deity or noble."
+			]
+		},
+		{
+			"name": "+1 Stubborn Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, the armor fills your mind with stubborn voices, warning you against manipulitive effects. While attuned, you have advantage on saving throws to avoid or remove the {@condition charmed} condition."
+			]
+		},
+		{
+			"name": "+1 Bolstering Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, the armor fills your mind with reassuring voices, helping you maintain your courage. While you wear the armor, you have advantage on saving throws to avoid or remove the {@condition frightened} condition."
+			]
+		}
+    ]
+}
