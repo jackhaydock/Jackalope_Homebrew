@@ -1,0 +1,987 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+        "sources": [
+            {
+				"json": "J:AnS",
+				"abbreviation": "J:AnS",
+				"color": "90c8de",
+				"full": "Jackalope: Ash and Snow",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "background": [
+		{
+			"name": "Thrall",
+			"source": "J:AnS",
+			"skillProficiencies": [
+				{
+        "choose": {
+            "from": [
+                "athletics",
+                "animal handling",
+                "insight",
+                "survival"
+            ],
+            "count": 2
+          }
+        }
+			],
+			"toolProficiencies": [
+        {
+          "artisan's tools": true
+			  }
+            ],
+			"languageProficiencies": [
+        {
+          "any": 1
+        }
+            ],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose two from {@skill Athletics}, {@skill Animal Handling}, {@skill insight} and {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item artisan's tools|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A collar or set of manacles, a set of {@item common clothes|phb}, and a belt pouch containing 5gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Hard Knock Life",
+					"type": "entries",
+					"entries": [
+						"You are used to living with great difficulty and can survive with next to nothing. You can survive on half the amount of food and water as others.",
+						"In addition, when in a settlement larger than a village, you can believably pose as a beggar or pauper to elicit sympathy and get enough food or coppers to live a squalid life at no expense."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Thrall Status",
+					"type": "entries",
+					"entries": [
+						"You can roll on the table to determine your current status, or chose one that best fits your character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Status"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am still a thrall in service to a master."
+								],
+								[
+									"2",
+									"I have escaped my bonds and am now free."
+								],
+								[
+									"3",
+									"I was rescued from my old masters by someone else."
+								],
+								[
+									"4",
+									"I was granted my freedom by my old masters."
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+							"As a thrall you are, or were, expected to be submissive and quiet as you carried out your chores and errands without complaint. Some thralls accept this fate while others are more rebelious and openly despise their masters.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am submissive and often hesitant to complain, make eye contact or speak out of turn."
+								],
+								[
+									"2",
+									"I call everyone 'sir' or 'lady' without really thinking about it."
+								],
+								[
+									"3",
+									"I automatically start doing chores like cleaning out of habit."
+								],
+								[
+									"4",
+									"I am terrified of ropes, chains and whips."
+								],
+								[
+									"5",
+									"I look out for my friends and allies."
+								],
+								[
+									"6",
+									"I am rebellious and hate being told what to do."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I want to prove my strength by subjugating my own thralls. (Evil)"
+								],
+								[
+									"2",
+									"People should respect and obey their betters. (Lawful)"
+								],
+								[
+									"3",
+									"Thralldom is a cruel tradition that should not exist. (Good)"
+								],
+								[
+									"4",
+									"No one should have authority over others. (Chaotic)"
+								],
+								[
+									"5",
+									"I just want to leave my past behind and lead my own life. (Neutral)"
+								],
+								[
+									"6",
+									"I want to make something of my life, I will be a somebody. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I want revenge on those who hold/held me in bondage, at any cost."
+								],
+								[
+									"2",
+									"Despite everything, I still feel a sense of loyalty to my masters."
+								],
+								[
+									"3",
+									"I owe everything to those who freed me."
+								],
+								[
+									"4",
+									"I am my own master now, I owe nothing to anyone."
+								],
+								[
+									"5",
+									"I feel a kinship with anyone who has suffered as a thrall and wish to help them however I can."
+								],
+								[
+									"6",
+									"I long to return to my old life and family before I became a thrall, or at least whatever is left of them."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The cruelty of my masters has made me nervous and shy in social situations."
+								],
+								[
+									"2",
+									"I tend to go along with others unquestioningly, even when I disagree with them."
+								],
+								[
+									"3",
+									"I value my own life as lesser and more expendable than those around me."
+								],
+								[
+									"4",
+									"I have a habit of stealing food as I fear I'll go hungry otherwise."
+								],
+								[
+									"5",
+									"I am overly protective of my belongings and refuse to share, even with close friends."
+								],
+								[
+									"6",
+									"I distrust people as I fear everyone I meet is secretly trying to make me their own thrall."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You are, or were, a thrall to a particular individual or clan in the Northlands. Thralls are the lowest sapient beings on the social ladder, they are the slaves and serfs of the clan.",
+					"Most thralls are basic labourers such as farmers, miners and haulers. A few are put into service as house servants, concubines and cooks. Especially strong and loyal thralls may end up as housecarls, bodyguards and even raiders in their own right.",
+					"Sometimes entire hamlets and villages are held as thralls to a nearby clan under threat of raiding. Though particular individuals may also be seized and taken home to serve as personal thralls.",
+					"Even under the kindest masters, the life of a thrall is hard. You have, or had, no freedom or possessions and had to make do with whatever food and clothing your masters allow. You are, or were, expected to serve without complaint with your life as the only reward."
+				]
+			}
+		},
+		{
+			"name": "Raider",
+			"source": "J:AnS",
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Athletics}, {@skill Intimidation}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of {@item gaming set|phb} or {@item musical instrument|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A helmet or set of bracers bearing the sigil of your clan, a {@item gaming set|phb} or {@item musical instrument|phb} of your choice, a set of {@item common clothes|phb}, and a belt pouch containing 10gp "
+						}
+					]
+				},
+				{
+					"name": "Feature: Hearth and Home",
+					"type": "entries",
+					"entries": [
+						"Provided you are still welcome, you can always find free food and lodging of a modest standard for you and your companions when in a settlement owned by your clan. Those who fear your clan's banners may also provide food and lodging if you agree to not burn down their homes."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Role In Raider Crew",
+					"type": "entries",
+					"entries": [
+						"All raiders are expected to fight but usually also have more specialised roles. You can roll on the table to determine why, or chose one that best fits your character.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d10",
+								"Role"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Skipper"
+								],
+								[
+									"2",
+									"Helmsman"
+								],
+								[
+									"3",
+									"Shiphand or Oarsman"
+								],
+								[
+									"4",
+									"Navigator"
+								],
+								[
+									"5",
+									"Warrior"
+								],
+								[
+									"6",
+									"Scout or Hunter"
+								],
+								[
+									"7",
+									"Healer or Shaman"
+								],
+								[
+									"8",
+									"Shipbuilder"
+								],
+								[
+									"9",
+									"Skald, horn blower or war drummer"
+								],
+								[
+									"10",
+									"Support staff (cook, blacksmith, or the like)"
+								]
+							]
+						}
+					]
+					},
+					{
+						"name": "Suggested Characteristics",
+						"type": "entries",
+						"entries": [
+							"Raiders are battle hardened warriors who strike fear into the hearts of their victims, possessing unwavering determination and fury in battle. Many raiders claim to not fear death as a good, honourable death is the ultimate goal of any raider.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Nothing brings me more joy than the heat of battle."
+								],
+								[
+									"2",
+									"I am extremely loyal to my clan and it's traditions."
+								],
+								[
+									"3",
+									"I can get very competitive in almost everything I do."
+								],
+								[
+									"4",
+									"I enjoy battles of wit as much as I enjoy battles of blood."
+								],
+								[
+									"5",
+									"I am always the loudest and merriest one at a feast."
+								],
+								[
+									"6",
+									"I like to resolve matters quickly, even if my solutions seem hasty."
+								],
+								[
+									"7",
+									"I live everyday as if it is my last, because it could well be."
+								],
+								[
+									"8",
+									"I take great care in my appearance, if I die today I want to look good doing it."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The strong take what they want, the weak suffer what they must. (Evil)"
+								],
+								[
+									"2",
+									"I must obey my jarl, even if I don't like their demands. (Lawful)"
+								],
+								[
+									"3",
+									"We should only take from those who can spare it or don't deserve what they have. (Good)"
+								],
+								[
+									"4",
+									"Only the gods have true authority over my life, jarls and banners mean little to me. (Chaotic)"
+								],
+								[
+									"5",
+									"The prosperity of one's clan is all that matters, however you choose to provide for it. (Neutral)"
+								],
+								[
+									"6",
+									"One day, all the mead halls in the land will be filled with songs of my glory. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I serve my jarl and my clan, I have no other loyalties."
+								],
+								[
+									"2",
+									"My loyalty lies with my crewmates, no one else."
+								],
+								[
+									"3",
+									"Honour is everything to me."
+								],
+								[
+									"4",
+									"I have someone back home that I hope I can provide for with the treasures I seize."
+								],
+								[
+									"5",
+									"My clan's jarl is a weak or cruel ruler I will see them punished or usurped if I can."
+								],
+								[
+									"6",
+									"I still hold a grudge against another raider or clan for what they did to me."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I can't help but take what I want, even when I am not raiding."
+								],
+								[
+									"2",
+									"I am haunted by memories of something I did or saw during a raid."
+								],
+								[
+									"3",
+									"I often lose control in the heat of battle."
+								],
+								[
+									"4",
+									"If someone questions my courage or honour, I will never back down no matter how dangerous the situation."
+								],
+								[
+									"5",
+									"I can get very agressive when I'm drunk, and I'm drunk often."
+								],
+								[
+									"6",
+									"While I claim not to fear death, I am actually terrified of it."
+								]
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"You are a raider for your clan in The Northlands. You lead a brutal and violent life constantly just an axe swing away from death, but it's worth it. The treasure you bring back to your clan grants you much glory and renown."
+				]
+			}
+		}
+	],
+    "item": [
+        
+		{
+			"name": "Ice Skates",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 5,
+			"type": "G",
+			"source": "J:AnS",
+			"entries": [
+				"These special boots each feature a blade with which the wearer can glide over ice. You can don or doff these boots over 1 minute.",
+				"While wearing these boots, slippery ice is no longer considered {@quickref difficult terrain||3} for you but all other terrain is. In addition, if you are not travelling uphill, moving 2 feet on slippery ice only costs 1 foot of movement for you."
+			]
+		}
+    ],
+    "vehicle": [
+        {
+			"name": "Karvi",
+			"source": "J:AnS",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 4,
+			"capPassenger": 12,
+			"capCargo": 2,
+			"pace": 3,
+			"str": 16,
+			"dex": 6,
+			"con": 13,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 14,
+				"hp": 150,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the karvi can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The karvi can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Snekke",
+			"source": "J:AnS",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"60 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 20,
+			"capPassenger": 5,
+			"capCargo": 0.25,
+			"pace": 4,
+			"str": 14,
+			"dex": 10,
+			"con": 15,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 200,
+				"dt": 12
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 10 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the snekke can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The snekke can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeid",
+			"source": "J:AnS",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"90 ft.",
+				"15 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 30,
+			"capPassenger": 20,
+			"capCargo": 4,
+			"pace": 5,
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 300,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 16,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 15 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 2,
+				"2": 4
+			},
+			"action": [
+				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The skeid can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Drakkar",
+			"source": "J:AnS",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"120 ft.",
+				"20 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 40,
+			"capPassenger": 40,
+			"capCargo": 8,
+			"pace": 6,
+			"str": 20,
+			"dex": 6,
+			"con": 18,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 16,
+				"hp": 400,
+				"dt": 15
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 17,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 20 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-10 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The skeid can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		}
+    ]
+}

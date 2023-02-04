@@ -1,0 +1,132 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Kobolds",
+				"abbreviation": "J:Kobolds",
+				"color": "941b1b",
+				"full": "Jackalope: Kobolds",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "race": [
+        {
+			"name": "Kobold",
+			"source": "J:Kobolds",
+			"size": ["S"],
+			"speed": 30,
+			"darkvision": 60,
+			"lineage": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": " Draconic Cry.",
+					"entries": [
+						"As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"subraces": [
+					{
+						"name": "Wilderness",
+						"traitTags": [
+							"Amphibious"
+						],
+						"source": "J:Kobolds",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Wilderness Legacy",
+								"entries": [
+									"Accustomed to life in the wild, you have adapted to extreme environments. Choose one of the following legacy options for your kobold.",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											"{@b {@i Cave Dweller.}} The range of your darkvsion increases to 120ft. In addition, you have advantage on Dexterity (Stealth) checks to hide in rocky terrain or dim light.",
+											"{@b {@i Cliff Climber.}} You have a climbing speed equal to your walking speed. In addition, you can jump up to your full long jump or high jump distance, even without a running start.",
+											"{@b {@i Sea Diver.}} You have a Swimming speed equal to your walking speed and can breathe underwater."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Mutant",
+						"traitTags": [
+							"Damage Resistance",
+							"Unarmed Strike"
+						],
+						"source": "J:Kobolds",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Mutant Legacy",
+								"entries": [
+									"You have developed some mutation that separates you from other kobolds. Choose one of the following legacy options for your kobold.",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											"{@b {@i Draconic Hide.}} You have resistance to one of the following damage types (choose when you select this race); acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.",
+											"{@b {@i Tiny Target.}} You have a +1 bonus to your armor class. In addition, you count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures.",
+											"{@b {@i Vicious Weapons.}} You have sharp teath, claws, horns or tail spikes which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Talented",
+						"traitTags": [
+							"Tool Proficiencies"
+						],
+						"source": "J:Kobolds",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Talented Legacy",
+								"entries": [
+									"Whether through intense training, family tradition or just dumb luck, you have mastered certain unorthodox techniques that distinguish you from other kobolds. Choose one of the following legacy options for your kobold.",
+									{
+										"type": "list",
+										"style": "list-hang-notitle",
+										"items": [
+											"{@b {@i Master Slinger.}} When you wield a {@item sling|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die). In addition, your ranged attacks with slings ignore half cover and three-quarters cover.",
+											"{@b {@i Potent Inventor.}} You have proficiency in one of the following tools of your choice: {@item alchemist's supplies|phb}, {@item brewer's supplies|phb}, {@item herbalism kit|phb}, {@item poisoner's kit|phb}.",
+											"{@b {@i Scrambling Cavalier.}} Mounting a willing creature only costs you 5 feet of movement. While mounted, you can use a bonus action to increase your mount's speed by 10 feet until the start of your next turn, provided you are still mounted on them."
+										]
+									}
+								]
+							}
+						]
+					}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			]
+		}
+    ]
+}

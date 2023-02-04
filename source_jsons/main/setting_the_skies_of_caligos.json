@@ -1,0 +1,599 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Caligos",
+				"abbreviation": "J:Caligos",
+				"color": "873600",
+				"full": "Jackalope: The Skies of Caligos",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "deity": [
+		{
+			"name": "Rexus",
+			"source": "J:Caligos",
+			"title": "The Dragon King",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Light",
+				"Order",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Law, order and nobility",
+			"symbol": "Gold Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Gold Dragon, Gold Dragonborn",
+				"Worshipers": "Monarchs, Nobles"
+			},
+			"entries": [
+				"Rexus is the leader of the Iuris Legion."
+			]
+		},
+		{
+			"name": "Sophus",
+			"source": "J:Caligos",
+			"title": "The Scholar",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Knowledge, wisdom, art and divine punishment through magic, curses and madness",
+			"symbol": "Blue Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Giant Eagle, Aarakocra",
+				"Worshipers": "Scholars, Teachers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Idex",
+			"source": "J:Caligos",
+			"title": "The Judge",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Order"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Justice and divine punishment through execution, imprisonment and violence",
+			"symbol": "Black Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Giant Owl, Aasimar",
+				"Worshipers": "Judges, Inquisitors, Law Enforcement"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Ferrarius",
+			"source": "J:Caligos",
+			"title": "The Smith",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"domains": [
+				"Forge",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Forging, masonry, engineering, constructs and divine punishment through fire and explosions",
+			"symbol": "Red Raptor",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Red Wyvern, Dwarf",
+				"Worshipers": "Smiths, Masons, Tailors, Engineers, Pilots"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Pestas",
+			"source": "J:Caligos",
+			"title": "The Storm",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"domains": [
+				"Arcana",
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Storms, the fog and divine punishment through extreme weather and natural disasters",
+			"symbol": "Silver Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Giant Thunderbird, Aasimar",
+				"Worshipers": "Sailors"
+			},
+			"entries": [
+				"Supposedly sent the fog to punish mortals on the orders of Rexus."
+			]
+		},
+		{
+			"name": "Vitas",
+			"source": "J:Caligos",
+			"title": "The Protector",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"domains": [
+				"Feast",
+				"Life",
+				"Light",
+				"Peace"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Medicine, music and divine mercy",
+			"symbol": "Green Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Dove, Aasimar",
+				"Worshipers": "Healers, Mothers, Performers"
+			},
+			"entries": [
+				"Saved a small number of mortals from the fog to start anew."
+			]
+		},
+		{
+			"name": "Ricola",
+			"source": "J:Caligos",
+			"title": "The Alchemist",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Life"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Alchemy, chemistry and divine punishment through disease and poison",
+			"symbol": "Bronze Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Bat, Gnome",
+				"Worshipers": "Alchemists, Cooks"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Scurra",
+			"source": "J:Caligos",
+			"title": "The Jester",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Trickery"
+			],
+			"pantheon": "Iuris Legion",
+			"province": "Cunning, espionage, theatre, comedy and divine punishment through ridicule and defamation",
+			"symbol": "Purple Raptor",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Mockingbird, Changling",
+				"Worshipers": "Spies, Performers"
+			},
+			"entries": [
+				"While sometimes considered the “black sheep” of the Legion, some claim it was Scurra who discovered how to ascend to godhood, granting her a place within the Legion."
+			]
+		},
+		{
+			"name": "Mutter",
+			"source": "J:Caligos",
+			"title": "The Mother",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Nature",
+				"Peace"
+			],
+			"pantheon": "Anarchium",
+			"province": "The natural world (Debauchery in Caligos Imperium)",
+			"symbol": "Roots",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The ground itself",
+				"Worshipers": "Mothers, Miners, Druids"
+			},
+			"entries": [
+				"The Mother is vast network of ever expanding roots that form the world itself."
+			]
+		},
+		{
+			"name": "Vater",
+			"source": "J:Caligos",
+			"title": "The Father",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Light",
+				"Nature"
+			],
+			"pantheon": "Anarchium",
+			"province": "Life, family and the sky (Tyranny in Caligos Imperium)",
+			"symbol": "Branches",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "The sky itself",
+				"Worshipers": "Patriarchs, Matriarchs"
+			},
+			"entries": [
+				"Vater was a rogue root of Mutter that grew upwards and outwards to form the braches that make up the sky. From these branches came life."
+			]
+		},
+		{
+			"name": "Wasserie",
+			"source": "J:Caligos",
+			"title": "The River, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Life",
+				"Tempest",
+				"Trickery"
+			],
+			"pantheon": "Anarchium",
+			"province": "Water and uncertainty (Anarchy in Caligos Imperium)",
+			"symbol": "Waves",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Rivers, Water Elemental",
+				"Worshipers": "Ferrymen, Spies, Anarchists"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Geierin",
+			"source": "J:Caligos",
+			"title": "The Night, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Trickery",
+				"Twilight"
+			],
+			"pantheon": "Anarchium",
+			"province": "Night, magic and curses (Dark magic in Caligos Imperium)",
+			"symbol": "Spider on moon",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The Moon, Giant Spider, Giant Moth",
+				"Worshipers": "Mages, Spies, Assassins"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Feus",
+			"source": "J:Caligos",
+			"title": "The Warm Winds, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Forge",
+				"Light"
+			],
+			"pantheon": "Anarchium",
+			"province": "Day, warmth and fire (Droughts and arson in Caligos Imperium)",
+			"symbol": "Rising Air, vertical waves",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "The Sun, Fire Elemental",
+				"Worshipers": "Farmers, Pilots"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Eiskel",
+			"source": "J:Caligos",
+			"title": "The Cold Winds, Aspect of Mutter",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Tempest"
+			],
+			"pantheon": "Anarchium",
+			"province": "Cold winds, snow and ice (Apocalypse in Caligos Imperium)",
+			"symbol": "Snowflake",
+			"customProperties": {
+				"Sex": "Female",
+				"Typical Forms": "Air Elemental",
+				"Worshipers": "Travellers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Maulich",
+			"source": "J:Caligos",
+			"title": "The Elk, Aspect of Vater",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"domains": [
+				"Life",
+				"Nature",
+				"Peace"
+			],
+			"pantheon": "Anarchium",
+			"province": "Prey, plantlife and agriculture (Weakness and sloth in Caligos Imperium)",
+			"symbol": "Elk",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Firbolg, Elk",
+				"Worshipers": "Farmers, Hunters, Shepards"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Olfus",
+			"source": "J:Caligos",
+			"title": "The Wolf, Aspect of Vater",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"domains": [
+				"Death",
+				"Nature",
+				"War"
+			],
+			"pantheon": "Anarchium",
+			"province": "Predators, hunting and strength of the pack (Violence and savagry in Caligos Imperium)",
+			"symbol": "Wolf",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Direwolf, Bear",
+				"Worshipers": "Hunters, Soldiers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Zornlich",
+			"source": "J:Caligos",
+			"title": "The Bull, Aspect of Vater",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Feast",
+				"Tempest",
+				"War"
+			],
+			"pantheon": "Anarchium",
+			"province": "Fury, passion, determination and music (Brutality and destruction in Caligos Imperium)",
+			"symbol": "Bull",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Bull",
+				"Worshipers": "Soldiers, Athletes, Artists"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Sepulcrus",
+			"source": "J:Caligos",
+			"title": "The Hare, Aspect of Vater",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave"
+			],
+			"pantheon": "Anarchium",
+			"province": "Death and the afterlife (Necromancy and infernals in Caligos Imperium)",
+			"symbol": "Black Hare",
+			"customProperties": {
+				"Sex": "Male",
+				"Typical Forms": "Black Hare",
+				"Worshipers": "Soldiers, Assassins, Executioners, Gravekeepers"
+			},
+			"entries": [
+			]
+		},
+		{
+			"name": "Talitus",
+			"source": "J:Caligos",
+			"title": "The Entropic Entity",
+			"alignment": [
+				"N",
+				"N"
+			],
+			"domains": [
+				"Death",
+				"Grave",
+				"Time"
+			],
+			"pantheon": "Talitus",
+			"province": "Time, entropy and mortality (Chaos and pure evil in Caligos Imperium)",
+			"symbol": "Skull in hourglass",
+			"customProperties": {
+				"Sex": "Unknown",
+				"Typical Forms": "Unknown",
+				"Worshipers": "Cultists, Assassins"
+			},
+			"entries": [
+				"Talitus does not directly belong to either the Anarchium or the Iuris Legion. They are the god of time, entropy and death. They represent the inevitable end of everything, even the gods.",
+				"There are no statues or temples of Talitus as they have no known form or gender, nor are they known to speak to mortals. Very rarely, Talitus will choose a mortal to perform a task, the purposes of these tasks are known only to Talitus.",
+				"Somewhat paradoxically, Talitus is perpetually the youngest and oldest entity in the universe. Taltius may be one, many or even none. Scholar’s have spent centuries trying to understand the very few clues they have about Talitus.",
+				"Talitus worship is deeply taboo across the entire Caligos Archipelago. Worshipping them is seen as praying for the death of everything, including the gods. In the Caligos Imperium, any evidence implying worship of Talitus is an instant death sentence."
+			]
+		}
+	],
+    "item": [
+        {
+			"name": "Legionsbane Pistol",
+			"source": "J:Caligos",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"weapon": true,
+			"firearm": true,
+			"rarity": "artifact",
+			"baseItem": "pepperbox pistol|caligos",
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d10",
+			"bonusWeapon": "+2",
+			"dmgType": "P",
+			"range": "50/200",
+			"property": [
+				"LD",
+				"A"
+			],
+			"entries": [
+				"This heavy steel pistol is the personal sidearm of Maximilian Steinhauser Von Stahlnich II, war hero and High Chancellor of Gaulsberg. It has seen many conflicts and seen much use.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"This weapon superheats bullets it fires, dealing an extra {@dice 2d6} fire damage on a hit.",
+				"{@b {@i Multi-Barrel.}} When you use the {@action Attack} action and attack with this weapon, you can use a bonus action to make an additional attack with this weapon. This attack ignores the loading property of this weapon."
+			]
+		},
+		{
+			"name": "Grand Inquisitor's Baculus",
+			"source": "J:Caligos",
+			"age": "renaissance",
+			"type": "M",
+			"rarity": "artifact",
+			"baseItem": "halberd|phb",
+			"weight": 12,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"firearm": true,
+			"bonusWeapon": "+2",
+			"entries": [
+				"This black and silver halberd is a symbol of office for the Grand Inquisitor of the Caligos Imperium. While this weapon is mostly ceremonial, it is still a functional and formidable weapon.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"Once per turn, this weapon can channel the power of the Iuris Legion deal an extra {@dice 2d10} radiant damage on a hit.",
+				"When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item pepperbox pistol|Caligos}."
+			]
+		},
+		{
+			"name": "Inquisitor Mask",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"age": "renaissance",
+			"source": "J:Caligos",
+			"entries": [
+				"This leather and metal mask features goggles and a beak is worn by members of the Inquisition within the Caligos Imperium.. While wearing this mask, you are immune to the {@condition blinded|phb} condition."
+			]
+		},
+		{
+			"name": "Inquisitor Coat",
+			"wondrous": true,
+			"rarity": "rare",
+			"age": "renaissance",
+			"source": "J:Caligos",
+			"reqAttune": true,
+			"entries": [
+				"This long, dark coat is worn by members of the Inquisition within the Caligos Imperium. You gain a +2 bonus to AC and saving throws while you wear this cloak."
+			]
+		},
+		{
+			"name": "Inquisition Enforcer's Cane",
+			"wondrous": true,
+			"rarity": "rare",
+			"age": "renaissance",
+			"source": "J:Caligos",
+			"reqAttune": true,
+			"entries": [
+				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Enforcer.",
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter melee weapon that lacks the light and special properties|items|type=!futuristic;melee weapon;!modern;!treasure|property=!light;!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
+			]
+		},
+		{
+			"name": "Inquisition Officer's Cane",
+			"wondrous": true,
+			"rarity": "rare",
+			"age": "renaissance",
+			"source": "J:Caligos",
+			"reqAttune": true,
+			"entries": [
+				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Officer.",
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter melee weapon that lacks the two-handed and special properties|items|type=!futuristic;melee weapon;!modern;!treasure|property=!special;!two-handed|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
+			]
+		},
+		{
+			"name": "Inquisition Sharpshooter's Cane",
+			"wondrous": true,
+			"rarity": "rare",
+			"age": "renaissance",
+			"source": "J:Caligos",
+			"reqAttune": true,
+			"entries": [
+				"This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Sharpshooter.",
+				"As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter ranged weapon that lacks the special property|items|type=!futuristic;!modern;range;!treasure|property=!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
+			]
+		}
+    ]
+}

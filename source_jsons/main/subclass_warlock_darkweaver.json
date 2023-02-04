@@ -1,0 +1,273 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Darkweaver",
+				"abbreviation": "J:Darkweaver",
+				"color": "273f24",
+				"full": "Jackalope: Darkweaver Warlock",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/J:Darkweaver_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "subclass": [
+        {
+			"name": "The Darkweaver Warlock",
+			"shortName": "Darkweaver",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"The Darkweaver|Warlock|PHB|Darkweaver|J:Darkweaver|1",
+					"Expanded Spell List|Warlock|PHB|Darkweaver|J:Darkweaver|1",
+					"Nest Crawler|Warlock|PHB|Darkweaver|J:Darkweaver|1",
+					"Silk Spinner|Warlock|PHB|Darkweaver|J:Darkweaver|1",
+					"Toxin Tolerance|Warlock|PHB|Darkweaver|J:Darkweaver|6",
+					"Webslinger|Warlock|PHB|Darkweaver|J:Darkweaver|6",
+					"Quickweb|Warlock|PHB|Darkweaver|J:Darkweaver|6",
+					"Spider Bites|Warlock|PHB|Darkweaver|J:Darkweaver|10",
+					"Toxin Tolerance Improved|Warlock|PHB|Darkweaver|J:Darkweaver|14",
+					"Wall Walker|Warlock|PHB|Darkweaver|J:Darkweaver|14"
+			],
+			"subclassSpells": [
+				{
+					"name": "Sleep",
+					"source": "PHB"
+				},
+				{
+					"name": "Snare",
+					"source": "XGE"
+				},
+				{
+					"name": "Find Steed",
+					"source": "PHB"
+				},
+				{
+					"name": "Web",
+					"source": "PHB"
+				},
+				{
+					"name": "Spirit Guardians",
+					"source": "PHB"
+				},
+				{
+					"name": "Stinking Cloud",
+					"source": "PHB"
+				},
+				{
+					"name": "Giant Insect",
+					"source": "PHB"
+				},
+				{
+					"name": "Phantasmal Killer",
+					"source": "PHB"
+				},
+				{
+					"name": "Contagion",
+					"source": "PHB"
+				},
+				{
+					"name": "Insect Plague",
+					"source": "PHB"
+				}
+			]
+		}
+    ],
+    "subclassFeature": [
+        {
+			"name": "The Darkweaver",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 1,
+			"entries": [
+				"Your patron is a powerful spider-like being from the depths of the Underdark. You serve the whims of an aranea, chwidencha, drider, gee'aantu, giant spider or even figures such as Arachne or Lolth."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Darkweaver lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Darkweaver Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell sleep|phb}, {@spell snare|xge}"
+						],
+						[
+							"2nd",
+							"{@spell find steed|phb} (large or medium {@creature giant wolf spider} only), {@spell web|phb}"
+						],
+						[
+							"3rd",
+							"{@spell spirit guardians|phb} (appear as spiders), {@spell stinking cloud|phb}"
+						],
+						[
+							"4th",
+							"{@spell giant insect|phb}, {@spell phantasmal killer|phb}"
+						],
+						[
+							"5th",
+							"{@spell contagion|phb}, {@spell insect plague|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Nest Crawler",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, you are acclimated to underground spider nests, you have a climbing speed equal to your walking speed, and you ignore movement restrictions caused by webbing.",
+				"Additionally, you have darkvision out to a range of 120 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+			]
+		},
+		{
+			"name": "Silk Spinner",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you can use an action to produce webbing that takes the form of an item you choose from the following list; a {@item net|phb}, a {@item sack|phb}, {@item silk rope (50 feet)|phb}, a {@item sling|phb}, or a {@item whip|phb}. If your DM allows, you may also create any other non-magical item that could believably be made using spider webs. You are proficient with any weapons produced using this feature.",
+				"The maximum number of items you can produce with this feature at one time is equal to your proficiency bonus. If you try to exceed your maximum, the oldest item disintegrates, and then the new item is produced."
+			]
+		},
+		{
+			"name": "Toxin Tolerance",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain resistance to poison damage and advantage on saving throws to avoid or remove the {@condition poisoned} condition.",
+				"When you reach 14th level in this class, you gain immunity to poison damage and the poisoned condition."
+			]
+		},
+		{
+			"name": "Webslinger",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use a bonus action to fire a web to move objects and creatures. Choose an object or creature you can see within 30ft and choose one of the following effects.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Pull.} You pull the target up to 15ft towards you. The target must be an object or creature that is large or smaller and is not fixed in place (such as a wall or tree). If you target a creature, or an object worn or carried by a creature, the creature can make a Strength saving throw against your warlock spell save DC to avoid this effect.",
+						"{@b Trip.} You pull the target {@condition prone.} The target must be a creature that is large or smaller. The creature can make a Strength saving throw against your warlock spell save DC to avoid this effect.",
+						"{@b Zip.} You pull yourself up to 15ft towards the target. The target must be an object or creature that is medium or larger or is fixed in place (such as a wall or tree). You also cannot use this effect if you are {@condition grappled} or {@condition restrained}. If you target a creature, or an object worn or carried by a creature, the creature can make a Dexterity saving throw against your warlock spell save DC to avoid this effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Quickweb",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you see a creature within 30ft (including yourself) take damage, you can use the Pull or Zip effect from your Webslinger feature as a reaction to attempt to move them, potentially having them avoid the damage. You can use the feature in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Spider Bites",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, once per turn, when you hit a creature with an attack using a weapon or warlock cantrip, you can choose to apply one of the following additional effects.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Terrifying Horde.} You summon a horde of spectral spiders to swarm over the creature. The creature must make a Wisdom saving throw against your warlock spell save DC or be {@condition frightened} of you for 1 minute. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success.",
+						"{@b Toxic Venom.} You deliver a potent venom through the attack. The creature must make a Constitution saving throw against your warlock spell save DC or be {@condition poisoned} for 1 minute. At the end of each of its turns, the creature can attempt the saving throw again, removing the condition on a success."
+					]
+				},
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Toxin Tolerance Improved",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain immunity to poison damage and the {@condition poisoned} condition."
+			]
+		},
+		{
+			"name": "Wall Walker",
+			"source": "J:Darkweaver",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Darkweaver",
+			"subclassSource": "J:Darkweaver",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can cast the {@spell spider climb|phb} spell at will, and without consuming a spell slot. When you do so, you can cast it on up to ten willing creatures, and you automatically pass saving throws to maintain concentration on this spell."
+			]
+		}
+    ]
+}

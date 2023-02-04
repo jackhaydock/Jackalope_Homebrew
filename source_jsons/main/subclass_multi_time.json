@@ -1,0 +1,448 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Temporal",
+				"abbreviation": "J:Temporal",
+				"color": "0a2a8a",
+				"full": "Jackalope: Temporal Subclasses",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"subclass": [
+		{
+			"name": "Time Domain",
+			"shortName": "Time",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"Time Domain|Cleric|PHB|Time|J:Temporal|1",
+					"Temporal Control|Cleric|PHB|Time|J:Temporal|1",
+					"Channel Divinity: Rewrite History|Cleric|PHB|Time|J:Temporal|2",
+					"Quickened Evasion|Cleric|PHB|Time|J:Temporal|6",
+					"Potent Spellcasting|Cleric|PHB|Time|J:Temporal|8",
+					"Blessed Strikes|Cleric|PHB|Time|J:Temporal|8",
+					"Temporal Halt|Cleric|PHB|Time|J:Temporal|17",
+					"Optional Rule: Additional Domain Spells|Cleric|PHB|Time|J:Temporal|17"
+			],
+			"subclassSpells": [
+				{
+					"name": "Gift of Alacrity",
+					"source": "EGW"
+				},
+				{
+					"name": "Feather Fall",
+					"source": "PHB"
+				},
+				{
+					"name": "Immovable Object",
+					"source": "EGW"
+				},
+				{
+					"name": "Hold Person",
+					"source": "PHB"
+				},
+				{
+					"name": "Slow",
+					"source": "PHB"
+				},
+				{
+					"name": "Haste",
+					"source": "PHB"
+				},
+				{
+					"name": "Dimension Door",
+					"source": "PHB"
+				},
+				{
+					"name": "Freedom of Movement",
+					"source": "PHB"
+				},
+				{
+					"name": "Far Step",
+					"source": "XGE"
+				},
+				{
+					"name": "Temporal Shunt",
+					"source": "EGW"
+				},
+				{
+					"name": "Time Stasis",
+					"source": "J:Temporal"
+				}
+			]
+		},
+		{
+			"name": "The Timeless One Warlock",
+			"shortName": "Timeless One",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+					"The Timeless One|Warlock|PHB|Timeless|J:Temporal|1",
+					"Expanded Spell List|Warlock|PHB|Timeless|J:Temporal|1",
+					"Timeless Warrior|Warlock|PHB|Timeless|J:Temporal|1",
+					"Rush|Warlock|PHB|Timeless|J:Temporal|1",
+					"Déjà Vu|Warlock|PHB|Timeless|J:Temporal|6",
+					"Delay Spell|Warlock|PHB|Timeless|J:Temporal|10",
+					"Enhanced Rush|Warlock|PHB|Timeless|J:Temporal|10",
+					"Timeless Body|Warlock|PHB|Timeless|J:Temporal|14"
+			],
+			"subclassSpells": [
+				{
+					"name": "Gift of Alacrity",
+					"source": "EGW"
+				},
+				{
+					"name": "Shield",
+					"source": "PHB"
+				},
+				{
+					"name": "Blur",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Weapon",
+					"source": "PHB"
+				},
+				{
+					"name": "Haste",
+					"source": "PHB"
+				},
+				{
+					"name": "Pulse Wave",
+					"source": "EGW"
+				},
+				{
+					"name": "Gravity Sinkhole",
+					"source": "EGW"
+				},
+				{
+					"name": "Freedom of Movement",
+					"source": "PHB"
+				},
+				{
+					"name": "Destructive Wave",
+					"source": "PHB"
+				},
+				{
+					"name": "Temporal Shunt",
+					"source": "EGW"
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Time Domain",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"entries": [
+				"The forces of time and entropy are some of the most powerful in the universe. Eventually time will consume everything, even the universe itself. The gods and goddesses who control the flow of time, such as Kronos or Talitus control the lives, deaths and fate of every being in existence. Followers of these deities can employ chronomancy to alter their fate and that of their allies.",
+				"At each indicated cleric level, you add the listed spells to your spells prepared.",
+				{
+					"type": "table",
+					"caption": "Time Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell gift of alacrity|egw}, {@spell feather fall|phb}"
+						],
+						[
+							"3rd",
+							"{@spell immovable object|egw}, {@spell hold person|phb}"
+						],
+						[
+							"5th",
+							"{@spell slow|phb}, {@spell haste|phb}"
+						],
+						[
+							"7th",
+							"{@spell dimension door|phb}, {@spell freedom of movement|phb}*"
+						],
+						[
+							"9th",
+							"{@spell far step|xge}, {@spell temporal shunt|egw}"
+						]
+					]
+				},
+				"{@note *If your DM allows, you can replace either the {@spell dimension door|phb} or {@spell freedom of movement|phb} spell in your time domain spells with the {@spell Time Stasis|Jackalope} spell.}"
+			]
+		},
+		{
+			"name": "Temporal Control",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting when you choose this domain at 1st level, you have advantage on your initiative rolls, provided you are not {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Rewrite History",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to rewrite a single moment in time.",
+				"When you or a creature you can see within 30ft of you rolls damage or healing, you can use your channel divinity as a reaction to force them to reroll a number of dice up to up to your Wisdom modifier, they must then take the result of the new rolls."
+			]
+		},
+		{
+			"name": "Quickened Evasion",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you can control the flow of time to improve evasive capabilities for you or your allies. When you or a creature within 30ft of you is targeted by an attack roll or makes a Dexterity saving throw, you can use your reaction to add your wisdom modifier to the creature’s AC or saving throw. You can choose to use this feature after the die is rolled, but before the outcome is determined.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any {@class cleric|phb} cantrip."
+			]
+		},
+		{
+			"name": "Blessed Strikes",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level cleric {@variantrule optional class features|tce|optional feature}, which replaces the Potent Spellcasting feature}",
+				"You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal {@dice 1d8} radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+			]
+		},
+		{
+			"name": "Temporal Halt",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you learn the {@spell Time Stop} spell as a cleric spell and always have it prepared, it does not count towards your prepared spells. When you cast it as a cleric spell you can target one additional creature to be unaffected by the spell, allowing them to also use actions and move as normal for the duration of the spell. The spell ends for both of you if either of you perform any action that would end the spell for you, as described in the spell’s description."
+			]
+		},
+		{
+			"name": "Optional Rule: Additional Domain Spells",
+			"source": "J:Temporal",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Time",
+			"subclassSource": "J:Temporal",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"If your DM allows, you may add the {@spell Reality Break|egw} and {@spell Time Ravage|egw} spells to your cleric spell list."
+			]
+		},
+		{
+			"name": "The Timeless One",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"entries": [
+				"Your patron does not conform to the normal flow of time, they may even exist outside of time entirely. Followers of a timeless being can manipulate their own flow of time relative to the world around them, allowing them to move, act and even age at different rates."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Timeless One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Timeless One Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell Gift of Alacrity|egw}, {@spell Shield|phb}"
+						],
+						[
+							"2nd",
+							"{@spell Blur|phb}, {@spell Magic Weapon|phb}"
+						],
+						[
+							"3rd",
+							"{@spell Haste|phb}, {@spell Pulse Wave|egw}"
+						],
+						[
+							"4th",
+							"{@spell Gravity Sinkhole|egw}, {@spell Freedom of Movement|phb}"
+						],
+						[
+							"5th",
+							"{@spell Destructive Wave|phb}, {@spell Temporal Shunt|egw}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Timeless Warrior",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial weapons."
+			]
+		},
+		{
+			"name": "Rush",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you can enter a slightly different time stream to those around you, thereby improving your relative speed and reflexes. As a bonus action, you can trigger a rush provided you are not {@condition incapacitated} or wearing heavy armor. The rush lasts 1 minute but ends early if you are {@condition incapacitated} or choose to end it (no action required). For the duration of the rush, your speed is increased by 10ft and you have advantage on Dexterity checks and saving throws.",
+				"Additionally, whenever you trigger a rush, you choose one of the following forms, each form grants you additional benefits for the duration of the rush.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Dancer.} You can use a bonus action to take the {@action Disengage} or {@action Dodge} action. You may also use this bonus action as part of the same one you use to trigger the rush.",
+						"{@b Strider.} {@quickref Difficult terrain||3} does not slow you down.",
+						"{@b Striker.} You can use a bonus action to gain advantage on your next attack roll within the same rush. You may also use this bonus action as part of the same one you use to trigger the rush."
+					]
+				},
+				"You can use this feature a number of times equal to your Proficiency Bonus, you regain all expended uses when you finish a long rest.",
+				"When you reach 10th level in this class, each of your rush forms gain extra benefits."
+			]
+		},
+		{
+			"name": "Déjà Vu",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can briefly jump back in time a few seconds to act simultaneously with your past self. On your turn, you can take one additional action. Once you use this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Delay Spell",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, when a spell that targets an area you can see, such as the {@spell fireball|phb} spell, you may use a reaction to freeze the spell in time for a short duration. The spell is still cast in the same area but will not take effect until you release it any point before the end of your next turn (no action required), potentially allowing creatures and objects to enter or leave the area before the spell is released. The spell is released early if you lose sight of the spell's area, if you are {@condition incapacitated|phb}, or you die. Once you use this feature, you must finish a short or long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Enhanced Rush",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, each of your rush forms gain additional benefits for the duration of the rush.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Dancer.} You can take a reaction on every turn in combat.",
+						"{@b Strider.} You gain a climbing speed and a swimming speed equal to your walking speed.",
+						"{@b Striker.} Your attack rolls score a critical hit on a roll of 19 or higher on the d20."
+					]
+				}
+			]
+		},
+		{
+			"name": "Timeless Body",
+			"source": "J:Temporal",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Timeless",
+			"subclassSource": "J:Temporal",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you no longer age unless you choose to, and you can't be aged magically. Additionally, you no longer need to breathe, eat, drink or sleep."
+			]
+		}
+	]
+}

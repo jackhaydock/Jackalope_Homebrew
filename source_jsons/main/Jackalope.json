@@ -1,0 +1,4054 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:General",
+				"abbreviation": "J:General",
+				"color": "e8dfc7",
+				"full": "Jackalope: General",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"feat": [
+		{
+			"name": "Tinkerer",
+			"source": "J:General",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You are a talented craftsman, able to create contraptions beyond common understanding, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn two {@filter artificer infusions|optionalfeatures|Feature Type=AI} of your choice from the artificer class (these are added to any existing artificer infusions you know from any other source).  Whenever you gain a level, you can replace one of these Artificer Infusion options with another one from the artificer class.",
+						"Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions (if you can already infuse items, the number of items you can have infused at once is increased by one)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hoplite",
+			"source": "J:General",
+			"entries": [
+				"You adopt the fighting style of the hoplite, with {@item spear|phb} and {@item shield|phb}. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When using a {@item spear|phb} in one hand and a {@item shield|phb} in the other, the weapon's damage die changes as if you wielded the weapon in two hands, from a {@dice d6} to a {@dice d8}. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"Attacking at long range doesn't impose disadvantage on your ranged attack rolls with spears.",
+						"When an ally within 5 feet of you is attacked, you can use your reaction to grant them a +2 bonus to AC against the triggering attack. You must be wielding a {@item shield|phb} to use this feature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pit Fighter",
+			"source": "J:General",
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"entries": [
+				"You have adopted a flashly fighting style that always goes down well with the arena crowds. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you make a weapon attack against a creature, you can use your bonus action gain a bonus to the attack and damage rolls equal to your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			]
+		},
+		{
+			"name": "Blood Mage Initiate",
+			"source": "J:General",
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"You can harness the power of your own blood to enhance your spells. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that restores hit points or deals damage to creatures other than you, you can roll {@dice 2d4} and add the number rolled as a bonus to the hit points regained or the damage dealt. You take necrotic damage equal to the number rolled, which can't be reduced in any way.",
+						"When you finish a short rest, you can choose to recover expended spell slots. None of the slots can be 6th level or higher and you take necrotic damage equal to five times the combined level of the spell slots, which can't be reduced in any way."
+					]
+				}
+			]
+		},
+		{
+			"name": "Throwing Weapon Master",
+			"source": "J:General",
+			"entries": [
+				"You have mastered the art of throwing weapons. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Attacking at long range doesn't impose disadvantage on your ranged attack rolls when using a weapon with the thrown property.",
+						"You can add your proficiency bonus to any ranged attack rolls when using a weapon with the thrown property even if you are not normally proficient with that weapon.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whipmaster",
+			"source": "J:General",
+			"ability": [
+				{
+        "choose": {
+            "from": [
+                "str",
+                "dex"
+            ],
+            "amount": 1
+        	}
+    		}
+			],
+			"entries": [
+				"You have mastered the art of using whips. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you wield a {@item whip|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
+						"Whips gain the Light property while you wield them.",
+						"When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action against that creature. While you have a creature grappled in this way, you cannot use the whip for any other actions."
+					]
+				}
+			]
+		},
+		{
+			"name": "Angelic Healer",
+			"source": "J:General",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Healing Hands trait as either a bonus action or an action.",
+						"You can use your Healing Hands trait a number of times equal to your proficiency bonus. You regain all uses upon finishing a long rest.",
+						"When you heal a creature with your Healing Hands trait, the creature you touch regains an additional {@dice 2d4} hitpoints."
+					]
+				}
+			]
+		},
+		{
+			"name": "Angelic Revelation",
+			"source": "J:General",
+			"prerequisite": [
+    		{
+				"race": [
+						{
+							"name": "aasimar"
+						}
+					]
+    		}
+			],
+			"entries": [
+				"The divine energy within you has grown stronger. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can use your Celestial Revelation trait again after finishing a short or long rest. In addtion, when you finish a short or long rest, you can change your Celestial Revelation for a different one.",
+						"When you use the Necrotic Shroud or Radiant Consumption revelation, the range is 15ft, rather than 10ft. In addition, when you use the Radiant Soul revelation, your speed is increased by 10ft for the duration of your transformation.",
+						"When you, or a creature you can see within 5ft is targeted by an attack roll and you are using your Celestial Revelation trait, you can use a reaction to impose disadvantage on the attack roll as you obscure the targeted creature with your light or wings."
+					]
+				},
+				"{@note This feat was designed for use with the {@race aasimar|mpmm} race from Mordenkainen Presents: Monsters of the Multiverse. It may require adjustment to work with older versions of the race.}"
+			]
+		},
+		{
+			"name": "Magic Initiate (Variant)",
+			"source": "J:General",
+			"entries": [
+				"You learn two cantrips and one 1st-level spell of your choice. You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+				"  Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Knuckledusters",
+			"source": "J:General",
+			"type": "M",
+			"weapon": true,
+			"sword": false,
+			"weaponCategory": "simple",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"property": [
+				"L"
+			]
+		},
+		{
+			"name": "Necklace of Beards",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "J:General",
+			"entries": [
+				"While wearing this necklace a creature's beard grows by half an inch after each long rest, even if they could not normally grow a beard."
+			]
+		},
+		{
+			"name": "Ring of Theatrics",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "J:General",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can cast {@spell thaumaturgy|phb} as an action."
+			]
+		},
+		{
+			"name": "Ring of Tricks",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "J:General",
+			"reqAttune": true,
+			"entries": [
+				"While wearing this ring, you can cast {@spell prestidigitation|phb} as an action."
+			]
+		},
+		{
+			"name": "Gloves of the Gardener",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "J:General",
+			"reqAttune": true,
+			"entries": [
+				"While wearing these gloves, you can cast {@spell druidcraft|phb} as an action."
+			]
+		},
+		{
+			"name": "Shield Strap",
+			"rarity": "none",
+			"source": "J:General",
+			"value": 500,
+			"weight": 1,
+			"type": "G",
+			"entries": [
+				"This leather strap can be used to hang a {@item shield|phb} from your shoulder. When using it in this manner, you may don or doff the shield as a bonus action rather than an action."
+			]
+		},
+		{
+			"name": "Buckler",
+			"type": "S",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 4,
+			"ac": 1,
+			"source": "J:General",
+			"entries": [
+				"This small shield is made from wood or metal and is strapped to the forearm, leaving the hand free. Wielding a buckler increases your Armor Class by 1. You can benefit from only one shield or buckler at a time. You cannot use weapons with the two handed property while wielding this buckler."
+			]
+		},
+		{
+			"name": "Boots of Dramatic Hovering",
+			"wondrous": true,
+			"rarity": "common",
+			"source": "J:General",
+			"entries": [
+				"These boots allow you to hover dramatically up to 1 foot above the ground as a bonus action. Whilst hovering, you move as if you were walking. The boots do not grant you a flying speed or any protection from terrain, falls or traps."
+			]
+		},
+		{
+			"name": "Scroll of Unique Wish",
+			"type": "SC",
+			"rarity": "very rare",
+			"source": "J:General",
+			"attachedSpells": [
+				"wish"
+			],
+			"entries": [
+				"This scroll allows a creature to cast the {@spell wish|phb} spell. In addition to the usual drawbacks of the spell, if the creature's wish has ever been wished before, the wish fails and instead summons an {@creature avatar of death|dmg} that is hostile to the creature. The Dungeon Master decides if the wish is unique. Whether the wish suceeds or fails, the scroll burns up and can't be used again."
+			]
+		},
+		{
+			"name": "Temporal Gearbox",
+			"wondrous": true,
+			"rarity": "very rare",
+			"source": "J:General",
+			"entries": [
+				"This set of incrementally larger gears connected to a crank can be used to imprison a creature in a slower timestream. As an action you can point this device at a creature and turn the crank, forcing the creature to make a DC12 Wisdom saving throw. On a fail, the creature's perception of time is slowed to the speed where a single heartbeat takes a year (one round in combat takes 6 years).",
+				"The creature can act normally but only at their usual speed, even a quick action such as blinking can appear to take weeks or even months. For this reason, this device is commonly used as a torture device. The Dungeon Master decides how this experience affects the creature; rolling for one or more {@variantrule Madness|dmg} effects would be appropriate.",
+				"On subsequent turns, you can use an action to continue turning the crank, keeping the effect going. Otherwise, the effect lasts until the start of your next turn. At the end of each of it's turns, the creature can attempt to make the wisdom saving throw again, breaking free on a success. Once a creature has succeeded on a saving throw, it cannot be affected by this item again for 7 days."
+			]
+		},
+		{
+			"name": "Anti-Magic Collar",
+			"wondrous": true,
+			"rarity": "rare",
+			"source": "J:General",
+			"entries": [
+				"This silver collar can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells.",
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
+			]
+		},
+		{
+			"name": "Cruel Anti-Magic Collar",
+			"wondrous": true,
+			"rarity": "very rare",
+			"source": "J:General",
+			"entries": [
+				"This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
+				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
+			]
+		},
+		{
+			"name": "Shield of Bouncing",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"type": "M",
+			"weapon": true,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"bonusWeapon": "+1",
+			"dmgType": "B",
+			"weaponCategory": "simple",
+			"source": "J:General",
+			"property": [
+				"L",
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"In additon to a simple melee weapon, this weapon can be used as a {@item shield|phb}, granting a +2 bonus to your armor class if you are wielding no other shield.",
+				"Additionally, when you make a ranged attack using this weapon, the weapon bounces back to your hand after the attack."
+			]
+		},
+		{
+			"name": "Longshoreman's Hook",
+			"source": "J:General",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"property": [
+				"L"
+			],
+			"entries": [
+				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone|phb}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+			]
+		},
+		{
+			"name": "Chronicles of Alvergia",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "$",
+			"value": 2500,
+			"weight": 4,
+			"entries": [
+				"This heavy tome is part of a 12 volume compendium written by Annaleus of Rubin and contains information about the geography, politics, cultures, wildlife, theologies and cultures of the regions within Alvergia. Most versions are written in either common or elvish but versions can exist in most written languages. Each volume is worth about 25gp and covers a specific region in Alvergia, but the entire collection as a set is worth about 1000gp.",
+				"When you possess a volume of the book you may ask the DM for a piece of lore relating to the volume's respective region and they may give you some tidbits. For example, you could ask for details regarding a particular god or about the laws and customs of a city. The information should be something that a well researched scholar would know and deem worthy to mention. The DM may decide that a topic is too specific, insignificant or secret to appear in the volumes. They may also decide that a topic is broad enough to require several hours, or even days, of reading to fully understand it.",
+				"Below are the regions covered by each volume.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Volume",
+						"Region Covered"
+					],
+					"colStyles": [
+						"col-2",
+						"col-11"
+					],
+					"rows": [
+						[
+							"Vol. I",
+							"The Sea of Cyranos"
+						],
+						[
+							"Vol. II",
+							"Enereon and Brindsmarch"
+						],
+						[
+							"Vol. III",
+							"The Evandrin Isles"
+						],
+						[
+							"Vol. IV",
+							"Ilahli"
+						],
+						[
+							"Vol. V",
+							"The Northlands"
+						],
+						[
+							"Vol. VI",
+							"Solis"
+						],
+						[
+							"Vol. VII",
+							"The Empire of Telnyr"
+						],
+						[
+							"Vol. VIII",
+							"The Pelais Coast and the Feywild"
+						],
+						[
+							"Vol. IX",
+							"The Plains of Vorkyr"
+						],
+						[
+							"Vol. X",
+							"The Dunes of Xheros"
+						],
+						[
+							"Vol. XI",
+							"Xia and the Forest of Muhai"
+						],
+						[
+							"Vol. XII",
+							"The Oceans and Lonely Islands"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tome of Many Cheeses",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This slightly damp catalogue of different types of cheeses has a funny smell. As an action, you can choose one of the cheeses listed and summon up to 5lbs of that type of cheese in a space adjacent to you. The cheese disappears if it is not consumed within 24 hours. Once you summon cheese, you cannot do so again until the next dawn.",
+				"In addition, whenever you find a new form of non-magical cheese, you can spend 10 minutes describing it on a new page in the book. It can then be summoned using the book."
+			]
+		},
+		{
+			"name": "Assassin's Teapot",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "G",
+			"value": 15000,
+			"weight": 5,
+			"entries": [
+				"This specially designed teapot features two separate compartments that can hold different liquids, such as tea and poison. It also features a pair of secret holes on the handle, with which you to control which liquid is poured by covering specific holes. When you pour from this teapot, choose one or both of the liquids to be poured.",
+				"You have advantage on Dexterity (Sleight of Hand) checks made to avoid creatures noticing anything usual about the way you pour the teapot."
+			]
+		},
+		{
+			"name": "Hydra Blood",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "G",
+			"poison": true,
+			"value": 25000,
+			"entries": [
+				"This poison must be harvested from a dead or {@condition incapacitated|phb} {@creature hydra|mm}. You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 12 Constitution saving throw or take {@dice 4d6} poison damage. Once applied, the poison retains potency for 1 minute before drying."
+			]
+		},
+		{
+			"name": "Cloak of Endless Poultry",
+			"source": "J:General",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"charges": 5,
+			"recharge": "dawn",
+			"entries": [
+				"This feathered cloak holds some form of gateway to a demi plane full of chickens. The cloak has 5 charges, it regains {@dice 1d6-1} charges daily at dawn.",
+				"As an action you can expend a charge and open the cloak and {@dice 1d4} {@creature chicken|J:General|chickens} fall out into adjacent spaces. The chickens are friendly to you and your allies, they will follow you and may attack any creatures or objects that attack you but are otherwise unable to understand any commands you make. The chickens last for 1 hour or until they die, after which they either enter the cloak again or disappear in a puff of feathers."
+			]
+		},
+		{
+			"name": "Nautical Bone Charm",
+			"source": "J:General",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"charges": 5,
+			"recharge": "dawn",
+			"entries": [
+				"This broken bone is inscribed with arcane runes and has 5 charges. It regains {@dice 1d4+1} charges daily at dawn.",
+				"As an action, you can expend a number of charges to cast the {@spell Spectral Crew|jackalope} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+			]
+		},
+		{
+			"name": "+1 Pugilist Bracers",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While wearing these leather bracers, you have a +1 bonus to attack and damage rolls made with unarmed strikes.",
+				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "+2 Pugilist Bracers",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"While wearing these leather bracers, you have a +2 bonus to attack and damage rolls made with unarmed strikes.",
+				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "+3 Pugilist Bracers",
+			"source": "J:General",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"While wearing these leather bracers, you have a +3 bonus to attack and damage rolls made with unarmed strikes.",
+				"In addition, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Bottle of Delights",
+			"source": "J:General",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This clear, glass bottle can hold up to a gallon of liquid. When there is liquid in the bottle, you may cast {@spell Bazoz's Spicy Water|jackalope} on the liquid at will.",
+				"If you pour the liquid out of the bottle, the effects remain active in the liquid for 1 hour, or until you use the bottle to cast the cantrip again."
+			]
+		},
+		{
+			"name": "Brine Poison",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "G",
+			"poison": true,
+			"entries": [
+				"This poison is harvested from brine pools deep underwater, the extreme salinity is toxic to most creatures. You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 12 Constitution saving throw or take {@dice 2d4} poison damage and become {@condition incapacitated|phb} until the end of its next turn. Once applied, the poison retains potency for 1 minute before drying.",
+				"At the DM's discretion, if a creature is not acclimated to high salinity environments, they have disadvantge on the saving throw and take double the poison damage on a fail."
+			]
+		},
+		{
+			"name": "Silent Hammer",
+			"source": "J:General",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This small, metal hammer produces no noise when used to strike something. The object or creature struck with the hammer also produces no noise as a result of the striking."
+			]
+		},
+		{
+			"name": "Magic Eyeliner",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This eyeliner is imbued with magic powders that grant the wearer benefits for a short duration. As an action, you can apply the eyeliner to a creature. That creature has truesight out to 60ft for the next 8 hours, after which the eyeliner ceases to be magical."
+			]
+		},
+		{
+			"name": "Ring of False Death",
+			"source": "J:General",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This dark metal ring is popular with spies and criminals. When you take damage, you can use a reaction to cast the {@spell feign death|phb} spell on yourself without providing material components. Once you do so, you can not do so again until the next dawn."
+			]
+		},
+		{
+			"name": "Spellcaster's Glove",
+			"source": "J:General",
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"entries": []
+		},
+		{
+			"name": "Body Modder's Tools",
+			"source": "J:General",
+			"type": "AT",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"additionalEntries": [
+				"Proficiency with body modder's tools represents your ability to safely modify a creature's body with grafts, implants, piercings, scarification and tattoos. You also acquire an understanding of the history and symbolism of body modifications, which can aid you in producing and examining them.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"This kit includes needles, syringes, scalpels, gauze and small bottles of various dyes, inks, disinfectants and other chemicals."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcana",
+					"entries": [
+						"You gain additional insight when identifying the materials and patterns used in magic tattoos and other modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History and Religion",
+					"entries": [
+						"You have greater understanding of the cultural and religious significance of certain body modifications."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medicine",
+					"entries": [
+						"You can recognise and treat infections caused by unclean punctures and wounds. You also have better chances of spotting when a creature's appearance has been nonmagically modified, such as implanted horns or dyed skin."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Modify",
+					"entries": [
+						"As part of a long rest, you can expend at least 10gp worth of materials to perform (or reverse) a body modification on a willing creature, such as a tattoo or piercing. The DM may decide that more complex modifications require more valuable materials."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Body Modder's Tools",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Dye, tattoo or scar a creature's fur or skin.",
+							"10"
+						],
+						[
+							"Give a creature a piercing or expander.",
+							"10"
+						],
+						[
+							"Graft or implant horns, scales, spikes, a tail or other decorative body parts.",
+							"15"
+						],
+						[
+							"Slightly alter the shape of a humanoid's facial features.",
+							"15"
+						],
+						[
+							"Make a humanoid appear as a different but similar race, or as a different sex.",
+							"20"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Ring of Folding",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This segmented, metal ring has a surprisingly large interior compartment and can be used to hide weapons.",
+				"Over the course of 10 minutes, you can magically fold and store a single weapon inside the ring. You can then use a bonus action to unfold the wepon and summon it to your empty hand."
+			]
+		},
+		{
+			"name": "Voltaic Ball Bearings (bag of 1,000)",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"curse": true,
+			"baseItem": "ball bearings (bag of 1,000)|phb",
+			"entries": [
+				"As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall {@condition prone}. A creature moving through the area at half speed doesn't need to make the saving throw. If a creature in the area takes lightning damage, they take an additional {@dice 1d12} lightning damage.",
+				"Additionally, while holding the bag, you can use a bonus action to command any balls within 15ft to magically fly back into the bag via the most direct route.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, you are filled with an overwhelming urge to put one or more of the ball bearings in your mouth. While you do not have any ball bearings in your mouth, you have disadvantage on ability checks, attack rolls and saving throws. While you have at least one ball bearing in your mouth, you are vulnerable to lightning damage. You are unwilling to part with all of the balls until the curse is broken with remove curse or similar magic, keeping at least one ball on your person at all times."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gauntlets of the Hurricane",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"These leather and iron scale gauntlets grant the wielder remarkable strength and control with melee weapons. This item has 3 charges, and regains {@dice 1d4} charges daily at dawn.",
+				"While attuned, you can use a bonus action to expend one charge and gain the following benefits for the next 10 minutes:",
+				{
+					"type": "list",
+					"items": [
+						"You can ignore the heavy property and any Strength requirements on melee weapons.",
+						"You can wield a melee weapon in one hand as if you were wielding it with two hands.",
+						"You can use two-weapon fighting even when the melee weapons you are wielding aren't light or one-handed. You can also add your ability modifier to the damage of the second attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ki Stone",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": "by a monk",
+			"entries": [
+				"This jade stone bears a carving resembling a key on one side and one resembling a lock on the other. As an action, you can use this stone to expend 3 Ki points to cast either the {@spell arcane lock|phb} or {@spell knock|phb} spell. You must still provide any material components."
+			]
+		},
+		{
+			"name": "Ki Focusing Ring",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": "by a monk with the spellcasting or pact magic feature",
+			"entries": [
+				"This bimetallic, two-finger ring allows you to focus your Ki into magical reserves, or do the reverse. While attuned, you can use an action and spend 2 or more Ki points to recover an expended spell slot of a level equal to half the number of Ki points expended (rounded up). The recovered spell slot cannot be higher than 5th-level.",
+				"Alternatively, you can use an action and expend a spell slot to recover a number of expended Ki points equal to the level of the spell slot expended."
+			]
+		},
+		{
+			"name": "Boots of Explosive Propulsion",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"These scorched leather and metal boots grant you extraordinary movement capabilities. This item has 3 charges, and regains {@dice 1d4} charges daily at dawn.",
+				"As a bonus action, you can expend a charge and cast the {@spell explosive propulsion|jackalope} (save DC 15) spell on yourself, you do not provide material components for this casting. In addition, the spell does not require concentration and lasts for the full duration, or until you end the effect (no action required)."
+			]
+		},
+		{
+			"name": "Spectacles of Glinting",
+			"source": "J:General",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing these spectacles, you can use a bonus action to make them glint stylishly. Some variants of this item may feature tinted glass."
+			]
+		},
+		{
+			"name": "Pocketplane Locket",
+			"source": "J:General",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This locket contains a small demiplane in which constructs can live. This demiplane can be designed in any way the creator sees fit but can only hold up to six constructs and must be less than 1 mile in any dimension.",
+				"As an action you can touch a willing construct and place them inside the demiplane. While inside the locket, a construct's hitpoints cannot be changed and any conditions and effects are halted until the construct leaves the gem. The constructs are aware of the outside world but cannot communicate with any creatures outside.",
+				"As an action you can command any number of willing constructs to leave the gem and enter whatever plane the locket is on. They appear in an empty space within 10ft of the locket."
+				
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Mercenary Captain",
+			"source": "J:General",
+			"size": ["M"],
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item Breastplate|phb}",
+						"{@item Shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 13,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Formation Tactics",
+					"entries": [
+						"The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The captain makes three melee attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) piercing damage, or {@h}8 ({@damage 1d8 + 3}), piercing damage if used with two hands."
+					]
+ 				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) blugeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Shape Up Maggots",
+					"entries": [
+						"Whenever a friendly creature within 30 feet of the captain that can hear it misses with an attack, the captain can yell perilous threats to allow that creature to reroll the attack roll."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Mercenary Hoplite",
+			"source": "J:General",
+			"size": ["M"],
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item Breastplate|phb}",
+						"{@item Shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 11,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Formation Tactics",
+					"entries": [
+						"The soldier has advantage on saving throws against being charmed, frightened, grappled, or restrained while it is within 5 feet of at least one ally."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hoplite makes two melee attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 2}) piercing damage, or {@h}7 ({@damage 1d8 + 2}), piercing damage if used with two hands."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Mercenary Archer",
+			"source": "J:General",
+			"size": ["M"],
+			"type": {
+				"type": "humanoid"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Padded Armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 28,
+				"formula": ""
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 13,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+5",
+				"perception": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The hoplite makes two attacks with its longbow or kopis."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 3}) piercing damage."
+					]
+ 				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Warforged Bodyguard",
+			"source": "J:General",
+			"size": ["M"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 9,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"passive": 14,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Serve the Master",
+					"entries": [
+						"The warforged knows a humanoid creature as its master. The warforged must protect the master with its life, and must obey the master's every order, unless it directly threatens the life of the master."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warforged makes two armblade attacks."
+					]
+				},
+				{
+					"name": "Armblade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Protect The Master",
+					"entries": [
+						"When a creature makes an attack roll against the warforged's master and the warforged is able to reach them using their remaining movement, the warforged can use their reaction and their movement to block the incoming attack, taking the hit (or miss) themselves. The warforged's AC is used to determine if the attack hits or misses."
+					]
+				},
+				{
+					"name": "Final Protocol",
+					"entries": [
+						"When all hope is lost, the warforged can perform one final act to hinder their enemies. The warforged can overload their core to explode.",
+            "Each creature in a 20-foot-radius sphere centered on the warforged must make a DC12 Dexterity saving throw. A target takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.",
+						"This action kills the warforged and shatters their body into a thousand pieces."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Protection",
+					"entries": [
+						"When an attacker the warforged can see makes an attack roll against a creature within 5 feet of the warforged, the warforged can impose disadvantage on the attack roll."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Warforged Horse",
+			"source": "J:General",
+			"size": ["L"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 25,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 18,
+			"int": 2,
+			"wis": 12,
+			"cha": 7,
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Trampling Charge",
+					"entries": [
+						"If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked {@condition prone|phb}. If the target is {@condition prone|phb}, the horse can make another attack with its hooves against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) blugeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Warforged Boar",
+			"source": "J:General",
+			"size": ["L"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "5d10 + 15"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 17,
+			"dex": 10,
+			"con": 18,
+			"int": 2,
+			"wis": 7,
+			"cha": 5,
+			"passive": 11,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked {@condition prone|phb}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Tusk",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Warforged Dog",
+			"source": "J:General",
+			"size": ["M"],
+			"type": {
+				"type": "construct",
+				"tags": [
+					"warforged"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 25,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"understands Common but can't speak it"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Warforged Resilience",
+					"entries": [
+						"The warforged has advantage on saving throws against being {@condition poisoned|phb} and is immune to disease. Magic can't put it to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 2}) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked {@condition prone|phb}."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Jackalope",
+			"source": "J:General",
+			"size": ["S"],
+			"type": {
+				"type": "Fey"
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 7,
+				"formula": "3d4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 6,
+			"dex": 17,
+			"con": 13,
+			"int": 3,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"deception": "+4",
+				"perception": "+4",
+				"stealth": "+5"
+			},
+			"passive": 14,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the jackalope can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"With the DM's permission, the {@spell find familiar|phb} spell can summon a jackalope."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The jackalope has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ventriloquy",
+					"entries": [
+						"The jackalope can cast the {@spell minor illusion|phb} cantrip at will without providing somatic or material components. When it does so, the spell has a range of 60ft but it can only create voices and sounds. The jackalope's spell save DC for this casting is 16."
+					]
+				},
+				{
+					"name": "Antlers",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+ 				}
+			],
+			"familiar": true,
+			"traitTags": [
+				"Keen Senses"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Chicken",
+			"source": "J:General",
+			"size": ["S"],
+			"type": {
+				"type": "Beast"
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 1,
+				"formula": "1d4-2"
+			},
+			"speed": {
+				"walk": 35,
+				"fly": 10
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 13,
+			"int": 3,
+			"wis": 9,
+			"cha": 5,
+			"skill": {
+				"perception": "+1"
+			},
+			"passive": 9,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Bad Flier",
+					"entries": [
+						"The chicken falls at the end of a turn if it's airborne and the only thing holding it aloft is its flying speed."
+					]
+				},
+				{
+					"name": "Headless",
+					"entries": [
+						"If the chicken is reduced to 0 hit points by non-magical damage, it does not die immediately. Instead, it remains alive but headless for {@dice 1d4} rounds, or until it takes additional damage from any source. While headless, the chicken is {@condition blinded|phb}, {@condition deafened|phb}, cannot use its peck attack, cannot restore hit points and must move at least 20ft in a random direction on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Peck",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Doomerang",
+			"source": "J:General",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+					"You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range of the attack is doubled."
+			]
+		},
+		{
+			"name": "Potent Weapon",
+			"source": "J:General",
+			"featureType": ["AI"],
+			"prerequisite": [
+				{
+					"item": [
+						"A Simple or Martial weapon"
+					]
+				}
+			],
+			"entries": [
+					"This magic weapon grants a +1 bonus to attack and damage rolls made with it.",
+					"Choose one of the following damage types when creating the weapon: acid, cold, fire, lightning or poison.",
+					"This weapon has 4 charges. When making a weapon attack with this weapon, you can expend one charge to deal an additional {@dice 1d6} of the chosen damage type. The weapon regains {@dice 1d4} charges daily at dawn."
+			]
+		},
+		{
+			"name": "Agile Fighting",
+			"source": "J:General",
+			"featureType": [
+					"FS:B",
+					"FS:F",
+					"FS:R"
+			],
+			"entries": [
+					"All melee weapons that lack the heavy, two handed or special properties gain the finesse property when you wield them."
+			]
+		},
+		{
+			"name": "Akimbo Shooting",
+			"source": "J:General",
+			"featureType": [
+					"FS:F",
+					"FS:R"
+			],
+			"entries": [
+					"You can engage in two-weapon fighting even if one or both weapons are ranged. In addition, you do not need a hand free to load ammunition into ranged weapons (you still require two hands to use weapons with the two-handed property)."
+			]
+		},
+		{
+			"name": "Prone Fighting",
+			"source": "J:General",
+			"featureType": [
+					"FS:F",
+					"FS:R"
+			],
+			"entries": [
+					"Being prone does not impose disadvantage on your attack rolls."
+			]
+		},
+		{
+			"name": "Elemental Blast",
+			"source": "J:General",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"spell": [
+						"Eldritch Blast"
+					]
+				}
+			],
+			"entries": [
+					"When you cast Eldritch Blast, you can change the damage type to acid, cold, fire, lightning, or poison. If you cast multiple beams, you can choose the damage type of each beam individually."
+			]
+		},
+		{
+			"name": "Wings of Flight",
+			"source": "J:General",
+			"featureType": ["AI"],
+			"prerequisite": [
+				{
+					"level": {
+					"level": 6,
+					"class": {
+						"name": "Artificer"
+					}
+				},
+					"item": [
+						"A Backpack, Cloak or Suit of Armor (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+					"This pair of wood, leather and metal wings grants the wearer a fly speed of 20ft, provided they are not wearing heavy armor. In addition, the wearer has advantage on Dexterity saving throws while being held aloft by these wings.",
+					"This fly speed increases to 30ft when you reach 10th level in this class."
+			]
+		},
+		{
+			"name": "Enhanced Tool",
+			"source": "J:General",
+			"featureType": ["AI"],
+			"prerequisite": [
+				{
+					"item": [
+						"a set of artisan tools or a musical instrument"
+					]
+				}
+			],
+			"entries": [
+					"This magic tool or instrument grants a +2 bonus to ability checks made using it.",
+					"This bonus increases to +4 when you reach 10th level in this class."
+			]
+		},
+		{
+			"name": "Eldritch Cavalier",
+			"source": "J:General",
+			"featureType": ["EI"],
+			"prerequisite": [
+				{
+					"level": 5
+				}
+			],
+			"entries": [
+					"You can cast the {@spell find steed|phb} spell at will."
+			]
+		}
+		
+	],
+	"race": [
+		{
+			"name": "Dwarf (Ocean)",
+			"source": "J:General",
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"size": ["M"],
+			"speed": {
+				"walk": 25,
+				"swim": 30
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"str": 1,
+					"con": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Deep Resilience",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison and cold damage."
+					]
+				},
+				{
+					"name": "Depth Diver",
+					"type": "entries",
+					"entries": [
+						"You have a swimming speed of 30 feet, and you can breathe air and water."
+					]
+				},
+				{
+					"name": "Ocean Dwarf Combat Training",
+					"type": "entries",
+					"entries": [
+						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light crossbow|phb}, {@item light hammer|phb}, {@item spear|phb}, {@item trident|phb}, {@item net|phb}, and {@item warhammer|phb}."
+					]
+				},
+				{
+					"name": "Tool Proficiency",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+					]
+				},
+				{
+					"name": "Stonecunning",
+					"type": "entries",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, such as ancient columns or statues, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			]
+		},
+		{
+			"name": "Awakened Cannon",
+			"alias": [
+				"Tin",
+				"Eldritch Cannon",
+				"Turret",
+				"Robot"
+			],
+			"source": "J:General",
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor",
+				"Uncommon Race"
+			],
+			"size": ["S"],
+			"speed": 30,
+			"ability": [
+				{
+        "choose": {
+            "from": [
+                "str",
+                "dex",
+                "int",
+                "wis",
+                "cha"
+            ],
+            "amount": 1
+        },
+				"con": 2
+    }
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"A typical cannon is between two and three years old. The maximum cannon lifespans remains a mystery; so far, cannons have shown no signs of deterioration due to age. You are immune to magical aging effects."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most cannons take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Cannons stand just over 2 feet tall and average about 20 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common. You can also speak using your Machine Speech trait."
+					]
+				},
+				{
+					"name": "Machine Speech",
+					"type": "entries",
+					"entries": [
+						"Machine Speech is a series of beeps at varying pitch and length. At the DM's discretion, certain other creatures may understand or speak this language."
+					]
+				},
+				{
+					"name": "Constructed Resilience",
+					"type": "entries",
+					"entries": [
+						"You were created to have remarkable fortitude, represented by the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You have advantage on saving throws against being poisoned, and you have resistance to {@condition poison|phb} damage.",
+								"You don't need to eat, drink, or breathe.",
+								"You are immune to disease.",
+								"You don't need to sleep, and magic can't put you to sleep."
+							]
+						}
+					]
+				},
+				{
+					"name": "Sentry's Rest.",
+					"type": "entries",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
+					]
+				},
+				{
+					"name": "Natural Armor.",
+					"type": "entries",
+					"entries": [
+						"Due to the shape of your body, you are ill-suited to wearing armor and gain no benefit from wearing it. Your body provides ample protection, however; your base armor class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+					]
+				},
+				{
+					"name": "Force Ballista.",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell Tin's Force Ballista|Jackalope} cantrip.",
+						"  Intelligence, Wisdom, or Charisma is your spellcasting ability for this cantrip when you cast it with this trait (choose when you select this race)."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Eldritch Cannons are the living weapons of artificers. Most are simple unthinking machines but, in rare circumstances, a cannon may gain sentience and free will, becoming an Awakened Cannon.",
+					"Cannons come in all manner of sizes and shapes, despite this, they are treated as humanoids and are capable of all the actions of typical humanoids."
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"machine speech": true
+				}
+			]
+		},
+		{
+			"name": "Halfling (Leprechaun)",
+			"source": "J:General",
+			"traitTags": [
+				"Tool Proficiency"
+			],
+			"size": ["S"],
+			"speed": {
+				"walk": 25
+			},
+			"ability": [
+				{
+					"cha": 1,
+					"dex": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Unlike most halflings, leprechauns are often mischievous and chaotic in nature."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Languages",
+					"type": "entries",
+					"entries": [
+						"You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+					]
+				},
+				{
+					"name": "Fey",
+					"type": "entries",
+					"entries": [
+						"Your creature type is fey, rather than humanoid."
+					]
+				},
+				{
+					"name": "Lucky",
+					"type": "entries",
+					"entries": [
+						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Brave",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"type": "entries",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					]
+				},
+				{
+					"name": "Little Cobbler",
+					"type": "entries",
+					"entries": [
+						"You gain proficiency with {@item cobbler's tools|phb}."
+					]
+				},
+				{
+					"name": "Pot O' Gold",
+					"type": "entries",
+					"entries": [
+						"You have access to a personal demiplane in which you can store treasure. As an action you can transfer a tiny, non-magical object, or up to 50 coins, from your hand to the demiplane. The demiplane can hold up to five pounds of non-magical objects (coins do not count towards this limit). While in the demiplane, the contents weigh nothing and can only be retrieved by you as an action. When you are reduced to 0 hit points, the contents spill out into a space within 5ft. of you."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"halfling": true
+				}
+			]
+		},
+		{
+			"name": "Dryad",
+			"source": "J:General",
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis"
+							],
+							"amount": 1
+					}
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fey",
+					"entries": [
+						"Your creature type is fey, rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the charmed condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Spirit",
+					"entries": [
+						"You know the {@spell druidcraft|phb} cantrip."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dryad Magic",
+					"entries": [
+						"You can cast the {@spell animal friendship|phb}, {@spell charm person} and {@spell entangle} spells with this trait and without material components. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have.",
+						"  Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Dryads are the spirits of trees manifested in near humanoid form, typically with a feminine appearance. They are often found has protectors of woodland areas, overseeing the trees and beasts and protecting them from encroaching wildfires, hunters and deforestation.",
+					"In Cyranos in Alvergia, they are often found in tribes led by a queen and are known to mingle with tribes of satyrs, centaurs and wood elves."
+				]
+			}
+		}
+	],
+	"spell": [
+		{
+			"name": "Time Stasis",
+			"source": "J:General",
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "an hourglass"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"This spell lets you freeze a creature or object in time. Choose a creature, of size Large or smaller, or a non-magical object, that is not greater than 10ft in any dimension, that you can see within range. If the target is a creature or is an object carried or worn by a creature, it must succeed on a Dexterity saving throw or be frozen in time for the spell's duration.",
+				"While frozen, a target is {@condition incapacitated|phb}, can't move or speak, and is unaware of its surroundings. It is also unaffected by any external forces such as gravity, attacks and spells."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature or object for each slot level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Tin's Force Ballista",
+			"source": "J:General",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You fire a small dart of magically compressed matter at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d8} force damage. The target must succeed on a Strength saving throw or be pushed up to 5 feet in a straight line away from you.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"races": [
+				{
+					"name": "Eldritch Cannon",
+					"source": "Jackalope"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Boomerang Blade",
+			"source": "J:General",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+			"type": "radius",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m":
+					{
+						"text": "a melee weapon worth at least 1 sp",
+						"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You launch the weapon used in the spell's casting and make a ranged attack with it against a creature you can see within 30 feet of you, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. On a hit, the target suffers the weapon attack's normal effects, and takes an additional {@dice 1d4} force damage. Hit or miss the weapon then returns to your hand.",
+				"This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "force damage on hit",
+					"scaling": {
+						"1": "1d4",
+						"5": "2d4",
+						"11": "3d4",
+						"17": "4d4"
+					}
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Reverse Teleport",
+			"source": "J:General",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "min"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You choose a creature you are familiar with. If the creature is willing, is on the same plane of existence as you and is not {@condition incapacitated}, they are then instantly transported to a space within 10 feet of you.",
+				"The creature instinctively understands that the spell will transport them and recognizes you as the caster if it knows you but it does not know where it will transported to."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Mirror",
+			"source": "J:General",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a vial of quicksilver"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create a magic, spectral mirror, that is no larger than 5 feet in any dimension, at a point you can see within range. Whenever a spell, that is cast in a line, hits the mirror, it is reflected at an angle of your choice for the remainder of its range and the mirror is destroyed. If this would result in a creature or object being hit by the spell multiple times, they are subjected to the effects of the spell for each time.",
+				"On each of your turns after you cast this spell, you can use a bonus action to move the mirror up to 30 feet in any direction. If the mirror is ever more than 30 feet from you, it is destroyed."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can create two mirrors simultaneously and move them both independently with the same bonus action. When you cast this spell using a spell slot of 8th level or higher, you can create and control up to three mirrors simultaneously."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Bazoz's Spicy Water",
+			"source": "J:General",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You choose a volume of liquid that is primarily water, that you can see within range and that fits within a 5-foot cube. The liquid may be separated into multiple groups or containers, provided they still fit within the 5-foot cube. You produce up to three of the following effects in the liquid for the spell's duration.",
+				{
+					"type": "list",
+					"items": [
+						"You fill the liquid with faintly glowing bubbles. You choose the color, size and density of these bubbles.",
+						"You make the liquid move in a simple repeating pattern, such as a small whirlpool, fountain or convection current. This movement is not strong enough to move or harm creatures or objects.",
+						"You make the liquid slowly change color or opacity every few seconds. In addition, you can make the liquid glow, producing dim light within 10ft.",
+						"You give the liquid a smell, flavor and temperature of your choice. The temperature change cannot be so great that the liquid would boil, freeze, or be directly harmful to creatures it wasn't previously.",
+						"You increase or decrease the potency of any non-magical substances in the liquid, such as alcohol or caffeine. You cannot alter the effects of poisons or potions in this way.",
+						"You alter the buoyancy of tiny objects or creatures in the liquid. This effect cannot move an unwilling creature or alter a creature's movement speed in the liquid."
+					]
+				},
+				"You may also suggest additional effects if your DM allows. None of the effects may directly harm or move creatures. You can dispel any of the effects you created at any point (no action required).",
+				"The maximum duration of this spell increases up to 24 hours when you reach 5th level, up to 7 days at 11th level, and up to 1 year at 17th level."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Greater Ceremony",
+			"source": "J:General",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "500 gp worth of powdered silver, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
+				"{@b Communion.} You touch one humanoid who wishes to speak directly to your god. They can cast the {@spell commune|phb} spell once as a ritual and without providing material components.",
+				"{@b Last Will and Testament.} You touch a humanoid that wishes to leave possessions with another when they die. The target names a creature they are familiar with to be their heir. When the target dies, their body, along with any items they are wearing or carrying, are transported magically to a space within 5ft of the heir, even across planes. If the heir themselves is dead, the items do not teleport. A target can gain this rite again to change their designated heir, they may only have one heir at a time. The target loses this rite when they die.",
+				"{@b Oath of Friendship.} You touch two humanoids who wish to never harm one another. These targets are permanently {@condition charmed} by each other (even if they are otherwise immune to the charmed condition) and cannot perform any action that would directly harm the other, even if compelled to do so by any means short of a {@spell wish|phb} spell. A target can only benefit from this rite once and loses it if either of the targets dies.",
+				"{@b Procreation.} You touch adult humanoids who wish to have a child together, regardless of their number, their fertility or the combination of their races and sexes. One of the targets becomes pregnant. Alternatively, an egg or artificial womb is created externally within 10 feet of you. After an appropriate amount of time (or {@dice 2d6+2} months), a child is born or hatches. The race and statistics of the child are decided by the DM. A target can only benefit from this rite again after the child is born, hatched or dies.",
+				"{@b Purity Ward.} You touch one humanoid that wishes to remain pure. The target is immune to disease, immune to lycanthropy and can't become undead by any means short of a {@spell wish|phb} spell.",
+				"{@b Standing Vigil.} You touch one humanoid who wishes to protect a particular creature, location or object. While they are within 30ft of the subject of their protection, they do not need to eat, drink or sleep and when they take a long rest, they appear inert and motionless but are not rendered {@condition unconscious|phb}, and they can see and hear as normal. A creature can benefit from this rite only once and loses the rite if the subject of their protection dies or is destroyed.",
+				"{@b Transition.} You touch one humanoid that wishes to permanently change their age, appearance, race or sex. The target describes what they wish to be and, if the DM allows, they are then transformed. If the target changes race, they take on the racial traits and ability score improvements of their new race and discard the ones of their previous race. If the target's current form is the result of a curse or other magic effect, this rite has no effect until the curse or effect is removed. A creature can only benefit from this rite once.",
+				"{@b Undying Devotion.} You touch a target who wishes to serve your god, even after death. If a spell, such as {@spell raise dead|phb}, has the sole effect of restoring them to life (but not undeath), the caster doesn't need material components to cast the spell on them. A creature can benefit from this rite only once and loses the rite once it is used."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Spectral Crew",
+			"source": "J:General",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of debris from a shipwreck"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You touch a non-magical ship and summon up to 10 spectral sailors to crew it for the spell's duration. These spectral sailors do not fight or perform any actions not directly related to crewing the ship, but they are added to the crew numbers of the ship for the purposes of determining possible ship actions and will obey a captain's orders. This spell ends early if you are ever more than 100ft from the ship."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you summon up to 10 additional sailors for each level above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ray of Impotence",
+			"source": "J:General",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose one of the following damage types; acid, cold, fire, lightning, force, necrotic, poison, psychic, radiant, or thunder. Make a ranged spell attack against the target. On a hit, the target deals only half damage with chosen damage type until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ray of Lumbering",
+			"source": "J:General",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Dexterity until the spell ends.",
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Rising Words",
+			"source": "J:General",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You target a creature in range and utter a phrase or joke so abhorrent to the creature that you awaken a furious anger inside them. The targeted creature can immediately use a reaction (even if they are {@condition unconscious}) to move up to its movement speed toward you, without provoking opportunity attacks, before making an unarmed strike against you.",
+				"The target can choose to use your spellcasting ability modifier in place of its Strength modifier for the attack roll and damage. On a hit, you suffer the attack's normal effects and the creature regains hit points equal to twice the damage dealt.",
+				"If the targeted creature is {@condition unconscious} and does not hit you with an attack, or still has 0 hit points after the attack, it remains {@condition unconscious} once the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the amount of hit points regained by the creature on a hit increases by {@dice 1d4} for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Runner's Rope",
+			"source": "J:General",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a barbed or threaded dart"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You fire a magical dart at an object you can see within range that is Huge or larger, or that is fixed in place (such as a wall or ceiling). The dart remains fixed to the target for the spell's duration, and a 30ft long magic rope extends from the dart to your empty hand. You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks you make using the rope.",
+				"When you cast the spell, or as a subsequent bonus action on each of your turns for the spell's duration, you can touch the rope and perform one of the following actions:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b {@i Reel In.}} You reduce the length of the rope by up to 30ft. Any creatures grasping the rope are moved towards the dart by a number of feet equal to the number you reduce the rope by, following the path of the rope. A creature that is not {@condition restrained} by the rope can let go of the rope at any point during this movement to stop moving.",
+						"{@b {@i Reel Out.}} You extend the length of the rope by up to 30ft (to a maximum of 100ft).",
+						"{@b {@i Reshoot.}} The dart and rope vanish, and you fire a new dart at a new target within range."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chain Blade",
+			"source": "J:General",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch the weapon used in the spell's casting and chains extend from your wrist to the weapon. Until the start of your next turn, that weapon's reach is 5 feet greater than normal.",
+				"This spell's damage increases when you reach certain levels. At 5th level, melee attacks with the weapon deal an extra {@dice 1d4} force damage to the target on a hit. This damage increases by {@dice 1d4} at 11th level ({@dice 2d4}) and 17th level ({@dice 3d4})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "force damage on hit",
+					"scaling": {
+						"1": "0",
+						"5": "1d4",
+						"11": "2d4",
+						"17": "3d4"
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Caustic Smite",
+			"source": "J:General",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon emits a burst of caustic acid, and the attack deals an extra {@dice 1d6} acid damage to the target. Each creature other than you that is within 5 feet of the target (including the target) must make a Dexterity saving throw. A creature takes {@dice 1d6} acid damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, both the initial damage and the damage dealt to creatures within 5 feet increase by {@dice 1d6} each for every two slot levels above 1st."
+					]
+				}
+			],
+			
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Merciful Touch",
+			"source": "J:General",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A coin worth at least 1cp which the spell consumes and a bowl"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a willing creature and imbue them with the magic of mercy. For the duration, when the target reduces a creature to 0 hit points, they can choose to incapacitate the creature rather than killing them. The creature is {@condition unconscious} and stable."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Explosive Propulsion",
+			"source": "J:General",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of metallic powder and a fuse"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature and choose one of the following damage types: acid, cold, fire, lightning, necrotic, poison, psychic, radiant or thunder. The target gains a flying speed of 40 feet for the duration, as if propelled by matter or energy of the chosen type. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+				"Additionally, for the spell's duration, if the target flies 15ft or more in a straight line immediately before making a melee attack or impacting a solid surface, such as the ground or a wall, they can choose to emit a blast of destructive energy. Any creatures within 10ft of the target (excluding the target itself) must make a must make a Dexterity saving throw. A creature takes {@dice 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage dealt by the burst increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Silencing Smite",
+			"source": "J:General",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be silenced until the spell ends. While silenced, the creature cannot speak or cast spells with verbal components."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	],
+	"vehicle": [
+		{
+			"name": "Rowboat",
+			"source": "J:General",
+			"vehicleType": "SHIP",
+			"size": "L",
+			"dimensions": [
+				"10 ft.",
+				"5 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 2,
+			"capPassenger": 2,
+			"capCargo": 0.25,
+			"pace": 3,
+			"str": 11,
+			"dex": 8,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 11,
+				"hp": 50,
+				"dt": 8
+			},
+			"movement": [
+				{
+					"name": "Oars",
+					"isControl": true,
+					"ac": 12,
+					"hp": 25,
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"15 ft.",
+								"Move up to its speed, with one 90-degree turn. Without oars, the rowboat's speed is 0."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 1
+			},
+			"action": [
+				"On its turn, the rowboat can take the move action below. It can't take this action if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The rowboat can move using its oars."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Catamaran",
+			"source": "J:General",
+			"vehicleType": "SHIP",
+			"size": "H",
+			"dimensions": [
+				"20 ft.",
+				"10 ft."
+			],
+			"terrain": [
+				"sea"
+			],
+			"capCrew": 2,
+			"capPassenger": 4,
+			"capCargo": 0.5,
+			"pace": 4,
+			"str": 12,
+			"dex": 10,
+			"con": 11,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 12,
+				"hp": 100,
+				"dt": 10
+			},
+			"control": [
+				{
+					"name": "Helm",
+					"ac": 12,
+					"hp": 50,
+					"entries": [
+						"Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+					]
+				}
+			],
+			"movement": [
+				{
+					"name": "Oars",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 25 damage taken",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 2 crew)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Sails",
+					"ac": 12,
+					"hp": 100,
+					"hpNote": "-5 ft. speed per 20 damage taken ",
+					"speed": [
+						{
+							"mode": "water",
+							"entries": [
+								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+							]
+						}
+					]
+				}
+			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 1,
+				"2": 2
+			},
+			"action": [
+				"On its turn, the catamaran can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than two crew. It can't take these actions if it has no crew.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Move.",
+							"entry": "The ship can use its helm to move with its oars or sails."
+						}
+					]
+				}
+			]
+		}
+	],
+	"variant": [
+		{
+			"name": "Soul Syphon Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "rare",
+				"reqAttune": true,
+				"curse": true,
+				"source": "J:General",
+				"namePrefix": "Soul Syphon ",
+				"entries": [
+					"Whenever you hit with a critical hit using this weapon, the bonus to this weapon's attack and damage rolls increases by 1 (to a maximum of +10).",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"This weapon is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, whenever you hit with a critical hit using this weapon, your hit point maximum is reduced by {@dice 4d4}. If your hit point maximum is reduced to 0 or lower, you instantly die and your soul is consumed by the weapon, you can not be resurrected. If the curse is broken, the weapon's bonus to attack and damage rolls is reduced to 0."
+						]
+					}
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of Insults",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"source": "J:General",
+				"nameSuffix": " of Insults",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you hit a creature with this weapon, it whispers insults to them. If the hit is a critical hit, the insults are so damming that the creature takes an extra {@dice 1d6} psychic damage."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of Elements",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				},
+				{
+					"type": "R",
+					"dmgType": "P"
+				},
+				{
+					"type": "R",
+					"dmgType": "S"
+				},
+				{
+					"type": "R",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "rare",
+				"reqAttune": true,
+				"source": "J:General",
+				"nameSuffix": " of Elements",
+				"charges": 3,
+				"recharge": "dawn",
+				"entries": [
+					"This weapon has 3 charges, and it regains {@dice 1d3} expened charges daily at dawn. As a bonus action, you can expend a number of charges to cast {@spell elemental weapon|phb} on it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. This casting of the spell does not require concentration and lasts for the full duration. The spell ends early if you cast it again using this weapon."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Entrapping Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "J:General",
+				"namePrefix": "Entrapping ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the arrow transforms into a {@item net|phb}. The target is restrained as described in the net's description."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Enlarging Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "J:General",
+				"namePrefix": "Enlarging ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Shrinking Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "J:General",
+				"namePrefix": "Shrinking ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Shielding Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "J:General",
+				"namePrefix": "Shielding ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Smoking Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"genericBonus": "+1",
+				"rarity": "uncommon",
+				"source": "J:General",
+				"namePrefix": "Smoking ",
+				"entries": [
+					"You have a +1 bonus to attack rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"When you hit a target with this ammunition, you forgo damage and the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell. The spell does not require concentration for this casting and lasts for its full duration."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Enforcer",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a strength score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Enforcer",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Strength modifier, instead of Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Dancer",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a dexterity score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Dancer",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Dexterity modifier, instead of Strength modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Survivor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a constitution score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Survivor",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Constitution modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Scholar",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a intelligence score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Scholar",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Prophet",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "P"
+				},
+				{
+					"type": "M",
+					"dmgType": "S"
+				},
+				{
+					"type": "M",
+					"dmgType": "B"
+				},
+				{
+					"type": "R",
+					"dmgType": "P"
+				},
+				{
+					"type": "R",
+					"dmgType": "S"
+				},
+				{
+					"type": "R",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a wisdom score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Prophet",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Wisdom modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Weapon of the Herald",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"reqAttune": "by a creature with a wisdom score of 13 or higher",
+				"source": "J:General",
+				"nameSuffix": " of the Herald",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+				],
+				"bonusWeapon": "+1"
+			}
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Hindering Traits",
+			"source": "J:General",
+			"ruleType": "O",
+			"entries":[
+				"Even the strongest heroes can have things that hold them back. These flaws have the opportunity make the character's story more interesting as they struggle to overcome challenges unique to them. The rules below are an optional way to encourage players to build flawed characters.",
+				"The Dungeon Master can decide to implement these rule in one of the following ways during character creation:",
+				{
+					"type": "list",
+					"items": [
+						"Each player is forced to take a number of Hindering traits at the begining of the game.",
+						"The players can freely choose or roll for a number of Hindering traits.",
+						"The DM can incentivize players to take Hindering traits by offering rewards for taking them. Examples of rewards could include ASI, Feats or Charms."
+					]
+				},
+				"The DM may also decide to assign certain traits to characters if they experience strong traumas that could lead to the trait developing.",
+				{
+					"type": "entries",
+					"name": "Hindering Trait Tables",
+					"entries": [
+							"The DM may choose which of the below tables are available and their respective rewards, if any. ",
+							{
+								"type": "table",
+								"colLabels": [
+									"d12",
+									"Minor Hindering Traits"
+								],
+								"colStyles": [
+									"col-1 text-center",
+									"col-11"
+								],
+								"rows": [
+									[
+										"1",
+										"{@b Weak.} Your Strength score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"2",
+										"{@b Clumsy.} Your Dexterity score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"3",
+										"{@b Glass Bones.} Your Constitution score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"4",
+										"{@b Absent Minded.} Your Intelligence score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"5",
+										"{@b Clueless.} Your Wisdom score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"6",
+										"{@b Weak Willed.} Your Charisma score is permanently reduced by 3 (to a minimum of 3)."
+									],
+									[
+										"7",
+										"{@b Inept.} Randomly choose a skill, or have the DM choose. You cannot have a modifier higher than 0 for this skill, regardless of proficiency or expertise, and you gain disadvantage on any rolls made with this skill."
+									],
+									[
+										"8",
+										"{@b Short Sighted.} You have disadvantage on any Wisdom (Perception) checks and attack rolls against targets more than 30 feet away."
+									],
+									[
+										"9",
+										"{@b Long Sighted.} You have disadvantage on any Wisdom (Perception) checks and attack rolls against targets less than 10 feet away."
+									],
+									[
+										"10",
+										"{@b Phobia.} You have an irrational fear of a particular thing, such as dogs, darkness or large bodies of water. When you are confronted by this thing, you must succeed on a DC12 Wisdom saving throw or become {@condition frightened} by it until it is no longer visible."
+									],
+									[
+										"11",
+										"{@b Infatuation.} You adore a particular type of creature or person, such as cute kittens or people with a specific hair colour. When you are confronted by a creature belonging to this group, you must make a DC12 Wisdom saving throw. On a fail, you become {@condition charmed} by the creature and wish to spend time with them, regardless of other any other pressing matters. This lasts for 1 hour or until you take damage."
+									],
+									[
+										"12",
+										"{@b Vice.} You are addicted to a particular substance or activity, such as alcohol or gambling. Whenever you finish a long rest without having indulged in your vice since the last long rest, you must suceeded on a DC12 Charisma check or gain a level of exhaustion."
+									]
+								]
+							},
+							{
+								"type": "table",
+								"colLabels": [
+									"d6",
+									"Major Hindering Traits"
+								],
+								"colStyles": [
+									"col-1 text-center",
+									"col-11"
+								],
+								"rows": [
+									[
+										"1",
+										"{@b Blind.} You permanently have the {@condition blinded} condition."
+									],
+									[
+										"2",
+										"{@b Deaf.} You permanently have the {@condition deafened} condition."
+									],
+									[
+										"3",
+										"{@b Mute.} You cannot speak."
+									],
+									[
+										"4",
+										"{@b Illiterate.} You cannot read any languages without magic assistance, nor can you learn to."
+									],
+									[
+										"5",
+										"{@b Missing or Paralyzed Leg.*} Your movement speeds (except flying), jumping distance and jumping height are all halved (rounded down). Additionally you have disadvantge on any checks or saving throws that require the use of your legs, such as climbing.*"
+									],
+									[
+										"6",
+										"{@b Missing or Paralyzed Arm.*} You only have one hand for items, weapons and spells. Additionally you have disadvantage on any checks or saving throws that require the use of arms or hands, such as climbing.*"
+									]
+								]
+							},
+							"{@note *The DM may decide that your body also rejects any attempts to magically restore or replace the limb, including {@item prosthetic limb|tce|prosthetic limbs}.}"
+						]
+					}
+			]
+		},
+		{
+			"name": "Potions of Unknown Effect",
+			"source": "J:General",
+			"ruleType": "O",
+			"entries":[
+				"Alchemy is a complex science and few mortals can be expected to truly understand everything there is to know. Fortunately, knowing things is not always required to do things. ",
+				{
+					"type": "entries",
+					"name": "Creating the Potion",
+					"entries": [
+						"You can spend 1 hour using Alchemist's Supplies to attempt to create a potion. You must also provide some special component harvested from a creature of CR 1 or above, such as a giant scorpion stinger or a cyclops eye, creating the potion consumes this component. When you make the potion, make a Wisdom (Alchemist's Supplies) check and consult the table below to determine the result. Regardless of what you roll, you do not know the effect of the potion until it is consumed.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Check",
+								"Quality",
+								"Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1 text-left",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1-10",
+									"Inert",
+									"You fail to make any drinkable liquid."
+								],
+								[
+									"11-15",
+									"Lesser",
+									"The potion has one effect. Upon consumption, roll {@dice 2d100dh1|2d100}, take the lowest roll and consult the Potion Effects table below."
+								],
+								[
+									"16-20",
+									"Basic",
+									"The potion has one effect. Upon consumption, roll {@dice 1d100} and consult the Potion Effects table below."
+								],
+								[
+									"21-25",
+									"Greater",
+									"The potion has one effect. Upon consumption, {@dice 2d100dl1|2d100}, take the highest roll and consult the Potion Effects table below."
+								],
+								[
+									"26+",
+									"Superior",
+									"The potion has two effects. Upon consumption, roll {@dice 4d100dl2|4d100}, take the two highest rolls and consult the Potion Effects table below."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Potion Effects",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"1d100",
+								"Effect",
+								"Description"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-1",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1-2",
+									"Coma",
+									"The drinker instantly drops to 0 hitpoints and falls {@condition unconscious}, they are automatically stabilised."
+								],
+								[
+									"3-4",
+									"Greater Poison",
+									"The drinker takes {@dice 2d6+2} poison damage and gains the {@condition poisoned} condition for one minute."
+								],
+								[
+									"5-6",
+									"Poison",
+									"The drinker takes {@dice 1d6+1} poison damage and gains the {@condition poisoned} condition for one minute."
+								],
+								[
+									"7-8",
+									"Emetic",
+									"The drinker immediately vomits and is {@condition incapacitated} until the end of their next turn."
+								],
+								[
+									"9-10",
+									"Sedative",
+									"The drinker gains a level of exhaustion."
+								],
+								[
+									"11-12",
+									"Narcotic",
+									"The drinker falls {@condition unconscious} and cannot be revived by non-magical means for {@dice 1d4} minutes."
+								],
+								[
+									"13-14",
+									"Laxative",
+									"The drinker feels a sudden urge to empty their bowels and has disadvantage on ability checks until they do so."
+								],
+								[
+									"15-16",
+									"Diuretic",
+									"The drinker feels a sudden urge to empty their bladder and has disadvantage on ability checks until they do so."
+								],
+								[
+									"17-18",
+									"Lubricant",
+									"The drinker's feet are unable to gain any traction. If the creature is standing on their feet at the end of each of their turns, they must make a DC14 Dexterity save or become {@condition prone}. This lasts for 1 minute."
+								],
+								[
+									"19-20",
+									"Frostbite",
+									"The drinker takes {@dice 1d6} cold damage and all their fingers fall off. They are unable to perform any action that would require the use of fingers, such as making a weapon attack. Their fingers regrow after {@dice 2d4} minutes."
+								],
+								[
+									"21-22",
+									"Clearwood",
+									"All wooden items become invisible to the drinker for 1 hour. They have disadvantage when using items or weapons made mostly of wood or when attacking creatures made of, or wearing, mostly wood."
+								],
+								[
+									"23-24",
+									"Clearmetal",
+									"All metal items become invisible to the drinker for 1 hour. They have disadvantage when using items or weapons made mostly of metal or when attacking creatures made of, or wearing, mostly metal."
+								],
+								[
+									"25-26",
+									"Mute",
+									"The drinker cannot speak in any language for 1 hour."
+								],
+								[
+									"27-28",
+									"Hallucinogenic",
+									"The drinker is {@condition blinded} by shapes and colours only they can see for 1d4 minutes."
+								],
+								[
+									"29-30",
+									"Gigglewater",
+									"The drinker is hit by the effects of {@spell Tasha's Hideous Laughter|phb}. They automatically fail the save."
+								],
+								[
+									"31-32",
+									"Identity Crisis",
+									"The first person the drinker sees, the drinker believes they are that person for {@dice 2d4} minutes. They believe the original person is trying to impersonate them and cannot be convinced otherwise until the effect wears off."
+								],
+								[
+									"33-34",
+									"Aphrodisiac",
+									"The drinker is {@condition charmed} by the first creature they see after drinking for {@dice 1d4} hours."
+								],
+								[
+									"35-36",
+									"Colour Change",
+									"The drinker's skin changes a random colour that is unnatural for their race. This lasts until the end of the next long rest."
+								],
+								[
+									"37-38",
+									"Elder Hair",
+									"The drinker's hair turns a shocking white. This lasts until the end of the next long rest."
+								],
+								[
+									"39-40",
+									"Hair Growth",
+									"The hair on the drinker's head grows by {@dice 1d4} inches, even if they didn't have any to begin with."
+								],
+								[
+									"41-42",
+									"The Answer",
+									"The drinker has an epiphany and they suddenly understands the meaning of life, the universe and everything. They, and anyone they tell, suddenly forget it after {@dice 1d6} seconds, any attempts to write it down or record it are also destroyed."
+								],
+								[
+									"43-44",
+									"Body Growth",
+									"The drinker's height permanently increases by {@dice 2d4} inches."
+								],
+								[
+									"45-46",
+									"Body Shrink",
+									"The drinker's height permanently decreases by {@dice 2d4} inches."
+								],
+								[
+									"47-48",
+									"Gullible",
+									"The drinker believes anything they are told by anyone they consider friendly for one minute."
+								],
+								[
+									"49-50",
+									"Songbird",
+									"The drinker can only communicate through rhyme and song for one hour. This applies even to writing."
+								],
+								[
+									"51-52",
+									"Anti-Aging",
+									"The drinker becomes younger by {@dice 2d4} years."
+								],
+								[
+									"53-54",
+									"Aging",
+									"The drinker becomes older by {@dice 2d4} years."
+								],
+								[
+									"55-56",
+									"Honesty",
+									"The drinker cannot knowingly lie for one hour, as if under the effects of the {@spell zone of truth|phb} spell."
+								],
+								[
+									"57-58",
+									"Daydream",
+									"The drinker believes they are currently in a dream and nothing they see or hear is actually real for one minute."
+								],
+								[
+									"59-60",
+									"Plant Speak",
+									"The drinker can sense the innermost thoughts and emotions of every plant within a 120ft radius for 10 minutes. They do not necessarily understand them."
+								],
+								[
+									"61-62",
+									"Boney",
+									"The drinker can see their own skeleton for 10 minutes."
+								],
+								[
+									"63-64",
+									"Fudge",
+									"The drinker realises they are in a game but no one believes them. They can choose to reroll a single check or save they make within 1 hour. The new roll must be made before the outcome of the first roll is known. After the hour, the drinker forgets all about the outer world as does anyone they told."
+								],
+								[
+									"65-66",
+									"Handy",
+									"The drinker grows an extra arm and hand for 10 minutes, they are able to use this arm as a bonus action to take the {@action Attack} (one weapon attack only) or {@action Use an Object} action."
+								],
+								[
+									"67-68",
+									"Polyglot",
+									"The drinker learns a new language chosen by the DM and can speak it fluently for {@dice 2d4} days, after which they completey forget it."
+								],
+								[
+									"69-70",
+									"Pheremones",
+									"Any creature within 10ft of the drinker must make a Wisdom save against the drinker's Charisma or be {@condition charmed} by them for one hour."
+								],
+								[
+									"71-72",
+									"Bestial",
+									"The drinker's nails grow long and sharp, their unarmed attacks become {@dice 1d10} + their Strength modifier slashing damage for one minute."
+								],
+								[
+									"73-74",
+									"Polymorph",
+									"The drinker gains the effects of the {@spell Polymorph} spell for up to 1 hour, they are turned into a random beast of CR1 or lower. The DM decides the beast."
+								],
+								[
+									"75-76",
+									"Dasher",
+									"The drinker's walking speed is increased by 15ft for one hour."
+								],
+								[
+									"77-78",
+									"Thick Skin",
+									"The drinker gains +2 bonus to their AC for one minute."
+								],
+								[
+									"79-80",
+									"Steroid",
+									"The drinker has advantage on all Strength checks and saves for one minute."
+								],
+								[
+									"81-82",
+									"Stimulant",
+									"The drinker has advantage on all Dexterity checks and saves for one minute."
+								],
+								[
+									"83-84",
+									"Booster",
+									"The drinker has advantage on all Constitution checks and saves for one minute."
+								],
+								[
+									"85-86",
+									"Cognitive",
+									"The drinker has advantage on all Intelligence checks and saves for one minute."
+								],
+								[
+									"87-88",
+									"Third Eye",
+									"The drinker has advantage on all Wisdom checks and saves for one minute."
+								],
+								[
+									"89-90",
+									"Snake Oil",
+									"The drinker has advantage on all Charisma checks and saves for one minute."
+								],
+								[
+									"91-92",
+									"Healing",
+									"The drinker restores {@dice 2d4+2} hitpoints."
+								],
+								[
+									"93-94",
+									"Greater Healing",
+									"The drinker restores {@dice 4d4+4} hitpoints."
+								],
+								[
+									"95-96",
+									"Energetic",
+									"The drinker instantly gains the benefits of a short rest."
+								],
+								[
+									"97-98",
+									"Hyper-Energetic",
+									"The drinker instantly gains the benefits of a long rest."
+								],
+								[
+									"99-100",
+									"Wild Magic",
+									"A Wild Magic Surge occurs, originating from the drinker."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pocket Sand",
+			"source": "J:General",
+			"ruleType": "O",
+			"entries": [
+				"Sometimes, you need to fight dirty. If your character has a free hand and quick access to a handful of sand or grit, such as with a {@item scholar's pack|phb} or being on sandy terrain, they can use it to gain a small advantage in combat.",
+				"As an action, the sand can be thrown at a creature within 5ft of you that has exposed eyes. The creature must make a DC 10 Dexterity saving throw or become {@condition blinded|phb} until the start of its next turn."
+			]
+		}
+	]
+}
