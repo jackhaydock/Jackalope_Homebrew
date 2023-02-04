@@ -1,7 +1,7 @@
 # Jackalope Homebrew
 Homebrew collection for [5e.tools](https://5e.tools) for my 5e campaign settings.
 
-My items will have the following sources/labels making it easy to identify them within 5eTools
+My items will have the following sources/labels making it easy to identify them within 5eTools:
 - Main Collection
   - **Jackalope: General/J:General**: General collection of stuff.
   - **Jackalope: Antithesis Subclasses/J:Antithesis**: Subclasses themed around being the opposite of class steroetypes.
@@ -23,7 +23,8 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: Tattoos/J:Tattoos**: Magic tattoos.
   - **Jackalope: Temporal Subclasses/J:Temporal**: Time themed subclasses for multiples classes.
   - **Jackalope: The Sea of Cyranos/J:Cyranos**: Stuff for my classic greek themed setting, The Sea of Cyranos.
-  - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos (includes firearms).
+  - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos (depends on firearms).
+  - **Jackalope: Vermin Rogue/J:Vermin**: Rogue with a familiar, that can pick locks and sneak attack.
   - **Jackalope: Wheelchair/J:Wheelchair**: Wheelchair and upgrades (inspired by Combat Wheelchair but simplified).
   - **Jackalope: Wild Magic/J:Wild**: Wild magic and chaos themed subclasses and items.
 - Extra Collection (generally not allowed for actual play in my games unless stated otherwise)
