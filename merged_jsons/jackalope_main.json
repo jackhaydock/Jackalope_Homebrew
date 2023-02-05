@@ -11230,7 +11230,7 @@
             "name": "Portalist",
             "source": "J:Portalist",
             "classFeatures": [
-                "Optional Feature: Alternate Ability Portalist|Portalist|J:Portalist|1|J:Portalist",
+                "Optional Rule: Alternate Ability Portalist|Portalist|J:Portalist|1|J:Portalist",
                 "Deep Pockets|Portalist|J:Portalist|1|J:Portalist",
                 "Spellcasting|Portalist|J:Portalist|1|J:Portalist",
                 "Paired Portals|Portalist|J:Portalist|2|J:Portalist",
@@ -11857,10 +11857,11 @@
     ],
     "classFeature": [
         {
-            "name": "Optional Feature: Alternate Ability Portalist",
+            "name": "Optional Rule: Alternate Ability Portalist",
             "source": "J:Portalist",
             "className": "Portalist",
             "classSource": "J:Portalist",
+            "isClassFeatureVariant": true,
             "level": 1,
             "entries": [
                 "Sometimes intuition or determination is more useful than raw knowledge when bending space. If the DM allows, you can use Wisdom or Charisma for your portalist features rather than Intelligence. If you do so, make the following changes to your portalist:",
