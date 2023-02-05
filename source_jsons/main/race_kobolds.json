@@ -19,6 +19,45 @@
 			}
         ]
     },
+	"feat": [
+		{
+			"name": "Kobold Enhancement",
+			"source": "J:Kobolds",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Kobold"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your innate abilities grow stronger, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain one additional legacy option from your race's description. You cannot choose a legacy option you already have."
+					]
+				}
+			]
+		}
+	],
     "race": [
         {
 			"name": "Kobold",
