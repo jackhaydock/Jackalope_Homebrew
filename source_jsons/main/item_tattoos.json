@@ -140,6 +140,20 @@
 			"entries": [
 				"Produced by a special needle, this magic tattoo can enhance your abilities. Choose an ability, when you get this tattoo, your chosen ability score is permanently increased by 1. You can't increase an ability score above 22 using this tattoo."
 			]
+		},
+		{
+			"name": "Inkthread Rope Tattoo",
+			"wondrous": true,
+			"tattoo": true,
+			"rarity": "uncommon",
+			"source": "J:Tattoos",
+			"reqAttune": true,
+			"entries": [
+				"Produced by a special needle, this magic tattoo features a coil like pattern rising up your ankles and calves.",
+				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
+				"{@b {@i Assisted Grasp.}} When you take the {@action Grapple} or {@action Shove} action on your turn, you can use a bonus action to gain advantage on the Strength (Athletics) check as a spectral rope extends from the tattoo, wrapping around the target.",
+				"{@b {@i Far Reach.}} As a bonus action, you can cast the {@spell runner's rope|J:General} spell without expending a spell slot or providing material components. Once you use this bonus action, you cannot do so again until the next dawn."
+			]
 		}
     ]
 }

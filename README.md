@@ -23,7 +23,7 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: Tattoos/J:Tattoos**: Magic tattoos.
   - **Jackalope: Temporal Subclasses/J:Temporal**: Time themed subclasses for multiples classes.
   - **Jackalope: The Sea of Cyranos/J:Cyranos**: Stuff for my classic greek themed setting, The Sea of Cyranos.
-  - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos (depends on firearms).
+  - **Jackalope: The Skies of Caligos/J:Caligos**: Stuff for my steampunk themed setting, The Skies of Caligos.
   - **Jackalope: Vermin Rogue/J:Vermin**: Rogue with a familiar, that can pick locks and sneak attack.
   - **Jackalope: Wheelchair/J:Wheelchair**: Wheelchair and upgrades (inspired by Combat Wheelchair but simplified).
   - **Jackalope: Wild Magic/J:Wild**: Wild magic and chaos themed subclasses and items.
