@@ -1,0 +1,502 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Battlemage",
+				"abbreviation": "J:Battlemage",
+				"color": "5e5f72",
+				"full": "Jackalope: Battlemage Fighter",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "subclass": [
+        {
+			"name": "Battlemage",
+			"shortName": "Battlemage",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"spellcastingAbility": "int",
+			"casterProgression": "1/3",
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"spellsKnownProgression": [
+				0,
+				0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"subclassFeatures": [
+					"Battlemage|Fighter|PHB|Battlemage|J:Battlemage|3",
+					"Spellcasting|Fighter|PHB|Battlemage|J:Battlemage|3",
+					"Bonded Implement|Fighter|PHB|Battlemage|J:Battlemage|3",
+					"Battlemage Versatility|Fighter|PHB|Battlemage|J:Battlemage|4",
+					"War Magic|Fighter|PHB|Battlemage|J:Battlemage|7",
+					"Eldritch Strike|Fighter|PHB|Battlemage|J:Battlemage|10",
+					"Arcane Surge|Fighter|PHB|Battlemage|J:Battlemage|15",
+					"Improved War Magic|Fighter|PHB|Battlemage|J:Battlemage|18"
+			],
+			"subclassTableGroups": [
+				{
+					"subclasses": [
+						{
+							"name": "Battlemage",
+							"source": "J:Battlemage"
+						}
+					],
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=Fighter: Battlemage}",
+						"{@filter Spells Known|spells|subclass=Fighter: Battlemage}"
+					],
+					"rows": [
+						[
+							0,
+							0
+						],
+						[
+							0,
+							0
+						],
+						[
+							2,
+							3
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							5
+						],
+						[
+							2,
+							6
+						],
+						[
+							2,
+							6
+						],
+						[
+							3,
+							7
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							9
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							12
+						],
+						[
+							3,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"subclasses": [
+						{
+							"name": "Battlemage",
+							"source": "J:Battlemage"
+						}
+					],
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=Fighter: Battlemage}",
+						"{@filter 2nd|spells|level=2|subclass=Fighter: Battlemage}",
+						"{@filter 3rd|spells|level=3|subclass=Fighter: Battlemage}",
+						"{@filter 4th|spells|level=4|subclass=Fighter: Battlemage}"
+					],
+					"rowsSpellProgression": [
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			]
+        }
+    ],
+    "subclassFeature": [
+		{
+			"name": "Battlemage",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 3,
+			"entries": [
+				"{@note This subclass is indended as a revised version of the Eldritch Knight fighter, offering more choices for the player.}",
+				"Battlemages are warriors who enhance their combat with some form of magic. The nature of the magic can vary greatly between battlemages, often imitating that of powerful casters such as druids, clerics and wizards. While their magic arsenal rarely compares to more specialist mages, when used in combination with their martial talents, they can make formidable opponents that can easily turn the tide of battle."
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See {@book chapter 10|PHB|10} of the Player's Handbook for the general rules of spellcasting. There are many sources and methods of magic which you can tap into, from the primal forces of nature itself, to the weave of the multiverse, to your own unique blood. Choose the nature of your magic by selecting a spell list; {@filter artificer|spells|class=artificer}, {@filter bard|spells|class=bard}, {@filter cleric|spells|class=cleric}, {@filter druid|spells|class=druid}, {@filter paladin|spells|class=paladin}, {@filter ranger|spells|class=ranger}, {@filter sorcerer|spells|class=sorcerer}, {@filter warlock|spells|class=warlock} or {@filter wizard|spells|class=wizard}. Your choice also determines your spellcasting ability: Intelligence for artificer or wizard; Wisdom for cleric, druid or ranger; or Charisma for bard, paladin, sorcerer, or warlock.",
+				"{@note Your DM may allow additional spell lists, they decide the associated spellcasting ability.}",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"You learn two cantrips of your choice from your chosen spell list. You learn an additional battlemage cantrip of your choice from your chosen list at 10th level. If you chose the paladin or ranger list, you may choose your cantrips from the cleric or druid lists respectively."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spell Slots",
+							"entries": [
+								"The Battlemage Spellcasting table shows how many spell slots you have to cast your battlemage spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+								"For example, if you know the 1st-level spell {@spell shield} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell shield} using either slot."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spells Known of 1st-Level and Higher",
+							"entries": [
+								"You know three 1st-level battlemage spells of your choice from your chosen list.",
+								"The Spells Known column of the Battlemage Spellcasting table shows when you learn more battlemage spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+								"Whenever you gain a level in this class, you can replace one of the battlemage spells you know with another spell of your choice from your chosen spell list. The new spell must be of a level for which you have spell slots."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spellcasting Ability",
+							"entries": [
+								"Your spellcasting ability for your battlemage spells is determined by your chosen spell list. In addition, you use your spellcasting ability modifier when setting the saving throw DC for a battlemage spell you cast and when making an attack roll with one.",
+								{
+									"type": "abilityDc",
+									"name": "Spell",
+									"attributes": [
+										"spellcasting ability"
+									]
+								},
+								{
+									"type": "abilityAttackMod",
+									"name": "Spell",
+									"attributes": [
+										"spellcasting ability"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonded Implement",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon or shield. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon or shield must be within your reach throughout the ritual, at the conclusion of which you touch the weapon or shield and forge the bond.",
+				"Once you have bonded a weapon or shield to yourself, you can use the weapon or shield as a spellcasting focus for your battlemage spells. You can't be disarmed of that weapon or shield unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon or shield as a bonus action on your turn, causing it to teleport instantly to your hand.",
+				"You can have up to two bonded weapons or shields, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon or shield, you must break the bond with one of the other two."
+			]
+		},
+		{
+			"name": "Battlemage Versatility",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"isClassFeatureVariant": true,
+			"level": 4,
+			"entries": [
+				"Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can shift your magical focus, choosing a different spell list for your Spellcasting feature. If any of your battlemage spells or cantrips are not part of the new list, you must replace them with different spells and cantrips of the same level from the new list. Your spellcasting ability also changes to the one associated with the new list."
+			]
+		},
+		{
+			"name": "War Magic",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.",
+				"In addition, attacks with your Bonded Implements count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Eldritch Strike",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+			]
+		},
+		{
+			"name": "Arcane Surge",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you further augment your combat prowess with magic. Whenever you finish a long rest, choose one of the surge effects listed below. Until the end of your next long rest, whenever you use your Action Surge, you gain the benefits of the chosen effect.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						"{@b Assault Surge.} Whenever you hit a creature with a weapon attack as part of the additional action, the attack deals an extra {@dice 1d8} force damage.",
+						"{@b Blink Surge.} Immediately before or after the additional action, you can teleport up to 30 feet to an unoccupied space you can see.",
+						"{@b Focused Surge.} You have advantage on ability checks you make as part of the additional action.",
+						"{@b Guiding Surge.} If you use your additional action to take the Help action to aid an ally in attacking a target, you can choose two targets instead of one."
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved War Magic",
+			"source": "J:Battlemage",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Battlemage",
+			"subclassSource": "J:Battlemage",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action."
+			]
+		}
+    ]
+}
