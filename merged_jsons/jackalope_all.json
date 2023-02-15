@@ -9310,6 +9310,56 @@
             }
         },
         {
+            "name": "Timber",
+            "source": "J:General",
+            "level": 2,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "cone",
+                "distance": {
+                    "type": "feet",
+                    "amount": 20
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a twig from a large tree"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You rapidly transform yourself into a tree and slam downwards, crushing those beneath you. Each creature in a 20-foot cone must make a Dexterity saving throw or take {@dice 3d8} bludgeoning damage and be knocked {@condition prone}. On a successful save, a creature takes half damage and is not knocked prone.",
+                "When the spell ends, you transform back into your original form. You can remain in the same space or choose to reappear in an unoccupied space of your choice within the spell's area."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, you can transform into a larger tree, increasing the area of this spell to a 30-foot cone (4th-level), 40-foot cone (6th level) or a 60-foot cone (8th-level)."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
             "name": "Switch",
             "source": "J:Portalist",
             "level": 2,
