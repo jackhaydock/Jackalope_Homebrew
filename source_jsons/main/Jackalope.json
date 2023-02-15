@@ -3087,6 +3087,65 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Crackling Bolt",
+			"source": "J:General",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A bolt of lightning shoots towards a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 1d8} lightning damage, and it has disadvantage on the next Dexterity saving throw it makes before the end of its next turn.",
+				"This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "lightning damage on hit",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "TCE"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
