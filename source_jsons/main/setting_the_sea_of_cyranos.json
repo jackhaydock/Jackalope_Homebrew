@@ -1913,6 +1913,93 @@
 			]
 		}
     ],
+	"language": [
+		{
+			"name": "Cyrik",
+			"source": "J:Cyranos",
+			"type": "standard",
+			"script": "Cyrik",
+			"entries": [
+				"Cyrik is the most prevalent language in Cyranos, most residents will know at least some of it.",
+				"Naturally Cyrik comes in many dialects. Understanding one dialect is typically sufficient to understand the others.",
+				{
+					"name": "Upper Cyrik",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Nobles acadmeics and artists, especially in western regions",
+						"Upper Cyrik is a refined dialect often utilising longer and more descriptive words than those found in other dialects."
+					]
+				},
+				{
+					"name": "Lower Cyrik",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Commonfolk in cities and towns, especially in north and western regions",
+						"Lower Cyrik employs a wide variety of slang terms, often with vague literal meanings, relying heavily on context and tone."
+					]
+				},
+				{
+					"name": "Eastern Cyrik",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Commonfolk in cities and towns, especially in eastern regions",
+						"Eastern Cyrik is similar to Lower Cyrik, though it tends to be much shorter and blunter. Despite this, a lot can be conveyed through subtext."
+					]
+				},
+				{
+					"name": "Drakon Cyrik",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Draconic and Retilian people, especially in Ormux and Emeris",
+						"Believed to be partly derived from Draconic, Drakon is a dialect common with draconic and reptilian peoples, being well suited to their physiology."
+					]
+				},
+				{
+					"name": "Northern Cyrik",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Residents from north eastern Cyranos, especially in and around Illys",
+						"With significant migrations to and from The Northlands, Vrakos, Thalia and Trenin, Northern Cyrik borrows many terms from languages of these regions."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gailian",
+			"source": "J:Cyranos",
+			"type": "standard",
+			"script": "Various",
+			"entries": [
+				"Gailian, also known as Ageton, is a harsh language common on Agetos Major, especially in Gailum and within the Gailum Tribes. The language originates with the Gailum Tribes, who roam around Agetos Major and occasionally meeting in Gailum, which also led to the founding of the city. The language is still heavily used by the tribes and those who frequently trade and communicate with them.",
+				"Gailian is rather tonal langauges with grunts and growls allowing for surprisingly complex communication. There are many scripts for Gaillian, with many tribes having their own unique ones, often derived from wood and stone carvings. The scripts generally have enough similarities that understanding one is enough to understand the others.",
+				"Like many languages, Gailian has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+				{
+					"name": "City Tongue",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Urban residents of Gailum, especially orcs",
+						"City Tongue is a dialect of Gailian that use more closely resembles Cyrik, with fewer grunts and reliance on tone, making translations between them easier. City Tongue developed when traders began forming the permanent settlement that became the city of Gailum."
+					]
+				},
+				{
+					"name": "Wild Tongue",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Members of the Gailum Tribes, especially orcs",
+						"Wild Tongue is a more traditional form of the language developed by disconnected tribes occasionally crossing paths. As such, tone and context are often more important than literal meanings."
+					]
+				},
+				{
+					"name": "Goblin Tongue",
+					"type": "entries",
+					"entries": [
+						"{@b Typical Speakers} Goblins across Agetos Major",
+						"The goblin tongue features fewer article words or distinction between tenses or pronouns. It is occasionally mocked as primitive or stupid, despite being just as nuanced as other dialects and languages. "
+					]
+				}
+			]
+		}	
+	],
     "monster": [
         {
 			"name": "Amazon Huntress",
