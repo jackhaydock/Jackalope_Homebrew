@@ -2600,6 +2600,35 @@
                 "You can use an action to eat a number of pounds of the watermelon and regain {@dice 1d4+1} hit points for each pound consumed. If you attempt to consume 4 pounds or more in a single action, you must succeed on a Constitution saving throw (DC 8 + pounds consumed), or fail to regain any hit points and become {@condition incapacitated} until the end of your next turn as you begin vomiting profusely.",
                 "Additionally, If you consume 15 pounds or more in a single turn without failing the saving throw, you have advantage on Charisma (Intimidation) checks against creatures that saw you consume the melon for the next minute."
             ]
+        },
+        {
+            "name": "Broddah's Wooden Cup",
+            "type": "P",
+            "rarity": "artifact",
+            "source": "JPP",
+            "entries": [
+                "This simple looking wooden cup holds a fragment of legacy from those who love Broddah, his family, his friends and all those whom he has helped and brought joy to.",
+                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
+                "When you drink from this cup while attuned, invisible spirits of Broddah's loved ones lend their strength to yours. You gain the following benefits until you finish your next long rest:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you take the {@action Grapple} or {@action Shove} action, you can target a creature of any size. If the target is more than two sizes larger than you, it has advantage on Strength (Athletics) checks to avoid or escape your grapple or shove.",
+                        "Moving with a grappled creature that is your size or smaller no longer halves your movement speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Broddah's Adamantine Cup",
+            "type": "P",
+            "rarity": "artifact",
+            "source": "JPP",
+            "entries": [
+                "This elaborate but slightly melted adamantine cup holds a fragment of the connections and affection Broddah has fostered with divine beings, primarily Dionysus.",
+                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
+                "When you drink heavily from this cup while attuned, your mind briefly reaches a higher (or lower) state of being, allowing you to converse with a divine being in a similarly intoxicated state and that is familiar to Broddah, usually Dionysus. You can cast the {@spell commune|phb} spell without expending a spell slot. Once you cast the spell using this item, you cannot do so again until the next dawn."
+            ]
         }
     ],
     "monster": [
