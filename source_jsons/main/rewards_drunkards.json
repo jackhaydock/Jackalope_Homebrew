@@ -1,0 +1,134 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Drunk",
+				"abbreviation": "J:Drunk",
+				"color": "737373",
+				"full": "Jackalope: Blessings of the Drunkard",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+	"reward": [
+		{
+			"name": "Blessing of the Drunkard (Indulger)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You have developed a high tolerance for intoxicating substances. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to poison damage and advantage on saving throws to avoid the {@condition poisoned} condition.",
+						"You can cast the {@spell detect poison and disease|phb} spell as a ritual."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Charmer)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"Your social skills are greatly enhanced when drink is involved. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on social checks with non-hostile creatures whilst at least one of you is inebriated by alcohol or other recreational substances.",
+						"When a creature makes a saving throw against being {@condition charmed} by you, you can impose disadvantage on the saving throw. Once you do so, you cannot do so again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Enchanter)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You have learned new skills with magical theatrics that always please the crowd. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You learn two cantrips of your choice from the following list; {@spell bazoz's spicy water|J:General}, {@spell dancing lights|phb}, {@spell druidcraft|phb}, {@spell light}, {@spell minor illusion|phb}, {@spell prestidigitation|phb} and {@spell thaumaturgy|phb}.",
+						"You learn {@filter one 1st-level spell of your choice from the enchantment or illusion school of magic.|spells|level=1|school=e;i} You can cast the spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have."
+					]
+				},
+				"Your spellcasting ability for these spalls is Intelligence, Wisdom, or Charisma (choose when you gain the blessing)."
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Performer)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You have developed you party tricks into useful skills. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in one skill or tool of your choice. Alternatively you can choose two gaming sets or musical instruments.",
+						"Choose one skill or tool in which you have proficiency. You gain expertise with that skill or tool, which means your proficiency bonus is doubled for any ability check you make with it. The skill or tool you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Drinkmaster)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You have somehow acquired access to a demiplane containing the personal stash of one the god's entourage.",
+				"As an action, you can transform a pitcher or small barrel into an {@item alchemy jug|dmg}. The jug remains magical until the next dawn, and once you create a jug in this way, you cannot do so again until the next dawn. When you use the jug to produce alcoholic drinks, you can produce up to five times as much as normal. In addition to the normal liquids you can produce a wide range of alcoholic substances such as cider, rum, whisky and mead (at the same quantity you produce wine)."
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Daredevil)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You have developed a taste and talent for performing dangerous stunts to impress those around you. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase you Dexterity or Constitution score by 1, to a max of 20.",
+						"You can hold your breath for twice as long.",
+						"As an action, you can use a {@item oil (flask)|phb|flask of oil} to coat yourself in flammable liquid and ignite it. For the next minute, or until you extinguish the fire as an action, you are wreathed in flames that do not harm you (you ignore the normal effects of the item). While you have these flames, your melee weapon attacks deal an extra {@dice 1d6} fire damage and you have advantage on Charisma (Intimidation) checks against creatures that can see you and that are not immune to fire damage. In addition, when a creature within 5 feet of you hits you with a melee attack or ends its turn {@condition grappled} by you, it takes {@dice 1d6} fire damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Tattoo)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"Your inhibited decision making somehow led you to getting a magic tattoo.",
+				"You gain {@filter one common or uncommon tattoo of your choice (excluding spellwrought tattoos).|items|type=tattoo|rarity=common;uncommon} If you unattune to the tattoo, it remains on your skin but becomes inert and grants no benefits until you attune to it again."
+			]
+		},
+		{
+			"name": "Blessing of the Drunkard (Forgetful)",
+			"source": "J:Drunk",
+			"type": "Blessing of the Drunkard",
+			"entries": [
+				"You infuse your magic with the numbed senses of inebriation. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You know the {@spell gift of gab|ai} spell. You can cast the spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.",
+						"When a creature fails an Intelligence, Wisdom or Charisma against a spell you cast, you can make them forget that they saw you cast the spell. The creature may still be aware that a spell was cast on them but not who cast it. You can cause a creature to forget in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+		}
+	]
+}
