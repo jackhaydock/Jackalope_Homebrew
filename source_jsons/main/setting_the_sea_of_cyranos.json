@@ -1752,6 +1752,7 @@
 			"weight": 1,
 			"charges": 2,
 			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d3-1}",
 			"entries": [
 				"This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side.",
 				"The hourglass has 2 charges and regains {@dice 1d3-1} charges daily at dawn.",
@@ -1851,6 +1852,7 @@
 			"source": "J:Cyranos",
 			"charges": 3,
 			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn. When you miss a ranged attack with this weapon you can expend one charge to hit instead, this hit cannot be a critical hit."
 			],
@@ -1876,6 +1878,7 @@
 			"source": "J:Cyranos",
 			"charges": 3,
 			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score.",
 				"This item has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
@@ -3077,6 +3080,7 @@
 				"source": "J:Cyranos",
 				"charges": 3,
 				"recharge": "dawn",
+				"rechargeAmount": "{@dice 1d4-1}",
 				"namePrefix": "Underworld ",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
