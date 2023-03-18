@@ -826,6 +826,29 @@
 			"entries": [
 				"This foul concoction is made of mushrooms and other psychoactive herbs, and can make creatures much more aggressive and reckless than they would normally be. When you drink this potion, you gain advantage on melee weapon attacks for 1 minute. Attack rolls against you have advantage for this duration."
 			]
+		},
+		{
+			"name": "Axe of Felling",
+			"weight": 4,
+			"source": "J:General",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d3}",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon. In addition, attacks with this weapon deal double damage against plants and objects made of wood.",
+				"This weapon has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you hit a creature with a melee attack using this weapon, you can use a bonus action to expend 1 charge and force the creature to make a DC 15 Charisma saving throw. On a fail, the creature is subjected to the effects of the {@spell timber|J:General} spell. You decide direction of the cone (originating from the target) and the space that the creature reappears in when the spell ends."
+			],
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"baseItem": "battleaxe|phb",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S"
 		}
 	],
 	"monster": [
