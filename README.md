@@ -7,7 +7,9 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: Antithesis Subclasses/J:Antithesis**: Subclasses themed around being the opposite of class steroetypes.
   - **Jackalope: Ash and Snow/J:AnS**: Stuff for my viking themed setting, Ash and Snow.
   - **Jackalope: Awakened Energy Warlock/J:Energy**: Warlock with sentient energy as patron, themed around choice of damage type.
+  - **Jackalope: Battlemage Fighter/J:Battlemage**: Revised Eldritch Knight with more choices in spell lists and other features.
   - **Jackalope: Beastkin/J:Beastkin**: Various animalistic races and subraces. Also includes some racial feats.
+  - **Jackalope: Blessings of the Drunkard/J:Drunk**: Boons from a hedonistic god, such as Dionysus.
   - **Jackalope: Children of Morrigan/J:Morrigan**: Stuff for my celtic folklore themed setting, Children of Morrigan.
   - **Jackalope: Custom Dragons/J:Dragons**: Rules and examples for building custom dragons.
   - **Jackalope: Darkweaver Warlock/J:Darkweaver**: Spider/underdark themed warlock. Can control the battlefield with webs, poison and fear.
