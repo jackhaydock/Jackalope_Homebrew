@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Caféy",
+				"abbreviation": "J:Caféy",
+				"color": "10df45",
+				"full": "Jackalope: The Caféy",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "item": [
+        {
+			"name": "Mugbear",
+			"source": "J:Caféy",
+			"wondrous": true,
+			"rarity": "common",
+			"entries": [
+				"This miraculous mug can be picked up from up to 10 feet away without needing to lean or move toward it."
+			]
+		},
+        {
+			"name": "Leomund's Tiny Cup",
+			"source": "J:Caféy",
+			"wondrous": true,
+			"rarity": "common",
+			"entries": [
+				"This tiny cup holds about a thimble's worth of drink. The drink is always the perfect temperature and briefly fills you with a comforting warmth when you drink it."
+			]
+		},
+        {
+			"name": "Yeast Sense",
+			"source": "J:Caféy",
+            "type": "P",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"entries": [
+				"This thick, brothy beer tastes like bread. The first time you see a piece of bread after drinking this beer, you percieve the world as if you were the bread, seeing and hearing from its space. While doing so, you are {@condition blinded} and {@condition deafened} to your own surroundings. These effects last for 1 minute or until you take damage."
+			]
+		},
+        {
+			"name": "Cause Beer",
+			"source": "J:Caféy",
+            "type": "P",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"entries": [
+				"This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
+			]
+		}
+    ]
+}

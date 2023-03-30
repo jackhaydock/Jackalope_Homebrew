@@ -31,6 +31,7 @@ My items will have the following sources/labels making it easy to identify them 
   - **Jackalope: Wild Magic/J:Wild**: Wild magic and chaos themed subclasses and items.
 - Extra Collection (generally not allowed for actual play in my games unless stated otherwise)
   - **Jackalope: Partypack/J:Partypack**: Memes and character specific stuff.
+  - **Jackalope: The Caféy/J:Caféy**: A travelling café in the feywild serving bizare food and drinks.
 - Legacy Collection (generally not allowed for actual play in my games unless stated otherwise)
   - **Jackalope: Portalist Class (Legacy)/J:Portalist**: Older version of the Portalist, likely even more broken.
 
