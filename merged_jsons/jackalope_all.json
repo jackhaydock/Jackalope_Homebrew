@@ -1385,6 +1385,39 @@
             ]
         },
         {
+            "name": "Runestone Braclet",
+            "source": "J:Runestones",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This braclet can be fused with a weapon runestone, granting the benefits of the runestone to your unarmed strikes."
+            ]
+        },
+        {
+            "name": "Runestone Brooch",
+            "source": "J:Runestones",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This brooch can be fused with an armor runestone, granting the benefits of the runestone to a set of clothes or robes."
+            ]
+        },
+        {
+            "name": "+1 Juggling Runestone",
+            "source": "J:Runestones",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6-1}",
+            "entries": [
+                "{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+                "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+                "Additionally, the weapon has 5 charges and regains {@dice 1d6-1} charges daily at dawn. When you hit a creature that is your size or smaller with a melee attack using this weapon, you can expend a charge to force the creature to make a DC 16 Strength saving throw. On a fail, both you and the target are launched 15 feet vertically without provoking opportunity attacks. You can choose to have the pair of you launched diagonally, up to 10ft horizontally, you and target must move in the same direction. Neither of you fall until the end of your turn unless you choose to. Subsequent melee attacks you make with this weapon against the creature before you both fall have advantage."
+            ]
+        },
+        {
             "name": "+1 Bloody Runestone",
             "source": "J:Runestones",
             "rarity": "uncommon",
