@@ -9604,11 +9604,99 @@
                     },
                     {
                         "name": "Sorcerer",
-                        "source": "TCE"
+                        "source": "PHB"
                     },
                     {
                         "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Flaming Fingers",
+            "source": "J:General",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.",
+                "When you cast the spell, or as a subsequent action while you have this flame, you can produce one of the following effects with it:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You double or halve the area of bright light and dim light cast by the flame, change its color, or both.",
+                        "You ignite a flammable object you touch that is not being worn or carried by a creature other than you. Once the object is ignited, you can immediately pull your hand away to avoid taking fire damage as a result of touching the burning object.",
+                        "You cause simple shapes\ufffd\ufffd\ufffdsuch as the vague form of a creature, an inanimate object, or a location\ufffd\ufffd\ufffdto appear within the flames and animate as you like. The shapes must fit in your hand (or just above it) and last until the start of your next turn.",
+                        "You cool the flame and safely dry up to a square foot of a wet creature or object you touch without burning it."
+                    ]
+                },
+                "{@note If you use the Evolving Cantrips supplement, you gain the following additional benefits when you reach certain levels.}"
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At 5th Level",
+                    "entries": [
+                        "You can use the flame as an action to ignite a flammable object you can see within 15 feet of you that is not being worn or carried by a creature other than you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "At 11th Level",
+                    "entries": [
+                        "You can make up to two flames appear simultaneously, each in a different hand. You can produce simultaneous effects with each flame as part of the same action. You may choose the same effect or a different one."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "At 17th Level",
+                    "entries": [
+                        "You can ignite up to three objects simultainiously with each flame."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
                         "source": "TCE"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
                     }
                 ]
             }
