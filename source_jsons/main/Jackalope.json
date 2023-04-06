@@ -2112,6 +2112,168 @@
 					"In Cyranos in Alvergia, they are often found in tribes led by a queen and are known to mingle with tribes of satyrs, centaurs and wood elves."
 				]
 			}
+		},
+		{
+			"name": "Celestial Elf",
+			"source": "J:General",
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"elf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting",
+				"Tool Proficiency",
+				"Weapon Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radiant Resistance",
+					"entries": [
+						"You have resistance to radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Divine Dash",
+					"entries": [
+						"As a bonus action, you can rapidly move up to 30 feet in a straight line in any direction. This movement does not provoke opportunity attacks and you can pass through the space of other creatures. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+						"When you reach 3rd level, you can enhance your Divine Dash trait at the end of a long rest with an additional effect from the list below. The effect lasts until the end of your next long rest. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Forceful Dash.",
+									"entry": "Any creatures who's space you pass through, and that are your size or smaller, must make a Strength saving throw or be knocked prone."
+								},
+								{
+									"type": "item",
+									"name": "Healing Dash.",
+									"entry": "Any creatures who's space you pass through regain a number of hit points equal to twice your proficiency bonus."
+								},
+								{
+									"type": "item",
+									"name": "Radiant Dash.",
+									"entry": "Any creatures who's space you pass through take radiant damage equal to your proficiency bonus."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
+						"Whenever you finish this trance, you can change the effect for your Divine Dash trait, and you can gain two proficiencies that you don't have, each one with a weapon or a tool of your choice selected from the Player's Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory, and you retain them until you finish your next long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Just as many elves have their origins from the feywild, celestial elves instead claim similar from the upper planes and celestial beings. Infused with divine and positive energies, celestial elves can propel themselves forward with the speed and strength of divine gods, unhindered by those in their way.",
+					"In Cyranos, some of these elves trace their lineage directly back to the first elves created by Prometheus and Athena. Some may even claim godly ancestry, being descended from demi-gods or even being demi-gods in their own right. This can be a source of great pride for many, perhaps too much for some. It can also be the source of great expectations and the stress of living up to them."
+				]
+			}
 		}
 	],
 	"spell": [
