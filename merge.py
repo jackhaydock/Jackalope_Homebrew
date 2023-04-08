@@ -1,21 +1,34 @@
-import json, glob
+import json
+import glob
+import time
+import pathlib
+from datetime import datetime
 
 def build_json(files):
     output = {}
     for f in files:
+
+        # Get time file was last modifed, to be used as version
+        file_modified_time = pathlib.Path(f).stat().st_mtime
+        version = datetime.utcfromtimestamp(file_modified_time).strftime('%Y.%m.%d.%H.%M')
+
+        # Build merged json from all given source jsons, extending rather than replacing where needed
         with open(f, 'r', encoding="ascii", errors="replace") as infile:
             data = json.load(infile)
-
             for k in data.keys():
                 if k in output.keys():
                     if k == "$schema":
                         continue
                     elif k == "_meta":
+                        for source in data[k]["sources"]:
+                            source["version"] = version
                         output[k]["sources"].extend(data[k]["sources"])
                     else:
                         output[k].extend(data[k])
                 else:
                     output[k] = data[k]
+                    
+    output["_meta"]["dateLastModified"] = time.time()
     return output
 
 def write_to_file(filename, data):
