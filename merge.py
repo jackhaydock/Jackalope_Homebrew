@@ -26,6 +26,7 @@ def build_json(files):
                     else:
                         output[k].extend(data[k])
                 else:
+                    data["_meta"]["sources"][0]["version"] = version
                     output[k] = data[k]
                     
     output["_meta"]["dateLastModified"] = time.time()
