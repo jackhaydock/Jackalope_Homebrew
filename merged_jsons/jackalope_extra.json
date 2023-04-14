@@ -36,12 +36,12 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.04.14.06.11",
+                "version": "2023.04.14.06.20",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1681452736.800225
+        "dateLastModified": 1681453245.071897
     },
     "race": [
         {
@@ -751,6 +751,8 @@
         {
             "name": "Aisling (Young)",
             "source": "J:MADNESS",
+            "isNpc": true,
+            "isNamedCreature": true,
             "size": [
                 "L"
             ],
@@ -812,8 +814,8 @@
                 {
                     "name": "Draconic Essence (Fire) & Secondary Essence (Radiant)",
                     "entries": [
-                        "Aisling is immune to fire damage. their Breath Weapon and Destructive maw traits use fire damage.",
-                        "Aisling is also immune to radiant damage. Whenever they uses their Breath Weapon or Destructive Maw trait, they can choose to use radiant in place of fire."
+                        "Aisling is immune to fire damage. Their Breath Weapon and Destructive maw traits use fire damage.",
+                        "Aisling is also immune to radiant damage. Whenever they use their Breath Weapon or Destructive Maw trait, they can choose to use radiant in place of fire."
                     ]
                 },
                 {
@@ -825,7 +827,7 @@
                 {
                     "name": "Enhanced Attacks",
                     "entries": [
-                        "Aisling has a +1 bonus to attack and damage rolls made with its bite and claw attacks (included in the attacks)."
+                        "Aisling has a +1 bonus to attack and damage rolls made with their bite and claw attacks (included in the attacks)."
                     ]
                 }
             ],
@@ -859,12 +861,15 @@
                 {
                     "name": "Protect Rider",
                     "entries": [
-                        "When an attack would target a creature mounted on Aisling, they can use a reaction to force the attack to target their instead."
+                        "When an attack would target a creature mounted on Aisling, Aisling can use a reaction to force the attack to target their instead."
                     ]
                 }
             ],
             "damageTags": [
-                "P"
+                "S",
+                "P",
+                "F",
+                "R"
             ],
             "miscTags": [
                 "AOE",
@@ -874,6 +879,8 @@
         {
             "name": "Terrorwing (Young)",
             "source": "J:MADNESS",
+            "isNpc": true,
+            "isNamedCreature": true,
             "size": [
                 "L"
             ],
@@ -1002,12 +1009,14 @@
                 {
                     "name": "Protect Rider",
                     "entries": [
-                        "When an attack would target a creature mounted on Terrorwing, they can use a reaction to force the attack to target their instead."
+                        "When an attack would target a creature mounted on Terrorwing, Terrorwing can use a reaction to force the attack to target their instead."
                     ]
                 }
             ],
             "damageTags": [
-                "P"
+                "P",
+                "S",
+                "A"
             ],
             "miscTags": [
                 "AOE",
