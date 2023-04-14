@@ -9,7 +9,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.03.14.02.58",
+                "version": "2023.04.14.06.09",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -27,9 +27,21 @@
                 "version": "2023.03.30.02.52",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:MADNESS",
+                "abbreviation": "J:MADNESS",
+                "color": "ff6500",
+                "full": "Jackalope: MADNESS",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "2023.04.14.06.11",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1680919062.533886
+        "dateLastModified": 1681452736.800225
     },
     "race": [
         {
@@ -424,26 +436,6 @@
             ]
         },
         {
-            "name": "Potion of MADNESS",
-            "type": "P",
-            "rarity": "rare",
-            "source": "JPP",
-            "entries": [
-                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
-            ]
-        },
-        {
-            "name": "MADNESS Tattoo",
-            "wondrous": true,
-            "tattoo": true,
-            "rarity": "rare",
-            "source": "JPP",
-            "entries": [
-                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
-                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin."
-            ]
-        },
-        {
             "name": "Watermelon of Healing",
             "type": "P",
             "rarity": "legendary",
@@ -519,6 +511,26 @@
             "rarity": "uncommon",
             "entries": [
                 "This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
+            ]
+        },
+        {
+            "name": "Potion of MADNESS",
+            "type": "P",
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
+            ]
+        },
+        {
+            "name": "MADNESS Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
+                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanitheys from your skin."
             ]
         }
     ],
@@ -734,5 +746,273 @@
             ]
         }
     ],
-    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json"
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "monster": [
+        {
+            "name": "Aisling (Young)",
+            "source": "J:MADNESS",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "dragon",
+                "tags": [
+                    "custom"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 142,
+                "formula": "15d10 + 60"
+            },
+            "speed": {
+                "walk": 40,
+                "fly": 80
+            },
+            "str": 20,
+            "dex": 12,
+            "con": 18,
+            "int": 15,
+            "wis": 13,
+            "cha": 16,
+            "save": {
+                "dex": "+4",
+                "con": "+7",
+                "wis": "+4",
+                "cha": "+6"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+4"
+            },
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "immune": [
+                "fire",
+                "radiant"
+            ],
+            "languages": [
+                "knows the languages Thena does but does not speak"
+            ],
+            "cr": "8",
+            "trait": [
+                {
+                    "name": "Draconic Essence (Fire) & Secondary Essence (Radiant)",
+                    "entries": [
+                        "Aisling is immune to fire damage. their Breath Weapon and Destructive maw traits use fire damage.",
+                        "Aisling is also immune to radiant damage. Whenever they uses their Breath Weapon or Destructive Maw trait, they can choose to use radiant in place of fire."
+                    ]
+                },
+                {
+                    "name": "Destructive Maw",
+                    "entries": [
+                        "Aisling deals an extra {@dice 1d10} damage with their bite attack (included in the attack). The extra damage is of of the type associated with their Draconic Essence trait."
+                    ]
+                },
+                {
+                    "name": "Enhanced Attacks",
+                    "entries": [
+                        "Aisling has a +1 bonus to attack and damage rolls made with its bite and claw attacks (included in the attacks)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Aisling makes three attacks: one with their bite and two with their claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage and {@h}5 ({@dice 1d10}) fire or radiant damage (your choice)."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "Aisling exhales destructive energy in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 42 ({@damage 12d6}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with Aisling's Draconic Essence trait."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Protect Rider",
+                    "entries": [
+                        "When an attack would target a creature mounted on Aisling, they can use a reaction to force the attack to target their instead."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW"
+            ]
+        },
+        {
+            "name": "Terrorwing (Young)",
+            "source": "J:MADNESS",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "construct",
+                "tags": [
+                    "custom"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor",
+                        "enhanced defence"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 142,
+                "formula": "15d10 + 60"
+            },
+            "speed": {
+                "walk": 40,
+                "fly": 80
+            },
+            "str": 20,
+            "dex": 12,
+            "con": 18,
+            "int": 15,
+            "wis": 13,
+            "cha": 16,
+            "save": {
+                "str": "+6",
+                "dex": "+5",
+                "con": "+8",
+                "int": "+3",
+                "wis": "+5",
+                "cha": "+7"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+4"
+            },
+            "senses": [
+                "blindsight 30 ft.",
+                "darkvision 120 ft."
+            ],
+            "passive": 17,
+            "immune": [
+                "acid",
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "fightened",
+                "poisoned"
+            ],
+            "languages": [
+                "knows the languages Agrax does but does not speak"
+            ],
+            "cr": "8",
+            "trait": [
+                {
+                    "name": "Draconic Essence (Acid)",
+                    "entries": [
+                        "Terrorwing is immune to acid damage. Their Breath Weapon uses acid damage."
+                    ]
+                },
+                {
+                    "name": "Construct Design",
+                    "entries": [
+                        "Terrorwing's creature type is contruct rather than dragon. They are immune to disease, poison, psychic and the {@condition poisoned} condition. They also do not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+                    ]
+                },
+                {
+                    "name": "Iron Will",
+                    "entries": [
+                        "Terrorwing is immune to the {@condition charmed} and {@condition frightened} conditions."
+                    ]
+                },
+                {
+                    "name": "Enhanced Defence",
+                    "entries": [
+                        "Terrorwing has a +1 bonus to their Armor Class and saving throws (included)."
+                    ]
+                },
+                {
+                    "name": "Relentless Endurance (Recharges after a Short or Long Rest)",
+                    "entries": [
+                        "If damage would reduce the terrorwing to 0 hit points, they instead drop to 1 hit point."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Terrorwing makes three attacks: one with their bite and two with their claws."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}16 ({@damage 2d10 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Breath Weapon {@recharge 5}",
+                    "entries": [
+                        "Terrorwing exhales destructive energy in a 30-foot cone. Each creature in that area must make a {@dc 14} Dexterity saving throw, taking 42 ({@damage 12d6}) damage on a failed save, or half as much damage on a successful one. The damage is of the type associated with Terrorwing's Draconic Essence trait."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Protect Rider",
+                    "entries": [
+                        "When an attack would target a creature mounted on Terrorwing, they can use a reaction to force the attack to target their instead."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW"
+            ]
+        }
+    ]
 }
