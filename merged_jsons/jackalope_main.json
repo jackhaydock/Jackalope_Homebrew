@@ -298,7 +298,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2023.04.22.16.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -394,7 +394,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1681453673.6102886
+        "dateLastModified": 1682182692.8805273
     },
     "feat": [
         {
@@ -13547,6 +13547,21 @@
             ]
         },
         {
+            "name": "Timebreaker Barbarian",
+            "shortName": "Timebreaker",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Path of the Timebreaker|Barbarian|PHB|Timebreaker|J:Temporal|3",
+                "Shatter Instinct|Barbarian|PHB|Timebreaker|J:Temporal|3",
+                "Split Attack|Barbarian|PHB|Timebreaker|J:Temporal|3",
+                "Instantaneous Break|Barbarian|PHB|Timebreaker|J:Temporal|6",
+                "Splintered Action|Barbarian|PHB|Timebreaker|J:Temporal|10",
+                "Preemptive Realiation|Barbarian|PHB|Timebreaker|J:Temporal|14"
+            ]
+        },
+        {
             "name": "Vermin",
             "shortName": "Vermin",
             "source": "J:Vermin",
@@ -15941,6 +15956,86 @@
             "header": 2,
             "entries": [
                 "Starting at 14th level, you no longer age unless you choose to, and you can't be aged magically. Additionally, you no longer need to breathe, eat, drink or sleep."
+            ]
+        },
+        {
+            "name": "Path of the Timebreaker",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "entries": [
+                "The laws of time are rigid and unmoving for even skilled mages, but with that rigidity comes brittleness. Where mages may attempt to subtly bend the laws of time, your focused fury can just break right through them. Exploiting these breaches, you can act in sequences that seem impossible to others, if they can even perceive them at all."
+            ]
+        },
+        {
+            "name": "Shatter Instinct",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting when you choose this path at 3rd level, you can bend or break the fabric of time to act sooner than you would otherwise. When you roll for initiative, you can add your Strength modifier to the result of the roll. You can only gain this benefit if you are raging or if enter your rage before doing anything else on your first turn."
+            ]
+        },
+        {
+            "name": "Split Attack",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you can briefly split yourself across the same point in time, attacking multiple enemies at once. Once per turn, when you hit a creature with a melee weapon attack, you can immediately make an additional melee attack against another creature within your reach. You must use the same weapon as you used for the first attack.",
+                "You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Instantaneous Break",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "Starting at 6th level, your rage can break through the barriers of time, allowing you to finish tasks before others can even perceive you begin them. While raging, you can use a bonus action on your turn to prevent any creatures other than you taking reactions on the current turn. For this turn, you can also move through the space of other creatures, and it doesn't count as difficult terrain. If you end the turn in another creature's space, you are shunted to the last unoccupied space that you occupied, and both you and the creature take {@dice 1d8} force damage.",
+                "You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Splintered Action",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "Starting at 10th level, you can use a bonus action to take the {@action Dash}, {@action Grapple} or {@action Shove} action.",
+                "Additionally, once during a turn in which you use this bonus action, you can teleport to an unoccupied space you can see within 60 feet and that you have occupied at some point on the current turn. If you are grappling a creature, it must make a Charisma saving throw or be teleported with you. The DC for this saving throw is equal to 8 + your proficiency bonus + your Strength modifier. You can teleport in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Preemptive Realiation",
+            "source": "J:Temporal",
+            "className": "Barbarian",
+            "classSource": "PHB",
+            "subclassShortName": "Timebreaker",
+            "subclassSource": "J:Temporal",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "Starting at 14th level, you can react to attacks by jumping back a few seconds to attack first. When a creature you can see within 10 feet of you targets you with an attack, you can use a reaction to make one melee weapon attack against that creature. The creature is considered within reach regardless of your reach, and the attack ignores half and three-quarters cover. On a hit, the creature suffers the attack's effects before it can continue its own attack."
             ]
         },
         {
