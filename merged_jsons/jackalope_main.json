@@ -298,7 +298,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.22.16.57",
+                "version": "2023.04.22.18.24",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -394,7 +394,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1682182692.8805273
+        "dateLastModified": 1682187913.0204275
     },
     "feat": [
         {
@@ -13562,6 +13562,21 @@
             ]
         },
         {
+            "name": "Way of the Chronal Fist Monk",
+            "shortName": "Chronal Fist",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Way of the Chronal Fist|Monk|PHB|Chronal Fist|J:Temporal|3",
+                "Dilation Strikes|Monk|PHB|Chronal Fist|J:Temporal|3",
+                "Perfect Timing|Monk|PHB|Chronal Fist|J:Temporal|3",
+                "Chronal Dodge|Monk|PHB|Chronal Fist|J:Temporal|6",
+                "Fast Forward Fist|Monk|PHB|Chronal Fist|J:Temporal|11",
+                "Chronal Ki|Monk|PHB|Chronal Fist|J:Temporal|17"
+            ]
+        },
+        {
             "name": "Vermin",
             "shortName": "Vermin",
             "source": "J:Vermin",
@@ -15965,6 +15980,7 @@
             "classSource": "PHB",
             "subclassShortName": "Timebreaker",
             "subclassSource": "J:Temporal",
+            "header": 1,
             "level": 3,
             "entries": [
                 "The laws of time are rigid and unmoving for even skilled mages, but with that rigidity comes brittleness. Where mages may attempt to subtly bend the laws of time, your focused fury can just break right through them. Exploiting these breaches, you can act in sequences that seem impossible to others, if they can even perceive them at all."
@@ -16036,6 +16052,99 @@
             "header": 2,
             "entries": [
                 "Starting at 14th level, you can react to attacks by jumping back a few seconds to attack first. When a creature you can see within 10 feet of you targets you with an attack, you can use a reaction to make one melee weapon attack against that creature. The creature is considered within reach regardless of your reach, and the attack ignores half and three-quarters cover. On a hit, the creature suffers the attack's effects before it can continue its own attack."
+            ]
+        },
+        {
+            "name": "Way of the Chronal Fist",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "header": 1,
+            "level": 3,
+            "entries": [
+                "Those who follow the Way of the Chronal Fist focus their knowledge and abilities on the temporal fabric of the multiverse, using martial arts to warp it to their benefit. With this knowledge they can alter a creatures position and velocity in time."
+            ]
+        },
+        {
+            "name": "Dilation Strikes",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "header": 2,
+            "level": 3,
+            "entries": [
+                "Starting when you choose this tradition at 3rd level, your unarmed strikes can alter the timestream of creatures you hit. Once per turn, when you hit a creature with an unarmed strike, you can choose to either increase or decrease the target's speed by 10ft until the start of your next turn. In addition, you can choose to forgo damage on the attack to increase or decrease the target's speed by an additional 10ft."
+            ]
+        },
+        {
+            "name": "Perfect Timing",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "header": 2,
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you can subtly alter your perception of time to ensure you act at the perfect moment. When you make an ability check that uses your Dexterity modifier, you can expend 1 Ki Point to gain a bonus to the roll equal to your Martial Arts die."
+            ]
+        },
+        {
+            "name": "Chronal Dodge",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "header": 2,
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, when you or a willing creature you can see within 5 feet takes damage, you can use a reaction to jump the target forward through time a few seconds. The damage taken by the target is reduced by two rolls of your martial arts die and the target is transported to a harmless demiplane outside of time and is incapacitated until the start of its next turn.",
+                "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Fast Forward Fist",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "consumes": {
+                "name": "Ki",
+                "amount": 4
+            },
+            "header": 2,
+            "level": 11,
+            "entries": [
+                "Starting at 11th level, you can use your strike to attempt to force a creature forward through time. When you hit a creature with an unarmed strike or a monk weapon, you can spend 4 ki points to force that creature to make a Charisma saving throw. On a fail, the creature is hurled through a harmless demiplane between timelines, and is incapacitated.",
+                "The creature can repeat the saving throw at the end of each of its turns, returning to the space it left on a success, or appearing in the nearest unoccupied space if its space is occupied. The creature also returns early if you lose concentration (as if concentrating on a spell) If a creature is still in the demiplane after 1 minute, the effect no longer requires concentration and the creature returns to the space it left {@dice 1d12 * 4|1d12 x 4} hours after the moment it left. Either way, no time appears to have passed at all from the creature's perspective."
+            ]
+        },
+        {
+            "name": "Chronal Ki",
+            "source": "J:Temporal",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "Chronal Fist",
+            "subclassSource": "J:Temporal",
+            "header": 2,
+            "level": 17,
+            "entries": [
+                "Starting at 17th level, you learn to split yourself across multiple timelines, performing all them simultaneously, before merging back into the original. Doing so allows you to enhance several your ki features as described below.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "item": [
+                        "{@b {@i Flurry of Blows.}} When you use your Flurry of Blows, you can make three unarmed strikes rather than two. In addition, your unarmed strikes have a reach of 15 feet for the duration of the current turn.",
+                        "{@b {@i Patient Defence.}} When you use your Patient Defence, once before the start of your next turn, when a creature targets you with an attack, you can make an unarmed strike against that creature before it can complete the attack, provided they are within reach of your unarmed strike and you are not incapacitated. This unarmed strike does not cost a reaction. If this unarmed strike reduces the creature to 0 hit points, or otherwise leaves them unable to make the attack, the attack it made against you misses and you take no damage.",
+                        "{@b {@i Step of the Wind.}} When you use your Step of the Wind, you can take both the {@action Dash} and {@action Disengage} action with the same bonus action. In addition, your speed increases by 10 feet for the duration of the current turn."
+                    ]
+                }
             ]
         },
         {
