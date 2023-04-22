@@ -298,7 +298,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.22.18.36",
+                "version": "2023.04.22.18.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -448,7 +448,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1682188617.2039552
+        "dateLastModified": 1682189593.260377
     },
     "feat": [
         {
@@ -18084,6 +18084,10 @@
             "classSource": "PHB",
             "subclassShortName": "Chronal Fist",
             "subclassSource": "J:Temporal",
+            "consumes": {
+                "name": "Ki",
+                "amount": 1
+            },
             "header": 2,
             "level": 3,
             "entries": [
@@ -18118,7 +18122,7 @@
             "header": 2,
             "level": 11,
             "entries": [
-                "Starting at 11th level, you can use your strike to attempt to force a creature forward through time. When you hit a creature with an unarmed strike or a monk weapon, you can spend 4 ki points to force that creature to make a Charisma saving throw. On a fail, the creature is hurled through a harmless demiplane between timelines, and is incapacitated.",
+                "Starting at 11th level, you can use your strike to attempt to force a creature forward through time. When you hit a creature with an unarmed strike or a monk weapon, you can spend 4 ki points to force that creature to make a Charisma saving throw. On a fail, the creature is hurled through a harmless demiplane between timelines, and is {@condition incapacitated}.",
                 "The creature can repeat the saving throw at the end of each of its turns, returning to the space it left on a success, or appearing in the nearest unoccupied space if its space is occupied. The creature also returns early if you lose concentration (as if concentrating on a spell) If a creature is still in the demiplane after 1 minute, the effect no longer requires concentration and the creature returns to the space it left {@dice 1d12 * 4|1d12 x 4} hours after the moment it left. Either way, no time appears to have passed at all from the creature's perspective."
             ]
         },
