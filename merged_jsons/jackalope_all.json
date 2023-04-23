@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.23.15.45",
+                "version": "2023.04.23.15.54",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -448,7 +448,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1682264758.777816
+        "dateLastModified": 1682265336.9960597
     },
     "feat": [
         {
@@ -10363,6 +10363,66 @@
                     },
                     {
                         "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shape Weapon",
+            "source": "J:General",
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of paper folded into the shape of a weapon"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You choose a nonmagical weapon that you can see in range and alter its geometry. You might make an edge sharper or duller, make a blade longer or shorter, alter the weight balance or another similar effect.",
+                "For the spell's duration, the weapon's damage type becomes your choice of bludgeoning, piercing or slashing and attacks with it have a {@dice 1d6} bonus or penalty (choose when you cast this spell) to damage rolls (to a minimum of 1 damage). If you choose to grant a bonus to damage, attacks with the weapon count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                "If the weapon is being worn or carried by an unwilling creature when you cast the spell, that creature can make a Charisma saving throw to prevent the effects of this spell."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell at 5th-level or higher, you can add or remove one of the following properties on the weapon for every two levels above 3rd; heavy, finesse, light and reach. This effect lasts for the spell's duration."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    },
+                    {
+                        "name": "Wizard",
                         "source": "PHB"
                     }
                 ]
