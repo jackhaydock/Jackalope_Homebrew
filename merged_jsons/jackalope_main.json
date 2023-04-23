@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.23.15.54",
+                "version": "2023.04.23.16.07",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -394,7 +394,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1682265336.6071007
+        "dateLastModified": 1682266106.676261
     },
     "feat": [
         {
@@ -1340,6 +1340,23 @@
             "value": 3000,
             "entries": [
                 "This book contains knowledge and instructions for body modification. If you spend 24 hours studying the book's contents (this can be done as light activity during a long rest), you can make a DC 10 Intelligence check. On a success, you gain proficiency with {@item body modder's tools|J:General}. On a fail, you must spend a further 12 hours studying the book to attempt the check again."
+            ]
+        },
+        {
+            "name": "Robe of the Desert",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "rare",
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d10}",
+            "entries": [
+                "This lightweight beige or tan robe can be worn with light or medium armor. The loose cloth around the shoulders can be formed into a simple hood and face mask, protecting the wearer from the elements. The many folds and creases of the robe seem to hold a small yet endless quantity of sand that gets everywhere.",
+                "While attuned to this robe, you are resistant to fire damage and have advantage on Dexterity (Stealth) checks in sandy terrain.",
+                "The robe has 10 charges, it regains {@dice 1d10} charges daily at dawn. If you have spent the entire previous day wearing the robe in a hot desert, it regains an additional 2 charges at dawn.",
+                "As an action, you can expend up to 3 charges to cast one of the following spells (save DC 16) without providing material components: {@spell mold earth|xge}, {@spell gust|xge}, {@spell color spray|phb}, {@spell cloud of daggers|phb}, {@spell dust devil|xge}, {@spell gust of wind|phb}, {@spell leomund's tiny hut|phb} or {@spell wall of sand|xge}.",
+                "The number of charges expended is equal to the level the spell is cast at (no charges required for a cantrip). When cast in this way, each of these spells resembles sand or sandstone in someway. For example, {@spell cloud of daggers|phb} might be a flurry of floating sand and glass shards, while {@spell leomund's tiny hut|phb} might appear to have the color and texture of sandstone from the outside.",
+                "Additionally, when a creature fails a saving throw against one of these spells, you can expend a charge to {@condition blinded|blind} them until the end of their next turn."
             ]
         },
         {
