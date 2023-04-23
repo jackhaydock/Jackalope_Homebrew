@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.08.01.26",
+                "version": "2023.04.23.15.45",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -298,7 +298,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.22.18.55",
+                "version": "2023.04.22.19.15",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -448,7 +448,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1682189721.3196743
+        "dateLastModified": 1682264758.777816
     },
     "feat": [
         {
@@ -10310,6 +10310,65 @@
             }
         },
         {
+            "name": "Speech Jam",
+            "source": "J:General",
+            "level": 1,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a metal tube or horn bent into a loop"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You choose a target you can see within range and attempt to create a feedback loop between its speech and hearing, confusing its mind and forcing it to speak slower than normal. The creature must make a Wisdom saving throw or become speech jammed for the spell's duration or until they are {@condition deafened}. The target can repeat the saving throw at the end of each of its turns, removing the effect on a success.",
+                "While speech jammed, the target speaks in a slow drawl. They have disadvantage on Charisma checks that rely on speech and they take longer to cast spells with verbal components. If the spell normally requires a reaction, they can no longer cast it. If the spell normally requires a bonus action, it now requires an action. If the spell normally requires an action, it now requires two actions."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
+                    },
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
             "name": "Switch",
             "source": "J:Portalist",
             "level": 2,
@@ -18061,7 +18120,7 @@
             "header": 1,
             "level": 3,
             "entries": [
-                "Those who follow the Way of the Chronal Fist focus their knowledge and abilities on the temporal fabric of the multiverse, using martial arts to warp it to their benefit. With this knowledge they can alter a creatures position and velocity in time."
+                "Those who follow the Way of the Chronal Fist focus their knowledge and abilities on the temporal fabric of the multiverse, using martial arts to warp it to their benefit. With this knowledge, they can alter a creature's position and velocity in time."
             ]
         },
         {
@@ -18104,7 +18163,7 @@
             "header": 2,
             "level": 6,
             "entries": [
-                "Starting at 6th level, when you or a willing creature you can see within 5 feet takes damage, you can use a reaction to jump the target forward through time a few seconds. The damage taken by the target is reduced by two rolls of your martial arts die and the target is transported to a harmless demiplane outside of time and is incapacitated until the start of its next turn.",
+                "Starting at 6th level, when you or a willing creature you can see within 5 feet takes damage, you can use a reaction to jump the target forward through time a few seconds. The damage taken by the target is reduced by two rolls of your martial arts die, and the target is transported to a harmless demiplane outside of time and is incapacitated until the start of its next turn.",
                 "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
             ]
         },

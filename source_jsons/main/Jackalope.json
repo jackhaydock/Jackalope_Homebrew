@@ -3631,6 +3631,65 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Speech Jam",
+			"source": "J:General",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a metal tube or horn bent into a loop"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You choose a target you can see within range and attempt to create a feedback loop between its speech and hearing, confusing its mind and forcing it to speak slower than normal. The creature must make a Wisdom saving throw or become speech jammed for the spell's duration or until they are {@condition deafened}. The target can repeat the saving throw at the end of each of its turns, removing the effect on a success.",
+				"While speech jammed, the target speaks in a slow drawl. They have disadvantage on Charisma checks that rely on speech and they take longer to cast spells with verbal components. If the spell normally requires a reaction, they can no longer cast it. If the spell normally requires a bonus action, it now requires an action. If the spell normally requires an action, it now requires two actions."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
