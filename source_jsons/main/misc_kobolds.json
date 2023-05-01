@@ -58,6 +58,38 @@
 			]
 		}
 	],
+	"item": [
+		{
+			"name": "Potion of Kobold Form",
+			"source": "J:Kobolds",
+			"type": "P",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"When you drink this potion, you transform into a kobold for one hour. Your statistics remain the same except your appearance becomes that of a kobold, and you become a Small humanoid if you weren't already. Your equipment changes size with you, and if you were previously Medium or larger, you can ignore the Heavy property of weapons. You also the gain the Darkvision and Draconic Cry traits from the {@race kobold|mpmm} race."
+			]
+		},
+		{
+			"name": "Kobold Kake",
+			"source": "J:Kobolds",
+			"type": "P",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This messy but delicious cake has 8 portions. 10 minutes after a creature consumes a portion of the cake, it is subject to the effects of the {@item Potion of Kobold Form|J:Kobolds}. Consuming additional portions extends the duration of the effect by 1 hour for each additional portion."
+			]
+		},
+		{
+			"name": "Bag of Many Kobolds",
+			"source": "J:Kobolds",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This small scaly bag appears to contain a collection of small, pointy teeth. As an action, you can pull up to two teeth from the bag and throw them each to an unocupied space you can see 15 feet. When a tooth lands, it transforms into a {@creature kobold warrior|J:Kobolds}. Once six teeth have been pulled from the bag, the bag can't be used again until the next dawn.",
+				"The kobolds are friendly to you and your companions and go immediately after you in initiative. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. Each kobold vanishes after 1 hour, if they are ever more than 100 feet away from the bag, or if they drop to 0 hit points."
+			]
+		}
+	],
     "race": [
         {
 			"name": "Kobold",
@@ -167,5 +199,112 @@
 				}
 			]
 		}
-    ]
+    ],
+	"monster": [
+		{
+			"name": "Kobold Warrior",
+			"source": "J:Kobolds",
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|PHB|leather}"
+					]
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 8,
+			"wis": 9,
+			"cha": 8,
+			"skill": {
+				"perception": "+1"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Fearless Defiance",
+					"entries": [
+						"The kobold has advantage on saving throws to avoid or end the {@condition frightened} condition on itself."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The kobold makes two melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		}
+	]
 }
