@@ -88,6 +88,15 @@
 				"This small scaly bag appears to contain a collection of small, pointy teeth. As an action, you can pull up to two teeth from the bag and throw them each to an unocupied space you can see 15 feet. When a tooth lands, it transforms into a {@creature kobold warrior|J:Kobolds}. Once six teeth have been pulled from the bag, the bag can't be used again until the next dawn.",
 				"The kobolds are friendly to you and your companions and go immediately after you in initiative. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. Each kobold vanishes after 1 hour, if they are ever more than 100 feet away from the bag, or if they drop to 0 hit points."
 			]
+		},
+		{
+			"name": "Primal Kobold Trinket",
+			"source": "J:Kobolds",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"If you use the Wild Shape feature from the Druid class or you cast the {@spell polymorph|phb} spell while holding this trinket, you can transform the target into a {@creature kobold|mm} rather than a beast. The target can speak any languages they knew previously but otherwise follow all the other rules of the feature or spell. "
+			]
 		}
 	],
     "race": [
