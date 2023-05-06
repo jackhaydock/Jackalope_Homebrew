@@ -88,7 +88,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2023.05.06.05.35",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -409,7 +409,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1683351259.8316715
+        "dateLastModified": 1683351346.0336695
     },
     "feat": [
         {
@@ -639,7 +639,7 @@
                     "type": "list",
                     "items": [
                         "It takes you half the usual time and gold to craft firearms and bullets.",
-                        "You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|caligos|rifle a firearm} or to produce a {@item firearm scope|caligos}.",
+                        "You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|J:Firearms|rifle a firearm} or to produce a {@item firearm scope|caligos}.",
                         "At the end of each long rest, with smith's tools in your hand, you can touch one non-magical firearm to grant it a +1 bonus to all attack and damage rolls made with the weapon. This benefit lasts until the end of your next long rest."
                     ]
                 }
@@ -1674,7 +1674,7 @@
             "value": 100,
             "weight": 1,
             "entries": [
-                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
+                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets}, {@item piercing bullet|J:Firearms|piercing bullets} or {@item fragmentation bullet|J:Firearms|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action."
             ]
         },
         {
@@ -1685,7 +1685,7 @@
             "rarity": "uncommon",
             "reqAttune": true,
             "entries": [
-                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|caligos|firearm bullets}, {@item piercing bullet|caligos|piercing bullets} or {@item fragmentation bullet|caligos|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action.",
+                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets}, {@item piercing bullet|J:Firearms|piercing bullets} or {@item fragmentation bullet|J:Firearms|fragmentation bullets}. The pouch weighs 1 pound, regardless of its contents. Drawing a bullet from the pouch does not require an action.",
                 "Additionally, You can place a nonmagical bullet in the pouch. From then on, whenever the bullet is removed, a perfect duplicate is created inside the pouch, effectively providing an unlimited supply of that particular bullet. As an action, you can permanently remove a bullet, preventing it from creating any further duplicates."
             ]
         },
