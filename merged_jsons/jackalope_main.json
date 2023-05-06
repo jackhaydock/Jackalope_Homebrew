@@ -403,13 +403,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.06.04.01",
+                "version": "2023.05.06.05.32",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1683345752.0558848
+        "dateLastModified": 1683351259.8316715
     },
     "feat": [
         {
@@ -2547,6 +2547,50 @@
             "entries": [
                 "This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Sharpshooter.",
                 "As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter ranged weapon that lacks the special property|items|type=!futuristic;!modern;range;!treasure|property=!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
+            ]
+        },
+        {
+            "name": "Chaotic Quiver of Tricks",
+            "source": "J:Ammo",
+            "wondrous": true,
+            "rarity": "rare",
+            "baseItem": "quiver|phb",
+            "entries": [
+                "This quiver can hold up to 20 {@item arrow|phb|arrows} or {@item crossbow bolt|phb|bolts}.",
+                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+            ]
+        },
+        {
+            "name": "Chaotic Pouch of Tricks",
+            "source": "J:Ammo",
+            "wondrous": true,
+            "rarity": "rare",
+            "baseItem": "pouch|phb",
+            "entries": [
+                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets} or 50 {@item blowgun needle|phb|blowgun needles}.",
+                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+            ]
+        },
+        {
+            "name": "Quiver of Tricks",
+            "source": "J:Ammo",
+            "wondrous": true,
+            "rarity": "very rare",
+            "baseItem": "quiver|phb",
+            "entries": [
+                "This quiver can hold up to 20 {@item arrow|phb|arrows} or {@item crossbow bolt|phb|bolts}.",
+                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+            ]
+        },
+        {
+            "name": "Pouch of Tricks",
+            "source": "J:Ammo",
+            "wondrous": true,
+            "rarity": "very rare",
+            "baseItem": "pouch|phb",
+            "entries": [
+                "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets} or 50 {@item blowgun needle|phb|blowgun needles}.",
+                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
             ]
         }
     ],
