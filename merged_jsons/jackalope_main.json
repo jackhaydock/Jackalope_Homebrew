@@ -403,13 +403,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.06.05.32",
+                "version": "2023.05.06.06.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1683351453.6868956
+        "dateLastModified": 1683353978.2037778
     },
     "feat": [
         {
@@ -11943,6 +11943,161 @@
                         ]
                     },
                     "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pushed 15 feet away from you. On a success, the target is only pushed 5 feet."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Yanking Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Yanking ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pulled 15 feet towards you. On a success, the target is only pulled 5 feet."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Feathered Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Feathered ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|mm}, 3 for {@creature peacock|bgdia}, 4 for {@creature raven|mm}, 5 for {@creature owl|mm} or 6 for {@creature giant owl|mm}. The bird vanishes after 1 hour, or if it dies."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Mimicry Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Mimicry ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reprodcuces this phrase or noise from the location of the target. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Attracting Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Attracting ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Repelling Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Repelling ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
                 ],
                 "bonusWeapon": "+1"
             }
