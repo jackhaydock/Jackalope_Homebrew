@@ -897,6 +897,32 @@
 			"entries": [
 				"This dark purple seed can hold whispers for later release. You can spend 1 minute to plant the seed in dirt or sand, water it and whisper a phrase to it that lasts 6 seconds or fewer. The seed begins to sprout and becomes a small tree or shrub {@dice 3d6*10|3d6 x 10} days later. Until the tree or shrub dies, whenever the wind blows through its leaves and branches, faint whispers can be heard on the wind, the whispers resemble the phrase you spoke to it during the planting."
 			]
+		},
+		{
+			"name": "Bag of Holding Grudges",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"curse": true,
+			"weight": 15,
+			"entries": [
+				"This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
+				"If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
+				"Placing a bag of holding inside an extradimensional space created by a {@item Heward's handy haversack}, {@item portable hole}, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"The bag bears a curse and is extremely temperamental. If you offend the bag, it will seal itself shut, completely preventing access to the interior space, until you succeed on a DC 20 Charisma check to apologise to it. If you fail this check, you cannot attempt it again until the next dawn. Casting {@spell remove curse|phb} on the bag will end this effect early. The DM decides when the bag is offended, but typically putting poor quality or disgusting items inside it might offend it, as could removing high quality items. The DM might call for a {@dice d20} to be rolled whenever such items are added or removed from the bag, with a 1 resulting in the bag becoming offended."
+					]
+				}
+			],
+			"containerCapacity": {
+				"weight": [
+					500
+				],
+				"weightless": true
+			}
 		}
 	],
 	"monster": [
