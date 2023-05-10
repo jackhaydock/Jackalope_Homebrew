@@ -48,7 +48,13 @@
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d6-1}",
 			"entries": [
-				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},
 				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
 				"Additionally, the weapon has 5 charges and regains {@dice 1d6-1} charges daily at dawn. When you hit a creature that is your size or smaller with a melee attack using this weapon, you can expend a charge to force the creature to make a DC 16 Strength saving throw. On a fail, both you and the target are launched 15 feet vertically without provoking opportunity attacks. You can choose to have the pair of you launched diagonally, up to 10ft horizontally, you and target must move in the same direction. Neither of you fall until the end of your turn unless you choose to. Subsequent melee attacks you make with this weapon against the creature before you both fall have advantage."
 			]
@@ -60,8 +66,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
-				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
 				"Additionally, the weapon always appears to be covered in wet blood, and cannot be cleaned of it. While attuned to the weapon, you have advantage on Charisma (Intimidation) checks against creatures that can see the weapon."
 			]
 		},
@@ -72,8 +83,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
-				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
 				"Additionally, the weapon always appears clean and freshly polished with a satisfying sheen. While attuned to the weapon, you have advantage on Charisma (Persuasion) checks against creatures that can see the weapon."
 			]
 		},
@@ -84,8 +100,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
-				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
 				"Additionally, the weapon constantly emits an inaudible resonance that hinders creatures abilities to determine falsehoods. While attuned to the weapon, you have advantage on Charisma (Deception) checks against creatures that can see the weapon and are not {@condition deafened}."
 			]
 		},
@@ -96,8 +117,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Weapon Runestone.}} Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
-				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. Only one runestone can be fused with a weapon at one time. A runestone can be be removed from a weapon over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
 				"Additionally, when you hit a target with this weapon or fire a piece of ammunition from this weapon you can cause the target or ammunition to produce one of the following effects until the start of your next turn.",
 				{
 					"type": "list",
@@ -115,7 +141,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				{
+					"type": "entries",
+					"name": "Armor Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},
 				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
 				"Additionally, you can use a bonus action to alter the colors, sigils and patterns of the armor or to magically clean, dry or soil the armor. As part of the same bonus action, you can all alter any nonmagical clothing you are wearing in the same way. The armor or clothing retains its shape, materials and statistics and the effect ends if you use this bonus action again or you doff it. For example, you may alter a dirty brown tabbard into pristine red and white one bearing the sigil of a particular deity or noble."
 			]
@@ -127,7 +159,13 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				{
+					"type": "entries",
+					"name": "Armor Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},
 				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
 				"Additionally, the armor fills your mind with stubborn voices, warning you against manipulitive effects. While attuned, you have advantage on saving throws to avoid or remove the {@condition charmed} condition."
 			]
@@ -139,9 +177,33 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"{@b {@i Armor Runestone.}} Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it.",
+				{
+					"type": "entries",
+					"name": "Armor Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},
 				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
 				"Additionally, the armor fills your mind with reassuring voices, helping you maintain your courage. While you wear the armor, you have advantage on saving throws to avoid or remove the {@condition frightened} condition."
+			]
+		},
+		{
+			"name": "+1 Rooting Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a set of armor, turning it into magic armor, if it is not already. Only one runestone can be fused with a set of armor at one time. A runestone can be be removed from a set of armor over the course of an hour. The DM may decide that a DC15 Intelligence (Arcana) check is required to fuse or remove runestones, or that only a specialist runesmith can do it."
+					]
+				},
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"Additionally, when you would be moved against your will, you can use a reaction to rapidly grow roots, spikes or hooks to hold you in place. Until the start of your next turn, your speed is 0 and you cannot be moved against your will. You must be touching a solid surface capable of supporting your weight, such as the ground or a wall, to use this reaction. This effect does not prevent teleportation and ends early if the surface you are touching is destroyed or moved away from you."
 			]
 		}
     ]
