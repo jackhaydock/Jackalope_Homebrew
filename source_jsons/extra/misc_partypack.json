@@ -446,6 +446,47 @@
                 "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
                 "When you drink heavily from this cup while attuned, your mind briefly reaches a higher (or lower) state of being, allowing you to converse with a divine being in a similarly intoxicated state and that is familiar to Broddah, usually Dionysus. You can cast the {@spell commune|phb} spell without expending a spell slot. Once you cast the spell using this item, you cannot do so again until the next dawn."
 			]
+		},
+        {
+			"name": "The Morning Herald",
+			"source": "JPP",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"weight": 6,
+			"ammunition": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"range": "30/90",
+			"property": [
+				"LD",
+				"A",
+				"H"
+			]
+		},
+        {
+			"name": "The Gift",
+			"source": "JPP",
+			"age": "renaissance",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weapon": true,
+			"firearm": true,
+			"rarity": "none",
+			"weight": 10,
+			"ammunition": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"range": "40/120",
+			"property": [
+				"LD",
+				"A",
+				"2H",
+				"H"
+			]
 		}
     ],
     "vehicle": [
