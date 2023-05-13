@@ -9,7 +9,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.05.13.09.44",
+                "version": "2023.05.13.09.49",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -41,7 +41,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1683971171.106707
+        "dateLastModified": 1683971420.62966
     },
     "race": [
         {
@@ -478,6 +478,7 @@
         {
             "name": "The Morning Herald",
             "source": "JPP",
+            "baseItem": "wheellock pistol|J:Firearms",
             "age": "renaissance",
             "type": "R",
             "weaponCategory": "martial",
@@ -498,6 +499,7 @@
         {
             "name": "The Gift",
             "source": "JPP",
+            "baseItem": "flintlock musket|J:Firearms",
             "age": "renaissance",
             "type": "R",
             "weaponCategory": "martial",
