@@ -148,7 +148,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2023.05.18.19.10",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -463,7 +463,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1684430530.7821624
+        "dateLastModified": 1684437186.9609108
     },
     "feat": [
         {
@@ -719,6 +719,54 @@
                         "Both the normal range and long range of your spit attack are doubled.",
                         "The damage die for your spit attack increases from a {@dice d4} to a {@dice d6}.",
                         "You can use a bonus action to build up acidic saliva before spitting it. The next time you hit a target with your spit attack within the next minute, you deal an additional {@dice 1d6} acid damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tohoran Magic",
+            "source": "J:Beastkin",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Tohoran"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You learn to incorporate the songs and customs of your people into your magic. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn one of the following cantrips of your choice; {@spell druidcraft|phb}, {@spell frostbite|phb}, {@spell thunderclap|phb} or {@spell shape water|phb}. Intelligence, Wisdom, or Charisma is your spellcasting ability for this cantrip (choose when you gain this feat).",
+                        "You can use a shell and a handful of saltwater or squid ink as a spellcasting focus for spells you cast.",
+                        "When you cast a spell with verbal components and that has a range of 5 feet or greater, you can double the range of the spell. You can do so a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tohoran Horn",
+            "source": "J:Beastkin",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Tohoran"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You grow one or more spear like horns or tusks, or learn to properly utilise existing ones. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+                        "You can use a horn to make an unarmed strike. This attack has the reach property and you can use your choice of Strength or Dexterity for the attack and damage rolls. On a hit, the strike deals piercing damage equal to 1d8 + the ability modifier you used for the attack roll, instead of the bludgeoning damage normal for an unarmed strike.",
+                        "You can use your horn to deflect and parry incoming attacks. When a creature makes a melee weapon attack against you, you can use a reaction to roll a {@dice 1d6} and add the result to your Armor Class for the attack. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
                     ]
                 }
             ]
@@ -8766,6 +8814,158 @@
                     "Also refered to as Axoes or Salamans, the Urodels are extraordinarily resilient thanks to their natural regeneration abilities, even regrowing entire limbs in a matter of hours."
                 ]
             }
+        },
+        {
+            "name": "Tohoran",
+            "source": "J:Beastkin",
+            "alias": [
+                "Cetacean",
+                "Hvalrfolk",
+                "Finfolk"
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Deep Explorer",
+                    "entries": [
+                        "Acclimated to underwater exploration, you have resistance to cold damage and can hold your breath for a number of hours equal to 1 + your Constitution modifier (minimum of 1 hour)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sonarsense",
+                    "entries": [
+                        "Whilst in at least 2 foot of water and not {@condition deafened}, you have {@sense blindsight} out to 30 feet. This sense cannot extend outside the body of water you are in."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common and one other language of your choice."
+                    ]
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Bellowlung",
+                    "source": "J:Beastkin",
+                    "alias": [
+                        "Whalefolk"
+                    ],
+                    "traitTags": [
+                        "Powerful Build"
+                    ],
+                    "ability": [
+                        {
+                            "str": 2,
+                            "choose": {
+                                "from": [
+                                    "dex",
+                                    "con",
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ],
+                                "amount": 1
+                            }
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Ocean Giant",
+                            "entries": [
+                                "You count as one size larger when determining your carrying weight and the weight you can push, drag, or lift. In addition, you have advantage on Strength (Athletics) checks while you are submerged underwater."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Whalesong",
+                            "entries": [
+                                "You can communicate messages over vast distances by singing them in whalesong, which can be sung in any language. It takes four times as long to say anything in whalesong, but you can be heard and understood up to 600 feet away, or up to a mile away underwater."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Far Song",
+                            "entries": [
+                                "Once you reach 5th level, you can cast the {@spell sending|phb} spell with this trait, without requiring a material component. If both you and the target are submerged in water, you can use an additional action before the end of your next turn to send a second message to the same target and receive another reply. You do not need to be in the same body of water as the target to make this second message.",
+                                "Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 3rd level or higher."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Quickfin",
+                    "source": "J:Beastkin",
+                    "alias": [
+                        "Dolphinfolk"
+                    ],
+                    "ability": [
+                        {
+                            "dex": 2,
+                            "choose": {
+                                "from": [
+                                    "str",
+                                    "con",
+                                    "int",
+                                    "wis",
+                                    "cha"
+                                ],
+                                "amount": 1
+                            }
+                        }
+                    ],
+                    "speed": {
+                        "walk": 30,
+                        "swim": 40
+                    },
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Deft Swimmer.",
+                            "entries": [
+                                "Your swimming speed increases by 10 feet"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Aquatic Acrobat",
+                            "entries": [
+                                "If you have been fully submerged in water at some point on the current turn, your jump distance is doubled and you have advantage on Dexterity (Acrobatics) checks and Dexterity saving throws."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Torpedo Charge",
+                            "entries": [
+                                "If you move at least 20 feet in a straight line immediately before hitting a target with a melee attack, you can deal an extra {@dice 1d6} bludgeoning damage to that target. If both you and the target are submerged underwater when you make the attack, this extra damage increases to {@dice 1d8}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Also known as cetaceans, hvalrfolk or finfolk, tohorans are water loving humanoids, often with blue-grey skin, fins and blowholes, bearing a resemblance to whales, dolphins and other aquatic mammals. While they do typically require air to survive, they can be comfortable hundreds or even thousands of feet below the water. Tohorans range from the large, powerful giants with deep and beautiful singing voices, to the more slender, nimble folk, known for elaborate acrobatics and whistles.",
+                    "In Alvergia, tohorans are most often found in ocean depths and around remote islands, such as the Prestonia Archipelgo, where their songs are revered and can often be heard all across the islands. These songs play significant roles within the cultural, spiritual and magical rituals of tohoran tribes there. Led by shamans, often known as tohungas, these rituals typically reflect a spiritual connection to the ocean, incorporating shells, saltwater and squid ink for anointments and ingestion, as well as frequently taking place within the ocean or shallows.",
+                    "There are also rumours of remote clans of tohorans in the Northlands, often described with black and white markings or with large spear-like horns. It is unclear if these features are artificial, or some form of natural divergence."
+                ]
+            },
+            "languageProficiencies": [
+                {
+                    "any": 1,
+                    "common": true
+                }
+            ]
         },
         {
             "name": "Gaian",
