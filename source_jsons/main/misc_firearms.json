@@ -34,7 +34,7 @@
 					"type": "list",
 					"items": [
 						"It takes you half the usual time and gold to craft firearms and bullets.",
-						"You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|J:Firearms|rifle a firearm} or to produce a {@item firearm scope|caligos}.",
+						"You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|J:Firearms|rifle a firearm} or to produce a {@item firearm scope|J:Firearms}.",
 						"At the end of each long rest, with smith's tools in your hand, you can touch one non-magical firearm to grant it a +1 bonus to all attack and damage rolls made with the weapon. This benefit lasts until the end of your next long rest."
 					]
 				}
@@ -383,19 +383,19 @@
                                 "rows": [
                                     [
                                         "3rd",
-                                        "{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}, {@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
+                                        "{@item matchlock musket|J:Firearms}, {@item matchlock pistol|J:Firearms}, {@item wheellock musket|J:Firearms}, {@item wheellock pistol|J:Firearms}"
                                     ],
                                     [
                                         "5th",
-                                        "{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
+                                        "{@item flintlock musket|J:Firearms}, {@item flintlock pistol|J:Firearms}"
                                     ],
                                     [
                                         "7th",
-                                        "{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
+                                        "{@item pepperbox musket|J:Firearms}, {@item pepperbox pistol|J:Firearms}"
                                     ],
                                     [
                                         "9th",
-                                        "{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
+                                        "{@item gun weapon|J:Firearms}, {@item heavy gun weapon|J:Firearms}"
                                     ]
                                 ]
                             },

@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.10.05.41",
+                "version": "2023.05.18.17.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -88,7 +88,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.06.05.35",
+                "version": "2023.05.18.17.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -223,7 +223,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.18.01.59",
+                "version": "2023.05.18.17.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -238,7 +238,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2023.05.18.17.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -358,7 +358,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2023.05.18.17.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -409,7 +409,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1683972444.9996376
+        "dateLastModified": 1684430530.4193354
     },
     "feat": [
         {
@@ -639,7 +639,7 @@
                     "type": "list",
                     "items": [
                         "It takes you half the usual time and gold to craft firearms and bullets.",
-                        "You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|J:Firearms|rifle a firearm} or to produce a {@item firearm scope|caligos}.",
+                        "You gain proficiency with {@item smith's tools|phb} if you don't already have it. During a long rest you can use smith's tools and expend 100gp worth of materials to {@item rifled firearm|J:Firearms|rifle a firearm} or to produce a {@item firearm scope|J:Firearms}.",
                         "At the end of each long rest, with smith's tools in your hand, you can touch one non-magical firearm to grant it a +1 bonus to all attack and damage rolls made with the weapon. This benefit lasts until the end of your next long rest."
                     ]
                 }
@@ -849,7 +849,7 @@
             "rarity": "very rare",
             "source": "J:General",
             "entries": [
-                "This special {@item Anti-Magic Collar|jackalope} can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
+                "This special {@item Anti-Magic Collar|J:General} can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
                 "The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
             ]
         },
@@ -1027,7 +1027,7 @@
             "rechargeAmount": "{@dice 1d4+1}",
             "entries": [
                 "This broken bone is inscribed with arcane runes and has 5 charges. It regains {@dice 1d4+1} charges daily at dawn.",
-                "As an action, you can expend a number of charges to cast the {@spell Spectral Crew|jackalope} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+                "As an action, you can expend a number of charges to cast the {@spell Spectral Crew|J:General} spell. For 1 charge, you cast the 2nd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
             ]
         },
         {
@@ -1066,7 +1066,7 @@
             "rarity": "common",
             "wondrous": true,
             "entries": [
-                "This clear, glass bottle can hold up to a gallon of liquid. When there is liquid in the bottle, you may cast {@spell Bazoz's Spicy Water|jackalope} on the liquid at will.",
+                "This clear, glass bottle can hold up to a gallon of liquid. When there is liquid in the bottle, you may cast {@spell Bazoz's Spicy Water|J:General} on the liquid at will.",
                 "If you pour the liquid out of the bottle, the effects remain active in the liquid for 1 hour, or until you use the bottle to cast the cantrip again."
             ]
         },
@@ -1282,7 +1282,7 @@
             "recharge": "dawn",
             "entries": [
                 "These scorched leather and metal boots grant you extraordinary movement capabilities. This item has 3 charges, and regains {@dice 1d4} charges daily at dawn.",
-                "As a bonus action, you can expend a charge and cast the {@spell explosive propulsion|jackalope} (save DC 15) spell on yourself, you do not provide material components for this casting. In addition, the spell does not require concentration and lasts for the full duration, or until you end the effect (no action required)."
+                "As a bonus action, you can expend a charge and cast the {@spell explosive propulsion|J:General} (save DC 15) spell on yourself, you do not provide material components for this casting. In addition, the spell does not require concentration and lasts for the full duration, or until you end the effect (no action required)."
             ]
         },
         {
@@ -2371,7 +2371,7 @@
             "entries": [
                 "This finely crafted hourglass holds one minute of sand and bears an engraving of a scythe on one side.",
                 "The hourglass has 2 charges and regains {@dice 1d3-1} charges daily at dawn.",
-                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|jackalope} spell (save DC 12) from it. For 1 charge, you cast the 4th-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+                "While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell time stasis|J:General} spell (save DC 12) from it. For 1 charge, you cast the 4th-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
             ]
         },
         {
@@ -2540,7 +2540,7 @@
             "weapon": true,
             "firearm": true,
             "rarity": "artifact",
-            "baseItem": "pepperbox pistol|caligos",
+            "baseItem": "pepperbox pistol|J:Firearms",
             "weight": 10,
             "ammunition": true,
             "dmg1": "1d10",
@@ -6278,19 +6278,19 @@
                     "rows": [
                         [
                             "3rd",
-                            "{@item matchlock musket|caligos}, {@item matchlock pistol|caligos}, {@item wheellock musket|caligos}, {@item wheellock pistol|caligos}"
+                            "{@item matchlock musket|J:Firearms}, {@item matchlock pistol|J:Firearms}, {@item wheellock musket|J:Firearms}, {@item wheellock pistol|J:Firearms}"
                         ],
                         [
                             "5th",
-                            "{@item flintlock musket|caligos}, {@item flintlock pistol|caligos}"
+                            "{@item flintlock musket|J:Firearms}, {@item flintlock pistol|J:Firearms}"
                         ],
                         [
                             "7th",
-                            "{@item pepperbox musket|caligos}, {@item pepperbox pistol|caligos}"
+                            "{@item pepperbox musket|J:Firearms}, {@item pepperbox pistol|J:Firearms}"
                         ],
                         [
                             "9th",
-                            "{@item gun weapon|caligos}, {@item heavy gun weapon|caligos}"
+                            "{@item gun weapon|J:Firearms}, {@item heavy gun weapon|J:Firearms}"
                         ]
                     ]
                 },
@@ -17559,7 +17559,7 @@
                         ],
                         [
                             "4th",
-                            "{@spell explosive propulsion|jackalope}, {@spell wall of fire|phb}"
+                            "{@spell explosive propulsion|J:General}, {@spell wall of fire|phb}"
                         ],
                         [
                             "5th",
