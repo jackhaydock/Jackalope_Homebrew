@@ -39,9 +39,21 @@
                 "version": "2023.04.14.06.27",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Lore",
+                "abbreviation": "J:Lore",
+                "color": "ce9445",
+                "full": "Jackalope: Lorehunter Class",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "2023.05.23.13.57",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1684849380.4771006
+        "dateLastModified": 1684850294.8251152
     },
     "race": [
         {
@@ -1071,6 +1083,783 @@
                 "AOE",
                 "MW"
             ]
+        }
+    ],
+    "class": [
+        {
+            "name": "Lorehunter (WIP)",
+            "source": "J:Lore",
+            "classFeatures": [
+                "Calculated Strike|Lorehunter (WIP)|J:Lore|1|J:Lore",
+                "Scholarly Expertise|Lorehunter (WIP)|J:Lore|1|J:Lore",
+                "Fighting Style|Lorehunter (WIP)|J:Lore|2|J:Lore",
+                "Spellcasting|Lorehunter (WIP)|J:Lore|2|J:Lore",
+                "Extra Attack|Ranger|PHB|5",
+                "Ability Score Improvement|Fighter|PHB|4",
+                "Ability Score Improvement|Fighter|PHB|8",
+                "Ability Score Improvement|Fighter|PHB|12",
+                "Ability Score Improvement|Fighter|PHB|16",
+                "Ability Score Improvement|Fighter|PHB|19"
+            ],
+            "hd": {
+                "number": 1,
+                "faces": 10
+            },
+            "proficiency": [
+                "con",
+                "int"
+            ],
+            "classTableGroups": [
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|class=Lorehunter}",
+                        "{@filter 2nd|spells|level=2|class=Lorehunter}",
+                        "{@filter 3rd|spells|level=3|class=Lorehunter}",
+                        "{@filter 4th|spells|level=4|class=Lorehunter}",
+                        "{@filter 5th|spells|level=5|class=Lorehunter}"
+                    ],
+                    "rowsSpellProgression": [
+                        [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light",
+                    "medium",
+                    "{@item shield|phb|shields}"
+                ],
+                "weapons": [
+                    "simple",
+                    "martial"
+                ],
+                "tools": [
+                    "Choose 1 from; {@item Calligrapher's Supplies|phb}, {@item Cartographer's Tools|phb}, {@item Forgery Kit|phb}, {@item Herbalism Kit|phb}, {@item Thieves' Tools|phb}, {@item Navigator's Tools|phb}, {@item Painter's Supplies|phb}"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "history",
+                                "investigation",
+                                "nature",
+                                "perception",
+                                "religion",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    "(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
+                    "(a) a {@filter martial weapon|items|source=phb|type=martial weapon=sand|category=basic} and a {@item shield|phb} or (b) two {@filter martial or simple weapons|items|source=phb|type=martial weapon;simple weapon=sor|category=basic}",
+                    "(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb} or (c) {@item dungeoneer's pack|phb}",
+                    "A {@item dagger|phb}, a {@item grappling hook|phb} and a notebook."
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice 5d4*10|5d4 x 10}"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {
+                    "weapons": [
+                        "simple",
+                        "martial"
+                    ],
+                    "armor": [
+                        "light",
+                        "medium"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "history",
+                                    "investigation",
+                                    "nature",
+                                    "perception",
+                                    "religion",
+                                    "survival"
+                                ],
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "spellcastingAbility": "int",
+            "casterProgression": "1/2",
+            "preparedSpells": "<$level$> / 2 + <$int_mod$>",
+            "classSpells": [
+                "Absorb Elements",
+                "Alarm|PHB",
+                "Catapult|XGE",
+                "Color Spray|PHB",
+                "Comprehend Languages|PHB",
+                "Cure Wounds|PHB",
+                "Detect Evil and Good|PHB",
+                "Detect Magic|PHB",
+                "Detect Poison and Disease|PHB",
+                "Disguise Self|PHB",
+                "Distort Value|AI",
+                "Expeditious Retreat|PHB",
+                "False Life|PHB",
+                "Feather Fall|PHB",
+                "Grease|PHB",
+                "Identify|PHB",
+                "Illusory Script|PHB",
+                "Jump|PHB",
+                "Longstrider|PHB",
+                "Protection from Evil and Good|PHB",
+                "Purify Food and Drink|PHB",
+                "Snare|XGE",
+                "Tenser's Floating Disk|PHB",
+                "Air Bubble|AAG",
+                "Arcane Lock|PHB",
+                "Borrowed Knowledge|SCC",
+                "Continual Flame|PHB",
+                "Darkvision|PHB",
+                "Enhance Ability|PHB",
+                "Enlarge/Reduce|PHB",
+                "Find Traps|PHB",
+                "Gift of Gab|AI",
+                "Heat Metal|PHB",
+                "Invisibility|PHB",
+                "Knock|PHB",
+                "Locate Object|PHB",
+                "Magic Weapon|PHB",
+                "Misty Step|PHB",
+                "Pass Without A Trace|PHB",
+                "Protection from Poison|PHB",
+                "Rope Trick|PHB",
+                "See Invisibility|PHB",
+                "Shatter|PHB",
+                "Silencing Smite|J:General",
+                "Spectral Crew|J:General",
+                "Vortex Warp|SCC",
+                "Zone of Truth|PHB",
+                "Catnap|XGE",
+                "Clairvoyance|PHB",
+                "Counterspell|PHB",
+                "Dispel Magic|PHB",
+                "Elemental Weapon|PHB",
+                "Feign Death|PHB",
+                "Fly|PHB",
+                "Haste|PHB",
+                "Intellect Fortress|TCE",
+                "Leomund's Tiny Hut|PHB",
+                "Nondetection|PHB",
+                "Protection from Energy|PHB",
+                "Remove Curse|PHB",
+                "Sending|PHB",
+                "Stinking Cloud|PHB",
+                "Tiny Servant|XGE",
+                "Tongues|PHB",
+                "Water Breathing|PHB",
+                "Water Walk|PHB",
+                "Arcane Eye|PHB",
+                "Banishment|PHB",
+                "Fabricate|PHB",
+                "Freedom of Movement|PHB",
+                "Greater Invisibility|PHB",
+                "Leomund's Secret Chest|PHB",
+                "Locate Creature|PHB",
+                "Mordenkainen's Private Sanctum|PHB",
+                "Polymorph|PHB",
+                "Animate Onjects|PHB",
+                "Bigby's Hand|PHB",
+                "Commune with Nature|PHB",
+                "Creation|PHB",
+                "Dispel Evil and Good|PHB",
+                "Far Step|XGE"
+            ],
+            "fluff": [
+                {
+                    "name": "Lorehunter",
+                    "type": "section",
+                    "entries": [
+                        "WIP"
+                    ]
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Calculated Strike",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you can utilize your knowledge to pinpoint weak spots and improve the damage you deal with weapons. Once per turn, when you hit with a weapon attack or unarmed strike, you can add a bonus to the damage roll equal to your Intelligence modifier."
+            ]
+        },
+        {
+            "name": "Scholarly Expertise",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 1,
+            "entries": [
+                "At 1st level, choose up to two skills, instruments, tools or vehicles with which you are proficient. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. When you gain a level in this class you can replace one of these proficiencies with a different one.",
+                {
+                    "type": "inset",
+                    "name": "Optional Variant: Expert Topics",
+                    "entries": [
+                        "Sometimes specialist knowledge of a particular topic is more useful than general knowledge in a skill or device. If your DM allows, you can choose a specialist topic in place of a proficiency for your Scholarly Expertise feature. When you make an ability check that utilises your specialist topic, you can add your proficiency bonus. If you already add your proficiency bonus, the bonus is doubled for this check.",
+                        "Work with your DM to define the scope and depth of the topic. This could be knowledge of a particular faction, including its history, politics and laws; it could be knowledge of a particular deity or being and their followers; it could be knowledge of the anatomy and behaviors of particular kinds of creatures; it could be knowledge of a particular school of magic or any other topic you and your DM deem appropriate.",
+                        "For example, you may study demons and posses expert knowledge about them. With the demon topic in your book, you may double your proficiency for checks made to identify, track or recall lore about creatures with the demon tag."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fighting Style",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again. If your DM allows, you can choose a fighting style from the Fighter class instead.",
+                "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to lorehunters. This replacement represents a shift of focus in your martial practice.",
+                {
+                    "type": "options",
+                    "count": 1,
+                    "entries": [
+                        {
+                            "name": "Arcane Warrior",
+                            "source": "J:Lore",
+                            "additionalSpells": [
+                                {
+                                    "ability": "int",
+                                    "known": {
+                                        "_": [
+                                            {
+                                                "choose": "level=0|class=wizard",
+                                                "count": 2
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "entries": [
+                                "You learn two cantrips of your choice from the {@filter wizard spell list|spells|level=0|class=Wizard}. They count as lorehunter spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the wizard spell list."
+                            ]
+                        },
+                        {
+                            "name": "Defense",
+                            "source": "PHB",
+                            "page": 72,
+                            "srd": true,
+                            "otherSources": [
+                                {
+                                    "source": "PHB",
+                                    "page": 84
+                                },
+                                {
+                                    "source": "PHB",
+                                    "page": 91
+                                },
+                                {
+                                    "source": "UATheRangerRevised",
+                                    "page": 3
+                                }
+                            ],
+                            "entries": [
+                                "While you are wearing armor, you gain a +1 bonus to AC."
+                            ]
+                        },
+                        {
+                            "name": "Dueling",
+                            "source": "PHB",
+                            "page": 72,
+                            "srd": true,
+                            "otherSources": [
+                                {
+                                    "source": "XGE",
+                                    "page": 15
+                                },
+                                {
+                                    "source": "UARevisedSubclasses",
+                                    "page": 2
+                                },
+                                {
+                                    "source": "PHB",
+                                    "page": 84
+                                },
+                                {
+                                    "source": "PHB",
+                                    "page": 91
+                                },
+                                {
+                                    "source": "UATheRangerRevised",
+                                    "page": 3
+                                }
+                            ],
+                            "entries": [
+                                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+                            ]
+                        },
+                        {
+                            "name": "Protection",
+                            "source": "PHB",
+                            "page": 72,
+                            "srd": true,
+                            "otherSources": [
+                                {
+                                    "source": "PHB",
+                                    "page": 84
+                                }
+                            ],
+                            "entries": [
+                                "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 2,
+            "entries": [
+                "By 2nd level, you have learned to draw on arcane magic through study and practice to cast spells as a wizard does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the {@filter lorehunter spell list|spells|class=lorehunter (j:lore)}.",
+                {
+                    "type": "entries",
+                    "name": "Preparing and Casting Spells",
+                    "entries": [
+                        "The Lorehunter table shows how many spell slots you have to cast your {@filter lorehunter spells|spells|class=lorehunter (j:lore)}. To cast one of your lorehunter spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "You prepare the list of lorehunter spells that are available for you to cast, choosing from the lorehunter spell list. When you do so, choose a number of lorehunter spells equal to your Intelligence modifier + half your lorehunter level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                        "For example, if you are a 5th-level lorehunter, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+                        "You can change your list of prepared spells when you finish a long rest. Preparing a new list of lorehunter spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your lorehunter spells, since their power derives from the strength of your convictions. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a lorehunter spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use an {@item arcane focus|phb} or a book as a spellcasting focus for your lorehunter spells."
+                    ]
+                }
+            ]
+        }
+    ],
+    "spell": [
+        {
+            "name": "Darklight",
+            "source": "J:Lore",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "a metal or glass rod worth at least 1sp"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You touch the rod used in the spell's casting and it begins to emit a faint, dark-purple glow, casting dim light out to a range of 60ft for the spell's duration. Choose up to six creatures (this can include yourself) when you cast the spell to see the light, the light is invisible to all other creatures."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of a higher level, the range of the light increases to 120ft with a 3rd-level slot or higher, and to 300ft with a 5th-level slot or higher."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Analyse Weakness",
+            "source": "J:Lore",
+            "level": 2,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You observe one creature you can see within range and determine methods to circumvent a particular resistance of theirs. Choose a damage type; acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, or thunder.",
+                "For the spell's duration, you and any creatures you choose can ignore the target's resistance, if any, to the chosen damage type."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Explosive Excavation",
+            "source": "J:Lore",
+            "level": 3,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A pinch of black power or clay"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You create a powerful concusive explosion in a 15-foot radius sphere centered on a point you can see within range. Each creature within the area must make a Constitution saving throw. A creature takes {@dice 4d8} thunder damage on a failed save, or half as much damage on a successful one.",
+                "A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area. If the object is made primarily of inorganic or vegetable matter, such as stone, wood or metal, it takes double damage from this spell. Loose objects and earth are blasted up to 10 feet away from the center of the area."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d8|3-9|1d8} for each slot level above 3rd."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Speak with Documents",
+            "source": "J:Lore",
+            "level": 2,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "A bookmark or a magnifying class worth at least 10gp"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    }
+                }
+            ],
+            "entries": [
+                "You awaken some imitation of sentience within a collection of books, scrolls or similar documents that fit within a 5-foot cube, allowing it to answer questions you pose to them. The spell fails if the documents are protected from divination or were the target of this spell within the last 10 days.",
+                "Until the spell ends, you can ask the documents up to five questions. The documents possess knowledge of their contents, understands the languages written within in and basic information about their creation and history. The documents can quickly summarise information or speculate based upon its knowledge. A document may know basic information about who created it and when, but doesn't know anything about other documents it may have been copied from. For example, a printed book may know when it was printed and the company that printed it, but it might not know anything about the author who created the original text."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Perfect Recall",
+            "source": "J:Lore",
+            "level": 1,
+            "school": "I",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "s": true,
+                "m": "A glass lens or orb"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You magically preserve the information your senses receive for recreation at a later date. You perfectly record the sights, sounds and smells you sense within a 30-foot radius sphere centered on yourself for the duration of the spell. The spell cannot record things which you do not witness with your senses at the time, such as creatures and objects that are invisible or behind cover.",
+                "At any point within the next year, you can cast this spell again to project an illusionary version of the scene in an area around you. Creatures inside the area can witness the scene as you did, though they cannot witness anything you didn't, regardless of their own senses."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    }
+                ]
+            }
         }
     ]
 }
