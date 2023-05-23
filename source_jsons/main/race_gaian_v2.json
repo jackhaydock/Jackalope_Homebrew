@@ -1,0 +1,671 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Gaian",
+				"abbreviation": "J:Gaian",
+				"color": "9e9e9e",
+				"full": "Jackalope: Gaian",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "2.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "race": [
+		{
+			"name": "Gaian",
+			"source": "J:Gaian",
+			"alias": [
+				"mineralfolk",
+				"earthfolk",
+				"gaiafolk"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"lineage": "VRGR",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Small or Medium. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mineral Body",
+					"entries": [
+						"You do not need to breathe, eat or drink."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mineral Hide",
+					"entries": [
+						"As a bonus action, you can coat yourself in a hardened layer of minerals for 1 minute, or until you are {@condition incapacitated}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you are also immune to damage type associated with your Earthen Flesh trait."
+					]
+				}
+			],
+			"subraces": [
+				{
+					"name": "Gem",
+					"source": "J:Gaian",
+					"alias": [
+						"gemfolk",
+						"crystalfolk"
+					],
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance",
+						"Tool Proficiency"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of crystals and gemstones. You have resistance to psychic damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Diamond Mind",
+							"entries": [
+								"You have advantage on saving throws to avoid or remove the {@condition charmed|phb} and {@condition frightened|phb} conditions."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gemstone Skin",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in crystalline terrain or among other gemstones and similar treasures."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Quartz",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into shards of crystal. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier psychic damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Ruby",
+											"entries": [
+												"You know the {@spell mind sliver|tce} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Jewel Affinity",
+											"entries": [
+												"You have proficiency with {@item jeweler's tools|phb} and advantage on checks made using them."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"mind sliver|tce#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Ice",
+					"source": "J:Gaian",
+					"alias": [
+						"icefolk",
+						"snowfolk",
+						"frozenfolk",
+						"articfolk",
+						"frostfolk"
+					],
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of magical ice or snow. You have resistance to cold damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Glacial Walker",
+							"entries": [
+								"Slippery ice and deep snow do not count as {@quickref difficult terrain||3} for you, and you automatically pass saving throws to avoid failing prone on slippery ice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Arctic Skin",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Frost",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into icicles. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier cold damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Ice",
+											"entries": [
+												"You know the {@spell frostbite|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Ice Skater",
+											"entries": [
+												"By briefly freezing the ground at your feet, you can stand on and move across any liquid surface as if it were solid ground."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"frostbite#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Magma",
+					"source": "J:Gaian",
+					"alias": [
+						"magmafolk",
+						"lavafolk",
+						"firefolk",
+						"ashfolk"
+					],
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of magma, lava or smoldering coal. You have resistance to fire damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mantle Swimmer",
+							"entries": [
+								"Lava and magma pose no threat to you. You take no damage from it, and have a swim speed equal to your walking speed while submerged in it."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Scorched Skin",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in magma, lava, ashy terrain or burned buildings."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Flame",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into tendrils of lava and flame. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier fire damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Fire",
+											"entries": [
+												"You know the {@spell produce flame|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Burning Blood",
+											"entries": [
+												"At the end of a long rest, you can produce a number of flasks of {@item alchemist's fire (flask)|phb|alchemist's fire} equal to your proficiency bonus. These flasks last until they are used or until the end of your next long rest."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Sand",
+					"source": "J:Gaian",
+					"alias": [
+						"sandfolk",
+						"saltfolk",
+						"siltfolk",
+						"gravelfolk"
+					],
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of granules of sand, silt, salt or fine gravel. You have resistance to piercing damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Soft Landing",
+							"entries": [
+								"By spreading your weight upon landing, you take half damage from falling, provided you are not incapacitated."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Granular Skin",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in sand, gravel or salty terrain."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Glass",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into shards of glass. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Silt",
+											"entries": [
+												"You know the {@spell sandblast|J:Gaian} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Sharp Surface",
+											"entries": [
+												"As an action, you can spray sharp crystals on the ground in a 5-foot square. Any creature that enters the area must succeed on a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Constitution modifier) or take piercing damage equal to your proficiency bonus and have its walking speed is reduced by 10 feet until the end of its next turn. These sharp crystals disintegrate after 1 minute. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"sandblast|J:Gaian#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Unstable",
+					"source": "J:Gaian",
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of unstable metal, stone or stardust. Your body is constantly undergoing small scale reactions, producing faint flashes and tingles. You have resistance to radiant damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Warming Glow",
+							"entries": [
+								"As an action, you can begin to emit dim light out to 10 feet. This light lasts until you dismiss it with another action, or you die. Creatures within this light feel a comforting warmth, have advantage on saving throws against extreme cold and regain 1 additional hit point for each Hit Die they roll during a short rest. You can also use this light to gently heat food."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Twinkling Skin",
+							"entries": [
+								"You have advantage on Charisma checks where your sparkly appearance may aid you, such as during a stage performance or attempting to appear otherworldly."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Light",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into shards of glass. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Energy",
+											"entries": [
+												"You know the {@spell word of radiance|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Extreme Glow",
+											"entries": [
+												"While your Warming Glow is active, you can use a bonus action to amplify its effects to potentially dangerous levels for 1 minute, or until you dismiss it with another bonus action. For the duration, any creature other than you that takes radiant or necrotic damage while inside the light's area takes additional damage of the same type equal to your proficiency bonus. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"mind sliver|tce#c"
+								]
+							}
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Gaians are beings awakened from the natural minerals of the world itself. Despite being composed of typically nonliving matter, these people are very much conscious, living beings in their own right. No one is quite sure how they are awakened, though many suspect the whims of gods or nature spirits are often involved.",
+					"Gaians are usually awakened fully mature and alone with no families of their own, save the bonds they make with other creatures. They tend to be more malleable within the first few weeks, able to subtly alter their form and learn rapidly. As such, they usually adopt the forms, languages and cultures of those they interact with shortly after being awakened. Most will typically settle into a more unchanging body and mind after a short while, finding it harder to change thereafter, as if they had been that way for many years.",
+					"Gaians seem to come from almost any source of unliving minerals. From hot magma, freezing permafrost, precious gemstones or even mysterious metal ores found deep below the surface or in meteorites. Combined with their malleability in early days, this leads to a wide variety of appearances within gaians.",
+					"No lifespan limit is known for gaians and they show no physical signs of aging. However they can still be wearied by time and those who do not fall to injury or disease will sometimes willingly return their source when they feel their time is up. These lifespans are greatly varied though unstable gaians always seem to expire sooner than other variants.",
+					{
+						"type": "entries",
+						"name": "Gaians across the multiverse",
+						"entries": [
+							"In Alvergia, gaians are rare. However, they can be more common in regions with extreme climates and usual magics. Magma gaians may sometimes be found on volcanic islands. Ice gaians have been rumored to be spotted in the far north or atop snow covered peaks. Gem and Unstable gaians might awaken deep underground or from meteorites. The sands of Xheros and the woods of Xia have been known to spit out unusual phenomenon, perhaps gaians can be counted among them. Due to their rarity, knowledge of these people and the nature of their creation is limited. A few mages who are aware of them have become fascinated by them, and obsessed with trying to replicate their creation.",
+							"In Caligos, gaians are extremely rare. Though it has been rumored that Ice gaians exist in the freezing wastes between cities or even that magma gaians help to operate the underground rails systems, heating engines without being impaired by the heat or toxic atmosphere.",
+							"In Delamir, extreme conditions brought about by the wild magics of the rifts give rise to wondrous and terrible creatures alike. While some creatures with this origin seek to end life that they find, some simply look to make their own way in the world. Gaians are another manifestation of magic: otherworldly lightning turning a rock to magma, powerful magic reversing the usual process and bringing life to a collection of sunshards, or ancient titanic spirits murmuring and bringing the world around them to life. While Gaians are not common, they hold a similar role to the Genasi of the world: elements given life, as opposed to life given elements. As such, they will find themselves accepted in any society. What is walking magma compared to dragons in the clouds, or eyes and whispers in the darkness?"
+						]
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"common": true
+				}
+			]
+		}
+    ],
+	"feat": [
+		{
+			"name": "Hardy Flesh",
+			"source": "J:Gaian",
+			"prerequisite": [
+    		{
+				"race": [
+					{
+						"name": "Gaian"
+					}
+				]
+    		}
+			],
+			"entries": [
+				"Your mineral flesh becomes even more resilient and defensive. The raw energy flowing through you often reacts violently to unwanted contact. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase either your Dexterity or Constitution score by 1, to a maximum of 20.",
+						"While you have temporary hit points from your Mineral Hide trait, you have a +1 bonus to your Armor Class. Also, if a creature hits you with a melee attack while you have these temporary hit points, the creature takes {@dice 1d6} damage of the damage type associated with your Earthen Flesh trait."
+					]
+				}
+			]
+		},
+		{
+			"name": "Variable Flesh",
+			"source": "J:Gaian",
+			"prerequisite": [
+    		{
+				"race": [
+					{
+						"name": "Gaian"
+					}
+				]
+    		}
+			],
+			"entries": [
+				"You have learned to greatly alter your mass and size. With a handful of minerals, you can use an action to alter your size and gain one of the effects listed below. The effects last for 10 minutes, or until you lose concentration (as if concentrating on a spell). Once you use this action, you cannot do so again until you finish a short or long rest.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Grow",
+							"entries": [
+								"If you are smaller than Large, you become Large, provided there is enough room for you to do so. If you are already Large, you can instead become Huge, provided there is enough room for you to do so. You also have advantage on Strength checks and saving throws. Once per turn, when you hit a target with a melee attack, you can deal an additional 1d6 damage of the type associated with your Earthen Flesh trait."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Shrink",
+							"entries": [
+								"If you are larger than Tiny, you become Tiny. You also have advantage on Dexterity checks and saving throws. Once per turn, when you make a melee attack, you can add a 1d4 bonus to the attack roll."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Renaissance Gaian",
+			"source": "J:Gaian",
+			"prerequisite": [
+    		{
+				"race": [
+					{
+						"name": "Gaian"
+					}
+				]
+    		}
+			],
+			"entries": [
+				"You broaden your talents ans skills, becoming a master of several fields, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase one ability score of your choice, to a maximum of 20.",
+						"You gain all of the manifestations options from your Gaian Manifestation trait that you didn't choose when selecting the race."
+					]
+				}
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Sandblast",
+			"source": "J:Gaian",
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of sand, salt or silt"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a blast of sand, salt or silt at a creature within range that has unshielded eyes. That creature must make a Constitution saving throw or become {@condition blinded} until the end of its next turn. The creature, or another creature within 5 feet of it, can use an action to end the condition early.",
+				"Alternatively, you can cast this spell over a minute and target up to a square foot of material to sand it down, as if with sandpaper or a grindstone. Doing so can remove paint and rust, polish metals and erode softer materials.",
+				"{@note If you use the Evolving Cantrips supplement, you gain the following additional benefits when you reach certain levels.}"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At 5th Level",
+					"entries": [
+						"You can ignore the verbal component of the spell. In addition, when you target a material for sanding down, you can now target up to 5 square feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At 11th Level",
+					"entries": [
+						"The spell's range increases to 10 feet. In addition, when a creature fails the saving throw for this spell, it has disadvantage on Wisdom (Perception) checks for the next minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At 17th Level",
+					"entries": [
+						"When you cast this spell, you can target one additional creature within 5 feet of the original target."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Gaian (Sand)",
+					"source": "J:Gaian",
+					"baseName": "Gaian",
+					"baseSource": "J:Gaian"
+				}
+			]
+		}
+	]
+}

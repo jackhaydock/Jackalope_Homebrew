@@ -16,10 +16,25 @@
                 "version": "2023.03.11.16.55",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Gaian(L)",
+                "abbreviation": "J:Gaian(L)",
+                "color": "9e9e9e",
+                "full": "Jackalope: Gaian (Legacy)",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2023.05.23.11.56",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1684438513.2674146
+        "dateLastModified": 1684849380.505026
     },
     "class": [
         {
@@ -1786,6 +1801,206 @@
             "header": 2,
             "entries": [
                 "At 15th level, you learn one additional Extraplanar Environment of your choice."
+            ]
+        }
+    ],
+    "race": [
+        {
+            "name": "Gaian (Legacy)",
+            "source": "J:Gaian(L)",
+            "alias": [
+                "rock",
+                "mineral"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "lineage": "VRGR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Medium or Small. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mineral Body",
+                    "entries": [
+                        "You do not need to breathe, eat or drink."
+                    ]
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Gem",
+                    "source": "J:Gaian(L)",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance",
+                        "Tool Proficiency"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": " Crystalline Flesh",
+                            "entries": [
+                                "You have resistance to psychic damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Diamond Mind",
+                            "entries": [
+                                "You have advantage on saving throws to avoid or remove the {@condition charmed|phb} and {@condition frightened|phb} conditions."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Jewelled Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of resilient crystals over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to psychic damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} psychic damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Quartz.}} When you make an unarmed strike, you can transform your fingers or hands into shards of crystal. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier psychic damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Ruby.}} You know the {@spell mind sliver|tce} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Jewel Affinity.}} You have proficiency with {@item jeweler's tools|phb} and advantage on checks made using them."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Ice",
+                    "source": "J:Gaian(L)",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Frozen Flesh",
+                            "entries": [
+                                "You have resistance to cold damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Glacial Walker",
+                            "entries": [
+                                "Slippery ice and deep snow do not count as {@quickref difficult terrain||3} for you, and you automatically pass saving throws to avoid failing prone on slippery ice. In addition, you have advantage on Dexterity (Stealth) checks to hide in icy or snowy terrain."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Arctic Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of hardened ice over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to cold damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} cold damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Frost.}} When you make an unarmed strike, you can transform your fingers or hands into icicles. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier cold damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Ice.}} You know the {@spell frostbite|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Ice Skater.}} By briefly freezing the ground at your feet, you can stand on and move across any liquid surface as if it were solid ground."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Magma",
+                    "source": "J:Gaian(L)",
+                    "traitTags": [
+                        "Darkvision",
+                        "Damage Resistance"
+                    ],
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Scorched Flesh",
+                            "entries": [
+                                "You have resistance to fire damage."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Mantle Swimmer",
+                            "entries": [
+                                "Lava and magma pose no threat to you. You take no damage from it, and have a swim speed equal to your walking speed while submerged in it. In addition, while you are completely submerged in lava or magma, you are effectively {@condition invisible|phb}."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Geothermal Hide",
+                            "entries": [
+                                "As an action, you can grow a layer of magma over your skin for 1 minute, or until you are {@condition incapacitated|phb}. For this duration, you gain temporary hit points equal to three times your proficiency bonus. While you have these temporary hit points, you have immunity to fire damage, and if a creature hits you with a melee attack, the creature takes {@dice 1d6} fire damage.",
+                                "  You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gaian Manifestation",
+                            "entries": [
+                                "Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "{@b {@i Fingers of Flame.}} When you make an unarmed strike, you can transform your fingers or hands into tendrils of lava and flame. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier fire damage, instead of the bludgeoning damage normal for an unarmed strike. ",
+                                        "{@b {@i Heart of Fire.}} You know the {@spell produce flame|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race).",
+                                        "{@b {@i Burning Blood.}} At the end of a long rest, you can produce a number of flasks of {@item alchemist's fire (flask)|phb|alchemist's fire} equal to your proficiency bonus. These flasks last until they are used or until the end of your next long rest."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Gaians are beings awakened from the natural minerals of the world itself. Despite being composed of typically nonliving matter, these people are very much conscious, living beings in their own right.",
+                    "Gaians are usually awakened fully mature and alone with no families of their own, save the bonds they make with other creatures. They tend to be more malleable within the first few weeks, able to subtly alter their form and learn rapidly. As such, they usually adopt the forms, languages and cultures of those they interact with shortly after being awakened. No one is quite sure how they are awakened, though many suspect the whims of gods or nature spirits are often involved.",
+                    "No lifespan limit is known for gaians and they show no physical signs of aging. However they can still be wearied by time and those who do not fall to injury or disease will sometimes willingly return their source when they feel their time is up."
+                ]
+            },
+            "languageProficiencies": [
+                {
+                    "any": 1,
+                    "common": true
+                }
             ]
         }
     ]
