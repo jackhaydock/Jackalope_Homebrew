@@ -403,7 +403,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.23.13.36",
+                "version": "2023.05.23.14.30",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1684850295.2947865
+        "dateLastModified": 1684852224.3015742
     },
     "feat": [
         {
@@ -895,14 +895,14 @@
                             "type": "item",
                             "name": "Grow",
                             "entries": [
-                                "If you are smaller than Large, you become Large, provided there is enough room for you to do so. If you are already Large, you can instead become Huge, provided there is enough room for you to do so. You also have advantage on Strength checks and saving throws. Once per turn, when you hit a target with a melee attack, you can deal an additional 1d6 damage of the type associated with your Earthen Flesh trait."
+                                "If you are smaller than Large, you become Large, provided there is enough room for you to do so. If you are already Large, you can instead become Huge, provided there is enough room for you to do so. You also have advantage on Strength checks and saving throws. Once per turn, when you hit a target with a melee attack, you can deal an additional {@dice 1d6} damage of the type associated with your Earthen Flesh trait."
                             ]
                         },
                         {
                             "type": "item",
                             "name": "Shrink",
                             "entries": [
-                                "If you are larger than Tiny, you become Tiny. You also have advantage on Dexterity checks and saving throws. Once per turn, when you make a melee attack, you can add a 1d4 bonus to the attack roll."
+                                "If you are larger than Tiny, you become Tiny. You also have advantage on Dexterity checks and saving throws. Once per turn, when you make a melee attack, you can add a {@dice 1d4} bonus to the attack roll."
                             ]
                         }
                     ]
@@ -9780,7 +9780,7 @@
                                             "type": "item",
                                             "name": "Fingers of Light",
                                             "entries": [
-                                                "When you make an unarmed strike, you can transform your fingers or hands into shards of glass. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+                                                "When you make an unarmed strike, you can transform your fingers or hands into shards of glass. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier radiant damage, instead of the bludgeoning damage normal for an unarmed strike."
                                             ]
                                         },
                                         {
