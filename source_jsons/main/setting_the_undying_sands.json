@@ -1,0 +1,301 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Ilahli",
+				"abbreviation": "J:Ilahli",
+				"color": "ef9700",
+				"full": "Jackalope: The Undying Sands (Ilahli)",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "race": [
+        {
+            "name": "Aasimar (Royal)",
+            "source": "J:Ilahli",
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "age": {
+                "max": 180
+            },
+            "darkvision": 60,
+            "resist": [
+                "necrotic",
+                "radiant"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "light#c"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Medium or Small. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Celestial Resistance",
+                    "entries": [
+                        "You have resistance to necrotic damage and radiant damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Healing Hands",
+                    "entries": [
+                        "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light Bearer",
+                    "entries": [
+                        "You know the {@spell light} cantrip. Charisma is your spellcasting ability for it."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Celestial Revelation",
+                    "entries": [
+                        "When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy and regal training within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Impossible Artistry",
+                                    "entry": "You appear to bend the laws of reality to create and manipulate items in logic defying ways, such as opening a locked door from the other side or cutting a tensioned tripwire without triggering a trap. You become proficient with {@item thieves' tools|phb} and two sets of {@filter artisan tools|items|source=|type=artisan's tools} of your choice for the duration. Until the transformation ends, once on each of your turns, when you would deal damage or healing to a construct or object, you can deal additional damage or healing equal to your proficiency bonus."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Limited Omniscience",
+                                    "entry": "You grow additional eyes and expand your senses, these eyes are not necessarily visible or even physically attached your body. Choose up to three willing creatures you can see within 10 feet of you. For the duration, you can perceive through their senses simultaneously with your own. This effect ends early on a creature if they are ever more than 30 feet from you. In addition, until the transformation ends, once on each of your turns, you can choose a creature who's senses you are viewing. When that creature next deals damage to a target with an attack or a spell before the start of your next turn, it deals additional radiant damage equal to your proficiency bonus."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Voice of Angels",
+                                    "entry": "Your voice becomes booming and angelic, commanding authority, respect and fear. Creatures that can hear you within 10 feet must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become {@condition charmed} by you, or {@condition frightened} if it is a fiend or undead, until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra psychic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                                }
+                            ],
+                            "style": "list-hang-notitle"
+                        }
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    "{@race Aasimar|mpmm}, mortal beings infused with celestial energy are rare. Rarer still are those infused with a particular strain celestial energy, known as royal aasimar. In addition to unleashing this energy as light, healing or destruction, they can channel into their minds, voices and the world around them, seemingly performing miracles.",
+                    "Like other aasimar, these aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and often have features that hint at their celestial heritage. These often begin subtle and become more obvious when the aasimar gains the ability to reveal their full celestial nature. The Royal Aasimar Celestial Features table has examples you can choose or use as inspiration to create your own.",
+                    {
+                        "type": "table",
+                        "caption": "Royal Aasimar Celestial Features",
+                        "colLabels": [
+                            "d12",
+                            "Celestial Feature"
+                        ],
+                        "colStyles": [
+                            "col-1 text-center",
+                            "col-11"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "A dusting of metallic, white, or charcoal freckles"
+                            ],
+                            [
+                                "2",
+                                "Metallic, luminous, or dark eyes"
+                            ],
+                            [
+                                "3",
+                                "Starkly colored hair"
+                            ],
+                            [
+                                "4",
+                                "An unusual hue tinting your shadow"
+                            ],
+                            [
+                                "5",
+                                "A ghostly halo crowning your head"
+                            ],
+                            [
+                                "6",
+                                "Rainbows gleaming on your skin"
+                            ],
+                            [
+                                "7",
+                                "Small metallic or ceramic looking horns emerge from your head, resembling the points of a crown"
+                            ],
+                            [
+                                "8",
+                                "Metallic gold, silver or black fingernails"
+                            ],
+                            [
+                                "9",
+                                "Small vestigial wings emerging from your ankles or wrists"
+                            ],
+                            [
+                                "10",
+                                "White or gold feathers in your hair or in a bird like plume on your head"
+                            ],
+                            [
+                                "11",
+                                "Touching metal or marble surfaces with your bare hands or feet leaves a faint, pale glow for a few seconds"
+                            ],
+                            [
+                                "12",
+                                "Gold or black lines surrounding your eyes, resembling elaborate makeup"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "entries",
+                        "name": "Royal Aasimar across the Multiverse",
+                        "entries": [
+                            "In Alvergia, aasimar can be found most prominently among the upper classes of Ilahli. Some of these aasimar, most notably the royal family, will claim a much richer source of celestial energy within their lineage. Sometimes called royal aasimar or pure aasimar, these individuals use their allegedly stronger divinity to subtly bend the rules and expectations of reality. This challenging of reality has become an steadfast tradition in the royal family, with each generation attempting more and more seemingly impossible feats of art, culture and engineering, even if not always directly.",
+                            "Despite how exclusive the royal family can be about their bloodline, this rarer form of celestial energy can find its way to others throughout Ilahli and Alvergia. While extremely rare, even the simplest commoner might unexpectedly develop powers normally believed to be reserved for kings and queens. This has, on occasion, led to assumptions about the parentage of bastards and has even allowed pretenders to challenge the royal dynasty, with little success however."
+                        ]
+                    }
+                ]
+            },
+            "_versions": [
+                {
+                    "name": "Aasimar (Royal); Impossible Artistry",
+                    "source": "J:Ilahli",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Celestial Revelation",
+                            "items": {
+                                "name": "Celestial Revelation (Impossible Artistry)",
+                                "type": "entries",
+                                "entries": [
+                                    "When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+                                    "You appear to bend the laws of reality to create and manipulate items in logic defying ways, such as opening a locked door from the other side or cutting a tensioned tripwire without triggering a trap. You become proficient with thieves tools and two sets of artisan tools of your choice for the duration. Until the transformation ends, once on each of your turns, when you would deal damage or healing to a construct or object, you can deal additional damage or healing equal to your proficiency bonus."
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "Aasimar; Limited Omniscience",
+                    "source": "J:Ilahli",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Celestial Revelation",
+                            "items": {
+                                "name": "Celestial Revelation (Limited Omniscience)",
+                                "type": "entries",
+                                "entries": [
+                                    "When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+                                    "You grow additional eyes and expand your senses, these eyes are not necessarily visible or even physically attached your body. Choose up to three willing creatures you can see within 10 feet of you. For the duration, you can perceive through their senses simultaneously with your own. This effect ends early on a creature if they are ever more than 30 feet from you. In addition, until the transformation ends, once on each of your turns, you can choose a creature who's senses you are viewing. When that creature next deals damage to a target with an attack or a spell before the start of your next turn, it deals additional radiant damage equal to your proficiency bonus."
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "Aasimar; Radiant Soul",
+                    "source": "J:Ilahli",
+                    "_mod": {
+                        "entries": {
+                            "mode": "replaceArr",
+                            "replace": "Celestial Revelation",
+                            "items": {
+                                "name": "Celestial Revelation (Voice of Angels)",
+                                "type": "entries",
+                                "entries": [
+                                    "When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+                                    "Your voice becomes booming and angelic, commanding authority, respect and fear. Creatures that can hear you within 10 feet must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become charmed by you, or frightened if it is a fiend or undead, until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra psychic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                2,
+                                1
+                            ]
+                        }
+                    }
+                },
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "str",
+                                "dex",
+                                "con",
+                                "int",
+                                "wis",
+                                "cha"
+                            ],
+                            "weights": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
+        }
+    ]
+}
