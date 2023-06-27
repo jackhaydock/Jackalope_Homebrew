@@ -60,12 +60,12 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.06.27.02.13",
+                "version": "2023.06.27.02.39",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1687832678.5317032
+        "dateLastModified": 1687833582.1131926
     },
     "race": [
         {
@@ -613,6 +613,9 @@
             "type": "T",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
             "entries": [
                 "You have a +1 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
@@ -625,6 +628,9 @@
             "type": "T",
             "rarity": "rare",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d7 + 1}",
+            "charges": 7,
             "entries": [
                 "You have a +2 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
@@ -637,6 +643,9 @@
             "type": "T",
             "rarity": "very rare",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
             "entries": [
                 "You have a +3 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
@@ -649,6 +658,9 @@
             "type": "T",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
             "entries": [
                 "You have a +1 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
@@ -661,6 +673,9 @@
             "type": "T",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 1}",
+            "charges": 7,
             "entries": [
                 "You have a +2 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
@@ -673,6 +688,9 @@
             "type": "T",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
             "entries": [
                 "You have a +3 bonus to ability checks made with this set of tools.",
                 "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
