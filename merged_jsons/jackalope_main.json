@@ -163,7 +163,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.01.02.59",
+                "version": "2023.06.27.01.41",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -439,7 +439,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1687828413.0600042
+        "dateLastModified": 1687830103.8494668
     },
     "feat": [
         {
@@ -8557,6 +8557,81 @@
                     "common": true
                 }
             ]
+        },
+        {
+            "name": "Kobold (Deep)",
+            "source": "J:Kobolds",
+            "size": [
+                "S"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "lineage": "VRGR",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Glowstalk",
+                    "entries": [
+                        "You have a bioluminescent stalk extending from your head. As bonus action, you can let out a pulse of dim light out to 20 feet until the start of your next turn. You and your allies have advantage on attack rolls against enemies within this dim light who are not also within bright light. If any of these attacks hits a creature that has an Intelligence score of 4 or lower, the attack deals an additional {@dice 1d6} damage.",
+                        "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Deep Legacy",
+                    "entries": [
+                        "Adaptations to thalassic depths can manifest in different ways for each kobold. Choose one of the following legacy options for your kobold.",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "name": "Aquatic Cavalier",
+                                    "entries": [
+                                        "You can mount or dismount a creature that has a swimming speed with only 5 feet of movement. You also have advantage on Wisdom (Animal Handling) checks to maintain control of a mount that has a swimming speed."
+                                    ]
+                                },
+                                {
+                                    "name": "Extreme Depths",
+                                    "entries": [
+                                        "Acclimated to low temperatures and high pressures, you have resistance to cold and thunder damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Thalassic Sniper",
+                                    "entries": [
+                                        "Being underwater does not cause your ranged weapon attacks to fail at long range, nor does it impose disadvantage at normal range."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "any": 1,
+                    "common": true
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Just as dragons can be found in every corner of the material plane, so too can kobolds. This includes the deepest reaches of the ocean, where sunlight is as alien as the extraplanar. Just like their surface counterparts, deep kobolds are often underestimated due to their size, but their cunning and cooperation can make them extremely dangerous, especially to those unfamiliar with the depths. Unlike other kobolds however, deep kobolds do not appear to posses the voice of dragons, instead bearing bioluminescent stalks upon their foreheads which can be used to lure and distract prey.",
+                    {
+                        "name": "Deep Kobolds Across the Multiverse",
+                        "entries": [
+                            "In Alvergia, deep kobolds are very rare, and typically only found at the very bottom of the deepest oceans. Very few make it to the shallower seas, even fewer to the surface. However, small groups have been known to mingle with other groups of aquatic peoples, particularly around the lonely islands. Deep kobolds have occasionally been spotted seemingly riding whales and tohorans in the depths of the Azure ocean. The relationship exhibited here is unclear."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Dwarf (Thalian)",
