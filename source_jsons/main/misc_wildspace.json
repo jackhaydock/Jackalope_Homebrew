@@ -1,0 +1,276 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Wildspace",
+				"abbreviation": "J:Wildspace",
+				"color": "701037",
+				"full": "Jackalope: Wildspace",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+	"race": [
+		{
+			"name": "Space Clown",
+			"alias": [
+				"Clown",
+				"Jester",
+				"Fool",
+				"Thrill Joy"
+			],
+			"source": "J:Wildspace",
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"acid splashs#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"friends#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"prestidigitation#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"shocking grasp#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				},
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"disguise self"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"mirror image"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ancestral Legacy",
+					"entries": [
+						"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.",
+						"If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Squeakers",
+					"entries": [
+						"As an action, you can transform a pair of footwear you touch into squeakers that squeak when the wearer walks. The squeaking can be heard out to a range of 30 feet and lasts for 1 hour or until you use this trait again. If a creature is wearing the footwear when you use this action, it can make a Charisma saving throw to prevent the transformation. The DC for this saving throw is equal to 8 + your Intelligence, Wisdom or Charisma modifier (choose when you select this lineage) + your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Circus Tricks",
+					"entries": [
+						"You know one of the following cantrips of your choice; {@spell acid splash|phb}, {@spell friends|phb}, {@spell mage hand|phb}, {@spell prestidigitation|phb} or {@spell shocking grasp|phb}. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this lineage)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Phantasmal Illusions",
+					"entries": [
+						"You can cast {@spell disguise self|phb} with this trait. Starting at 3rd level, you can cast the {@spell mirror image|phb} spell with this trait. Starting at 5th level, when you cast {@spell disguise self|phb}, you can appear as a creature or object that is your size or one size smaller, such as a child or floating balloon. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this lineage)."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Excessive consumption of Thrill Joy, an elixir distilled from demonic ichor and the nectar of the bozo flower, can transform humanoids into fiendish creatures resembling clowns. Space clowns remain mostly lucid but often their minds are warped, increasing their desire for festivity, frivoloty and trickery. This can push some to cruel extremes, but not always."
+				]
+			}
+		},
+		{
+			"name": "Dohwar",
+			"alias": [
+				"Penquinfolk"
+			],
+			"source": "J:Wilspace",
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"disguise thoughts"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creture Tyoe",
+					"entries": [
+						"Your creature type is fey rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for up to 10 minutes at a time."
+					]
+				}
+			],
+			"subraces": [
+				{
+					"name": "Psionic",
+					"source": "J:Wildspace",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Telepathy",
+							"entries": [
+								"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to a number of creatures equal to your proficiency bonus at a time."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mind Reading",
+							"entries": [
+								"When you reach 3rd level, you can cast the {@spell detect thoughts|phb} spell once using this trait. Once you cast the spell with this trait, you can't do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher.",
+								"Intelligence, Wisdom, or Charisma is your spellcasting ability for this (choose when you select this race)."
+							]
+						}
+					]
+				},
+				{
+					"name": "Arctic",
+					"source": "J:Wildspace",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cold Resistance",
+							"entries": [
+								"You have resistance to cold damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Slide",
+							"entries": [
+								"Being {@condition prone} does not slow your movement and, while prone, you can move through the space of any creature that is of a size larger than yours without it counting as difficult terrain. In addition, opportunity attacks against you do not gain advantage due to you being prone."
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Dohwars are short, pudgy, flightless avians that look and move like penguins. Dohwar are commonly found as merchants across wildspace, though smaller, more varied communities are found across the multiverse. They tend to dress in a garish mishmash of clothing, but many of them also shroud themselves in hooded cloaks.",
+					"Some dohwars have separated from their psionic, space-faring kin. Dweling for generations in frozen biomes, they have adapted to cold and icy environments. This adaptation comes at the cost of their psionic abilities."
+				]
+			}
+		}
+	]
+}
