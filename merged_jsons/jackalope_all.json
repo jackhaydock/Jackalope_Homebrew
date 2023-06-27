@@ -438,6 +438,21 @@
                 "targetSchema": "1.0.0"
             },
             {
+                "json": "J:Primal",
+                "abbreviation": "J:Primal",
+                "color": "617510",
+                "full": "Jackalope: Primal Trinkets",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2023.06.27.02.58",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
                 "json": "JPP",
                 "abbreviation": "J:Partypack",
                 "color": "9bff00",
@@ -532,7 +547,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1687833584.8453157
+        "dateLastModified": 1687834704.259878
     },
     "feat": [
         {
@@ -2946,6 +2961,46 @@
             "entries": [
                 "This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets} or 50 {@item blowgun needle|phb|blowgun needles}.",
                 "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+            ]
+        },
+        {
+            "name": "Primal Trinket (Ancient Root)",
+            "source": "J:Primal",
+            "wondrous": true,
+            "rarity": "rare",
+            "reqAttune": "by a druid",
+            "entries": [
+                "This twisted root from an ancient and magical tree can be used to enhance your transformation abilities. When you use your Wild Shape feature whilst attuned to this item, you can have your Beast Form take on a more plant like appearance, such as having bark like skin or being covered in moss and flowers rather than hair. When you do so, your beast form is also altered in the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your creature type becomes plant rather than beast.",
+                        "You gain resistance to bludgeoning and piercing damage.",
+                        "You lose any resistance to slashing or fire, unless these resistances come from a source other than your beast form.",
+                        "You have advantage on Strength (Athletics) checks to initiate grapples while in beast form."
+                    ]
+                },
+                "Alternatively, if your DM allows, when you use your Wild Shape feature, you may choose to transform into a plant rather than a beast. Your new form still gains the effects described above. You must still abide by the other limitations of the feature and your new form cannot use any legendary actions, mythic actions or lair actions."
+            ]
+        },
+        {
+            "name": "Primal Trinket (Divine Feather)",
+            "source": "J:Primal",
+            "wondrous": true,
+            "rarity": "rare",
+            "reqAttune": "by a druid",
+            "entries": [
+                "This white and gold feather from the wing of a great celestial creature can be used to enhance your transformation abilities. When you use your Wild Shape feature whilst attuned to this item, you can have your Beast Form take on a more celestial appearance, such as pale hair or glowing eyes. When you do so, your beast form is also altered in the following ways:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Your creature type becomes celestial rather than beast.",
+                        "You gain resistance to radiant and necrotic damage.",
+                        "If your Wild Shape feature allows creatures with flying speeds at your current druid level, you gain a fly speed equal to your walking speed. You can also choose to grant your beast form wings.",
+                        "Once per turn, when you hit a creature with an attack in beast form, you can choose to either deal an additional {@dice 1d6} radiant damage to that creature or grant {@dice 1d6} temporary hit points to a creature you can see within 10 feet."
+                    ]
+                },
+                "Alternatively, if your DM allows, when you use your Wild Shape feature, you may choose to transform into a plant rather than a beast. Your new form still gains the effects described above. You must still abide by the other limitations of the feature and your new form cannot use any legendary actions, mythic actions or lair actions."
             ]
         },
         {
