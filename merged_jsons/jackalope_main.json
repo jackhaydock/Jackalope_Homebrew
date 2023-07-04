@@ -451,10 +451,22 @@
                 "version": "2023.06.27.02.59",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Steeds",
+                "abbreviation": "J:Steeds",
+                "color": "674914",
+                "full": "Jackalope: Steeds",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "2023.06.03.22.19",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1687834799.0015113
+        "dateLastModified": 1688514622.1446996
     },
     "feat": [
         {
@@ -6017,6 +6029,802 @@
                 "MW",
                 "RW",
                 "THW"
+            ]
+        },
+        {
+            "name": "Undead Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "undead",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "immune": [
+                "necrotic",
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the steed to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the steed drops to 1 hit point instead."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning, slashing or necrotic damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Horrifying Visage (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed chooses a creature that it can see within 30 feet. The target must succeed on a Wisdom saving throw against your spell save DC or become {@condition frightened} of the steed until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fey Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "fey",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects. This benefit extends to creatures mounted on it."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning, slashing or psychic damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Fey Step (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fiendish Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "fiend",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "fire",
+                "cold",
+                "lightning"
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Devil's Sight (Devil Only)",
+                    "entries": [
+                        "Magical darkness doesn't impede the steed's darkvision. This benefit extends to creatures mounted on it."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (Demon Only)",
+                    "entries": [
+                        "The steed makes two maul attacks."
+                    ]
+                },
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning, slashing or necrotic damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Fiendish Glare (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed chooses a creature that it can see within 30 feet. The target must succeed on a Wisdom saving throw against your spell save DC or become {@condition frightened} of the steed until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Celestial Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "celestial",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 80,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "necrotic"
+            ],
+            "immune": [
+                "radiant"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects. This benefit extends to creatures mounted on it."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning, slashing or radiant damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Healing Touch (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed touches another creature and restores a number of Hit Points to it equal to {@dice 2d8} + the spell's level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Giant Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "giant",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 20,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "cold",
+                "fire",
+                "lightning",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Earthly Camoflage",
+                    "entries": [
+                        "The steed has advantage on Dexterity (Stealth) checks made to hide in earthy terrain, such as rocks, mud or sand. This benefit extends to creatures mounted on it."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}. If the creature is two or more sizes smaller than the steed, it has disadvantage on this saving throw."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning or slashing damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Enlarge (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed becomes Huge for 10 minutes or until you command it to return to its original size (no action required). While Huge, the steed has advantage on Strength checks and Strength saving throws, and its maul attack deals an additional {@dice 1d4} damage."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bestial Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "beast",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Keen Senses",
+                    "entries": [
+                        "The steed has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Aquatic Traversal (Water Only)",
+                    "entries": [
+                        "The steed has a swimming speed equal to its walking speed and can breathe in both air and water. A creature can hold its breath for up to one hour while mounted on the steed."
+                    ]
+                },
+                {
+                    "name": "Pack Tactics (Land Only)",
+                    "entries": [
+                        "The steed has advantage on an attack roll against a creature if at least one of the steed's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "name": "Flyby (Air Only, Requires 4th-level or higher)",
+                    "entries": [
+                        "The beast doesn't provoke opportunity attacks when it flies out of an enemy's reach. In addition, while the the steed is flying, opportunity attacks against creatures mounted on the steed have disadvantage."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The steed makes two maul attacks, or three maul attacks if summoned with a spell slot of 4th-level or higher."
+                    ]
+                },
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning or slashing damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Tough Hide (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed gains temporary hit points equal to five times the spell's level."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Plant Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "plant",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "bludgeoning",
+                "piercing"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Shrub Camoflage",
+                    "entries": [
+                        "The steed has advantage on Dexterity (Stealth) checks made to hide in or among vegetation, such as bushes, trees or tall grass. This benefit extends to creatures mounted on it."
+                    ]
+                },
+                {
+                    "name": "Siege Monster",
+                    "entries": [
+                        "The steed deals double damage to objects and structures."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning or slashing damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Entangling Strike (Recharges after a Long Rest)",
+                    "entries": [
+                        "The next time the steed hits a creature with its maul attack, that creature must succeed on a Strength saving throw against your spell save DC or become entangled by vines and roots. The target becomes {@condition restrained} for one minute or until it, or another creature within 5 feet, uses an action to free it. "
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Construct Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "construct",
+            "ac": [
+                {
+                    "special": "12 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 16,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "immune": [
+                "poison"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "poisoned"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Constructed Resilience",
+                    "entries": [
+                        "The steed doesn't require air, food, drink or sleep and magic cannot put it to sleep."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning or slashing damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Reinforcement (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed gains a +2 bonus to its Armor Class for one minute. This benefit extends to creatures mounted on the steed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Aberrant Steed",
+            "source": "J:Steeds",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": "aberration",
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 x spell level (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "immune": [
+                "psychic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Unusual Nature",
+                    "entries": [
+                        "The dragon doesn't require air or sleep."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level of bludgeoning, slashing or psychic damage (your choice)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Abhorant Scream (Recharges after a Long Rest)",
+                    "entries": [
+                        "Each creature of the steed's choice within 15 feet of it must make a Wisdom saving throw against your spell save DC or take {@dice 2d6} psychic damage and become {@dice frightened} until the start of the steed's next turn."
+                    ]
+                }
             ]
         }
     ],
@@ -14147,6 +14955,15 @@
                         "Voltan then decides to have the dragon upgrade itself, allowing it to outlive him. Over the next few centuries, the dragon begins hoarding magic items to enchance itself. Eventually, having exhausted the resources of its own world, the dragon heads out to the astral sea, harvesting the remains of dead gods. We can make the statblocks for the {@creature voltaic dragon (ancient)|JDragon} and the {@creature voltaic dragon (greatwyrm)|JDragon}"
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Find Steed Variant",
+            "source": "J:Steeds",
+            "ruleType": "O",
+            "entries": [
+                "The {@spell find stead|phb} spell can sometimes seem underwhelming and limited. This supplement provides a number of {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} as options to be summoned by the spell. These steeds are more more powerful and more varied. They also allow the caster to decide its size, appearance and sometimes their forms. The steeds also use the caster's proficiency bonus and the level of the spell slot used.",
+                "The DM decides which steeds are allowed and how a caster can gain the ability to summon them. They might simply add some or all of new steeds to the list of options in the spell itself. Alternatively, they might choose to only grant certain steeds to certain characters, perhaps reflecting something about that character or via some magic item or boon. For example, a warrior from the feywild might be able to summon a large blink wolf as a {@creature fey steed|J:steeds} with the spell. Or a player character might uncover a magic horseshoe belonging to a long dead legendary horse, allowing them to summon the horse's ghostly spirit as a {@creature undead steed|J:steeds}."
             ]
         }
     ],
