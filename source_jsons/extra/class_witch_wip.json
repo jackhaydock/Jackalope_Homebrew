@@ -18,6 +18,592 @@
         "dateAdded": 0,
         "dateLastModified": 0
     },
+    "class": [
+        {
+            "name": "Witch (WIP)",
+            "source": "J:Witch",
+            "classFeatures": [
+                "Spellcasting|Witch (WIP)|J:Witch|1|J:Witch",
+                "Witchcraft Rituals|Witch (WIP)|J:Witch|1|J:Witch",
+                "Witch Coven|Witch (WIP)|J:Witch|2|J:Witch",
+                "WIP|Witch (WIP)|J:Witch|3|J:Witch",
+                "Coven Feature|Witch (WIP)|J:Witch|6|J:Witch",
+                "Enchanted Transport|Witch (WIP)|J:Witch|10|J:Witch",
+                "Coven Feature|Witch (WIP)|J:Witch|14|J:Witch",
+                "WIP|Witch (WIP)|J:Witch|18|J:Witch",
+                "Coven Feature|Witch (WIP)|J:Witch|20|J:Witch",
+                "Ability Score Improvement|Fighter|PHB|4",
+                "Ability Score Improvement|Fighter|PHB|8",
+                "Ability Score Improvement|Fighter|PHB|12",
+                "Ability Score Improvement|Fighter|PHB|16",
+                "Ability Score Improvement|Fighter|PHB|19"
+            ],
+            "hd": {
+                "number": 1,
+                "faces": 6
+            },
+            "proficiency": [
+                "int",
+                "wis"
+            ],
+            "spellcastingAbility": "int",
+            "casterProgression": "full",
+            "preparedSpells": "<$level$> + <$int_mod$>",
+            "cantripProgression": [
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filter Cantrips Known|spells|level=0|class=witch}"
+                    ],
+                    "rows": [
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            5
+                        ]
+                    ]
+                },
+                {
+                    "title": "Spell Slots per Spell Level",
+                    "colLabels": [
+                        "{@filter 1st|spells|level=1|class=witch}",
+                        "{@filter 2nd|spells|level=2|class=witch}",
+                        "{@filter 3rd|spells|level=3|class=witch}",
+                        "{@filter 4th|spells|level=4|class=witch}",
+                        "{@filter 5th|spells|level=5|class=witch}",
+                        "{@filter 6th|spells|level=6|class=witch}",
+                        "{@filter 7th|spells|level=7|class=witch}",
+                        "{@filter 8th|spells|level=8|class=witch}",
+                        "{@filter 9th|spells|level=9|class=witch}"
+                    ],
+                    "rowsSpellProgression": [
+                        [
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            3,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            0,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            4,
+                            3,
+                            3,
+                            3,
+                            3,
+                            2,
+                            2,
+                            1,
+                            1
+                        ]
+                    ]
+                }
+            ],
+            "startingProficiencies": {
+                "weapons": [
+                    "{@item dagger|phb|daggers}",
+                    "{@item dart|phb|darts}",
+                    "{@item sling|phb|slings}",
+                    "{@item quarterstaff|phb|quarterstaffs}",
+                    "{@item light crossbow|phb|light crossbows}"
+                ],
+                "tools": [
+                    "Choose 1 from; {@item Alchemist's Supplies|phb}, {@item Herbalist's Kit|phb} and {@item Poisoner's Kit|phb}"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "arcana",
+                                "deception",
+                                "investigation",
+                                "medicine",
+                                "nature",
+                                "religion",
+                                "survival"
+                            ],
+                            "count": 2
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    "(a) {@item quarterstaff|phb} or (b) a {@item shortbow|phb} and 20 {@item arrow|phb|arrows}",
+                    "(a) a {@item component pouch|phb} or (b) an {@item druidic focus|phb}",
+                    "(a) a {@item scholar's pack|phb} or (b) or an {@item explorer's pack|phb}",
+                    "Two {@item dagger|phb|daggers}, 5 candles and a witch's hood, hat or headdress."
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice 4d4*10|4d4 x 10}"
+            },
+            "multiclassing": {
+                "requirements": {
+                    "int": 13
+                },
+                "proficienciesGained": {
+                    "tools": [
+                        "Choose 1 from; {@item Alchemist's Supplies|phb}, {@item Herbalist's Kit|phb} and {@item Poisoner's Kit|phb}"
+                    ],
+                    "skills": [
+                        {
+                            "choose": {
+                                "from": [
+                                    "arcana",
+                                    "deception",
+                                    "investigation",
+                                    "medicine",
+                                    "nature",
+                                    "religion",
+                                    "survival"
+                                ],
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "classSpells": [
+            ],
+            "fluff": [
+                {
+                    "name": "Witch",
+                    "type": "section",
+                    "entries": [
+                        "WIP"
+                    ]
+                }
+            ]
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Spellcasting",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 1,
+            "entries": [
+                "Through rituals and charms, you cast witch spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the {@filter witch spell list|spells|class=witch}.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips",
+                    "entries": [
+                        "At 1st level, you know three cantrips of your choice from the witch spell list. You learn additional witch cantrips of your choice at higher levels, as shown in the Cantrips Known column of the witch table. Whenever you gain a level in this class, you can replace one cantrip you learned from this Spellcasting feature with another cantrip from the witch spell list."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Preparing and Casting Spells",
+                    "entries": [
+                        "The witch table shows how many spell slots you have to cast your witch spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "You prepare the list of witch spells that are available for you to cast. To do so, choose a number of witch spells equal to your Intelligence modifier + your witch level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+                        "For example, if you're a 3rd-level witch, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell {@spell magic missile}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+                        "You can change your list of prepared spells when you finish a long rest. Preparing a new list of witch spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your witch spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a witch spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ritual Casting",
+                    "entries": [
+                        "You can cast a witch spell as a ritual if that spell has the ritual tag and you have the spell prepared. You can also cast spells as rituals using your Witchcraft Rituals feature."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use an {@item druidic focus|phb}, a broom, a skull or a mummified hand as a spellcasting focus for your witch spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Witchcraft Rituals",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you can cast a witch spell that lacks the ritual tag as a ritual. The spell must be one you have prepared that is 3rd-level or lower.",
+                "You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Witch Coven",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you choose a witch coven from which you learned your magic. You may have belonged to this coven, or you may have acquired the coven's secrets through other means. Your choice grants you features when you choose it at 2nd level and again at 6th, 14th and 20th level."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "WIP",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 3,
+            "entries": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "Coven Feature",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain feature from your witch coven."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "Enchanted Transport",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 10,
+            "entries": [
+                "Starting at 10th level, you can use a bonus action to enchant a non-magical object that is no more than 10 feet in any dimension, such as a bed, a broom, a cauldron or a rug. The object becomes magical and begins to hover. Once on each of your turns for the next hour, you can command the object to fly up to 50 feet in any direction (no action required). A creature can grasp or mount the object to fly with it.",
+                "At the end of the duration, the magic effect ends and the object becomes non-magical again, falling to the ground if the only thing holding it aloft is this effect. The effect also ends early if the object is ever more than 1 mile from you, if it is ever carrying more than 1000 pounds or if the dispel magic spell is cast on it.",
+                "Once you use this feature, you cannot do so again until you finish a short or long rest."
+            ]
+        },
+        {
+            "name": "Coven Feature",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 14,
+            "entries": [
+                "At 14th level, you gain feature from your witch coven."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "WIP",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 18,
+            "entries": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "Coven Feature",
+            "source": "J:Witch",
+            "className": "Witch (WIP)",
+            "classSource": "J:Witch",
+            "level": 20,
+            "entries": [
+                "WIP"
+            ],
+            "gainSubclassFeature": true
+        }
+    ],
     "item": [
         {
             "name": "+1 Poisoner's Kit of the Witch",
