@@ -208,7 +208,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.18.17.21",
+                "version": "2023.07.25.00.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -559,7 +559,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1690154468.4258554
+        "dateLastModified": 1690245462.9477098
     },
     "feat": [
         {
@@ -27287,7 +27287,7 @@
                     "name": "Upper Cyrik",
                     "type": "entries",
                     "entries": [
-                        "{@b Typical Speakers} Nobles acadmeics and artists, especially in western regions",
+                        "{@b Typical Speakers} Nobles academics and artists, especially in western regions",
                         "Upper Cyrik is a refined dialect often utilising longer and more descriptive words than those found in other dialects."
                     ]
                 },
@@ -27304,14 +27304,14 @@
                     "type": "entries",
                     "entries": [
                         "{@b Typical Speakers} Commonfolk in cities and towns, especially in eastern regions",
-                        "Eastern Cyrik is similar to Lower Cyrik, though it tends to be much shorter and blunter. Despite this, a lot can be conveyed through subtext."
+                        "Eastern Cyrik is similar to Lower Cyrik, though it tends to be much shorter and blunter. Despite this, a lot can be conveyed through subtext. Arkians are especially renowned for short and blunt remarks that convey enormous subtext."
                     ]
                 },
                 {
                     "name": "Drakon Cyrik",
                     "type": "entries",
                     "entries": [
-                        "{@b Typical Speakers} Draconic and Retilian people, especially in Ormux and Emeris",
+                        "{@b Typical Speakers} Draconic and Reptilian people, especially in Ormux and Emeris",
                         "Believed to be partly derived from Draconic, Drakon is a dialect common with draconic and reptilian peoples, being well suited to their physiology."
                     ]
                 },
@@ -27343,11 +27343,11 @@
                     ]
                 },
                 {
-                    "name": "Wild Tongue",
+                    "name": "Old Tongue",
                     "type": "entries",
                     "entries": [
                         "{@b Typical Speakers} Members of the Gailum Tribes, especially orcs",
-                        "Wild Tongue is a more traditional form of the language developed by disconnected tribes occasionally crossing paths. As such, tone and context are often more important than literal meanings."
+                        "The Old Tongue is a more traditional form of the language developed by disconnected tribes occasionally crossing paths. As such, tone and context are often more important than literal meanings."
                     ]
                 },
                 {
@@ -27355,9 +27355,145 @@
                     "type": "entries",
                     "entries": [
                         "{@b Typical Speakers} Goblins across Agetos Major",
-                        "The goblin tongue features fewer article words or distinction between tenses or pronouns. It is occasionally mocked as primitive or stupid, despite being just as nuanced as other dialects and languages. "
+                        "The goblin tongue features fewer article words or distinction between tenses, gender or quantity. It is occasionally mocked as primitive or stupid, despite being just as nuanced as other dialects and languages. "
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Vrakon",
+            "source": "J:Cyranos",
+            "type": "standard",
+            "script": "Vrakon",
+            "entries": [
+                "Vrakon is the tongue of Vrakos and the surrounding area. Much of civilisation in this area is deep underground. Both the written and spoken versions of Vrakon are well adapted to legibility in dark and dusty caverns, even with muffles and echos of such places.",
+                "Like many languages, Vrakon has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Crystal Voice",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Upper class residents of Vrakos, as well as merchants and bards",
+                        "Crystal Voice is a refined and almost poetic dialect of Vrakon often spoken by nobles, merchants and performers. Combining clever wordplay and rhymes, a pleasing accent and Crystal Voice can make speakers seem more likeable and trustworthy. Using Crystal Voice properly, especially in verse, can actually be quite difficult and may require elocution lessons."
+                    ]
+                },
+                {
+                    "name": "Stone Voice",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Common residents of Vrakos, especially those from lower layers",
+                        "Stone Tongue is a more common and accessable dialect of Vrakon than Crystal Voice. It features a more diverse selection a slang terms, many of which might be considered crude, vulgur or even offensive to native speakers of Crystal Voice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thalian",
+            "source": "J:Cyranos",
+            "type": "standard",
+            "script": "Thailian",
+            "entries": [
+                "Thailian is the language of the smiths and other residents of Thalia, a volcanic island in the Sea of Cyranos. While it is a unique language in its own right, its origins in Vrakon, Celestial and Primordial are noticable. The langauge notably contains lots of technical jargon and idioms based on craftwork.",
+                "Like many languages, Thalian has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Organic Thalian",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Residents of Thalia, especially dwarves and cyclopes",
+                        "As the name would suggest, Organic Thalian is a dialect used most often by organic creatures of Thalia, as opposed the many constructs that originate there."
+                    ]
+                },
+                {
+                    "name": "Phaeston Thalian",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Warforged and other constructs made on Thalia",
+                        "The Phaeston dialect has slighlty more in common with Celestial than other dialects. It is often used in magic charms and rituals. And is also often spoken by contructs originating from Thalia, especially those with limited personality and identity beyond their initial purpose. Phaeston features less slang, contractions and reliance on tone or sub-text than many languages."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sign",
+            "source": "J:Cyranos",
+            "type": "standard",
+            "entries": [
+                "Sign language is a language that does not rely upon spoken or written word, instead using gestures to convey meanings. Sign is common among those with hearing or speech impairments, as well as between peoples who differing physiologies make sharing a spoken language difficult.",
+                "Like many languages, Sign has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Poetic Sign",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Performers and nobles",
+                        "Poetic Sign is almost more a performance than a language. It contains many dance-like manoeuvres using the entire body rather than just hands and face. It may have been created by performers wanting to convey messages to audiences without worrying about language barriers."
+                    ]
+                },
+                {
+                    "name": "Western Sign",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Residents of western Cyranos",
+                        "Western Sign is a simplified, and more practical version of poetic sign. Featuring far lass full body movements, relying almost entirely on head and hand movements."
+                    ]
+                },
+                {
+                    "name": "Eastern Sign",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Residents of eastern Cyranos, especially military folk",
+                        "Many military folk learn at least some of this dialect in order to communicate simple messages while trying to be quiet or otherwise being drowned out by the noise of battle. However, learning more of the dialect can allow communication in wider contexts."
+                    ]
+                },
+                {
+                    "name": "Sign Language and verbal spellcasting",
+                    "type": "inset",
+                    "entries": [
+                        "Providing verbal components of spells using sign is very difficult, most creatures who learn sign as a second language cannot do it. However, at the DM's discretion, a creature may be able to do it, effectively replacing verbal components with somatic ones. The DM may decide that certain spells still require facial expressions, exhalations or noise, preventing gagged or silenced creatures from using them."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elbros",
+            "source": "J:Cyranos",
+            "type": "standard",
+            "script": "Elbros",
+            "entries": [
+                "Elbros is a western language often considered the language of the elves, though many speak it. The language has clear influences from the languages of the Pelais Coast",
+                "Like many languages, Elbros has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Higher Elbros",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Elven nobles, especially in Nyria and Halosini",
+                        "Higher Elbros is sometimes considered the more refined and regal of the Elbros dialects. It bears notable ancestry from the elven languages of the Pelais Coast, as well as Upper Cyrik with long, descriptive words and less shorthand slang."
+                    ]
+                },
+                {
+                    "name": "Woodlands Elbros",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Tribal communities in the northern and western forests, especially those composed of elves and creatures of fey origin",
+                        "Not unlike Higher Elbros, Woodlands Elbros bears notable ancestry from the languages of the Pelais Coast. It also shows signs of ancestry from Druidic and Sylvan, sometimes incorporating animal-like clicks and whistles to affect tone and subtext."
+                    ]
+                },
+                {
+                    "name": "Plain Elbros",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Elven commoners, especially those in cities and towns",
+                        "Plain Elbros is the most common dialect of Elbros used within the cities and towns of Cyranos. With other dialects of Elbros have borrowed from local languages, especially Upper Cyrik, Plain Elbros does so to a much greater degree, and from a wider variety of dialects, particulary other variants of Cyrik. This makes Plain Elbros sound much more native to Cyrik speakers, compared to other dialects of Elbros which can sound foreign even when spoken by natives of Cyranos."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sea Speak",
+            "source": "J:Cyranos",
+            "type": "standard",
+            "script": "Various",
+            "entries": [
+                "{@b Typical Speakers} Travellers and sailors all across Cyranos and beyond",
+                "Sea Speak is sometimes confusing mix of many languages, allowing simple communication between people all across Alvergia. Borrowing words and structures from multiple languages and dialects, it lacks consistency and can be confusing when trying to communicate anything beyond the simplest phrases."
             ]
         }
     ],
