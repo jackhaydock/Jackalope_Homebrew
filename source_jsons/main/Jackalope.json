@@ -877,6 +877,7 @@
 			"source": "J:General",
 			"wondrous": true,
 			"rarity": "rare",
+			"reqAttune": true,
 			"charges": 10,
 			"recharge": "dawn",
 			"rechargeAmount": "{@dice 1d10}",
@@ -884,7 +885,7 @@
 				"This lightweight beige or tan robe can be worn with light or medium armor. The loose cloth around the shoulders can be formed into a simple hood and face mask, protecting the wearer from the elements. The many folds and creases of the robe seem to hold a small yet endless quantity of sand that gets everywhere.",
 				"While attuned to this robe, you are resistant to fire damage and have advantage on Dexterity (Stealth) checks in sandy terrain.",
 				"The robe has 10 charges, it regains {@dice 1d10} charges daily at dawn. If you have spent the entire previous day wearing the robe in a hot desert, it regains an additional 2 charges at dawn.",
-				"As an action, you can expend up to 3 charges to cast one of the following spells (save DC 16) without providing material components: {@spell mold earth|xge}, {@spell gust|xge}, {@spell color spray|phb}, {@spell cloud of daggers|phb}, {@spell dust devil|xge}, {@spell gust of wind|phb}, {@spell leomund's tiny hut|phb} or {@spell wall of sand|xge}.",
+				"You can expend up to 3 charges to cast one of the following spells (save DC 16) without providing material components: {@spell mold earth|xge}, {@spell gust|xge}, {@spell color spray|phb}, {@spell cloud of daggers|phb}, {@spell dust devil|xge}, {@spell gust of wind|phb}, {@spell leomund's tiny hut|phb} or {@spell wall of sand|xge}.",
 				"The number of charges expended is equal to the level the spell is cast at (no charges required for a cantrip). When cast in this way, each of these spells resembles sand or sandstone in someway. For example, {@spell cloud of daggers|phb} might be a flurry of floating sand and glass shards, while {@spell leomund's tiny hut|phb} might appear to have the color and texture of sandstone from the outside.",
 				"Additionally, when a creature with exposed eyes fails a saving throw against one of these spells, you can expend a charge and force them to become {@condition blinded} until the end of their next turn."
 			]
