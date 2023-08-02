@@ -523,7 +523,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.07.23.23.19",
+                "version": "2023.08.02.21.34",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -559,7 +559,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1690956917.0189507
+        "dateLastModified": 1691013284.9501863
     },
     "feat": [
         {
@@ -14104,7 +14104,8 @@
                         "The first time the potion or poison deals damage or healing, you can increase this damage or healing by {@dice 2d6}.",
                         "If the potion or poison deals poison damage to a target, you can make it ignore resistance to poison damage.",
                         "If the potion or poison normally deals poison damage, you can change the damage type to one of the following; acid, cold, fire, lightning or necrotic.",
-                        "If the potion or poison subjects a target to an effect with a duration of 1 minute or more, you can double this duration."
+                        "If the potion or poison subjects a target to an effect with a duration of 1 minute or more, you can double this duration.",
+                        "If the potion or poison imposes the {@condition charmed} condition on a target, you change this to impose the {@condition frightened} condition instead, or vice versa."
                     ]
                 }
             ],
@@ -14119,6 +14120,48 @@
             ],
             "classes": {
                 "fromClassList": [
+                    {
+                        "name": "Witch (WIP)",
+                        "source": "J:Witch"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mind Step",
+            "source": "J:Witch",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You choose a creature you can see within range and force that creature to make a Wisdom saving throw. On a fail, you briefly enter the creature's mind and travel through its senses. Choose an unoccupied space the creature can see within 10 feet of it, you instantly teleport into that space. In addition, the creature is {@condition frightened} of you until the start of your next turn."
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
                     {
                         "name": "Witch (WIP)",
                         "source": "J:Witch"
@@ -19607,7 +19650,7 @@
             "classSource": "J:Witch",
             "level": 3,
             "entries": [
-                "WIP"
+                "Starting at 3rd level,...WIP"
             ]
         },
         {
@@ -19651,7 +19694,7 @@
             "classSource": "J:Witch",
             "level": 18,
             "entries": [
-                "WIP"
+                "Starting at 18th level,...WIP"
             ]
         },
         {
@@ -19661,7 +19704,7 @@
             "classSource": "J:Witch",
             "level": 20,
             "entries": [
-                "WIP"
+                "At 20th level, you gain feature from your witch coven."
             ],
             "gainSubclassFeature": true
         },
