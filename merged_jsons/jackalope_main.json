@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.08.01.03.45",
+                "version": "2023.08.02.05.58",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,7 +466,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1690861570.814857
+        "dateLastModified": 1690955883.846924
     },
     "feat": [
         {
@@ -1600,11 +1600,30 @@
         {
             "name": "Potion of Polymorph",
             "source": "J:General",
-            "type": "P",
+            "type": "FD",
             "rarity": "rare",
             "wondrous": true,
             "entries": [
                 "This blood-like liquid has transformative properties. When you drink this potion, you can cast the {@spell polymorph|phb} spell on yourself."
+            ]
+        },
+        {
+            "name": "Tiefling Heart",
+            "source": "J:General",
+            "type": "FD",
+            "value": 25000,
+            "weight": 1,
+            "entries": [
+                "In many cultures, consuming humanoid flesh is deeply taboo. Yet, there are still those who do. Whether they acquire them through legal or illegal means, tiefling hearts are something of a delicacy for wealthy consumers.",
+                "When a creature consumes this fiery red heart, it takes 1 fire damage.",
+                {
+                    "name": "Counterfeit Hearts",
+                    "type": "inset",
+                    "entries": [
+                        "Naturally the value of tiefling hearts, and the difficulty of acquiring geuine ones, leads some to attempt to make a quick profit by selling fake hearts. Sometimes hearts from pigs or other humanoids are infused with chillis or {@item alchemist's fire|phb} and sold as tiefling hearts.",
+                        "These counterfeit hearts are actually worth around {@dice 2d4*5|2d4 x 5}gp, and a creature can determine its fake with a DC14 Wisdom (Medicine) check."
+                    ]
+                }
             ]
         },
         {
