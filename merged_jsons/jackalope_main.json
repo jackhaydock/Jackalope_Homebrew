@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.08.02.06.15",
+                "version": "2023.08.19.17.36",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,7 +466,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1691013283.7083826
+        "dateLastModified": 1692467317.9087615
     },
     "feat": [
         {
@@ -7275,7 +7275,8 @@
                 }
             ],
             "entries": [
-                "You can cast the {@spell find steed|phb} spell at will."
+                "You can cast the {@spell find steed|phb} spell using a warlock spell slot.",
+                "If you use {@variantrule find steed variant|J:Steeds}, you can choose one of the {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} when you take this invocation (Your DM may allow additional steeds)."
             ]
         },
         {
