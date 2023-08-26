@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.08.26.19.41",
+                "version": "2023.08.26.23.18",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,7 +466,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1693079385.58694
+        "dateLastModified": 1693092034.4605434
     },
     "feat": [
         {
@@ -14278,6 +14278,28 @@
                 "entries": [
                     "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
                     "When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Knightfall Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "curse": true,
+                "source": "J:General",
+                "namePrefix": "Knightfall ",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "Once per turn, when you hit a creature that is wearing medium or heavy armor with an attack using with this weapon, you can force that creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifer you used for the attack) or fall {@condition prone}."
                 ],
                 "bonusWeapon": "+1"
             }

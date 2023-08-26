@@ -4476,6 +4476,28 @@
 				],
 				"bonusWeapon": "+1"
 			}
+		},
+		{
+			"name": "Knightfall Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "B"
+				}
+			],
+			"inherits": {
+				"page": "0",
+				"rarity": "uncommon",
+				"curse": true,
+				"source": "J:General",
+				"namePrefix": "Knightfall ",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+					"Once per turn, when you hit a creature that is wearing medium or heavy armor with an attack using with this weapon, you can force that creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifer you used for the attack) or fall {@condition prone}."
+				],
+				"bonusWeapon": "+1"
+			}
 		}
 	],
 	"variantrule": [
