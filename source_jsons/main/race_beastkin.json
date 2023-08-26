@@ -1200,6 +1200,84 @@
 					"common": true
 				}
 			]
+		},
+		{
+			"name": "Selach",
+			"source": "J:Beastkin",
+			"alias": [
+				"Ukupani",
+				"Sharkfolk"
+			],
+			"lineage": "VRGR",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blood Scent",
+					"entries": [
+						"You have advantage on ability checks you make to detect or track creatures that are missing hit points, provided those creatures are not undead or constructs."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grappling Maw",
+					"entries": [
+						"Your bite is a natural weapon which you can use to make unarmed strikes. When you hit with it, the strike deals {@dice 1d6} + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike.",
+						"When you hit a creature with this strike, you can use a bonus action to take the {@action Grapple} action against the target. While you have a target grappled in this way, you cannot speak, cannot bite targets other than the grappled target, and your swimming speed is not halved when moving with the grappled target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magnetic Senses",
+					"entries": [
+						"While touching at least 1 foot of water, you always know which way north is."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tough Hide",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Selachs, also known as Ukupani or Sharkfolk, are shark like humanoids.",
+					"Along with typically being strong swimmers, selachs appear to posses some almost magical sense of direction, which is greatly enhanced when in contact with water. There are many theories among scholars as to the nature of this sense; some claim a connection to ancient gods or spirits, some believe they can magically tap into the water's memory, others believe they can sense some magnetic field covering the world, like a biological compass. Regardless, this sense makes selachs often highly sought after navigators at sea.",
+					"While selach are perfectly capable of surviving on land, unlike their more primal aquatic brethren, many do find being underwater more comfortable and might dislike especially arid environments. Their gills can become dry and itchy. Some land settlements with large numbers of visiting selachs, will often have specially designed bathhouses and even submerged taverns catering to them and similar peoples.",
+					"Selach lifespans vary greatly due to a variety of factors. Most mature after 25-30 years and can sometimes live as long as 300 years, though most rarely live past a century.",
+					{
+						"name": "Salachs across the Multiverse",
+						"type": "entries",
+						"entries": [
+							"In Alvergia, selachs fill a similar niche to tohorans, most often being found in remote parts of the oceans and around the Lonely Islands, though they are more common in warmer waters. Like most peoples, selachs are known to enjoy informal friendships and alliances, with both tbd and otherwise, however, it is uncommon to see significant numbers of them serving under formal systems and societies. It appears to be more common to find them wandering and hunting alone or in small groups, even when serving a higher purpose. A common saying is that they make good hunters but bad soldiers.",
+							"Not unlike sharks, selachs have a fearsome reputation. Some do live up to this reputation and even use it to their advantage. Others not so much. This reputation, as well as their aversion to dry climates, can hinder those who do try to integrate into some land communities. Those that do establish themselves are often well regarded by those who know them."
+						]
+					}
+				]
+			}
 		}
     ],
 	"feat": [
