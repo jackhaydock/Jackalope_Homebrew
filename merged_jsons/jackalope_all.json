@@ -208,7 +208,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.08.26.18.14",
+                "version": "2023.09.19.23.35",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -559,7 +559,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1693529840.2202818
+        "dateLastModified": 1695166521.6947405
     },
     "feat": [
         {
@@ -15117,8 +15117,8 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Fire Ballista.",
-                            "entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
+                            "name": "Fire Ship Weapon.",
+                            "entry": "If it has at least one installed the ship can fire one of its ship weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
                         },
                         {
                             "type": "item",
@@ -15229,8 +15229,8 @@
                     "ac": 15,
                     "hp": 50,
                     "entries": [
-                        "Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren\ufffd\ufffd\ufffdt being worn or carried. ",
-                        "When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren\ufffd\ufffd\ufffdt being worn or carried.",
+                        "Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren\ufffd\ufffd\ufffdt being worn or carried. ",
+                        "When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren\ufffd\ufffd\ufffdt being worn or carried.",
                         "Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
                     ]
                 },
@@ -15267,18 +15267,8 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Fire Ballista.",
-                            "entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Dragonsmaws.",
-                            "entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonels.",
-                            "entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+                            "name": "Fire Ship Weapon.",
+                            "entry": "If it has at least one installed the ship can fire one of its ship weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
                         },
                         {
                             "type": "item",
@@ -15427,18 +15417,8 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Fire Ballista.",
-                            "entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Dragonsmaws.",
-                            "entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonels.",
-                            "entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+                            "name": "Fire Ship Weapon.",
+                            "entry": "If it has at least one installed the ship can fire one of its ship weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
                         },
                         {
                             "type": "item",
@@ -15588,18 +15568,8 @@
                     "items": [
                         {
                             "type": "item",
-                            "name": "Fire Ballista.",
-                            "entry": "If it has at least one installed the ship can fire its {@object ballista||ballistas} (DMG, ch. 8)."
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Dragonsmaws.",
-                            "entry": "If it has at least one installed the ship can fire its Dragonsmaws"
-                        },
-                        {
-                            "type": "item",
-                            "name": "Fire Mangonels.",
-                            "entry": "If it has at least one installed the ship can fire its {@object mangonel||mangonels} (DMG, ch. 8)."
+                            "name": "Fire Ship Weapon.",
+                            "entry": "If it has at least one installed the ship can fire one of its ship weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
                         },
                         {
                             "type": "item",
