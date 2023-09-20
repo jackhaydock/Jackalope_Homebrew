@@ -208,7 +208,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.09.19.23.35",
+                "version": "2023.09.20.02.50",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,7 +466,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1695166520.9297872
+        "dateLastModified": 1695178740.2678792
     },
     "feat": [
         {
@@ -23363,7 +23363,7 @@
             "script": "Various",
             "entries": [
                 "Gailian, also known as Ageton, is a harsh language common on Agetos Major, especially in Gailum and within the Gailum Tribes. The language originates with the Gailum Tribes, who roam around Agetos Major and occasionally meeting in Gailum, which also led to the founding of the city. The language is still heavily used by the tribes and those who frequently trade and communicate with them.",
-                "Gailian is rather tonal langauges with grunts and growls allowing for surprisingly complex communication. There are many scripts for Gaillian, with many tribes having their own unique ones, often derived from wood and stone carvings. The scripts generally have enough similarities that understanding one is enough to understand the others.",
+                "Gailian is rather tonal langauges with grunts and growls allowing for surprisingly complex communication. There are many scripts for Gaillian, with many tribes having their own unique ones, often derived from wood and stone carvings. The scripts generally have enough similarities that understanding one is enough to understand the others. Gailian does not have any strict distinctions between first, second or third person, often relying on names descriptions or gestures to clarify the subject of a sentence. Native speakers sometimes struggle to adapt to this feature in other languages resulting in grammatical oddities, such as refering to themselves in third person or even others in first or second.",
                 "Like many languages, Gailian has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
                 {
                     "name": "City Tongue",
@@ -23525,6 +23525,198 @@
             "entries": [
                 "{@b Typical Speakers} Travellers and sailors all across Cyranos and beyond",
                 "Sea Speak is sometimes confusing mix of many languages, allowing simple communication between people all across Alvergia. Borrowing words and structures from multiple languages and dialects, it lacks consistency and can be confusing when trying to communicate anything beyond the simplest phrases."
+            ]
+        },
+        {
+            "name": "Fiendish",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Various Fiendish Scripts",
+            "entries": [
+                "Fiends have limited influence the Sea of Cyranos, many of them being monsters, or descendants of monsters, that have long since been defeated and killed or sealed in the Underworld. However, some still roam free, as do their followers and those who study them.",
+                "Like many languages, Fiendish has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Abyssal",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Chaotic fiends, such as demons",
+                        "Abyssal is more blunt and direct dialect of Fiendish. While articulating complex concepts is difficult in abyssal, most creatures can convey basic messages, especially threats, very quickly and efficiently.",
+                        "While many scripts can be used for Abyssal, writers tend to use simpler ones that can be written quickly and crudely on stone or clay."
+                    ]
+                },
+                {
+                    "name": "Infernal",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Lawful fiends, such as devils",
+                        "Infernal is a more complex, elegant form of Fiendish. It is also filled with homonyms, and words of multiple meanings, allowing for crafty wordplay. This is especially useful when attempting to trick and confuse others with verbal or written promises and contracts. It has sometimes been rumored that it is impossible to outright lie in Infernal, either because of some curse or because there are so many grammatical loopholes that anything can be interepted in multiple ways.",
+                        "While many scripts can be used for Infernal, writers tend to use more complex, cursive scripts that require special ink, or blood, to write properly and remain legible."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Celestial",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Celestial or Cyrik",
+            "entries": [
+                "Celestial is the holy language of Olympians, Titans and their disciples.",
+                "Like many languages, Celestial has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Olympian",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Olympians and those associated with them",
+                        "The most common variant of Celestial is Olympian, given the Olympians are the current ruling class of the gods. It is closer to Cyrik than other dialacts, being one of its primary ancestor languages."
+                    ]
+                },
+                {
+                    "name": "Hadian",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Underworld dwellers and followers of Hades",
+                        "Hades has always been a little estranged from his family, not joining the Olympian council and dwelling mostly in his own realm, the Underworld, rather than the Upper Sky. Naturally this has led to variantions in dialect between the godly realms. Hadian is the dialect of those who dwell below, those who serve Hades and his Queen, Persephone. Followers in the mortal realm often speak Hadian is hushed tones or even silent mouthing. Mortal speakers are often distrusted as they are associated with worshippers of Hades and death."
+                    ]
+                },
+                {
+                    "name": "Titanic",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Titans and those associated with them",
+                        "Titanic is the earliest form of Celestial, derrived from the first Titans as they usurped their Primordial parents as the ruling class of gods. Historians sometimes see this as the bridge between Primordial and Celestial, with many similarities and some, seemingly intentional changes. Not unlike Hadian, Titanic is mildly controversial in the mortal world due to its association with titans, many of whom are seen as diposed tyrants."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Deep Speech",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "entries": [
+                "{@b Typical Speakers} Aberations",
+                "Deep speech is the language of aberations and those who should not exist, at least according to the rules of reality as defined by gods. It does not have defined words or grammar, rather focused projections of emotions that confuse and terrify those unfamiliar. However, there does appear to be at least some structure and it can be used to convey incredibly complex topics, possibly better than any other language, provided you don't go mad attempting to understand it."
+            ]
+        },
+        {
+            "name": "Draconic",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Draconic",
+            "entries": [
+                "{@b Typical Speakers} Dragons and dragon worshippers",
+                "Draconic is the language of dragons, however, among mortals it seen as a mostly ceremonial language found in prayers, mottos and holy texts. It is considered a holy language by the followers of Drakon Olympus, far more so than Celestial."
+            ]
+        },
+        {
+            "name": "Druidic",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Druidic",
+            "entries": [
+                "{@b Typical Speakers} Druids and the Wild Peoples",
+                "Druidic is langauge that attempts to articulate the thoughts and emotions of nature and primal creatures. It is most often used by druids and those within the various tribes collectively known as the Wild Peoples.",
+                "The scripts of Druidic are often intentionally designed so they can't be written by carving or otherwise damaging plants and earth. Instead requiring magic or careful effort to encourage plants to grow certain ways or ensuring the message will naturally wash away without affecting the natural order."
+            ]
+        },
+        {
+            "name": "Primordial",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Various",
+            "entries": [
+                "Primordial is the language of the Primordial gods and monsters, as well as elementals. It is a gutteral language",
+                "Like many languages, Primordial has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Ancient",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Primordial gods and monsters"
+                    ]
+                },
+                {
+                    "name": "Auran",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Air elementals and monsters"
+                    ]
+                },
+                {
+                    "name": "Aquan",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Water elementals and monsters"
+                    ]
+                },
+                {
+                    "name": "Ignan",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Fire elementals and monsters"
+                    ]
+                },
+                {
+                    "name": "Terran",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Earth elementals and monsters"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sylvan",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Sylvan",
+            "entries": [
+                "Sylvan is the language of the wilds, particularly on the Isle of Pan, the home of the fey.",
+                "Like many languages, Sylvan has multiple notable dialects. Understanding one dialect is typically sufficient to understand the others.",
+                {
+                    "name": "Various Dialects",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Fey creatures and Wild Peoples",
+                        "Near every forest, desert, river or mountain range that is home to fey or Wild Peoples will have its own dialect of Sylvan that can be instinctively understood by all those the area accepts. Knowing the respective dialect of a natural region appears to give those who know it a heightened sense of awareness while navigating there. Hearing the wind through the trees and what it has to say can guide your path. If one is exiled from such a place by the nature spirits or fey, one might be robbed of their ability to understand the dialect beyond the basics, making them feel like a stranger in a once familar land."
+                    ]
+                },
+                {
+                    "name": "Undersylvan",
+                    "type": "entries",
+                    "entries": [
+                        "{@b Typical Speakers} Underground fey dwellers, such as drow cultists of Arachne",
+                        "Undersylvan is a dialect of Sylvan often used by fey creatures who prefer the darkness, or who have been forced there. Truely fluent speakers can whisper the dialect in such a way as be heard from great distances underground, sometimes masking their true direction or numbers with the echoes of the dark."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thieves' Cant",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Various",
+            "entries": [
+                "{@b Typical Speakers} Thieves, spies and criminals",
+                "Thieves' cant is a secret mix of dialect, jargon, and code that allows messages to be hidden in seemingly normal conversation or writing. Only a creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly."
+            ]
+        },
+        {
+            "name": "Tactile",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "script": "Tactile",
+            "entries": [
+                "{@b Typical Speakers} Sight impaired people",
+                "Tactile is a written language designed to be read by touching alone, making it especially useful to those with sight impairments or those who wish to read without looking."
+            ]
+        },
+        {
+            "name": "Olfactory",
+            "source": "J:Cyranos",
+            "type": "exotic",
+            "entries": [
+                "{@b Typical Speakers} Beast-like peoples with keen senses of smell",
+                "Smells can be used to communicate very simple messages to those with a keen sense of smell. Beast-like humanoids have learned to codify this in some way, often using special absorbent paper, various perfumes and even their own naturally produced smells. Precision is difficult with these languages, often only simple emotions and concepts can be conveyed. Though, smells can be used to emphasize messages written in other languages. For example, in warning signs, amorous letters or hate mail."
             ]
         }
     ],
