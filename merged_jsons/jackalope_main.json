@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.09.01.00.56",
+                "version": "2023.10.02.18.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,8 +466,40 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1695178740.2678792
+        "dateLastModified": 1696273021.024343
     },
+    "condition": [
+        {
+            "name": "Lightened",
+            "source": "J:General",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "The creature and its equipment weigh one eighth as much as normal. Items gain or lose this effect when the creature picks up or drops them respectively.",
+                        "The creature counts as one size smaller for the purpose of mounting other creatures or being moved by spells, effects and other creatures.",
+                        "When the creature falls, it takes {@dice 1d4} bludgeoning damage for every 10 feet it falls rather than {@dice 1d6}. Alternatively, if you are using the {@variantrule variant fall damage|J:General} rules, the creature counts as one size smaller for the purpose of calculating damage from falling.",
+                        "If the creature gains the {@condition weighted|J:General} condition, both conditions cancel each other out and the creature is treated as having neither until one is removed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Weighted",
+            "source": "J:General",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "The creature and its equipment weigh eight times as much as normal. Items gain or lose this effect when the creature picks up or drops them respectively.",
+                        "The creature counts as one size larger for the purpose of mounting other creatures or being moved by spells, effects and other creatures.",
+                        "When the creature falls, it takes {@dice 1d8} bludgeoning damage for every 10 feet it falls rather than {@dice 1d6}. Alternatively, if you are using the {@variantrule variant fall damage|J:General} rules, the creature counts as one size larger for the purpose of calculating damage from falling.",
+                        "If the creature gains the {@condition lightened|J:General} condition, both conditions cancel each other out and the creature is treated as having neither until one is removed."
+                    ]
+                }
+            ]
+        }
+    ],
     "feat": [
         {
             "name": "Tinkerer",
@@ -1792,6 +1824,54 @@
             "entries": [
                 "This red and orange eggshell is always warm to to touch. Striking two fragments of the eggshell together creates a flurry of sparks, much like a flint and steel.",
                 "With at least half the eggshell intact, you can use it as a cup for beverages. Beverages that spend at least one minute in the eggshell become warm and slightly spiced, such as cider becoming mulled cider"
+            ]
+        },
+        {
+            "name": "Feathered Pauldrons",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "While wearing these pauldrons, you have the {@condition lightened|J:General} condition."
+            ]
+        },
+        {
+            "name": "Weighted Anklets",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "WWhile wearing these metallic anklets, you have the {@condition weighted|J:General} condition."
+            ]
+        },
+        {
+            "name": "Potion of the Lightweight",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "When you drink this light, foamy potion, you become {@condition lightened|J:General} for one hour."
+            ]
+        },
+        {
+            "name": "Potion of the Heavyweight",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "When you drink this thick, metallic potion, you become {@condition weighted|J:General} for one hour."
+            ]
+        },
+        {
+            "name": "Densweeties",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This tin box contains up to 12 sweets when found. {@dice 2d4+1} of the sweets are light and fluffy, the rest are hard and dense. When you eat one of the light sweets, you gain the {@condition lightened|J:General} condition. When you eat one of the hard sweets, you gain the {@condition weighted|J:General} condition. Either way, the condition lasts for 1 hour or until you eat another sweet from the tin."
             ]
         },
         {
