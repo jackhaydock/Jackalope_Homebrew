@@ -65,6 +65,26 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Sundered",
+			"source": "J:General",
+			"entries": [
+				"The creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12."
+			]
+		},
+		{
+			"name": "Staggered",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"The creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
+						"The creature has disadvantage on Dexterity checks and saving throws."
+					]
+				}
+			]
 		}
 	],
 	"feat": [

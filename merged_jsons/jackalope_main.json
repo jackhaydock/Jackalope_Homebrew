@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.10.17.03.22",
+                "version": "2023.10.17.03.32",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -466,7 +466,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1697512970.800755
+        "dateLastModified": 1697513571.5181444
     },
     "condition": [
         {
@@ -509,6 +509,26 @@
                     "items": [
                         "At the start of each of its turns, the creature takes slashing damage equal to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell polymorph|phb} spell, this condition continues to use the bonus at the time the condition was imposed.",
                         "The condition can be removed with a Medicine check (DC 10 + the imposing creature's Proficiency Bonus) or by magical healing."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sundered",
+            "source": "J:General",
+            "entries": [
+                "The creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12."
+            ]
+        },
+        {
+            "name": "Staggered",
+            "source": "J:General",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "The creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
+                        "The creature has disadvantage on Dexterity checks and saving throws."
                     ]
                 }
             ]
