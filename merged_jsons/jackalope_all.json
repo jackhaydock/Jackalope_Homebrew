@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.10.17.03.32",
+                "version": "2023.10.17.03.47",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -559,7 +559,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1697513572.1723933
+        "dateLastModified": 1697514504.9791627
     },
     "condition": [
         {
@@ -610,7 +610,7 @@
             "name": "Sundered",
             "source": "J:General",
             "entries": [
-                "The creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12."
+                "A sundered creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12."
             ]
         },
         {
@@ -620,8 +620,20 @@
                 {
                     "type": "list",
                     "items": [
-                        "The creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
-                        "The creature has disadvantage on Dexterity checks and saving throws."
+                        "A staggered creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
+                        "A staggered creature has disadvantage on Dexterity checks and saving throws."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Distracted",
+            "source": "J:General",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A distracted creature has disadvantage on Intelligence and Wisdom checks."
                     ]
                 }
             ]
@@ -2000,6 +2012,16 @@
             "wondrous": true,
             "entries": [
                 "This tin box contains up to 12 sweets when found. {@dice 2d4+1} of the sweets are light and fluffy, the rest are hard and dense. When you eat one of the light sweets, you gain the {@condition lightened|J:General} condition. When you eat one of the hard sweets, you gain the {@condition weighted|J:General} condition. Either way, the condition lasts for 1 hour or until you eat another sweet from the tin."
+            ]
+        },
+        {
+            "name": "Stink Bomb",
+            "source": "J:General",
+            "rarity": "none",
+            "type": "G",
+            "value": 500,
+            "entries": [
+                "As an action, you can throw or drop this tiny vial at a point you can see within 20 feet. Any creatures that can smell within 20 feet of the point must make a DC 15 Constitution saving throw or become {@condition distracted|J:General} for 1 hour."
             ]
         },
         {
