@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.10.17.03.50",
+                "version": "2023.10.17.04.02",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -559,7 +559,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1697514632.3225012
+        "dateLastModified": 1697516200.6412833
     },
     "condition": [
         {
@@ -2021,6 +2021,46 @@
             "value": 500,
             "entries": [
                 "As an action, you can throw or drop this tiny vial at a point you can see within 20 feet. Any creatures that can smell within 20 feet of the point must make a DC 15 Constitution saving throw or become {@condition distracted|J:General} for 1 hour."
+            ]
+        },
+        {
+            "name": "Potion of Liquid Claws",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "When you drink this metallic potion, or dip your hands in it, metal claws form on your fingers, which last for 1 hour before disintegrating. While you have these claws, your unarmed strikes are magical and deal slashing damage equal to {@dice 1d6} + your Strength modifier on a hit."
+            ]
+        },
+        {
+            "name": "Potion of Greater Liquid Claws",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "When you drink this metallic potion, or dip your hands in it, metal claws form on your fingers, which last for 1 hour before disintegrating. While you have these claws, your unarmed strikes are magical and deal slashing damage equal to {@dice 1d8} + your Strength modifier on a hit."
+            ]
+        },
+        {
+            "name": "Potion of Superior Liquid Claws",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "When you drink this metallic potion, or dip your hands in it, metal claws form on your fingers, which last for 1 hour before disintegrating. While you have these claws, your unarmed strikes are magical and deal slashing damage equal to {@dice 1d10} + your Strength modifier on a hit."
+            ]
+        },
+        {
+            "name": "Potion of Supreme Liquid Claws",
+            "source": "J:General",
+            "type": "P",
+            "rarity": "very rare",
+            "wondrous": true,
+            "entries": [
+                "When you drink this metallic potion, or dip your hands in it, metal claws form on your fingers, which last for 1 hour before disintegrating. While you have these claws, your unarmed strikes are magical and deal slashing damage equal to {@dice 1d12} + your Strength modifier on a hit."
             ]
         },
         {
