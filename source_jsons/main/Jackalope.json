@@ -51,6 +51,20 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Bleeding",
+			"source": "J:General",
+			"entries": [
+				"The creature has sustained an injury or similar effect that is causing them to lose a lot of blood or ichor. The DM might decide that a creature that does not rely on blood or ichor, such as an undead, a construct or an incorporeal elemental, is immune to this condition.",
+				{
+					"type": "list",
+					"items": [
+						"At the start of each of its turns, the creature takes slashing damage equal to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell polymorph|phb} spell, this condition continues to use the bonus at the time the condition was imposed.",
+						"The condition can be removed with a Medicine check (DC 10 + the imposing creature's Proficiency Bonus) or by magical healing."
+					]
+				}
+			]
 		}
 	],
 	"feat": [
@@ -900,6 +914,7 @@
 			"wondrous": true,
 			"weight": 4,
 			"value": 3000,
+			"rarity": "none",
 			"entries": [
 				"This book contains knowledge and instructions for body modification. If you spend 24 hours studying the book's contents (this can be done as light activity during a long rest), you can make a DC 10 Intelligence check. On a success, you gain proficiency with {@item body modder's tools|J:General}. On a fail, you must spend a further 12 hours studying the book to attempt the check again."
 			]
