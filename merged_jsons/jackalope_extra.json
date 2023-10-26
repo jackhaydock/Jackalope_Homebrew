@@ -48,7 +48,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.05.23.13.57",
+                "version": "2023.10.25.02.34",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -65,7 +65,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1697516199.679504
+        "dateLastModified": 1698283334.3281548
     },
     "race": [
         {
@@ -1196,7 +1196,19 @@
                 "Scholarly Expertise|Lorehunter (WIP)|J:Lore|1|J:Lore",
                 "Fighting Style|Lorehunter (WIP)|J:Lore|2|J:Lore",
                 "Spellcasting|Lorehunter (WIP)|J:Lore|2|J:Lore",
+                "Arcane Sense|Lorehunter (WIP)|J:Lore|3|J:Lore",
+                "Invigorating Knowledge|Lorehunter (WIP)|J:Lore|4|J:Lore",
                 "Extra Attack|Ranger|PHB|5",
+                "Careful Stride|Lorehunter (WIP)|J:Lore|6|J:Lore",
+                "Additional Expertise|Lorehunter (WIP)|J:Lore|6|J:Lore",
+                "WIP|Lorehunter (WIP)|J:Lore|10|J:Lore",
+                "WIP|Lorehunter (WIP)|J:Lore|14|J:Lore",
+                "WIP|Lorehunter (WIP)|J:Lore|18|J:Lore",
+                "WIP|Lorehunter (WIP)|J:Lore|20|J:Lore",
+                "Scholastic Society|Lorehunter (WIP)|J:Lore|3|J:Lore",
+                "Society Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
+                "Society Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
+                "Society Feature|Lorehunter (WIP)|J:Lore|15|J:Lore",
                 "Ability Score Improvement|Fighter|PHB|4",
                 "Ability Score Improvement|Fighter|PHB|8",
                 "Ability Score Improvement|Fighter|PHB|12",
@@ -2147,6 +2159,151 @@
                         "You can use an {@item arcane focus|phb} or a book as a spellcasting focus for your lorehunter spells."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Scholastic Society",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you choose an academic society from which you gained your knowledge and skills. This society may be an order that you belong to, or that you have acquired knowledge and skills from by other means, with or without their permission. Alternatively, it could be a person or figure that has taught or inspired you to pursue your search for knowledge.",
+                "Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "Arcane Sense",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you hone your senses with and for the arcane. Choose one of the following options:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notile",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Spellsense",
+                            "entries": [
+                                "As an action, you can expand a spell slot and focus your senses to search for the presence of magic. For the next 10 minutes, you can sense when a creature within 60ft of you casts a spell. You know the location the spell was cast from and the school of magic that the spell belongs to."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Arcane Mind",
+                            "entries": [
+                                "Choose a {@filter 1st-level spell from the divination school of magic and that has a range of self |spells|level=1|school=d|range=self}. You can cast the chosen spell at will, without requiring a a spell slot. When you gain a level in this class, you can change the chosen spell for a different one."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Invigorating Knowledge",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 4,
+            "entries": [
+                "Starting at 4th level, learning new things or successfully applying existing knowledge grants you an inspiring feeling of satisfaction. When you succeed on an Intelligence check, or a creature you aid with the {@action Help} action succeeds on an Intelligence check, you can gain temporary hit points equal to twice your Intelligence modifier (Minimum of 1)."
+            ]
+        },
+        {
+            "name": "Careful Stride",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, your speed is halved and you cannot take the Dash action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
+            ]
+        },
+        {
+            "name": "Additional Expertise",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 6,
+            "entries": [
+                "At 6th level, you can choose two more of your proficiencies (or specialist topics) to gain the benefit of your Scholary Expertise."
+            ]
+        },
+        {
+            "name": "Society Feature",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 7,
+            "entries": [
+                "At 7th level, you gain a feature from your Society."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "WIP",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 10,
+            "entries": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "Society Feature",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 11,
+            "entries": [
+                "At 11th level, you gain a feature from your Society."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "WIP",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 14,
+            "entries": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "Society Feature",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 15,
+            "entries": [
+                "At 15th level, you gain a feature from your Society."
+            ],
+            "gainSubclassFeature": true
+        },
+        {
+            "name": "WIP",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 18,
+            "entries": [
+                "WIP"
+            ]
+        },
+        {
+            "name": "WIP",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 20,
+            "entries": [
+                "WIP"
             ]
         },
         {
