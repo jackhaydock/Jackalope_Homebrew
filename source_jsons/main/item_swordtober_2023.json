@@ -1,0 +1,718 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+            {
+				"json": "J:Sword23",
+				"abbreviation": "J:S23",
+				"color": "f16e09",
+				"full": "Jackalope: Swordtober 2023",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+        ]
+    },
+    "item": [
+        {
+            "name": "Sword of the Amphisbaena",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+			"curse": true,
+            "entries": [
+                "This split tip scimitar features an enamel hilt depicting a coiled amphisbaena, a two-headed snake. One of the heads forms the pommel, the other rests upon the blunt side of the blade, the body forms the grip and guard of the hilt.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Once per turn, when you hit a creature using this weapon, you can attempt to command the sword to bite the target. Make a DC 12 Wisdom (Animal Handling) check. On a success, the attack deals an additional {@dice 2d6} poison damage as the snake head resting on the blade bites the target.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This sword is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. You occasionally feel compelled to feed live mice or other prey to the snake heads. In addition, when you fail the Wisdom (Animal Handling) check to make the weapon bite a creature, the snake head on the pommel bites you instead, dealing {@dice 2d6} poison damage to you."
+                    ]
+                },
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Amphisbaena}"
+            ]
+        },
+        {
+            "name": "Dagger of Despair",
+            "source": "J:Sword23",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+			"curse": true,
+            "entries": [
+                "This black glass and metal dagger is chipped and splintered, making it uncomfortable to wield and extra dangerous. The blade also appears to be crying, always slighlty dripping with cold, salty water.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Once per turn, when you hit a creature using this weapon, you can choose to take {@dice 1d8} necrotic damage, which cannot be reduced in any way. The attack then deals extra damage equal to twice the result of the roll.",
+                "Finally, when you damage an eladrin with an attack using this weapon, the DM may force the eladrin to make a Charisma saving throw (DC equals 5 + the damage dealt) or change its season to winter and have disadvantage on its next ability check or attack roll before the end of its next turn.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This dagger is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the dagger, keeping it on your person at all times. The dagger occasionaly fills you with a sense of dread and despair. In addition, whenever you finish a long rest, your Charisma score is reduced by {@dice 1d6} until the end of your next long rest."
+                    ]
+                },
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Despair}"
+            ]
+        },
+        {
+            "name": "Flail of Incarceration",
+            "source": "J:Sword23",
+            "baseItem": "flail|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This dark wood and iron flail features a pair of chained manacles in place of a ball.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "When you hit a creature with an attack using this weapon, you can use a bonus action to take the {@action Grapple} action against the target. While {@condition grappled} in this way, the target is {@condition restrained} and you cannot use the flail to attack.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Incarceration}"
+            ]
+        },
+        {
+            "name": "Ninjato of the Centipede",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This straight, single-edged blade features a centipede like design along the blunt side of the blade and the grip appears to be made of chitin.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "When you hit a creature with an attack using this weapon, you can use a bonus action to cast the {@spell infestation|phb} cantrip (DC 15) on that creature.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Centipede}"
+            ]
+        },
+        {
+            "name": "Axe of the Guillotine",
+            "source": "J:Sword23",
+            "baseItem": "greataxe|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "2H"
+            ],
+            "dmg1": "1d12",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This axe is constructed from wooden struts and a blade from a guillotine.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "When you hit a creature with an attack using this weapon, and that creature is {@condition prone} or {@condition incapacitated}, the attack deals an additional {@dice 1d12} damage.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Execution}"
+            ]
+        },
+        {
+            "name": "Axe of the Canine Master",
+            "source": "J:Sword23",
+            "baseItem": "battleaxe|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This double-bladed axe resembles a wolf head and wolf fur adorns the handle.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While you are attuned to this weapon you can verbally communicate with wolves and other canines.",
+                "Additionally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. As a bonus action, you can expend a charge to summon a {@creature dire wolf|mm} in an unoccupied space within 10 feet of you. The wolf is an ally to you and your companions. In combat, the wolf shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the {@action Dodge} action and uses its move to avoid danger. The wolf disappears if it is reduced to 0 hit points, if you summon another wolf, or at the end of the next dawn.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Canine}"
+            ]
+        },
+        {
+            "name": "Mace of the Cheese Gourmand",
+            "source": "J:Sword23",
+            "baseItem": "mace|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The head of this mace appears to be made from a wheel of cheese with a wedge cut out, and the weapon has a very strong smell, for better or worse.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon makes everyone who touches it smell of cheese for up to an hour after touching it. In addition, a creature hit with an attack using the weapon has disadvantage on their next Wisdom check or Saving throw before the end of their next turn as they are overwhelmed by the smell, good or bad. Once a creature under this effect succeeds on a Wisdom check or saving throw, they are immune to this effect until the next dawn.",
+                "Additionally, while you wield this weapon in one hand and the {@item Axe of the Cheese Gourmand|:JSword23} in the other, both weapons have the Light property and you can use them for Two Weapon Fighting, you can add your ability modifier to the damage of the second attack.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Gourmand}"
+            ]
+        },
+        {
+            "name": "Axe of the Cheese Gourmand",
+            "source": "J:Sword23",
+            "baseItem": "handaxe|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The head of this mace appears to be made from a wheel of cheese with a wedge cut out, and the weapon has a very strong smell, for better or worse.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon makes everyone who touches it smell of cheese for up to an hour after touching it. In addition, a creature hit with an attack using the weapon has disadvantage on their next Wisdom check or Saving throw before the end of their next turn as they are overwhelmed by the smell, good or bad. Once a creature under this effect succeeds on a Wisdom check or saving throw, they are immune to this effect until the next dawn.",
+                "Additionally, while you wield this weapon in one hand and the {@item Mace of the Cheese Gourmand|J:Sword23} in the other, both weapons have the Light property and you can use them for Two Weapon Fighting, you can add your ability modifier to the damage of the second attack.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Gourmand}"
+            ]
+        },
+        {
+            "name": "Rapier of the Alien",
+            "source": "J:Sword23",
+            "baseItem": "handaxe|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This rapier features the visage of a mind flayer forming the guard. The face and outer tendrils form a swept hilt protecting the wielder's hand, while the middle tendril fuses into the blade.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature with an attack using this weapon, you can expend a charge and aim for the brain, dealing an additional {@dice 2d6} psychic damage and forcing the creature to make a DC 15 Intelligence saving throw or become {@condition stunned} until the end of its next turn. If this damage reduces the creature to 0 hit points, they die as the blade consumes its brain.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Alien}"
+            ]
+        },
+        {
+            "name": "Machete of the Polpore",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This thick bladed sword is covered in mushrooms and is constantly surrounded by clouds of spores. It is believed to originate from a myconid colony.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "In addition, this weapon deals an additional 1d6 poison damage on a hit.",
+                "While holding this weapon, spore emanate from you out to a radius of 30 feet, even around corners. You can telepathically communicate with any creatures in this areas that have a Intelligence score of 2 or higher. These creatures can respond in kind.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Polypore}"
+            ]
+        },
+        {
+            "name": "Ringblade of the Veil",
+            "source": "J:Sword23",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This matrimonal ring is part of a pair. Each ring harbors a small blade that can be magically summoned or dismissed at will.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While are wearing one of these rings and within 30 feet of another creature wearing the other ring, attacks with this weapon deal an additional {@dice 1d6} damage on a hit. If you and the other creature are married to each other, this extra damage increases to 2d6. The DM decides what counts as being married within the various cultures and faiths of the world.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Veil}"
+            ]
+        },
+        {
+            "name": "Sword of the Jubilee",
+            "source": "J:Sword23",
+            "baseItem": "longsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This longsword features regal ornamentation. It was made for a long dead dynasty of monarchs, as a symbol of office.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "When you attune to this weapon for the first time, there is a single crown image on the blade. For every 5 years total you have been attuned to this weapon, the sword grows an additional image of a crown along the blade (to a maximum of 6). The material of the crown reflects the associated anniversary in the blade's region of origin, such as silver, gold and platinum. The weapon has a number of charges equal to twice the number of crowns, and regains all expended charges daily at dawn.",
+                "When you make a Charisma check or an attack with the weapon, you can expend a charge to gain a bonus to the roll equal to the number of crowns. Alternatively, when you hit with an attack using this weapon, you can expend a charge to deal additional damage equal to {@dice 1d6} for each crown.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Jubilee}"
+            ]
+        },
+        {
+            "name": "Kris of the Depths",
+            "source": "J:Sword23",
+            "baseItem": "shortsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The blade of this kris resembles a tentacle. The driftwood hilt is wrapped in seaweed. Neither the blade or hilt ever seem to fully dry.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While attuned to this weapon, you can breathe underwater, you have a swim speed equal to your walking speed and being underwater does not impose disadvantage on attacks with this weapon. In addition, if you have a creature {@condition grappled} and both of you are submerged, moving with that creature does not cost extra movement.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Depths}"
+            ]
+        },
+        {
+            "name": "Mace of the Desert Thirst",
+            "source": "J:Sword23",
+            "baseItem": "mace|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The head of this mace resembles a desert plant, such as a cactus. Despite being soft to the touch, it still makes an effective bludgeoning weapon.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Attacks with this weapon deal double damage against oozes and water elementals (the DM may allow other creatures to become affected). When you hit such a creature with an attack using this weapon, you gain {@dice 2d6} temporary hit points as the weapon absorbs moisture and life force from the creature.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Thirst}"
+            ]
+        },
+        {
+            "name": "Blade of Serenity",
+            "source": "J:Sword23",
+            "baseItem": "shortsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This glass bottle appears to contain a miniture tropical island and a calm, turquose sea. As a bonus action, or as part of an attack you make with it, you can command the water in the bottle to magically climb out of the bottle and form the shape of a blade, with the bottle as its hilt. Nearby creatures hear relaxing sounds of calm seas while the blade is drawn. You can command the water to return to the bottle with another bonus action.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon has 3 charges, and regains {@dice 1d3} charges daily at dawn. As an action you can expend a charge to cast the {@spell calm emotions|phb} spell (DC 15).",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Serenity}"
+            ]
+        },
+        {
+            "name": "Knife of Spice",
+            "source": "J:Sword23",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This red and green balisong knife resembles a chilli pepper. Food that is cut or stirred by the blade becomes spicier.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Attacks with this weapon deal an addtional {@dice 1d6} fire damage. When you score a critical hit with this weapon, the target is {@condition blinded} for 1 minute. A blinded creature can make a DC 15 Constitution saving throw to remove the condition at the end of each of its turns.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Spice}"
+            ]
+        },
+        {
+            "name": "Blades of the Cycling Sky",
+            "source": "J:Sword23",
+            "baseItem": "double-bladed scimitar|erlw",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "S",
+                "2H"
+            ],
+            "dmg1": "2d4",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This red and green balisong knife resembles a chilli pepper. Food that is cut or stirred by the blade becomes spicier.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While holding this weapon, you can cast the light cantrip on it at will. In addition, you always know the number of hours till the next dawn or dusk.",
+                "Finally, you can use this weapon to cast the {@spell sunbeam|phb} spell during the day or the {@spell moonbeam|phb} spell at night. Both spells are cast at 6th-level and with a spell save DC of 15. Once you cast either of these spells, you cannot cast that spell using this weapon again until the next dawn.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Cycle}"
+            ]
+        },
+        {
+            "name": "Sword of Tomes",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The blade and guard of this sword is made from folded pages of an ancient and magical tome. The spine of the tome is wrapped around the grip.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "In addition, you can use Intelligence in place of Strength or Dexterity for the attack and damage rolls.",
+                "Finally, you can use this weapon to cast the {@spell borrowed knowledge|phb} and {@spell legend lore|phb} spell without material components.. Once you cast either of these spells, you can not cast that spell with this weapon again until the next dawn.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Book}"
+            ]
+        },
+        {
+            "name": "Gladius of Deco",
+            "source": "J:Sword23",
+            "baseItem": "shortsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This thick, stout sword features geometric ornamentation of brass and steel.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Attacks with this weapon have advantage against objects and creatures made primarily of metal or stone. In addition, if you are a dwarf, attacks with this weapon deal an additional {@dice 1d6} damage on a hit.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Art Deco}"
+            ]
+        },
+        {
+            "name": "Sabre of the Siren",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This thin, elegant blade features a hilt shaped like a fish tail. Tapping the blade produces a satisfying high note like tuning fork.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While attuned to this weapon, you have advantage on Charisma (Performance) checks to dance or sing and being underwater does not impose disadvantage on attacks with this weapon. In addition, when you hit a creature with an attack using this weapon, and that creature is holding its breath, it begins suffocationg if it cannot breathe.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Siren}"
+            ]
+        },
+        {
+            "name": "Machete of the Leviathan",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This anceint, ornate machete features the shape of a leviathan extending from the scaled hilt onto the blade.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Being underwater does not impose disadvantage on attacks with this weapon. In addition, this weapon deals an additional {@dice 1d6} cold damage on a hit. If the target of the attack is submerged underwater, this extra damage increases to {@dice 2d6}.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Leviathan}"
+            ]
+        },
+        {
+            "name": "Knife of Ambivalance",
+            "source": "J:Sword23",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This knife appears to be half of a larger dagger, split in twain. When the dagger is brought near its other half, they refuse to touch, repelling each other with an invisible, incremental force that no mortal seems capable of overcoming.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "If you use this weapon for Two Weapon Fighting with its other half, you can add your ability modifier to the damage of the second attack.",
+                "Additionally, when you hit creature with an attack using this weapon, and you then hit the same creature with another attack using the knife's other half on the same turn, the second attack heals the target instead, including any addtional damage such as with sneak attack.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Ambivalance}"
+            ]
+        },
+        {
+            "name": "Sword of Decay",
+            "source": "J:Sword23",
+            "baseItem": "shortsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This broken and well rusted sword has decayed long past being usuable, or so it seems. Somehow, it is not only as effective as a fresh blade, but perhaps even more so.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. When you hit a creature with an attack using this weapon, you can expend a charge to force them to make a DC 15 Constituion saving throw or take {@dice 2d12} necrotic damage and become {@condition poisoned}. On a success, the creature takes half damage and is not poisoned.",
+                "While poisoned in this way, a creature repeats the saving throw at the end of each of its turns. On a fail, the creature takes {@dice 1d12} necrotic damage and remains poisoned. On a success, the creature is no longer poisoned.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Art Deco}"
+            ]
+        },
+        {
+            "name": "Sword of the Dimensions",
+            "source": "J:Sword23",
+            "baseItem": "longsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This longsword featues a small, opaque, eliptical portal embeded in the blade just above the hilt. Reaching your hand into the portal feels like dipping it into a cold whirlpool. The other side feels like nothing, a total absence of light, touch or temperature.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon has 5 charges, and recovers {@dice 1d4+1} charges daily at dawn. As a bonus action when you hit a creature with an attack using this weapon, or a reaction when a creature within 5 feet of you misses you with an attack while you are holding this weapon, you can expend a charge to cast {@spell vortex warp|scc} (DC15) on that creature.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Dimension}"
+            ]
+        },
+        {
+            "name": "Knife of Rebirth",
+            "source": "J:Sword23",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This red-orange, feather-shaped blade features a phoenix head pommel and is always warm to the touch.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Attacks with this weapon deal an additional {@dice 1d6} fire damage. In addition, if the {@spell heat metal|phb} spell is cast on this blade, you are immune to the effects.",
+                "Finally, you can use an action to stab a corpse and cast {@spell revivify} on it without requiring material components. Once you cast the spell in this way you cannot do so again until the dagger spends at least 24 hours total inside a Small or larger fire.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Rebirth}"
+            ]
+        },
+        {
+            "name": "Multiweapon of Metamorphosis",
+            "source": "J:Sword23",
+            "baseItem": "battleaxe|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This weapon is actually shapeshifting ooze, similar to a mimic, however, it will not harm its wielder...probably.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "Whenever you finish a short or long rest, this weapon shifts into a new form. Randomly determine the weapon's damage type from the following; acid, bludgeoning, piercing or slashing. The weapon's appearance changes to match the new type but none of its other statistics change.",
+                "Finally, this weapon has 5 charges, and regains {@dice 1d4+1} daily at dawn. When you hit a creature with a melee attack using this weapon, you can expend a charge to have weapon partly reveal its true form and attack the target with a bite or psuedopod, coating it in adhesive mucus. The target must make a DC 15 Strength saving throw or become {@condition} restrained for 1 minute. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Metamorphosis}"
+            ]
+        },
+        {
+            "name": "Falchion of Nouveau",
+            "source": "J:Sword23",
+            "baseItem": "scimitar|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This elegant sword features plant-like patterns and shapes. The hilt appears to be made from twisting branches or roots.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While attuned to this weapon, you are unaffected by difficult terrain caused by mundane or magical plants. In addition, if you are an elf, attacks with this weapon deal an additional {@dice 1d6} damage on a hit.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Art Nouveau}"
+            ]
+        },
+        {
+            "name": "Sword of the Jackalope",
+            "source": "J:Sword23",
+            "baseItem": "longsword|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "rarity": "artifact",
+            "bonusWeapon": "varies",
+            "reqAttune": true,
+            "entries": [
+                "This long sabre features a guard that resembles the ears and antlers of a jackalope.",
+                {
+                    "type": "entries",
+                    "name": "Dormant",
+                    "entries": [
+                        "The weapon has the following properties while in its dormant state:",
+                        {
+                            "type": "list",
+                            "style": "list-hang",
+                            "name": "",
+                            "items": [
+                                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                                "You can use Intelligence in place of Strength or Dexterity for the attack and damage rolls of this weapon.",
+                                "As an action, you can tap this blade to a piece of paper, parchment or similar writing material, and cause up to 50 words or a simple image to appear. You can create up to five simultaneous texts or images at any one time. When you create a sixth, the oldest one fades.",
+                                "You can not sleep and magic cannot put you to sleep. To gain the benefits of a long rest, you can spend 6 hours doing light activity such as writing or drawing."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awakened",
+                    "entries": [
+                        "The weapon has the following properties while in its awakened state:",
+                        {
+                            "type": "list",
+                            "style": "list-hang",
+                            "name": "",
+                            "items": [
+                                "The weapon's bonus to attack and damage rolls increases to +2.",
+                                "This weapon has 7 charges, and regains {@dice 1d6+1} charges daily at dusk. You can expend a number of charges to cast one of the following spells (DC 15), without providing material components; {@spell minor illusion|phb}, {@spell sapping sting|egw}, {@spell thunderous smite|phb}, {@spell borrowed knowledge|scc}, {@spell conjure woodland beings|phb} (jackalopes only) or {@spell legend lore|phb}. The number of charges expended equals the level the spell is cast at (0 for a cantrip). When using these spells, voices spouting unimportant but mildly interesting trivia (at least to you) can be heard as part of the spell. For example, such a voice might replace the boom of thunderous smite, or be spoken by the jackalopes summoned by conjure woodland beings."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Exhalted",
+                    "entries": [
+                        "The weapon has the following properties while in its exhalted state:",
+                        {
+                            "type": "list",
+                            "style": "list-hang",
+                            "name": "",
+                            "items": [
+                                "The weapon's bonus to attack and damage rolls increases to +3.",
+                                "Your spell DC for spells cast with this weapon increases to 17.",
+                                "The weapon now has 9 charges, and regains {@dice 1d8+1} charges daily at dusk.",
+                                "You can cast the {@spell wish|phb} spell using this weapon. Once you do so, the blade returns to its dormant state."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Special: True Master",
+                    "entries": [
+                        "If this weapon is attuned to by █████████████, it immediately enters its exhalted state. In addition, it does not return to its dormant state after casting wish."
+                    ]
+                },
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Self}"
+            ]
+        }
+    ]
+}
