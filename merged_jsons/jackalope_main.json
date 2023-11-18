@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.08.19.20.17",
+                "version": "2023.11.18.13.36",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -481,7 +481,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1699319039.778633
+        "dateLastModified": 1700314785.8555224
     },
     "condition": [
         {
@@ -8697,13 +8697,13 @@
                 "PB"
             ],
             "entries": [
-                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and it grants you a bonus to your AC equal to your proficiency bonus when you wield it, unless it is a magic shield that already grants you a higher bonus. You are proficient with the shield, and you cannot be disarmed of it against your will.",
+                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and if it uses the statistics of a shield or a buckler. You are proficient with the shield, and you cannot be disarmed of it against your will.",
                 "Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
                 "You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
             ]
         },
         {
-            "name": "Improved Pact Shield",
+            "name": "Greater Pact Shield",
             "source": "J:Shieldlock",
             "featureType": [
                 "EI"
@@ -8714,8 +8714,15 @@
                 }
             ],
             "entries": [
-                "You can use your pact shield as a spellcasting focus for your warlock spells.",
-                "Additionally, you can summon the shield to your empty hand as a reaction to being targeted by an attack. The AC bonus granted by the shield can be used against the triggering attack."
+                "Your pact shield gains the following benefits while you wield it:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The shield grants you a +1 bonus to your AC, unless it is a magic or adamantine shield that already grants you a bonus. This bonus is in addition to the shield's normal bonus to AC.",
+                        "The shield grants you a +1 bonus to your Strength, Dexterity or Constitution saving throws (your choice). Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
+                        "You can use the shield as a spellcasting focus for your warlock spells."
+                    ]
+                }
             ]
         },
         {
@@ -8730,7 +8737,31 @@
                 }
             ],
             "entries": [
-                "If a creature other than you that you can see within 30 feet is targeted by an attack roll, and you are wielding your pact shield, you can use a reaction to teleport to a space adjacent to them and add the AC boost granted by the shield to the creature's AC until the start of your next turn. This effect ends early if the creature is ever more than 5 feet away from you."
+                "When you or a creature you can see within 30 feet is targetted by an attack, you can use a reaction to add your shield's AC bonus to the target's AC against the triggering attack, provided it doesn't already include it.",
+                "If you are not wielding your pact shield, you summon to your enpty hand it as part of this reaction, ending any effects that would normally end when the shield is dismissed. Also if you are not within 5 feet of the target, you can teleport to an unoccupied space within 5 feet of them as part of this reaction."
+            ]
+        },
+        {
+            "name": "Superior Pact Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 12,
+                    "other": "Greater Pact Shield"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You can choose an additional saving throw to gain the bonus. Choose from the following list; Intelligence, Wisdom or Charisma. Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
+                        "The bonuses granted to your AC and to chosen saving throws increase to +2."
+                    ]
+                }
             ]
         },
         {
