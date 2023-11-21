@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.10.17.04.02",
+                "version": "2023.11.21.21.45",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -574,7 +574,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1700600900.403027
+        "dateLastModified": 1700603156.9091487
     },
     "condition": [
         {
@@ -2076,6 +2076,34 @@
             "wondrous": true,
             "entries": [
                 "When you drink this metallic potion, or dip your hands in it, metal claws form on your fingers, which last for 1 hour before disintegrating. While you have these claws, your unarmed strikes are magical and deal slashing damage equal to {@dice 1d12} + your Strength modifier on a hit."
+            ]
+        },
+        {
+            "name": "Intangible Cloak",
+            "source": "J:General",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "This elegant cloak appears to be real, including physical interactions with the wearer's body and billowing in the wind, however, only the brooch is real. Other creatures and objects pass harmlessly through the cloak.",
+                "To discern that the cloak is illusory without touching it, a creature can use its action to inspect its appearance and must succeed on an DC 13 Intelligence (Investigation) check."
+            ]
+        },
+        {
+            "name": "Fashionable Pipe Weed",
+            "source": "J:General",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "This self-replenishing weed can be used with a {@item pipe of smoke monsters|xge}. When you do so, the smoke monsters appear to have fancy hats and other fashionable accessories."
+            ]
+        },
+        {
+            "name": "Scroll of Terrible Toe Curse",
+            "source": "J:General",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "When you read this scroll and speak the name of a creature you are familiar with that has toes, the scroll disintigrates into dust. From then on, whenever that creature stubs its toe, it hurts twice as much."
             ]
         },
         {
