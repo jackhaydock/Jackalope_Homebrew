@@ -475,13 +475,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.11.05.22.09",
+                "version": "2023.11.21.21.05",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1700314785.8555224
+        "dateLastModified": 1700600807.8848422
     },
     "condition": [
         {
@@ -3780,7 +3780,7 @@
         {
             "name": "Rapier of the Alien",
             "source": "J:Sword23",
-            "baseItem": "handaxe|phb",
+            "baseItem": "rapier|phb",
             "type": "M",
             "weaponCategory": "martial",
             "property": [
@@ -3972,7 +3972,7 @@
                 "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
                 "While holding this weapon, you can cast the light cantrip on it at will. In addition, you always know the number of hours till the next dawn or dusk.",
                 "Finally, you can use this weapon to cast the {@spell sunbeam|phb} spell during the day or the {@spell moonbeam|phb} spell at night. Both spells are cast at 6th-level and with a spell save DC of 15. Once you cast either of these spells, you cannot cast that spell using this weapon again until the next dawn.",
-                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Cycle}"
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Cyclical}"
             ]
         },
         {
@@ -4155,6 +4155,47 @@
                 "Attacks with this weapon deal an additional {@dice 1d6} fire damage. In addition, if the {@spell heat metal|phb} spell is cast on this blade, you are immune to the effects.",
                 "Finally, you can use an action to stab a corpse and cast {@spell revivify} on it without requiring material components. Once you cast the spell in this way you cannot do so again until the dagger spends at least 24 hours total inside a Small or larger fire.",
                 "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Rebirth}"
+            ]
+        },
+        {
+            "name": "Mace of Redemption",
+            "source": "J:Sword23",
+            "baseItem": "mace|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "The head of this mace is shaped like a hand reaching out to offer assistance.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "When you reduce a creature to 0 hit points using this weapon, you incapacitate the creature rather than killing them. The creature is {@condition unconscious} and stable.",
+                "Additionally, you can use a bonus action to touch a creature that has 0 hit points and restore {@dice 3d6} hit points to them. By grasping the hand, that creature can then immediately get up from {@condition prone}, provided their speed is not 0. Once you use this bonus action on a creature, you cannot use it on that creature again until the next dawn.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Redemption}"
+            ]
+        },
+        {
+            "name": "Canesword of Igconito",
+            "source": "J:Sword23",
+            "baseItem": "rapier|phb",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "F"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "rarity": "rare",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "entries": [
+                "This elegant cane features a thin blade concealed within.",
+                "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "While the blade is sheathed inside the cane you can use a bonus action to speak the weapon's command word. Until you repeat the bonus action, the weapon appears as a normal, nonmagical cane and no means short of a {@spell wish|phb} spell can reveal the concealed blade or its magical nature.",
+                "Additionally, if you hit a surprised creature with an attack using this weapon, you deal an additional {@dice 3d6} damage. Once you deal this extra damage to a creature, you cannot do so to that creature again until the next dawn.",
+                "{@note This weapon was created as part of Swordtober 2023 based on the following prompt: Incognito}"
             ]
         },
         {
