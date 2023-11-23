@@ -208,7 +208,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.11.07.00.37",
+                "version": "2023.11.23.14.55",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -574,7 +574,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1700603156.9091487
+        "dateLastModified": 1700751354.84095
     },
     "condition": [
         {
@@ -7942,6 +7942,398 @@
                 "MW",
                 "RW",
                 "THW"
+            ]
+        },
+        {
+            "name": "Dawnhawk",
+            "source": "J:Cyranos",
+            "size": [
+                "S"
+            ],
+            "type": "celestial",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 99,
+                "formula": "18d6 + 36"
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 100
+            },
+            "str": 12,
+            "dex": 19,
+            "con": 14,
+            "int": 16,
+            "wis": 15,
+            "cha": 21,
+            "save": {
+                "dex": "+6",
+                "con": "+4",
+                "int": "+5",
+                "wis": "+4",
+                "cha": "+7"
+            },
+            "skill": {
+                "acrobatics": "+6",
+                "arcana": "+5",
+                "insight": "+4",
+                "medicine": "+4",
+                "nature": "+5",
+                "perception": "+7",
+                "religion": "+5"
+            },
+            "senses": [
+                "truesight 60 ft."
+            ],
+            "passive": 17,
+            "resist": [
+                "radiant",
+                "necrotic",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "fire"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "invisible"
+            ],
+            "languages": [
+                "Celestial (Olympian)",
+                "Cyrik (Upper)",
+                "Elbros (Higher)",
+                "Sylvan",
+                "understands Sign"
+            ],
+            "cr": "4",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The dawnhawk's innate spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell flaming fingers|J:General} (on dawnhawk's wings)",
+                        "{@spell guidance}",
+                        "{@spell purify food and drink}",
+                        "{@spell speak with animals}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell aura of life}",
+                            "{@spell explosive propulsion|J:general} (fire or radiant only)",
+                            "{@spell greater restoration}",
+                            "{@spell heal}"
+                        ],
+                        "3": [
+                            "{@spell charm person}",
+                            "{@spell cure wounds}",
+                            "{@spell daylight}",
+                            "{@spell faerie fire}",
+                            "{@spell heat metal}",
+                            "{@spell hypnotic pattern}",
+                            "{@spell scorching ray}",
+                            "{@spell tongues}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Light of the Dawn",
+                    "entries": [
+                        "The dawnhawk's feathers glow with a warm light, always shedding dim light out to 10 feet. If one of the dawnhawk's feather is plucked or shed, it continues to emit 10 feet of dim light for an hour."
+                    ]
+                },
+                {
+                    "name": "Dawn's Warmth",
+                    "entries": [
+                        "The dawnhawk and any creatures within a 5-foot radius are immune to the effects of extreme cold, and always feel comfortably warm. While in an area sheltered from the elements, such as nside a building or tent, a dawnhawk can expand the area to a 15-foot radius within the sheltered area."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The dawnhawk makes one peck attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Peck",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) fire damage."
+                    ]
+                },
+                {
+                    "name": "Blinding Ray {@recharge 5}",
+                    "entries": [
+                        "The dawnhawk can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a {@dc 15} Dexterity saving throw or take 24 ({@damage 7d6}) fire or radiant damage (dawnhawk's choice) and become {@condition blinded} until the end of the dawnhawk's next turn. On a successful save, a creature takes half damage and is not blinded."
+                    ]
+                }
+            ],
+            "environment": [
+                "any"
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "F",
+                "P",
+                "S"
+            ],
+            "damageTagsSpell": [
+                "F",
+                "Y"
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW"
+            ],
+            "conditionInflict": [
+                "blinded"
+            ],
+            "conditionInflictSpell": [
+                "charmed",
+                "incapacitated"
+            ],
+            "savingThrowForced": [
+                "dexterity"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "Duskhawk",
+            "source": "J:Cyranos",
+            "size": [
+                "S"
+            ],
+            "type": "celestial",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 99,
+                "formula": "18d6 + 36"
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 100
+            },
+            "str": 12,
+            "dex": 19,
+            "con": 14,
+            "int": 16,
+            "wis": 15,
+            "cha": 21,
+            "save": {
+                "dex": "+6",
+                "con": "+4",
+                "int": "+5",
+                "wis": "+4",
+                "cha": "+7"
+            },
+            "skill": {
+                "acrobatics": "+6",
+                "arcana": "+5",
+                "insight": "+4",
+                "nature": "+5",
+                "perception": "+7",
+                "religion": "+5",
+                "stealth": "+6"
+            },
+            "senses": [
+                "truesight 60 ft."
+            ],
+            "passive": 17,
+            "resist": [
+                "radiant",
+                "necrotic",
+                {
+                    "resist": [
+                        "bludgeoning",
+                        "piercing",
+                        "slashing"
+                    ],
+                    "note": "from nonmagical weapons",
+                    "cond": true
+                }
+            ],
+            "immune": [
+                "cold"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "languages": [
+                "Celestial (Olympian)",
+                "Cyrik (Upper)",
+                "Elbros (Higher)",
+                "Sylvan (Undersylvan)",
+                "understands Sign"
+            ],
+            "cr": "4",
+            "spellcasting": [
+                {
+                    "name": "Innate Spellcasting",
+                    "headerEntries": [
+                        "The duskhawk's innate spellcasting ability is Charisma (spell save {@dc 15}). It can innately cast the following spells, requiring no material components:"
+                    ],
+                    "will": [
+                        "{@spell guidance}",
+                        "{@spell purify food and drink}",
+                        "{@spell speak with animals}"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell explosive propulsion|J:general} (cold or radiant only)",
+                            "{@spell greater invisibility}",
+                            "{@spell greater restoration}",
+                            "{@spell shadow of moil|xge}"
+                        ],
+                        "3": [
+                            "{@spell darkness}",
+                            "{@spell darklight|J:general} (targets one of the duskhawk's feathers)",
+                            "{@spell darkvision}",
+                            "{@spell faerie fire}",
+                            "{@spell moonbeam}",
+                            "{@spell pass without trace}",
+                            "{@spell sleep}",
+                            "{@spell tongues}"
+                        ]
+                    },
+                    "ability": "cha",
+                    "type": "spellcasting"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silence of Night",
+                    "entries": [
+                        "The duskhawk's feathers unnaturally muffle sound, allowing it to fly silently, and even to muffle the sounds of those around them. It and creatures it chooses within 5 feet, have advantage on Dexterity (Stealth) checks."
+                    ]
+                },
+                {
+                    "name": "Dusk's Chill",
+                    "entries": [
+                        "The duskhawk and any creatures within a 5-foot radius are immune to the effects of extreme heat and always feel comfortably cool. While in an area sheltered from the elements, such as nside a building or tent, a duskhawk can expand the area to a 15-foot radius within the sheltered area."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The duskhawk makes one peck attack and one claw attack."
+                    ]
+                },
+                {
+                    "name": "Peck",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) cold damage."
+                    ]
+                },
+                {
+                    "name": "Blinding Ray {@recharge 5}",
+                    "entries": [
+                        "The duskhawk can fire a ray of darkness or moonlight from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a {@dc 15} Dexterity saving throw or take 24 ({@damage 7d6}) cold or radiant damage (duskhawk's choice) and become {@condition blinded} until the end of the duskhawk's next turn. On a successful save, a creature takes half damage and is not blinded."
+                    ]
+                }
+            ],
+            "environment": [
+                "any"
+            ],
+            "senseTags": [
+                "U"
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "F",
+                "P",
+                "S"
+            ],
+            "damageTagsSpell": [
+                "F",
+                "Y"
+            ],
+            "spellcastingTags": [
+                "I"
+            ],
+            "miscTags": [
+                "AOE",
+                "MW"
+            ],
+            "conditionInflict": [
+                "blinded"
+            ],
+            "conditionInflictSpell": [
+                "charmed",
+                "incapacitated"
+            ],
+            "savingThrowForced": [
+                "dexterity"
+            ],
+            "savingThrowForcedSpell": [
+                "constitution",
+                "dexterity",
+                "wisdom"
             ]
         },
         {
