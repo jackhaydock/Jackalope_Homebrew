@@ -2654,7 +2654,7 @@
 				{
 					"name": "Dawn's Warmth",
 					"entries": [
-						"The dawnhawk and any creatures within a 5-foot radius are immune to the effects of extreme cold, and always feel comfortably warm. While in an area sheltered from the elements, such as nside a building or tent, a dawnhawk can expand the area to a 15-foot radius within the sheltered area."
+						"The dawnhawk and any creatures within a 5-foot radius are immune to the effects of extreme cold, and always feel comfortably warm. While in an area sheltered from the elements, such as inside a building or tent, a dawnhawk can expand the area to a 15-foot radius within the sheltered area."
 					]
 				}
 			],
@@ -2668,13 +2668,13 @@
 				{
 					"name": "Peck",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) fire damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) fire damage."
 					]
 				},
 				{
@@ -2826,7 +2826,7 @@
 						],
 						"3": [
 							"{@spell darkness}",
-							"{@spell darklight|J:general} (targets one of the duskhawk's feathers)",
+							"{@spell darklight|J:lore} (targets one of the duskhawk's feathers)",
 							"{@spell darkvision}",
 							"{@spell faerie fire}",
 							"{@spell moonbeam}",
@@ -2843,13 +2843,13 @@
 				{
 					"name": "Silence of Night",
 					"entries": [
-						"The duskhawk's feathers unnaturally muffle sound, allowing it to fly silently, and even to muffle the sounds of those around them. It and creatures it chooses within 5 feet, have advantage on Dexterity (Stealth) checks."
+						"The duskhawk's feathers unnaturally muffle sound, allowing it to move silently, and even to muffle the sounds of those around them. It and creatures it chooses within 5 feet, have advantage on Dexterity (Stealth) checks."
 					]
 				},
 				{
 					"name": "Dusk's Chill",
 					"entries": [
-						"The duskhawk and any creatures within a 5-foot radius are immune to the effects of extreme heat and always feel comfortably cool. While in an area sheltered from the elements, such as nside a building or tent, a duskhawk can expand the area to a 15-foot radius within the sheltered area."
+						"The duskhawk and any creatures within a 5-foot radius are immune to the effects of extreme heat and always feel comfortably cool. While in an area sheltered from the elements, such as inside a building or tent, a duskhawk can expand the area to a 15-foot radius within the sheltered area."
 					]
 				}
 			],
@@ -2863,13 +2863,13 @@
 				{
 					"name": "Peck",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) piercing damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) piercing damage."
 					]
 				},
 				{
 					"name": "Claw",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) cold damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) slashing damage and 5 ({@damage 1d8}) cold damage."
 					]
 				},
 				{
