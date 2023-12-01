@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.11.21.21.45",
+                "version": "2023.12.01.07.32",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -574,7 +574,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1700797322.5540023
+        "dateLastModified": 1701415974.57088
     },
     "condition": [
         {
@@ -2104,6 +2104,33 @@
             "wondrous": true,
             "entries": [
                 "When you read this scroll and speak the name of a creature you are familiar with that has toes, the scroll disintigrates into dust. From then on, whenever that creature stubs its toe, it hurts twice as much."
+            ]
+        },
+        {
+            "name": "Switchblade",
+            "source": "J:General",
+            "baseItem": "dagger|phb",
+            "type": "M",
+            "weaponCategory": "simple",
+            "property": [
+                "F",
+                "L",
+                "T"
+            ],
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "range": "20/60",
+            "rarity": "uncommon, rare as a pair",
+            "bonusWeapon": "2",
+            "reqAttune": true,
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4+1}",
+            "entries": [
+                "This dagger is part of a pair (your DM decides if each dagger has a specific partner or can pair with any other switchblade).",
+                "If you possess only one dagger, it does not require attunement and you have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "If you possess both daggers, you can attune to them. The daggers count as one item for the purposes of attunement. While attuned, the bonus to attack and damage rolls increases to +2. In addition, you can summon one of the daggers to your empty hand with a bonus action or as part of an attack you make with it.",
+                "Finally, these daggers collectively have 5 charges, and regain {@dice 1d4+1} charges daily at dawn. When you hit a creature or object with an attack using one of these daggers while holding the other one, you can spend a charge to swap spaces with the target. If the target is an object that Large or larger, you appear in the nearest unoccupied space to the target instead of swapping."
             ]
         },
         {
