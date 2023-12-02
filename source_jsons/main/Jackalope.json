@@ -97,6 +97,30 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Taunted",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A taunted creature has disadvantage on attack rolls against targets other than the one that taunted it. If the the creature is taunted by multiple targets it has disadvantage against all of them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Silenced",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A silenced creature cannot speak or cast spells with verbal components."
+					]
+				}
+			]
 		}
 	],
 	"feat": [
@@ -1352,7 +1376,16 @@
                 "If you possess both switchblades, you can attune to them. The switchblades count as one item for the purposes of attunement. While attuned, the bonus to attack and damage rolls increases to +2. In addition, you can summon one of the switchblades to your empty hand with a bonus action or as part of an attack you make with it.",
                 "Finally, these switchblades collectively have 5 charges, and regains {@dice 1d4+1} charges daily at dawn. When you hit a creature or object with an attack using one of these switchblades while holding the other one, you can spend a charge to swap spaces with the target. If the target is an object that Large or larger, you appear in the nearest unoccupied space to the target instead of swapping."
             ]
-        }					
+        },
+		{
+			"name": "Little Book of Insults",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can open this book to a random page and it'll magically provide the perfect insult for a target you can see within 30ft and that can hear and understand you. You then hurl the insult at the creature and it must make a Wisdom saving throw (DC 13) or take {@dice 2d6} psychic damage and become {@condition taunted|J:general} by you for 1 minute or until it is damaged by a creature other than you. On a successful save, a creature takes half damage and is not taunted."
+			]
+		}					
 	],
 	"monster": [
 		{
@@ -3914,7 +3947,7 @@
 				}
 			],
 			"entries": [
-				"The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be silenced until the spell ends. While silenced, the creature cannot speak or cast spells with verbal components."
+				"The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be {@condition silenced|j:general} until the spell ends."
 			],
 			"classes": {
 				"fromClassList": [
@@ -4308,6 +4341,50 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Twisted Words",
+			"source": "J:General",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you hear a creature speak."
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"m": "a pair of crossed wires"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You twist and poison the words spoken by the the triggering creature. Choose another creature you can see within range and that can hear and understand the original message, that creature must make a Wisdom saving throw or instead hear a string of insults and become {@condition taunted|J:General} by the creature that spoke the triggering words for the spell's duration.",
+				"The taunted creature becomes hostile to the creature that spoke. A creature prone to violence might attack. Another creature might seek retribution in other ways (at the DM's discretion), depending on the relationship and nature of interactions prior to this spell being cast."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
 					}
 				]
 			}
