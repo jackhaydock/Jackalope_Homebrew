@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.12.03.11.19",
+                "version": "2023.12.03.11.26",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -481,7 +481,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1701602353.5645437
+        "dateLastModified": 1701602862.6600757
     },
     "condition": [
         {
@@ -14174,7 +14174,13 @@
                         "source": "PHB"
                     }
                 ]
-            }
+            },
+            "damageInflict": [
+                "psychic"
+            ],
+            "conditionInflict": [
+                "taunted|j:general"
+            ]
         },
         {
             "name": "Switch",
