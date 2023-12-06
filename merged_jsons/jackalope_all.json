@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.12.03.11.26",
+                "version": "2023.12.06.18.55",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -574,7 +574,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1701602863.9840775
+        "dateLastModified": 1701888951.9202116
     },
     "condition": [
         {
@@ -648,7 +648,8 @@
                 {
                     "type": "list",
                     "items": [
-                        "A distracted creature has disadvantage on Intelligence and Wisdom checks."
+                        "A distracted creature has disadvantage on Intelligence and Wisdom checks.",
+                        "A distracted creature has disadvantage on saving throws mad eto maintain concentration on a spell."
                     ]
                 }
             ]
@@ -2059,7 +2060,7 @@
             "type": "G",
             "value": 500,
             "entries": [
-                "As an action, you can throw or drop this tiny vial at a point you can see within 20 feet. Any creatures that can smell within 20 feet of the point must make a DC 15 Constitution saving throw or become {@condition distracted|J:General} for 1 hour."
+                "As an action, you can throw or drop this tiny vial at a point you can see within 20 feet. Any creatures that can smell within 20 feet of the point must make a DC 15 Constitution saving throw or become {@condition distracted|J:General} for 1 hour. Whenever a distracted creature takes damage, they can repeat the saving throw, removing the condition early on a success."
             ]
         },
         {
