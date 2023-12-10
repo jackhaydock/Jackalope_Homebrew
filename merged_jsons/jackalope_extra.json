@@ -9,7 +9,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.12.10.17.18",
+                "version": "2023.12.10.17.25",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -65,7 +65,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1702228721.235065
+        "dateLastModified": 1702229145.3218544
     },
     "race": [
         {
@@ -780,7 +780,7 @@
                 {
                     "name": "Signature Attack (Longbow)",
                     "entries": [
-                        "{@atk rw} {@hit 3 plus PB} to hit, range 150/600 ft., one target. {@h}{@damage 1d10 plus PB} piercing damage.",
+                        "{@atk rw} {@hit 3 plus PB} to hit, range 150/600 ft., one target. {@h}{@damage 1d8 plus PB} piercing damage.",
                         "Beginning at 7th level, bomber can make this attack twice, instead of once, when they take the Attack action on their turn."
                     ]
                 },
