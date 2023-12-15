@@ -48,7 +48,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.10.26.04.50",
+                "version": "2023.12.15.16.17",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -65,7 +65,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1702229145.3218544
+        "dateLastModified": 1702657076.1604898
     },
     "race": [
         {
@@ -3091,6 +3091,63 @@
                     {
                         "name": "Lorehunter (WIP)",
                         "source": "J:Lore"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Stagger/Sunder",
+            "source": "J:Lore",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a small hammer and punch"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You find and highlight weaknesses in the defences of a creature you can see within range. That creature must make a Wisdom saving throw or become {@condition staggered|J:general} or {@condition sundered|J:general} (your choice) for the spell's duration. A creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell at 3rd-level or higher, you can target an additional creature for every level above 2nd-level."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
                     }
                 ]
             }
