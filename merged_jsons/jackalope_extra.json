@@ -48,7 +48,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.12.15.16.17",
+                "version": "2023.12.15.17.09",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -65,7 +65,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1702657076.1604898
+        "dateLastModified": 1702660175.1272862
     },
     "race": [
         {
@@ -2850,6 +2850,229 @@
             "gainSubclassFeature": true
         }
     ],
+    "subclass": [
+        {
+            "name": "Antiquarian",
+            "shortName": "Antiquarian",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "distort value|ai",
+                            "identify|phb",
+                            "mending|phb"
+                        ],
+                        "5": [
+                            "speak with documents|J:lore",
+                            "stagger/sunder|J:lore"
+                        ],
+                        "9": [
+                            "explosive excavation|J:lore",
+                            "remove curse|phb"
+                        ],
+                        "13": [
+                            "leomund's secret chest|phb",
+                            "summon construct|tce"
+                        ],
+                        "17": [
+                            "animate objects|phb",
+                            "legend lore|xge"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                [
+                    {
+                        "name": "Antiquarian",
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Antiquarian",
+                        "subclassSource": "J:Lore",
+                        "level": 3,
+                        "header": 1,
+                        "entries": [
+                            "Antiques are some of the best ways to learn about the past. These objects can tell you much about the economics, culture and technology of particular regions and time periods. Such object can also gradualy gather faint magical energies throughout their long years, undetectable to most, but not all.",
+                            "Antiquarian societies specialize in cataloguing and preserving items of historical or cultural importance. While this often involves carefully cleaning and storing such items, it can also mean continuing to use them, honoring their purpose while still preserving their form and history. Antiquarian lorehunters can weave the residual magic of these objects into offensive and defensive wards, protecting the item itself as well as those using them.",
+                            {
+                                "name": "Antiquarian Spells",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Antiquarian Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Antiquarian Spells",
+                                        "colLabels": [
+                                            "Lorehunter Level",
+                                            "Spell"
+                                        ],
+                                        "colStyles": [
+                                            "col-2 text-center",
+                                            "col-10"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "3rd",
+                                                "{@spell distort value|ai}, {@spell identify|phb}"
+                                            ],
+                                            [
+                                                "5th",
+                                                "{@spell speak with documents|j:lore}, {@spell stagger/sunder|j:lore}"
+                                            ],
+                                            [
+                                                "9th",
+                                                "{@spell explosive excavation|j:lore}, {@spell remove curse|phb}"
+                                            ],
+                                            [
+                                                "13th",
+                                                "{@spell leomund's secret chest|phb}, {@spell summon construct|tce}"
+                                            ],
+                                            [
+                                                "17th",
+                                                "{@spell animate objects|phb}, {@spell legend lore}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Useful Antiques",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "Starting at 3rd level, you can spend 10 mins touching an item that can be worn or that can be held in one hand. You concentrate residual magical energies surrounding it, making it both more effective and more durable. The item becomes magical if it wasn't already and you can use it as a spellcasting focus for your lorehunter spells. In addition, the item gains additional effects based on it type, as described below.",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            "{@b {@i A document, figurine or similar ceremonial item (WIP).}} The item grants a +1 bonus to ability checks in which it is relevent, such as recalling associated lore or convincing someone of its legitimacy. In addition, when a creature holding the item makes an ability check that would benefit from this bonus, it can also use your Intelligence modifier in place of the normal ability modifer used for the check.",
+                                            "{@b {@i A set of armor or a shield.}} The armor or shield grants a +1 bonus to the wearer's Armor Class, unless it already provides the same bonus or higher. In addition, if the armour would normally allow the wearer to add its Dexterity modifer to its Armor Class, it can instead add your Intelligence modifer.",
+                                            "{@b {@i A set of tools or artisan tools.}} The tools grant a +1 bonus to ability checks made with them, unless they already provides the same bonus or higher. In addition, when a creature uses these tools to make an ability check, it can use your Intelligence modifier in place of the normal ability modifier for the check.",
+                                            "{@b {@i A spellcasting focus (WIP).}} The focus grants a +1 bonus to spell attack rolls made using it, unless it already provides the same bonus or higher. In addition, when a creature makes a spell attack using this focus, it can use your Intelligence modifier in place of its normal ability modifier.",
+                                            "{@b {@i A weapon (WIP).}} The weapon grants a +1 bonus to attack and damage rolls made using it, unless it already provides the same bonus or higher. In addition, when attacking with the weapon a creature can use your Intelligence modifer in place of its Strength or Dexterity modifer for the attack and damage rolls"
+                                        ]
+                                    },
+                                    "Sometimes an item may have enough historical, cultural or political significance to be considered an antique. The DM decides if an item is an antique. Items that are; several centuries old, were used by famous historical figures, or were used in legendary events can usually be considered antiques. The +1 bonuses described above increase to +2 if the item is an antique.",
+                                    "You can have up to two items enhanced in this way at any one time. If you attempt to use this feature on a third, the oldest effect ends. The effect is also removed if you remove it with another 10 minute ritual or if you die."
+                                ]
+                            },
+                            {
+                                "name": "Conservation Arcana",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "At 3rd level, you know the {@spell mending|phb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it. When you cast this cantrip, you can also clear rust from metal objects and restore faded color to dyed and painted objects.",
+                                    "You can cast the cantrip as normal, and you can also cast it as an action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Antiquarian",
+                        "subclassSource": "J:Lore",
+                        "level": 7,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Arcane Antiques",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 7,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a bonus action, you can expend a spell slot for one of the following effects, targeting one oof the items enhanced by your Useful Antiques feature.",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            "{@b {@i Archivist's Preservation.}} A creature that is holding or wearing the targeted item gains temporary hit points equal to six times the level of the spell slot expended. A creature loses these temporary hit points if it is ever more than 5 feet from the item for more than one minute.",
+                                            "{@b {@i Historian's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike using the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Antiquarian",
+                        "subclassSource": "J:Lore",
+                        "level": 11,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Useful Antiques Collection",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 11,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 11th level, when you use your Useful Antiques feature you can have up to four enhanced items simultaneously, instead of just two.",
+                                    "When you use your Arcane Antiques feature, you can target two items using the same spell slot, granting the same effect to both items."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Antiquarian",
+                        "subclassSource": "J:Lore",
+                        "level": 15,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Resourceful Artifacts",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 15,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 15th level, you ignore all class, race, and level requirements on the use of magic items.",
+                                    "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
+        }
+    ],
     "spell": [
         {
             "name": "Darklight",
@@ -3124,7 +3347,8 @@
                     "duration": {
                         "type": "minute",
                         "amount": 1
-                    }
+                    },
+                    "concentration": true
                 }
             ],
             "entries": [
