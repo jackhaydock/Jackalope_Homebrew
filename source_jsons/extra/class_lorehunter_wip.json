@@ -928,6 +928,252 @@
                     }
                 ]
             ]
+        },
+        {
+            "name": "Palaeontologist",
+            "shortName": "Palaeontologist",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "speak with animals|phb",
+                            "find familiar|phb"  
+                        ],
+                        "5": [
+                            "animate dead|phb"
+                        ],
+                        "9": [
+                            "conjure animals|phb",
+                            "speak with dead|phb"
+                        ],
+                        "13": [
+                            "danse macabre|phb"
+                        ],
+                        "17": [
+                            "raise dead|phb"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                [
+                    {
+                        "name": "Palaeontologist",
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Palaeontologist",
+                        "subclassSource": "J:Lore",
+                        "level": 3,
+                        "header": 1,
+                        "entries": [
+                            "WIP",
+                            {
+                                "name": "Palaeontologist Spells",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Palaeontologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Palaeontologist Spells",
+                                        "colLabels": [
+                                            "Lorehunter Level",
+                                            "Spell"
+                                        ],
+                                        "colStyles": [
+                                            "col-2 text-center",
+                                            "col-10"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "3rd",
+                                                "{@spell speak with animals|phb}, {@spell find familiar|phb} (appears as undead)"
+                                            ],
+                                            [
+                                                "5th",
+                                                "{@spell animate dead|phb}, WIP"
+                                            ],
+                                            [
+                                                "9th",
+                                                "{@spell conjure animals|phb} (appear as undead rather than fey), {@spell speak with dead|phb}"
+                                            ],
+                                            [
+                                                "13th",
+                                                "{@spell danse macabre|phb}, WIP"
+                                            ],
+                                            [
+                                                "17th",
+                                                "{@spell raise dead|phb}, WIP"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Adept Archaeologist",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you have advantage on any ability checks you make to disarm traps or to carefully extract items from loose earth without damaging them."
+                                ]
+                            },
+                            {
+                                "name": "Ancient Bones",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "At 3rd level, you can use an action to summon the spirit of a long dead beast to an unoccupied space you can see within 30ft of you.",
+                                    "When you summon the beast, you choose its size and its stat block; Undead Bulker (WIP), Undead Prowler (WIP) or Undead Soarer (WIP) which uses your proficiency bonus (PB) in several places. You also determine the appearance of the beast, choosing a form appropriate for its stat block. You can choose to summon an aquatic creature instead of one from the land. In which case, its walking speed becomes 5 feet and it gains a swim speed equal to its previous walking speed.",
+                                    "Alternatively, you can choose a beast with a CR of 1 or lower that has the dinosaur tag (your DM might allow other similar creatures). The creature appears as undead rather than beast, is immune to poison and necrotic damage and is also immune to the poisoned and charmed conditions. The creature shares your proficiency bonus and understands any languages you know but does not speak. The maximum CR of the creature you summon increases by 1 when you reach 5th level (CR 2), 11th level (CR 3) and 17th level (CR 4) in this class.",
+                                    "The creature shares your initiative count in combat and will obey any verbal commands you give it (no action required by you). If you issue no commands on a turn it will defend itself and follow you but takes other actions. The creature remains for 1 hour after which it crumbles to dust, unless you expend another use of this feature, or a spell slot of 2nd-level or higher, to extend it by another hour. The creature crumbles early if it is reduced to 0 hit points, or if you use this feature again.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again."
+                                ]
+                            },
+                            {
+                                "name": "Fossilised Arcana",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "entries": [
+                                    "At 3rd level, you learn the {@spell magic stone|phb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "When you cast the spell, you can target up to five tiny bones, teeth or fossils rather than pebbles. When an attack hits with one of these items, you can choose to have it deal necrotic or piercing damage (your choice), rather than bludgeoning. In addition, when an attack with it hits or misses, an item flys to your hand or feet before the spell ends on it."
+                                ]
+                            },
+                            {
+                                "name": "Unearthing Arcana",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "isClassFeatureVariant": true,
+                                "entries": [
+                                    "{@i Optional feature which replaces Fossilised Arcana}",
+                                    "At 3rd level, you learn the {@spell mold earth|phb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "When you cast the spell, you can do one of the normal effects, or you can detect the presence of fossils or deceased animal matter, such as bones, teeth or shells, within a 10-foot cube of earth or stone (you must be able to see the entirety of at least one side of the cube). You know the location and approximate size of such items within the area, but do not learn the type or identity of the creature it originated from."
+                                ]
+                            }
+                        ]
+
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Palaeontologist",
+                        "subclassSource": "J:Lore",
+                        "level": 7,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Calcified Bones",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 7,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 7th level, a creature you summon with your Ancient Bones (or Ancient King) feature has resistance to bludgeoning, piercing and slashing damage as its bones become as hard as stone.",
+                                    "In addition, the creature's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+                                ]
+                            },
+                            {
+                                "name": "Fossilised Flesh",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 7,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 7th level, you can use an action to begin turning the flesh and bone of a creature you can see within 30 feet into stone. The creature must make a Constitution saving throw against your lorehunter spell save DC or become fossilised for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. A creature made of inorganic material such as stone, crystal, or metal has advantage on this saving throw.",
+                                    "A fossilised creature's speed is halved, it has a -2 penalty to its Armor Class and dexterity saving throws. On its turn, it can take one action or one bonus action, not both. The creature cannot take the Dash or Dodge action. A creature summoned by your Ancient Bones feature deals an additional 1d8 damage with attacks against the fossiled creature.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                                ]
+                            }
+                        ]                        
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Palaeontologist",
+                        "subclassSource": "J:Lore",
+                        "level": 11,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "WIP",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 11,
+                                "header": 2,
+                                "entries": [
+                                    "WIP"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Palaeontologist",
+                        "subclassSource": "J:Lore",
+                        "level": 15,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Ancient King",
+                                "source": "J:Lore",
+                                "className": "Lorehunter (WIP)",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Palaeontologist",
+                                "subclassSource": "J:Lore",
+                                "level": 15,
+                                "header": 2,
+                                "entries": [
+                                    "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon a tyrannosaurus rex, otherwise following the same rules and benefits of that feature. You cannot use spell slots to summon the tyrannosaurus rex or extend its duration.",
+                                    "The tyrannosaurus obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the tyrannosaurus at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the tyrannosaurus and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the tyrannosaurus. It spends its remaining turns pursuing and attacking any nearby creatures.",
+                                    "Once you use this feature, you cannot do so again until you finish a short or long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
         }
     ],
     "spell": [
