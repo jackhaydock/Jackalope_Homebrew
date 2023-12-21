@@ -108,6 +108,14 @@
 					"items": [
 						"A taunted creature has disadvantage on attack rolls against targets other than the one that taunted it. If the the creature is taunted by multiple targets it has disadvantage against all of them."
 					]
+				},
+				{
+					"type": "inset",
+					"name": "Using this condition in game",
+					"entries": [
+						"Some spells and effects within the game already impose similar effects, such as the Compelled Duel spell. The DM is free to replace such effects with this condition.",
+						"The DM is also free to grant certain creature special traits relating to the condition as they deem appropriate. For example, a creature may have advantage or disadvantage on saving throws against it, or even be immune to the condition"
+					]
 				}
 			]
 		},
@@ -119,6 +127,55 @@
 					"type": "list",
 					"items": [
 						"A silenced creature cannot speak or cast spells with verbal components."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Using this condition in game",
+					"entries": [
+						"Some spells and effects within the game already impose similar effects, such as the Silence spell. The DM is free to replace such effects with this condition.",
+						"The DM is also free to grant certain creature special traits relating to the condition as they deem appropriate. For example, a creature may have advantage or disadvantage on saving throws against it, or even be immune to the condition"
+					]
+				}
+			]
+		},
+		{
+			"name": "Hampered",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A hampered creature has its speed reduced by 10 feet. Sometimes an effect may only hamper certain speeds, otherwise the condition reduces all speeds",
+						"This condition can be imposed multiple times simultaneously, combining the reduction, but only once from each source."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Using this condition in game",
+					"entries": [
+						"Some spells and effects within the game already impose similar effects, such as the Lance of Lethergy invocation. The DM is free to replace such effects with this condition.",
+						"The DM is also free to grant certain creature special traits relating to the condition as they deem appropriate. For example, a creature may have advantage or disadvantage on saving throws against it, might increase or decrease the reduction to 5 feet, or even be immune to the condition"
+					]
+				}
+			]
+		},
+		{
+			"name": "Slowed",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A slowed creature's speed is halved."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Using this condition in game",
+					"entries": [
+						"Some spells and effects within the game already impose similar effects, such as the Slow spell. The DM is free to replace such effects with this condition.",
+						"The DM is also free to grant certain creature special traits relating to the condition as they deem appropriate. For example, a creature may have advantage or disadvantage on saving throws against it, might instead gain the {@condition hampered|J:general} condition, or even be immune to the condition"
 					]
 				}
 			]
