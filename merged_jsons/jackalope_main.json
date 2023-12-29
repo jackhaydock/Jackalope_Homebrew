@@ -478,10 +478,25 @@
                 "version": "2023.12.19.20.45",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Comps",
+                "abbreviation": "J:Comps",
+                "color": "37680f",
+                "full": "Jackalope: Companions",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2023.12.29.05.33",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1703196030.5106516
+        "dateLastModified": 1703828113.1649654
     },
     "condition": [
         {
@@ -8776,6 +8791,212 @@
                     "While called duskhawks, they come in many bird like shapes, from owls to falcons and even many that do not appear in the mortal realm."
                 ]
             }
+        },
+        {
+            "name": "Giant Hare Companion",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "beast",
+                "tags": [
+                    "Companion"
+                ]
+            },
+            "source": "J:Comps",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "13 plus PB (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "7 + 7 times caregiver's level (the hare has a number of d8 Hit Dice equal to their caregiver's level)"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 5,
+            "wis": 12,
+            "cha": 10,
+            "page": 18,
+            "save": {
+                "str": "+1 plus PB",
+                "dex": "+3 plus PB"
+            },
+            "skill": {
+                "acrobatics": "+3 plus PB",
+                "perception": "+1 plus PB",
+                "stealth": "+3 plus PB"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": "11 plus PB",
+            "pbNote": "equals the caregiver's bonus",
+            "damageTags": [
+                "P"
+            ],
+            "trait": [
+                {
+                    "name": "Leporine Leaps",
+                    "entries": [
+                        "The hare's long jump is up to 20 feet and their high jump is up to 10 feet, with or without a running start."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Kick (Signature Attack)",
+                    "entries": [
+                        "{@atk mw} {@hit +3+PB|+3 plus PB} to hit, reach 5 ft., one target, {@h} {@damage 1d6+PB|1d6 plus PB} bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "3rd Level: Backkick (5 Ferocity)",
+                    "entries": [
+                        "The hare makes a signature attack against a creature that is Medium or smaller. On a hit, the attack deals an extra PB damage, and both the hare and the target are pushed up to 5 feet away from each other. The target must also succeed on a DC 10 plus PB Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "5th Level: Ricochet Rabbit (8 Ferocity)",
+                    "entries": [
+                        "The hare makes a signature attack against up to PB creatures as it leaps between them without provoking opportunity attacks. The first creature must be within 5 feet of the hare, and each subsequent creature must be within 20 feet of the previous creature attacked. The hare then ends this action within 5 feet of the final creature attacked."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "1st Level: Bunny Hop (2 Ferocity)",
+                    "entries": [
+                        "The hare jumps up to twice its jump distance without triggering opportunity attacks."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Mystic Connection",
+                    "entries": [
+                        "As a bonus action, you can leap up to 20 feet without provoking opportunity attacks. You can use this benefit a number of times equal to your Wisdom modifier (minimum once), regaining all uses when you finish a long rest."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Giant Jackalope Companion",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "beast",
+                "tags": [
+                    "Companion"
+                ]
+            },
+            "source": "J:Comps",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "13 plus PB (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "7 + 7 times caregiver's level (the jackalope has a number of d8 Hit Dice equal to their caregiver's level)"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 10,
+            "int": 5,
+            "wis": 12,
+            "cha": 14,
+            "page": 18,
+            "save": {
+                "str": "+1 plus PB",
+                "dex": "+3 plus PB"
+            },
+            "skill": {
+                "acrobatics": "+3 plus PB",
+                "perception": "+1 plus PB",
+                "deception": "+2 plus PB"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": "11 plus PB",
+            "pbNote": "equals the caregiver's bonus",
+            "damageTags": [
+                "P"
+            ],
+            "trait": [
+                {
+                    "name": "Leporine Leaps",
+                    "entries": [
+                        "The jackalope's long jump is up to 20 feet and their high jump is up to 10 feet, with or without a running start."
+                    ]
+                },
+                {
+                    "name": "Mimicry",
+                    "entries": [
+                        "The jackalope can mimic the sounds of voices. A creature that hears the sounds can tell they are imitations with a successful DC 10 + PB Wisdom (Insight) check."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Antlers (Signature Attack)",
+                    "entries": [
+                        "{@atk mw} {@hit +3+PB|+3 plus PB} to hit, reach 5 ft., one target, {@h} {@damage 1d6+PB|1d6 plus PB} bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "3rd Level: Ventriloquy (5 Ferocity)",
+                    "entries": [
+                        "The jackalope uses its Mimicry trait and can make the sound appear to originate from a point it chooses within 30 feet. The jackalope can also choose a creature that hears the voice, that creature must succeed on a DC 10 plus PB Wisdom saving throw or become @{condition distracted:J:general} until the end of the jackalope's next turn."
+                    ]
+                },
+                {
+                    "name": "5th Level: Trickster's Voice (8 Ferocity)",
+                    "entries": [
+                        "The jackalope chooses up to PB creatures it can see within 30 feet and that can hear the jackalope. Each creature must succeed on a DC 10 plus PB Wisdom saving throw or be {@condition charmed} by the jackalope until the end of the jackalope's next turn. The jackalope and its caregiver have advantage on attack rolls against a creature charmed in this way. If a creature charmed in this way takes damage or if someone else uses an action to shake the creature out of their stupor, the condition ends on that creature."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "1st Level: Bunny Hop (2 Ferocity)",
+                    "entries": [
+                        "The jackalope jumps up to twice its jump distance without triggering opportunity attacks."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Mystic Connection",
+                    "entries": [
+                        "You have advantage on Charisma checks to disguise your voice. In addition, you can use a bonus action to make you voice appear to originate from a point you choose within 30 feet. You can use this bonus action a number of times equal to your Wisdom modifier (minimum once), regaining all uses when you finish a long rest."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
+            ]
         }
     ],
     "optionalfeature": [
