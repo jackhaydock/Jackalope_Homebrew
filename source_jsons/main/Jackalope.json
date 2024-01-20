@@ -394,6 +394,26 @@
 					"cook's utensils": true
 				}
 			]
+		},
+		{
+			"name": "Actor (Revised)",
+			"source": "PHB",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"Skilled at mimicry and dramatics, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks when trying to pass yourself off as a different person.",
+						"You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check allows a listener to determine that the effect is faked.",
+						"You can attempt to {@action Hide} in a crowded area, such as a markeplace or tavern. When you do so, you can choose to make a Charisma (Deception or Stealth) check in place of Dexterity (Stealth). As normal, you cannot hide from a creature if it can clearly see you, however, once you are hidden, being visible does not necessarily reveal your location so long as you act as part of the normal crowd."
+					]
+				}
+			]
 		}
 	],
 	"item": [
