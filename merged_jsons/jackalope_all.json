@@ -418,7 +418,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.01.20.15.12",
+                "version": "2024.01.20.15.31",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -475,7 +475,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.01.20.14.51",
+                "version": "2024.01.20.15.35",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1705763569.9519508
+        "dateLastModified": 1705764931.0135522
     },
     "class": [
         {
@@ -3865,12 +3865,6 @@
             "savingThrow": [
                 "strength"
             ],
-            "races": [
-                {
-                    "name": "Eldritch Cannon",
-                    "source": "Jackalope"
-                }
-            ],
             "classes": {
                 "fromClassList": [
                     {
@@ -3878,7 +3872,13 @@
                         "source": "TCE"
                     }
                 ]
-            }
+            },
+            "races": [
+                {
+                    "name": "Awakened Cannon",
+                    "source": "J:General"
+                }
+            ]
         },
         {
             "name": "Boomerang Blade",
@@ -25460,7 +25460,7 @@
             "alias": [
                 "Penquinfolk"
             ],
-            "source": "J:Wilspace",
+            "source": "J:Wildspace",
             "lineage": "VRGR",
             "creatureTypes": [
                 "fey"
