@@ -4424,64 +4424,62 @@
 			}
 		},
 		{
-			"name": "Twisted Words",
+			"name": "Overwatch",
 			"source": "J:General",
-			"level": 1,
-			"school": "E",
+			"level": 2,
+			"school": "A",
 			"time": [
 				{
 					"number": 1,
-					"unit": "reaction",
-					"condition": "which you take when you hear a creature within range speak."
+					"unit": "action"
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 30
+					"amount": 60
 				}
 			},
 			"components": {
-				"m": "a pair of crossed wires"
+				"s": true,
+				"m": "fine wire shaped into a cross or a set of glass lenses"
 			},
 			"duration": [
 				{
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 10
 					}
 				}
 			],
 			"entries": [
-				"You twist and poison the words spoken by the the triggering creature. Choose another creature you can see within range and that can hear and understand the original message, the first creature has disadvantage on checks to interact socially with the second creature for the spell's duration.",
-				"In addition, when you cast this spell, you can force the second creature to make a Wisdom saving throw. On a fail, they are {@condition taunted|J:General} by the first creature for the spell's duration. A taunted creature also becomes hostile to the taunter. A creature prone to violence might attack. Another creature might seek retribution in other ways (at the DM's discretion), depending on the relationship and nature of interactions prior to this spell being cast.",
-				"The spell ends early if you dismiss it as a bonus action or if a creature other than the first creature damages the second creature or casts another harmful spell on it."
+				"You choose a 15-foot cube centered on a point you can see within range. You can use a subsequent action on each of your turns to move the area to another point you can see within range.",
+				"Until the spell ends, whenever a creature enters the area for the first time on a turn or starts it turn there, you can take a special opportunity attack against them using a ranged weapon or a weapon with the thrown property. This attack does not require a reaction, however, you must be able to see the creature and must not be {@condition incapacitated}. On a hit, the attack deals an additional {@dice 1d6} force damage.",
+				"The spell ends early once you make four attacks as part of this spell or if you end your turn without being able to see the area."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell at 2nd-level or higher, you can choose to deal {@dice 1d8} psychic damage for each spell level above 1st to a creature that fails the saving throw. A creature takes half damage on a success. The DM might decide that this damage makes a taunted creature more likely to seek retribution."
+						"When you cast this spell using a spell slot of 3rd level or higher, the maximum number of attacks you can make as part of this spell without ending it increases by two for each each slot level above 2nd."
 					]
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Ranger",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
-			},
-			"damageInflict": [
-				"psychic"
-			],
-			"conditionInflict": [
-				"taunted|j:general"
-			]
+			}
 		}
 	],
 	"vehicle": [
