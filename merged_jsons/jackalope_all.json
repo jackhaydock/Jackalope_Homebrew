@@ -475,7 +475,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.09.17.28",
+                "version": "2024.02.14.23.27",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1707499758.5832582
+        "dateLastModified": 1707954208.752239
     },
     "class": [
         {
@@ -14576,6 +14576,17 @@
             "wondrous": true,
             "entries": [
                 "As an action, you can open this book to a random page and it'll magically provide the perfect insult for a target you can see within 30ft and that can hear and understand you. You then hurl the insult at the creature and it must make a Wisdom saving throw (DC 13) or take {@dice 2d6} psychic damage and become {@condition taunted|J:general} by you for 1 minute or until it is damaged by a creature other than you. On a successful save, a creature takes half damage and is not taunted."
+            ]
+        },
+        {
+            "name": "Contraband Codex",
+            "source": "J:General",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This thick tome appears fairly dull from the outside, however, on the inside several secret compartments have been cut into the pages. 20 pages within the book each magically open to a different compartment while the other pages appear ordinary. Each compartment can hold up to 10 lbs of material, not exceeding 6 inches in any dimension. The book contains an index page which describes the contents of each compartment in Thieves' Cant (or some other coded language decided by the DM). The ordinary pages might also contain coded messages, such as riddles or jokes at the expense of those fooled by the book.",
+                "When a creature who is unaware of the book's nature opens it, they can make a DC 15 Intelligence (Investigation) check to randomly discover one of the compartments, otherwise they only see ordinary pages. The book's nature can also be discovered with an hour of study or with the {@spell identify|phb} spell.",
+                "Placing a contraband codex inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ]
         },
         {
