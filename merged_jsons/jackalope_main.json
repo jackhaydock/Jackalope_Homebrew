@@ -268,7 +268,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.04.22.19.15",
+                "version": "2024.02.19.18.23",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -496,7 +496,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1707954207.3527908
+        "dateLastModified": 1708367238.8137043
     },
     "class": [
         {
@@ -3808,6 +3808,65 @@
             ]
         },
         {
+            "name": "Oath of the Flow Paladin",
+            "shortName": "Flow",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassFeatures": [
+                "Oath of the Flow|Paladin|PHB|Flow|J:Temporal|3",
+                "Tenets of the Flow|Paladin|PHB|Flow|J:Temporal|3",
+                "Oath Spells|Paladin|PHB|Flow|J:Temporal|3",
+                "Channel Divinity: Determinate Order|Paladin|PHB|Flow|J:Temporal|3",
+                "Channel Divinity: Reschedule Reflex|Paladin|PHB|Flow|J:Temporal|3",
+                "Aura of Opportune Sequence|Paladin|PHB|Flow|J:Temporal|7",
+                "Unstopping Mind|Paladin|PHB|Flow|J:Temporal|15",
+                "Fixed Flow|Paladin|PHB|Flow|J:Temporal|20"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "expeditious retreat",
+                    "source": "PHB"
+                },
+                {
+                    "name": "feather fall",
+                    "source": "PHB"
+                },
+                {
+                    "name": "kinetic jaunt",
+                    "source": "SCC"
+                },
+                {
+                    "name": "lesser restorartion",
+                    "source": "PHB"
+                },
+                {
+                    "name": "dispel magic",
+                    "source": "PHB"
+                },
+                {
+                    "name": "haste",
+                    "source": "PHB"
+                },
+                {
+                    "name": "freedom of movement",
+                    "source": "PHB"
+                },
+                {
+                    "name": "staggering smite",
+                    "source": "PHB"
+                },
+                {
+                    "name": "circle of power",
+                    "source": "PHB"
+                },
+                {
+                    "name": "temporal shunt",
+                    "source": "EGW"
+                }
+            ]
+        },
+        {
             "name": "Vermin",
             "shortName": "Vermin",
             "source": "J:Vermin",
@@ -6380,6 +6439,185 @@
                         "{@b {@i Step of the Wind.}} When you use your Step of the Wind, you can take both the {@action Dash} and {@action Disengage} action with the same bonus action. In addition, your speed increases by 10 feet for the duration of the current turn."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Oath of the Flow",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "entries": [
+                "The Oath of the Flow empowers those who follow it to manipulate the order of events in time. Most who follow this oath position themselves as protectors of time, only using their powers to prevent and reverse the damage caused by more selfish time manipulation. Others might see the manipulation of time as a necessary evil to serve some greater purpose.",
+                "There are rumours of an order of paladins from the distant future, or even outside time itself, who dedicate themselves to ensuring time flows as it should, free from the manipulation of meddling time travellers."
+            ]
+        },
+        {
+            "name": "Tenets of the Flow",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "The manipulation of time is a powerful tool that must be wielded resposibilty, even if done for selfish reasons.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Agency of Fate",
+                            "entries": [
+                                "A creature's fate is its own. You might push, hasten or delay it but never control it, rather, you protect it from direct control."
+                            ]
+                        },
+                        {
+                            "name": "Cause and Effect",
+                            "entries": [
+                                "Everything must follow a logical chain of cause and effect. This chain can be bent or rearranged but must never be broken."
+                            ]
+                        },
+                        {
+                            "name": "Responsibility",
+                            "entries": [
+                                "Chronology is a dangerous thing to manipulate, one must always take the greatest care, in that and perhaps all things."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oath Spells",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You gain oath spells at the paladin levels listed.",
+                {
+                    "type": "table",
+                    "caption": "Oath of Flow Spells",
+                    "colLabels": [
+                        "Paladin Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell expeditious retreat|phb}, {@spell feather fall|phb}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell kinetic jaunt|scc}, {@spell lesser restoration|phb}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell dispel magic|phb}, {@spell haste|phb}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell freedom of movement|phb}, {@spell staggering smite|phb}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell circle of power|phb}, {@spell temporal shunt|egw}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Channel Divinity: Determinate Order",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You can use your channel divinity to alter the order in which events take place. When you roll for initiative and are not surprised or {@condition incapacitated}, you can use your Channel Divinity and choose up to three creatures you can see within 30 feet (this can include yourself). For each creature, you can increase or decrease their initiative roll by up to 5."
+            ],
+            "consumes": {
+                "name": "Channel Divinity"
+            }
+        },
+        {
+            "name": "Channel Divinity: Reschedule Reflex",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You can use your channel divinity to rearrange the order of events for certain effects on a creature. As a bonus action you can touch a creature and alter its future timeline. On its next turn, any saving throws it would normally make at the start of its turn are instead made at the end of the turn, provided the effect still requires or allows them to, and vice versa.",
+                "For example, a creature under the effects of {@spell hold person|phb} would normally repeat the saving throw at the end of its turn. Using this feature you can have them make the saving throw at the start of its turn instead, potentially removing the condition early. Meanwhile, if a creature that would start its turn inside a {@condition moonbeam} leaves the area and does not re-enter it on the turn, they instead do not make the saving throw and take no damage."
+            ],
+            "consumes": {
+                "name": "Channel Divinity"
+            }
+        },
+        {
+            "name": "Aura of Opportune Sequence",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Starting at 7th level, you constantly emanate a corrective aura out to 10 feet that subtly alters the order of events in your favor. Opportunity attacks made against you and creatures you choose within the aura have disadvantage. Meanwhile, opportunity attacks made by you and creatures you choose within the aura have advantage.",
+                "At 18th level, the range of this aura increases to 30 feet."
+            ]
+        },
+        {
+            "name": "Unstopping Mind",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "Starting at 15th level, you can delay distracting effects on your mind. You cannot have disadvantage on saving throws to maintain concentration on spells. In addition, becoming {@condition incapacitated}, but not {@condition unconscious}, does not break your concentration on spells. You can also continue to control these spells whilst incapacitated, provided doing so does not require your movement, action, bonus action or reaction."
+            ]
+        },
+        {
+            "name": "Fixed Flow",
+            "source": "J:Temporal",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Flow",
+            "subclassSource": "J:Temporal",
+            "level": 20,
+            "header": 2,
+            "entries": [
+                "At 20th level, you can fix your immediate future in time, preventing most attempts to halt your actions before reaching it. As a bonus action, you can gain the following benefits for 10 minutes:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you drop to 0 hit points but are not killed outright, you do not fall {@condition unconscious} until you end your turn with 0 hit points.",
+                        "You can use a bonus action to expend a hit die, roll it, and regain hit points equal to the number rolled + your Constituion modifier.",
+                        "Your speed cannot be reduced by magic and you are immune to the {@condition grappled}, {@condition hampered|J:General}*, {@condition restrained}, {@condition prone}, {@condition paralysed} and {@condition slowed|J:General}* conditions."
+                    ]
+                },
+                "{@note * This condition is described in Jackalope: General.}"
             ]
         },
         {
