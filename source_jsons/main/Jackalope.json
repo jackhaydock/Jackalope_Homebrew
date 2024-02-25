@@ -53,20 +53,6 @@
 			]
 		},
 		{
-			"name": "Bleeding",
-			"source": "J:General",
-			"entries": [
-				"The creature has sustained an injury or similar effect that is causing them to lose a lot of blood or ichor. The DM might decide that a creature that does not rely on blood or ichor, such as an undead, a construct or an incorporeal elemental, is immune to this condition.",
-				{
-					"type": "list",
-					"items": [
-						"At the start of each of its turns, the creature takes slashing damage equal to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell polymorph|phb} spell, this condition continues to use the bonus at the time the condition was imposed.",
-						"The condition can be removed with a Medicine check (DC 10 + the imposing creature's Proficiency Bonus) or by magical healing."
-					]
-				}
-			]
-		},
-		{
 			"name": "Sundered",
 			"source": "J:General",
 			"entries": [
@@ -176,6 +162,35 @@
 					"entries": [
 						"Some spells and effects within the game already impose similar effects, such as the Slow spell. The DM is free to replace such effects with this condition.",
 						"The DM is also free to grant certain creature special traits relating to the condition as they deem appropriate. For example, a creature may have advantage or disadvantage on saving throws against it, might instead gain the {@condition hampered|J:general} condition, or even be immune to the condition"
+					]
+				}
+			]
+		},
+		{
+			"name": "Lingering",
+			"source": "J:General",
+			"entries": [
+				"The creature has sustained some injury or effect that deals damage over time. When the condition is imposed, associated damage is defined, such as Lingering (3 Slashing) or Lingering (PB Necrotic).",
+				{
+					"type": "list",
+					"items": [
+						"At the start of each of its turns, the creature takes the associated damage described in parentheses.",
+						"If the associated damage uses PB, it refers to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell polymorph|PHB} spell, this condition continues to use the bonus at the time the condition was imposed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bleeding",
+			"source": "J:General",
+			"entries": [
+				"The creature has sustained an injury or similar effect that is causing them to lose a lot of blood or ichor. The DM might decide that a creature that does not rely on blood or ichor, such as an undead, a construct or an incorporeal elemental, is immune to this condition.",
+				{
+					"type": "list",
+					"items": [
+						"The creature has the {@condition Lingering|J:general|Lingering (PB Slashing)} and {@condition Distracted|J:general} conditions",
+						"The creature has disadvantage on saving throws to avoid falling {@condition Unconscious} or gaining exhaustion.",
+						"The condition can be removed with a Medicine check (DC 10 + the imposing creature's Proficiency Bonus) or by magical healing."
 					]
 				}
 			]
