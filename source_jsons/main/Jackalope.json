@@ -1071,6 +1071,24 @@
 			]
 		},
 		{
+			"name": "Robe of the Tundra",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": true,
+			"charges": 10,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d10}",
+			"entries": [
+				"This heavy white or grey robe can be worn with light or medium armor. The loose cloth around the shoulders can be formed into a simple hood and face mask, protecting the wearer from the elements. The many folds and creases of the robe seem to hold a small yet endless quantity of snow and resulting moisture. Frost and small iciciles may begin to form on the wearer's eyebrows and facial hair even in temperate climates.",
+				"While attuned to this robe, you are resistant to cold damage and have advantage on Dexterity (Stealth) checks in snowy or icy terrain.",
+				"The robe has 10 charges, it regains {@dice 1d10} charges daily at dusk. If you have spent the entire previous day wearing the robe in a cold desert or tundra, it regains an additional 2 charges at dusk.",
+				"You can expend up to 3 charges to cast one of the following spells (save DC 16) without providing material components: {@spell frostbite|XGE}, {@spell gust|XGE}, {@spell armor of agathys|PHB}, {@spell frost fingers|IDRotF}, {@spell snilloc's snowball swarm|XGE}, {@spell gust of wind|PHB}, {@spell leomund's tiny hut|phb} or {@spell wind wall|PHB}.",
+				"The number of charges expended is equal to the level the spell is cast at (no charges required for a cantrip). When cast in this way, each of these spells resembles sand or sandstone in someway. For example, {@spell gust of wind|PHB} might be a small blizzard, while {@spell leomund's tiny hut|PHB} might appear like an igloo from the outside..",
+				"Additionally, when a creature fails a saving throw against one of these spells, you can expend a charge and force them to become {@condition slowed|J:General} until the end of their next turn."
+			]
+		},
+		{
 			"name": "Seed of Whispers",
 			"source": "J:General",
 			"wondrous": true,
