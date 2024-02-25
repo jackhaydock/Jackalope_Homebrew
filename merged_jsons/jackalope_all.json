@@ -475,7 +475,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.25.17.20",
+                "version": "2024.02.25.17.29",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1708881659.4341977
+        "dateLastModified": 1708882160.4352648
     },
     "class": [
         {
@@ -14951,10 +14951,55 @@
             "source": "J:General",
             "rarity": "rare",
             "wondrous": true,
+            "weight": 15,
+            "containerCapacity": {
+                "weight": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "weightless": true
+            },
             "entries": [
                 "This thick tome appears fairly dull from the outside, however, on the inside several secret compartments have been cut into the pages. 20 pages within the book each magically open to a different compartment while the other pages appear ordinary. Each compartment can hold up to 10 lbs of material, not exceeding 6 inches in any dimension. The book contains an index page which describes the contents of each compartment in Thieves' Cant (or some other coded language decided by the DM). The ordinary pages might also contain coded messages, such as riddles or jokes at the expense of those fooled by the book.",
                 "When a creature who is unaware of the book's nature opens it, they can make a DC 15 Intelligence (Investigation) check to randomly discover one of the compartments, otherwise they only see ordinary pages. The book's nature can also be discovered with an hour of study or with the {@spell identify|phb} spell.",
                 "Placing a contraband codex inside an extradimensional space created by a Heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
+            ]
+        },
+        {
+            "name": "Portable Library",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "weight": 15,
+            "containerCapacity": {
+                "weight": [
+                    500
+                ],
+                "weightless": true
+            },
+            "entries": [
+                "This satchel contains an extradimensional space that can hold up 500 pounds of books, scrolls and similar documents. Documents stored inside the bag are perfectly preserved and do not fade, degrade or collect dust while inside. Once a document is placed inside, it vanishes into extradimensional space. The bag weighs 15 pounds, regardless of its contents.",
+                "As an action, you can reach your hand into the bag and describe the document you wish to retrieve, if such a document is stored in the bag, it appears in your hand as you pull it out the bag. You can be precise with your description, such as naming the title and author, or more vague, such as requesting the most recent document on a particular topic, the bag will do its best to accomodate your request in a way the DM sees fit. You can also request an itemised index of all the documents within the bag, though some information may be incomplete, such as damaged documents lacking titles or named authors.",
+                "If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again.",
+                "Placing a portable library inside an extradimensional space created by a bag of holding, heward's handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened."
             ]
         },
         {
