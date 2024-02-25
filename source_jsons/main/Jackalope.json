@@ -4491,6 +4491,62 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Pheromone Strike",
+			"source": "J:General",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a pheromone sac"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack, the attack deals an additional 1d6 psychic damage and the creature must make a Wisdom saving throw. Beasts, monstrosities and plants have disadvantage on this saving throw. On a fail, the creature is {@condition taunted|J:general} by you for the spell's duration. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the additional damage increases by 1d6 for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCE"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
