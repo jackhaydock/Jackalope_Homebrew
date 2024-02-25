@@ -475,7 +475,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.25.16.37",
+                "version": "2024.02.25.17.00",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1708879091.6003158
+        "dateLastModified": 1708880497.7923818
     },
     "class": [
         {
@@ -5243,14 +5243,70 @@
                 }
             ],
             "entries": [
-                "The next time you hit a creature with a weapon attack, the attack deals an additional 1d6 psychic damage and the creature must make a Wisdom saving throw. Beasts, monstrosities and plants have disadvantage on this saving throw. On a fail, the creature is {@condition taunted|J:general} by you for the spell's duration. The creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
+                "The next time you hit a creature with a weapon attack, the attack deals an additional {@dice 1d6} psychic damage and the creature must make a Wisdom saving throw. Beasts, monstrosities and plants have disadvantage on this saving throw. On a fail, the creature is {@condition taunted|J:general} by you for the spell's duration. The creature can repeat the saving throw at the end of each of its turns or whenever it takes damage from a creature other than you, removing the condition on a success."
             ],
             "entriesHigherLevel": [
                 {
                     "type": "entries",
                     "name": "At Higher Levels",
                     "entries": [
-                        "When you cast this spell using a spell slot of 2nd level or higher, the additional damage increases by 1d6 for each slot level above 1st."
+                        "When you cast this spell using a spell slot of 2nd level or higher, the additional damage increases by {@dice 1d6} for each slot level above 1st."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "TCE"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Growth Strike",
+            "source": "J:General",
+            "level": 1,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "bonus action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "m": "a seed from a large plant"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "The next time you hit a creature with a weapon attack, and that creature is within 5 feet of a surface, such as the ground or a wall, a plant erupts from the surface, striking the target before wilting and disappearing. The target takes an addtional {@dice 1d6} bludgeoning damage from the attack and must make a Strength saving throw. On a fail, the target is pushed 10 feet directly away from the surface. If multiple valid surfaces exist you choose which one the plant erupts from."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by {@dice 1d6} for each slot level above 1st. Additionally, when you cast this spell using a spell slot of 3rd level or higher, the target is pushed an addtional 10 feet on a fail."
                     ]
                 }
             ],
