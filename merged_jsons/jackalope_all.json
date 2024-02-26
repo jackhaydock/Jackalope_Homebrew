@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.26.05.59",
+                "version": "2024.02.26.06.20",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1708927199.7983706
+        "dateLastModified": 1708928473.542805
     },
     "class": [
         {
@@ -5318,7 +5318,79 @@
                     },
                     {
                         "name": "Druid",
-                        "source": "TCE"
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Detect Echoes",
+            "source": "J:General",
+            "level": 2,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Choose a creature type; aberration, beast, celestial, construct, dragon, elemental, fey, fiend, giant, humanoid, monstrosity, ooze, plant, or undead. For the spell's duration, you know if a creature of the chosen type has previously occupied a space within 30 feet during the last hour. You know the number of creatures, the spaces they occupied and how long ago they occupied them, however, you do not learn the identity of the creatures."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 3rd level or higher, you can choose an additional creature type per slot level above 2nd. You can sense the spaces occupied by creatures of all chosen types, and you can distinguish between the chosen types."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
                     }
                 ]
             }
