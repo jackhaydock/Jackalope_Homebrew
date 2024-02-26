@@ -475,7 +475,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.25.17.52",
+                "version": "2024.02.26.05.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1708883545.7832794
+        "dateLastModified": 1708926717.991343
     },
     "class": [
         {
@@ -15956,46 +15956,97 @@
             ]
         },
         {
-            "name": "Variant Fall Damage",
+            "name": "Variant Fall Rules",
             "source": "J:General",
             "ruleType": "V",
             "entries": [
-                "The bigger they are, harder they fall. Many insects can survive falls from any height but humans risk injury after just a few feet, so why should they take the same amount damage from a fall. The table below takes creature size into account when taking fall damage. This table can also apply to falling objects if the DM chooses.",
+                "The rules presented in 5th Edition books for falling are inteionally simple, however, if falling is common occurance in your games, or you just want scenes of falling to be more dramatic and interesting, the following rules may be of interest to you.",
                 {
-                    "type": "table",
-                    "colLabels": [
-                        "Size",
-                        "Damage Taken"
-                    ],
-                    "colStyles": [
-                        "col-1",
-                        "col-11"
-                    ],
-                    "rows": [
-                        [
-                            "Tiny",
-                            "1 bludgeoning damage for every 10ft fallen (to a maximum of 20)."
-                        ],
-                        [
-                            "Small",
-                            "{@dice 1d4} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d4})."
-                        ],
-                        [
-                            "Medium",
-                            "{@dice 1d6} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d6})."
-                        ],
-                        [
-                            "Large",
-                            "{@dice 1d8} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d8})."
-                        ],
-                        [
-                            "Huge",
-                            "{@dice 1d10} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d10})."
-                        ],
-                        [
-                            "Gargantuan",
-                            "{@dice 1d12} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d12})."
-                        ]
+                    "type": "entries",
+                    "name": "Variant Fall Speed",
+                    "entries": [
+                        "The rules for falling speed prsented in both the Player's Handbook and Xanather's Guide to Everything have creatures falling so fast that it is generally impossible for the creature, or its allies, to do anything about it. Not only is this not very realistic, with creatures instantly moving hundreds of feet, it can feel underwhelming and anticlimatic. The rules presented here make it easier, though still extremely difficult, to act quickly and mitigate or even save a creature from falling to certain doom.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "When a creature falls, they immediately fall 60 feet. If it is still falling on subsequent turns, it descends up to 500 feet at the end of each of its turns.",
+                                "If a creature falls on its turn, it can attempt to use its remaining movement or actions duing the fall. If the creature did not fall intentionally, such as being pushed by a trap or another creature's reaction, the creature must fall at least 30 feet before it can do so, falling the remaining distance immediately afterwards if it is still falling."
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Optional Extra Rules",
+                            "entries": [
+                                "The following additional rules may be useful, especially if falling is a frequent occurance in your game.",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "{@b Air Control.} A falling creature can use its walking or swimming speed to move horizontally as it falls. Moving 1 foot horizontally costs 2 feet of movement.",
+                                        "{@b Altered Gravity.} If a creature is falling in a location with gravity that is different to typical expectations, such as other planes or planets, the DM may wish to adjust falling rates accordingly. For example, a creature falling in a low gravity environment might only fall 30 feet on the first turn and then only 250 feet each subsequent turn. They might also simply fall 30 feet on every turn, never accelerating beyond that. If the falling rate is sufficiently changed, consider treating creatures as if they were one or more sizes larger or smaller, as per the Variant Fall Damage rules.",
+                                        "{@b Grab On.} At the DM's discretion, if a falling creature passes a suitable ledge, rope or handhold to slow or stop their fall, they can use a reaction to attempt to grab it. The creature makes a DC 15 Strength or Dexterity saving throw. On a success, the creature stops falling and takes half of the falling damage they would have at that point in their fall. The DM might decide that only player characters can make such heroic and difficult grabs, while most creatures simply fall.",
+                                        "{@b Sky Diver.} Once per turn, while falling, a creature can use an action to dive or slow their fall. They fall fall twice or half as far at the end of the current turn.",
+                                        "{@b Weightless Disorientation.} While falling, a creature is disorietated by the weightless feeling and has disadvantage on melee attacks, unless the attack deals piercing damage. A creature that has a flying or swimming speed or is acclimated to weightless environments, such as wildspace or the astral plane, might be immune to these effects."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Variant Fall Damage",
+                    "entries": [
+                        "The bigger they are, harder they fall. Many insects can survive falls from any height but humans risk injury after just a few feet, so why should they take the same amount damage from a fall. The table below takes creature size into account when taking fall damage. This table can also apply to falling objects if the DM chooses.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Damage Taken"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Tiny",
+                                    "1 bludgeoning damage for every 10ft fallen (to a maximum of 20)."
+                                ],
+                                [
+                                    "Small",
+                                    "{@dice 1d4} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d4})."
+                                ],
+                                [
+                                    "Medium",
+                                    "{@dice 1d6} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d6})."
+                                ],
+                                [
+                                    "Large",
+                                    "{@dice 1d8} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d8})."
+                                ],
+                                [
+                                    "Huge",
+                                    "{@dice 1d10} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d10})."
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "{@dice 1d12} bludgeoning damage for every 10ft fallen (to a maximum of {@dice 20d12})."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Playing With Additional Size Categories",
+                            "entries": [
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "If you use a supplment that allows sizes smaller than Tiny, consider having these creatures take no fall damage whatsoever.",
+                                        "If you use a supplement that allows sizes larger than gargantuan, consider having such creatures take an additional 1 damage for every 10 feet fallen for each size category above Gargantuan. For example, A creature 2 sizes larger than Gargantuan would take {@dice 1d12+2} damage for every 10 feet fallen (to a maximum of {@dice 20d12+40})."
+                                    ]
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
