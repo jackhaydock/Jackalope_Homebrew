@@ -4852,6 +4852,73 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Find Familiar (Revised)",
+			"source": "J:General",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+					"cost": 1000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You gain the service of a familiar, a spirit that takes the form of {@filter a Tiny or Small beast of your choice that has a CR of 1/4 or lower|bestiary|Challenge Rating=[&0;&1/4]|type=beast|miscellaneous=|size=t;s}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though its creature type is one of the following of your choice; aberration, celestial, construct, elemental, fey, fiend, monstrosity, plant, ooze or undead. In addition, the familiar's proficiency bonus is equal to yours and its hit point maximum is equal to four times your proficiency bonus, unless it is already higher.",
+				"Additional form choices may be available at the DM's discretion, such as non beasts. On your travels, you may encounter remarkable creatures willing to become your familiar. At the DM's discretion, you can cast this spell over the course of 8 hours to bind a willing creature to your service. The creature must be no larger than Small, must not be a humanoid, must have a CR of 1/4 or less (or up to CR 1 if you have the Pact of the Chain feature) and must remain within 10 feet of you for the entire duration. You can then summon the creature, whenever you cast this spell. If the creature wishes to leave your service, it can do so at any time, after which you can no longer summon it.",
+				"Your familiar acts independently of you, but it always obeys your commands. In combat, it acts on your turn or immediately after it. A familiar can't attack, but it can take other actions as normal.",
+				"When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action or bonus action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
+				"While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened||deaf} and {@condition blinded||blind} with regard to your own senses.",
+				"You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
+				"Finally, when you cast a spell with a range of touch, your familiar can deliver the spell with its own touch. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it."
+			],
+			"miscTags": [
+				"PRM",
+				"SGT",
+				"SMN"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Chain",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			]
 		}
 	],
 	"vehicle": [
