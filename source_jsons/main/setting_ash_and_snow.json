@@ -562,8 +562,7 @@
 			}
 		}
 	],
-    "item": [
-        
+    "item": [     
 		{
 			"name": "Ice Skates",
 			"rarity": "none",
@@ -574,6 +573,24 @@
 			"entries": [
 				"These special boots each feature a blade with which the wearer can glide over ice. You can don or doff these boots over 1 minute.",
 				"While wearing these boots, slippery ice is no longer considered {@quickref difficult terrain||3} for you but all other terrain is. In addition, if you are not travelling uphill, moving 2 feet on slippery ice only costs 1 foot of movement for you."
+			]
+		},
+		{
+			"name": "Eye of Visorm",
+			"source": "J:General",
+			"rarity": "rare",
+			"type": "G",
+			"entries": [
+				"This purple eye must be harvested from a dead Visorm, a mortal yet monstrous descendant of Tresym. The visorm, and its severed eye, can flood a target's mind with harrowing premonitions, discouraging them from taking actions that would fufill them.",
+				"As an action, you can choose a creature you can see within 30 feet that can also see you. The chosen creature must make a DC18 Wisdom saving throw or take {@dice 4d6} psychic damage or half as much on a success. The eye then bursts and cannot be used again.",
+				"Additionally, when a creature fails the saving throw you can choose one of the following actions; {@action Attack}, {@action Cast a Spell}, move or take a bonus action. If the creature attempts to perform the action before the start of the your next turn, it takes another {@dice 4d6} psychic damage.",
+				{
+					"type": "inset",
+					"name": "Damaged Eye",
+					"entries": [
+						"An eye can be damaged before or during the harvesting. In this case, both instances of damage dealt by the eye are reduced to {@dice 2d6}."
+					]
+				}
 			]
 		}
     ],
