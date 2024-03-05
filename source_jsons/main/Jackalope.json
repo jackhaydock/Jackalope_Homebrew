@@ -601,7 +601,89 @@
 				"L"
 			],
 			"entries": [
-				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone|phb}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+				{
+					"type": "entries",
+					"name": "Hooked",
+					"entries": [
+						"You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hooked Cane",
+			"source": "J:General",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"property": [
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hooked",
+					"entries": [
+						"You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shepard's Crook",
+			"source": "J:General",
+			"type": "M",
+			"scfType": "druid",
+			"weapon": true,
+			"weaponCategory": "simple",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"property": [
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hooked",
+					"entries": [
+						"You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Billhook",
+			"source": "J:General",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "martial",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 6,
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hooked",
+					"entries": [
+						"You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+					]
+				}
 			]
 		},
 		{
