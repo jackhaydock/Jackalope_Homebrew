@@ -148,7 +148,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.06.27.01.41",
+                "version": "2024.03.13.02.48",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1710296342.0352955
+        "dateLastModified": 1710317494.2583704
     },
     "class": [
         {
@@ -18535,6 +18535,24 @@
                 "MW",
                 "RNG",
                 "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Kobolds",
+                    "entries": [
+                        "You can customise any kobold's statblock to reflect the variety of the multiverse's smallest dragons. Choose any number of the following options:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "Choose a {@filter race of kobolds |races|source=j:kobolds|traits=|miscellaneous=!base race} and add the traits of that race.",
+                                "The kobold learns one {@filter cantrip |spells|level=0}. Dexterity is its spellcasting ability for this cantrip.",
+                                "The kobold learns one {@filter feat|feats|}. If a feat that depends on a character level treats the kobold as if it is 4th level.",
+                                "The kobold swaps its Strength and Dexterity scores. The kobold may also be wielding a shield."
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
