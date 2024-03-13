@@ -163,7 +163,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.12.09.23.23",
+                "version": "2024.03.05.00.12",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -418,7 +418,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.01.20.15.31",
+                "version": "2024.03.04.23.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.27.17.16",
+                "version": "2024.03.13.02.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1709054329.013162
+        "dateLastModified": 1710296342.0352955
     },
     "class": [
         {
@@ -12834,6 +12834,24 @@
             ]
         },
         {
+            "name": "Eye of Visorm",
+            "source": "J:General",
+            "rarity": "rare",
+            "type": "G",
+            "entries": [
+                "This purple eye must be harvested from a dead Visorm, a mortal yet monstrous descendant of Tresym. The visorm, and its severed eye, can flood a target's mind with harrowing premonitions, discouraging them from taking actions that would fufill them.",
+                "As an action, you can choose a creature you can see within 30 feet that can also see you. The chosen creature must make a DC18 Wisdom saving throw or take {@dice 4d6} psychic damage or half as much on a success. The eye then bursts and cannot be used again.",
+                "Additionally, when a creature fails the saving throw you can choose one of the following actions; {@action Attack}, {@action Cast a Spell}, move or take a bonus action. If the creature attempts to perform the action before the start of the your next turn, it takes another {@dice 4d6} psychic damage.",
+                {
+                    "type": "inset",
+                    "name": "Damaged Eye",
+                    "entries": [
+                        "An eye can be damaged before or during the harvesting. In this case, both instances of damage dealt by the eye are reduced to {@dice 2d6}."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "G\ufffd\ufffde Bulg",
             "weight": 3,
             "source": "J:Morrigan",
@@ -14190,7 +14208,89 @@
                 "L"
             ],
             "entries": [
-                "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone|phb}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+                {
+                    "type": "entries",
+                    "name": "Hooked",
+                    "entries": [
+                        "You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hooked Cane",
+            "source": "J:General",
+            "type": "M",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "rarity": "none",
+            "value": 1000,
+            "weight": 3,
+            "dmg1": "1d6",
+            "dmgType": "B",
+            "property": [
+                "L"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Hooked",
+                    "entries": [
+                        "You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shepard's Crook",
+            "source": "J:General",
+            "type": "M",
+            "scfType": "druid",
+            "weapon": true,
+            "weaponCategory": "simple",
+            "rarity": "none",
+            "value": 1500,
+            "weight": 4,
+            "dmg1": "1d6",
+            "dmg2": "1d8",
+            "dmgType": "B",
+            "property": [
+                "V"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Hooked",
+                    "entries": [
+                        "You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Billhook",
+            "source": "J:General",
+            "type": "M",
+            "weapon": true,
+            "weaponCategory": "martial",
+            "rarity": "none",
+            "value": 3000,
+            "weight": 6,
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "property": [
+                "H",
+                "R",
+                "2H"
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Hooked",
+                    "entries": [
+                        "You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
+                    ]
+                }
             ]
         },
         {
@@ -26189,7 +26289,7 @@
                         "3": {
                             "daily": {
                                 "1": [
-                                    "disguise thoughts"
+                                    "detect thoughts"
                                 ]
                             }
                         }
@@ -26206,7 +26306,7 @@
             "entries": [
                 {
                     "type": "entries",
-                    "name": "Creture Tyoe",
+                    "name": "Creature Tyoe",
                     "entries": [
                         "Your creature type is fey rather than humanoid."
                     ]
@@ -32105,6 +32205,19 @@
                         "The creature has the {@condition Lingering|J:general|Lingering (PB Slashing)} condition.",
                         "The creature has disadvantage on Constitution saving throws.",
                         "The condition can be removed with a Wisdom (Medicine) check (DC 10 + the imposing creature's Proficiency Bonus), by using a {@item healer's kit|phb} or by magical healing."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cramped",
+            "source": "J:General",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "A cramped creature has disadvantage on ability checks and attack rolls that rely on the use of its arms, hands or similar appendages, such as claws or talons.",
+                        "A cramped creature cannot cast spells with somatic or material components, even if they use a spellcasting focus to replace these components."
                     ]
                 }
             ]
