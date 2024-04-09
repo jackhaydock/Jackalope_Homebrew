@@ -30,7 +30,7 @@
             "baseItem": "quiver|phb",
 			"entries": [
 				"This quiver can hold up to 20 {@item arrow|phb|arrows} or {@item crossbow bolt|phb|bolts}.",
-                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until it hits a target or you use the action again. Once you use this action, you cannot use it again until the next dawn."
 			]
 		},
         {
@@ -41,7 +41,7 @@
             "baseItem": "pouch|phb",
 			"entries": [
 				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets} or 50 {@item blowgun needle|phb|blowgun needles}.",
-                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into a random piece of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until it hits a target or you use the action again. Once you use this action, you cannot use it again until the next dawn."
 			]
 		},
         {
@@ -52,7 +52,7 @@
             "baseItem": "quiver|phb",
 			"entries": [
 				"This quiver can hold up to 20 {@item arrow|phb|arrows} or {@item crossbow bolt|phb|bolts}.",
-                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+                "As an action, you can touch this quiver and transform up to 4 pieces of nonmagical ammunition inside the quiver into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until it hits a target or you use the action again. Once you use this action, you cannot use it again until the next dawn."
 			]
 		},
         {
@@ -63,7 +63,7 @@
             "baseItem": "pouch|phb",
 			"entries": [
 				"This pouch can hold up to 20 {@item sling bullet|phb|sling bullets}, {@item firearm bullet|J:Firearms|firearm bullets} or 50 {@item blowgun needle|phb|blowgun needles}.",
-                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until the next dawn, or until it hits a target. Once you use this action, you cannot use it again until the next dawn."
+                "As an action, you can touch this pouch and transform up to 4 pieces of nonmagical ammunition inside the pouch into your choice of {@filter trick ammunition|items|source=j:ammo|type=ammunition} of the same base type. The ammunition remains magical until it hits a target or you use the action again. Once you use this action, you cannot use it again until the next dawn."
 			]
 		}
     ],
