@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.03.30.17.06",
+                "version": "2024.04.09.19.15",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1711818376.7132957
+        "dateLastModified": 1712690310.5045881
     },
     "class": [
         {
@@ -16157,6 +16157,20 @@
                 "This ceramic or crystaline stamp resembles those used to produce wax seals, however, this one features arcane sigils rather than those of nobles or officials.",
                 "As part of an hour long ritual, which you can do during a short or long rest, you can use this stamp with a spell scroll of 9th level or lower and permanently fuse it into your mind. Both the scroll and stamp are destroyed in the process. You must have the Spellcasting or Pact Magic feature and the spell must be of a level for which you have spell slots, but the spell needn't be on any of your current spell lists.",
                 "Once the ritual is finished, you know the spell and can cast it with any spell slots you have of the appropriate level. The spell does not count against the number of spells you can prepare or know at one time. Intelligence, Wisdom or Charisma is your spellcasting ability for the spell (choose when you finish this ritual)."
+            ]
+        },
+        {
+            "name": "Friend Flinger Fingers",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d3}",
+            "entries": [
+                "These metallic gauntlets feature tendon like structures stretching over the fingers to the wrist. When you use the {@action Throw|J:General} action to throw a willing creature, you can throw them up to twice as far.",
+                "In addition, this item has 3 charges, and regains {@dice 1d3} charges daily at dawn. When a willing creature is thrown, you can expend a charge to allow that creature to make a melee weapon attack as a reaction during or immediately after the throw. On a hit, the attack deals an additional {@dice 1d6} damage."
             ]
         },
         {
@@ -32353,6 +32367,31 @@
                         "When a creature fails an Intelligence, Wisdom or Charisma against a spell you cast, you can make them forget that they saw you cast the spell. The creature may still be aware that a spell was cast on them but not who cast it. You can cause a creature to forget in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
                     ]
                 }
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Throw",
+            "source": "J:General",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entries": [
+                "Using the {@action Attack} action, you can make a special maneuver to launch a willing creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of you throw must be your size or smaller, and it must be within reach of your unarmed strikes. A creature that is smaller than you can be thrown a number of feet equal to your Strength score, or half as far for a creature that is your size. A creature begins falling at the end of this movement if it is still aloft.",
+                {
+                    "type": "inset",
+                    "name": "Optional: Throwing Unwilling Creatures",
+                    "entries": [
+                        "At the DM's discretion, you may attempt to throw an unwilling creature you have {@condition grappled}, that is your size or smaller. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, the target is thrown as decribed above."
+                    ]
+                }
+            ],
+            "seeAlsoAction": [
+                "Attack"
             ]
         }
     ],
