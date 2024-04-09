@@ -5053,6 +5053,71 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Unreasonable Scale",
+			"source": "J:General",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "A bone or other body part of a Gargantuan creature worth at least 500gp",
+					"cost": 500000
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Choose a willing creature you can see within range. The target's dimensions all scale equally to become as large as the space available will allow (to a maximum of 25 feet in any dimension), along with all its equipment. Its size category also changes to reflect its new size, up to Gargantuan. The target also gains the following bonuses for the spell's duration, regardless of its size:",
+				{
+					"type": "list",
+					"items": [
+						"The target gains 50 temporary hit points and becomes resistant to bludgeoning, piercing and slashing damage. It loses any remaining temporary hit points when the spell ends.",
+						"The target's Strength score becomes 24 if it is not already higher and it has advantage on Strength checks and saving throws.",
+						"The target has advantage on attack rolls that use its Strength modifier, and these attacks deal an additional {@dice 1d8} force damage on a hit.",
+						"Whenever the target hits an object or creature with a melee attack, it can use a bonus action to deal {@dice 2d6} force damage to each creature and object within 5 feet of the attack's target, excluding the spell's target."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
