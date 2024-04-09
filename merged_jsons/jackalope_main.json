@@ -373,7 +373,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.06.06.21",
+                "version": "2024.04.09.20.00",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,13 +490,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.04.09.19.15",
+                "version": "2024.04.09.19.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1712690309.9881094
+        "dateLastModified": 1712692889.865751
     },
     "class": [
         {
@@ -18767,6 +18767,69 @@
                         ]
                     },
                     "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Emetic Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Emetic ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition poisoned} until it spends an action to vomit.",
+                    "At the DM's discretion, a poisoned creature might choose to move to another location in order to vomit, such as to an outhouse, creek or over a ledge. A creature is unlikely to do this if it is aware of a more immediate threat, such as being in combat."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Transposition Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Emetic ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take {@dice 1d8} force damage."
                 ],
                 "bonusWeapon": "+1"
             }
