@@ -844,6 +844,18 @@
       ]
     }
 	],
+	"item": [
+		{
+			"name": "Extradimensional Manacle",
+			"source": "J:Portalist",
+			"wondrous": true,
+			"rarity": "rare",
+			"entries": [
+				"This metal manacle is made from an otherwordly metal and appears to be part of a pair, though the other is nowhere to be found.",
+				"This item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. As an action, you can expend up to 3 charges to cast the {@spell banish limb|J:portalist} spell (DC 15). For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+			]
+		}
+	],
 	"feat": [
 		{
 			"name": "Portalist Initiate",
@@ -982,6 +994,63 @@
 			"entries": [
 				"You target a creature within range and bind your position to theirs. An unwilling creature can make a Charisma saving throw to avoid the effects. For the duration, if the target moves, you also move the same distance and in the same direction simultaneously. For example, if the target walks 10 feet northwards, you are also moved 10 feet northwards.",
 				"The spell does not hold you aloft or allow you to pass through obstacles that you normally couldn't, such as walls or other creatures. Your movement, or lack of movement, does not affect theirs. You are not moved if a creature teleports, such as with the misty step spell. The spell ends early if you are ever more than 30ft from the target."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Portalist",
+						"source": "J:Portalist"
+					}
+				]
+			}
+		},
+		{
+			"name": "Banish Limb",
+			"source": "J:Portalist",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a braclet or manacle made of metal"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You launch a spectral manacle containing a portal at a creature you can see within range and force it to make a Dexterity saving throw. On a fail, the manacle clamps onto a limb of your choice, sealing the limb below it in an extradimensional space where the creature cannot use it for the spell's duration. The target or another creature within 5 feet can use an action to make a Strength (Athletics) or Intelligence (Arcana) check against your spell save DC to remove a manacle, releasing the limb. The target can do this even if all their limbs are sealed.",
+				"Any nonmagical items worn or carried by the limb are also sealed in the extradimensional space. These items cannot be used or activated while in this space. Magic effects on, or originating from, the items are suppressed as if in an {@spell antimagic field|phb}. If an item that contains an extradimensional space, such as a bag of holding, is sealed in this way, it does not result in destroying the item or opening a gate to the astral plane.",
+				"If the limb is one the creature requires for a movement speed, such as leg for walking, and arm for climbing or a wing for flying, any relevent speed is {@condition slowed|J:General}. If all the required limbs are sealed, the speed is reduced to 0. At the DM's discretion, the creature might also fall {@condition prone} if it can no longer support itself.",
+				"You cannot seal a head or vital appendage using this spell, however, at the DM's discretion, you may target eyestalks or similiar appendages used for sensory perception. If you seal one or more appendages this way, the target has disadvantage on ability checks and attack rolls that require that appendage. If you seal all of a creature's required appendages in this way, they might be unable to use the associated senses."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can launch an additional manacle for each level above 3rd. You may launch each manacle at a different limb on the same creature or a different creature. A creature makes a separate saving throw for each manacle."
+					]
+				}
 			],
 			"classes": {
 				"fromClassList": [
