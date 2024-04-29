@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.04.29.13.17",
+                "version": "2024.04.29.14.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1714398765.1184576
+        "dateLastModified": 1714400611.9852173
     },
     "class": [
         {
@@ -17348,6 +17348,154 @@
                                         "If you play with creature sizes larger than Gargantuan, consider having such creatures take an additional 1 damage for every 10 feet fallen for each size category above Gargantuan. For example, A creature 2 sizes larger than Gargantuan would take {@dice 1d12+2} damage for every 10 feet fallen (to a maximum of {@dice 20d12+40})."
                                     ]
                                 }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Auction",
+            "source": "J:General",
+            "ruleType": "V",
+            "entries": [
+                "The following rules are intended to be a simple and quick way to simulate an auction bidding while still allowing player the opportunity to participate and manipulate the results.",
+                "First, the DM determines a few details about each lot:",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b The Lot} itself. This is something someone has put up for auction. This can be something a player character has put up for sale. Most auction houses will charge a fee or commission for each lot.",
+                        "{@b The Appraised Value} of the lot. This value can be determined by the auction house itself or by other means prior to the auction.",
+                        "{@b The Starting Bid}. This is where the bidding will begin and is typically 75% the Appraised Value.",
+                        "{@b The Small Bid} amount. This is the minimum increase for each bid and is typically 5% the Appraised Value.",
+                        "{@b The Large Bid} amount. This is a significant increase for an individual bid and may scare away rivals, it is typically 20% the Appraised Value.",
+                        "{@b The Buyer's Pool}. The crowd of interested buyers is represented by a pool of d6s, typically between 3d6 for mild interest and 6d6 for considerable interest. The dice do not nesscessarily represent individual buyers but rather the crowd as a whole. The player characters may have opportunities to increase, or decrease, the pool by encouraging, or discouraging, interest among potential buyers prior to the bidding."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Example: Ruby Necklace",
+                    "entries": [
+                        "The party's cleric has chosen to put a ruby necklace they found up for auction. They have had the necklace appraised at 500gp. Therefor, the Starting Bid becomes 375gp, while the Small and Large Bid amounts become 25gp and 100gp respectively. The DM decides that the necklace is resonably attractive to the crowd, setting the Buyer's Pool at 4d6. They also decide that the bard's encouragement earlier boosted interest in the lot and increases the pool to 5d6."
+                    ]
+                },
+                "Next, the bidding begins. Each round of bidding consists of one Bidding Roll followed by a round of Player Bids.",
+                "The DM makes a Bidding Roll. They roll the Buyer's Pool and, for each die, consults the table below for the effect. For the first Bidding Roll, assume a buyer has already made the Starting Bid, setting the current bid equal to it.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            1,
+                            "No additional bid is made, and a die drops out."
+                        ],
+                        [
+                            "2-3",
+                            "No additional bid is made."
+                        ],
+                        [
+                            "4-5",
+                            "The current bid for the lot is increased by the Small Bid amount."
+                        ],
+                        [
+                            "6+",
+                            "The current bid for the lot is increased by the Large Bid amount., and a die drops out."
+                        ]
+                    ]
+                },
+                "When a die drops out, it is removed from the Buyer's Pool for future Bidding Rolls, provided no die has already dropped out this round. Any effects the die had in the current or previous Bidding Rolls still apply.",
+                "Once the effects of the Bidding Roll are complete, then comes the Player Bets. Each player character in attendance can make their own bids. Typically auction houses will prohibit sellers from bidding on their own lots. Each bid must be equal or greater than the current bid + the Small Bid. If a bid is equal or greater than the current bid + the Large Bid amount, a die drops out. Once a player character makes a bid, then cannot do so again until after the next Bidding Roll.",
+                "Then the DM begins a new round of bidding, with another Bidding Roll followed by another round of Player Bets. This repeats until one of the following conditions is met, afterwhich the lot is sold at the current bid:",
+                {
+                    "type": "list",
+                    "items": [
+                        "No dice remain in the Buyer's pool, a player character made the current bid and no other player character wishes to bid.",
+                        "The Bidding Roll results in no increases to the current bid, a player character made the current bid and no other player character wishes to bid.",
+                        "The DM is about to make a Bidding Roll with only one die in the pool, and the current bid was not made by a player character."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Optional Rules",
+                    "entries": [
+                        "At the DM's discretion, they can use the following additional rules:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Eager Buyer.} If a buyer is especially wealthly, desperate or has been persuaded by the party to shaow particular interest, the DM might represent than by replacing a d6 with a d8. Typically no more than two d8s should be included in the Buyer's Pool.",
+                                "{@b Reluctant Buyer.} If a buyer is poorer, disinterested or has been partially disuaded by the party, the DM might represent them by replacing a d6 with a d4. Typically no more than two d4s should be included the Buyer's Pool.",
+                                "{@b Specific Buyers.} If it matters which buyer might get the item, the DM might wish to use different colored dice or roll in a specific order to have each die represent a specific NPC. Alternatively, the DM might simply decide the buyer most likely to make the highest bid.",
+                                "{@b Discouraging Hike.} If the current bid is equal or higher than twice the Appraised Value, the DM might decide that any future 2s also result in a die dropping out. If the current bid is equal or higher than three times the Appriased Value, then a roll of a 3 might also result in a die dropping out.",
+                                "{@b Encouraged Bid.} If a buyer is enchanted to make bids, the DM might replace a die in one or more Bidding Rolls with a 6. Such effects are often limited and might only work on a certain number of rolls, or cease to work once the current bid surpasses what the buyer can afford.",
+                                "{@b Inspiring Bid.} When a Bidding Roll is made, a player character that bid since the Bidding Roll can use inspiration to reroll one of the dice.",
+                                "{@b Reserve Price.} A seller may choose to place a minimum sale price on a lot. If the bidding ends and the current bid is not equal or greater than the reserve, then the item is not sold. An auction house will typically still request its fee or commision (based on reserve price) if the item is not sold.",
+                                "{@b House Standard.} Some auction houses might place limits on the lots they will run. A common example might be refusing any lots without an Appraised Value above a certain threshold."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Example: Ruby Necklace",
+                    "entries": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "The current bid starts at 375gp, the Starting Bid.",
+                                "The DM rolls 5d6 for the first Bidding Roll. They roll 6, 5, 5, 3, 1.",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "The 6 increases the current bid to 475gp and reduces the Buyer's Pool to 4d6.",
+                                        "The two 5s increase the current bid to 500gp and 525gp respectively.",
+                                        "The 3 has no effect on the current bid.",
+                                        "The 1 has no effect on the current bid, and would result in reducing the Buyer's Pool if the 6 hadn't already done that this round."
+                                    ]
+                                },
+                                "With the current bid at 525gp, the Player Bets round begins.",
+                                "In an attempt to inflate the potential pay out, the rogue decides to make a bid of 550gp.",
+                                "No other player characters bid and the DM moves on to the next round.",
+                                "The DM makes an new Bidding Roll, this time rolling 4d6. They roll 5, 4, 2, 2.",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "The 5 and 4 increase the current bid to 575gp and 600gp.",
+                                        "The 2s have no effect on the current bid."
+                                    ]
+                                },
+                                "With the current bid at 600gp, another Player Bets round begins.",
+                                "The rogue is impatient and decides to bid 700gp. This is equal to the current bid + the Large bid. The Buyer's Pool is reduced to 3d6.",
+                                "With no other bids from player characters, the DM moves on the the next round.",
+                                "The DM makes another Bidding Roll, rolling 3d6. They roll 4, 2, 1.",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "The 4 increases the current bid to 725gp.",
+                                        "The 2 has no effect on the current bid.",
+                                        "The 1 has no effect on the current bid and cause a die to drop out, reducing the Buyer's Pool to 2d6."
+                                    ]
+                                },
+                                "With the current bid at 725gp, the Player Bets round begins.",
+                                "No player character's choose to bid, the DM moves on.",
+                                "The DM makes another Bidding Roll, rolling 2d6. They roll 3, 1.",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "The 3 has no effect on the current bid.",
+                                        "The 1 has no effect on the current bid and cause a die to drop out, reducing the Buyer's Pool to 2d6."
+                                    ]
+                                },
+                                "With the current bid at 725gp, the Player Bets round begins.",
+                                "No player character's choose to bid, the DM moves on.",
+                                "The DM would make another Bidding Roll, however, they would only be rolling one die and the current bid was not made by a player character, the bidding ends.",
+                                "The necklace is sold for 725gp and the cleric is very happy."
                             ]
                         }
                     ]
