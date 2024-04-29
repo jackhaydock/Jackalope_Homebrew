@@ -1034,12 +1034,12 @@
                 "Finally, you can use a bonus action to extend or retract the handle. While extended, the weapon has the reach and two-handed properties and you can pick up tiny items within the weapon's reach by using the hook.",
                 "{@note This weapon was created as part of Swordtober52 2024 based on the following prompt: Raccoon}",
                 {
-					"type": "entries",
-					"name": "Hooked",
-					"entries": [
-						"You can take the {@action Grapple} action using this weapon without requiring an empty hand, you cannot use the weapon whilst you have a creature grappled with it. You do not have disadvantage on the ability check when using the {@action Shove Aside|DMG} action with this weapon. Finally, if a target you {@action Shove} using this weapon is mounted on a creature that is at least one size larger than you, you have advantage on the ability check."
-					]
-				}
+                    "type": "entries",
+                    "name": "Hooked",
+                    "entries": [
+                        "When you make a melee attack with this weapon, you can forgo the attack and instead take the {@action Shove} action against the target (even if they are not within 5 feet). If the target is mounted on a creature at least one size larger than you, you have advantage on the contested check."
+                    ]
+                }
             ]
         }
     ]
