@@ -208,7 +208,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.05.18.17.21",
+                "version": "2024.05.22.19.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -496,7 +496,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1715972886.4516995
+        "dateLastModified": 1716406936.4376297
     },
     "class": [
         {
@@ -2899,6 +2899,37 @@
             "entries": [
                 "This elegant, black cane is topped with a metalic bird head and is wielded by members of the Inquisition within the Caligos Imperium. This particular cane was wielded by an Inquisition Sharpshooter.",
                 "As a bonus action you can transform this cane into a weapon of your choice with which you are proficient. The weapon can be any {@filter ranged weapon that lacks the special property|items|type=!futuristic;!modern;range;!treasure|property=!special|miscellaneous=mundane}. You can transform it back into a cane with another bonus action."
+            ]
+        },
+        {
+            "name": "Emergency Hook",
+            "source": "J:Caligos",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "This special leather bracer bears a hook, a rope and a single-use rapid fire mechanism. Designed to provide emergency assistance to falling creatures, it is commonly issued to airship crew and construction workers, at least those whose lives are valued.",
+                "When you fall 30 feet or more while wearing this bracer, you can use a reaction to trigger it, often by performing a special predetermined hand gesture, such as tapping your ring finger to your thumb twice. You can also trigger it with a bonus action even if you are not falling.",
+                "Once triggered, a grappling hook attached to 30 feet of silk rope is fired 30 feet directly upwards, regardless of your current angle, and is magically guided towards nearby large objects and surfaces. Make a DC 10 Dexterity check. At the DM's discretion, the DC might increase by 5 if very few suitable hook points are available. They might also determine that no hook points are available and that this item cannot help you.",
+                "On a success, the hook secures itself and you stop falling, suspended by the hook and rope. You take half the damage you would have taken from falling if you had impacted solid ground at your current position. Success or fail, the bracer then ceases to be magical, as do the hook and rope.",
+                {
+                    "type": "inset",
+                    "name": "Hooking Creatures",
+                    "entries": [
+                        "At the DM's discretion, the hook being rapidly lanched upwards might harm any creatures unlucky enough to be hit by it. This could include the wearer themselves if their wrist is posistioned below another part of their body. Creatures in the path of the hook must make a DC 13 Dexterity saving throw, taking {@dice 2d6} piercing damage on a fail or half as much on a success.",
+                        "The DM also determines the effects a creature that fails the save has on the hook's fuctionality. For example, the hook and rope might pass by, or even through, some creatures. Meanwhile, a creature that is at least as large as the wearer and that is on a solid surface or is flying might find the hook snagged on their equipment, or even lodged inside them, effectively making them the anchor for the grappling hook. While hooked like this, a creature is slowed and can use an action to remove the hook."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Advanced Emergency Hook",
+            "source": "J:Caligos",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "baseItem": "Emergency Hook",
+            "entries": [
+                "This special {@item emergency hook|J:Caligos} is an improved design, which is more expensive and rarer. When it is triggered, it remains magical and can be used again once you spend an hour reseting the mechanisms, this can be done as part of a short or long rest. If the rope is severed it must be replaced before the bracer can be reset in this way.",
+                "Additionally, as an action, you can enable an automatic mode, or disable it with a subsequent action. While in automatic mode, the hook will automatically trigger whenever you fall 30 feet or more (no reaction required), even if you are incapacitated, unconscious or dead. You can still trigger it manually with a bonus action and you can use a reaction to prevent it triggering while falling if you wish."
             ]
         },
         {
