@@ -490,13 +490,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.05.17.17.25",
+                "version": "2024.05.22.19.54",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1716406936.4376297
+        "dateLastModified": 1716407931.6317878
     },
     "class": [
         {
@@ -13169,6 +13169,17 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Variant Mounting Multiple Riders",
+            "source": "J:General",
+            "ruleType": "V",
+            "entries": [
+                "Normally the maximum amount of creatures a mount can carry is based on weight. This can be tedious to track. Instead you can count it by size categories. Each creature has a Size Value based on its size; 1 (Tiny), 2 (Small), 4 (Medium), 8 (Large), 16 (Huge), 32 (Gargantuan). A mount can carry up to its own value in smaller creatures. Creatures grappled by the mount do not count towards this total. For example, a Large horse can carry up to 8, which could be 2 Medium creatures or could be 1 Medium and 2 Small or even 4 Small and so on.",
+                "If the mount is pulling a vehicle, such as a sled or cart, and that vehicle is moving smoothly over the terrain, creatures within that vehicle count for half their usual SIze Value. For example, 4 Medium creatures in a cart totals 8, allowing a single Large horse to pull them. If multiple creatures are pulling the same vehicle, they can add their Size Values together to determine the total amount they can carry. For example, eight Medium creatures on a wagon totals 16, allowing two Large horses to pull them.",
+                "At the DM's discretion the amount a mount can carry might be different based on a variety of factors. An especially strong Large mount might be able to pull 10 instead of 8. Meanwhile an injured or already laden Large mount might only be able to carry 4. An especially massive Gargantuan creature may be able to carry 64 rather than 32.",
+                "At the DM's discretion a mount can still carry over its limit though it expends 2 feet of movement for every 1 foot it moves. If it is ever carrying more than twice its limit, its speed is reduced to 0."
             ]
         }
     ],
