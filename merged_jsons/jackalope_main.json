@@ -490,13 +490,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.04.29.14.21",
+                "version": "2024.05.17.17.25",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1715005780.4196358
+        "dateLastModified": 1715972886.4516995
     },
     "class": [
         {
@@ -5320,6 +5320,22 @@
             "entries": [
                 "These metallic gauntlets feature tendon like structures stretching over the fingers to the wrist. When you use the {@action Throw|J:General} action to throw a willing creature, you can throw them up to twice as far.",
                 "In addition, this item has 3 charges, and regains {@dice 1d3} charges daily at dawn. When a willing creature is thrown, you can expend a charge to allow that creature to make a melee weapon attack as a reaction during or immediately after the movement. On a hit, the attack deals an additional {@dice 1d6} damage."
+            ]
+        },
+        {
+            "name": "Gloves of Spoken Sign",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "While wearing these cloth and wire gloves, you are proficient in Sign if you aren't already. In addition, when you communicate something via Sign, you can choose to have the gloves speak it aloud in a different language you know, even if you otherwise cannot speak it. This also works when communicating telepathically or with the message cantrip, the target hears the gloves speaking in the chosen language. Finally, you can replace the verbal components of spells with somatic ones.",
+                {
+                    "type": "inset",
+                    "name": "Gloves of Different Voices",
+                    "entries": [
+                        "The basic version of this item leaves the details of the glove's voice up to the imagination of the players. If the DM wishes, they might specify that the gloves have a distinct pitch, tone, accent or dialect in their voice. They might also determine that each pair's voice is unique, and people may have to try multiple pairs if they want the perfect voice."
+                    ]
+                }
             ]
         }
     ],
