@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.05.27.18.13",
+                "version": "2024.06.12.22.00",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -568,7 +568,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.05.06.14.29",
+                "version": "2024.06.09.14.48",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -604,7 +604,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1716833619.792555
+        "dateLastModified": 1718229653.9473262
     },
     "class": [
         {
@@ -8512,6 +8512,88 @@
                         "You have advantage on Charisma ({@skill Deception}) and Charisma ({@skill Performance}) checks when trying to pass yourself off as a different person.",
                         "You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom ({@skill Insight}) check contested by your Charisma ({@skill Deception}) check allows a listener to determine that the effect is faked.",
                         "You can attempt to {@action Hide} in a crowded area, such as a markeplace or tavern. When you do so, you can choose to make a Charisma (Deception or Stealth) check in place of Dexterity (Stealth). As normal, you cannot hide from a creature if it can clearly see you, however, once you are hidden, being visible does not necessarily reveal your location so long as you act as part of the normal crowd."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mask of Mist",
+            "source": "J:General",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "wisper"
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "You hone your skills with masks and gain the following benefits:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Marvelous Mask",
+                            "entries": [
+                                "At the end of a short or long rest rest, you can condense some of your vaporous essence into a special mask, which lasts until it is destroyed or you use this feat to make another one. The mask has an appearance of your choice, though it is obviously a mask, typically an imitation of a humanoid face made from ceramic, metal or glass. The mask is fully animated and can simulate the full range of facial expressions availble to the type of humanoid the mask most resembles.",
+                                "As an action or bonus action, you can remove the mask and allow it to move independently on your turn. You can don the mask again with a subsequent action or bonus action. While separated from you in this way, the mask is an object with 15 AC, 10 hit points, a flying speed of 20 feet and it can hover. While the mask is within 120 feet of you, you can telepathically command it to move (no action required).",
+                                "While separated, you can use an action you view the world through the mask's eyes, hear through its space and speak through it until the start of your next turn. During this time, you are deaf and blind with regard to your own senses."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Combustable Trails",
+            "source": "J:General",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "wisper"
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "The smoke and mist that forms you is slighlty flamable, it takes a lot to keep it under control, however, this volitility can be used to your advantage. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Reactive Ignition",
+                            "entries": [
+                                "You can use your Reactive Reformation trait when you take fire or lightning damage. When you do so, you can use the same reaction to deal fire damage equal to twice your Proficiency Bonus to an object or creature of your choice within 10 feet of you. A flamable object hit by this ignites if it isn't being worn or carried."
+                            ]
+                        }
                     ]
                 }
             ]
@@ -28366,6 +28448,105 @@
                 "entries": [
                     "Revenant elves have been touched by the realms of the dead. They may have returned from the dead, made a pact with some being to save them from death, been cursed with a form of undeath or simply have inherited blood or memories from elves that have done so. With this unusual nature, they can propel themselves forward, unhindered by living beings in their path.",
                     "In Cyranos, revenant elves or their ancestors may have been rescued from the underworld by great heroes like those of old. They may also be agents of Hades, Persephone or one of the many celestial, fiendish and primordial beings trapped in the Underworld or Tartarus, sent out into the world for whatever purpose."
+                ]
+            }
+        },
+        {
+            "name": "Wisper",
+            "alias": [
+                "Smokefolk",
+                "Mistfolk",
+                "Fogfolk"
+            ],
+            "source": "J:General",
+            "lineage": "VRGR",
+            "creatureTypes": [
+                "elemental"
+            ],
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Creature Type",
+                    "entries": [
+                        "You are an Elemental."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "You are Small or Medium. You choose the size when you select this race."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Amorphous",
+                    "entries": [
+                        "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing but a mask. You also have advantage on ability checks you make to initiate or escape a {@action grapple}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Inorganic Resillience",
+                    "entries": [
+                        "You have resistance to poison damage and have advantage on saving throws against being {@condition poisoned}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Reactive Reformation",
+                    "entries": [
+                        "When you take bludgeoning, piercing or slashing damage, you can use a reaction to gain resistance to the triggering damage for the attack by briefly dispersing part of your form. When you do so, you are {@condition slowed|J:general} until the end of your next turn as your body must reform before moving again."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Smoky Nature",
+                    "entries": [
+                        "You don't need to eat, drink, or breathe. In addition, you can {@action Hide} while lightly obscured by smoke, fog or mist, provided you you are wearing and carrying nothing but a mask."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Wonder of Wind",
+                    "entries": [
+                        "You have proficiency in a wind instrument of your choice, such as the {@item bagpipes|PHB}, {@item flute|PHB}, {@item horn|PHB}, {@item panflute|PHB} or {@item shawm|PHB}. In addition, when you make an ability check to play such instruments, you gain a bonus to the roll equal to your Constitution modifer."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Wispers are amorphous beings of smoke and vapour. The origins of these people are a mystery, even to them. Many do not recall how they came to be, though some allegedly have fuzzy images of lives before their current ones, lives in which they were composed of flesh. Such stories only fuel asumptions that wispers are ghosts, though many scholars believe that they are not so.",
+                    "Despite their lack of hard limbs and appendages, wispers are still capable of dexterous and forceful manipulations of the physical world. They can still pick up and use items and wear clothing, even if the manner in which they do so may appear different to how most humanoids would. Typically, most wispers will resemble humanoid forms with a torso, head and no more than two arms or legs.",
+                    "Due to their composition, many wispers struggle to form faces that are defined and opaque enough to even be percieved as faces, leading to much confusion when communicating. For this reason, alongside fashion, many wispers adopt a practice of wearing masks, or even helmets, of ceramic, metal or wood. The simplest versions of these masks are static and provide little more than a form of visual identity and a place to look when conversing. Some wispers take to carrying multiple masks to non-verbally communicate multiple emotions. Others might acquire more elaborate mechanical or magical masks capable of more animated expression. Some decorate their mask with patterns as a form of artistic or cultural expression, in a similar manner to hairstyles or tattoos. For similar reasons, wispers may even employ prostetic hands and limbs, allowing them to gesture, even when such limbs lack functionality. More extreme cases may even have them piloting entire suits of armor, making them indistiguishable from solid humanoids.",
+                    {
+                        "type": "entries",
+                        "name": "Wispers across the multiverse",
+                        "entries": [
+                            "Wispers are rare in Alvergia, exsiting primarily in regions of chaotic fire and magic, such volcanoes on the Lonely Islands or deep in the forest of Muhai.",
+                            "In Caligos, Wispers are considers monsters of chaos by the Caligos Imperium and are often arested on sight, or worse. It is not lost on some that the Inquisitors of Caligos wear masks and their unique magics have a smoky appearance to them. This naturally leads to rumours regarding the nature and orgin of the inquisitors and their magic. Such theories are considered heresy and severely punished. Wispers are still exetremly rare but can enjoy slightly warmer welcomes elsewhere, however, being mysterious creatures of fog, they can often startle and panic sailors who fear they might orginate from the Great Fog itself."
+                        ]
+                    }
                 ]
             }
         },
