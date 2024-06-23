@@ -490,13 +490,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.06.12.22.00",
+                "version": "2024.06.23.14.11",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1718229653.3990266
+        "dateLastModified": 1719152032.4046466
     },
     "class": [
         {
@@ -5367,6 +5367,49 @@
                         "The basic version of this item leaves the details of the glove's voice up to the imagination of the players. If the DM wishes, they might specify that the gloves have a distinct pitch, tone, accent or dialect in their voice. They might also determine that each pair's voice is unique, and people may have to try multiple pairs if they want the perfect voice."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Belt of Blades",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This belt, which can be worn around the waist or as a baldric across the chest, features holsters and fastenings capable of holding up to six {@item dagger|phb|daggers}, {@item dart|phb|darts} or {@item sickle|phb|sickles}. While wearing the belt, these weapons can be drawn as a bonus action or as part of an attack you make with them, regardless of how many you draw in a turn. You can also stow a weapon in the belt as a bonus action.",
+                "Additionally, at the end of a short or long rest you can choose one of the weapons stored in this belt that requires attunement and attune to it. This attunement does not count against the maximum number of items you can attune to. This attunement ends if you attune to another weapon in this way or are more than 5 feet from the weapon or the belt for more than one hour."
+            ]
+        },
+        {
+            "name": "Greater Belt of Blades",
+            "source": "J:General",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This belt, which can be worn around the waist or as a baldric across the chest, features holsters and fastenings capable of holding up to six {@item dagger|phb|daggers}, {@item dart|phb|darts} or {@item sickle|phb|sickles}. While wearing the belt, these weapons can be drawn as a bonus action or as part of an attack you make with them, regardless of how many you draw in a turn. You can also stow a weapon in the belt as a bonus action.",
+                "Additionally, at the end of a short or long rest you can choose one of the weapons stored in this belt that requires attunement and attune to it. This attunement does not count against the maximum number of items you can attune to. This attunement ends if you attune to another weapon in this way or are more than 5 feet from the weapon or the belt for more than one hour.",
+                "Finally, the belt imbues the weapons stowed within it with a temporary magic. When you make an attack with a weapon you draw from the belt on the same turn, you have a +1 bonus to attack and damage rolls for the attack, unless the weapon is already a magic weapon with a bonus to these rolls. In addition, you can have the blade return to belt immediately after the attack, even if the attack was ranged."
+            ]
+        },
+        {
+            "name": "Hidden Sheath",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This special sheath can hold one {@item dagger|phb}, {@item dart|phb} or {@item sickle|phb}. The weapon can be drawn as a bonus action or as part of an attack you make with it. The weapon can also be stowed as a bonus action.",
+                "Additionally, as a bonus action, you can conceal the sheath and the stowed weapon on your person. You can have the sheath and weapon can magically change appearance to suit the nature of the concealment. For example, you might conceal a dagger as a hairpin or a necklace.",
+                "While concealed, the physical shape of the sheath and stowed weapon can be altered to resemble the nature of the illusion, but only partially. They hold up to physical inspection on a passing glance, but not a thorough examination. For example, a character casually shaking your hand might not notice the sheath disguised as a ring, but a sentry closely inspecting the ring might notice its weight and balance is wrong. To discern that a disguised sheath and weapon are actually illusory, a creature can make a DC 15 Intelligence (investigation) check to determine its true nature. Any passive checks to see through the concealement have disadvantage."
+            ]
+        },
+        {
+            "name": "Ring of Inescapability",
+            "source": "J:General",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While wearing this ring, you have advantage on saving throws against being teleported against your will.",
+                "Additionally, when a creature you can see within 5 feet teleports more than 5 feet from you, you can use a reaction to either make a special opportunity attack against them or force them to make a DC 15 Charisma saving throw. On a fail, you are teleported with them, appearing in a unoccupied space within 5 feet of them. If the target teleports more than 60 feet, or into another plane, you cannot use this ring to teleport again until the next dawn."
             ]
         }
     ],
