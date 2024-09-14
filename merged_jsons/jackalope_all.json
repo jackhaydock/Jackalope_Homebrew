@@ -268,7 +268,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.02.19.20.28",
+                "version": "2024.09.14.16.34",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.09.14.16.11",
+                "version": "2024.09.14.16.18",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -604,7 +604,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726330434.112245
+        "dateLastModified": 1726331683.543007
     },
     "class": [
         {
@@ -7669,6 +7669,15 @@
             "rechargeAmount": "{@dice 1d4}",
             "entries": [
                 "This metallic cone has 3 charges, and regains {@dice 1d4} charges daily at dawn. While holding it, you can expend 1 or more charges to cast the {@spell dominate horde|J:General} spell (save DC 13) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+            ]
+        },
+        {
+            "name": "Monocle of Ridicule",
+            "source": "J:General",
+            "rarity": "common",
+            "wondrous": true,
+            "entries": [
+                "While wearing this monocle, it whispers secrets to you about a creature you are looking at. The secrets are minor and harmless, but may still be embarrassing or lead to mild mockery if spoken aloud. For example, you might learn that they mispronounce a particular word in an amusing way, that they once fell for an obvious scam or that they lost a fight with a child."
             ]
         },
         {
@@ -15013,14 +15022,14 @@
             "header": 2,
             "entries": [
                 "Starting at 1st level, you can enter a slightly different time stream to those around you, thereby improving your relative speed and reflexes. As a bonus action, you can trigger a rush provided you are not {@condition incapacitated} or wearing heavy armor. The rush lasts 1 minute but ends early if you are {@condition incapacitated} or choose to end it (no action required). For the duration of the rush, your speed is increased by 10ft and you have advantage on Dexterity checks and saving throws.",
-                "Additionally, whenever you trigger a rush, you choose one of the following forms, each form grants you additional benefits for the duration of the rush.",
+                "Additionally, when you trigger a rush, or as a subsequent bonus on each of your turns for the duration, you can choose to enter one of the following stances:",
                 {
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": [
-                        "{@b Dancer.} You can use a bonus action to take the {@action Disengage} or {@action Dodge} action. You may also use this bonus action as part of the same one you use to trigger the rush.",
-                        "{@b Strider.} {@quickref Difficult terrain||3} does not slow you down.",
-                        "{@b Striker.} You can use a bonus action to gain advantage on your next attack roll within the same rush. You may also use this bonus action as part of the same one you use to trigger the rush."
+                        "{@b Dancer.} You take the {@action Dodge} or {@action Disengage} action.",
+                        "{@b Strider.} Until the start of your next turn, {@quickref difficult terrain||3} does not slow you down and your jump distance is doubled.",
+                        "{@b Striker.} You have advantage on your next attack roll before the start of your next turn."
                     ]
                 },
                 "You can use this feature a number of times equal to your Proficiency Bonus, you regain all expended uses when you finish a long rest.",
@@ -15063,14 +15072,14 @@
             "level": 10,
             "header": 2,
             "entries": [
-                "At 10th level, each of your rush forms gain additional benefits for the duration of the rush.",
+                "At 10th level, each of your rush stances gain additional benefits.",
                 {
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": [
-                        "{@b Dancer.} You can take a reaction on every turn in combat.",
-                        "{@b Strider.} You gain a climbing speed and a swimming speed equal to your walking speed.",
-                        "{@b Striker.} Your attack rolls score a critical hit on a roll of 19 or higher on the d20."
+                        "{@b Dancer.} Until the start of your next turn, you can take a reaction on each turn in combat..",
+                        "{@b Strider.} Until the start of your next turn, you gain a climbing and swimming speed equal to your walking speed.",
+                        "{@b Striker.} Until the start of your next turn, your attack rolls score a critical hit on a roll of 19 or higher on the d20."
                     ]
                 }
             ]
