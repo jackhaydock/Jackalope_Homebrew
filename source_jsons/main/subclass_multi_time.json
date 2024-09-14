@@ -230,6 +230,64 @@
 					"source": "EGW"
 				}
 			]
+		},
+		{
+			"name": "Cirlce of Sands Druid",
+			"shortName": "Sands",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Circle of Sands|Druid|PHB|Sands|J:Temporal|2",
+				"Circle of Sands Spells|Druid|PHB|Sands|J:Temporal|2",
+				"Lifelong Skill|Druid|PHB|Sands|J:Temporal|2",
+				"Aged Form|Druid|PHB|Sands|J:Temporal|2",
+				"Beast of Elsewhen|Druid|PHB|Sands|J:Temporal|6",
+				"Improved Aged Form|Druid|PHB|Sands|J:Temporal|10",
+				"Sacrificial Sands|Druid|PHB|Sands|J:Temporal|14"
+			],
+			"subclassSpells": [
+				{
+					"name": "sleep",
+					"source": "PHB"
+				},
+				{
+					"name": "shield",
+					"source": "PHB"
+				},
+				{
+					"name": "blur",
+					"source": "PHB"
+				},
+				{
+					"name": "borrowed knowledge",
+					"source": "scc"
+				},
+				{
+					"name": "bestow curse",
+					"source": "PHB"
+				},
+				{
+					"name": "haste",
+					"source": "PHB"
+				},
+				{
+					"name": "blight",
+					"source": "PHB"
+				},
+				{
+					"name": "confusion",
+					"source": "PHB"
+				},
+				{
+					"name": "commune with nature",
+					"source": "PHB"
+				},
+				{
+					"name": "modify memory",
+					"source": "PHB"
+				}
+			]
 		}
 	],
 	"subclassFeature": [
@@ -889,6 +947,185 @@
 				},
 				"{@note * This condition is described in Jackalope: General.}"
 
+			]
+		},
+		{
+			"name": "Circle of Sands",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 2,
+			"header": 1,
+			"entries": [
+				"At any point in a creature's life, infinite possibilitiess lie ahead of them, and theorectially, they could realise any one of them. But, it is also true that potentially infinite possibilies could have led them to this point, and while they may think they have only realised one such past, the others still exist.",
+				"Some druids wield the art of exploring these potential futures and pasts of a creature and drawing them into the present, even if only for little while before nature corrects itself. As such, the magic of these druids may appear to rapidly increase or decrease the ages of creatures for a short time, bringing the fraility or wisdom of age or the vigor or timidness of youth, and this is not far from what may actually be happening.",
+				{
+					"type": "inset",
+					"name": "Visual effects of your spells and features",
+					"entries": [
+						"The circle of sands are masters of manipulating age for better or worse. Consider the visual effect your spells might briefly have on targets. For example, when you cast bestow curse, the target might look old and frail with wrinkles and grey hair, or they might appear young and timid, with childlike faces. Your powers might alternativly draw upon other potential timelines, ones in which you or targets led different lives, resulting in different fashions, scars and ancestries.",
+						"Such details provide no additional effects and are purely optional, however, describing them may provide a fun way to distiguish yourself from other spellcasters."
+					]
+				}
+			]
+		},
+		{
+			"name": "Circle of Sands Spells",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"When you reach certain levels in this class, as shown on the Circle of Sands Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Circle of Sands Spells",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"2nd",
+							"{@spell sleep|phb}, {@spell shield|phb}"
+						],
+						[
+							"3rd",
+							"{@spell blur|phb}, {@spell borrowed knowledge|scc}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse|phb}, {@spell haste|phb}"
+						],
+						[
+							"7th",
+							"{@spell blight|phb}, {@spell confusion|phb}"
+						],
+						[
+							"9th",
+							"{@spell commune with nature|phb}, {@spell modify memory|phb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Lifelong Skill",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"At 2nd level, you draw upon younger or older versions of yourself, and gain proficiency in one of the following skills of your choice; acrobatics, athletics, history or religion.",
+				"Alternatively, you can instead choose to gain proficiency in one type of melee weapon, a set of artisan tools, a musical instrument or a gaming set of your choice."
+			]
+		},
+		{
+			"name": "Aged Form",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use a bonus action and expend a use of your Wild Shape feature to take on aspects of your potential past and future selves rather than transforming into a beast. You may also alter your appearance to fit your new form. This form lasts for 1 hour. It ends early if you dismiss it (no action required), if you are {@condition incapacitated|phb}, if you die, or if you use this feature again.",
+				"For the duration, you gain temporary hit points equal to twice your druid level and gain the associated benefits of one of the forms listed below (choose when you transform).",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Bold Youth",
+							"entries": [
+								"Filled with the vigor and vitality of youth, you gain a +2 bonus to Strength and Dexterity ability checks. In addition, once per turn, when you hit a creature or object with a melee attack, you can deal an addtiional {@dice 1d6} damage on a hit."
+							]
+						},
+						{
+							"name": "Cautious Youth",
+							"entries": [
+								"Filled with the timidness and caution of youth, you gain a +2 bonus to Strength and Dexterity saving throws. In addition, when you target a creature with a druid spell or cantrip, you can grant one target of the spell {@dice 1d6} temporary hit points per level of the spell ({@dice 1d6} for a cantrip)."
+							]
+						},
+						{
+							"name": "Stubborn Elder",
+							"entries": [
+								"Filled with sureness and obstinance of age, you gain a +2 bonus to Intelligence and Wisdom saving throws. In addition, you can add {@dice 1d6} bonus to saving throws made to avoid or remove the {@condition charmed} or {@condition frightened} condittions or to maintain concentration on spells."
+							]
+						},
+						{
+							"name": "Wise Elder",
+							"entries": [
+								"Filled with the knowledge and sageness of age, you gain a +2 bonus to Intelligence and Wisdom ability checks. In addition, drawing upon the memories of your new form, you can make wiser choices. When you fail an ability check, you can use a reaction to roll {@dice 1d6} and add the result to the roll."
+							]
+						}
+					]					
+				}
+			]
+		},
+		{
+			"name": "Beast of Elsewhen",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can call upon an alternate version of yourself from another potential timeline, specifically one in which you are in your Beast Form. You can cast the {@spell summon beast|tce} spell without providing a spell slot or material components. The level you cast the spell at is equal to your profieciency bonus. Damage cannot break your concentration on this spell.",
+				"The summoned beast still uses the {@creature bestial spirit|tce} statblock, except its Intelligence, Wisdom and Charisma scores equal yours and it can be of any size that is Large or smaller. You can telepathically communicate with the creature while you are within one mile of it. Finally, when you cast a druid spell with a range of touch, the bestial spirit can deliver the spell from its space, provided you are within 120 feet of it.",
+				"Once you use this feature, you cannot do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Improved Aged Form",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, your Aged Forms become more powerful.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"items": [
+						"The +2 bonuses granted by the form increase to +4.",
+						"When a benefit from your Aged Form allows you to roll {@dice d6s}, you can roll {@dice d8s} instead.",
+						"When you use your Aged Form feature, you can expend an additional use of Wild Shape to also use Wild Shape with the same bonus action, gaining the benefits of both features for their respective durations."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sacrificial Sands",
+			"source": "J:Temporal",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Sands",
+			"subclassSource": "J:Temporal",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can sacrifice your future for your present. When you are reduced to 0 hit points, you can choose to roll any number of {@dice d8}s up to your Proficiency Bonus, regaining that many hit points instead of falling unconscious. Your maximum hit points are reduced by the same amount until you finish your next long rest. You also age a number of years equal to the number of dice you rolled.",
+				"Once you use this feature, you cannot do so again until you finish a long rest."
 			]
 		}
 	]
