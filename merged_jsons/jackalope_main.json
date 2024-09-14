@@ -193,7 +193,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.05.23.19.28",
+                "version": "2024.09.14.14.13",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,13 +490,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.07.26.17.08",
+                "version": "2024.09.14.14.07",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1722013700.6762798
+        "dateLastModified": 1726323212.8180008
     },
     "class": [
         {
@@ -7088,7 +7088,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "bonus"
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a creature with a weapon or an unarmed strike"
                 }
             ],
             "range": {
@@ -7102,16 +7103,11 @@
             },
             "duration": [
                 {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+                    "type": "instant"
                 }
             ],
             "entries": [
-                "The next time you hit a creature with a melee weapon attack during the spell's duration, your weapon emits a burst of caustic acid, and the attack deals an extra {@dice 1d6} acid damage to the target. Each creature other than you that is within 5 feet of the target (including the target) must make a Dexterity saving throw. A creature takes {@dice 1d6} acid damage on a failed save, or half as much damage on a successful one."
+                "As you hit the creature, your weapon emits a burst of caustic acid, and the attack deals an extra {@dice 1d6} acid damage to the target. Each creature other than you that is within 5 feet of the target (including the target) must make a Dexterity saving throw. A creature takes {@dice 1d6} acid damage on a failed save, or half as much damage on a successful one."
             ],
             "entriesHigherLevel": [
                 {
@@ -7267,7 +7263,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "bonus"
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a creature with a weapon or an unarmed strike"
                 }
             ],
             "range": {
@@ -7290,7 +7287,7 @@
                 }
             ],
             "entries": [
-                "The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be {@condition silenced|j:general} until the spell ends."
+                "As you hit the creature, your weapon utters a harsh, shushing noise, and the attack deals an extra {@dice 2d6} psychic damage to the target. Additionally, the target must succeed on a Charisma saving throw or be {@condition silenced|j:general} until the spell ends."
             ],
             "classes": {
                 "fromClassList": [
@@ -7754,7 +7751,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "bonus action"
+                    "unit": "bonus",
+                    "condition": "which you take immediately after hitting a creature with a weapon or an unarmed strike"
                 }
             ],
             "range": {
@@ -7778,7 +7776,7 @@
                 }
             ],
             "entries": [
-                "The next time you hit a creature with a weapon attack, the attack deals an additional {@dice 1d6} psychic damage and the creature must make a Wisdom saving throw. Beasts, monstrosities and plants have disadvantage on this saving throw. On a fail, the creature is {@condition taunted|J:general} by you for the spell's duration. The creature can repeat the saving throw at the end of each of its turns or whenever it takes damage from a creature other than you, removing the condition on a success."
+                "As you hit the creature, the attack deals an additional {@dice 1d6} psychic damage and the creature must make a Wisdom saving throw. Beasts, monstrosities and plants have disadvantage on this saving throw. On a fail, the creature is {@condition taunted|J:general} by you for the spell's duration. The creature can repeat the saving throw at the end of each of its turns or whenever it takes damage from a creature other than you, removing the condition on a success."
             ],
             "entriesHigherLevel": [
                 {
@@ -7810,7 +7808,8 @@
             "time": [
                 {
                     "number": 1,
-                    "unit": "bonus action"
+                    "unit": "bonus action",
+                    "condition": "which you take immediately after hitting a creature with a weapon or an unarmed strike"
                 }
             ],
             "range": {
@@ -7825,16 +7824,11 @@
             },
             "duration": [
                 {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
+                    "type": "instant"
                 }
             ],
             "entries": [
-                "The next time you hit a creature with a weapon attack, and that creature is within 5 feet of a surface, such as the ground or a wall, a plant erupts from the surface, striking the target before wilting and disappearing. The target takes an addtional {@dice 1d6} bludgeoning damage from the attack and must make a Strength saving throw. On a fail, the target is pushed 10 feet directly away from the surface. If multiple valid surfaces exist you choose which one the plant erupts from."
+                "As you hit the creature and that creature is within 5 feet of a surface, such as the ground or a wall, a plant erupts from the surface, striking the target before wilting and disappearing. The target takes an addtional {@dice 1d6} bludgeoning damage from the attack and must make a Strength saving throw. On a fail, the target is pushed 10 feet directly away from the surface. If multiple valid surfaces exist you choose which one the plant erupts from."
             ],
             "entriesHigherLevel": [
                 {

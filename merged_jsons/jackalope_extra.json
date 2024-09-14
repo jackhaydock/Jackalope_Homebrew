@@ -1,18 +1,7 @@
 {
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
     "_meta": {
         "sources": [
-            {
-                "json": "JPP",
-                "abbreviation": "J:Partypack",
-                "color": "9bff00",
-                "full": "Jackalope: Partypack",
-                "authors": [
-                    "Jackalope"
-                ],
-                "version": "2023.12.10.17.25",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
             {
                 "json": "J:Caf\ufffd\ufffdy",
                 "abbreviation": "J:Caf\ufffd\ufffdy",
@@ -78,247 +67,171 @@
                 "version": "2024.06.09.14.48",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "JPP",
+                "abbreviation": "J:Partypack",
+                "color": "9bff00",
+                "full": "Jackalope: Partypack",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "2024.09.14.14.13",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1722013700.0230453
+        "dateLastModified": 1726323212.1101203
     },
-    "race": [
-        {
-            "name": "Mutated Lacertal (Beep)",
-            "source": "JPP",
-            "alias": [
-                "Bird",
-                "Dinosaur",
-                "Beep",
-                "Shifting Tides"
-            ],
-            "lineage": "VRGR",
-            "skillProficiencies": [
-                {
-                    "perception": true
-                }
-            ],
-            "creatureTypes": [
-                "humanoid"
-            ],
-            "size": [
-                "M",
-                "S"
-            ],
-            "speed": {
-                "walk": 30,
-                "fly": 30
-            },
-            "additionalSpells": [
-                {
-                    "ability": {
-                        "choose": [
-                            "int",
-                            "wis",
-                            "cha"
-                        ]
-                    },
-                    "known": {
-                        "1": {
-                            "_": [
-                                {
-                                    "choose": "level=0|group=primal"
-                                }
-                            ]
-                        }
-                    }
-                }
-            ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Winged Form",
-                    "entries": [
-                        "You have a flying speed equal to your movement speed."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Malformed Wings",
-                    "entries": [
-                        "You fall at the end of your turn if you are airborne and the only thing holding you aloft is your flying speed."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Divine Magic",
-                    "page": 8,
-                    "entries": [
-                        "Your exposure to the magic of Delamir has given you some innate spellcasting, connected to the elements. You know one cantrip from the {@filter Primal Spell list|spells|level=0|group=primal}. Whenever you finish a Long Rest, you can replace that spell with a different one from the Primal Spell list.",
-                        "Intelligence, Wisdom or Charisma is your spellcasting ability for any spell you cast with this trait (choose when you select this species)."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Keen Senses",
-                    "page": 8,
-                    "entries": [
-                        "You have Proficiency in the {@skill Perception} Skill."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Tempestborn (Zintrin)",
-            "source": "JPP",
-            "alias": [
-                "Aasimar",
-                "Half-Elf",
-                "Zintrin",
-                "Shifting Tides"
-            ],
-            "lineage": "VRGR",
-            "size": [
-                "S",
-                "M"
-            ],
-            "speed": 30,
-            "darkvision": 60,
-            "resist": [
-                "lightning",
-                "thunder"
-            ],
-            "additionalSpells": [
-                {
-                    "ability": {
-                        "choose": [
-                            "int",
-                            "wis",
-                            "cha"
-                        ]
-                    },
-                    "known": {
-                        "1": [
-                            "light#c"
-                        ]
-                    }
-                }
-            ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Tempestborn Resistance",
-                    "entries": [
-                        "You have resistance to lightning damage and thunder damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Healing Hands",
-                    "entries": [
-                        "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Light Bearer",
-                    "entries": [
-                        "You know the {@spell light} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for this cantrip (choose when you select this species)."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Fulgur's Fury",
-                    "entries": [
-                        "When you reach 3rd level, you can use a bonus action to unleash the divine lightning within yourself, causing arcs of lightning to emenate from you. Your transformation lasts for 1 minute or until you end it as a bonus action.",
-                        "During your transformation, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes lightning damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra lightning damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
-                        "Once you use this trait, you can't use it again until you finish a long rest."
-                    ]
-                }
-            ],
-            "hasFluff": true,
-            "hasFluffImages": true,
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "anyStandard": 1
-                }
-            ]
-        },
-        {
-            "name": "Otterfolk (Broddah)",
-            "source": "JPP",
-            "alias": [
-                "Otter",
-                "Broddah",
-                "The Sea of Cyranos"
-            ],
-            "lineage": "VRGR",
-            "size": [
-                "S",
-                "M"
-            ],
-            "speed": {
-                "walk": 30,
-                "swim": 30
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Aquatic Affinity",
-                    "entries": [
-                        "Adapting effortlessly to water, you can hold your breath for up to 10 minutes and have a swimming speed equal to your walking speed. In addition, you can see up to 30 feet in murky water as if it were clear."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Au Naturel",
-                    "entries": [
-                        "You are proficient in the {@skill nature} skill."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Furious Claws",
-                    "entries": [
-                        "Your retractable claws are natural weapons, which you can use to make unarmed strikes. If you hit with such an attack, you inflict slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after dealing damage in this way you can make a second attack with them as a bonus action."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Rolling Stone",
-                    "entries": [
-                        "You are proficient with vehicles."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Shake It Off",
-                    "entries": [
-                        "When you make a saving throw to avoid the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned} or {@condition stunned} condition, you may use a reaction to give yourself advantage on the roll."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Water Diviner",
-                    "entries": [
-                        "You inherently know in which direction and how far away to find the nearest major bodies of water, even deep underground. Otterfolk can often be found in the greater world as hired dowsers"
-                    ]
-                }
-            ],
-            "hasFluff": true,
-            "hasFluffImages": true,
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "anyStandard": 1
-                }
-            ]
-        }
-    ],
     "item": [
+        {
+            "name": "Mugbear",
+            "source": "J:Caf\ufffd\ufffdy",
+            "wondrous": true,
+            "rarity": "common",
+            "entries": [
+                "This miraculous mug can be picked up from up to 10 feet away without needing to lean or move toward it."
+            ]
+        },
+        {
+            "name": "Leomund's Tiny Cup",
+            "source": "J:Caf\ufffd\ufffdy",
+            "wondrous": true,
+            "rarity": "common",
+            "entries": [
+                "This tiny cup holds about a thimble's worth of drink. The drink is always the perfect temperature and briefly fills you with a comforting warmth when you drink it."
+            ]
+        },
+        {
+            "name": "Yeast Sense",
+            "source": "J:Caf\ufffd\ufffdy",
+            "type": "P",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "This thick, brothy beer tastes like bread. The first time you see a piece of bread after drinking this beer, you percieve the world as if you were the bread, seeing and hearing from its space. While doing so, you are {@condition blinded} and {@condition deafened} to your own surroundings. These effects last for 1 minute or until you take damage."
+            ]
+        },
+        {
+            "name": "Cause Beer",
+            "source": "J:Caf\ufffd\ufffdy",
+            "type": "P",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
+            ]
+        },
+        {
+            "name": "Potion of MADNESS",
+            "type": "P",
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
+            ]
+        },
+        {
+            "name": "MADNESS Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
+                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanitheys from your skin."
+            ]
+        },
+        {
+            "name": "+1 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
+            "entries": [
+                "You have a +1 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+2 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "rare",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d7 + 1}",
+            "charges": 7,
+            "entries": [
+                "You have a +2 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+3 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "very rare",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
+            "entries": [
+                "You have a +3 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+1 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
+            "entries": [
+                "You have a +1 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+2 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 1}",
+            "charges": 7,
+            "entries": [
+                "You have a +2 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+3 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
+            "entries": [
+                "You have a +3 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
         {
             "name": "Xerc's Tin Foil Hat",
             "wondrous": true,
@@ -562,551 +475,9 @@
             "entries": [
                 "This ornate black and silver musket was given to Bonnie O'Flynn by a late friend. It has cleary seen much use, as well as many repairs and modifications throughout the years. It also features the name 'Amanda' crudely carved into the stock."
             ]
-        },
-        {
-            "name": "Mugbear",
-            "source": "J:Caf\ufffd\ufffdy",
-            "wondrous": true,
-            "rarity": "common",
-            "entries": [
-                "This miraculous mug can be picked up from up to 10 feet away without needing to lean or move toward it."
-            ]
-        },
-        {
-            "name": "Leomund's Tiny Cup",
-            "source": "J:Caf\ufffd\ufffdy",
-            "wondrous": true,
-            "rarity": "common",
-            "entries": [
-                "This tiny cup holds about a thimble's worth of drink. The drink is always the perfect temperature and briefly fills you with a comforting warmth when you drink it."
-            ]
-        },
-        {
-            "name": "Yeast Sense",
-            "source": "J:Caf\ufffd\ufffdy",
-            "type": "P",
-            "wondrous": true,
-            "rarity": "uncommon",
-            "entries": [
-                "This thick, brothy beer tastes like bread. The first time you see a piece of bread after drinking this beer, you percieve the world as if you were the bread, seeing and hearing from its space. While doing so, you are {@condition blinded} and {@condition deafened} to your own surroundings. These effects last for 1 minute or until you take damage."
-            ]
-        },
-        {
-            "name": "Cause Beer",
-            "source": "J:Caf\ufffd\ufffdy",
-            "type": "P",
-            "wondrous": true,
-            "rarity": "uncommon",
-            "entries": [
-                "This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
-            ]
-        },
-        {
-            "name": "Potion of MADNESS",
-            "type": "P",
-            "rarity": "rare",
-            "source": "J:MADNESS",
-            "entries": [
-                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
-            ]
-        },
-        {
-            "name": "MADNESS Tattoo",
-            "wondrous": true,
-            "tattoo": true,
-            "rarity": "rare",
-            "source": "J:MADNESS",
-            "entries": [
-                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
-                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanitheys from your skin."
-            ]
-        },
-        {
-            "name": "+1 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d4 + 1}",
-            "charges": 5,
-            "entries": [
-                "You have a +1 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+2 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "rare",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d7 + 1}",
-            "charges": 7,
-            "entries": [
-                "You have a +2 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+3 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "very rare",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d8 + 1}",
-            "charges": 9,
-            "entries": [
-                "You have a +3 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+1 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d4 + 1}",
-            "charges": 5,
-            "entries": [
-                "You have a +1 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+2 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 1}",
-            "charges": 7,
-            "entries": [
-                "You have a +2 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+3 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d8 + 1}",
-            "charges": 9,
-            "entries": [
-                "You have a +3 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
         }
     ],
     "monster": [
-        {
-            "name": "Bomber",
-            "source": "JPP",
-            "isNamedCreature": true,
-            "size": [
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "dwarf",
-                    "Retainer"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "light armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
-            },
-            "resist": [
-                "poison"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "str": 10,
-            "dex": 16,
-            "con": 12,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "str": "+PB",
-                "dex": "+PB",
-                "con": "+PB",
-                "int": "+PB",
-                "wis": "+PB",
-                "cha": "+PB"
-            },
-            "skill": {
-                "acrobatics": "+3 plus PB",
-                "stealth": "+0 plus PB"
-            },
-            "passive": 11,
-            "languages": [
-                "Common",
-                "Dwarvish"
-            ],
-            "pbNote": "equals the mentor's bonus",
-            "trait": [
-                {
-                    "name": "Retainer",
-                    "entries": [
-                        "Bomber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
-                    ]
-                },
-                {
-                    "name": "Dwarven Resiliance",
-                    "entries": [
-                        "Bomber has advantage on saving throws against poison."
-                    ]
-                },
-                {
-                    "name": "Follower of Tresmed",
-                    "entries": [
-                        "Bomber acknowledges many gods, but primarily follows Tresmed, the Litinvr god of woodworking. Bomber has proficiency with {@item woodcarver's tools|phb}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Signature Attack (Longbow)",
-                    "entries": [
-                        "{@atk rw} {@hit 3 plus PB} to hit, range 150/600 ft., one target. {@h}{@damage 1d8 plus PB} piercing damage.",
-                        "Beginning at 7th level, bomber can make this attack twice, instead of once, when they take the Attack action on their turn."
-                    ]
-                },
-                {
-                    "name": "5th Level: Special Shot (5/Day)",
-                    "entries": [
-                        "Bomber makes a signature attack against all creatures in 20-foot cone or 30-foot line."
-                    ]
-                },
-                {
-                    "name": "7th Level: Arcane Arrowsmith (3/Day)",
-                    "entries": [
-                        "Using woodcarver's tools, Bomber touches a nonmagical arrow and turn it into a {@filter random uncommon trick arrow|items|source=j:ammo|type=!modern;!futuristic|rarity=uncommon|category=|base item=arrow__phb}. The arrow remains magical until used, or until the next dawn. The arrow can be given to other creatures, they instinctively know the arrows will become mundane at the next dawn."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "3rd Level: Acrobatic Archer (3/Day)",
-                    "entries": [
-                        "As a bonus action, Bomber jumps up to 5xPB feet without provoking opportunity attacks. During this jump, Bomber can make a signature attack. If Bomber is above the target, this attack has advantage. On a hit, this attack deals PB extra damage."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C",
-                "D"
-            ],
-            "damageTags": [
-                "P"
-            ]
-        },
-        {
-            "name": "Gomber",
-            "source": "JPP",
-            "isNamedCreature": true,
-            "size": [
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "dwarf",
-                    "Retainer"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "medium armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
-            },
-            "resist": [
-                "poison"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "str": 12,
-            "dex": 10,
-            "con": 12,
-            "int": 10,
-            "wis": 16,
-            "cha": 10,
-            "save": {
-                "str": "+PB",
-                "dex": "+PB",
-                "con": "+PB",
-                "int": "+PB",
-                "wis": "+PB",
-                "cha": "+PB"
-            },
-            "skill": {
-                "nature": "+0 plus PB",
-                "survival": "+3 plus PB"
-            },
-            "passive": 13,
-            "languages": [
-                "Common",
-                "Dwarvish"
-            ],
-            "pbNote": "equals the mentor's bonus",
-            "trait": [
-                {
-                    "name": "Retainer",
-                    "entries": [
-                        "Gomber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
-                    ]
-                },
-                {
-                    "name": "Dwarven Resiliance",
-                    "entries": [
-                        "Gomber has advantage on saving throws against poison."
-                    ]
-                },
-                {
-                    "name": "Follower of Olga",
-                    "entries": [
-                        "Gomber acknowledges many gods, but primarily follows Olga, the Litinvr god of feasting. Gomber has proficiency with brewer's supplies."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Signature Attack (Hop Vine Whip)",
-                    "entries": [
-                        "{@atk ms} {@hit 3 plus PB} to hit, reach 30 ft., one target. {@h}{@damage 1d6} piercing damage and a Large or smaller target is pulled 10 feet towards Gomber.",
-                        "Beginning at 7th level, Gomber deals an additional {@dice 1d6} with this attack."
-                    ]
-                },
-                {
-                    "name": "5th Level: Magic Drinks (3/Day)",
-                    "entries": [
-                        "Gomber casts one of the following spells at 2nd-level; {@spell cure wounds|phb}, {@spell entangle|phb}, {@spell goodberry|phb} or {@spell lesser restoration|phb}.",
-                        "Wisdom is their spellcasting ability, and these spells often take forms associated with drinking and feasting. For example, goodberry might appear as small drinks while entangle might appear as hop vines or spectral feasters."
-                    ]
-                },
-                {
-                    "name": "7th Level: WIP",
-                    "entries": [
-                        "Gomber will figure out their shit one day."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "3rd Level: Skinchange (3/Day)",
-                    "entries": [
-                        "As a bonus action,  Gomber transforms into a more bestial form for the next hour, or until they are reduced to 0 hit points. Gomber chooses the appearance of their new form, however, their statistics do not change, except they can choose to become Small or Medium and they gain two of the following additional effects for the duration of the form:",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "name": "Keen Senses",
-                                    "entries": [
-                                        "Gomber gains advantage on Wisdom (Perception) checks."
-                                    ]
-                                },
-                                {
-                                    "name": "Natural Weapons",
-                                    "entries": [
-                                        "Gomber's unarmed strikes use Wisdom in place of Strength for the attack roll. On a hit, the attack deals 1d8 + PB bludgeoning, piercing or slashing damage depending on the nature of the weapons.",
-                                        "Beginning at 7th level, Gomber can make two unarmed strikes when they take the Attack action while in skinchange form, and these attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
-                                    ]
-                                },
-                                {
-                                    "name": "Hulking Frame",
-                                    "entries": [
-                                        "Gomber becomes Large and has advantage on Strength checks. This effect cannot be chosen at the same time as Tiny Frame."
-                                    ]
-                                },
-                                {
-                                    "name": "Scrambler",
-                                    "entries": [
-                                        "Gomber gains a climbing speed equal to their walking speed and their jump distance is doubled."
-                                    ]
-                                },
-                                {
-                                    "name": "Swimmer",
-                                    "entries": [
-                                        "Gomber gains a swimming speed equal to their walking speed and they can breathe underwater."
-                                    ]
-                                },
-                                {
-                                    "name": "Tiny Frame",
-                                    "entries": [
-                                        "Gomber becomes Tiny and has advantage on Dexterity checks. This effect cannot be chosen at the same time as Hulking Frame."
-                                    ]
-                                },
-                                {
-                                    "name": "Tough Hide",
-                                    "entries": [
-                                        "Gomber gains temporary hit points equal to three times their level. They lose these temporary hit points when the skinchange ends."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C",
-                "D"
-            ],
-            "damageTags": [
-                "P"
-            ]
-        },
-        {
-            "name": "Somber",
-            "source": "JPP",
-            "isNamedCreature": true,
-            "size": [
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "dwarf",
-                    "Retainer"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "medium armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
-            },
-            "resist": [
-                "poison"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "str": 16,
-            "dex": 10,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 12,
-            "save": {
-                "str": "+PB",
-                "dex": "+PB",
-                "con": "+PB",
-                "int": "+PB",
-                "wis": "+PB",
-                "cha": "+PB"
-            },
-            "skill": {
-                "intimidation": "+1 plus PB",
-                "religion": "+0 plus PB"
-            },
-            "passive": 11,
-            "languages": [
-                "Common",
-                "Dwarvish"
-            ],
-            "pbNote": "equals the mentor's bonus",
-            "trait": [
-                {
-                    "name": "Retainer",
-                    "entries": [
-                        "Somber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
-                    ]
-                },
-                {
-                    "name": "Dwarven Resiliance",
-                    "entries": [
-                        "Somber has advantage on saving throws against poison."
-                    ]
-                },
-                {
-                    "name": "Follower of Skjalver",
-                    "entries": [
-                        "Somber acknowledges many gods, but primarily follows Skjalver, the Imiskr god of death. Somber also has proficiency with {@item body modder's tools|J:General}."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Signature Attack (Longshoreman's Hook)",
-                    "entries": [
-                        "{@atk mw} {@hit 3 plus PB} to hit, reach 5 ft., one target. {@h}{@damage 2d4 plus PB} piercing damage. Alternatively, on a hit, Somber can forgo damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw against the attack roll or fall @{condition prone|phb}.",
-                        "Beginning at 7th level, Somber can make this attack twice, instead of once, when they take the Attack action on their turn."
-                    ]
-                },
-                {
-                    "name": "3rd Level: Death Smite (3/Day)",
-                    "entries": [
-                        "When Somber hits a creature with a signature attack, they can deal an additional PBd6 necrotic damage."
-                    ]
-                },
-                {
-                    "name": "5th Level: Fear of Death (3/Day)",
-                    "entries": [
-                        "Somber chooses PB creatures that they can see within 30 feet. Each creature must make a DC 10 plus PB Wisdom saving throw or become {@condition frightened} of somber for 1 minute (save ends at end of turn). Somber has advantage on attack rolls against creatures frightened by them."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "7th Level: Bolstering Aura (3/Day)",
-                    "entries": [
-                        "When a creature Somber can see within 30 feet makes a saving throw, Somber can use a reaction to grant them a PB bonus to the saving throw."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C",
-                "D"
-            ],
-            "damageTags": [
-                "P"
-            ]
-        },
         {
             "name": "Aisling (Young)",
             "source": "J:MADNESS",
@@ -1934,221 +1305,402 @@
                     ]
                 }
             ]
-        }
-    ],
-    "vehicle": [
+        },
         {
-            "name": "Holo Holo",
+            "name": "Bomber",
             "source": "JPP",
-            "vehicleType": "SHIP",
-            "size": "H",
-            "dimensions": [
-                "20 ft.",
-                "10 ft."
+            "isNamedCreature": true,
+            "size": [
+                "M"
             ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 2,
-            "capPassenger": 4,
-            "capCargo": 0.5,
-            "pace": 4,
-            "str": 12,
-            "dex": 10,
-            "con": 11,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "hull": {
-                "ac": 12,
-                "hp": 100,
-                "dt": 10
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "dwarf",
+                    "Retainer"
+                ]
             },
-            "control": [
+            "alignment": [
+                "A"
+            ],
+            "ac": [
                 {
-                    "name": "Helm",
-                    "ac": 12,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    "ac": 13,
+                    "from": [
+                        "light armor"
                     ]
                 }
             ],
-            "movement": [
+            "hp": {
+                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
+            },
+            "resist": [
+                "poison"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+PB",
+                "dex": "+PB",
+                "con": "+PB",
+                "int": "+PB",
+                "wis": "+PB",
+                "cha": "+PB"
+            },
+            "skill": {
+                "acrobatics": "+3 plus PB",
+                "stealth": "+0 plus PB"
+            },
+            "passive": 11,
+            "languages": [
+                "Common",
+                "Dwarvish"
+            ],
+            "pbNote": "equals the mentor's bonus",
+            "trait": [
                 {
-                    "name": "Oars",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "20 ft. (requires at least 2 crew)"
-                            ]
-                        }
+                    "name": "Retainer",
+                    "entries": [
+                        "Bomber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
                     ]
                 },
                 {
-                    "name": "Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 20 damage taken ",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
-                            ]
-                        }
+                    "name": "Dwarven Resiliance",
+                    "entries": [
+                        "Bomber has advantage on saving throws against poison."
+                    ]
+                },
+                {
+                    "name": "Follower of Tresmed",
+                    "entries": [
+                        "Bomber acknowledges many gods, but primarily follows Tresmed, the Litinvr god of woodworking. Bomber has proficiency with {@item woodcarver's tools|phb}."
                     ]
                 }
             ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 1,
-                "2": 2
-            },
             "action": [
-                "On its turn, the catamaran can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than two crew. It can't take these actions if it has no crew.",
                 {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Move.",
-                            "entry": "The ship can use its helm to move with its oars or sails."
-                        }
+                    "name": "Signature Attack (Longbow)",
+                    "entries": [
+                        "{@atk rw} {@hit 3 plus PB} to hit, range 150/600 ft., one target. {@h}{@damage 1d8 plus PB} piercing damage.",
+                        "Beginning at 7th level, bomber can make this attack twice, instead of once, when they take the Attack action on their turn."
+                    ]
+                },
+                {
+                    "name": "5th Level: Special Shot (5/Day)",
+                    "entries": [
+                        "Bomber makes a signature attack against all creatures in 20-foot cone or 30-foot line."
+                    ]
+                },
+                {
+                    "name": "7th Level: Arcane Arrowsmith (3/Day)",
+                    "entries": [
+                        "Using woodcarver's tools, Bomber touches a nonmagical arrow and turn it into a {@filter random uncommon trick arrow|items|source=j:ammo|type=!modern;!futuristic|rarity=uncommon|category=|base item=arrow__phb}. The arrow remains magical until used, or until the next dawn. The arrow can be given to other creatures, they instinctively know the arrows will become mundane at the next dawn."
                     ]
                 }
+            ],
+            "bonus": [
+                {
+                    "name": "3rd Level: Acrobatic Archer (3/Day)",
+                    "entries": [
+                        "As a bonus action, Bomber jumps up to 5xPB feet without provoking opportunity attacks. During this jump, Bomber can make a signature attack. If Bomber is above the target, this attack has advantage. On a hit, this attack deals PB extra damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "D"
+            ],
+            "damageTags": [
+                "P"
             ]
         },
         {
-            "name": "Lesboat",
+            "name": "Gomber",
             "source": "JPP",
-            "vehicleType": "SHIP",
-            "size": "G",
-            "dimensions": [
-                "25 ft.",
-                "10 ft."
+            "isNamedCreature": true,
+            "size": [
+                "M"
             ],
-            "terrain": [
-                "sea"
-            ],
-            "capCrew": 4,
-            "capPassenger": 8,
-            "capCargo": 1,
-            "pace": 4,
-            "str": 16,
-            "dex": 8,
-            "con": 13,
-            "int": 0,
-            "wis": 0,
-            "cha": 0,
-            "immune": [
-                "poison",
-                "psychic"
-            ],
-            "conditionImmune": [
-                "blinded",
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "frightened",
-                "incapacitated",
-                "paralyzed",
-                "petrified",
-                "poisoned",
-                "prone",
-                "stunned",
-                "unconscious"
-            ],
-            "hull": {
-                "ac": 15,
-                "hp": 150,
-                "dt": 10
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "dwarf",
+                    "Retainer"
+                ]
             },
-            "control": [
+            "alignment": [
+                "A"
+            ],
+            "ac": [
                 {
-                    "name": "Helm",
-                    "ac": 12,
-                    "hp": 50,
-                    "entries": [
-                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    "ac": 15,
+                    "from": [
+                        "medium armor"
                     ]
                 }
             ],
-            "movement": [
+            "hp": {
+                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
+            },
+            "resist": [
+                "poison"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 10,
+            "con": 12,
+            "int": 10,
+            "wis": 16,
+            "cha": 10,
+            "save": {
+                "str": "+PB",
+                "dex": "+PB",
+                "con": "+PB",
+                "int": "+PB",
+                "wis": "+PB",
+                "cha": "+PB"
+            },
+            "skill": {
+                "nature": "+0 plus PB",
+                "survival": "+3 plus PB"
+            },
+            "passive": 13,
+            "languages": [
+                "Common",
+                "Dwarvish"
+            ],
+            "pbNote": "equals the mentor's bonus",
+            "trait": [
                 {
-                    "name": "Oars",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 25 damage taken",
-                    "speed": [
-                        {
-                            "mode": "water",
-                            "entries": [
-                                "20 ft. (requires at least 2 crew)"
-                            ]
-                        }
+                    "name": "Retainer",
+                    "entries": [
+                        "Gomber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
                     ]
                 },
                 {
-                    "name": "Sails",
-                    "ac": 12,
-                    "hp": 100,
-                    "hpNote": "-5 ft. speed per 20 damage taken ",
-                    "speed": [
+                    "name": "Dwarven Resiliance",
+                    "entries": [
+                        "Gomber has advantage on saving throws against poison."
+                    ]
+                },
+                {
+                    "name": "Follower of Olga",
+                    "entries": [
+                        "Gomber acknowledges many gods, but primarily follows Olga, the Litinvr god of feasting. Gomber has proficiency with brewer's supplies."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Signature Attack (Hop Vine Whip)",
+                    "entries": [
+                        "{@atk ms} {@hit 3 plus PB} to hit, reach 30 ft., one target. {@h}{@damage 1d6} piercing damage and a Large or smaller target is pulled 10 feet towards Gomber.",
+                        "Beginning at 7th level, Gomber deals an additional {@dice 1d6} with this attack."
+                    ]
+                },
+                {
+                    "name": "5th Level: Magic Drinks (3/Day)",
+                    "entries": [
+                        "Gomber casts one of the following spells at 2nd-level; {@spell cure wounds|phb}, {@spell entangle|phb}, {@spell goodberry|phb} or {@spell lesser restoration|phb}.",
+                        "Wisdom is their spellcasting ability, and these spells often take forms associated with drinking and feasting. For example, goodberry might appear as small drinks while entangle might appear as hop vines or spectral feasters."
+                    ]
+                },
+                {
+                    "name": "7th Level: WIP",
+                    "entries": [
+                        "Gomber will figure out their shit one day."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "3rd Level: Skinchange (3/Day)",
+                    "entries": [
+                        "As a bonus action,  Gomber transforms into a more bestial form for the next hour, or until they are reduced to 0 hit points. Gomber chooses the appearance of their new form, however, their statistics do not change, except they can choose to become Small or Medium and they gain two of the following additional effects for the duration of the form:",
                         {
-                            "mode": "water",
-                            "entries": [
-                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Keen Senses",
+                                    "entries": [
+                                        "Gomber gains advantage on Wisdom (Perception) checks."
+                                    ]
+                                },
+                                {
+                                    "name": "Natural Weapons",
+                                    "entries": [
+                                        "Gomber's unarmed strikes use Wisdom in place of Strength for the attack roll. On a hit, the attack deals 1d8 + PB bludgeoning, piercing or slashing damage depending on the nature of the weapons.",
+                                        "Beginning at 7th level, Gomber can make two unarmed strikes when they take the Attack action while in skinchange form, and these attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+                                    ]
+                                },
+                                {
+                                    "name": "Hulking Frame",
+                                    "entries": [
+                                        "Gomber becomes Large and has advantage on Strength checks. This effect cannot be chosen at the same time as Tiny Frame."
+                                    ]
+                                },
+                                {
+                                    "name": "Scrambler",
+                                    "entries": [
+                                        "Gomber gains a climbing speed equal to their walking speed and their jump distance is doubled."
+                                    ]
+                                },
+                                {
+                                    "name": "Swimmer",
+                                    "entries": [
+                                        "Gomber gains a swimming speed equal to their walking speed and they can breathe underwater."
+                                    ]
+                                },
+                                {
+                                    "name": "Tiny Frame",
+                                    "entries": [
+                                        "Gomber becomes Tiny and has advantage on Dexterity checks. This effect cannot be chosen at the same time as Hulking Frame."
+                                    ]
+                                },
+                                {
+                                    "name": "Tough Hide",
+                                    "entries": [
+                                        "Gomber gains temporary hit points equal to three times their level. They lose these temporary hit points when the skinchange ends."
+                                    ]
+                                }
                             ]
                         }
                     ]
                 }
             ],
-            "actionThresholds": {
-                "0": 0,
-                "1": 2,
-                "2": 4
+            "languageTags": [
+                "C",
+                "D"
+            ],
+            "damageTags": [
+                "P"
+            ]
+        },
+        {
+            "name": "Somber",
+            "source": "JPP",
+            "isNamedCreature": true,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "dwarf",
+                    "Retainer"
+                ]
             },
-            "action": [
-                "On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+            "alignment": [
+                "A"
+            ],
+            "ac": [
                 {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Move.",
-                            "entry": "The ship can use its helm to move with its oars or sails."
-                        }
+                    "ac": 15,
+                    "from": [
+                        "medium armor"
                     ]
                 }
+            ],
+            "hp": {
+                "special": "Eight times their level (number of d10 Hit Dice equal to their level)"
+            },
+            "resist": [
+                "poison"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 10,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 12,
+            "save": {
+                "str": "+PB",
+                "dex": "+PB",
+                "con": "+PB",
+                "int": "+PB",
+                "wis": "+PB",
+                "cha": "+PB"
+            },
+            "skill": {
+                "intimidation": "+1 plus PB",
+                "religion": "+0 plus PB"
+            },
+            "passive": 11,
+            "languages": [
+                "Common",
+                "Dwarvish"
+            ],
+            "pbNote": "equals the mentor's bonus",
+            "trait": [
+                {
+                    "name": "Retainer",
+                    "entries": [
+                        "Somber is a retainer, as described on page 9 of Flee Mortals! by MCDM Productions."
+                    ]
+                },
+                {
+                    "name": "Dwarven Resiliance",
+                    "entries": [
+                        "Somber has advantage on saving throws against poison."
+                    ]
+                },
+                {
+                    "name": "Follower of Skjalver",
+                    "entries": [
+                        "Somber acknowledges many gods, but primarily follows Skjalver, the Imiskr god of death. Somber also has proficiency with {@item body modder's tools|J:General}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Signature Attack (Longshoreman's Hook)",
+                    "entries": [
+                        "{@atk mw} {@hit 3 plus PB} to hit, reach 5 ft., one target. {@h}{@damage 2d4 plus PB} piercing damage. Alternatively, on a hit, Somber can forgo damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw against the attack roll or fall @{condition prone|phb}.",
+                        "Beginning at 7th level, Somber can make this attack twice, instead of once, when they take the Attack action on their turn."
+                    ]
+                },
+                {
+                    "name": "3rd Level: Death Smite (3/Day)",
+                    "entries": [
+                        "When Somber hits a creature with a signature attack, they can deal an additional PBd6 necrotic damage."
+                    ]
+                },
+                {
+                    "name": "5th Level: Fear of Death (3/Day)",
+                    "entries": [
+                        "Somber chooses PB creatures that they can see within 30 feet. Each creature must make a DC 10 plus PB Wisdom saving throw or become {@condition frightened} of somber for 1 minute (save ends at end of turn). Somber has advantage on attack rolls against creatures frightened by them."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "7th Level: Bolstering Aura (3/Day)",
+                    "entries": [
+                        "When a creature Somber can see within 30 feet makes a saving throw, Somber can use a reaction to grant them a PB bonus to the saving throw."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "D"
+            ],
+            "damageTags": [
+                "P"
             ]
         }
     ],
-    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
     "class": [
         {
             "name": "Lorehunter (WIP)",
@@ -4288,6 +3840,454 @@
                     }
                 ]
             }
+        }
+    ],
+    "race": [
+        {
+            "name": "Mutated Lacertal (Beep)",
+            "source": "JPP",
+            "alias": [
+                "Bird",
+                "Dinosaur",
+                "Beep",
+                "Shifting Tides"
+            ],
+            "lineage": "VRGR",
+            "skillProficiencies": [
+                {
+                    "perception": true
+                }
+            ],
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M",
+                "S"
+            ],
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": {
+                            "_": [
+                                {
+                                    "choose": "level=0|group=primal"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Winged Form",
+                    "entries": [
+                        "You have a flying speed equal to your movement speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Malformed Wings",
+                    "entries": [
+                        "You fall at the end of your turn if you are airborne and the only thing holding you aloft is your flying speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Divine Magic",
+                    "page": 8,
+                    "entries": [
+                        "Your exposure to the magic of Delamir has given you some innate spellcasting, connected to the elements. You know one cantrip from the {@filter Primal Spell list|spells|level=0|group=primal}. Whenever you finish a Long Rest, you can replace that spell with a different one from the Primal Spell list.",
+                        "Intelligence, Wisdom or Charisma is your spellcasting ability for any spell you cast with this trait (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Keen Senses",
+                    "page": 8,
+                    "entries": [
+                        "You have Proficiency in the {@skill Perception} Skill."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tempestborn (Zintrin)",
+            "source": "JPP",
+            "alias": [
+                "Aasimar",
+                "Half-Elf",
+                "Zintrin",
+                "Shifting Tides"
+            ],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": 30,
+            "darkvision": 60,
+            "resist": [
+                "lightning",
+                "thunder"
+            ],
+            "additionalSpells": [
+                {
+                    "ability": {
+                        "choose": [
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    },
+                    "known": {
+                        "1": [
+                            "light#c"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Tempestborn Resistance",
+                    "entries": [
+                        "You have resistance to lightning damage and thunder damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Healing Hands",
+                    "entries": [
+                        "As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Light Bearer",
+                    "entries": [
+                        "You know the {@spell light} cantrip. Intelligence, Wisdom or Charisma is your spellcasting ability for this cantrip (choose when you select this species)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fulgur's Fury",
+                    "entries": [
+                        "When you reach 3rd level, you can use a bonus action to unleash the divine lightning within yourself, causing arcs of lightning to emenate from you. Your transformation lasts for 1 minute or until you end it as a bonus action.",
+                        "During your transformation, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes lightning damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra lightning damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+                        "Once you use this trait, you can't use it again until you finish a long rest."
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
+        },
+        {
+            "name": "Otterfolk (Broddah)",
+            "source": "JPP",
+            "alias": [
+                "Otter",
+                "Broddah",
+                "The Sea of Cyranos"
+            ],
+            "lineage": "VRGR",
+            "size": [
+                "S",
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Aquatic Affinity",
+                    "entries": [
+                        "Adapting effortlessly to water, you can hold your breath for up to 10 minutes and have a swimming speed equal to your walking speed. In addition, you can see up to 30 feet in murky water as if it were clear."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Au Naturel",
+                    "entries": [
+                        "You are proficient in the {@skill nature} skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Furious Claws",
+                    "entries": [
+                        "Your retractable claws are natural weapons, which you can use to make unarmed strikes. If you hit with such an attack, you inflict slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Immediately after dealing damage in this way you can make a second attack with them as a bonus action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Rolling Stone",
+                    "entries": [
+                        "You are proficient with vehicles."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shake It Off",
+                    "entries": [
+                        "When you make a saving throw to avoid the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, {@condition petrified}, {@condition poisoned} or {@condition stunned} condition, you may use a reaction to give yourself advantage on the roll."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Water Diviner",
+                    "entries": [
+                        "You inherently know in which direction and how far away to find the nearest major bodies of water, even deep underground. Otterfolk can often be found in the greater world as hired dowsers"
+                    ]
+                }
+            ],
+            "hasFluff": true,
+            "hasFluffImages": true,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ]
+        }
+    ],
+    "vehicle": [
+        {
+            "name": "Holo Holo",
+            "source": "JPP",
+            "vehicleType": "SHIP",
+            "size": "H",
+            "dimensions": [
+                "20 ft.",
+                "10 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 2,
+            "capPassenger": 4,
+            "capCargo": 0.5,
+            "pace": 4,
+            "str": 12,
+            "dex": 10,
+            "con": 11,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "hull": {
+                "ac": 12,
+                "hp": 100,
+                "dt": 10
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 12,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 2 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 20 damage taken ",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "action": [
+                "On its turn, the catamaran can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than two crew. It can't take these actions if it has no crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Move.",
+                            "entry": "The ship can use its helm to move with its oars or sails."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lesboat",
+            "source": "JPP",
+            "vehicleType": "SHIP",
+            "size": "G",
+            "dimensions": [
+                "25 ft.",
+                "10 ft."
+            ],
+            "terrain": [
+                "sea"
+            ],
+            "capCrew": 4,
+            "capPassenger": 8,
+            "capCargo": 1,
+            "pace": 4,
+            "str": 16,
+            "dex": 8,
+            "con": 13,
+            "int": 0,
+            "wis": 0,
+            "cha": 0,
+            "immune": [
+                "poison",
+                "psychic"
+            ],
+            "conditionImmune": [
+                "blinded",
+                "charmed",
+                "deafened",
+                "exhaustion",
+                "frightened",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "stunned",
+                "unconscious"
+            ],
+            "hull": {
+                "ac": 15,
+                "hp": 150,
+                "dt": 10
+            },
+            "control": [
+                {
+                    "name": "Helm",
+                    "ac": 12,
+                    "hp": 50,
+                    "entries": [
+                        "Move up to the speed of one of its movement components, with one 90-degree turn. If the helm is destroyed, the ship can't turn."
+                    ]
+                }
+            ],
+            "movement": [
+                {
+                    "name": "Oars",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 25 damage taken",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "20 ft. (requires at least 2 crew)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sails",
+                    "ac": 12,
+                    "hp": 100,
+                    "hpNote": "-5 ft. speed per 20 damage taken ",
+                    "speed": [
+                        {
+                            "mode": "water",
+                            "entries": [
+                                "25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionThresholds": {
+                "0": 0,
+                "1": 2,
+                "2": 4
+            },
+            "action": [
+                "On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Move.",
+                            "entry": "The ship can use its helm to move with its oars or sails."
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
