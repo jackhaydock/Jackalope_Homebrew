@@ -268,7 +268,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.09.14.20.20",
+                "version": "2024.09.14.21.06",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,22 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.09.14.17.50",
+                "version": "2024.09.14.22.50",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Defiance",
+                "abbreviation": "J:Defiance",
+                "color": "203380",
+                "full": "Jackalope: Defiance",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.09.14.21.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -604,7 +619,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726345300.1594083
+        "dateLastModified": 1726354273.6979818
     },
     "class": [
         {
@@ -10811,14 +10826,14 @@
                 }
             ],
             "entries": [
-                "You summon six spectral ranged or thrown weapons, such as firearms, crossbows or throwing knives, that float in the air surrounding you. Alternatively, you might summon six pieces of spectral ammunition for a ranged weapon you are holding. You then proceed to grab each weapon or ammunition and make a ranged spell attack with it. Each attack must target a different creature or object. On a hit, each attack deals {@damage 4d10} damage of one of the following types, you choose a different type for each attack; acid, cold, fire, lightning, necrotic, poison, radiant or thunder."
+                "You summon six spectral ranged or thrown weapons, such as firearms, crossbows or throwing knives, that float in the air surrounding you. Alternatively, you might summon six pieces of spectral ammunition for a ranged weapon you are holding. You then proceed to grab each weapon or ammunition and make a ranged spell attack with it. Each attack must target a different creature or object. On a hit, each attack deals {@damage 6d6} damage of one of the following types, you choose a different type for each attack; acid, cold, fire, lightning, necrotic, poison, radiant or thunder."
             ],
             "entriesHigherLevel": [
                 {
                     "type": "entries",
                     "name": "At Higher Levels",
                     "entries": [
-                        "When you cast this spell at 5th-level or higher, each attack deals an additional {@scaledamage 4d10|3,5,7,9|1d10} damage on a hit for every two levels above 3rd."
+                        "When you cast this spell at 5th-level or higher, each attack deals an additional {@scaledamage 6d6|3-9|1d6} damage on a hit for every level above 3rd."
                     ]
                 }
             ],
@@ -12494,6 +12509,14 @@
                     "source": "PHB"
                 }
             ]
+        },
+        {
+            "name": "Oath of Defiance Paladin",
+            "shortName": "Defiance",
+            "source": "J:Defiance",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassFeatures": []
         },
         {
             "name": "Antiquarian",

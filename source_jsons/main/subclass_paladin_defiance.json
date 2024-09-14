@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "J:Defiance",
+				"abbreviation": "J:Defiance",
+				"color": "203380",
+				"full": "Jackalope: Defiance",
+				"authors": [
+					"Jackalope"
+				],
+				"convertedBy": [
+					"Jackalope"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+    "subclass": [
+        {
+			"name": "Oath of Defiance Paladin",
+			"shortName": "Defiance",
+			"source": "J:Defiance",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassFeatures": [
+			]
+		}
+    ]
+}
