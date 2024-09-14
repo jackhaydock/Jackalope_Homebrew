@@ -288,6 +288,21 @@
 					"source": "PHB"
 				}
 			]
+		},
+		{
+			"name": "Timetrapper Rogue",
+			"shortName": "Timetrapper",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Timetrapper|Rogue|PHB|Timetrapper|J:Temporal|3",
+				"Rehearsed Reflex|Rogue|PHB|Timetrapper|J:Temporal|3",
+				"Record Attack|Rogue|PHB|Timetrapper|J:Temporal|3",
+				"Time Bandit|Rogue|PHB|Timetrapper|J:Temporal|9",
+				"Improved Record Attack|Rogue|PHB|Timetrapper|J:Temporal|13",
+				"Uncanny Swiftness|Rogue|PHB|Timetrapper|J:Temporal|17"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -965,7 +980,7 @@
 					"type": "inset",
 					"name": "Visual effects of your spells and features",
 					"entries": [
-						"The circle of sands are masters of manipulating age for better or worse. Consider the visual effect your spells might briefly have on targets. For example, when you cast bestow curse, the target might look old and frail with wrinkles and grey hair, or they might appear young and timid, with childlike faces. Your powers might alternativly draw upon other potential timelines, ones in which you or targets led different lives, resulting in different fashions, scars and ancestries.",
+						"The circle of sands are masters of manipulating age for better or worse. Consider the visual effect your spells might briefly have on targets. For example, when you cast bestow curse, the target might look old and frail with wrinkles and grey hair, or they might appear young and timid, with childlike faces. Your powers might alternativly draw upon other potential timelines, ones in which you or your targets led different lives, resulting in different fashions, scars and ancestries.",
 						"Such details provide no additional effects and are purely optional, however, describing them may provide a fun way to distiguish yourself from other spellcasters."
 					]
 				}
@@ -1126,6 +1141,87 @@
 			"entries": [
 				"Starting at 14th level, you can sacrifice your future for your present. When you are reduced to 0 hit points, you can choose to roll any number of {@dice d8}s up to your Proficiency Bonus, regaining that many hit points instead of falling unconscious. Your maximum hit points are reduced by the same amount until you finish your next long rest. You also age a number of years equal to the number of dice you rolled.",
 				"Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Timetrapper",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"As a master of finnese and precision, you know that timing is everything. So it would be very helpful indeed if timings were as easy to manipulate as the tumblers of a lock, or the morals of a city guard. Fortunately, it is for you. You have learned to seal moments outside the normal flow of time, waiting to take effect at the perfect time and place."
+			]
+		},
+		{
+			"name": "Rehearsed Reflex",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you have advantage on initiative rolls. In addition, you can still take reactions and move while you are surprised but not {@condition incapacitated}."
+			]
+		},
+		{
+			"name": "Record Attack",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd-level, you can record a small snippet of time and have it actually play out later. When you finish a short or long rest you can produce a number of special traps equal to your Proficiency Bonus. These traps last until the end of your next short or long rest, or until they are triggered.",
+				"As an action, you can deploy a trap at a point you can see within 15 feet of you. If a creature does not see you deploy the trap, it must succeed on an Intelligence (Investigation) check (DC equals 8 + your proficiency bonus + your Dexterity modifier) to detect it. If the trap is not triggered you can safely retrieve it with another action whilst within 5 feet of it.",
+				"When a creature moves within 5 feet of a deployed trap, or starts its turn there, you can use a reaction to trigger the trap. Make a weapon attack against the creature, delivering it through the trap's space. If the trap is undetected by the target, you make the attack as if you were hidden, including using your Sneak Attack feature if valid."
+			]
+		},
+		{
+			"name": "Time Bandit",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"Starting at 9th level, when you hit a creature with an attack on your turn, you can attempt to steal some of their future time for yourself, forcing the creature to make a Charisma saving throw (DC equals 8 + your Proficiency Bonus + your Dexterity modifier). On a fail, the creature is {@condition dazed|FleeMortals} until the end of its next turn. In addition, you can take an additional bonus action on the current turn. If the creature fails by 5 or more, you can choose to take an additional action on the current turn instead.",
+				"Once a creature fails the saving throw for this feature, you cannot use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Improved Record Attack",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, when you trigger a trap as part of your Record Attack feature, you can make an attack against each creature of your choice within 5 feet of the trap. Any attacks against creatures that did not detect the trap are made as if you were hidden, making multiple attacks as part of the same reaction does not change this."
+			]
+		},
+		{
+			"name": "Uncanny Swiftness",
+			"source": "J:Temporal",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Timetrapper",
+			"subclassSource": "J:Temporal",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, when you use Uncanny Dodge or Evasion to reduce incoming damage, and you are not incapacitated, you can instantly move up to your movement speed without triggering opportunity attacks and then take the {@action Hide} action. Once you do so, you cannot do so again until the start of your next turn."
 			]
 		}
 	]
