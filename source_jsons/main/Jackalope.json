@@ -1940,7 +1940,20 @@
 			"entries": [
 				"This armor is constructed of tightly packed fabrics. Such armor comes in many forms, such as gambesons or linothorax."
 			]
-		}							
+		},
+		{
+			"name": "Megaphone of Mutiny",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4}",
+			"entries": [
+				"This metallic cone has 3 charges, and regains {@dice 1d4} charges daily at dawn. While holding it, you can expend 1 or more charges to cast the {@spell dominate horde|J:General} spell (save DC 13) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend."
+			]
+		}								
 	],
 	"monster": [
 		{
@@ -5357,6 +5370,83 @@
 					},
 					{
 						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dominate Horde",
+			"source": "J:General",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a handheld sign or megaphone"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You attempt to beguile a swarm, or a group of up to five minions with the same statblock, that you can see within range. The target must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting the target, it has advantage on the saving throw. If the swarm or minions are beasts or humanoids, you ignore any immunity they have to the charmed condition.",
+				"While the target is {@condition charmed}, you have a telepathic link with it as long you are on the same plane of existence. You can use this telepathic link to issue commands to the target while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the target completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
+				"You can use your action to take total and precise control of the target. Until the end of your next turn, the target takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the target to use a reaction, but this requires you to use your own reaction as well.",
+				"Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends. If the target dies before the spell ends, you can use an action on your next turn to target a new swarm or group of minions."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell with a 5th-level spell slot, you can target up to 2 swarms or up to 10 minions with the same statblock. When you use a 7th-level spell slot, you can target up to 4 swarms or up to 20 minions with the same statblock. When you use a 9th-level spell slot, you can target up to 6 swarms or up to 30 minions with the same statblock."
+					]
+				}
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
