@@ -193,7 +193,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.09.14.14.13",
+                "version": "2024.09.14.15.50",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -604,7 +604,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726328324.2367163
+        "dateLastModified": 1726329573.0275786
     },
     "class": [
         {
@@ -5011,6 +5011,16 @@
             "source": "J:Cyranos",
             "entries": [
                 "This white flowering herb is known for protecting Odysseus from the witch Circe. Any creature that consumes the herb, is immune to the effects of the {@spell polymorph|phb}, {@spell true polymorph|phb} and {@spell mass polymorph|xge} spells for the next 8 hours."
+            ]
+        },
+        {
+            "name": "Bag of Aeolus",
+            "source": "J:Cyranos",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "This oxhide bag contains a demiplane filled with violent storm winds. As an action, you can open the bag and make a DC 5 Strength saving throw. On a success, you cast one of the following spells of your choice (save DC 15); {@spell gust of wind|phb}, {@spell spectral crew|J:general} (4th level) or {@spell warding wind|xge}. If a spell normally requires concentration, it does not require concentration for this casting and lasts for its full duration. On a fail, you are launched 30 feet upwards and 30 feet in a random horizontal direction, you then fall prone.",
+                "Each time you use this bag, the DC of the Strength saving throw you make increases by 5. The DC resets to 5 each day at dawn."
             ]
         },
         {
