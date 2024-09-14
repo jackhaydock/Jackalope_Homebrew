@@ -5455,6 +5455,74 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Six Shots",
+			"source": "J:General",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a ranged or thrown weapon worth at least 1 sp",
+					"cost": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You summon six spectral ranged or thrown weapons, such as firearms, crossbows or throwing knives, that float in the air surrounding you. Alternatively, you might summon six pieces of spectral ammunition for a ranged weapon you are holding. You then proceed to grab each weapon or ammunition and make a ranged spell attack with it. Each attack must target a different creature or object. On a hit, each attack deals {@damage 4d10} damage of one of the following types, you choose a different type for each attack; acid, cold, fire, lightning, necrotic, poison, radiant or thunder."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell at 5th-level or higher, each attack deals an additional {@scaledamage 4d10|3,5,7,9|1d10} damage on a hit for every two levels above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"necrotic",
+				"poison",
+				"radiant",
+				"thunder"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
