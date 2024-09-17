@@ -478,6 +478,269 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "Clay",
+					"source": "J:Gaian",
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of mud or clay. You have resistance to bludgeoning damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mud Wader",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks to hide in mud and dirt."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sinking Feet",
+							"entries": [
+								"You can walk on underwater surfaces and your walking speed is not halved when doing so."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Terracotta",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into clumps of hard clay. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Mud",
+											"entries": [
+												"You know the {@spell mold earth|xge} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Sludge Sculptor.",
+											"entries": [
+												"You are proficient with potter's tools and have advantage on checks made using them."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"mold earth|xge#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Tombstone",
+					"source": "J:Gaian",
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of dirt and stone that has spent many years surrounded by death. This could be as part of a crypt, graveyard, or a site of sacrifices and executions. You have resistance to necrotic damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Corpse Sense",
+							"entries": [
+								"You have advantage on ability checks to locate corpses, even buried ones, to determine how long a corpse has been dead and to track dead and undead creatures."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dust Skin",
+							"entries": [
+								"You have advantage on Dexterity (Stealth) checks made to hide in earthy terrain."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Decay",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into weapons of decay. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier necrotic damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Carrion",
+											"entries": [
+												"You know the {@spell toll the dead|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Still as the Grave",
+											"entries": [
+												"As an action, you can transform yourself to appear as a pile of non-living dirt and stone. While transformed, you are {@condition incapacitated} and treated as a magical object rather than a creature, however, you still have access to your senses and are aware of your surroundings. The effects last until you take damage, or you end it with another action (being incapacitated does not prevent you taking this action)."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"toll the dead|phb#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Lodestone",
+					"source": "J:Gaian",
+					"traitTags": [
+						"Darkvision",
+						"Damage Resistance"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Earthen Flesh",
+							"entries": [
+								"Your flesh is made mostly or entirely of magnetic and conductive metals. You have resistance to lightning damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Polarity Protection",
+							"entries": [
+								"You have a magnetic aura. When you finish a short or long rest, choose one of the following effects that last until the end of your next a short or long rest:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Attract",
+											"entries": [
+												"Creatures you choose within 5 feet of you have a +1 bonus to AC against weapon attacks composed of metal and attacks that deal lightning damage."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Repulse",
+											"entries": [
+												"You have a +1 bonus to AC against weapon attacks composed of metal and attacks that deal lightning damage."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Multitasking Field",
+							"entries": [
+								"You have an additional {@action other activity|phb|object interaction} on each of your turns, which you can use with metallic objects. For example, you might draw or stow a dagger by attaching it to your forearm or you might open a metal door by walking towards it. In addition, you can don or doff a metallic shield as a bonus action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Gaian Manifestation",
+							"entries": [
+								"Your connection to your source can manifest in different ways in an individual gaian. Choose one of the following manifestation options for your gaian.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Fingers of Static",
+											"entries": [
+												"When you make an unarmed strike, you can transform your fingers or hands into conductive blades or rods. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier lightning damage, instead of the bludgeoning damage normal for an unarmed strike."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Heart of Ferrus",
+											"entries": [
+												"You know the {@spell mage hand|phb} cantrip. Your spellcasting ability for this cantrip is Intelligence, Wisdom, or Charisma (choose when you select this race)."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Natural Compass",
+											"entries": [
+												"You have proficiency with {@item navigator's tools|phb} and always know which way north is."
+											]
+										}
+									]
+								}
+							]
+						}
+					],
+					"additionalSpells": [
+						{
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"-": [
+									"mage hand|phb#c"
+								]
+							}
+						}
+					]
 				}
 			],
 			"fluff": {
