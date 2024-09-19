@@ -508,10 +508,25 @@
                 "version": "2024.09.14.21.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Humanoids",
+                "abbreviation": "J:Humanoids",
+                "color": "f5b342",
+                "full": "Jackalope: Humanoid Warrior Statblocks",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.09.19.19.46",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726613915.6806395
+        "dateLastModified": 1726775248.662507
     },
     "class": [
         {
@@ -18378,6 +18393,606 @@
             ],
             "miscTags": [
                 "MW"
+            ]
+        },
+        {
+            "name": "Phalanx (Lesser)",
+            "source": "J:Humanoids",
+            "size": [
+                "L",
+                "H"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "phalanx"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "{@item Linen Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 80,
+                "formula": "10d12+15"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 20,
+            "dex": 16,
+            "con": 16,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
+            "save": {
+                "str": "+8",
+                "dex": "+6",
+                "con": "+6",
+                "wis": "+6"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
+                    ]
+                },
+                {
+                    "name": "Variable Size",
+                    "entries": [
+                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can either occupy a 15-foot square (or 10-foot while Large) or a 20-foot line that is 10-feet wide (or a 10-feet line while Large). It can expend half its movement on a turn to change which formation it is in."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Phalanx makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage or {@h}16 ({@damage 2d10 + 5}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Slings",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}13 ({@damage 4d4 + 3}) piercing damage or {@h}8 ({@damage 2d4 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variants",
+                    "entries": [
+                        "At the DM's discretion, some phallax's may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
+                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
+                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
+                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
+                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
+                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
+                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
+                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (Greater)",
+            "source": "J:Humanoids",
+            "size": [
+                "L",
+                "H"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "phalanx"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Linen Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 153,
+                "formula": "18d12+36"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 22,
+            "dex": 18,
+            "con": 18,
+            "int": 10,
+            "wis": 18,
+            "cha": 12,
+            "save": {
+                "str": "+10",
+                "dex": "+8",
+                "con": "+8",
+                "wis": "+8"
+            },
+            "skill": {
+                "athletics": "+10",
+                "perception": "+8"
+            },
+            "passive": 18,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "9",
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
+                    ]
+                },
+                {
+                    "name": "Variable Size",
+                    "entries": [
+                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can either occupy a 15-foot square (or 10-foot while Large) or a 20-foot line that is 10-feet wide (or a 10-feet line while Large). It can expend half its movement on a turn to change which formation it is in."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Phalanx makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) piercing damage or {@h}22 ({@damage 3d10 + 6}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Slings",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}19 ({@damage 6d4 + 4}) piercing damage or {@h}8 ({@damage 3d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variants",
+                    "entries": [
+                        "At the DM's discretion, some phallax's may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
+                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
+                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
+                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
+                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
+                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
+                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
+                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (Superior)",
+            "source": "J:Humanoids",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "phalanx"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Linen Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 221,
+                "formula": "26d12+52"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 24,
+            "dex": 18,
+            "con": 18,
+            "int": 10,
+            "wis": 18,
+            "cha": 12,
+            "save": {
+                "str": "+12",
+                "dex": "+9",
+                "con": "+9",
+                "wis": "+9"
+            },
+            "skill": {
+                "athletics": "+12",
+                "perception": "+9"
+            },
+            "passive": 19,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "13",
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
+                    ]
+                },
+                {
+                    "name": "Variable Size",
+                    "entries": [
+                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can either occupy a 20-foot square (or 15-foot while Huge) or a 30-foot line that is 10-feet wide (or a 20-feet line while Huge). It can expend half its movement on a turn to change which formation it is in."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Phalanx makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Slings",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}24 ({@damage 8d4 + 4}) piercing damage or {@h}14 ({@damage 4d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variants",
+                    "entries": [
+                        "At the DM's discretion, some phallax's may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
+                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
+                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
+                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
+                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
+                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
+                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
+                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (Supreme)",
+            "source": "J:Humanoids",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "phalanx"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Linen Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 289,
+                "formula": "34d12+68"
+            },
+            "speed": {
+                "walk": 20
+            },
+            "str": 26,
+            "dex": 18,
+            "con": 18,
+            "int": 10,
+            "wis": 18,
+            "cha": 12,
+            "save": {
+                "str": "+14",
+                "dex": "+10",
+                "con": "+10",
+                "wis": "+10"
+            },
+            "skill": {
+                "athletics": "+14",
+                "perception": "+10"
+            },
+            "passive": 20,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "17",
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
+                    ]
+                },
+                {
+                    "name": "Variable Size",
+                    "entries": [
+                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can either occupy a 20-foot square (or 15-foot while Huge) or a 30-foot line that is 10-feet wide (or a 20-feet line while Huge). It can expend half its movement on a turn to change which formation it is in."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Phalanx makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}63 ({@damage 10d10 + 8}) piercing damage or {@h}35 ({@damage 5d10 + 8}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Slings",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}29 ({@damage 10d4 + 4}) piercing damage or {@h}17 ({@damage 5d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variants",
+                    "entries": [
+                        "At the DM's discretion, some phallax's may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
+                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
+                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
+                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
+                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
+                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
+                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
+                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
             ]
         }
     ],
