@@ -520,7 +520,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.09.19.19.54",
+                "version": "2024.09.20.01.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -634,7 +634,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726775661.1057107
+        "dateLastModified": 1726796360.8112347
     },
     "class": [
         {
@@ -22842,6 +22842,15 @@
                 "any three languages (typically including common)"
             ],
             "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
             "trait": [
                 {
                     "name": "Strength in Numbers",
@@ -22992,6 +23001,15 @@
                 "any three languages (typically including common)"
             ],
             "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
             "trait": [
                 {
                     "name": "Strength in Numbers",
@@ -23142,6 +23160,15 @@
                 "any three languages (typically including common)"
             ],
             "cr": "13",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
             "trait": [
                 {
                     "name": "Strength in Numbers",
@@ -23292,6 +23319,15 @@
                 "any three languages (typically including common)"
             ],
             "cr": "17",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
             "trait": [
                 {
                     "name": "Strength in Numbers",
@@ -23386,6 +23422,630 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ]
+        },
+        {
+            "name": "Ship Crew (Lesser)",
+            "source": "J:Humanoids",
+            "size": "L",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "crew"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 25,
+                "formula": ""
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 14,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+4"
+            },
+            "passive": 11,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blades Out",
+                    "entries": [
+                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}16 ({@damage 4d6 + 2}) bludgeoning or slashing damage or {@h}9 ({@damage 2d6 + 2}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Volley",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
+                    ]
+                },
+                {
+                    "name": "Heave",
+                    "entries": [
+                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 1d10} damage if the ship crew has more than half its hit points."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores 10 hit points it, or 5 hit points if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "crew"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 50,
+                "formula": ""
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+5"
+            },
+            "passive": 11,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blades Out",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}24 ({@damage 6d6 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Volley",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
+                    ]
+                },
+                {
+                    "name": "Heave",
+                    "entries": [
+                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to 30 feet, or 15 feet if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 2d10} damage if the ship crew has more than half its hit points."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores 20 hit points it, or 10 hit points if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Superior)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "crew"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 100,
+                "formula": ""
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+5"
+            },
+            "passive": 11,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blades Out",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}31 ({@damage 8d6 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 4d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Volley",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}17 ({@damage 4d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
+                    ]
+                },
+                {
+                    "name": "Heave",
+                    "entries": [
+                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to 40 feet, or 20 feet if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 3d10} damage if the ship crew has more than half its hit points."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores 30 hit points it, or 15 hit points if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Supreme)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "crew"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 150,
+                "formula": ""
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+5"
+            },
+            "passive": 11,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blades Out",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}38 ({@damage 10d6 + 3}) bludgeoning or slashing damage or {@h}21 ({@damage 5d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Volley",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}31 ({@damage 8d6 + 3}) piercing damage or {@h}24 ({@damage 6d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
+                    ]
+                },
+                {
+                    "name": "Heave",
+                    "entries": [
+                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to 50 feet, or 25 feet if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 4d10} damage if the ship crew has more than half its hit points."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores 40 hit points it, or 20 hit points if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
