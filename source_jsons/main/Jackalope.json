@@ -6686,6 +6686,53 @@
 				"At the DM's discretion the amount a mount can carry might be different based on a variety of factors. An especially strong Large mount might be able to pull 10 instead of 8. Meanwhile an injured or already laden Large mount might only be able to carry 4. An especially massive Gargantuan creature may be able to carry 64 rather than 32.",
 				"At the DM's discretion a mount can still carry over its limit though it expends 2 feet of movement for every 1 foot it moves. If it is ever carrying more than twice its limit, its speed is reduced to 0."
 			]
+		},
+		{
+			"name": "Death Alternatives for NPCs",
+			"source": "J:General",
+			"ruleType": "O",
+			"entries": [
+				"Hit Points do not always represent physical health, but rather a combination of physical health, stamina and willpower. You may wish to use the following rule to reinforce that idea.",
+				{
+					"name": "Falling to 0 Hit Points",
+					"entries": [
+						"When a non-player character is reduced to 0 hit points but not killed outright, they can choose one of the options at the DM's discretion:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"name": "Give Up",
+									"entries": [
+										"The creature simple falls {@condition unconscious} or dies as normal. Most weaker enemies will choose this option, only the more formidable enemies in a given encounter might choose the others."
+									]
+								},
+								{
+									"name": "Go Down Fighting",
+									"entries": [
+										"The creature immediatly takes the one the following actions; {@action Attack} (one weapon attack only), {@action Cast a Spell} (cantrip only) or {@action Shove}. The creature then immediately falls {@condition unconscious} or dies."
+									]
+								},
+								{
+									"name": "Flee",
+									"entries": [
+										"The character immediately moves up to half its movement. It must spend any subsequent turns fleeing from the scene until it believes it is safe for at least 10 minutes. While it is fleeing, opportunity attacks against the creature have advantage and if the creature takes any damage it immediately falls  {@condition unconscious} or dies."
+									]
+								},
+								{
+									"name": "Surrender",
+									"entries": [
+										"The creature is {@condition incapacitated} but remains conscious and aware of its surroundings. Any subsequent damage to the creature results in it being knocked {@condition unconscious} or dying."
+									]
+								}
+							]
+						},
+						"When a creature uses one of these options and does not fall unconcious, they cannot restore hit points or take any hostile actions until they finish a short rest.",
+						"It is up to the DM which creatures choose which options. Many beasts, grunts and goons will simply Give Up or Flee upon being reduced to 0 hit points. Meanwhile, more determined enemies, including bosses, leaders and notable named characters might choose to Go Down Fighting or Surrender knowing they have more to offer than simply dying.",
+						"The DM might also decide that a creature close to 0 hit points, takes one of these options at the end of their turn, effectively removing themselves from combat rather than waiting for someone to finish them off."
+					]
+				}	
+			]
 		}
 	]
 }
