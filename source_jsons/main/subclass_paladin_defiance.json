@@ -6,7 +6,7 @@
 				"json": "J:Defiance",
 				"abbreviation": "J:Defiance",
 				"color": "203380",
-				"full": "Jackalope: Defiance",
+				"full": "Jackalope: Oath of Defiance",
 				"authors": [
 					"Jackalope"
 				],
@@ -26,10 +26,256 @@
 			"name": "Oath of Defiance Paladin",
 			"shortName": "Defiance",
 			"source": "J:Defiance",
-			"className": "Rogue",
-			"classSource": "PHB",
+			"className": "Paladin",
+			"classSource": "xphb",
 			"subclassFeatures": [
+				"Oath of Defiance|Paladin|xphb|Defiance|J:Defiance|3",
+				"Tenets of Defiance|Paladin|xphb|Defiance|J:Defiance|3",
+				"Oath Spells|Paladin|xphb|Defiance|J:Defiance|3",
+				"Bonus Proficiency|Paladin|xphb|Defiance|J:Defiance|3",
+				"Channel Divinity: Aces High|Paladin|xphb|Defiance|J:Defiance|3",
+				"Channel Divinity: Inspiring Chant|Paladin|xphb|Defiance|J:Defiance|3",
+				"Aura of Rebellion|Paladin|xphb|Defiance|J:Defiance|7",
+				"Last Stand|Paladin|xphb|Defiance|J:Defiance|15",
+				"No Enemy Too Great|Paladin|xphb|Defiance|J:Defiance|20"				
+			],
+			"subclassSpells": [
+				{
+					"name": "heroism",
+					"source": "xphb"
+				},
+				{
+					"name": "sanctuary",
+					"source": "xphb"
+				},
+				{
+					"name": "calm emotions",
+					"source": "xphb"
+				},
+				{
+					"name": "lesser restorartion",
+					"source": "xphb"
+				},
+				{
+					"name": "beacon of hope",
+					"source": "xphb"
+				},
+				{
+					"name": "counterspell",
+					"source": "xphb"
+				},
+				{
+					"name": "death ward",
+					"source": "xphb"
+				},
+				{
+					"name": "mordenkainen's private sanctum",
+					"source": "xphb"
+				},
+				{
+					"name": "greater restoration",
+					"source": "xphb"
+				},
+				{
+					"name": "wall of force",
+					"source": "xphb"
+				}
 			]
 		}
-    ]
+    ],
+	"subclassFeature": [
+		{
+			"name": "Oath of Defiance",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"entries": [
+				"The Oath of Defiance codifies a paladin's will to oppose the forces that would oppress those weaker than them. From extortionist bandits, to tyrannical regimes, to evil gods, no entity should be allowed to enforce their will on others."
+			]
+		},
+		{
+			"name": "Tenets of Defiance",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Though the exact words and strictures of the Oath of Defiance vary, paladins of this oath share these tenets.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Oppose Oppression",
+							"entries": [
+								"Oppressive powers should not be allowed to continue or grow, however inconvenient or dangerous it is to oppose them. "
+							]
+						},
+						{
+							"name": "Fight To The Last",
+							"entries": [
+								"It is better to die fighting tyranny than to live subservient to it."
+							]
+						},
+						{
+							"name": "No Rebellion Too Small",
+							"entries": [
+								"Even the smallest acts of defiance matter, never give the enemy total control."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of Defiance Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell heroism|xphb}, {@spell sanctuary|xphb}"
+						],
+						[
+							"5th",
+							"{@spell calm emotions|xphb}, {@spell lesser restoration|xphb}"
+						],
+						[
+							"9th",
+							"{@spell beacon of hope|xphb}, {@spell counterspell|xphb}"
+						],
+						[
+							"13th",
+							"{@spell death ward|xphb}, {@spell mordenkainen's private sanctum|xphb}"
+						],
+						[
+							"17th",
+							"{@spell greater restoration|xphb}, {@spell wall of force|xphb}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiency",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you take this oath at 3rd level, you learn to use whatever you can find to aid you in rebellious acts. You have proficiency with improvised weapons and {@item tinker's tools|xphb}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Aces High",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can use your Channel Divinity to place the lowest above even kings. When you or a creature you can see within 10 feet of you rolls a 1 on the die for on an ability check, attack roll, saving throw or damage roll, you can use your Channel Divinity as a reaction to treat the roll as one above the maximum for the die, such as a 21 on a d20. Any effects that would occur on the die's max, such as a critical hit on an attack roll, still occur."
+			],
+			"consumes": {
+				"name": "Channel Divinity"
+			}
+		},
+		{
+			"name": "Channel Divinity: Inspiring Chant",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You can use your Channel Divinity to inspire those around you with a rousing calls to action. As an action, choose up to three creatures that you can see within 30 feet of you and that can hear you. For the next minute, you and the chosen creatures can use a bonus action on each of their turns to do one of the following; take the {@action Help}, {@action Shove} or {@action Escape a Grapple} action, make a Charisma check or get up from {@condition prone|xphb}."
+			],
+			"consumes": {
+				"name": "Channel Divinity"
+			}
+		},
+		{
+			"name": "Aura of Rebellion",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, whenever you or a creature within 10 feet of you succeeds on a Wisdom or Charisma saving throw, both you and the creature can gain temporary hit points equal to your Charisma modifier + your Proficiency Bonus.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Last Stand",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, when you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. In addition, if you were reduced to 0 by a creature within your reach, you can use a reaction to immediately take the {@action Attack} action, targeting that creature with your attacks. If you reduce that creature to 0 hit points by the end of this action, you gain temporary hit points equal to your paladin level."
+			]
+		},
+		{
+			"name": "No Enemy Too great",
+			"source": "J:Defiance",
+			"className": "Paladin",
+			"classSource": "xphb",
+			"subclassShortName": "Defiance",
+			"subclassSource": "J:Defiance",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"Starting at 20th level, you can bring even the strongest foes down to your level. As a bonus action you can choose a creature you can see within 30 feet. For the next minute, that creature is humbled. While humbled, a creature has the following effects:",
+				{
+					"type": "list",
+					"style": "list",
+					"items": [
+						"The creature has a penalty to its ability checks, attack rolls, saving throws and save DCs equal to half its Proficiency Bonus (rounded up).",
+						"If the creature has a Multiattack action, the number of attacks is reduced by one (to a minimum of 2).",
+						"If the creature has Legendary Actions, its maximum number is reduced by one (to a minimum of 1).",
+						"Whenever the creature rolls to recharge a special ability, they must roll two dice and take the lowest result."
+					]
+				},
+				"The creature can make a Charisma saving throw against your spell save DC at the end of each of its turns to remove the effects early. This saving throw cannot benefit from Legendary Resistance.",
+				"Once you use this feature, you cannot do so again until you finish a long rest."
+			]
+		}
+	]
 }
