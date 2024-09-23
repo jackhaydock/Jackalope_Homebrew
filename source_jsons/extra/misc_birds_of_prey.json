@@ -1,0 +1,758 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema-fast/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "J:BoP",
+                "abbreviation": "J:BoP",
+                "color": "f1bf09",
+                "full": "Jackalope: Birds of Prey",
+                "authors": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 0,
+        "dateLastModified": 0
+    },
+    "monster": [
+        {
+			"name": "Barabak Kurim",
+			"source": "J:BoP",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"half-orc",
+                    "support"
+				]
+			},
+			"alignment": ["N","G"],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item linen armor|J:general}"
+					]
+				}
+			],
+			"hp":{
+				"average": 110,
+				"formula": "20d10+0"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 18,
+			"wis": 16,
+			"cha": 12,
+            "save":{
+                "dex": "+6",
+                "int": "+8"
+            },
+			"skill": {
+				"arcana": "+8",
+				"deception": "+5",
+				"history": "+12",
+				"insight": "+7",
+				"investigation": "+8"
+			},
+			"passive": 13,
+			"languages": [
+				"Thieves' Cant",
+				"Cyrik (Lower)",
+				"Gailian (City)",
+				"Vrakon (Stone)",
+				"Sign (Western)"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Invigorating Knowledge",
+					"entries": [
+						"Learning new things or successfully applying existing knowledge grants Barabak an inspiring feeling of satisfaction. When he succeeds on an Intelligence check, or a creature he aids with the Help action succeeds on an Intelligence check, he can gain temporary hit points equal to twice his Intelligence modifier (Minimum of 1)."
+					]
+				},
+				{
+					"name": "Studious Slasher",
+					"entries": [
+						"Barabak uses Intelligence in place of Strength when attacking with slashing weapons (included in the attack)."
+					]
+				},
+				{
+					"name": "Scholarly Expertise",
+					"entries": [
+						"Barabak doubles his proficiency bonus, provided he doesn't already, for any checks relating to the following topics; Trenin politics, and mercatile."
+					]
+				},
+				{
+					"name": "Trivial Arcanecraft",
+					"entries": [
+						"Barabak can cast the following spells at-will; {@spell dancing lights|phb}, {@spell detect magic|phb}, {@spell message|phb} or {@spell shocking grasp}. Intelligence is his spellcasting ability."
+					]
+				},
+				{
+					"name": "Arcanecraft (3/Long Rest)",
+					"entries": [
+						"Barabak can cast one of the following spells at 3rd-level; {@spell analyze weakness|J:lore}, {@spell borrowed knowledge|scc}, {@spell color spray|phb}, {@spell counterspell|phb}, {@spell darklight|J:Lore}, {@spell illusory script}, {@spell stagger/sunder|J:lore}, or {@spell sending|phb}. Intelligence is his spellcasting ability."
+					]
+				},
+                {
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"Barabak has proficiency with the following; {@item brewer's supplies|phb}, {@item cartographer's tools|phb}, {@item forgery kit|phb} and {@item dragonchess set|phb}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Baraback makes two weapon attacks, he can replace one of these attacks with a use of Tactical Guide."
+					]
+				},
+				{
+					"name": "Kopis",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Baba's Axe",
+					"entries": [
+						"{@atk mw, rw} {@hit 9} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}8 ({@damage 1d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tactical Guide (5/Long Rest)",
+					"entries": [
+						"Barabak chooses a creature he can see within 30 feet that can see or hear him. That creature can immediately take one of the following actions as a reaction:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"One weapon attack. On a hit, the attack deals an additional {@dice 1d8} damage.",
+								"Move up to half their speed without provoking opportunity attacks.",
+								"Attempt to break out of a grapple. The creature has a {@dice 1d8} bonus to the check.",
+								"Cast a cantrip with a casting time of 1 action or bonus action."
+							]
+						}
+					]
+				},
+				{
+					"name": "Group Maneuvers (1/Long Rest)",
+					"entries": [
+						"Barabak chooses up to four creatures he can see within 30 feet. Each chosen creature can use its reaction to move up to half its movement and take one action or one bonus action."
+					]
+				},
+				{
+					"name": "That was the plan all along (1/1)",
+					"entries": [
+						"Barabak retroactively causes something beneficial to happen. The effect must be something within reason for Barabak, the Birds of Prey or their agents to have achieved, even if it requires incredible foresight. For example, he might declare that agents have already unlocked a door ahead of time, eliminated or distracted a small group of guards, discovered a secret passage or something else the DM deems appropriate."
+					]
+
+				}
+			],
+			"bonus": [
+				{
+					"name": "Helpful",
+					"entries": [
+						"Barabak takes the {@action Help} action. he can target a creature up 30 feet away."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			}
+		},
+        {
+			"name": "Gimmer",
+			"source": "J:BoP",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf",
+                    "skirmisher"
+				]
+			},
+			"alignment": ["C","G"],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item linen armor|J:general}"
+					]
+				}
+			],
+			"hp":{
+				"average": 140,
+				"formula": "20d10+30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+            "save": {
+                "dex": "+6",
+                "con": "+7"
+            },
+			"skill": {
+				"acrobatics": "+5",
+				"athletics": "+7",
+                "sleight of hand": "+6",
+				"survival": "+4"
+			},
+			"passive": 11,
+            "resistance": "poison",
+			"languages": [
+				"Cyrik (Lower)",
+				"Vrakon (Stone)"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Dwarvern Resiliance",
+					"entries": [
+						"Gimmer has advantage on saving throws against {@condition poisoned|phb}, and has resistance against poison damage."
+					]
+				},
+                {
+					"name": "Dirty Strike (5/Long Rest)",
+					"entries": [
+						"When Gimmer hits a creature with an attack, he can deal an additional 1d10 damage and impose one of the following effects (DC equals 8 + PB + Strength modifier):",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The target makes a Strength saving throw or is knocked {@condition prone}.",
+                                "The target makes a Strength saving throw or is knocked 15 feet away from Gimmer.",
+                                "The target makes a Dexterity saving throw or is {@condition sundered|J:general} (if piercing) or {@condition staggered|J:general} (if bludgeoning) until the start of Gimmer's next turn."
+                            ]
+                        }
+					]
+				},
+                {
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"Gimmer has proficiency with the following; {@item mason's tools|phb}, {@item smith's tools|phb}, {@item bagpipes|phb} and {@item dice set|phb}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gimmer makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Pick",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Shovel",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 4}) bludgeoning damage."
+					]
+				},
+                {
+					"name": "Miner Mob (1/1)",
+					"entries": [
+						"A group of miners, including Gimmer and Lyeslyn, are roused into performing a favour for you. The favour must be something reasonable for a mob of workers to achieve, such as small protest or riot, hiding something in the mines or damaging an unguarded structure made of stone. Lyeslyn will make sure the mob scatters before they are in real danger."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Scrapper",
+					"entries": [
+						"Gimmer takes the {@action Grapple} or {@action Shove} action."
+					]
+				},
+                {
+					"name": "Second Wind (1/Long Rest)",
+					"entries": [
+						"Gimmer regains 30 hit points"
+					]
+				}
+			],
+            "reaction": [
+                {
+					"name": "Revenger's Mark (3/Long Rest)",
+					"entries": [
+						"When a creature deals damage to Gimmer or he fails a saving throw imposed by them, Gimmer can use a reaction to cast {@spell Hunter's Mark|PHB} against the creature. Damage does not break Gimmer's concentration in this spell."
+					]
+				}
+            ],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+                "P",
+				"S"
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			}
+		},
+        {
+			"name": "Helith",
+			"source": "J:BoP",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+                    "support"
+				]
+			},
+			"alignment": ["C","G"],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"unarmored"
+					]
+				}
+			],
+			"hp":{
+				"average": 110,
+				"formula": "20d8+20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 16,
+			"cha": 18,
+            "save":{
+                "wis": "+7",
+                "cha": "+8"
+            },
+			"skill": {
+				"deception": "+8",
+                "insight": "+7",
+				"perception": "+7",
+                "performance": "+12",
+				"persuasion": "+7"
+			},
+			"passive": 13,
+			"languages": [
+                "Cyrik (Upper)",
+				"Cyrik (Lower)",
+                "Elbros (Higher)",
+                "Gailian (City)",
+				"Vrakon (Stone)",
+                "Sign (Poetic)",
+                "Sign (Western)"
+			],
+			"cr": "10",
+            "trait": [
+                {
+					"name": "Enchanting Melodies",
+					"entries": [
+						"Helith can cast the following cantrips at will; {@spell message|phb}, {@spell prestidigitation|phb} and {@spell vicious mockery|phb}. Charisma is her spellcasting ability for these cantrips."
+					]
+				},
+                {
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"Helith has proficiency with the following; {@item calligrapher's supplies|phb}, {@item drum|phb}, {@item flute|phb}, {@item lute|phb}, {@item lyre|phb}, {@item pan flute|phb} and {@item playing cards|phb}."
+					]
+				}                
+            ],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Blowgun Flute",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+					]
+				},
+                {
+					"name": "Disorienting Song (3/Long Rest)",
+					"entries": [
+						"Helith chooses a creature she can see and forces them to make a Wisdom saving throw (DC equals 8 + PB + Wisdom modifier). On a fail, a creature gains one of the following conditions for 1 minute or until Helith loses concentration (as if concentrating on a spell). A creature can repeat the saving at the end of each of its turns, removing the condition on a success.",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "{@condition Charmed|phb} by an ally Helith chooses. The condition is removed early if the charmer damages the charmed creature.",
+                                "{@condition Distracted|J:General}.",
+                                "{@condition Frightened|phb} by an ally Helith chooses.",
+                                "{@condition Taunted|J:General} by an ally Helith chooses. The condition is removed early if the creature is damaged by a creature other than the taunter."
+                            ]
+                        }
+					]
+				},
+                {
+					"name": "Crowd Work (1/Long Rest)",
+					"entries": [
+						"Helith targets up to 6 creatures she can see within 30 feet and that can hear her. Each creature has a {@dice 1d6} bonus or penalty (Helith's choice for each creature) to all ability checks, attack rolls and saving throws they make for 1 minute."
+					]
+				},
+                {
+					"name": "I'll pluck a few strings (1/1)",
+					"entries": [
+						"Helith calls upon her connections within the Golden Lyre to gain some favor. The favor must be something feasible for a network of bards to achieve, such as calling a troupe of performers to distract a group, spreading a coded message or rumor or anything else the DM deems appropriate."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "(De)Motivate (5/Long Rest)",
+					"entries": [
+						"Helith chooses a creature she can see within 30 feet and that can hear her. That creature has a 1d6 bonus or penalty (Helith's choice) on the next ability check, attack roll or saving throw they make before Helith's next turn."
+					]
+				}
+			],
+			"damageTags": [
+                "P"
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			}
+		},
+        {
+			"name": "Leafa",
+			"source": "J:BoP",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"minotaur",
+                    "brute"
+				]
+			},
+			"alignment": ["C","G"],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"unarmored defence"
+					]
+				}
+			],
+			"hp":{
+				"average": 160,
+				"formula": "20d12+30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 10,
+			"wis": 12,
+			"cha": 10,
+            "save":{
+                "str": "+8",
+                "con": "+7"
+            },
+			"skill": {
+				"animal handling": "+5",
+                "athletics": "+12",
+                "history": "+4",
+				"intimidation": "+4",
+                "survival": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Cyrik (Lower)",
+                "Cyrik (Eastern)",
+                "Olfactory"
+			],
+			"cr": "10",
+            "trait": [
+                {
+					"name": "Beefy Cowgirl",
+					"entries": [
+						"Leafa has advantage on Strength checks and saving throws."
+					]
+				},
+                {
+					"name": "Improvised Shield",
+					"entries": [
+						"Leafa can use miscilanious items to gain a +2 bonus to her Armor Class."
+					]
+				},
+                {
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"Leafa has proficiency with the following; {@item carpenter's tool|phb}, {@item woodcarver's tools|phb}, vehicles and {@item dice set|phb}."
+					]
+				}              
+            ],
+			"action": [
+                {
+					"name": "Multiattack",
+					"entries": [
+						"Leafa makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Improvised Heavy Weapon",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+                {
+					"name": "Charge (3/Long Rest)",
+					"entries": [
+						"Leafa runs up to 30 feet in a straight line and then makes a Horns attack. This movement does not provoke opportunity attacks and can move through the space of Large or smaller creatures. Any creature who's space she moves through must chose between falling {@condition prone} or taking {@dice 2d6} bludgeoning damage. Leafa cannot take this action if her speed is 0."
+					]
+				},
+                {
+                    "name": "I Got Friends (1/1)",
+					"entries": [
+						"Leafa calls in a favour in the South Docks. The favour must be something a criminal orginsation or a network of dock workers can reasonably achieve with little risk, such as smuggling a person or contraband, threatening a business owner, acquiring a vehicle or delaying shipments."
+					]
+                }
+			],
+			"bonus": [
+				{
+					"name": "Enrage! (1/Long Rest)",
+					"entries": [
+						"Leafa is good at keeping her temper in check, but if she does let go, you'd better not be in the way. She gains the following effects for the next 10 minutes, until she is knocked {@condition unconscious}, or she calms down (decided by the DM):",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "Leafa loses most of her rational thinking and becomes overwhelmingly dedicated to a particular destructive goal, such as killing a particular enemy or destroying a particular object. Any creatures attempting to stop her may be seen as hostile, regardless of their previous relationship.",
+                                "Leafa has advantage on all attack rolls related to pursuing her goal.",
+                                "Leafa's Strength score becomes 24.",
+                                "Leafa has resistance to all damage.",
+                                "Leafa's speed becomes 60 feet.",
+                                "If a section of a nonmagical structure has 15 AC or lower, has 30 hit points or fewer and is less than 1 foot thick, Leafa can move through it as difficult terrain. This includes most wooden walls."
+                            ]
+                        }
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Can't keep me down! (5/LR)",
+                    "entries": [
+                        "When Leafa fails a saving throw or takes damage, she can use a reaction to reroll the saving throw or gain resistance to the triggering damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+                "B",
+                "P"
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			}
+		},
+        {
+			"name": "Peto/Cloud Nine",
+			"source": "J:BoP",
+			"isNamedCreature": true,
+			"size": ["M"],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"air genasi",
+                    "skirmisher"
+				]
+			},
+			"alignment": ["C","G"],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"unarmored defence"
+					]
+				}
+			],
+			"hp":{
+				"average": 100,
+				"formula": "20d8+10"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 12,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+            "save":{
+                "dex": "+8",
+                "cha": "+8"
+            },
+			"skill": {
+				"acrobatics": "+8",
+                "athletics": "+8",
+                "deception": "+8",
+                "performance": "+12"
+			},
+			"passive": 11,
+			"languages": [
+                "Cyrik (Upper)",
+				"Cyrik (Lower)",
+                "Vrakon (Crystal Voice)",
+                "Sign (Poetic)"
+			],
+			"cr": "10",
+            "trait": [
+                {
+					"name": "Glamorous",
+					"entries": [
+						"Over the course of 10 minutes, Peto can transform into Cloud Nine or back into Peto. As Cloud Nine, they have advantage on Charisma checks and saving throws, but has disadvantage on Dexterity (Stealth) and their speed is reduced by 10 feet due to high heels."
+					]
+				},
+                {
+                    "name": "One-armed Bandit",
+                    "entries": [
+                        "Peto is missing their left arm, however, they can use their dexterity and current control to componsate. Peto can wield weapons as if they were using two hands, gaining the benefits of the Versatile and Two-Handed properties."
+                    ]
+                },
+                {
+                    "name": "Currents (5/Long Rest)",
+                    "entries": [
+                        "When Peto takes the Attack or Dash action on their turn, Peto can apply the {@condition weighted|J:general} or {@condition lightened|J:general} condition to either themself or a creature they hit with an attack for 1 minute, or until Peto ends it (no action required).",
+                        "Alternatively, Peto can use this trait on themself as a reaction to being {@condition grappled} or falling."
+                    ]
+                }, 
+                {
+                    "name": "Starstruck Strike (3/Long Rest)",
+                    "entries": [
+                        "When Peto hits a creature with a weapon attack, they can force the creature to make a Constitution saving throw (DC equals 8 + PB + Charisma modifier) or become {@condition stunned|phb} until the start of Peto's next turn. On a success, the creature is {@condition dazed|FleeMortals} for the duration instead."
+                    ]
+                },
+                {
+					"name": "Bonus Proficiencies",
+					"entries": [
+						"Peto has proficiency with the following; {@item diguise kit|phb}, {@item thieves' tools|phb}, {@item bagpipes|phb}, {@item flute|phb}, and {@item playing cards|phb}."
+					]
+				}                 
+            ],
+			"action": [
+                {
+					"name": "Multiattack",
+					"entries": [
+						"Leafa makes two weapon attacks."
+					]
+				},
+                {
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d10 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Glass Dart",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}9 ({@damage 1d10 + 5}) piercing damage."
+					]
+				},
+                {
+					"name": "Charge (3/Long Rest)",
+					"entries": [
+						"Leafa runs up to 30 feet in a straight line and then makes a Horns attack. This movement does not provoke opportunity attacks and can move through the space of Large or smaller creatures. Any creature who's space she moves through must chose between falling {@condition prone} or taking {@dice 2d6} bludgeoning damage. Leafa cannot take this action if her speed is 0."
+					]
+				},
+                {
+                    "name": "Everyone on Cloud Nine (1/1)",
+					"entries": [
+						"Cloud Nine rallies her fans to a cause, such as spreading misinformation, distributing small items to the public, or leading a chant in public. The fans will not willingly put themselves in obvious danger."
+					]
+                }
+			],
+			"bonus": [
+				{
+					"name": "Breezy Action",
+					"entries": [
+						"Peto takes the {@action Dash} or {@action Disengage} action, or makes a melee attack."
+					]
+				},
+                {
+					"name": "Wind under Wings (1/Long Rest)",
+					"entries": [
+						"Peto gains a flying speed equal to their walking speed for 1 mintue.",
+                        "Alternatively, Peto can touch another creature and cast the {@spell levitate|phb} spell on them."
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Manipulate Load",
+                    "entries": [
+                        "When Peto, or a creature they can see within 30 feet, makes a Strength (Athletics) check, Peto can use a reaction to give the roll advantage or disadvantage (Peto's choice) as they summon winds to help or hinder the effort."
+                    ]
+                }
+            ],
+            "actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+                "B",
+                "P"
+			],
+			"fluff": {
+				"entries": [
+					""
+				]
+			}
+		}          
+    ]
+}

@@ -593,7 +593,9 @@
 				{
 					"name": "7th Level: Arcane Arrowsmith (3/Day)",
 					"entries": [
-						"Using woodcarver's tools, Bomber touches a nonmagical arrow and turn it into a {@filter random uncommon trick arrow|items|source=j:ammo|type=!modern;!futuristic|rarity=uncommon|category=|base item=arrow__phb}. The arrow remains magical until used, or until the next dawn. The arrow can be given to other creatures, they instinctively know the arrows will become mundane at the next dawn."
+						"Using woodcarver's tools, bomber touches a nonmagical arrow, and transforms it into a trick arrow of his choice from the following list; {@item emetic arrow|J:Ammo}, {@item enlarging arrow|J:Ammo}, {@item entrapping arrow|J:Ammo}, {@item forceful arrow|J:Ammo}, {@item shielding arrow|J:Ammo}, {@item shrinking arrow|J:Ammo} or {@item smoking arrow|J:Ammo}.",
+						"The arrow remains magical until used, or until the next dawn. The arrow can be given to other creatures, they instinctively know the arrows will become mundane at the next dawn.",
+						"At the DM's discretion, Bomber can learn to produce other types of uncommon trick arrows. For example, he might find a new type of trick ammunition and study it over the course of a long rest, adding it to the list above at the end of the rest."
 					]
 				}
 			],
@@ -709,7 +711,7 @@
 				{
 					"name": "7th Level: WIP",
 					"entries": [
-						"Gomber will figure out their shit one day."
+						"Gomber lets out an intoxicating belch. Creatures within 10 feet of Gomber must make a Constitution saving throw (DC 10 +PB) or become poisoned for 1 minute (save ends at end of turn)."
 					]
 				}
 			],
