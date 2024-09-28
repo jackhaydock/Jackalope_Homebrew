@@ -598,7 +598,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.09.28.14.44",
+                "version": "2024.09.28.17.35",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -646,7 +646,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1727534677.6623023
+        "dateLastModified": 1727544928.9925942
     },
     "class": [
         {
@@ -25948,6 +25948,206 @@
                 "entries": [
                     "Peto is a nimble air genasi with command or air currents. Like the rest of the Birds of Prey, Peto has a grievance with the current government and police of Trenin. Even among the Birds of Prey, Peto has a rather relaxed attitude to maiming and killing nobles, greycapes and bluecapes, possibly even taking joy from it.",
                     "Peto has a drag persona known as Cloud Nine. Cloud Nine is a local celebrity performer and boasts a small but loyal following. Cloud Nine appears far more confident and performative than Peto, but also less cautious, sometimes getting carried away by the performance."
+                ]
+            }
+        },
+        {
+            "name": "Lady Penelope of Rubin",
+            "source": "J:BoP",
+            "isNamedCreature": true,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 100,
+                "formula": "20d8+10"
+            },
+            "speed": {
+                "walk": 50,
+                "climb": 50
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "con": "+6",
+                "wis": "+6"
+            },
+            "skill": {
+                "acrobatics": "+8",
+                "deception": "+12",
+                "history": "+4",
+                "sleight of hand": "+8"
+            },
+            "passive": 12,
+            "languages": [
+                "Cyrik (Upper)",
+                "Cyrik (Lower)",
+                "Elbros (Higher)",
+                "Vrakon (Crystal Voice)",
+                "Sign (Poetic)"
+            ],
+            "cr": "10",
+            "trait": [
+                {
+                    "name": "Princess and Pauper",
+                    "entries": [
+                        "Over the course of a minute, Penny transforms her appearance and demeanour into one of the following guises, which last until she uses this trait again:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "name": "Lady Penelope",
+                                    "entries": [
+                                        "Appearing as a prim and proper noble of Rubin, Penelope has advantage on abilty checks made to socially interact with, or blend in with, nobles and creatures who respect nobility and wealth, however, she has disadvantage on such checks with those who dislike nobility and wealth."
+                                    ]
+                                },
+                                {
+                                    "name": "Penny",
+                                    "entries": [
+                                        "Appearing as a simple, and sometimes drunk, commoner, Penny has advantage on abilty checks made to socially interact with, or blend in with, working class folk, especially those who dislike nobles and frequent alehouses, however, she has disadvantage on such checks with those who value nobility and wealth."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Drinking Game Master",
+                    "entries": [
+                        "Penelope has advantage on saving throws against posion damage and the {@condition poisoned|phb} condition, and has resistance against poison damage."
+                    ]
+                },
+                {
+                    "name": "Bonus Proficiencies",
+                    "entries": [
+                        "Penelope has proficiency with the following; {@item thieves' tools|phb}, harp, {@item flute|phb}, and {@item playing cards|phb}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Improvised Shiv",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage and the target is {@condition distracted|J:general} until the start of Penelope's next turn."
+                    ]
+                },
+                {
+                    "name": "Improvised Thrown Weapon",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Feint or Faint (3/Long Rest)",
+                    "entries": [
+                        "When Penelope is within 5 feet of a humanoid creature, she can do one of the following:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "name": "Damesel in Distress (Lady Penelope Only)",
+                                    "entries": [
+                                        "Penelope accuses the creature of attacking or offending her, crying out for help from a second humanoid within 30 feet that can see or hear her. The second creature must make a Wisdom saving throw (DC equals 8 + PB + Charisma modifier) or view the first creature as hostile and spend an action on its next turn reprimanding, grappling or even attacking the first creature (DM's discretion). Afterwhich, the second creature might no longer see the first as hostile. A creature that dislikes nobility or sees Penelope as hostile has advantage on the saving throw."
+                                    ]
+                                },
+                                {
+                                    "name": "Distracting Troublemaker (Penny Only)",
+                                    "entries": [
+                                        "Penny distracts the creature with pocket sand, misleading feints or rude insults. Attack rolls made by other creatures against the target have advantage until the start of Penny's next turn, until she is more than 5 feet from the creature, or an attack hits the creature. When an attack roll hits the creature, Penny can use a reaction to make the attack deal an additional {@dice 2d6} damage and she can move up to half her movement without provoking opportunity attacks as part of the same reaction."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Belittle or Bewilder (1/Long Rest)",
+                    "entries": [
+                        "Either by barking misleading and contradictory orders as Lady Penelope or employing various dirty tricks and feints as Penny, Penelope casts the {@spell confusion|xphb} spell at 5th-level (DC equals 8 + PB + Charisma Modifier)."
+                    ]
+                },
+                {
+                    "name": "Money makes the world go round (1/1)",
+                    "entries": [
+                        "Penelope can use her noble connections to call in a favour. The favour must be something that can be achieved with the status or wealth of minor nobility, such as acquiring a valuable antique, bribing an official, or something else the DM deems appropriate."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Dainty Light Fingers (5/Long Rest)",
+                    "entries": [
+                        "Penny forces a creature within 5 feet to make a Wisdom saving throw (DC + PB + Charisma modifier). On a fail, Penny steals one of the following items from the creature, she can throw the item up to 15 feet as part of the same bonus action:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "One item being held or loosely carried by the creature.",
+                                "An important or sentimental item. The creature is distracted until they retrieve it. In addition, as a bonus action within the next 10 minutes, a creature holding the item that can be seen by the target can force the target to repeat the saving throw. On a fail, the target is {@condition taunted|J:general} by the creature holding the item until the end of the target's next turn.",
+                                "A random treasure or tricket worth gp equal to twice the creature's CR.",
+                                "A {@item Potion of Healing|dmg}. It ceases to be magical after one hour."
+                            ]
+                        },
+                        "Alternatively, Penny can plant a tiny item she is holding on the person."
+                    ]
+                },
+                {
+                    "name": "Just a Commoner (Penny Only)",
+                    "entries": [
+                        "Penny can {@action Hide} as a bonus action. She can also attempt to hide in a crowded area such as a markeplace or tavern. When she does so, she can make a Charisma (Deception) check in place of a Dexterity (Stealth). Being visible does not necessarily reveal her location so long as she acts as part of the normal crowd."
+                    ]
+                },
+                {
+                    "name": "Fear of Friends in High Places (Lady Penelope Only)",
+                    "entries": [
+                        "Penelope uses her status and connections to instil hesitation in her enemies. Until the start of Penelope's next turn, she has a bonus to her Armor Class and Wisdom saving throws equal to her Charisma modifier."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Uncanny Dodge",
+                    "entries": [
+                        "When Penelope takes damage from an attack, she can use a reaction to half the damage she takes."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "fluff": {
+                "entries": [
+                    "Lady Penelope is a minor noble lady from Rubin.",
+                    "Despite the luxuries of her station, Penelope is never truly satisfied with that life. She occasionally takes on the persona of Penny the Urchin, a commoner who frequents alehouses, enjoying the drink and company. As Penny, she can blend in remarkably well."
                 ]
             }
         },
