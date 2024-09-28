@@ -76,7 +76,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.09.28.17.35",
+                "version": "2024.09.28.18.18",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1727544928.2135365
+        "dateLastModified": 1727547682.4761736
     },
     "item": [
         {
@@ -2120,8 +2120,7 @@
                 "formula": "20d8+10"
             },
             "speed": {
-                "walk": 50,
-                "climb": 50
+                "walk": 30
             },
             "str": 10,
             "dex": 16,
@@ -2286,6 +2285,126 @@
                 "entries": [
                     "Lady Penelope is a minor noble lady from Rubin.",
                     "Despite the luxuries of her station, Penelope is never truly satisfied with that life. She occasionally takes on the persona of Penny the Urchin, a commoner who frequents alehouses, enjoying the drink and company. As Penny, she can blend in remarkably well."
+                ]
+            }
+        },
+        {
+            "name": "Yavius",
+            "source": "J:BoP",
+            "isNamedCreature": true,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "myconid",
+                    "controller"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "{@item linen armor|phb}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 110,
+                "formula": "20d6+40"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 12,
+            "con": 18,
+            "int": 12,
+            "wis": 18,
+            "cha": 10,
+            "save": {
+                "con": "+8",
+                "wis": "+8"
+            },
+            "skill": {
+                "deception": "+8",
+                "performance": "+8"
+            },
+            "passive": 14,
+            "languages": [
+                "Cyrik (Higher)",
+                "Unknown Foreign Language"
+            ],
+            "cr": "10",
+            "trait": [
+                {
+                    "name": "Rapport Spores",
+                    "entries": [
+                        "Yavius can telepathically communicate with creatures within 30 feet."
+                    ]
+                },
+                {
+                    "name": "Undercover Artist",
+                    "entries": [
+                        "Yavius can cast {@spell disguise self|phb} (DC equals 8 + PB + Constitution modifier) at will."
+                    ]
+                },
+                {
+                    "name": "Bonus Proficiencies",
+                    "entries": [
+                        "Yavius has proficiency with the following; {@item painter's supplies|phb} and {@item calligrapher's supplies|phb}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Painted Net",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 20/60 ft., one Large or smaller target. {@h}The creature is {@condition restrained|phb} until it is freed. The creature, or another creature within 5 feet, can make a Strength (Athletics) check (DC 8 + PB + Constitution modifier) to break it free. Dealing 5 acid or slashing damage to the net also frees the creature."
+                    ]
+                },
+                {
+                    "name": "Posion Spores",
+                    "entries": [
+                        "Yavius chooses a creature they can see within 15 feet. the target must succeed on a Constitution saving throw (DC 8 + PB + Constitution modifier) or take {@damage 3d12} poison damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Pacifying Spores (3/Long Rest)",
+                    "entries": [
+                        "Yavius chooses a creature they can see within 5 feet. The target must succeed on a Constitution saving throw (DC 8 + PB + Constitution modifier) or be {@condition Stunned|phb} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                    ]
+                },
+                {
+                    "name": "You'll need a hero! (1/Long Rest)",
+                    "entries": [
+                        "Yavius creates 1 Enchanted Eden Mauler or 15 First Dawn Maulers in unoccupied spaces within 30 feet. The maulers act independently and are hostile to all non-mauler creatures. The maulers fade after one minute or when they reach 0 hit points."
+                    ]
+                },
+                {
+                    "name": "Masterpiece (1/1)",
+                    "entries": [
+                        "Yavius creates and distrubtes a great work, or series of works. The work might persuade groups of people to rally to a particular cause, or might pass a distribute a secret message to a wide audience."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Oil Object (5/Long Rest)",
+                    "entries": [
+                        "Yavius creates a non-magical object that fits within a 5-foot cube. The creation may appear like multiple separate objects or a larger object folded up, but it is still treated as a single rigid and opaque object. The object is clearly painted, has an AC of 15 and 10 hit points. It is immune to poison and psychic damage but vulnerable to acid damage. It is also immune to all conditions. The object disappears after 10 minutes or when it is reduced to 0 hit points."
+                    ]
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Yavius is a famous painter in Trenin, known for impressionist paintings of lone heroes standing up to giant threats, such as monsters and hordes.",
+                    "A secret known only to a few is that Yavius is not actually a single person, but a fungal colony acting as one. They employ disguises and agents to hide their true nature from the public."
                 ]
             }
         },
