@@ -20,7 +20,7 @@
     },
     "monster": [
         {
-			"name": "Barabak Kurim",
+			"name": "Barabak",
 			"source": "J:BoP",
 			"isNamedCreature": true,
 			"size": ["M"],
@@ -28,7 +28,8 @@
 				"type": "humanoid",
 				"tags": [
 					"half-orc",
-                    "support"
+                    "support",
+					"bird of prey"
 				]
 			},
 			"alignment": ["N","G"],
@@ -89,7 +90,7 @@
 				{
 					"name": "Scholarly Expertise",
 					"entries": [
-						"Barabak doubles his proficiency bonus, provided he doesn't already, for any checks relating to the following topics; Trenin politics, and mercatile."
+						"Barabak doubles his proficiency bonus, provided he doesn't already, for any checks relating to Trenin politics and to mercantile."
 					]
 				},
 				{
@@ -121,7 +122,7 @@
 				{
 					"name": "Kopis",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) slashing damage."
 					]
 				},
 				{
@@ -176,7 +177,8 @@
 			],
 			"fluff": {
 				"entries": [
-					""
+					"Barabak is the owner and barkeep of the Flaming Talon bastion. He is also the leader and tactician of the Birds of Prey. With some talents in martial combat and the arcane arts, Barabak's biggest strength is his strategic mind. Whether its managing a tavern, playing dragon chess or planning an insurection, Barabak is rather gifted.",
+					"Barabak's grandmother, Baba, lives with him and sometimes works in the Flaming Talon. While clearly elderly and sometimes spacey, Baba has lived a rich life, occassionaly regaling the more patient patron with tales of adventuring and combat."
 				]
 			}
 		},
@@ -189,7 +191,8 @@
 				"type": "humanoid",
 				"tags": [
 					"dwarf",
-                    "skirmisher"
+                    "skirmisher",
+					"bird of prey"
 				]
 			},
 			"alignment": ["C","G"],
@@ -233,9 +236,9 @@
 			"cr": "10",
 			"trait": [
 				{
-					"name": "Dwarvern Resiliance",
+					"name": "Dwarvern Resilience",
 					"entries": [
-						"Gimmer has advantage on saving throws against {@condition poisoned|phb}, and has resistance against poison damage."
+						"Gimmer has advantage on saving throws against posion damage and the {@condition poisoned|phb} condition, and has resistance against poison damage."
 					]
 				},
                 {
@@ -317,7 +320,8 @@
 			],
 			"fluff": {
 				"entries": [
-					""
+					"Gimmer is a miner, and also a warrior within the Birds of Prey. While stocky and strong like many laboring dwarves, Gimmer is cunning and known to fight dirty.",
+					"Gimmer lives with his parents. His mother, Lyeslyn, is also a miner and commands much respect within the Stone District. His father, Sarthel, is a baker and the homemaker of the family. Together the family took Thena Bea Dakestus in, during her first time in Trenin, giving her the family she never really had at home."
 				]
 			}
 		},
@@ -330,7 +334,8 @@
 				"type": "humanoid",
 				"tags": [
 					"human",
-                    "support"
+                    "support",
+					"bird of prey"
 				]
 			},
 			"alignment": ["C","G"],
@@ -343,15 +348,15 @@
 				}
 			],
 			"hp":{
-				"average": 110,
-				"formula": "20d8+20"
+				"average": 100,
+				"formula": "20d8+10"
 			},
 			"speed": {
 				"walk": 30
 			},
 			"str": 10,
-			"dex": 12,
-			"con": 14,
+			"dex": 14,
+			"con": 12,
 			"int": 10,
 			"wis": 16,
 			"cha": 18,
@@ -446,7 +451,8 @@
 			],
 			"fluff": {
 				"entries": [
-					""
+					"Helith is a human bard, member of the Golden Lyre, and member of the Birds of Prey, Helith is something of a gossiper, and her connections to the Golden Lyre only enhance this. Helith is remarkably capable of wielding this trait to spread and gather information quickly and broadly, greatly aiding the Birds of Prey.",
+					"Helith served as something of a mentor for Thena Bea Dakestus during her first time in Trenin, guiding her both in music, Apollo worship and even magic. Its not hard to argue that Thena has vastly surpassed Helith in magic, but Helith is perhaps still the stronger musician."
 				]
 			}
 		},
@@ -459,7 +465,8 @@
 				"type": "humanoid",
 				"tags": [
 					"minotaur",
-                    "brute"
+                    "brute",
+					"bird of prey"
 				]
 			},
 			"alignment": ["C","G"],
@@ -512,13 +519,20 @@
                 {
 					"name": "Improvised Shield",
 					"entries": [
-						"Leafa can use miscilanious items to gain a +2 bonus to her Armor Class."
+						"Leafa can use miscellaneous items to gain a +2 bonus to her Armor Class."
 					]
 				},
                 {
 					"name": "Bonus Proficiencies",
 					"entries": [
 						"Leafa has proficiency with the following; {@item carpenter's tool|phb}, {@item woodcarver's tools|phb}, vehicles and {@item dice set|phb}."
+					]
+				},
+				{
+					"name": "Controled Rage",
+					"entries": [
+						"Having faced many hardships, Leafa is good at keeping her anger in check, but might sometimes be tested. At the DM's discretion, Leafa might make a DC 10 Wisdom saving throw at the start of her turn to remain calm. On a fail, Leafa must use her Enrage! trait. The DC increases for each friendly creature Leafa can see that is {@variantrule Bloodied|XPHB} (increased by 2), or {@variantrule Dead|XPHB} (increased by 5).",
+						"The DM might also decide that Leafa automatically, or even willing, fails this saving throw."
 					]
 				}              
             ],
@@ -564,7 +578,7 @@
                             "style": "list",
                             "items": [
                                 "Leafa loses most of her rational thinking and becomes overwhelmingly dedicated to a particular destructive goal, such as killing a particular enemy or destroying a particular object. Any creatures attempting to stop her may be seen as hostile, regardless of their previous relationship.",
-                                "Leafa has advantage on all attack rolls related to pursuing her goal.",
+                                "Leafa has advantage on all attack rolls and ability checks related to pursuing her goal.",
                                 "Leafa's Strength score becomes 24.",
                                 "Leafa has resistance to all damage.",
                                 "Leafa's speed becomes 60 feet.",
@@ -591,7 +605,8 @@
 			],
 			"fluff": {
 				"entries": [
-					""
+					"Leafa is a minotaur dock worker, working many odd jobs. Her hulky form naturally gets her lots of work in heavy lifting, but she is also skilled in woodworking and driving. She is also a member of the Birds of Prey, where these skills, along with the connections she makes in the South Docks, are greatly useful to the group.",
+					"Minotaurs are not common in Trenin. Combined with the general hardships of commonfolk in Trenin, Leafa faces many frustrations and challenges. Leafa has to manage her anger carefully to avoid making things worse. In spite of all this, Leafa is incredibly friendly and often the most chipper in the room. Just don't get in her way when she does let go."
 				]
 			}
 		},
@@ -604,7 +619,8 @@
 				"type": "humanoid",
 				"tags": [
 					"air genasi",
-                    "skirmisher"
+                    "skirmisher",
+					"bird of prey"
 				]
 			},
 			"alignment": ["C","G"],
@@ -621,7 +637,8 @@
 				"formula": "20d8+10"
 			},
 			"speed": {
-				"walk": 50
+				"walk": 50,
+				"climb": 50
 			},
 			"str": 10,
 			"dex": 18,
@@ -657,7 +674,7 @@
                 {
                     "name": "One-armed Bandit",
                     "entries": [
-                        "Peto is missing their left arm, however, they can use their dexterity and current control to componsate. Peto can wield weapons as if they were using two hands, gaining the benefits of the Versatile and Two-Handed properties."
+                        "Peto is missing their left arm, however, they can use their dexterity and air current control to componsate. They can climb effectively, wield weapons as if they were using two hands and can still attack while grappling one creature."
                     ]
                 },
                 {
@@ -706,12 +723,6 @@
 					]
 				},
                 {
-					"name": "Charge (3/Long Rest)",
-					"entries": [
-						"Leafa runs up to 30 feet in a straight line and then makes a Horns attack. This movement does not provoke opportunity attacks and can move through the space of Large or smaller creatures. Any creature who's space she moves through must chose between falling {@condition prone} or taking {@dice 2d6} bludgeoning damage. Leafa cannot take this action if her speed is 0."
-					]
-				},
-                {
                     "name": "Everyone on Cloud Nine (1/1)",
 					"entries": [
 						"Cloud Nine rallies her fans to a cause, such as spreading misinformation, distributing small items to the public, or leading a chant in public. The fans will not willingly put themselves in obvious danger."
@@ -728,14 +739,14 @@
                 {
 					"name": "Wind under Wings (1/Long Rest)",
 					"entries": [
-						"Peto gains a flying speed equal to their walking speed for 1 mintue.",
+						"Peto gains a flying speed equal to their walking speed for 1 minute.",
                         "Alternatively, Peto can touch another creature and cast the {@spell levitate|phb} spell on them."
 					]
 				}
 			],
             "reaction": [
                 {
-                    "name": "Manipulate Load",
+                    "name": "Sailing Load",
                     "entries": [
                         "When Peto, or a creature they can see within 30 feet, makes a Strength (Athletics) check, Peto can use a reaction to give the roll advantage or disadvantage (Peto's choice) as they summon winds to help or hinder the effort."
                     ]
@@ -750,7 +761,8 @@
 			],
 			"fluff": {
 				"entries": [
-					""
+					"Peto is a nimble air genasi with command or air currents. Like the rest of the Birds of Prey, Peto has a grievance with the current government and police of Trenin. Even among the Birds of Prey, Peto has a rather relaxed attitude to maiming and killing nobles, greycapes and bluecapes, possibly even taking joy from it.",
+					"Peto has a drag persona known as Cloud Nine. Cloud Nine is a local celebrity performer and boasts a small but loyal following. Cloud Nine appears far more confident and performative than Peto, but also less cautious, sometimes getting carried away by the performance."
 				]
 			}
 		}          
