@@ -803,6 +803,58 @@
 			]
 		}
     ],
+	"variant": [
+		{
+			"name": "Runecanvas Armor",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Runecanvas ",
+				"source": "J:Runestones",
+				"rarity": "uncommon",
+				"entries": [
+					"You can fuse two {@filter armor runestones|items|source=j:runestones|miscellaneous=} with this armor simultaneously.",
+					{
+						"type": "list",
+						"items": [
+							"If both runestones grant a bonus to Armor Class, the bonuses do not stack and you choose which bonus to use.",
+							"If both runestones require attunement, the armor and runestones together count as one item for the purposes of attunement.",
+							"If both runestones have charges, the charges do not combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Runecanvas Weapon",
+			"type": "GV|DMG",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"inherits": {
+				"namePrefix": "Runecanvas ",
+				"source": "J:Runestones",
+				"rarity": "uncommon",
+				"entries": [
+					"You can fuse two {@filter weapon runestones|items|source=j:runestones|miscellaneous=} with this weapon simultaneously.",
+					{
+						"type": "list",
+						"items": [
+							"If both runestones grant a bonus to attack and damage rolls, the bonuses do not stack and you choose which bonus to use.",
+							"If both runestones require attunement, the weapon and runestones together count as one item for the purposes of attunement.",
+							"If both runestones have charges, the charges combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
+						]
+					}
+				]
+			}
+		}
+	],
 	"variantrule": [
 		{
 			"name": "Runestones",

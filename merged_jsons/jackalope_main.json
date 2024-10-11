@@ -28,7 +28,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.11.00.13",
+                "version": "2024.10.11.00.31",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -526,7 +526,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1728605585.9991224
+        "dateLastModified": 1728606717.54045
     },
     "class": [
         {
@@ -13598,6 +13598,1078 @@
             ]
         }
     ],
+    "variant": [
+        {
+            "name": "Runecanvas Armor",
+            "type": "GV|DMG",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Runecanvas ",
+                "source": "J:Runestones",
+                "rarity": "uncommon",
+                "entries": [
+                    "You can fuse two {@filter armor runestones|items|source=j:runestones|miscellaneous=} with this armor simultaneously.",
+                    {
+                        "type": "list",
+                        "items": [
+                            "If both runestones grant a bonus to Armor Class, the bonuses do not stack and you choose which bonus to use.",
+                            "If both runestones require attunement, the armor and runestones together count as one item for the purposes of attunement.",
+                            "If both runestones have charges, the charges do not combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Runecanvas Weapon",
+            "type": "GV|DMG",
+            "requires": [
+                {
+                    "weapon": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Runecanvas ",
+                "source": "J:Runestones",
+                "rarity": "uncommon",
+                "entries": [
+                    "You can fuse two {@filter weapon runestones|items|source=j:runestones|miscellaneous=} with this weapon simultaneously.",
+                    {
+                        "type": "list",
+                        "items": [
+                            "If both runestones grant a bonus to attack and damage rolls, the bonuses do not stack and you choose which bonus to use.",
+                            "If both runestones require attunement, the weapon and runestones together count as one item for the purposes of attunement.",
+                            "If both runestones have charges, the charges do not combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Rifled Firearm",
+            "type": "GV",
+            "requires": [
+                {
+                    "age": "renaissance",
+                    "firearm": true
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "none",
+                "age": "renaissance",
+                "source": "J:Firearms",
+                "namePrefix": "Rifled ",
+                "entries": [
+                    "Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
+                    "The normal and long range of a rifled firearm are both doubled.",
+                    "This has no effect on firearms with the Wide-Shot property."
+                ]
+            }
+        },
+        {
+            "name": "Gun Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                }
+            ],
+            "inherits": {
+                "rarity": "rare",
+                "reqAttune": true,
+                "source": "J:Firearms",
+                "age": "renaissance",
+                "firearm": true,
+                "namePrefix": "Gun-",
+                "entries": [
+                    "This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock pistol|Caligos}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Heavy Gun Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "property": "2H"
+                },
+                {
+                    "type": "M",
+                    "property": "V"
+                }
+            ],
+            "inherits": {
+                "rarity": "very rare",
+                "reqAttune": true,
+                "source": "J:Firearms",
+                "age": "renaissance",
+                "firearm": true,
+                "namePrefix": "Heavy Gun-",
+                "entries": [
+                    "This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you make an attack with this weapon as part of the {@action Attack} action on your turn, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock musket|Caligos}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Adamantine Ammunition (Cyranos)",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "genericBonus": "+1",
+                "rarity": "none",
+                "source": "J:Cyranos",
+                "namePrefix": "Adamantine ",
+                "nameSuffix": " (Cyranos)",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this ammunition, unless it is magic ammunition that already has a bonus to those rolls.",
+                    "Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever an adamantine ammunition hits an object, the hit is a critical hit.",
+                    "The adamantine version of twenty pieces of ammunition costs 750 gp more than the normal version and takes at least one workweek to make, whether the ammunition is made of the metal or coated with it. Adamantine ammunition can only be made at The Forge on Thalia."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Adamantine Armor (Cyranos)",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "HA"
+                },
+                {
+                    "type": "MA"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "genericBonus": "+1",
+                "rarity": "none",
+                "source": "J:Cyranos",
+                "namePrefix": "Adamantine ",
+                "nameSuffix": " (Cyranos)",
+                "entries": [
+                    "You gain a +1 bonus to AC while you wear this armor, unless it is magic armor that already has a bonus to AC.",
+                    "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+                    "The adamantine version of a set of armor costs 750 gp more than the normal version and takes at least one workweek to make, whether the armor is made of the metal or coated with it. Adamantine armor can only be made at The Forge on Thalia."
+                ],
+                "bonusAc": "+1"
+            }
+        },
+        {
+            "name": "Adamantine Weapon (Cyranos)",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "S"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "genericBonus": "+1",
+                "rarity": "none",
+                "source": "J:Cyranos",
+                "namePrefix": "Adamantine ",
+                "nameSuffix": " (Cyranos)",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this weapon, unless it is a magic weapon that already has a bonus to those rolls.",
+                    "Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
+                    "The adamantine version of a melee weapon costs 750 gp more than the normal version and takes at least one workweek to make, whether the weapon is made of the metal or coated with it. Adamantine weapons can only be made at The Forge on Thalia."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Underworld Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "S"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "genericBonus": "+1",
+                "rarity": "rare",
+                "reqAttune": true,
+                "source": "J:Cyranos",
+                "charges": 3,
+                "recharge": "dawn",
+                "rechargeAmount": "{@dice 1d4-1}",
+                "namePrefix": "Underworld ",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
+                    "When you use this weapon to kill a humanoid creature you can expend one charge to cast {@spell animate dead|phb} on that creature."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Entrapping Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Entrapping ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the arrow transforms into a {@item net|phb}. The target is {@condition restrained} as described in the net's description."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Enlarging Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Enlarging ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Shrinking Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Shrinking ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Shielding Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Shielding ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Smoking Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Smoking ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Exploding Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Exploding ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the ammunition explodes and each creature in a 15-foot-radius sphere centered on the target, must make a Dexterity saving throw or take {@dice 3d6} fire damage. A creature takes half as much damage on a success. Objects in the area also take this damage."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Incendiary Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Incendiary ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, it splashes burning fluid over the target. The target takes {@dice 1d6} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Rolling Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Rolling ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, thousands of {@item Ball Bearings (bag of 1,000)|phb|ball bearings} explode outwards, covering a level area 15 feet square, centered on the target. The balls vanish after one minute."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Tethering Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Tethering ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, it becomes magically tethered to a random creature within 15 feet of it. Until the tether is broken with a DC 10 Strength check, neither terget can move, or be moved more than 15 feet away from the other. A creature can drag another creature that it is tethered to but its movement speed is halved when doing so."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Concussive Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Concussive ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, the ammunition emits a sonic blast that is audible up to 300 feet away. Each creature in a 15-foot-radius sphere centered on the target must make a Constitution saving throw or take {@dice 2d8} thunder damage and become {@condition deafened} until the end of its next turn. On a success, a creature takes half damage and is not {@condition deafened}. If this damage reduces a cretaure to 0 hit points, it becomes {@condition unconscious} and is stable."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Extinguishing Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Extinguishing ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, a spray of water erupts in a 15-foot-radius sphere centered on the target, extinguishing exposed, nonmagical fires within the area. Each creature within the area is hit by 5 gallons of water, which dissipates at the end of the turn."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Forceful Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Forceful ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pushed 15 feet away from you. On a success, the target is only pushed 5 feet."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Yanking Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Yanking ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pulled 15 feet towards you. On a success, the target is only pulled 5 feet."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Feathered Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Feathered ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|mm}, 3 for {@creature peacock|bgdia}, 4 for {@creature raven|mm}, 5 for {@creature owl|mm} or 6 for {@creature giant owl|mm}. The bird vanishes after 1 hour, or if it dies."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Mimicry Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Mimicry ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reproduces this phrase or noise from the location of the target. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Attracting Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Attracting ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Repelling Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Repelling ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Emetic Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Emetic ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition poisoned} until it spends an action to vomit.",
+                    "At the DM's discretion, a poisoned creature might choose to move to another location in order to vomit, such as to an outhouse, creek or over a ledge. A creature is unlikely to do this if it is aware of a more immediate threat, such as being in combat."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Transposition Ammunition",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Transposition ",
+                "type": "A",
+                "entries": [
+                    {
+                        "type": "entries",
+                        "name": "Trick Ammunition",
+                        "entries": [
+                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
+                        ]
+                    },
+                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take {@dice 1d8} force damage."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Soul Syphon Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "S"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "rare",
+                "reqAttune": true,
+                "curse": true,
+                "source": "J:General",
+                "namePrefix": "Soul Syphon ",
+                "entries": [
+                    "Whenever you hit with a critical hit using this weapon, the bonus to this weapon's attack and damage rolls increases by 1 (to a maximum of +10).",
+                    {
+                        "type": "entries",
+                        "name": "Curse",
+                        "entries": [
+                            "This weapon is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, whenever you hit with a critical hit using this weapon, your hit point maximum is reduced by {@dice 4d4}. If your hit point maximum is reduced to 0 or lower, you instantly die and your soul is consumed by the weapon, you can not be resurrected. If the curse is broken, the weapon's bonus to attack and damage rolls is reduced to 0."
+                        ]
+                    }
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of Insults",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "S"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": true,
+                "source": "J:General",
+                "nameSuffix": " of Insults",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you hit a creature with this weapon, it whispers insults to them. If the hit is a critical hit, the insults are so damming that the creature takes an extra {@dice 1d6} psychic damage."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Enforcer",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "R"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a strength score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Enforcer",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Strength modifier, instead of Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Dancer",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a dexterity score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Dancer",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Dexterity modifier, instead of Strength modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Survivor",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "R"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a constitution score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Survivor",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Constitution modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Scholar",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "R"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a intelligence score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Scholar",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Prophet",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "S"
+                },
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                },
+                {
+                    "type": "R",
+                    "dmgType": "P"
+                },
+                {
+                    "type": "R",
+                    "dmgType": "S"
+                },
+                {
+                    "type": "R",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a wisdom score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Prophet",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Wisdom modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Weapon of the Herald",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M"
+                },
+                {
+                    "type": "R"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "reqAttune": "by a creature with a charisma score of 13 or higher",
+                "source": "J:General",
+                "nameSuffix": " of the Herald",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Knightfall Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "B"
+                }
+            ],
+            "inherits": {
+                "page": "0",
+                "rarity": "uncommon",
+                "curse": true,
+                "source": "J:General",
+                "namePrefix": "Knightfall ",
+                "entries": [
+                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                    "Once per turn, when you hit a creature that is wearing medium or heavy armor with an attack using with this weapon, you can force that creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifer you used for the attack) or fall {@condition prone}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        }
+    ],
     "variantrule": [
         {
             "name": "Runestones",
@@ -20932,1028 +22004,6 @@
                 "You can cast the {@spell find steed|phb} spell using a warlock spell slot.",
                 "If you use {@variantrule find steed variant|J:Steeds}, you can choose one of the {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} when you take this invocation (Your DM may allow additional steeds)."
             ]
-        }
-    ],
-    "variant": [
-        {
-            "name": "Rifled Firearm",
-            "type": "GV",
-            "requires": [
-                {
-                    "age": "renaissance",
-                    "firearm": true
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "none",
-                "age": "renaissance",
-                "source": "J:Firearms",
-                "namePrefix": "Rifled ",
-                "entries": [
-                    "Spiral grooves on the inside of the barrel force the bullet to spin when fired, helping it travel further. An engineer or blacksmith can rifle the inside of most barrels for 150gp.",
-                    "The normal and long range of a rifled firearm are both doubled.",
-                    "This has no effect on firearms with the Wide-Shot property."
-                ]
-            }
-        },
-        {
-            "name": "Gun Weapon",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M"
-                }
-            ],
-            "inherits": {
-                "rarity": "rare",
-                "reqAttune": true,
-                "source": "J:Firearms",
-                "age": "renaissance",
-                "firearm": true,
-                "namePrefix": "Gun-",
-                "entries": [
-                    "This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you make an attack with thise weapon, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock pistol|Caligos}."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Heavy Gun Weapon",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "property": "2H"
-                },
-                {
-                    "type": "M",
-                    "property": "V"
-                }
-            ],
-            "inherits": {
-                "rarity": "very rare",
-                "reqAttune": true,
-                "source": "J:Firearms",
-                "age": "renaissance",
-                "firearm": true,
-                "namePrefix": "Heavy Gun-",
-                "entries": [
-                    "This combination melee weapon and firearm is more common as a novelty collector's item, but can still be used as a viable weapon.",
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you make an attack with this weapon as part of the {@action Attack} action on your turn, you can choose to make a normal melee attack or a ranged attack using the statistics of a {@item wheellock musket|Caligos}."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Adamantine Ammunition (Cyranos)",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "genericBonus": "+1",
-                "rarity": "none",
-                "source": "J:Cyranos",
-                "namePrefix": "Adamantine ",
-                "nameSuffix": " (Cyranos)",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this ammunition, unless it is magic ammunition that already has a bonus to those rolls.",
-                    "Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever an adamantine ammunition hits an object, the hit is a critical hit.",
-                    "The adamantine version of twenty pieces of ammunition costs 750 gp more than the normal version and takes at least one workweek to make, whether the ammunition is made of the metal or coated with it. Adamantine ammunition can only be made at The Forge on Thalia."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Adamantine Armor (Cyranos)",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "HA"
-                },
-                {
-                    "type": "MA"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "genericBonus": "+1",
-                "rarity": "none",
-                "source": "J:Cyranos",
-                "namePrefix": "Adamantine ",
-                "nameSuffix": " (Cyranos)",
-                "entries": [
-                    "You gain a +1 bonus to AC while you wear this armor, unless it is magic armor that already has a bonus to AC.",
-                    "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
-                    "The adamantine version of a set of armor costs 750 gp more than the normal version and takes at least one workweek to make, whether the armor is made of the metal or coated with it. Adamantine armor can only be made at The Forge on Thalia."
-                ],
-                "bonusAc": "+1"
-            }
-        },
-        {
-            "name": "Adamantine Weapon (Cyranos)",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "S"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "B"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "genericBonus": "+1",
-                "rarity": "none",
-                "source": "J:Cyranos",
-                "namePrefix": "Adamantine ",
-                "nameSuffix": " (Cyranos)",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this weapon, unless it is a magic weapon that already has a bonus to those rolls.",
-                    "Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
-                    "The adamantine version of a melee weapon costs 750 gp more than the normal version and takes at least one workweek to make, whether the weapon is made of the metal or coated with it. Adamantine weapons can only be made at The Forge on Thalia."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Underworld Weapon",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "S"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "genericBonus": "+1",
-                "rarity": "rare",
-                "reqAttune": true,
-                "source": "J:Cyranos",
-                "charges": 3,
-                "recharge": "dawn",
-                "rechargeAmount": "{@dice 1d4-1}",
-                "namePrefix": "Underworld ",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "This weapon has 3 charges and regains {@dice 1d4-1} charges daily at dawn.",
-                    "When you use this weapon to kill a humanoid creature you can expend one charge to cast {@spell animate dead|phb} on that creature."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Entrapping Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Entrapping ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the arrow transforms into a {@item net|phb}. The target is {@condition restrained} as described in the net's description."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Enlarging Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Enlarging ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Shrinking Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Shrinking ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Shielding Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Shielding ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Smoking Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Smoking ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Exploding Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Exploding ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the ammunition explodes and each creature in a 15-foot-radius sphere centered on the target, must make a Dexterity saving throw or take {@dice 3d6} fire damage. A creature takes half as much damage on a success. Objects in the area also take this damage."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Incendiary Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Incendiary ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, it splashes burning fluid over the target. The target takes {@dice 1d6} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Rolling Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Rolling ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, thousands of {@item Ball Bearings (bag of 1,000)|phb|ball bearings} explode outwards, covering a level area 15 feet square, centered on the target. The balls vanish after one minute."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Tethering Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Tethering ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, it becomes magically tethered to a random creature within 15 feet of it. Until the tether is broken with a DC 10 Strength check, neither terget can move, or be moved more than 15 feet away from the other. A creature can drag another creature that it is tethered to but its movement speed is halved when doing so."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Concussive Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Concussive ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, the ammunition emits a sonic blast that is audible up to 300 feet away. Each creature in a 15-foot-radius sphere centered on the target must make a Constitution saving throw or take {@dice 2d8} thunder damage and become {@condition deafened} until the end of its next turn. On a success, a creature takes half damage and is not {@condition deafened}. If this damage reduces a cretaure to 0 hit points, it becomes {@condition unconscious} and is stable."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Extinguishing Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Extinguishing ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, a spray of water erupts in a 15-foot-radius sphere centered on the target, extinguishing exposed, nonmagical fires within the area. Each creature within the area is hit by 5 gallons of water, which dissipates at the end of the turn."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Forceful Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Forceful ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pushed 15 feet away from you. On a success, the target is only pushed 5 feet."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Yanking Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Yanking ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pulled 15 feet towards you. On a success, the target is only pulled 5 feet."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Feathered Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Feathered ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|mm}, 3 for {@creature peacock|bgdia}, 4 for {@creature raven|mm}, 5 for {@creature owl|mm} or 6 for {@creature giant owl|mm}. The bird vanishes after 1 hour, or if it dies."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Mimicry Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Mimicry ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reproduces this phrase or noise from the location of the target. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Attracting Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Attracting ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Repelling Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Repelling ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Emetic Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Emetic ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition poisoned} until it spends an action to vomit.",
-                    "At the DM's discretion, a poisoned creature might choose to move to another location in order to vomit, such as to an outhouse, creek or over a ledge. A creature is unlikely to do this if it is aware of a more immediate threat, such as being in combat."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Transposition Ammunition",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "A"
-                },
-                {
-                    "type": "AF"
-                }
-            ],
-            "inherits": {
-                "genericBonus": "+1",
-                "rarity": "uncommon",
-                "source": "J:Ammo",
-                "namePrefix": "Transposition ",
-                "type": "A",
-                "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
-                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take {@dice 1d8} force damage."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Soul Syphon Weapon",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "S"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "B"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "rare",
-                "reqAttune": true,
-                "curse": true,
-                "source": "J:General",
-                "namePrefix": "Soul Syphon ",
-                "entries": [
-                    "Whenever you hit with a critical hit using this weapon, the bonus to this weapon's attack and damage rolls increases by 1 (to a maximum of +10).",
-                    {
-                        "type": "entries",
-                        "name": "Curse",
-                        "entries": [
-                            "This weapon is cursed. Attuning to it curses you until you are targeted by a spell such as {@spell remove curse} or a similar effect. While cursed, whenever you hit with a critical hit using this weapon, your hit point maximum is reduced by {@dice 4d4}. If your hit point maximum is reduced to 0 or lower, you instantly die and your soul is consumed by the weapon, you can not be resurrected. If the curse is broken, the weapon's bonus to attack and damage rolls is reduced to 0."
-                        ]
-                    }
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of Insults",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "S"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "B"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": true,
-                "source": "J:General",
-                "nameSuffix": " of Insults",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you hit a creature with this weapon, it whispers insults to them. If the hit is a critical hit, the insults are so damming that the creature takes an extra {@dice 1d6} psychic damage."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Enforcer",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "R"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a strength score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Enforcer",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Strength modifier, instead of Dexterity modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Dancer",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a dexterity score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Dancer",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Dexterity modifier, instead of Strength modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Survivor",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M"
-                },
-                {
-                    "type": "R"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a constitution score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Survivor",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Constitution modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Scholar",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M"
-                },
-                {
-                    "type": "R"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a intelligence score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Scholar",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Prophet",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "S"
-                },
-                {
-                    "type": "M",
-                    "dmgType": "B"
-                },
-                {
-                    "type": "R",
-                    "dmgType": "P"
-                },
-                {
-                    "type": "R",
-                    "dmgType": "S"
-                },
-                {
-                    "type": "R",
-                    "dmgType": "B"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a wisdom score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Prophet",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Wisdom modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Weapon of the Herald",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M"
-                },
-                {
-                    "type": "R"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "reqAttune": "by a creature with a charisma score of 13 or higher",
-                "source": "J:General",
-                "nameSuffix": " of the Herald",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "When you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls."
-                ],
-                "bonusWeapon": "+1"
-            }
-        },
-        {
-            "name": "Knightfall Weapon",
-            "type": "GV",
-            "requires": [
-                {
-                    "type": "M",
-                    "dmgType": "B"
-                }
-            ],
-            "inherits": {
-                "page": "0",
-                "rarity": "uncommon",
-                "curse": true,
-                "source": "J:General",
-                "namePrefix": "Knightfall ",
-                "entries": [
-                    "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                    "Once per turn, when you hit a creature that is wearing medium or heavy armor with an attack using with this weapon, you can force that creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifer you used for the attack) or fall {@condition prone}."
-                ],
-                "bonusWeapon": "+1"
-            }
         }
     ],
     "race": [
