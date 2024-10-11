@@ -815,7 +815,7 @@
 				}
 			],
 			"entries": [
-					"Your pact weapon is fused with a {@filter weapon runestone|items|source=j:runestones|miscellaneous=} of your choice that is rare or lower, or very rare or lower once you reach 11th level in the warlock class. Whenever you gain a warlock level you can replace the chosen runestone with a different one.",
+					"Your pact weapon is fused with a {@filter weapon runestone|items|source=j:runestones|miscellaneous=} of your choice that is rare or lower, or very rare or lower once you reach 12th level in the warlock class. Whenever you gain a warlock level you can replace the chosen runestone with a different one.",
 					"If the runestone grants a bonus to your attack and damage rolls and your pact weapon already does, the bonuses do not stack and you choose which one to use."
 			]
 		},
@@ -832,6 +832,20 @@
 			"entries": [
 					"Your pact shield is fused with an {@filter armor runestone|items|source=j:runestones|miscellaneous=} of your choice that is rare or lower, or very rare or lower once you reach 11th level in the warlock class. Whenever you gain a warlock level you can replace the chosen runestone with a different one.",
 					"If the runestone grants a bonus to your Armor class and your pact shield already does, the bonuses do not stack and you choose which one to use."
+			]
+		},
+		{
+			"name": "Replicate Runestone",
+			"source": "J:Runestones",
+			"featureType": ["AI"],
+			"prerequisite": [
+				{
+					"level": 6
+				}
+			],
+			"entries": [
+					"Using this infusion, you can replicate a {@filter runestone|items|source=j:runestones|miscellaneous=}. The maximum rarity of the runestone depends on your Artificer level; uncommon (6th Level), rare (10th Level) or very rare (14th Level).",
+					"You can learn this infusion multiple times; each time you do so, choose a different runestone that you can make with it."
 			]
 		}
 	],
