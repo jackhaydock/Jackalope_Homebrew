@@ -28,7 +28,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.07.26.23.19",
+                "version": "2024.10.11.00.13",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -646,7 +646,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1727552295.926406
+        "dateLastModified": 1728605587.7960906
     },
     "class": [
         {
@@ -3649,6 +3649,26 @@
             ]
         },
         {
+            "name": "Playful Runestone",
+            "source": "J:Runestones",
+            "rarity": "common",
+            "wondrous": true,
+            "reqAttune": false,
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Weapon Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "When a creature wields a weapon that this runestone is fused with for the first time, the weapon gains a random {@table Special Features; What Minor Property Does It Have|dmg|minor property}. When a different creature wields the weapon, the property is lost and a new one is gained. The DM can choose to reroll or creature their own property at their discretion"
+            ]
+        },
+        {
             "name": "+1 Juggling Runestone",
             "source": "J:Runestones",
             "rarity": "rare",
@@ -3763,7 +3783,7 @@
                     ]
                 },
                 "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
-                "Additionally, you can use a bonus action to alter the colors, sigils and patterns of the armor or to magically clean, dry or soil the armor. As part of the same bonus action, you can all alter any nonmagical clothing you are wearing in the same way. The armor or clothing retains its shape, materials and statistics and the effect ends if you use this bonus action again or you doff it. For example, you may alter a dirty brown tabbard into pristine red and white one bearing the sigil of a particular deity or noble."
+                "Additionally, you can use a bonus action to alter the appearance of the armor and your clothing. You decided what it looks like, including color, style, and any sigils or accessories, but the armor retains its normal bulk and weight. The changes fail to hold up to hold up to physical inspection and a creature can make a DC 17 Intelligence (Investigation) check to see through the illusion."
             ]
         },
         {
@@ -3839,7 +3859,7 @@
                 },
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
                 "Additionally, the weapon constantly bears a wet sheen, as if recently dipped in liquid. It also slightly stings to touch the blade or head. When you make an attack with this weapon you can change the damage type to acid, rather than the weapon's normal damage type.",
-                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature or object with an attack using this weapon, you can expend a charge to spray additional acid onto the target. At the start of each of it's turns, the creature or object takes {@dice 1d6} acid damage. The effect lasts 1 minute, or until the target, or a creature within 5 feet of it, uses an action to clean off the remaining acid."
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature or object with an attack using this weapon, you can expend a charge to coat the target in acid and impose {@condition Lingering|J:General|Lingering (3 acid)} on them for 1 minute or until they spend an action to clean the acid off."
             ]
         },
         {
@@ -3993,7 +4013,7 @@
                 },
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
                 "Additionally, this weapon has usually sharp points and edges, even if it didn't before. These points and edges appear far thinner that should physically be possible with typical weapon materials. When you make an attack with this weapon you can change the damage type to piercing, rather than the weapon's normal damage type.",
-                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you make an attack with this weapon against a creature that is wearing armor or wielding a shield, you can expend a charge to gain a +5 bonus to the attack roll. This attack roll also scores a critical hit on a roll of 19 or higher."
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you make an attack with this weapon, you can expend a charge to impose {@condition sundered|J:general} on the target until the end of its next turn."
             ]
         },
         {
@@ -4015,7 +4035,7 @@
                 },
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
                 "Additionally, this weapon always appears to be coated in a dark, oily liquid. This liquid is extremely bitter if tasted. When you make an attack with this weapon you can change the damage type to poison, rather than the weapon's normal damage type.",
-                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature with an attack using this weapon, you can expend a charge to force the creature to make a DC16 Constitution saving throw or become {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the condition on a success. A creature that fails the saving throw but is immune to the {@condition poisoned} condition instead has disadvantage on its next ability or attack roll."
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature with an attack using this weapon, you can expend a charge to force the creature to make a DC16 Constitution saving throw or become {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the condition on a success. While poisoned in this way, damage against the creature ignores resistance to poison damage."
             ]
         },
         {
@@ -4081,7 +4101,7 @@
                 },
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
                 "Additionally, this weapon gains a number of serrations and barbs on its blades, heads or points. When you make an attack with this weapon you can change the damage type to slashing, rather than the weapon's normal damage type.",
-                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature with an attack using this weapon, and that creature is not a construct or undead, you can expend a charge to give the target a debilitating wound. Until the end of its next turn, the creature takes {@dice 1d6} slashing damage for every 5 feet it moves."
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature with an attack using this weapon, you can expend a charge to impose {@condition bleeding|J:general} on the target."
             ]
         },
         {
@@ -4104,6 +4124,292 @@
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
                 "Additionally, noises produced by this weapon are noticeably louder and reverberate more than they naturally should. When you make an attack with this weapon you can change the damage type to thunder, rather than the weapon's normal damage type.",
                 "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you hit a creature or object with an attack using this weapon, you can expend a charge to push the target 15 feet away from you. If the target is Huge or larger, or is a creature that succeeds on a DC16 Strength saving throw, they are only pushed 5 feet. If this movement would force the target into the space of a creature or object that is its size or larger, both targets take {@dice 1d6} bludgeoning damage and the target stops moving."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Acid)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor is greasy and smells faintly of milk or soap. You have resistance to acid damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you or a creature within 5 feet of you would take acid damage, you can expend a number of charges as a reaction, touch the target, and reduce the damage by {@dice 2d4} per charge expended. If you reduce the damage to 0, you can use the same reaction to deal {@dice 2d6} acid damage to a different creature within 10 feet as you fling part of the acid at them instead."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Bludgeoning)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor appears to be made of constantly shifting sand or gel. You have resistance to bludgeoning damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you are knocked {@condition prone|phb}, you can expend a charge as a reaction to immediately get back up and move up to 15 feet without provoking opportunity attacks."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Cold)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor grows a thick coat of fur, regardless of its material. You have resistance to cold damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you take damage, you can expend a charge as a reaction to unleash a frigid wind to impose {@condition hampered|J:general} on each creature of your choice within 10 feet of you until the end of its next turn."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Fire)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor is coated in a fibrous crystaline material. You have resistance to fire damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you or a creature you can see within 5 feet makes a saving throw against fire or cold damage, you can expend a charge as a reaction to grant advantage on the saving throw."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Force)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor appears translucent and faintly glowing. You have resistance to force damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you are targeted by a spell attack or the {@spell magic missile|phb} spell, you can expend a charge as a reaction to teleport to an unoccupied space within 5 feet. The attack roll has disadvantage or you take no damage from the magic missile spell."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Lightning)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor bears lightweight metallic strips or chains that reach toward the ground. You have resistance to lightning damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you take lightning, thunder or force damage, you can expend a charge as a reaction to force a creature you can see within 30 feet to make a DC 17 Strength saving or be moved up to 15 feet towards or away from you. A creature composed of, or wearing, primarily metal has disadvantage on the saving throw. A creature is only moved 5 feet on a success."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Necrotic)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor looks to be made of, or coated in, flesh and bone and occasionally groans. You have resistance to necrotic damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When damage would reduce you to 0 hit points and the is not radiant damage, you can expend a charge as a reaction to drop to 1 hit point instead."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Piercing)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor bears a pattern resembling hands that grasp and gesture at incoming threats. You have resistance to piercing damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you are hit by a melee weapon attack, you can expend a charge as a reaction to have the armor to grip the weapon and force the attacker to make a DC 17 Strength saving throw or drop the weapon it used for the attack. The weapon remains harmlessly inside you until you or a creature within 5 feet uses an action to remove it."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Poison)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor is covered in pouches filled with medicinal herbs. You have resistance to poison damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you make a Constitution saving throw, you can expend a charge as a reaction to gain advantage on the roll."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Psychic)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor wispers in the back of your mind, drowning out other voices in your head. You have resistance to psychic damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When a creature attempts to impose the {@condition charmed|phb}, {@condition frightened|phb} or {@condition taunted|J:General} condition on you, you can expend a charge and deal {@dice 2d6} psychic damage to the creature as the whispers scream back at them."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Radiant)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor is so dark it seems to absorb light itself. You have resistance to radiant damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When a creature you can see within 30 feet targets you with a spell of 1st-level or higher, you can expend a charge as a reaction to force the creature to make a DC 17 Constitution saving throw or become blinded until the end of its next turn."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Slashing)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor always seems slightly different everytime you look at it, almost like it can't quite remember what its supposed to look like. You have resistance to slashing damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you take slashing damage from a melee attack, you can expend a charge as a reaction to have your limbs briefly and harmlessly rearrange or detach themselves. You take one of the following actions against the attacker; one weapon weapon attack, {@action Grapple} or {@action Shove}."
+            ]
+        },
+        {
+            "name": "+1 Resilience Runestone (Thunder)",
+            "source": "J:Runestones",
+            "rarity": "very rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4-1}",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Armor Runestone",
+                    "entries": [
+                        "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                },
+                "While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+                "Additionally, this armor feels soft and spongy, regardless of its material. You have resistance to thunder damage while wearing or wielding it.",
+                "Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you make a saving throw against becoming {@condition deafened} or being moved against your will, you can expend a charge as a reaction to gain advantage on the saving throw."
             ]
         },
         {
