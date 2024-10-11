@@ -28,7 +28,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.11.00.31",
+                "version": "2024.10.11.00.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -526,7 +526,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1728606717.54045
+        "dateLastModified": 1728608213.014983
     },
     "class": [
         {
@@ -13598,6 +13598,720 @@
             ]
         }
     ],
+    "optionalfeature": [
+        {
+            "name": "Runic Blade",
+            "source": "J:Runestones",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 7
+                }
+            ],
+            "entries": [
+                "Your pact weapon is fused with a {@filter weapon runestone|items|source=j:runestones|miscellaneous=} of your choice that is rare or lower, or very rare or lower once you reach 11th level in the warlock class. Whenever you gain a warlock level you can replace the chosen runestone with a different one.",
+                "If the runestone grants a bonus to your attack and damage rolls and your pact weapon already does, the bonuses do not stack and you choose which one to use."
+            ]
+        },
+        {
+            "name": "Runic Shield",
+            "source": "J:Runestones",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Blade",
+                    "level": 7
+                }
+            ],
+            "entries": [
+                "Your pact shield is fused with an {@filter armor runestone|items|source=j:runestones|miscellaneous=} of your choice that is rare or lower, or very rare or lower once you reach 11th level in the warlock class. Whenever you gain a warlock level you can replace the chosen runestone with a different one.",
+                "If the runestone grants a bonus to your Armor class and your pact shield already does, the bonuses do not stack and you choose which one to use."
+            ]
+        },
+        {
+            "name": "Alternative Abilty Scores",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons may find their power in the gathering of knowledge rather than the strength of their personality. For example, a papyrus dragon's greatest strength is its vast knowledge. As such, its Intelligence and Charisma scores are swapped to better reflect its nature.",
+                "Swap the dragon's Intelligence, Wisdom or Charisma score for that of a different ability from the same list.  The DC for the dragon's traits (excluding spellcasting) do not change as a result of theis trait."
+            ]
+        },
+        {
+            "name": "Alternative Creature Type",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Sometimes, just because it looks and acts like a dragon, doesn't mean it it actually is one. For example, a tree dragon's soul is bound to a specific tree and it is made of awakened wood. As such, its creature type is plant rather than dragon.",
+                "Change the dragon's creature type to another of your choice."
+            ]
+        },
+        {
+            "name": "Bad Flier",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons are good fliers, the dragon may have damaged wings or be inexperienced with them. For example, a cave dragon may have never had the space to properly utilize its wings, leading them to atrophy.",
+                "Half the dragon's flying speed and add the follwoing trait to the dragon's statblock:",
+                "{@b {@i Bad Flier.}} The dragon falls at the end of each of its turns if the only thing holding it aloft is its fly speed."
+            ]
+        },
+        {
+            "name": "Burrower",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at digging through loose earth. For example, a desert dragon can burrow through sand dunes as easily as it can walk on top of them.",
+                "Add a burrowing speed to the dragon's statblock equal to the dragon's walking speed."
+            ]
+        },
+        {
+            "name": "Charming Presence",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Frightful Presence trait"
+                }
+            ],
+            "entries": [
+                "Some dragon may be more alluring than terrifying. For example, a siren dragon might sing to charm those around it.",
+                "Creatures who fail the saving throw against the dragon's Frightful Presence trait are {@condition charmed} rather than {@condition frightened}."
+            ]
+        },
+        {
+            "name": "Climber",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at scaling vertical surfaces. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+                "Add a climbing speed to the dragon's statblock equal to the dragon's walking speed."
+            ]
+        },
+        {
+            "name": "Construct Design",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "The dragon may have been constructed by magic or science, rather than born. Or perhaps it is composed primarily of inorganic matter. For example, a stone dragon is powered by magic rather than biology, and so is a contruct rather than a dragon.",
+                "Make the following changes to the dragon's statblock:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon's creature's type is contruct rather than dragon.",
+                        "The dragon is immune to poison and psychic damage.",
+                        "The dragon is immune to disease and the {@condition poisoned} condition.",
+                        "The dragon does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Diver",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are adept at swimming. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
+                "Add a swimming speed to the dragon's statblock equal to the dragon's walking speed. Also, add the following trait:",
+                "{@b {@i Amphibious.}} The dragon can breathe air and water."
+            ]
+        },
+        {
+            "name": "Draconic Mount",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "For a multitude of reasons, a dragon may serve as the mount of another creature. For example, a cavalry dragon has bonded with a knight and the pair are a formidable force on the battlefield.",
+                "Add the following reaction to the dragon's statblock:",
+                "{@b {@i Protect Rider.}} When an attack would target a creature mounted on the dragon, the dragon can use a reaction to force the attack to target it instead."
+            ]
+        },
+        {
+            "name": "Energy Conduit",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
+                "Add the following reaction to the dragon's statblock:",
+                "{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
+            ]
+        },
+        {
+            "name": "Fey Ancestry",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons trace their origin to the material plane. For example, a fairy dragon may trace their origin, at least in part, to the feywild",
+                "Make the following changes to the dragon's statblock:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The dragon's creature's type is fey rather than dragon.",
+                        "The dragon is immune to the {@condition charmed} condition.",
+                        "Magic cannot put the dragon to sleep."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Grounded",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Not all dragons can fly, either losing the ability to do so or never having it to begin with. For example, a gladiator dragon may have had its wings removed as a wyrmling to prevent it escaping the arena.",
+                "Remove the dragon's base flying speed."
+            ]
+        },
+        {
+            "name": "Hidecarved",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons carve magical runes on their scales to improve their resilience. For example, ",
+                "The dragon has one or more Hidecarved Wards, described in chapter 3 of Fizban's Treasury of Dragons."
+            ]
+        },
+        {
+            "name": "Immutable Form",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
+            ]
+        },
+        {
+            "name": "Iron Will",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons posses extrodinary willpower, or none at all. For example, a zombie dragon is no longer truly conscious and cannot be manipulated.",
+                "The dragon is immune to the {@condition charmed} and {@condition frightened} conditions."
+            ]
+        },
+        {
+            "name": "Minion Master",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Young or older"
+                }
+            ],
+            "entries": [
+                "Some dragons prefer to have underlings work for them. For example, many dragons may command {@creature kobolds|MM|kobold}, however, a forest dragon might command {@creature awakened tree|MM|awakened trees}, or a royal dragon might command dragonborn {@creature knight|MM|knights}.",
+                "Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
+                "{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
+                "Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
+            ]
+        },
+        {
+            "name": "Multiple Heads",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
+            ]
+        },
+        {
+            "name": "Poison Fangs",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons can utilize poison to make their attacks more danagerous. For example, an underdark dragon may drink {@item drow poison|dmg}, and deliver the poison to the target of its next bite attack.",
+                "Add the following bonus action to the dragon's statblock:",
+                "{@b {@i Poison Fangs.}} The dragon can use a bonus action to coat its teeth with poison (as if they were a melee weapon). The next time the dragon hits a creature with its bite attack, that creature is subject to the effects of the poison."
+            ]
+        },
+        {
+            "name": "Quick Caster",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Legendary Actions",
+                    "spellcasting": true
+                }
+            ],
+            "entries": [
+                "A dragon may be able to perform magic quickly. For example, an iron dragon can use a legendary action to harden its hide by casting {@spell blade ward|phb} on itself.",
+                "Add the following legendary action to the dragon's statblock:",
+                "{@b {@i Quick Cast.}} The dragon casts a spell it knows that has a casting time of one action or one bonus action. The number of legendary actions expended is equal to the spell's level (1 for a cantrip)."
+            ]
+        },
+        {
+            "name": "Secondary Essence",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons possess affinity for multiple forms of destructive energy. For example, a thermal dragon has mastery of heat, both producing and removing it. Both fire and cold damage are associated with its Draconic Essence trait.",
+                "Choose a second damage type for the dragon's Draconic Essence trait. When the dragon uses its Dragon Breath or Destructive Maw trait, it choses which of the damage types to deal."
+            ]
+        },
+        {
+            "name": "Signature Spellcaster",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "prerequisite": [
+                {
+                    "other": "Young or older"
+                }
+            ],
+            "entries": [
+                "A dragon might be especially talented at particular spells. For example, a spider dragon can cast the {@spell web|phb} spell at will.",
+                "Choose up to 2 spells of 3rd-level or lower. The dragon can cast these spells at will, without providing material components. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons posses innate magical talents. For example, a black hole dragon may know spells such as {@spell magnify gravity|egw} and {@spell gravity sinkhole|egw}. Meanwhile, a divine dragon may know spells such as {@spell cure wounds|phb} and {@spell greater restoration|phb}.",
+                "Choose a number of cantrips and spells up to the dragon's proficiency bonus. The maximum level of each spell known depends on the dragon's age; cantrips only for wyrmlings, 3rd-level or lower for young dragons, 5th-level or lower for adults, 7th-lower or lower for ancients and 9th-level or lower for greatwyrms.",
+                "For each spell of 1st-level or higher, the dragon can cast it once per day. The dragon does not need to provide material components for cantrips or spells that it casts. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
+            ]
+        },
+        {
+            "name": "Telepathy",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons have telepathic abilities. For example, a psionic dragon can communicate with the minds of those around it.",
+                "Add the following trait to the dragon's statblock:",
+                "{@b {@i Telepathy.}} The dragon can speak telepathically with any other creature within 120ft."
+            ]
+        },
+        {
+            "name": "Unusual Size",
+            "source": "J:Dragons",
+            "featureType": [
+                "Draconic Traits"
+            ],
+            "entries": [
+                "Some dragons are noticably larger or smaller than expected for their age. For example, a giant dragon may be significantly larger than normal dragons.",
+                "Increase or decrease the dragon's size category by one."
+            ]
+        },
+        {
+            "name": "Pact Gunsmith",
+            "source": "J:Firearms",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Blade"
+                }
+            ],
+            "entries": [
+                "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "Warlock Level",
+                        "Weapon Forms"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@item matchlock musket|J:Firearms}, {@item matchlock pistol|J:Firearms}, {@item wheellock musket|J:Firearms}, {@item wheellock pistol|J:Firearms}"
+                        ],
+                        [
+                            "5th",
+                            "{@item flintlock musket|J:Firearms}, {@item flintlock pistol|J:Firearms}"
+                        ],
+                        [
+                            "7th",
+                            "{@item pepperbox musket|J:Firearms}, {@item pepperbox pistol|J:Firearms}"
+                        ],
+                        [
+                            "9th",
+                            "{@item gun weapon|J:Firearms}, {@item heavy gun weapon|J:Firearms}"
+                        ]
+                    ]
+                },
+                "Additionally, you can transform any magical firearm into your pact weapon."
+            ]
+        },
+        {
+            "name": "Pact of the Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "PB"
+            ],
+            "entries": [
+                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and if it uses the statistics of a shield or a buckler. You are proficient with the shield, and you cannot be disarmed of it against your will.",
+                "Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
+                "You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
+            ]
+        },
+        {
+            "name": "Greater Pact Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "Your pact shield gains the following benefits while you wield it:",
+                {
+                    "type": "list",
+                    "items": [
+                        "The shield grants you a +1 bonus to your AC, unless it is a magic or adamantine shield that already grants you a bonus. This bonus is in addition to the shield's normal bonus to AC.",
+                        "The shield grants you a +1 bonus to your Strength, Dexterity or Constitution saving throws (your choice). Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
+                        "You can use the shield as a spellcasting focus for your warlock spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Guardian Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "When you or a creature you can see within 30 feet is targetted by an attack, you can use a reaction to add your shield's AC bonus to the target's AC against the triggering attack, provided it doesn't already include it.",
+                "If you are not wielding your pact shield, you summon to your enpty hand it as part of this reaction, ending any effects that would normally end when the shield is dismissed. Also if you are not within 5 feet of the target, you can teleport to an unoccupied space within 5 feet of them as part of this reaction."
+            ]
+        },
+        {
+            "name": "Superior Pact Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 12,
+                    "other": "Greater Pact Shield"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You can choose an additional saving throw to gain the bonus. Choose from the following list; Intelligence, Wisdom or Charisma. Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
+                        "The bonuses granted to your AC and to chosen saving throws increase to +2."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oversized Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 5
+                }
+            ],
+            "entries": [
+                "As an action, you can grow your shield up to 10ft tall and wide and plant it in the ground. Any creatures behind the shield can use it for cover as if it were a solid wall. While in this form, you can not move the shield, and it is treated as an object with an AC equal to 14 + your proficiency bonus and a number of hit points equal to five times your proficiency bonus. The shield will remain in place for 1 minute or until it is reduced to 0 hit points, after which it disappears. It disappears early if you summon it back to your hand at its regular size or until it disappears by the normal rules of pact shields."
+            ]
+        },
+        {
+            "name": "Feather Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "When you fall while holding your pact shield, you descend 60 feet per round and take no damage from falling. You can allow other creatures, that are your size or smaller, to hold onto you and slow their own descent in the same manner."
+            ]
+        },
+        {
+            "name": "Immovable Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 5
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell Immovable Object|egw} spell on your pact shield using a warlock spell slot. You do not provide material components when you do so."
+            ]
+        },
+        {
+            "name": "Floating Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell Tenser's Floating Disk|phb} spell at will without expending a spell slot or providing material components. When you do so, your pact shield becomes the disk. The spell ends early if you summon the shield back to your hand."
+            ]
+        },
+        {
+            "name": "Offensive Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield"
+                }
+            ],
+            "entries": [
+                "Your pact shield becomes a melee weapon with the finesse, light and thrown properties with a normal range of 20 feet and a long range of 60 feet. You are proficient with attacks with the shield. The shield's damage die for attacks is a {@dice d6}, and the attacks deal bludgeoning damage. You also gain the following benefits.",
+                {
+                    "type": "list",
+                    "items": [
+                        "Attacks with the shield count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                        "When you make a ranged attack using the shield, the shield returns to your hand immediately after the attack.",
+                        "If you make a critical hit with the shield, you may immediately make an additional attack with the shield."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Energy Shield",
+            "source": "J:Shieldlock",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Pact of the Shield",
+                    "level": 7
+                }
+            ],
+            "entries": [
+                "Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
+                "In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
+            ]
+        },
+        {
+            "name": "Doomerang",
+            "source": "J:General",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "pact": "Blade"
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range of the attack is doubled."
+            ]
+        },
+        {
+            "name": "Potent Weapon",
+            "source": "J:General",
+            "featureType": [
+                "AI"
+            ],
+            "prerequisite": [
+                {
+                    "item": [
+                        "A Simple or Martial weapon"
+                    ]
+                }
+            ],
+            "entries": [
+                "This magic weapon grants a +1 bonus to attack and damage rolls made with it.",
+                "Choose one of the following damage types when creating the weapon: acid, cold, fire, lightning or poison.",
+                "This weapon has 4 charges. When making a weapon attack with this weapon, you can expend one charge to deal an additional {@dice 1d6} of the chosen damage type. The weapon regains {@dice 1d4} charges daily at dawn."
+            ]
+        },
+        {
+            "name": "Agile Fighting",
+            "source": "J:General",
+            "featureType": [
+                "FS:B",
+                "FS:F",
+                "FS:R"
+            ],
+            "entries": [
+                "All melee weapons that lack the heavy, two handed or special properties gain the finesse property when you wield them."
+            ]
+        },
+        {
+            "name": "Akimbo Shooting",
+            "source": "J:General",
+            "featureType": [
+                "FS:F",
+                "FS:R"
+            ],
+            "entries": [
+                "You can engage in two-weapon fighting even if one or both weapons are ranged. In addition, you do not need a hand free to load ammunition into ranged weapons (you still require two hands to use weapons with the two-handed property)."
+            ]
+        },
+        {
+            "name": "Prone Fighting",
+            "source": "J:General",
+            "featureType": [
+                "FS:F",
+                "FS:R"
+            ],
+            "entries": [
+                "Being prone does not impose disadvantage on your attack rolls."
+            ]
+        },
+        {
+            "name": "Elemental Blast",
+            "source": "J:General",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "spell": [
+                        "Eldritch Blast"
+                    ]
+                }
+            ],
+            "entries": [
+                "When you cast Eldritch Blast, you can change the damage type to acid, cold, fire, lightning, or thunder. If you cast multiple beams, you can choose the damage type of each beam individually."
+            ]
+        },
+        {
+            "name": "Wings of Flight",
+            "source": "J:General",
+            "featureType": [
+                "AI"
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 6,
+                        "class": {
+                            "name": "Artificer"
+                        }
+                    },
+                    "item": [
+                        "A Backpack, Cloak or Suit of Armor (requires attunement)"
+                    ]
+                }
+            ],
+            "entries": [
+                "This pair of wood, leather and metal wings grants the wearer a fly speed of 20ft, provided they are not wearing heavy armor. In addition, the wearer has advantage on Dexterity saving throws while being held aloft by these wings.",
+                "This fly speed increases to 30ft when you reach 10th level in this class."
+            ]
+        },
+        {
+            "name": "Enhanced Tool",
+            "source": "J:General",
+            "featureType": [
+                "AI"
+            ],
+            "prerequisite": [
+                {
+                    "item": [
+                        "a set of artisan tools or a musical instrument"
+                    ]
+                }
+            ],
+            "entries": [
+                "This magic tool or instrument grants a +2 bonus to ability checks made using it.",
+                "This bonus increases to +4 when you reach 10th level in this class."
+            ]
+        },
+        {
+            "name": "Eldritch Cavalier",
+            "source": "J:General",
+            "featureType": [
+                "EI"
+            ],
+            "prerequisite": [
+                {
+                    "level": 5
+                }
+            ],
+            "entries": [
+                "You can cast the {@spell find steed|phb} spell using a warlock spell slot.",
+                "If you use {@variantrule find steed variant|J:Steeds}, you can choose one of the {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} when you take this invocation (Your DM may allow additional steeds)."
+            ]
+        }
+    ],
     "variant": [
         {
             "name": "Runecanvas Armor",
@@ -13643,7 +14357,7 @@
                         "items": [
                             "If both runestones grant a bonus to attack and damage rolls, the bonuses do not stack and you choose which bonus to use.",
                             "If both runestones require attunement, the weapon and runestones together count as one item for the purposes of attunement.",
-                            "If both runestones have charges, the charges do not combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
+                            "If both runestones have charges, the charges combine and remain separate. Charges for each runestone can only be used for that runestone's effect."
                         ]
                     }
                 ]
@@ -21323,686 +22037,6 @@
                         }
                     ]
                 }
-            ]
-        }
-    ],
-    "optionalfeature": [
-        {
-            "name": "Alternative Abilty Scores",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons may find their power in the gathering of knowledge rather than the strength of their personality. For example, a papyrus dragon's greatest strength is its vast knowledge. As such, its Intelligence and Charisma scores are swapped to better reflect its nature.",
-                "Swap the dragon's Intelligence, Wisdom or Charisma score for that of a different ability from the same list.  The DC for the dragon's traits (excluding spellcasting) do not change as a result of theis trait."
-            ]
-        },
-        {
-            "name": "Alternative Creature Type",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Sometimes, just because it looks and acts like a dragon, doesn't mean it it actually is one. For example, a tree dragon's soul is bound to a specific tree and it is made of awakened wood. As such, its creature type is plant rather than dragon.",
-                "Change the dragon's creature type to another of your choice."
-            ]
-        },
-        {
-            "name": "Bad Flier",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons are good fliers, the dragon may have damaged wings or be inexperienced with them. For example, a cave dragon may have never had the space to properly utilize its wings, leading them to atrophy.",
-                "Half the dragon's flying speed and add the follwoing trait to the dragon's statblock:",
-                "{@b {@i Bad Flier.}} The dragon falls at the end of each of its turns if the only thing holding it aloft is its fly speed."
-            ]
-        },
-        {
-            "name": "Burrower",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at digging through loose earth. For example, a desert dragon can burrow through sand dunes as easily as it can walk on top of them.",
-                "Add a burrowing speed to the dragon's statblock equal to the dragon's walking speed."
-            ]
-        },
-        {
-            "name": "Charming Presence",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Frightful Presence trait"
-                }
-            ],
-            "entries": [
-                "Some dragon may be more alluring than terrifying. For example, a siren dragon might sing to charm those around it.",
-                "Creatures who fail the saving throw against the dragon's Frightful Presence trait are {@condition charmed} rather than {@condition frightened}."
-            ]
-        },
-        {
-            "name": "Climber",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at scaling vertical surfaces. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
-                "Add a climbing speed to the dragon's statblock equal to the dragon's walking speed."
-            ]
-        },
-        {
-            "name": "Construct Design",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "The dragon may have been constructed by magic or science, rather than born. Or perhaps it is composed primarily of inorganic matter. For example, a stone dragon is powered by magic rather than biology, and so is a contruct rather than a dragon.",
-                "Make the following changes to the dragon's statblock:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon's creature's type is contruct rather than dragon.",
-                        "The dragon is immune to poison and psychic damage.",
-                        "The dragon is immune to disease and the {@condition poisoned} condition.",
-                        "The dragon does not need to eat, drink, breathe or sleep and magic cannot put it to sleep."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Diver",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are adept at swimming. For example, a ram dragon can traverse mountain cliffs as easily as gentle plains.",
-                "Add a swimming speed to the dragon's statblock equal to the dragon's walking speed. Also, add the following trait:",
-                "{@b {@i Amphibious.}} The dragon can breathe air and water."
-            ]
-        },
-        {
-            "name": "Draconic Mount",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "For a multitude of reasons, a dragon may serve as the mount of another creature. For example, a cavalry dragon has bonded with a knight and the pair are a formidable force on the battlefield.",
-                "Add the following reaction to the dragon's statblock:",
-                "{@b {@i Protect Rider.}} When an attack would target a creature mounted on the dragon, the dragon can use a reaction to force the attack to target it instead."
-            ]
-        },
-        {
-            "name": "Energy Conduit",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "You may decide that a dragon is not only unarmed by certain damage types but can channel the energy into its own attacks. For example, a lava dragon can absorb the heat from lava flows and direct it towards its enemies.",
-                "Add the following reaction to the dragon's statblock:",
-                "{@b {@i Energy Conduit.}} When the dragon would take damage of a type associated with its Draconic Essence trait, it can use a reaction to absorb part of the energy for a future attack. When the dragon next deals damage of the same type before the end of its next turn, it can deal an extra {@dice 2d6} damage of the same type."
-            ]
-        },
-        {
-            "name": "Fey Ancestry",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons trace their origin to the material plane. For example, a fairy dragon may trace their origin, at least in part, to the feywild",
-                "Make the following changes to the dragon's statblock:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The dragon's creature's type is fey rather than dragon.",
-                        "The dragon is immune to the {@condition charmed} condition.",
-                        "Magic cannot put the dragon to sleep."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Grounded",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Not all dragons can fly, either losing the ability to do so or never having it to begin with. For example, a gladiator dragon may have had its wings removed as a wyrmling to prevent it escaping the arena.",
-                "Remove the dragon's base flying speed."
-            ]
-        },
-        {
-            "name": "Hidecarved",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons carve magical runes on their scales to improve their resilience. For example, ",
-                "The dragon has one or more Hidecarved Wards, described in chapter 3 of Fizban's Treasury of Dragons."
-            ]
-        },
-        {
-            "name": "Immutable Form",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "A dragon's physical form may be unchangeable. For example, an animated dragon statue cannot have its form physically changed.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Immutable Form.}} The dragon is immune to any spell or effect that would alter its form."
-            ]
-        },
-        {
-            "name": "Iron Will",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons posses extrodinary willpower, or none at all. For example, a zombie dragon is no longer truly conscious and cannot be manipulated.",
-                "The dragon is immune to the {@condition charmed} and {@condition frightened} conditions."
-            ]
-        },
-        {
-            "name": "Minion Master",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Young or older"
-                }
-            ],
-            "entries": [
-                "Some dragons prefer to have underlings work for them. For example, many dragons may command {@creature kobolds|MM|kobold}, however, a forest dragon might command {@creature awakened tree|MM|awakened trees}, or a royal dragon might command dragonborn {@creature knight|MM|knights}.",
-                "Choose an appropriate creature that has a CR that is equal to or less than one third of the dragon's own CR. Then add the following action to the dragon's statblock:",
-                "{@b {@i Minion Master.}} {@dice 1d4+1} of the chosen creature appear in spaces within 30ft of the dragon. The summoned creatures act as a group immediately after the dragon's turn in initiative and will obey any commands given by the dragon (no action required). The creatures last until they die, are dismissed by the dragon (no action required) or the dragon uses this action again.",
-                "Additonally, if the dragon has legendary actions or lair actions, you can allow the dragon to use this trait as a legendary action or lair action."
-            ]
-        },
-        {
-            "name": "Multiple Heads",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons have multiple heads. For example, a medusa dragon has multiple serpent-like heads extending from its neck.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Multiple Heads.}} The dragon can take one reaction per turn, rather than only one per round. It also has advantage on saving throws against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, and knocked {@condition unconscious}."
-            ]
-        },
-        {
-            "name": "Poison Fangs",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons can utilize poison to make their attacks more danagerous. For example, an underdark dragon may drink {@item drow poison|dmg}, and deliver the poison to the target of its next bite attack.",
-                "Add the following bonus action to the dragon's statblock:",
-                "{@b {@i Poison Fangs.}} The dragon can use a bonus action to coat its teeth with poison (as if they were a melee weapon). The next time the dragon hits a creature with its bite attack, that creature is subject to the effects of the poison."
-            ]
-        },
-        {
-            "name": "Quick Caster",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Legendary Actions",
-                    "spellcasting": true
-                }
-            ],
-            "entries": [
-                "A dragon may be able to perform magic quickly. For example, an iron dragon can use a legendary action to harden its hide by casting {@spell blade ward|phb} on itself.",
-                "Add the following legendary action to the dragon's statblock:",
-                "{@b {@i Quick Cast.}} The dragon casts a spell it knows that has a casting time of one action or one bonus action. The number of legendary actions expended is equal to the spell's level (1 for a cantrip)."
-            ]
-        },
-        {
-            "name": "Secondary Essence",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons possess affinity for multiple forms of destructive energy. For example, a thermal dragon has mastery of heat, both producing and removing it. Both fire and cold damage are associated with its Draconic Essence trait.",
-                "Choose a second damage type for the dragon's Draconic Essence trait. When the dragon uses its Dragon Breath or Destructive Maw trait, it choses which of the damage types to deal."
-            ]
-        },
-        {
-            "name": "Signature Spellcaster",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "prerequisite": [
-                {
-                    "other": "Young or older"
-                }
-            ],
-            "entries": [
-                "A dragon might be especially talented at particular spells. For example, a spider dragon can cast the {@spell web|phb} spell at will.",
-                "Choose up to 2 spells of 3rd-level or lower. The dragon can cast these spells at will, without providing material components. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
-            ]
-        },
-        {
-            "name": "Spellcasting",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons posses innate magical talents. For example, a black hole dragon may know spells such as {@spell magnify gravity|egw} and {@spell gravity sinkhole|egw}. Meanwhile, a divine dragon may know spells such as {@spell cure wounds|phb} and {@spell greater restoration|phb}.",
-                "Choose a number of cantrips and spells up to the dragon's proficiency bonus. The maximum level of each spell known depends on the dragon's age; cantrips only for wyrmlings, 3rd-level or lower for young dragons, 5th-level or lower for adults, 7th-lower or lower for ancients and 9th-level or lower for greatwyrms.",
-                "For each spell of 1st-level or higher, the dragon can cast it once per day. The dragon does not need to provide material components for cantrips or spells that it casts. Intelligence, Wisdom or Charisma is the dragon's spellcasting ability (choose when you select this trait)."
-            ]
-        },
-        {
-            "name": "Telepathy",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons have telepathic abilities. For example, a psionic dragon can communicate with the minds of those around it.",
-                "Add the following trait to the dragon's statblock:",
-                "{@b {@i Telepathy.}} The dragon can speak telepathically with any other creature within 120ft."
-            ]
-        },
-        {
-            "name": "Unusual Size",
-            "source": "J:Dragons",
-            "featureType": [
-                "Draconic Traits"
-            ],
-            "entries": [
-                "Some dragons are noticably larger or smaller than expected for their age. For example, a giant dragon may be significantly larger than normal dragons.",
-                "Increase or decrease the dragon's size category by one."
-            ]
-        },
-        {
-            "name": "Pact Gunsmith",
-            "source": "J:Firearms",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Blade"
-                }
-            ],
-            "entries": [
-                "You can create a pact weapon that takes on the form of a firearm. The table below shows you which firearms you can create at each warlock level.",
-                {
-                    "type": "table",
-                    "colLabels": [
-                        "Warlock Level",
-                        "Weapon Forms"
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "rows": [
-                        [
-                            "3rd",
-                            "{@item matchlock musket|J:Firearms}, {@item matchlock pistol|J:Firearms}, {@item wheellock musket|J:Firearms}, {@item wheellock pistol|J:Firearms}"
-                        ],
-                        [
-                            "5th",
-                            "{@item flintlock musket|J:Firearms}, {@item flintlock pistol|J:Firearms}"
-                        ],
-                        [
-                            "7th",
-                            "{@item pepperbox musket|J:Firearms}, {@item pepperbox pistol|J:Firearms}"
-                        ],
-                        [
-                            "9th",
-                            "{@item gun weapon|J:Firearms}, {@item heavy gun weapon|J:Firearms}"
-                        ]
-                    ]
-                },
-                "Additionally, you can transform any magical firearm into your pact weapon."
-            ]
-        },
-        {
-            "name": "Pact of the Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "PB"
-            ],
-            "entries": [
-                "Your patron gives you a special pact shield, which you can summon to an empty hand as an action. You choose the appearance and material of the shield when you create it, and if it uses the statistics of a shield or a buckler. You are proficient with the shield, and you cannot be disarmed of it against your will.",
-                "Your pact shield disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the shield (no action required), or if you die.",
-                "You can transform a magic shield you find into your pact shield by performing a ritual over the course of an hour. This ritual can be done during a short or long rest. The shield then appears whenever you summon your pact shield thereafter. You can't affect an artifact or a sentient shield in this way. The shield ceases being your pact shield if you die, if you perform the 1-hour ritual on a different shield, or if you use a 1-hour ritual to break your bond to it. The shield appears at your feet if it is in the extradimensional space when the bond breaks."
-            ]
-        },
-        {
-            "name": "Greater Pact Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "Your pact shield gains the following benefits while you wield it:",
-                {
-                    "type": "list",
-                    "items": [
-                        "The shield grants you a +1 bonus to your AC, unless it is a magic or adamantine shield that already grants you a bonus. This bonus is in addition to the shield's normal bonus to AC.",
-                        "The shield grants you a +1 bonus to your Strength, Dexterity or Constitution saving throws (your choice). Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
-                        "You can use the shield as a spellcasting focus for your warlock spells."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Guardian Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "When you or a creature you can see within 30 feet is targetted by an attack, you can use a reaction to add your shield's AC bonus to the target's AC against the triggering attack, provided it doesn't already include it.",
-                "If you are not wielding your pact shield, you summon to your enpty hand it as part of this reaction, ending any effects that would normally end when the shield is dismissed. Also if you are not within 5 feet of the target, you can teleport to an unoccupied space within 5 feet of them as part of this reaction."
-            ]
-        },
-        {
-            "name": "Superior Pact Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 12,
-                    "other": "Greater Pact Shield"
-                }
-            ],
-            "entries": [
-                {
-                    "type": "list",
-                    "items": [
-                        "You can choose an additional saving throw to gain the bonus. Choose from the following list; Intelligence, Wisdom or Charisma. Whenever you gain a warlock level, you can change which type of saving throws recieve this benefit.",
-                        "The bonuses granted to your AC and to chosen saving throws increase to +2."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Oversized Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 5
-                }
-            ],
-            "entries": [
-                "As an action, you can grow your shield up to 10ft tall and wide and plant it in the ground. Any creatures behind the shield can use it for cover as if it were a solid wall. While in this form, you can not move the shield, and it is treated as an object with an AC equal to 14 + your proficiency bonus and a number of hit points equal to five times your proficiency bonus. The shield will remain in place for 1 minute or until it is reduced to 0 hit points, after which it disappears. It disappears early if you summon it back to your hand at its regular size or until it disappears by the normal rules of pact shields."
-            ]
-        },
-        {
-            "name": "Feather Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "When you fall while holding your pact shield, you descend 60 feet per round and take no damage from falling. You can allow other creatures, that are your size or smaller, to hold onto you and slow their own descent in the same manner."
-            ]
-        },
-        {
-            "name": "Immovable Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 5
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell Immovable Object|egw} spell on your pact shield using a warlock spell slot. You do not provide material components when you do so."
-            ]
-        },
-        {
-            "name": "Floating Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell Tenser's Floating Disk|phb} spell at will without expending a spell slot or providing material components. When you do so, your pact shield becomes the disk. The spell ends early if you summon the shield back to your hand."
-            ]
-        },
-        {
-            "name": "Offensive Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield"
-                }
-            ],
-            "entries": [
-                "Your pact shield becomes a melee weapon with the finesse, light and thrown properties with a normal range of 20 feet and a long range of 60 feet. You are proficient with attacks with the shield. The shield's damage die for attacks is a {@dice d6}, and the attacks deal bludgeoning damage. You also gain the following benefits.",
-                {
-                    "type": "list",
-                    "items": [
-                        "Attacks with the shield count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-                        "When you make a ranged attack using the shield, the shield returns to your hand immediately after the attack.",
-                        "If you make a critical hit with the shield, you may immediately make an additional attack with the shield."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Energy Shield",
-            "source": "J:Shieldlock",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Pact of the Shield",
-                    "level": 7
-                }
-            ],
-            "entries": [
-                "Choose one of the following damage types; acid, cold, fire, lightning, necrotic, radiant or thunder. While wielding your pact shield, you are resistant to the chosen damage type.",
-                "In addition, when a creature hits you with a melee attack while you are wielding your pact shield, you can use a reaction to deal {@dice 1d6} damage of the chosen type to them."
-            ]
-        },
-        {
-            "name": "Doomerang",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "pact": "Blade"
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell Boomerang Blade|Jackalope} cantrip at will using one of your pact weapons. When you do so the range of the attack is doubled."
-            ]
-        },
-        {
-            "name": "Potent Weapon",
-            "source": "J:General",
-            "featureType": [
-                "AI"
-            ],
-            "prerequisite": [
-                {
-                    "item": [
-                        "A Simple or Martial weapon"
-                    ]
-                }
-            ],
-            "entries": [
-                "This magic weapon grants a +1 bonus to attack and damage rolls made with it.",
-                "Choose one of the following damage types when creating the weapon: acid, cold, fire, lightning or poison.",
-                "This weapon has 4 charges. When making a weapon attack with this weapon, you can expend one charge to deal an additional {@dice 1d6} of the chosen damage type. The weapon regains {@dice 1d4} charges daily at dawn."
-            ]
-        },
-        {
-            "name": "Agile Fighting",
-            "source": "J:General",
-            "featureType": [
-                "FS:B",
-                "FS:F",
-                "FS:R"
-            ],
-            "entries": [
-                "All melee weapons that lack the heavy, two handed or special properties gain the finesse property when you wield them."
-            ]
-        },
-        {
-            "name": "Akimbo Shooting",
-            "source": "J:General",
-            "featureType": [
-                "FS:F",
-                "FS:R"
-            ],
-            "entries": [
-                "You can engage in two-weapon fighting even if one or both weapons are ranged. In addition, you do not need a hand free to load ammunition into ranged weapons (you still require two hands to use weapons with the two-handed property)."
-            ]
-        },
-        {
-            "name": "Prone Fighting",
-            "source": "J:General",
-            "featureType": [
-                "FS:F",
-                "FS:R"
-            ],
-            "entries": [
-                "Being prone does not impose disadvantage on your attack rolls."
-            ]
-        },
-        {
-            "name": "Elemental Blast",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "spell": [
-                        "Eldritch Blast"
-                    ]
-                }
-            ],
-            "entries": [
-                "When you cast Eldritch Blast, you can change the damage type to acid, cold, fire, lightning, or thunder. If you cast multiple beams, you can choose the damage type of each beam individually."
-            ]
-        },
-        {
-            "name": "Wings of Flight",
-            "source": "J:General",
-            "featureType": [
-                "AI"
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 6,
-                        "class": {
-                            "name": "Artificer"
-                        }
-                    },
-                    "item": [
-                        "A Backpack, Cloak or Suit of Armor (requires attunement)"
-                    ]
-                }
-            ],
-            "entries": [
-                "This pair of wood, leather and metal wings grants the wearer a fly speed of 20ft, provided they are not wearing heavy armor. In addition, the wearer has advantage on Dexterity saving throws while being held aloft by these wings.",
-                "This fly speed increases to 30ft when you reach 10th level in this class."
-            ]
-        },
-        {
-            "name": "Enhanced Tool",
-            "source": "J:General",
-            "featureType": [
-                "AI"
-            ],
-            "prerequisite": [
-                {
-                    "item": [
-                        "a set of artisan tools or a musical instrument"
-                    ]
-                }
-            ],
-            "entries": [
-                "This magic tool or instrument grants a +2 bonus to ability checks made using it.",
-                "This bonus increases to +4 when you reach 10th level in this class."
-            ]
-        },
-        {
-            "name": "Eldritch Cavalier",
-            "source": "J:General",
-            "featureType": [
-                "EI"
-            ],
-            "prerequisite": [
-                {
-                    "level": 5
-                }
-            ],
-            "entries": [
-                "You can cast the {@spell find steed|phb} spell using a warlock spell slot.",
-                "If you use {@variantrule find steed variant|J:Steeds}, you can choose one of the {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} when you take this invocation (Your DM may allow additional steeds)."
             ]
         }
     ],
