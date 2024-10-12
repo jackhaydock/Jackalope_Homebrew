@@ -801,6 +801,54 @@
 				"Additionally, this armor feels soft and spongy, regardless of its material. You have resistance to thunder damage while wearing or wielding it.",
 				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you make a saving throw against becoming {@condition deafened} or being moved against your will, you can expend a charge as a reaction to gain advantage on the saving throw."
 			]
+		},
+		{
+			"name": "+1 Lightweight Armor Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Armor Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+					]
+				},
+				"While attuned to a set of armor that this runestone is fused with, you have a +1 bonus to your Armor Class, unless it is magic armor that already grants a bonus to Armor Class.",
+				"When you fuse this runestone with a set of armor, that armor weighs a quarter of its normal weight. If the armor has a strength requirement, it no longer does. In addition, the armor gains one of the following effects based on its normal type:",
+				{
+					"type": "list",
+					"style": "list",
+					"items": [
+						"A set of heavy armor is treated as medium armor.",
+						"A set of medum armor is treated as light armor.",
+						"You do not require proficiency to benefit from a set of light armor.",
+						"A shield can be doned or doffed as a bonus action."
+					]
+				}
+
+			]
+		},
+		{
+			"name": "+1 Lightweight Weapon Runestone",
+			"source": "J:Runestones",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Runestone",
+					"entries": [
+						"Over the course of an hour, this runestone can be fused with a weapon, turning it into a magic weapon, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+					]
+				},
+				"While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
+				"When you fuse this runestone with a weapon, that weapon weighs a quarter of its normal weight and loses the Heavy property if it has it. In addition, if the weapon does not have the Two-Handed property it gains the Light property.",
+				"If the weapon does have the Two-Handed property, it now has the Versatile property instead. The Versatile damage value equals the weapon's normal damage value increased by one step of the following list; {@dice 1}, {@dice 1d4}, {@dice 1d6}, {@dice 1d8}, {@dice 1d10}, {@dice 1d12}, {@dice 2d6}, {@dice 2d8} (DM chooses value if normal damage value not on this list)."
+			]
 		}
     ],
 	"optionalfeature": [
