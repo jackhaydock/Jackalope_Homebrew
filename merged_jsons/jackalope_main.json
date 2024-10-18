@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.18.22.02",
+                "version": "2024.10.18.22.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -526,7 +526,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1729289047.1547167
+        "dateLastModified": 1729291162.2336786
     },
     "class": [
         {
@@ -5851,6 +5851,71 @@
             ]
         },
         {
+            "name": "Leaf of Stupor",
+            "source": "J:General",
+            "rarity": "rare",
+            "type": "P",
+            "wondrous": true,
+            "entries": [
+                "When a creature consumes this leaf, they a relaxed state of mind. After 10 minutes of light activity, the creature gains the effects of the {@spell greater restoration|xphb} spell.",
+                "Additionally, the creature gains the effects of the {@spell modify memory|xphb} spell. They roll on the table below to determine the effects.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d10",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "A good memory is replaced by a negative memory."
+                        ],
+                        [
+                            "2",
+                            "A neutral memory is replaced by a negative memory."
+                        ],
+                        [
+                            "3",
+                            "A negative memory is replaced by a different negative memory."
+                        ],
+                        [
+                            "4",
+                            "A good memory is replaced by a neutral memory."
+                        ],
+                        [
+                            "5",
+                            "A neutral memory is replaced by a different neutral memory."
+                        ],
+                        [
+                            "6",
+                            "A negative memory is replaced by a neutral memory."
+                        ],
+                        [
+                            "7",
+                            "A good memmory is replaced by a different good memory."
+                        ],
+                        [
+                            "8",
+                            "A neutral memory is replaced by a good memory."
+                        ],
+                        [
+                            "9",
+                            "A good memory is replaced by a different good memory."
+                        ],
+                        [
+                            "10",
+                            "No memory is replaced but the character reflects upon an old memory and sees it from a new or enhanced positive perspective they didn't before."
+                        ]
+                    ]
+                },
+                "The DM determines the nature of the new memory. Most memories created by the leaf are strange and may defy logic, yet they seem real to the creature."
+            ]
+        },
+        {
             "name": "Dust of Swiftness",
             "source": "J:General",
             "rarity": "rare",
@@ -7184,7 +7249,7 @@
             "components": {
                 "v": true,
                 "s": true,
-                "m": "25 gp worth of humanoid blood, which the spell consumes"
+                "m": "25 gp worth of humanoid blood or bone dust, which the spell consumes"
             },
             "duration": [
                 {
