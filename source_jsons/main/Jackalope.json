@@ -1972,7 +1972,17 @@
 				"This sock can be worn on your hand and used as a spellcasting focus. When you cast a spell with the sock, the verbal components of the spell must be spoken through the puppet. Any responses are also spoken by the puppet.",
 				"In addition, you can use this item to cast the {@spell message|phb}, {@spell vicious mockery|phb} or {@spell sending|phb} spell (DC 15). Once you cast the sending spell, you cannot do so again until the next dawn."
 			]
-		}								
+		},
+		{
+			"name": "Dust of Swiftness",
+			"source": "J:General",
+			"rarity": "rare",
+			"type": "P",
+			"wondrous": true,
+			"entries": [
+				"When a creature consumes this white powder, it gains the effects of the {@spell haste|xphb} spell (no concentration required). The spell ends early if the creature is reduced to 0 hit points or targeted with the {@spell lesser restoration|xphb} or similar effect that removes the {@condition poisoned} condition. When the spell ends, the creature gains a level of {@condition exhaustion|xphb}."
+			]
+		}							
 	],
 	"monster": [
 		{
@@ -4063,6 +4073,102 @@
 					},
 					{
 						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dark Ceremony",
+			"source": "J:General",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "25 gp worth of humanoid blood, which the spell consumes"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You perform a special occult ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting. A creature must have an intelligence of 4 or greater and understand at least one language to benefit from a rite and can only benefit from one rite at a time.",
+				{
+					"name": "Blood Bond",
+					"entries": [
+						"You touch two creatures willing to be bound in blood. For the next 7 days, when one of the creatures takes damage and can be seen by the other creature within 30 feet, the second creature can use a reaction to take half of the damage themself instead. A creature can benefit from a bond with each other creature only once."
+					]
+				},
+				{
+					"name": "Embrace Curse",
+					"entries": [
+						"You touch a willing creature that bears a curse or is attuned to a cursed item. For the next 24 hours, or until the curse is removed, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the ability check. A creature can benefit from this rite only once per curse."
+					]
+				},
+				{
+					"name": "Hellfire",
+					"entries": [
+						"You touch up to two flasks of alcohol, blood or ichor and cause each to become a flask of {@item alchemist's fire|xphb}."
+					]
+				},
+				{
+					"name": "Nightwalking",
+					"entries": [
+						"You touch a willing creature. For the next 24 hours that creature has advantage on ability checks while in dim light or darkness but has disadvantage on ability checks and attack rolls while in direct sunlight."
+					]
+				},
+				{
+					"name": "Minor Pact",
+					"entries": [
+						"You touch a willing creature that makes a pact with an otherworldly entity, such as a fey, fiend or aberration. For the next 24 hours, the creature deals an additional {@dice 1d4} cold, fire, poison or psychic (choose when you perform this rite) damage with weapon attacks. A creature can benefit from this rite only once."
+					]
+				},
+				{
+					"name": "Serve in Death",
+					"entries": [
+						"You touch a willing creature. For the next 7 days, if that creature is reduced to 0 hit points, they immediately die and are reanimated as a {@creature zombie|xphb} bound to your service for 24 hours, after which the zombie dies. The zombie retains its Proficiency Bonus, proficiencies and skills, but otherwise its statistics are replaced by that of the zombie. The target can only be resurrected with spells such as {@spell raise dead|xphb} once the zombie dies. A creature can benefit from this rite only once."
+					]
+				},
+				{
+					"name": "Split Tongue",
+					"entries": [
+						"You touch a willing creature. For the next 24 hours, that creature can add a {@dice 1d4} bonus to ability checks they make to lie or coerce others. They also have a {@dice 1d4} penalty to all other social checks."
+					]
+				},
+				{
+					"name": "Thirsting Fury",
+					"entries": [
+						"You touch a willing creature. For the next 24 days, when the creature rolls intiative, it can choose to enter a furious state. The creature deals an additional {@dice 1d4} damage with melee attacks for 1 minute. For the duration, if they end a turn without damaging a creature other than themself, they take {@dice 2d4} necrotic damage."
+					]
+				},
+				{
+					"name": "Unyiedling Grasp",
+					"entries": [
+						"You touch a willing creature and an item they are holding and do not wish to lose. For the next 7 days, the creature cannot willingly let go of the item, even if they are {@condition unconscious}, dead, or compelled to do so by a spell of 5th-level or lower. Whenever they would be disarmed of it, they can choose to take {@dice 1d6} necrotic damage instead of releasing the item."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
@@ -6733,6 +6839,12 @@
 									"name": "Surrender",
 									"entries": [
 										"The creature is {@condition incapacitated} but remains conscious and aware of its surroundings. Any subsequent damage to the creature results in it being knocked {@condition unconscious} or dying."
+									]
+								},
+								{
+									"name": "Blaze of Glory",
+									"entries": [
+										"If the creature has Legendary Actions, Lair Action or Villain Actions, it uses one immediately. The creature then immediately dies, possibly as a result of the action it took."
 									]
 								}
 							]
