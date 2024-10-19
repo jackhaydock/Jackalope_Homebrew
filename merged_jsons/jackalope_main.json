@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.19.15.43",
+                "version": "2024.10.19.16.53",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -541,7 +541,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1729356113.7837768
+        "dateLastModified": 1729356890.3867204
     },
     "class": [
         {
@@ -5982,6 +5982,20 @@
             "wondrous": true,
             "entries": [
                 "When a creature consumes this white powder, it gains the effects of the {@spell haste|xphb} spell (no concentration required). The spell ends early if the creature is reduced to 0 hit points or targeted with the {@spell lesser restoration|xphb} or similar effect that removes the {@condition poisoned} condition. When the spell ends, the creature gains a level of {@condition exhaustion|xphb}."
+            ]
+        },
+        {
+            "name": "Boots of Breeching",
+            "source": "J:General",
+            "rarity": "rare",
+            "wondrous": true,
+            "bonusWeapon": "+1",
+            "entries": [
+                "While wearing these thick leather and metal boots you have a +1 bonus to attack and damage rolls made with unarmed strikes.",
+                "Additionally, you can use these boots to cast the {@spell knock|xphb} spell with a range of touch without expending a spell slot. Once the boots are used to cast the spell twice, it cannot be used to cast the spell again until the next dawn."
+            ],
+            "attachedSpells": [
+                "knock"
             ]
         }
     ],
