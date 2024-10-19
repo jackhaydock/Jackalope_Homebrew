@@ -523,10 +523,25 @@
                 "version": "2024.09.20.01.43",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Bounty",
+                "abbreviation": "J:Bounty",
+                "color": "5e5f72",
+                "full": "Jackalope: Bounty Ranger",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.10.19.16.40",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1729352637.9797733
+        "dateLastModified": 1729356113.7837768
     },
     "class": [
         {
@@ -10145,6 +10160,50 @@
                     "source": "xphb"
                 }
             ]
+        },
+        {
+            "name": "Bounty",
+            "shortName": "Bounty",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassFeatures": [
+                "Bounty Hunter|Ranger|XPHB|Bounty|J:Bounty|3",
+                "Bounty Hunter Magic|Ranger|XPHB|Bounty|J:Bounty|3",
+                "Urban Explorer|Ranger|XPHB|Bounty|J:Bounty|3",
+                "Closing Strikes|Ranger|XPHB|Bounty|J:Bounty|3",
+                "Unrelenting Hunter|Ranger|XPHB|Bounty|J:Bounty|7",
+                "Quick Draw|Ranger|XPHB|Bounty|J:Bounty|7",
+                "Improved Closing Strikes|Ranger|XPHB|Bounty|J:Bounty|11",
+                "Word on the Streets|Ranger|XPHB|Bounty|J:Bounty|11",
+                "No Escape|Ranger|XPHB|Bounty|J:Bounty|15"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "disguise self",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "knock",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "fast friends",
+                    "source": "AI"
+                },
+                {
+                    "name": "freedom of movement",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "far step",
+                    "source": "XGE"
+                },
+                {
+                    "name": "commune with nature",
+                    "source": "XPHB"
+                }
+            ]
         }
     ],
     "subclassFeature": [
@@ -13867,6 +13926,194 @@
                 },
                 "The creature can make a Charisma saving throw against your spell save DC at the end of each of its turns to remove the effects early. This saving throw cannot benefit from Legendary Resistance.",
                 "Once you use this feature, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Bounty Hunter",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 3,
+            "entries": [
+                "Hunting and tracking are useful skills to those who roam the wilds, but they are also useful to those who roam civilisation, only they usually track a different prey. Bounty hunters are specialists in hunting people, particularly those who don't want to be found. Unlike the quarry of more typical beast hunters, your quarry can be found in built cities as much as out in the wilds. One might assume the cobbled streets and dense foot traffic would make such tracking impossible, not so. It is simply a matter of adapting your tactics. Learn from the local population rather than trying to look past them. Understand the behaviours and movements of your prey. Plan your approach, then strike, and don't let them get away!",
+                "Bounty Hunter is a term normally applied to those who hunt criminals or undesirables, usually for some reward from whatever passes for law in those parts. This could be a path you take, or you might instead take another that still necessitates the tracking of humanoids, such as a detective, a vigilante or even just a hobbyist people watcher."
+            ]
+        },
+        {
+            "name": "Bounty Hunter Magic",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "You learn an additional spell when you reach certain levels in this class, as shown in the Bounty Hunter Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+                {
+                    "type": "table",
+                    "caption": "Bounty Hunter Spells",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spell"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell disguise self|XPHB}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell knock|XPHB}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell fast friends|AI}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell freedom of movement|XPHB}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell far step|XGE}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Urban Explorer",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, your natural tracking, hunting and traversal skills expand to more urban environments and their inhabitants. When you would make a Charisma check to learn information about a person or group of people, you can use Wisdom in place of Charisma.",
+                "Additionally, you gain additional benfits depending on whether you chose Natural Explorer or Deft Explorer at 1st level.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        "{@b Natural Explorer.} You can add Urban to your list of favored terrains. In addition, you can still benefit from your Natural Explorer feature while in rural settlements surrounded by your favoured terrains.",
+                        "{@b Deft Explorer.} You gain profciency in one of the following; athletics, history, thieves' cant, diguise kit, forgery kit, theives' tools, or one set of artisan tools of your choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Closing Strikes",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you incorporate magic or gadgets into your attacks in order to prevent your enemies escaping. Once per turn, when you hit a creature with a weapon attack, you can impose one of the following effects:",
+                {
+                    "type": "list",
+                    "style": "list-notitle",
+                    "items": [
+                        "{@b Haul.} The target must make a Strength saving throw against your spell save DC or be pulled 15 feet towards you.",
+                        "{@b Hinder.} The target's speed is {@condition hampered|J:general} until the start of your next turn.",
+                        "{@b Hold.} The target has disavantage on abilty checks and saving throws to avoid or escape being {@condition grappled} until the start of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unrelenting Hunter",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Starting at 7th level, your will to complete the hunt overcomes psychological attempts to halt you. You have advantage on saving throws against being {@condition charmed}, {@condition frightened} or {@condition taunted|J:general}. Futhermore, being frightened by a creature does not prevent you moving closer towards it."
+            ]
+        },
+        {
+            "name": "Quick Draw",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Starting at 7th level, when you roll initiative and are not surprised or {@condition incapacitated}, you can immediately make one weapon attack or {@action Grapple} (no action required). You can draw the weapon you use for an attack as part of the attack."
+            ]
+        },
+        {
+            "name": "Improved Closing Strikes",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you incorporate magic or gadgets into your attacks in order to prevent your enemies escaping. Once per turn, when you hit a creature with a weapon attack, you can impose one of the following effects:",
+                {
+                    "type": "list",
+                    "style": "list-notitle",
+                    "items": [
+                        "{@b Haul.} On a fail, you can choose to also knock the target {@condition prone}. On a success, you can choose to still move the target up to 5 feet towards you.",
+                        "{@b Hinder.} The target must make a Strength saving throw against your spell save DC or become {@condition slowed|J:general} until of your next turn instead of {@condition hampered|J:General}. On a success, the target becomes hampered as normal.",
+                        "{@b Hold.} The target also has disadvantage on ability checks and saving throws to avoid or escape the {@condition restrained} or {@condition paralyzed} conditions until the start of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Word on the Streets",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Starting at 11th level, you can cast the {@spell commune with nature|xphb} spell once without proving a spell slot. Once you cast the spell using this feature, you cannot do so again until you finish a long rest.",
+                "Addtionally, whenever you cast the spell, either with this feature or by other means, you can still use it in constructed urban environments, provided it is currently inhabitted by a sizable population of humanoids. When you cast the spell in such environments, the list of subjects you can learn facts about expands to include the following options:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Powerful humanoids, particulary those with social or poltical influence.",
+                        "Prevalent buildings, communal areas and transport links.",
+                        "Local factions, both public and underground, such as guilds, government agencies or criminal gangs."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "No Escape",
+            "source": "J:Bounty",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Bounty",
+            "subclassSource": "J:Bounty",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "Starting at 15th level, when a hostile creature within 10 feet of you moves away from you, you can use a reaction at any point before the end of the current turn to move up to your speed towards them.",
+                "In addition, if a hostile creature within 5 feet of you teleports, but remains on the same plane as you, you can use a reaction to force them to make a Charisma saving throw against your Ranger spell save DC. On a fail, you can choose to be teleported with them, appearing in an unoccupied space within 5 feet."
             ]
         }
     ],
