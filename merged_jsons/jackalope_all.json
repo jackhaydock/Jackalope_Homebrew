@@ -13,7 +13,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.19.15.40",
+                "version": "2024.10.19.15.43",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.18.22.41",
+                "version": "2024.10.19.15.43",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -646,7 +646,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1729352446.3035982
+        "dateLastModified": 1729352639.9371982
     },
     "class": [
         {
@@ -3635,6 +3635,12 @@
             "source": "J:Portalist",
             "wondrous": true,
             "rarity": "uncommon",
+            "reqAttune": "by a portalist",
+            "bonusSpellAttack": "+1",
+            "bonusSpellSaveDc": "+1",
+            "focus": [
+                "Portalist"
+            ],
             "entries": [
                 "This surprisingly heavy dark crystal appears to house a miniature galaxy or black hole inside it, and appears to have a subtle gravitational effect on tiny objects near it. While you hold or wear the crystal, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your portalist spells.",
                 "In addition, you can use your Paired Portals feature without expending one of the feature's uses. While travelling through the portals, a creature briefly passes through the world inside the crystal, seeing the world outside the crystal as a faint image in the sky. Once this property is used, it can't be used again until you finish a long rest."
@@ -3644,7 +3650,11 @@
             "name": "+2 Warp Crystal",
             "source": "J:Portalist",
             "wondrous": true,
-            "rarity": "uncommon",
+            "rarity": "rare",
+            "reqAttune": "by a portalist",
+            "focus": [
+                "Portalist"
+            ],
             "entries": [
                 "This surprisingly heavy dark crystal appears to house a miniature galaxy or black hole inside it, and appears to have a subtle gravitational effect on tiny objects near it. While you hold or wear the crystal, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your portalist spells.",
                 "In addition, you can use your Paired Portals feature without expending one of the feature's uses. While travelling through the portals, a creature briefly passes through the world inside the crystal, seeing the world outside the crystal as a faint image in the sky. Once this property is used, it can't be used again until you finish a long rest."
@@ -3654,7 +3664,11 @@
             "name": "+3 Warp Crystal",
             "source": "J:Portalist",
             "wondrous": true,
-            "rarity": "uncommon",
+            "rarity": "very rare",
+            "reqAttune": "by a portalist",
+            "focus": [
+                "Portalist"
+            ],
             "entries": [
                 "This surprisingly heavy dark crystal appears to house a miniature galaxy or black hole inside it, and appears to have a subtle gravitational effect on tiny objects near it. While you hold or wear the crystal, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your portalist spells.",
                 "In addition, you can use your Paired Portals feature without expending one of the feature's uses. While travelling through the portals, a creature briefly passes through the world inside the crystal, seeing the world outside the crystal as a faint image in the sky. Once this property is used, it can't be used again until you finish a long rest."
