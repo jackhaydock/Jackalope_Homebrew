@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.19.16.53",
+                "version": "2024.10.21.23.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -661,7 +661,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1729356891.4090912
+        "dateLastModified": 1729552915.0671675
     },
     "class": [
         {
@@ -8231,6 +8231,25 @@
             ],
             "attachedSpells": [
                 "knock"
+            ]
+        },
+        {
+            "name": "Wyll's Hat",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "This elaborate hat makes you an enticing target for snipers. As a bonus action, you can choose a creature you can see within 60 feet that can see you and that is holding a ranged weapon. That creature must make a DC 17 Wisdom saving throw or be {@condition taunted|J:general} by you for one minute, or until another creature damages them. While taunted in this way, the creature also has disadvantage on melee attacks against you.",
+                "Once you use this bonus action twice, you cannot do so again until the next dawn.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed, you cannot remove the hat. Ranged attacks deal an additional {@dice 1d4} damage against you. If a ranged attack is made as part of a creature's first turn in combat, it has advantage on the attack roll."
+                    ]
+                }
             ]
         },
         {
