@@ -43,7 +43,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2023.03.11.16.55",
+                "version": "2024.10.30.07.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -541,7 +541,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1730273194.56669
+        "dateLastModified": 1730275014.2155404
     },
     "class": [
         {
@@ -2136,6 +2136,66 @@
                 "{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
                 "{@b {@i Assisted Grasp.}} When you take the {@action Grapple} or {@action Shove} action on your turn, you can use a bonus action to gain advantage on the Strength (Athletics) check as a spectral rope extends from the tattoo, wrapping around the target.",
                 "{@b {@i Far Reach.}} As a bonus action, you can cast the {@spell runner's rope|J:General} spell without expending a spell slot or providing material components. Once you use this bonus action, you cannot do so again until the next dawn."
+            ]
+        },
+        {
+            "name": "Bandolier Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "J:Tattoos",
+            "reqAttune": true,
+            "entries": [
+                "Produced by a special needle, this magic tattoo features images of ammunition wrapped around your forearm.",
+                {
+                    "name": "Tattoo Attunement",
+                    "entries": [
+                        "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+                        "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+                    ]
+                },
+                {
+                    "name": "Magazine Marks",
+                    "entries": [
+                        "When you make an attack with a ranged weapon that has the Ammunition property, you can load a piece of magical ammunition from your tattoo. This ammunition grants a +1 bonus to the attack and damage rolls made with it. Hit or miss, the ammunition then disappears and reappears as part of the tattoo. You can load this ammunition even if you do not have a free hand."
+                    ]
+                },
+                {
+                    "name": "Hand Cannon",
+                    "entries": [
+                        "When you make an Unarmed Strike, you can launch a piece of ammunition from your tattoo instead. The attack has the Finnese and Reach properties, and you have a +1 bonus to the attack and damage rolls. The damage die for the attack is {@dice 1d4}, unless it is already higher."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Overeye Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "J:Tattoos",
+            "reqAttune": true,
+            "entries": [
+                "Produced by a special needle, this magic tattoo features one or more images of eyes with crosshair pupils.",
+                {
+                    "name": "Tattoo Attunement",
+                    "entries": [
+                        "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+                        "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+                    ]
+                },
+                {
+                    "name": "Steel Sight",
+                    "entries": [
+                        "Lightly obscured spaces do not impose disadvantage on your Wisdom (Perception) checks. In addition, attacking at long range does not impose disadvantage on your ranged attack rolls."
+                    ]
+                },
+                {
+                    "name": "Trigger Happy",
+                    "entries": [
+                        "You can cast the {@spell hunter's mark|xphb} or {@spell overwatch|J:general} spell from this tattoo without expending a spell slot or providing material components. For the spell's duration, one or more of the tattoo's eyes become animated, turning to look at the target or area. Once you cast a spell in this way, you cannot cast that spell with this tattoo again until the next dawn."
+                    ]
+                }
             ]
         },
         {
