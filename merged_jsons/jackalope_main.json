@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.10.21.23.21",
+                "version": "2024.11.02.11.15",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -541,7 +541,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1730275014.2155404
+        "dateLastModified": 1730546179.6845446
     },
     "class": [
         {
@@ -5809,6 +5809,16 @@
                         "This item is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. While cursed, you cannot remove the hat. Ranged attacks deal an additional {@dice 1d4} damage against you. If a ranged attack is made as part of a creature's first turn in combat, it has advantage on the attack roll."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Knight Light",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This stone statue resembles a knight resting their hands on the pommel of their sword. When you speak the command word within 60 feet, the blade glows as if targeted with the {@spell light|xphb} spell, until a creature repeats the command word again. Multiple of this item can be activated or deactivated with the same command word.",
+                "This item comes in multiple sizes, ranging from a Tiny 6-inch tall variant up to a Huge 18-foot tall version. The DM decides what size you find."
             ]
         }
     ],
