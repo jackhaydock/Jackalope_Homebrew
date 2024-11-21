@@ -21,18 +21,16 @@
 	},
     "monster": [
         {
-            "name": "Phalanx (Lesser)",
+            "name": "Phalanx (Basic)",
             "source": "J:Humanoids",
-            "size": [
-                "L",
-                "H"
-            ],
+            "size": "L",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+					"soldier"
                 ]
 			},
 			"alignment": [
@@ -97,7 +95,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
                 {
@@ -123,7 +121,7 @@
 				{
 					"name": "Pike",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) piercing damage or {@h}14 ({@damage 4d4 + 5}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the swarm has half of its hit points or fewer."
 					]
  				},
 				{
@@ -235,15 +233,14 @@
         {
             "name": "Phalanx (Greater)",
             "source": "J:Humanoids",
-            "size": [
-                "H"
-            ],
+            "size": "H",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+					"soldier"
                 ]
 			},
 			"alignment": [
@@ -308,7 +305,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
                 {
@@ -334,7 +331,7 @@
 				{
 					"name": "Pike",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d8 + 6}) piercing damage or {@h}20 ({@damage 3d8 + 6}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the swarm has half of its hit points or fewer."
 					]
  				},
 				{
@@ -446,15 +443,14 @@
 		{
             "name": "Phalanx (Superior)",
             "source": "J:Humanoids",
-            "size": [
-                "G"
-            ],
+            "size": "G",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+					"soldier"
                 ]
 			},
 			"alignment": [
@@ -519,7 +515,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
                 {
@@ -545,7 +541,7 @@
 				{
 					"name": "Pike",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}43 ({@damage 8d8 + 7}) piercing damage or {@h}25 ({@damage 4d8 + 7}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the swarm has half of its hit points or fewer."
 					]
  				},
 				{
@@ -657,15 +653,14 @@
         {
             "name": "Phalanx (Supreme)",
             "source": "J:Humanoids",
-            "size": [
-                "G"
-            ],
+            "size": "G",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+					"soldier"
                 ]
 			},
 			"alignment": [
@@ -730,7 +725,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
                 {
@@ -756,7 +751,7 @@
 				{
 					"name": "Pike",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d8 + 8}) piercing damage or {@h}31 ({@damage 5d8 + 8}) piercing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the swarm has half of its hit points or fewer."
 					]
  				},
 				{
@@ -866,7 +861,7 @@
 			]
         },
         {
-            "name": "Ship Crew (Lesser)",
+            "name": "Ship Crew (Basic)",
             "source": "J:Humanoids",
             "size": "L",
 			"type": {
@@ -874,7 +869,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+					"support"
                 ]
 			},
 			"alignment": [
@@ -934,7 +930,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the crew is missing hit points, a friendly humanoid with the crew or bystander tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit point to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
 				{
@@ -1106,7 +1102,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+					"support"
                 ]
 			},
 			"alignment": [
@@ -1166,7 +1163,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the crew is missing hit points, a friendly humanoid with the crew or bystander tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit point to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
 				{
@@ -1338,7 +1335,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+					"support"
                 ]
 			},
 			"alignment": [
@@ -1398,7 +1396,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the crew is missing hit points, a friendly humanoid with the crew or bystander tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit point to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
 				{
@@ -1570,7 +1568,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+					"support"
                 ]
 			},
 			"alignment": [
@@ -1630,7 +1629,7 @@
                 {
                     "name": "Form Up",
 					"entries": [
-						"If the crew is missing hit points, a friendly humanoid with the crew or bystander tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit point to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+						"If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
 					]
                 },
 				{
@@ -1792,6 +1791,822 @@
 					]
 				}
 			]	
+        },
+		{
+            "name": "Mob (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item Leather Armor|J:General}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d12+6"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 13,
+			"save": {
+                "str": "+4",
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+4",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Strength in Numbers",
+					"entries": [
+						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+					]
+				},
+                {
+                    "name": "Form Up",
+					"entries": [
+						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+					]
+                }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mob makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shivs and Stools",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 3}) bludgeoning or slashing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+ 				},
+				{
+					"name": "Bottles and Bricks",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage or {@h}7 ({@damage 1d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rip and Tear",
+					"entries": [
+						"A creature in the mob's space starts {@condition bleeding|J:general}."
+					]
+				},
+				{
+					"name": "Reckless Indulgence",
+					"entries": [
+						"Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Mob (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Leather Armor|J:General}"
+					]
+				}
+			],
+			"hp": {
+				"average": 80,
+				"formula": "10d12+15"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+5",
+				"dex": "+7"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Strength in Numbers",
+					"entries": [
+						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+					]
+				},
+                {
+                    "name": "Form Up",
+					"entries": [
+						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+					]
+                }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mob makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shivs and Stools",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning or slashing damage or {@h}13 ({@damage 2d8 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+ 				},
+				{
+					"name": "Bottles and Bricks",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning or slashing damage or {@h}11 ({@damage 2d6 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rip and Tear",
+					"entries": [
+						"A creature in the mob's space starts {@condition bleeding|J:general}."
+					]
+				},
+				{
+					"name": "Reckless Indulgence",
+					"entries": [
+						"Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Mob (Superior)",
+            "source": "J:Humanoids",
+            "size": "G",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item Leather Armor|J:General}"
+					]
+				}
+			],
+			"hp": {
+				"average": 112,
+				"formula": "14d12+21"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+6",
+				"dex": "+8"
+			},
+			"skill": {
+				"athletics": "+6",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Strength in Numbers",
+					"entries": [
+						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+					]
+				},
+                {
+                    "name": "Form Up",
+					"entries": [
+						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+					]
+                }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mob makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shivs and Stools",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or slashing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+ 				},
+				{
+					"name": "Bottles and Bricks",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning or slashing damage or {@h}16 ({@damage 3d6 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rip and Tear",
+					"entries": [
+						"A creature in the mob's space starts {@condition bleeding|J:general}."
+					]
+				},
+				{
+					"name": "Reckless Indulgence",
+					"entries": [
+						"Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Mob (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item Leather Armor|J:General}"
+					]
+				}
+			],
+			"hp": {
+				"average": 144,
+				"formula": "18d12+27"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 18,
+			"dex": 22,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+7",
+				"dex": "+10"
+			},
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Strength in Numbers",
+					"entries": [
+						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+					]
+				},
+                {
+                    "name": "Form Up",
+					"entries": [
+						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+					]
+                }
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mob makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shivs and Stools",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or slashing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+ 				},
+				{
+					"name": "Bottles and Bricks",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) bludgeoning or slashing damage or {@h}20 ({@damage 4d6 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rip and Tear",
+					"entries": [
+						"A creature in the mob's space starts {@condition bleeding|J:general}."
+					]
+				},
+				{
+					"name": "Reckless Indulgence",
+					"entries": [
+						"Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
         }
     ]
 }

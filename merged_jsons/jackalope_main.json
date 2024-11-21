@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.11.02.11.15",
+                "version": "2024.11.19.22.26",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -510,21 +510,6 @@
                 "targetSchema": "1.0.0"
             },
             {
-                "json": "J:Humanoids",
-                "abbreviation": "J:Humanoids",
-                "color": "f5b342",
-                "full": "Jackalope: Humanoid Warrior Statblocks",
-                "authors": [
-                    "Jackalope"
-                ],
-                "convertedBy": [
-                    "Jackalope"
-                ],
-                "version": "2024.09.20.01.43",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
-            {
                 "json": "J:Bounty",
                 "abbreviation": "J:Bounty",
                 "color": "5e5f72",
@@ -538,10 +523,25 @@
                 "version": "2024.10.19.16.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Humanoids",
+                "abbreviation": "J:Humanoids",
+                "color": "f5b342",
+                "full": "Jackalope: Humanoid Warrior Statblocks",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.11.21.01.15",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1730546179.6845446
+        "dateLastModified": 1732151825.6461134
     },
     "class": [
         {
@@ -4822,7 +4822,7 @@
                             "10"
                         ],
                         [
-                            "Give a creature a piercing or expander.",
+                            "Give a creature a piercing.",
                             "10"
                         ],
                         [
@@ -4837,6 +4837,14 @@
                             "Make a humanoid appear as a different but similar race, or as a different sex.",
                             "20"
                         ]
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Scribing Magic Tattoos",
+                    "entries": [
+                        "At the DM's discretion, proficiency with both body modder's tools and the arcana skill might allow a creature to scribe spellwrought tattoos in the same manner as they might scribe spell scrolls. In addition, they might also be able to convert a spell scroll into a spellwrought tattoo with an hour of work.",
+                        "Finally, if the creature is a wizard, the DM might allow them to use their own skin as a spellbook, copying spells onto it as they would with a spellbook."
                     ]
                 }
             ]
@@ -21188,18 +21196,16 @@
             ]
         },
         {
-            "name": "Phalanx (Lesser)",
+            "name": "Phalanx (Basic)",
             "source": "J:Humanoids",
-            "size": [
-                "L",
-                "H"
-            ],
+            "size": "L",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+                    "soldier"
                 ]
             },
             "alignment": [
@@ -21207,9 +21213,9 @@
             ],
             "ac": [
                 {
-                    "ac": 14,
+                    "ac": 17,
                     "from": [
-                        "{@item Linen Armor|J:General}"
+                        "{@item Linen Armor|J:General}, {@item shield}"
                     ]
                 }
             ],
@@ -21218,7 +21224,7 @@
                 "formula": "10d12+15"
             },
             "speed": {
-                "walk": 20
+                "walk": 25
             },
             "str": 20,
             "dex": 16,
@@ -21228,9 +21234,7 @@
             "cha": 12,
             "save": {
                 "str": "+8",
-                "dex": "+6",
-                "con": "+6",
-                "wis": "+6"
+                "dex": "+6"
             },
             "skill": {
                 "athletics": "+8",
@@ -21260,25 +21264,25 @@
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
                     ]
                 },
                 {
                     "name": "Form Up",
                     "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
-                    ]
-                },
-                {
-                    "name": "Variable Size",
-                    "entries": [
-                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can either occupy a 15-foot square (or 10-foot while Large) or a 20-foot line that is 10-feet wide (or a 10-feet line while Large). It can expend half its movement on a turn to change which formation it is in."
+                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 20-foot-long, 5-foot-wide line or vice versa."
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to. A creature can attempt to force its way in using a {@action Shove} action. The phalanx has advantage on the contested check."
                     ]
                 }
             ],
@@ -21292,13 +21296,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage or {@h}16 ({@damage 2d10 + 5}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}13 ({@damage 4d4 + 3}) piercing damage or {@h}8 ({@damage 2d4 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 }
             ],
@@ -21313,20 +21317,75 @@
             "variant": [
                 {
                     "type": "inset",
-                    "name": "Variants",
+                    "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some phalanxes may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
-                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
-                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
-                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
-                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
-                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
-                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
-                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
-                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -21349,16 +21408,14 @@
         {
             "name": "Phalanx (Greater)",
             "source": "J:Humanoids",
-            "size": [
-                "L",
-                "H"
-            ],
+            "size": "H",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+                    "soldier"
                 ]
             },
             "alignment": [
@@ -21366,33 +21423,241 @@
             ],
             "ac": [
                 {
-                    "ac": 16,
+                    "ac": 17,
                     "from": [
-                        "{@item Linen Armor|J:General}"
+                        "{@item Linen Armor|J:General}, {@item shield}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 112,
+                "formula": "14d12+21"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 22,
+            "dex": 16,
+            "con": 16,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
+            "save": {
+                "str": "+9",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 20-foot-long, 10-foot-wide line or vice versa."
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to. A creature can attempt to force its way in using a {@action Shove} action. The phalanx has advantage on the contested check."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Phalanx makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Pike",
+                    "entries": [
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Slings",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (Superior)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "phalanx",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 18,
+                    "from": [
+                        "{@item Linen Armor|J:General}, {@item shield}"
                     ]
                 }
             ],
             "hp": {
                 "average": 153,
-                "formula": "18d12+36"
+                "formula": "18d12+45"
             },
             "speed": {
-                "walk": 20
+                "walk": 25
             },
-            "str": 22,
+            "str": 24,
             "dex": 18,
             "con": 18,
             "int": 10,
             "wis": 18,
             "cha": 12,
             "save": {
-                "str": "+10",
-                "dex": "+8",
-                "con": "+8",
-                "wis": "+8"
+                "str": "+11",
+                "dex": "+8"
             },
             "skill": {
-                "athletics": "+10",
+                "athletics": "+11",
                 "perception": "+8"
             },
             "passive": 18,
@@ -21419,25 +21684,25 @@
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
                     ]
                 },
                 {
                     "name": "Form Up",
                     "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
-                    ]
-                },
-                {
-                    "name": "Variable Size",
-                    "entries": [
-                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can either occupy a 15-foot square (or 10-foot while Large) or a 20-foot line that is 10-feet wide (or a 10-feet line while Large). It can expend half its movement on a turn to change which formation it is in."
+                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to. A creature can attempt to force its way in using a {@action Shove} action. The phalanx has advantage on the contested check."
                     ]
                 }
             ],
@@ -21451,13 +21716,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) piercing damage or {@h}22 ({@damage 3d10 + 6}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}19 ({@damage 6d4 + 4}) piercing damage or {@h}8 ({@damage 3d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) piercing damage or {@h}18 ({@damage 4d6 + 4}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 }
             ],
@@ -21472,179 +21737,75 @@
             "variant": [
                 {
                     "type": "inset",
-                    "name": "Variants",
+                    "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some phalanxes may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
-                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
-                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
-                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
-                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
-                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
-                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
-                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
-                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Phalanx (Superior)",
-            "source": "J:Humanoids",
-            "size": [
-                "H",
-                "G"
-            ],
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "phalanx"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "{@item Linen Armor|J:General}"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 221,
-                "formula": "26d12+52"
-            },
-            "speed": {
-                "walk": 20
-            },
-            "str": 24,
-            "dex": 18,
-            "con": 18,
-            "int": 10,
-            "wis": 18,
-            "cha": 12,
-            "save": {
-                "str": "+12",
-                "dex": "+9",
-                "con": "+9",
-                "wis": "+9"
-            },
-            "skill": {
-                "athletics": "+12",
-                "perception": "+9"
-            },
-            "passive": 19,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "13",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Strength in Numbers",
-                    "entries": [
-                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
-                    ]
-                },
-                {
-                    "name": "Variable Size",
-                    "entries": [
-                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
-                    ]
-                },
-                {
-                    "name": "Lines and Squares",
-                    "entries": [
-                        "The phalanx can either occupy a 20-foot square (or 15-foot while Huge) or a 30-foot line that is 10-feet wide (or a 20-feet line while Huge). It can expend half its movement on a turn to change which formation it is in."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Phalanx makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Pike",
-                    "entries": [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the swarm has half of its hit points or fewer."
-                    ]
-                },
-                {
-                    "name": "Slings",
-                    "entries": [
-                        "{@atk mw,rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}24 ({@damage 8d4 + 4}) piercing damage or {@h}14 ({@damage 4d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Pike Wall",
-                    "entries": [
-                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
-                    ]
-                }
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variants",
-                    "entries": [
-                        "At the DM's discretion, some phalanxes may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
-                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
-                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
-                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
-                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
-                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
-                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
-                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -21667,16 +21828,14 @@
         {
             "name": "Phalanx (Supreme)",
             "source": "J:Humanoids",
-            "size": [
-                "H",
-                "G"
-            ],
+            "size": "G",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "phalanx"
+                    "phalanx",
+                    "soldier"
                 ]
             },
             "alignment": [
@@ -21684,18 +21843,18 @@
             ],
             "ac": [
                 {
-                    "ac": 16,
+                    "ac": 18,
                     "from": [
-                        "{@item Linen Armor|J:General}"
+                        "{@item Linen Armor|J:General}, {@item shield}"
                     ]
                 }
             ],
             "hp": {
-                "average": 289,
-                "formula": "34d12+68"
+                "average": 187,
+                "formula": "22d12+44"
             },
             "speed": {
-                "walk": 20
+                "walk": 25
             },
             "str": 26,
             "dex": 18,
@@ -21704,20 +21863,18 @@
             "wis": 18,
             "cha": 12,
             "save": {
-                "str": "+14",
-                "dex": "+10",
-                "con": "+10",
-                "wis": "+10"
+                "str": "+12",
+                "dex": "+8"
             },
             "skill": {
-                "athletics": "+14",
-                "perception": "+10"
+                "athletics": "+12",
+                "perception": "+8"
             },
             "passive": 20,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "17",
+            "cr": "11",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -21737,25 +21894,25 @@
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
                     ]
                 },
                 {
                     "name": "Form Up",
                     "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit point to the phalanx. If the merging creature is a phalanx, the phalanx regains hit points equal to the destroyed phalanx's current hit points. If the merging creature is a soldier, the phalanx regains hit points equal to four times the creature's CR."
-                    ]
-                },
-                {
-                    "name": "Variable Size",
-                    "entries": [
-                        "The phalanx is immune to spells and magic effects that alter its size. While the phalanx has half its hit points or fewer, it becomes Large. If it restores enough hit points to have more than half its maximum hit points, it becomes Huge again."
+                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can either occupy a 20-foot square (or 15-foot while Huge) or a 30-foot line that is 10-feet wide (or a 20-feet line while Huge). It can expend half its movement on a turn to change which formation it is in."
+                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to. A creature can attempt to force its way in using a {@action Shove} action. The phalanx has advantage on the contested check."
                     ]
                 }
             ],
@@ -21769,13 +21926,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}63 ({@damage 10d10 + 8}) piercing damage or {@h}35 ({@damage 5d10 + 8}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}29 ({@damage 10d4 + 4}) piercing damage or {@h}17 ({@damage 5d4 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}39 ({@damage 10d6 + 4}) piercing damage or {@h}22 ({@damage 5d6 + 4}) piercing damage if the swarm has half of its hit points or fewer."
                     ]
                 }
             ],
@@ -21790,20 +21947,75 @@
             "variant": [
                 {
                     "type": "inset",
-                    "name": "Variants",
+                    "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some phalanxes may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
-                                "{@b Arcane Warriors}. The phalanx knows a cantrip that has a casting time of 1 action. When the phalanx uses its Multiattack, it can replace one attack with the cantrip. Wisdom is the phalanx's spellcasting ability for this cantrip.",
-                                "{@b Breath Weapon}. When the phanlanx uses its Multiattack, it can replace one of the attacks with a breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Wisdom modifier) or take {@dice PBd10} damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save.",
-                                "{@b Darkvison}. The phalanx has darkvision out to 60 feet.",
-                                "{@b Enhanced Movement}. The phalanx has a climbing or swimming speed equal to its walking speed.",
-                                "{@b Raiders}. The the phalanx has advantage on ability checks and attack rolls made to break through doors, damage wooden objects or to grapple humanoid creatures.",
-                                "{@b Resistance}. The phalanx has resistance to a damage type of the DM's choice.",
-                                "{@b Small Swarm}. The phalanx is a swarm of Small humanoids and can move through and opening wide enough for a Small creature.",
-                                "{@b Speedy}.The phalanx has a walking speed of 30 feet."
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -21824,7 +22036,7 @@
             ]
         },
         {
-            "name": "Ship Crew (Lesser)",
+            "name": "Ship Crew (Basic)",
             "source": "J:Humanoids",
             "size": "L",
             "type": {
@@ -21832,7 +22044,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+                    "support"
                 ]
             },
             "alignment": [
@@ -21880,19 +22093,25 @@
                 {
                     "name": "Strength in Numbers",
                     "entries": [
-                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
                     ]
                 },
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Crew the Ship",
                     "entries": [
-                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
                     ]
                 }
             ],
@@ -21900,25 +22119,20 @@
                 {
                     "name": "Blades Out",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}16 ({@damage 4d6 + 2}) bludgeoning or slashing damage or {@h}9 ({@damage 2d6 + 2}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
-                    ]
-                },
-                {
-                    "name": "Heave",
-                    "entries": [
-                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
+                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
                     ]
                 }
             ],
@@ -21976,6 +22190,81 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -21988,7 +22277,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+                    "support"
                 ]
             },
             "alignment": [
@@ -22036,19 +22326,25 @@
                 {
                     "name": "Strength in Numbers",
                     "entries": [
-                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
                     ]
                 },
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Crew the Ship",
                     "entries": [
-                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
                     ]
                 }
             ],
@@ -22056,25 +22352,253 @@
                 {
                     "name": "Blades Out",
                     "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}24 ({@damage 6d6 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}9 ({@damage 2d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
+                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
+                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 2d10} damage if the ship crew has more than half its hit points."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores 20 hit points it, or 10 hit points if the ship crew has half of its hit points or fewer."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
-                    "name": "Heave",
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Superior)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "crew",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 100,
+                "formula": ""
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 10,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+6"
+            },
+            "passive": 11,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Blades Out",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Volley",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 2}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
+                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
                     ]
                 }
             ],
@@ -22112,162 +22636,6 @@
                                         {
                                             "name": "Fire",
                                             "entries": [
-                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 2d10} damage if the ship crew has more than half its hit points."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Repair",
-                                            "entries": [
-                                                "The ship crew touches a component or weapon of the vehicle and restores 20 hit points it, or 10 hit points if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Brace",
-                                            "entries": [
-                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ship Crew (Superior)",
-            "source": "J:Humanoids",
-            "size": "G",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "crew"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "unarmored"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 100,
-                "formula": ""
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 14,
-            "dex": 16,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+5"
-            },
-            "passive": 11,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "5",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Strength in Numbers",
-                    "entries": [
-                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
-                    ]
-                },
-                {
-                    "name": "Crew the Ship",
-                    "entries": [
-                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Blades Out",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}31 ({@damage 8d6 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 4d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
-                    ]
-                },
-                {
-                    "name": "Volley",
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}17 ({@damage 4d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
-                    ]
-                },
-                {
-                    "name": "Grappling Hooks",
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
-                    ]
-                },
-                {
-                    "name": "Heave",
-                    "entries": [
-                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "B",
-                "S",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant: Crew Actions vs Ship Actions",
-                    "entries": [
-                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
-                        {
-                            "name": "Crew Actions",
-                            "entries": [
-                                "While on board a ship they control, the ship crew takes one of the following actions:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        {
-                                            "name": "Move",
-                                            "entries": [
-                                                "The ship moves up to 40 feet, or 20 feet if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Fire",
-                                            "entries": [
                                                 "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 3d10} damage if the ship crew has more than half its hit points."
                                             ]
                                         },
@@ -22288,6 +22656,81 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -22300,7 +22743,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew"
+                    "crew",
+                    "support"
                 ]
             },
             "alignment": [
@@ -22322,13 +22766,13 @@
                 "walk": 30
             },
             "str": 14,
-            "dex": 16,
+            "dex": 18,
             "con": 10,
             "int": 10,
             "wis": 12,
             "cha": 10,
             "save": {
-                "dex": "+5"
+                "dex": "+7"
             },
             "passive": 11,
             "languages": [
@@ -22348,19 +22792,25 @@
                 {
                     "name": "Strength in Numbers",
                     "entries": [
-                        "While the ship crew has more than half its maximum hit points, it has advantage on all saving throws."
+                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
                     ]
                 },
                 {
                     "name": "Swarm",
                     "entries": [
-                        "The ship crew can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature."
+                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
                     ]
                 },
                 {
                     "name": "Crew the Ship",
                     "entries": [
-                        "When the Ship Crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
                     ]
                 }
             ],
@@ -22368,25 +22818,20 @@
                 {
                     "name": "Blades Out",
                     "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}38 ({@damage 10d6 + 3}) bludgeoning or slashing damage or {@h}21 ({@damage 5d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}31 ({@damage 8d6 + 3}) piercing damage or {@h}24 ({@damage 6d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}32 ({@damage 8d6 + 2}) piercing damage or {@h}18 ({@damage 4d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
                     ]
                 },
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object cannot be moved away from the ship crew until they release it (no action required), they use this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and takes a move action to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move action fails."
-                    ]
-                },
-                {
-                    "name": "Heave",
-                    "entries": [
-                        "The ship crew attempts to pull an object it has hooked with its Grappling Hooks towards itself. It makes a DC 15 Strength check. On a success, the object is pulled 15 feet towards the ship crew."
+                        "{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
+                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
                     ]
                 }
             ],
@@ -22444,7 +22889,898 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 }
+            ]
+        },
+        {
+            "name": "Mob (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "{@item Leather Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 45,
+                "formula": "6d12+6"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 13,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The mob makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shivs and Stools",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 3}) bludgeoning or slashing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Bottles and Bricks",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage or {@h}7 ({@damage 1d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Rip and Tear",
+                    "entries": [
+                        "A creature in the mob's space starts {@condition bleeding|J:general}."
+                    ]
+                },
+                {
+                    "name": "Reckless Indulgence",
+                    "entries": [
+                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Mob (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item Leather Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 80,
+                "formula": "10d12+15"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 11,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+5",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The mob makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shivs and Stools",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning or slashing damage or {@h}13 ({@damage 2d8 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Bottles and Bricks",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning or slashing damage or {@h}11 ({@damage 2d6 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Rip and Tear",
+                    "entries": [
+                        "A creature in the mob's space starts {@condition bleeding|J:general}."
+                    ]
+                },
+                {
+                    "name": "Reckless Indulgence",
+                    "entries": [
+                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Mob (Superior)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Leather Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 112,
+                "formula": "14d12+21"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 16,
+            "int": 11,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The mob makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shivs and Stools",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or slashing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Bottles and Bricks",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning or slashing damage or {@h}16 ({@damage 3d6 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Rip and Tear",
+                    "entries": [
+                        "A creature in the mob's space starts {@condition bleeding|J:general}."
+                    ]
+                },
+                {
+                    "name": "Reckless Indulgence",
+                    "entries": [
+                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Mob (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "mob",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17,
+                    "from": [
+                        "{@item Leather Armor|J:General}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 144,
+                "formula": "18d12+27"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 18,
+            "dex": 22,
+            "con": 16,
+            "int": 11,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+10"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Strength in Numbers",
+                    "entries": [
+                        "While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
+                    ]
+                },
+                {
+                    "name": "Form Up",
+                    "entries": [
+                        "If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The mob makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shivs and Stools",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or slashing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                },
+                {
+                    "name": "Bottles and Bricks",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) bludgeoning or slashing damage or {@h}20 ({@damage 4d6 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Rip and Tear",
+                    "entries": [
+                        "A creature in the mob's space starts {@condition bleeding|J:general}."
+                    ]
+                },
+                {
+                    "name": "Reckless Indulgence",
+                    "entries": [
+                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
             ]
         }
     ],
