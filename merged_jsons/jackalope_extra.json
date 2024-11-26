@@ -37,7 +37,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.11.26.06.48",
+                "version": "2024.11.26.08.07",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1732603715.4954674
+        "dateLastModified": 1732608480.965547
     },
     "item": [
         {
@@ -763,6 +763,396 @@
             "miscTags": [
                 "AOE",
                 "MW"
+            ]
+        },
+        {
+            "name": "Undead Bulker",
+            "source": "J:Lore",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "undead",
+                "tags": [
+                    "dinosaur"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "12 + PB"
+                }
+            ],
+            "hp": {
+                "special": "10xPB + 15"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 12,
+            "con": 16,
+            "int": 6,
+            "wis": 10,
+            "cha": 10,
+            "skill": {
+                "athletics": "+3+PB",
+                "intimidation": "+0+PB"
+            },
+            "passive": 10,
+            "languages": [
+                "understands the languages you know but doesn't speak"
+            ],
+            "pbNote": "equals your Proficiency Bonus",
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "poisoned"
+            ],
+            "trait": [
+                {
+                    "name": "Trampling Charge",
+                    "entries": [
+                        "If the bulker moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone|XPHB}. If the target is prone, the bulker can make one stomp attack against it as a bonus action."
+                    ]
+                },
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bulker makes a number of attacks equal to your half your PB (rounded up)."
+                    ]
+                },
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d10 + PB} bludgeoning, piercing or slashing damage (your choice)."
+                    ]
+                },
+                {
+                    "name": "Stomp",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one prone creature. {@damage 1d12 + PB} bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Undead Prowler",
+            "source": "J:Lore",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "undead",
+                "tags": [
+                    "dinosaur"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "11 + PB"
+                }
+            ],
+            "hp": {
+                "special": "10xPB + 5"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 16,
+            "int": 6,
+            "wis": 10,
+            "cha": 8,
+            "skill": {
+                "intimidation": "-1+PB",
+                "stealth": "+3+PB"
+            },
+            "passive": 10,
+            "languages": [
+                "understands the languages you know but doesn't speak"
+            ],
+            "pbNote": "equals your Proficiency Bonus",
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "poisoned"
+            ],
+            "trait": [
+                {
+                    "name": "Pounce",
+                    "entries": [
+                        "If the prowler moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked prone."
+                    ]
+                },
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
+                    ]
+                },
+                {
+                    "name": "Cunning Combatant",
+                    "entries": [
+                        "The prowler can use a bonus action to take the Dodge, Disengage, Help or Hide action."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The prowler makes a number of attacks equal to your half your PB (rounded down)."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d10 + PB} piercing damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Undead Soarer",
+            "source": "J:Lore",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "undead",
+                "tags": [
+                    "dinosaur"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "10 + PB"
+                }
+            ],
+            "hp": {
+                "special": "10xPB"
+            },
+            "speed": {
+                "walk": 20,
+                "fly": 60
+            },
+            "str": 10,
+            "dex": 14,
+            "con": 14,
+            "int": 6,
+            "wis": 16,
+            "cha": 8,
+            "skill": {
+                "intimidation": "-1+PB",
+                "perception": "+3+PB"
+            },
+            "passive": "13+PB",
+            "languages": [
+                "understands the languages you know but doesn't speak"
+            ],
+            "pbNote": "equals your Proficiency Bonus",
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "poisoned"
+            ],
+            "trait": [
+                {
+                    "name": "Flyby",
+                    "entries": [
+                        "The soarer doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                    ]
+                },
+                {
+                    "name": "Keen Sight",
+                    "entries": [
+                        "The soarer has advantage on Wisdom (Perception) checks that rely on sight."
+                    ]
+                },
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The prowler makes a number of attacks equal to your half your PB (rounded down)."
+                    ]
+                },
+                {
+                    "name": "Peck",
+                    "entries": [
+                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d8 + PB} piercing damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Undead Rex",
+            "source": "J:Lore",
+            "size": [
+                "H"
+            ],
+            "type": {
+                "type": "undead",
+                "tags": [
+                    "dinosaur"
+                ]
+            },
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "special": "20xPB + 30"
+            },
+            "speed": {
+                "walk": 50
+            },
+            "str": 25,
+            "dex": 10,
+            "con": 19,
+            "int": 2,
+            "wis": 12,
+            "cha": 12,
+            "skill": {
+                "intimidation": "+4",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "understands the languages you know but doesn't speak"
+            ],
+            "pbNote": "equals your Proficiency Bonus",
+            "resistance": [
+                "bludgeoning",
+                "slashing",
+                "piercing"
+            ],
+            "immune": [
+                "poison",
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "poisoned"
+            ],
+            "trait": [
+                {
+                    "name": "Undead Fortitude",
+                    "entries": [
+                        "If damage reduces the rex to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the rex drops to 1 Hit Point instead."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The rex makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}27 ({@damage 3d12 + 7}) piercing damage and 7 ({@damage 1d12}) necrotic damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the rex can't bite another target."
+                    ]
+                },
+                {
+                    "name": "Tail",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RCH"
+            ],
+            "conditionInflict": [
+                "grappled",
+                "restrained"
             ]
         },
         {
@@ -4284,18 +4674,11 @@
                         "subclassShortName": "Antiquarian",
                         "subclassSource": "J:Lore",
                         "level": 3,
-                        "header": 1,
                         "entries": [
                             "Antiques are some of the best ways to learn about the past. These objects can tell you much about the economics, culture and technology of particular regions and time periods. Such object can also gradualy gather faint magical energies throughout their long years, undetectable to most, but not all.",
                             "Antiquarian societies specialize in cataloguing and preserving items of historical or cultural importance. While this often involves carefully cleaning and storing such items, it can also mean continuing to use them, honoring their purpose while still preserving their form and history. Antiquarian lorehunters can weave the residual magic of these objects into offensive and defensive wards, protecting the item itself as well as those using them.",
                             {
                                 "name": "Antiquarian Spells",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
                                     "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Antiquarian Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
                                     {
@@ -4312,7 +4695,7 @@
                                         "rows": [
                                             [
                                                 "3rd",
-                                                "{@spell distort value|ai}, {@spell identify|phb}"
+                                                "{@spell distort value|ai}, {@spell identify|xphb}"
                                             ],
                                             [
                                                 "5th",
@@ -4320,15 +4703,15 @@
                                             ],
                                             [
                                                 "9th",
-                                                "{@spell explosive excavation|j:lore}, {@spell remove curse|phb}"
+                                                "{@spell explosive excavation|j:lore}, {@spell remove curse|xphb}"
                                             ],
                                             [
                                                 "13th",
-                                                "{@spell leomund's secret chest|phb}, {@spell summon construct|tce}"
+                                                "{@spell leomund's secret chest|xphb}, {@spell summon construct|tce}"
                                             ],
                                             [
                                                 "17th",
-                                                "{@spell animate objects|phb}, {@spell legend lore}"
+                                                "{@spell animate objects|xphb}, {@spell legend lore|xphb}"
                                             ]
                                         ]
                                     }
@@ -4336,12 +4719,6 @@
                             },
                             {
                                 "name": "Useful Antiques",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
                                     "Starting at 3rd level, you can spend 10 mins touching an item that can be worn or that can be held in one hand. You concentrate residual magical energies surrounding it, making it both more effective and more durable. The item becomes magical if it wasn't already and you can use it as a spellcasting focus for your lorehunter spells. In addition, the item gains additional effects based on it type, as described below.",
                                     {
@@ -4361,12 +4738,6 @@
                             },
                             {
                                 "name": "Conservation Arcana",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
                                     "At 3rd level, you know the {@spell mending|phb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it. When you cast this cantrip, you can also clear rust from metal objects and restore faded color to dyed and painted objects.",
                                     "You can cast the cantrip as normal, and you can also cast it as an action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
@@ -4386,13 +4757,6 @@
                         "entries": [
                             {
                                 "name": "Arcane Antiques",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 7,
-                                "header": 2,
                                 "entries": [
                                     "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a bonus action, you can expend a spell slot for one of the following effects, targeting one oof the items enhanced by your Useful Antiques feature.",
                                     {
@@ -4400,7 +4764,7 @@
                                         "style": "list-hang-notitle",
                                         "items": [
                                             "{@b {@i Archivist's Preservation.}} A creature that is holding or wearing the targeted item gains temporary hit points equal to six times the level of the spell slot expended. A creature loses these temporary hit points if it is ever more than 5 feet from the item for more than one minute.",
-                                            "{@b {@i Historian's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike using the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                            "{@b {@i Excavator's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike using the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
                                         ]
                                     }
                                 ]
@@ -4419,13 +4783,6 @@
                         "entries": [
                             {
                                 "name": "Useful Antiques Collection",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 11,
-                                "header": 2,
                                 "entries": [
                                     "Starting at 11th level, when you use your Useful Antiques feature you can have up to four enhanced items simultaneously, instead of just two.",
                                     "When you use your Arcane Antiques feature, you can target two items using the same spell slot, granting the same effect to both items."
@@ -4445,13 +4802,6 @@
                         "entries": [
                             {
                                 "name": "Resourceful Artifacts",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 15,
-                                "header": 2,
                                 "entries": [
                                     "Starting at 15th level, you ignore all class, race, and level requirements on the use of magic items.",
                                     "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
@@ -4506,12 +4856,6 @@
                             "WIP",
                             {
                                 "name": "Palaeontologist Spells",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
                                     "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Palaeontologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
                                     {
@@ -4528,23 +4872,23 @@
                                         "rows": [
                                             [
                                                 "3rd",
-                                                "{@spell speak with animals|phb}, {@spell find familiar|phb} (appears as undead)"
+                                                "{@spell speak with animals|xphb}, {@spell find familiar|xphb} (appears as undead)"
                                             ],
                                             [
                                                 "5th",
-                                                "{@spell animate dead|phb}, WIP"
+                                                "{@spell animate dead|xphb}, {@spell maximilian's earthen grasp|XGE} (appears as skeletal claw)"
                                             ],
                                             [
                                                 "9th",
-                                                "{@spell conjure animals|phb} (appear as undead rather than fey), {@spell speak with dead|phb}"
+                                                "{@spell conjure animals|xphb} (appear as undead animals), {@spell speak with dead|xphb}"
                                             ],
                                             [
                                                 "13th",
-                                                "{@spell danse macabre|phb}, WIP"
+                                                "{@spell danse macabre|xphb}, {@spell stone shape|xphb}"
                                             ],
                                             [
                                                 "17th",
-                                                "{@spell raise dead|phb}, WIP"
+                                                "{@spell antilife shell|xphb}, {@spell raise dead|xphb}"
                                             ]
                                         ]
                                     }
@@ -4552,53 +4896,35 @@
                             },
                             {
                                 "name": "Adept Archaeologist",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
-                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you have advantage on any ability checks you make to disarm traps or to carefully extract items from loose earth without damaging them."
+                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you can also use such items as simple melee weapons, such as using a large bone as a {@item mace|xphb} or a {@item trowel|xphb} as a dagger."
                                 ]
                             },
                             {
                                 "name": "Ancient Bones",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
                                     "At 3rd level, you can use an action to summon the spirit of a long dead beast to an unoccupied space you can see within 30ft of you.",
-                                    "When you summon the beast, you choose its size and its stat block; Undead Bulker (WIP), Undead Prowler (WIP) or Undead Soarer (WIP) which uses your proficiency bonus (PB) in several places. You also determine the appearance of the beast, choosing a form appropriate for its stat block. You can choose to summon an aquatic creature instead of one from the land. In which case, its walking speed becomes 5 feet and it gains a swim speed equal to its previous walking speed.",
-                                    "Alternatively, you can choose a beast with a CR of 1 or lower that has the dinosaur tag (your DM might allow other similar creatures). The creature appears as undead rather than beast, is immune to poison and necrotic damage and is also immune to the poisoned and charmed conditions. The creature shares your proficiency bonus and understands any languages you know but does not speak. The maximum CR of the creature you summon increases by 1 when you reach 5th level (CR 2), 11th level (CR 3) and 17th level (CR 4) in this class.",
-                                    "The creature shares your initiative count in combat and will obey any verbal commands you give it (no action required by you). If you issue no commands on a turn it will defend itself and follow you but takes other actions. The creature remains for 1 hour after which it crumbles to dust, unless you expend another use of this feature, or a spell slot of 2nd-level or higher, to extend it by another hour. The creature crumbles early if it is reduced to 0 hit points, or if you use this feature again.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again."
+                                    "When you summon the beast, you choose its size and its stat block; {@creature Undead Bulker|J:Lore}, {@creature Undead Prowler|J:Lore} or {@creature Undead Soarer|J:Lore} which uses your proficiency bonus (PB) in several places. You also determine the appearance of the beast, choosing a form appropriate for its stat block. You can choose to summon an aquatic creature instead of one from the land. In which case, its walking speed becomes 5 feet and it gains a swim speed equal to its previous walking speed.",
+                                    "The creature shares your initiative count in combat and will obey any verbal commands you give it (no action required by you). If you issue no commands on a turn it will defend itself and follow you but takes no other actions. The creature remains for 1 hour after which it crumbles to dust, unless you expend another use of this feature, or a spell slot of 2nd-level or higher, to extend it by another hour. The creature crumbles early if it is reduced to 0 hit points, or if you use this feature again.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again.",
+                                    {
+                                        "type": "inset",
+                                        "name": "Alternative Beast Forms",
+                                        "entries": [
+                                            "At the DM's discretion, you can summon a {@filter beast of CR 1 or lower|bestiary|Challenge Rating=[&0;&1]|type=beast|tag=dinosaur} that has the dionsaur tag (your DM might allow other similar creatures) instead of one of the listed statblocks. The creature appears as undead rather than beast, is immune to poison and necrotic damage and is also immune to the {@condition poisoned} and {@condition charmed} conditions. The creature shares your proficiency bonus and understands any languages you know but does not speak. The maximum CR of the creature you summon increases by 1 when you reach 5th level ({@filter CR 2|bestiary|Challenge Rating=[&0;&2]|type=beast|tag=dinosaur}), 11th level ({@filter CR 3|bestiary|Challenge Rating=[&0;&3]|type=beast|tag=dinosaur}) and 17th level ({@filter CR 4|bestiary|Challenge Rating=[&0;&4]|type=beast|tag=dinosaur}) in this class."
+                                        ]
+                                    }
                                 ]
                             },
                             {
                                 "name": "Fossilised Arcana",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "entries": [
-                                    "At 3rd level, you learn the {@spell magic stone|phb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "When you cast the spell, you can target up to five tiny bones, teeth or fossils rather than pebbles. When an attack hits with one of these items, you can choose to have it deal necrotic or piercing damage (your choice), rather than bludgeoning. In addition, when an attack with it hits or misses, an item flys to your hand or feet before the spell ends on it."
+                                    "At 3rd level, you learn the {@spell magic stone|Xphb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "When you cast the spell, you can target up to five tiny bones, teeth or fossils rather than pebbles. When an attack hits with one of these items, you can choose to have it deal necrotic or piercing damage (your choice), rather than bludgeoning. In addition, when an attack with it hits or misses, an item returns to your empty hand or lands at your feet immediately before the spell ends on it."
                                 ]
                             },
                             {
                                 "name": "Unearthing Arcana",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
                                 "isClassFeatureVariant": true,
                                 "entries": [
                                     "{@i Optional feature which replaces Fossilised Arcana}",
@@ -4621,27 +4947,13 @@
                         "entries": [
                             {
                                 "name": "Calcified Bones",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 7,
-                                "header": 2,
                                 "entries": [
-                                    "Starting at 7th level, a creature you summon with your Ancient Bones (or Ancient King) feature has resistance to bludgeoning, piercing and slashing damage as its bones become as hard as stone.",
+                                    "Starting at 7th level, a creature you summon with your Ancient Bones feature has resistance to bludgeoning, piercing and slashing damage as its bones become as hard as stone.",
                                     "In addition, the creature's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
                                 ]
                             },
                             {
                                 "name": "Fossilised Flesh",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 7,
-                                "header": 2,
                                 "entries": [
                                     "Starting at 7th level, you can use an action to begin turning the flesh and bone of a creature you can see within 30 feet into stone. The creature must make a Constitution saving throw against your lorehunter spell save DC or become fossilised for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. A creature made of inorganic material such as stone, crystal, or metal has advantage on this saving throw.",
                                     "A fossilised creature's speed is halved, it has a -2 penalty to its Armor Class and dexterity saving throws. On its turn, it can take one action or one bonus action, not both. The creature cannot take the Dash or Dodge action. A creature summoned by your Ancient Bones feature deals an additional 1d8 damage with attacks against the fossiled creature.",
@@ -4662,14 +4974,13 @@
                         "header": 2,
                         "entries": [
                             {
+                                "name": "Bone Whisperer",
+                                "entries": [
+                                    "Starting at 11th level, when you cast {@spell speak with dead|xphb} on the corpse of a beast or monstrosity, you can verbally communicate with it, even if it does not know any languages."
+                                ]
+                            },
+                            {
                                 "name": "WIP",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 11,
-                                "header": 2,
                                 "entries": [
                                     "WIP"
                                 ]
@@ -4689,16 +5000,9 @@
                         "entries": [
                             {
                                 "name": "Ancient King",
-                                "source": "J:Lore",
-                                "className": "Lorehunter (WIP)",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Palaeontologist",
-                                "subclassSource": "J:Lore",
-                                "level": 15,
-                                "header": 2,
                                 "entries": [
-                                    "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon a tyrannosaurus rex, otherwise following the same rules and benefits of that feature. You cannot use spell slots to summon the tyrannosaurus rex or extend its duration.",
-                                    "The tyrannosaurus obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the tyrannosaurus at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the tyrannosaurus and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the tyrannosaurus. It spends its remaining turns pursuing and attacking any nearby creatures.",
+                                    "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon an {@creature Undead Rex|J:Lore} rather than one of the listed statblocks. You cannot use spell slots to summon the rex or extend its duration.",
+                                    "The rex obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the rex at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the rex and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the rex. It spends its remaining turns pursuing and attacking any nearby creatures.",
                                     "Once you use this feature, you cannot do so again until you finish a short or long rest."
                                 ]
                             }
