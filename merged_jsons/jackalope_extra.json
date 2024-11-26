@@ -37,7 +37,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2023.12.15.17.54",
+                "version": "2024.11.26.06.48",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1732590187.090197
+        "dateLastModified": 1732603715.4954674
     },
     "item": [
         {
@@ -2812,26 +2812,29 @@
             "classFeatures": [
                 "Calculated Strike|Lorehunter (WIP)|J:Lore|1|J:Lore",
                 "Scholarly Expertise|Lorehunter (WIP)|J:Lore|1|J:Lore",
+                "Spellcasting|Lorehunter (WIP)|J:Lore|1|J:Lore",
+                "Weapon Mastery|Lorehunter (WIP)|J:Lore|1|J:Lore",
                 "Fighting Style|Lorehunter (WIP)|J:Lore|2|J:Lore",
-                "Spellcasting|Lorehunter (WIP)|J:Lore|2|J:Lore",
+                "Studious Action|Lorehunter (WIP)|J:Lore|2|J:Lore",
                 "Arcane Sense|Lorehunter (WIP)|J:Lore|3|J:Lore",
                 "Invigorating Knowledge|Lorehunter (WIP)|J:Lore|4|J:Lore",
-                "Extra Attack|Ranger|PHB|5",
+                "Extra Attack|Ranger|XPHB|5",
                 "Careful Stride|Lorehunter (WIP)|J:Lore|6|J:Lore",
                 "Additional Expertise|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "WIP|Lorehunter (WIP)|J:Lore|10|J:Lore",
+                "Robust Mind|Lorehunter (WIP)|J:Lore|10|J:Lore",
+                "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|10|J:Lore",
                 "WIP|Lorehunter (WIP)|J:Lore|14|J:Lore",
                 "WIP|Lorehunter (WIP)|J:Lore|18|J:Lore",
                 "WIP|Lorehunter (WIP)|J:Lore|20|J:Lore",
-                "Scholastic Society|Lorehunter (WIP)|J:Lore|3|J:Lore",
-                "Society Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
-                "Society Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
-                "Society Feature|Lorehunter (WIP)|J:Lore|15|J:Lore",
-                "Ability Score Improvement|Fighter|PHB|4",
-                "Ability Score Improvement|Fighter|PHB|8",
-                "Ability Score Improvement|Fighter|PHB|12",
-                "Ability Score Improvement|Fighter|PHB|16",
-                "Ability Score Improvement|Fighter|PHB|19"
+                "Lorehunter Subclass|Lorehunter (WIP)|J:Lore|3|J:Lore",
+                "Subclass Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
+                "Subclass Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
+                "Subclass Feature|Lorehunter (WIP)|J:Lore|15|J:Lore",
+                "Ability Score Improvement|Fighter|XPHB|4",
+                "Ability Score Improvement|Fighter|XPHB|8",
+                "Ability Score Improvement|Fighter|XPHB|12",
+                "Ability Score Improvement|Fighter|XPHB|16",
+                "Epic Boon|Fighter|XPHB|19"
             ],
             "hd": {
                 "number": 1,
@@ -2842,6 +2845,73 @@
                 "int"
             ],
             "classTableGroups": [
+                {
+                    "colLabels": [
+                        "Prepared Spells"
+                    ],
+                    "rows": [
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            15
+                        ]
+                    ]
+                },
                 {
                     "title": "Spell Slots per Spell Level",
                     "colLabels": [
@@ -3068,89 +3138,204 @@
             },
             "spellcastingAbility": "int",
             "casterProgression": "1/2",
-            "preparedSpells": "<$level$> / 2 + <$int_mod$>",
+            "preparedSpellsProgression": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                6,
+                7,
+                7,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12,
+                14,
+                14,
+                15,
+                15
+            ],
+            "preparedSpellsChange": "restLong",
             "classSpells": [
-                "Absorb Elements",
+                "Absorb Elements|XGE",
                 "Alarm|PHB",
+                "Alarm|XPHB",
                 "Catapult|XGE",
                 "Color Spray|PHB",
+                "Color Spray|XPHB",
                 "Comprehend Languages|PHB",
+                "Comprehend Languages|XPHB",
+                "Chromatic Orb|PHB",
+                "Chromatic Orb|XPHB",
                 "Cure Wounds|PHB",
+                "Cure Wounds|XPHB",
                 "Detect Evil and Good|PHB",
+                "Detect Evil and Good|XPHB",
                 "Detect Magic|PHB",
+                "Detect Magic|XPHB",
                 "Detect Poison and Disease|PHB",
+                "Detect Poison and Disease|XPHB",
                 "Disguise Self|PHB",
+                "Disguise Self|XPHB",
                 "Distort Value|AI",
                 "Expeditious Retreat|PHB",
+                "Expeditious Retreat|XPHB",
                 "False Life|PHB",
+                "False Life|XPHB",
                 "Feather Fall|PHB",
+                "Feather Fall|XPHB",
+                "Fog Cloud|PHB",
+                "Fog Cloud|XPHB",
                 "Grease|PHB",
+                "Grease|XPHB",
                 "Identify|PHB",
+                "Identify|XPHB",
                 "Illusory Script|PHB",
+                "Illusory Script|XPHB",
                 "Jump|PHB",
+                "Jump|XPHB",
                 "Longstrider|PHB",
+                "Longstrider|XPHB",
                 "Protection from Evil and Good|PHB",
+                "Protection from Evil and Good|XPHB",
                 "Purify Food and Drink|PHB",
+                "Purify Food and Drink|XPHB",
                 "Snare|XGE",
                 "Tenser's Floating Disk|PHB",
+                "Tenser's Floating Disk|XPHB",
                 "Air Bubble|AAG",
                 "Arcane Lock|PHB",
+                "Arcane Lock|XPHB",
                 "Borrowed Knowledge|SCC",
                 "Continual Flame|PHB",
+                "Continual Flame|XPHB",
                 "Darkvision|PHB",
+                "Darkvision|XPHB",
                 "Enhance Ability|PHB",
+                "Enhance Ability|XPHB",
                 "Enlarge/Reduce|PHB",
+                "Enlarge/Reduce|XPHB",
                 "Find Traps|PHB",
+                "Find Traps|XPHB",
                 "Gift of Gab|AI",
                 "Heat Metal|PHB",
+                "Heat Metal|XPHB",
                 "Invisibility|PHB",
+                "Invisibility|XPHB",
                 "Knock|PHB",
+                "Knock|XPHB",
                 "Locate Object|PHB",
+                "Locate Object|XPHB",
                 "Magic Weapon|PHB",
+                "Magic Weapon|XPHB",
                 "Misty Step|PHB",
+                "Misty Step|XPHB",
                 "Pass Without A Trace|PHB",
+                "Pass Without A Trace|XPHB",
                 "Protection from Poison|PHB",
+                "Protection from Poison|XPHB",
                 "Rope Trick|PHB",
+                "Rope Trick|XPHB",
+                "Runner's Rope|J:General",
                 "See Invisibility|PHB",
+                "See Invisibility|XPHB",
                 "Shatter|PHB",
+                "Shatter|XPHB",
                 "Silencing Smite|J:General",
                 "Spectral Crew|J:General",
                 "Vortex Warp|SCC",
                 "Zone of Truth|PHB",
+                "Zone of Truth|XPHB",
                 "Catnap|XGE",
                 "Clairvoyance|PHB",
+                "Clairvoyance|XPHB",
                 "Counterspell|PHB",
+                "Counterspell|XPHB",
                 "Dispel Magic|PHB",
+                "Dispel Magic|XPHB",
                 "Elemental Weapon|PHB",
+                "Elemental Weapon|XPHB",
                 "Feign Death|PHB",
+                "Feign Death|XPHB",
                 "Fly|PHB",
+                "Fly|XPHB",
                 "Haste|PHB",
+                "Haste|XPHB",
                 "Intellect Fortress|TCE",
                 "Leomund's Tiny Hut|PHB",
+                "Leomund's Tiny Hut|XPHB",
                 "Nondetection|PHB",
+                "Nondetection|XPHB",
                 "Protection from Energy|PHB",
+                "Protection from Energy|XPHB",
                 "Remove Curse|PHB",
+                "Remove Curse|XPHB",
                 "Sending|PHB",
+                "Sending|XPHB",
                 "Stinking Cloud|PHB",
+                "Stinking Cloud|XPHB",
                 "Tiny Servant|XGE",
                 "Tongues|PHB",
+                "Tongues|XPHB",
                 "Water Breathing|PHB",
+                "Water Breathing|XPHB",
                 "Water Walk|PHB",
+                "Water Walk|XPHB",
                 "Arcane Eye|PHB",
+                "Arcane Eye|XPHB",
                 "Banishment|PHB",
+                "Banishment|XPHB",
                 "Fabricate|PHB",
+                "Fabricate|XPHB",
                 "Freedom of Movement|PHB",
+                "Freedom of Movement|XPHB",
                 "Greater Invisibility|PHB",
+                "Greater Invisibility|XPHB",
                 "Leomund's Secret Chest|PHB",
+                "Leomund's Secret Chest|XPHB",
                 "Locate Creature|PHB",
+                "Locate Creature|XPHB",
                 "Mordenkainen's Private Sanctum|PHB",
+                "Mordenkainen's Private Sanctum|XPHB",
                 "Polymorph|PHB",
+                "Polymorph|XPHB",
                 "Animate Onjects|PHB",
+                "Animate Onjects|XPHB",
                 "Bigby's Hand|PHB",
+                "Bigby's Hand|XPHB",
                 "Commune with Nature|PHB",
+                "Commune with Nature|XPHB",
                 "Creation|PHB",
+                "Creation|XPHB",
                 "Dispel Evil and Good|PHB",
+                "Dispel Evil and Good|XPHB",
                 "Far Step|XGE"
+            ],
+            "featProgression": [
+                {
+                    "name": "Fighting Style",
+                    "category": [
+                        "FS",
+                        "FS:F"
+                    ],
+                    "progression": {
+                        "2": 1
+                    }
+                },
+                {
+                    "name": "Epic Boon",
+                    "category": [
+                        "EB"
+                    ],
+                    "progression": {
+                        "19": 1
+                    }
+                }
             ],
             "fluff": [
                 {
@@ -3626,21 +3811,78 @@
             ]
         },
         {
+            "name": "Weapon Mastery",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 1,
+            "entries": [
+                "Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Spear|XPHB|Spears} and {@item Shortswords|XPHB|Shortswords}.",
+                "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Pike|XPHB|Pikes} and {@item Warhammer|XPHB|Warhammers}."
+            ]
+        },
+        {
+            "name": "Spellcasting",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 1,
+            "entries": [
+                "You have learned to draw on arcane magic through study and practice to cast spells as a Wizard does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the {@filter lorehunter spell list|spells|class=lorehunter (j:lore)}.",
+                {
+                    "type": "entries",
+                    "name": "Spell Slots",
+                    "entries": [
+                        "The Lorehunter Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Prepared Spells of Level 1+",
+                    "entries": [
+                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|class=Lorehunter (WIP)|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
+                        "The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Lorehunter Features table. Whenever that number increases, choose additional Lorehunter spells until the number of spells on your list matches the number in the Lorehunter Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Lorehunter, your list of prepared spells can include six Lorehunter spells of level 1 or 2 in any combination.",
+                        "If another Lorehunter feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Lorehunter spells for you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Changing Your Prepared Spells",
+                    "entries": [
+                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your list with another Lorehunter spell for which you have spell slots."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your Lorehunter spells."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "entries": [
+                        "You can use an {@item arcane focus|phb} or a book as a spellcasting focus for your Lorehunter spells."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Fighting Style",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 2,
             "entries": [
-                "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again. If your DM allows, you can choose a fighting style from the Fighter class instead.",
-                "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to lorehunters. This replacement represents a shift of focus in your martial practice.",
+                "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
                 {
-                    "type": "options",
-                    "count": 1,
+                    "type": "entries",
                     "entries": [
                         {
                             "name": "Arcane Warrior",
-                            "source": "J:Lore",
+                            "source": "XPHB",
+                            "category": "FS:F",
                             "additionalSpells": [
                                 {
                                     "ability": "int",
@@ -3655,132 +3897,26 @@
                                 }
                             ],
                             "entries": [
-                                "You learn two cantrips of your choice from the {@filter wizard spell list|spells|level=0|class=Wizard}. They count as lorehunter spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the wizard spell list."
-                            ]
-                        },
-                        {
-                            "name": "Defense",
-                            "source": "PHB",
-                            "page": 72,
-                            "srd": true,
-                            "otherSources": [
-                                {
-                                    "source": "PHB",
-                                    "page": 84
-                                },
-                                {
-                                    "source": "PHB",
-                                    "page": 91
-                                },
-                                {
-                                    "source": "UATheRangerRevised",
-                                    "page": 3
-                                }
+                                "You learn two {@filter Wizard cantrips|spells|level=0|class=Cleric} of your choice. The chosen cantrips count as Lorehunter spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a Lorehunter level, you can replace one of these cantrips with another Wizard cantrip."
                             ],
-                            "entries": [
-                                "While you are wearing armor, you gain a +1 bonus to AC."
-                            ]
-                        },
-                        {
-                            "name": "Dueling",
-                            "source": "PHB",
-                            "page": 72,
-                            "srd": true,
-                            "otherSources": [
-                                {
-                                    "source": "XGE",
-                                    "page": 15
-                                },
-                                {
-                                    "source": "UARevisedSubclasses",
-                                    "page": 2
-                                },
-                                {
-                                    "source": "PHB",
-                                    "page": 84
-                                },
-                                {
-                                    "source": "PHB",
-                                    "page": 91
-                                },
-                                {
-                                    "source": "UATheRangerRevised",
-                                    "page": 3
-                                }
-                            ],
-                            "entries": [
-                                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-                            ]
-                        },
-                        {
-                            "name": "Protection",
-                            "source": "PHB",
-                            "page": 72,
-                            "srd": true,
-                            "otherSources": [
-                                {
-                                    "source": "PHB",
-                                    "page": 84
-                                }
-                            ],
-                            "entries": [
-                                "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
-                            ]
+                            "type": "entries"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "Spellcasting",
+            "name": "Studious Action",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 2,
             "entries": [
-                "By 2nd level, you have learned to draw on arcane magic through study and practice to cast spells as a wizard does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the {@filter lorehunter spell list|spells|class=lorehunter (j:lore)}.",
-                {
-                    "type": "entries",
-                    "name": "Preparing and Casting Spells",
-                    "entries": [
-                        "The Lorehunter table shows how many spell slots you have to cast your {@filter lorehunter spells|spells|class=lorehunter (j:lore)}. To cast one of your lorehunter spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
-                        "You prepare the list of lorehunter spells that are available for you to cast, choosing from the lorehunter spell list. When you do so, choose a number of lorehunter spells equal to your Intelligence modifier + half your lorehunter level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots.",
-                        "For example, if you are a 5th-level lorehunter, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd-level, in any combination. If you prepare the 1st-level spell {@spell cure wounds}, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
-                        "You can change your list of prepared spells when you finish a long rest. Preparing a new list of lorehunter spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Spellcasting Ability",
-                    "entries": [
-                        "Intelligence is your spellcasting ability for your lorehunter spells, since their power derives from the strength of your convictions. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a lorehunter spell you cast and when making an attack roll with one.",
-                        {
-                            "type": "abilityDc",
-                            "name": "Spell",
-                            "attributes": [
-                                "int"
-                            ]
-                        },
-                        {
-                            "type": "abilityAttackMod",
-                            "name": "Spell",
-                            "attributes": [
-                                "int"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Spellcasting Focus",
-                    "entries": [
-                        "You can use an {@item arcane focus|phb} or a book as a spellcasting focus for your lorehunter spells."
-                    ]
-                }
+                "Starting at 2nd Level, you can take the {@action Help|XPHB}, {@action Search|XPHB} or {@action Study|XPHB} action as a bonus action."
             ]
         },
         {
-            "name": "Scholastic Society",
+            "name": "Lorehunter Subclass",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
@@ -3814,7 +3950,7 @@
                             "type": "item",
                             "name": "Arcane Mind",
                             "entries": [
-                                "Choose a {@filter 1st-level spell from the divination school of magic and that has a range of self |spells|level=1|school=d|range=self}. You can cast the chosen spell at will, without requiring a a spell slot. When you gain a level in this class, you can change the chosen spell for a different one."
+                                "Choose a {@filter level 1 spell from the divination school of magic and that has a range of self|spells|level=1|components & miscellaneous=|school=d|range=self;self (area)}. You can cast the chosen spell at will, without requiring a a spell slot. When you gain a level in this class, you can change the chosen spell for a different one."
                             ]
                         }
                     ]
@@ -3828,7 +3964,7 @@
             "classSource": "J:Lore",
             "level": 4,
             "entries": [
-                "Starting at 4th level, learning new things or successfully applying existing knowledge grants you an inspiring feeling of satisfaction. When you succeed on an Intelligence check, or a creature you aid with the {@action Help} action succeeds on an Intelligence check, you can gain temporary hit points equal to twice your Intelligence modifier (Minimum of 1)."
+                "Starting at 4th level, learning new things or successfully applying existing knowledge grants you an inspiring feeling of satisfaction. When you succeed on an Intelligence check, or a creature you aid with the {@action Help|XPHB} action succeeds on an Intelligence check, you can gain temporary hit points equal to twice your Intelligence modifier (Minimum of 1)."
             ]
         },
         {
@@ -3838,7 +3974,7 @@
             "classSource": "J:Lore",
             "level": 6,
             "entries": [
-                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, your speed is halved and you cannot take the Dash action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
+                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, you are {@condition slowed|J:general} and you cannot take the {@action Dash|XPHB} action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
             ]
         },
         {
@@ -3852,34 +3988,64 @@
             ]
         },
         {
-            "name": "Society Feature",
+            "name": "Subclass Feature",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 7,
             "entries": [
-                "At 7th level, you gain a feature from your Society."
+                "At 7th level, you gain a feature from your Lorehunter Subclass."
             ],
             "gainSubclassFeature": true
         },
         {
-            "name": "WIP",
+            "name": "Robust Mind",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 10,
             "entries": [
-                "WIP"
+                "Starting at 10th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a short or long rest."
             ]
         },
         {
-            "name": "Society Feature",
+            "name": "Improved Arcane Sense",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 10,
+            "entries": [
+                "At 10th level, your unique senses become stronger.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Spellsense",
+                            "entries": [
+                                "When a creature that is concentrating on a spell enters the area of your Spellsense for the first time on a turn, or starts its turn there, you know their location and the school of magic."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Arcane Mind",
+                            "entries": [
+                                "You can choose an additional spell for your Arcane Mind. The spell can be of {@filter level 2 or lower |spells|level=1;2|components & miscellaneous=|school=d|range=self;self (area)}but must still be from the divination school of magic and have a range of self."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Subclass Feature",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 11,
             "entries": [
-                "At 11th level, you gain a feature from your Society."
+                "At 11th level, you gain a feature from your Lorehunter Subclass."
             ],
             "gainSubclassFeature": true
         },
@@ -3894,13 +4060,13 @@
             ]
         },
         {
-            "name": "Society Feature",
+            "name": "Subclass Feature",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 15,
             "entries": [
-                "At 15th level, you gain a feature from your Society."
+                "At 15th level, you gain a feature from your Lorehunter Subclass."
             ],
             "gainSubclassFeature": true
         },
