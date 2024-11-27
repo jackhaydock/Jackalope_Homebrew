@@ -37,7 +37,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.11.26.08.38",
+                "version": "2024.11.27.06.43",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1732610291.4162235
+        "dateLastModified": 1732689865.6248524
     },
     "item": [
         {
@@ -860,6 +860,10 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "fluff": [
+                "Undead bulkers are ancient reanimated beasts. Compared to undead prowlers and soarers, bulkers excel in raw strength, resilience and momentum. They can handle, and deal, significant damage with ease.",
+                "Beasts that might be reanimated as bulkers might include ankylosaurs, triceratops, mammoths, wholly rhinos or helicoprions."
             ]
         },
         {
@@ -955,6 +959,10 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "fluff": [
+                "Undead prowlers are ancient reanimated beasts. Compared to undead bulkers and soarers, prowlers excel in stealth, speed and tactics. Lurking in the shadows or surrounding enemies alongside allies.",
+                "Beasts that may be reanimated as prowlers might include dire-wolves, sabre-toothed tigers or"
             ]
         },
         {
@@ -1051,6 +1059,10 @@
             ],
             "miscTags": [
                 "MW"
+            ],
+            "fluff": [
+                "Undead soarers are ancient reanimated beasts. Compared to undead bulkers and prowlers, soarers excel at traversal and reconnaissance. Typically great flyers, they can quickly scour the land from above to spot both threats and prey.",
+                "Beasts that may be reanimated as prowlers might include dire-wolves, sabre-toothed tigers or"
             ]
         },
         {
@@ -3601,11 +3613,13 @@
                 "Air Bubble|AAG",
                 "Arcane Lock|PHB",
                 "Arcane Lock|XPHB",
+                "Arcane Vigor|XPHB",
                 "Borrowed Knowledge|SCC",
                 "Continual Flame|PHB",
                 "Continual Flame|XPHB",
                 "Darkvision|PHB",
                 "Darkvision|XPHB",
+                "Detect Echoes|J:General",
                 "Enhance Ability|PHB",
                 "Enhance Ability|XPHB",
                 "Enlarge/Reduce|PHB",
@@ -3634,6 +3648,7 @@
                 "Runner's Rope|J:General",
                 "See Invisibility|PHB",
                 "See Invisibility|XPHB",
+                "Shape Weapon|XPHB",
                 "Shatter|PHB",
                 "Shatter|XPHB",
                 "Silencing Smite|J:General",
@@ -5311,6 +5326,61 @@
                     {
                         "name": "Artificer",
                         "source": "TCE"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Compelled Debate",
+            "source": "J:Lore",
+            "level": 2,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "m": "a scroll and a bell"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Choose a a creature you can see within range that can see or hear you and that shares at least one language with you. That creature must make a Wisdom saving throw or be compelled to debate you on various topics for the duration of the spell.",
+                "On each of its turns, the creature can spend an action to debate you. The creature makes an Intelligence check contested by your ability check using your spellcasting ability. The loser takes {@damage 2d8} psychic damage (the target loses on a tie). If the target ends its turn without using an action to debate you, it is treated as if it failed the contested check, taking the damage.",
+                "The creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The effects also end early if the creature ends its turn more than 60 feet from you."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell at 3rd-level or higher, the damage taken by the target on a failed contest increases by {@damage 1d8} for each level above 2nd. The damage you take if they succeed does not increase."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Lorehunter (WIP)",
+                        "source": "J:Lore"
                     }
                 ]
             }
