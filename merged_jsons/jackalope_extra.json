@@ -37,7 +37,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.11.27.06.55",
+                "version": "2024.12.01.10.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1732690530.6038797
+        "dateLastModified": 1733049898.909032
     },
     "item": [
         {
@@ -4779,7 +4779,7 @@
                                         "style": "list-hang-notitle",
                                         "items": [
                                             "{@b {@i Archivist's Preservation.}} A creature that is holding or wearing the targeted item gains temporary hit points equal to six times the level of the spell slot expended. A creature loses these temporary hit points if it is ever more than 5 feet from the item for more than one minute.",
-                                            "{@b {@i Excavator's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike using the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                            "{@b {@i Excavator's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike while wearing the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
                                         ]
                                     }
                                 ]
@@ -5364,8 +5364,9 @@
             ],
             "entries": [
                 "Choose a a creature you can see within range that can see or hear you and that shares at least one language with you. That creature must make a Wisdom saving throw or be compelled to debate you on various topics for the duration of the spell.",
-                "On each of its turns, the creature can spend an action to debate you. The creature makes an Intelligence check contested by your ability check using your spellcasting ability. The loser takes {@damage 2d8} psychic damage (the target loses on a tie). If the target ends its turn without using an action to debate you, it is treated as if it failed the contested check, taking the damage.",
-                "The creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The effects also end early if the creature ends its turn more than 60 feet from you."
+                "On each of its turns, the creature must use either an action or bonus action to debate you. The creature makes an Intelligence check contested by your spellcasting ability check. If the creature used a bonus action, it has disadvantage on this check. The loser takes {@damage 2d8} psychic damage (the target loses on a tie).",
+                "If either you or the target is unable to speak or sign, such as being {@condition incapacitated|xphb} or {@condition silenced|J:general}, they automatically fail the contested check. If neither of you can do so, no contested check is made and neither of you take damage.",
+                "The spell ends early if the creature ends its turn more than 60 feet from you."
             ],
             "entriesHigherLevel": [
                 {
