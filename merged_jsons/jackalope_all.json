@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.11.19.22.26",
+                "version": "2024.12.01.11.08",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -661,7 +661,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1733049900.2320912
+        "dateLastModified": 1733051336.5069041
     },
     "class": [
         {
@@ -9237,6 +9237,30 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Agile Fighting",
+            "source": "J:General",
+            "category": "FS",
+            "entries": [
+                "All melee weapons that lack the heavy, two-handed or special properties gain the finesse property when you wield them."
+            ]
+        },
+        {
+            "name": "Akimbo Shooting",
+            "source": "J:General",
+            "category": "FS",
+            "entries": [
+                "You can engage in two-weapon fighting even if one or both weapons are ranged. In addition, you do not need a hand free to load ammunition into ranged weapons (you still require two hands to use weapons with the two-handed property)."
+            ]
+        },
+        {
+            "name": "Prone Fighting",
+            "source": "J:General",
+            "category": "FS",
+            "entries": [
+                "Being {@condition prone|xphb} does not impose disadvantage on your weapon attack rolls."
             ]
         }
     ],
@@ -19135,7 +19159,7 @@
                 "FS:R"
             ],
             "entries": [
-                "All melee weapons that lack the heavy, two handed or special properties gain the finesse property when you wield them."
+                "All melee weapons that lack the heavy, two-handed or special properties gain the finesse property when you wield them."
             ]
         },
         {
@@ -19157,7 +19181,7 @@
                 "FS:R"
             ],
             "entries": [
-                "Being prone does not impose disadvantage on your attack rolls."
+                "Being {@condition prone|xphb} does not impose disadvantage on your weapon attack rolls."
             ]
         },
         {
