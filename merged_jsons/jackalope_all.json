@@ -163,7 +163,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.03.13.08.13",
+                "version": "2025.01.18.17.58",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -373,7 +373,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.04.09.20.27",
+                "version": "2025.01.18.18.29",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -535,7 +535,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.11.26.03.02",
+                "version": "2025.01.18.18.01",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -591,21 +591,6 @@
                 "targetSchema": "1.0.0"
             },
             {
-                "json": "J:Scaling",
-                "abbreviation": "J:Scaling",
-                "color": "a1878d",
-                "full": "Jackalope: Scaling Statblocks",
-                "authors": [
-                    "Jackalope"
-                ],
-                "convertedBy": [
-                    "Jackalope"
-                ],
-                "version": "2024.06.09.14.48",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
-            {
                 "json": "J:BoP",
                 "abbreviation": "J:BoP",
                 "color": "f1bf09",
@@ -626,6 +611,21 @@
                     "Jackalope"
                 ],
                 "version": "2024.09.23.00.31",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Scaling",
+                "abbreviation": "J:Scaling",
+                "color": "a1878d",
+                "full": "Jackalope: Scaling Statblocks",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.12.01.12.08",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -661,7 +661,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1733051336.5069041
+        "dateLastModified": 1737225066.0603397
     },
     "class": [
         {
@@ -5168,6 +5168,106 @@
                     "name": "Damaged Eye",
                     "entries": [
                         "An eye can be damaged before or during the harvesting. In this case, both instances of damage dealt by the eye are reduced to {@dice 2d6}."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heart of Logiblod",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "J:AnS",
+            "entries": [
+                "Your heart has been replaced by a magical core that infuses your blood with Logi, a magical essence of fire and flames. You have the following effects:",
+                {
+                    "type": "list",
+                    "style": "list",
+                    "items": [
+                        "You can use the heart as a spellcasting focus.",
+                        "You have resistance to fire damage. These resistances persist if you are transformed by a spell such as {@spell polymorph|xphb}.",
+                        "You can replace the damage you deal with unarmed strikes with fire damage. This also applies to natural weapons granted by spells such as {@spell polymorph|xphb} and {@spell alter self|xphb}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Upgrading and Replacing your Heart",
+                    "entries": [
+                        "How your heart works is something of a mystery. As you learn more about its function and origin, you might learn ways to enhance and even replace it with something similar but different."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heart of Glyggblod",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "J:AnS",
+            "entries": [
+                "Your heart has been replaced by a magical core that infuses your blood with Glygg, a magical essence of storms. You have the following effects:",
+                {
+                    "type": "list",
+                    "style": "list",
+                    "items": [
+                        "You can use the heart as a spellcasting focus.",
+                        "You have resistance to lightning and thunder damage. These resistances persist if you are transformed by a spell such as {@spell polymorph|xphb}.",
+                        "You can replace the damage you deal with unarmed strikes with lightning or thunder damage. This also applies to natural weapons granted by spells such as {@spell polymorph|xphb} and {@spell alter self|xphb}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Upgrading and Replacing your Heart",
+                    "entries": [
+                        "How your heart works is something of a mystery. As you learn more about its function and origin, you might learn ways to enhance and even replace it with something similar but different."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heart of Kaosblod",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "J:AnS",
+            "entries": [
+                "Your heart has been replaced by a magical core that infuses your blood with Kaos, a magical essence of earth and wood. You have the following effects:",
+                {
+                    "type": "list",
+                    "style": "list",
+                    "items": [
+                        "You can use the heart as a spellcasting focus.",
+                        "You have resistance to bludgeoning damage. These resistances persist if you are transformed by a spell such as {@spell polymorph|xphb}.",
+                        "You can replace the damage you deal with unarmed strikes with bludgeoning damage. This also applies to natural weapons granted by spells such as {@spell polymorph|xphb} and {@spell alter self|xphb}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Upgrading and Replacing your Heart",
+                    "entries": [
+                        "How your heart works is something of a mystery. As you learn more about its function and origin, you might learn ways to enhance and even replace it with something similar but different."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Heart of Issblod",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "J:AnS",
+            "entries": [
+                "Your heart has been replaced by a magical core that infuses your blood with Iss, a magical essence of ice and snow. You have the following effects:",
+                {
+                    "type": "list",
+                    "style": "list",
+                    "items": [
+                        "You can use the heart as a spellcasting focus.",
+                        "You have resistance to cold damage. These resistances persist if you are transformed by a spell such as {@spell polymorph|xphb}.",
+                        "You can replace the damage you deal with unarmed strikes with cold damage. This also applies to natural weapons granted by spells such as {@spell polymorph|xphb} and {@spell alter self|xphb}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Upgrading and Replacing your Heart",
+                    "entries": [
+                        "How your heart works is something of a mystery. As you learn more about its function and origin, you might learn ways to enhance and even replace it with something similar but different."
                     ]
                 }
             ]
@@ -19498,7 +19598,7 @@
         },
         {
             "name": "Entrapping Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19512,16 +19612,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Entrapping ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the arrow transforms into a {@item net|phb}. The target is {@condition restrained} as described in the net's description."
                 ],
                 "bonusWeapon": "+1"
@@ -19529,7 +19621,7 @@
         },
         {
             "name": "Enlarging Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19543,16 +19635,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Enlarging ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
                 ],
                 "bonusWeapon": "+1"
@@ -19560,7 +19644,7 @@
         },
         {
             "name": "Shrinking Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19574,16 +19658,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Shrinking ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
                 ],
                 "bonusWeapon": "+1"
@@ -19591,7 +19667,7 @@
         },
         {
             "name": "Shielding Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19605,16 +19681,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Shielding ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell."
                 ],
                 "bonusWeapon": "+1"
@@ -19622,7 +19690,7 @@
         },
         {
             "name": "Smoking Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19636,16 +19704,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Smoking ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell."
                 ],
                 "bonusWeapon": "+1"
@@ -19653,7 +19713,7 @@
         },
         {
             "name": "Exploding Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19667,16 +19727,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Exploding ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the ammunition explodes and each creature in a 15-foot-radius sphere centered on the target, must make a Dexterity saving throw or take {@dice 3d6} fire damage. A creature takes half as much damage on a success. Objects in the area also take this damage."
                 ],
                 "bonusWeapon": "+1"
@@ -19684,7 +19736,7 @@
         },
         {
             "name": "Incendiary Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19698,16 +19750,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Incendiary ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, it splashes burning fluid over the target. The target takes {@dice 1d6} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
                 ],
                 "bonusWeapon": "+1"
@@ -19715,7 +19759,7 @@
         },
         {
             "name": "Rolling Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19729,16 +19773,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Rolling ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, thousands of {@item Ball Bearings (bag of 1,000)|phb|ball bearings} explode outwards, covering a level area 15 feet square, centered on the target. The balls vanish after one minute."
                 ],
                 "bonusWeapon": "+1"
@@ -19746,7 +19782,7 @@
         },
         {
             "name": "Tethering Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19760,16 +19796,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Tethering ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, it becomes magically tethered to a random creature within 15 feet of it. Until the tether is broken with a DC 10 Strength check, neither terget can move, or be moved more than 15 feet away from the other. A creature can drag another creature that it is tethered to but its movement speed is halved when doing so."
                 ],
                 "bonusWeapon": "+1"
@@ -19777,7 +19805,7 @@
         },
         {
             "name": "Concussive Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19791,16 +19819,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Concussive ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, the ammunition emits a sonic blast that is audible up to 300 feet away. Each creature in a 15-foot-radius sphere centered on the target must make a Constitution saving throw or take {@dice 2d8} thunder damage and become {@condition deafened} until the end of its next turn. On a success, a creature takes half damage and is not {@condition deafened}. If this damage reduces a cretaure to 0 hit points, it becomes {@condition unconscious} and is stable."
                 ],
                 "bonusWeapon": "+1"
@@ -19808,7 +19828,7 @@
         },
         {
             "name": "Extinguishing Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19822,16 +19842,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Extinguishing ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, a spray of water erupts in a 15-foot-radius sphere centered on the target, extinguishing exposed, nonmagical fires within the area. Each creature within the area is hit by 5 gallons of water, which dissipates at the end of the turn."
                 ],
                 "bonusWeapon": "+1"
@@ -19839,7 +19851,7 @@
         },
         {
             "name": "Forceful Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19853,16 +19865,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Forceful ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pushed 15 feet away from you. On a success, the target is only pushed 5 feet."
                 ],
                 "bonusWeapon": "+1"
@@ -19870,7 +19874,7 @@
         },
         {
             "name": "Yanking Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19884,16 +19888,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Yanking ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a Large or smaller target with this ammunition, the target must make a Strength saving throw or be pulled 15 feet towards you. On a success, the target is only pulled 5 feet."
                 ],
                 "bonusWeapon": "+1"
@@ -19901,7 +19897,7 @@
         },
         {
             "name": "Feathered Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19915,16 +19911,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Feathered ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|mm}, 3 for {@creature peacock|bgdia}, 4 for {@creature raven|mm}, 5 for {@creature owl|mm} or 6 for {@creature giant owl|mm}. The bird vanishes after 1 hour, or if it dies."
                 ],
                 "bonusWeapon": "+1"
@@ -19932,7 +19920,7 @@
         },
         {
             "name": "Mimicry Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19946,16 +19934,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Mimicry ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reproduces this phrase or noise from the location of the target. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
                 ],
                 "bonusWeapon": "+1"
@@ -19963,7 +19943,7 @@
         },
         {
             "name": "Attracting Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -19977,16 +19957,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Attracting ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
                 ],
                 "bonusWeapon": "+1"
@@ -19994,7 +19966,7 @@
         },
         {
             "name": "Repelling Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -20008,16 +19980,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Repelling ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
                 ],
                 "bonusWeapon": "+1"
@@ -20025,7 +19989,7 @@
         },
         {
             "name": "Emetic Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -20039,16 +20003,8 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Emetic ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition poisoned} until it spends an action to vomit.",
                     "At the DM's discretion, a poisoned creature might choose to move to another location in order to vomit, such as to an outhouse, creek or over a ledge. A creature is unlikely to do this if it is aware of a more immediate threat, such as being in combat."
                 ],
@@ -20057,7 +20013,7 @@
         },
         {
             "name": "Transposition Ammunition",
-            "type": "GV",
+            "type": "TA|J:Ammo",
             "requires": [
                 {
                     "type": "A"
@@ -20071,17 +20027,32 @@
                 "rarity": "uncommon",
                 "source": "J:Ammo",
                 "namePrefix": "Transposition ",
-                "type": "A",
+                "type": "TA|J:Ammo",
                 "entries": [
-                    {
-                        "type": "entries",
-                        "name": "Trick Ammunition",
-                        "entries": [
-                            "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
-                            "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
-                        ]
-                    },
                     "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take {@dice 1d8} force damage."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Bolstering Ammunition",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Bolstering ",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "When you hit a target with this ammunition, the target gains Temporary Hit Points equal to {@dice 2d6} + the ability modifier you used for the attack."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -21226,6 +21197,21 @@
                     "name": "Armor Runestone",
                     "entries": [
                         "Over the course of an hour, this runestone can be fused with a set of armor or a shield, turning it into a magic item, if it is not already. See the {@variantrule Runestones|J:Runestones|runestone} rules for information on how to use runestones."
+                    ]
+                }
+            ]
+        },
+        {
+            "abbreviation": "TA",
+            "source": "J:Ammo",
+            "name": "Trick Ammunition",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Trick Ammunition",
+                    "entries": [
+                        "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                        "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
                     ]
                 }
             ]
@@ -25887,7 +25873,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -26097,7 +26083,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -26307,7 +26293,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -26517,7 +26503,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -26763,7 +26749,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -26996,7 +26982,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -27229,7 +27215,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -27462,7 +27448,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -27653,7 +27639,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -27857,7 +27843,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -28061,7 +28047,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -28265,7 +28251,7 @@
                     "type": "inset",
                     "name": "Variant Humanoid Swarms",
                     "entries": [
-                        "At the DM's discretion, some swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
                             "type": "list",
                             "items": [
@@ -29026,559 +29012,6 @@
             "conditionInflict": [
                 "grappled",
                 "restrained"
-            ]
-        },
-        {
-            "name": "Humanoid Artillerist",
-            "source": "J:Scaling",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "artillery",
-                    "scaling 1-10"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "special": "13 + PB (light armor)"
-                }
-            ],
-            "hp": {
-                "special": "15 + 10*PB"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 13,
-            "dex": 16,
-            "con": 12,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+3+PB"
-            },
-            "skill": {
-                "acrobatics": "+3+PB",
-                "perception": "+1+PB"
-            },
-            "passive": 11,
-            "languages": [
-                "At least one"
-            ],
-            "trait": [
-                {
-                    "name": "Artillerist's Eye (CR 2 or Higher, 3/Day)",
-                    "entries": [
-                        "Immediately after making an attack or damage roll with a ranged weapon, the artillerist can roll a {@dice d8} and add the number rolled to the total."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack (CR 4 or Higher)",
-                    "entries": [
-                        "The artillerist makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Ranged Weapon",
-                    "entries": [
-                        "{@atk rw} {@hit 3+PB} to hit, range 60/180 ft., one target. {@h}{@damage PBd6 + 3} piercing damage."
-                    ]
-                },
-                {
-                    "name": "Sidearm",
-                    "entries": [
-                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
-                    ]
-                },
-                {
-                    "name": "Volley (CR 8 or Higher, 1/Day)",
-                    "entries": [
-                        "The artillerist rains down a hail of ammunition or weapons in a 20-foot sphere centred on a point it can see within 60 feet. Each creature within the area must make a {@dc 12+PB} Dexterity saving throw or take {@damage PBd10} piercing damage. A creature takes half as much on a success."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Overwatch (CR 6 or Higher, 3/Day)",
-                    "entries": [
-                        "The artillerist  can ready a ranged weapon attack as a bonus action."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "X"
-            ],
-            "damageTags": [
-                "B",
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "MW",
-                "RW",
-                "THW"
-            ],
-            "fluff": {
-                "entries": [
-                    "From slingers to archers to javelin throwers, artillerists are the standard ranged warriors of most armies. While their skills and equipment can vary greatly, they specialise in dealing damage from a distance, supporting allied infantry while in turn being protected from enemy infantry.",
-                    {
-                        "name": "Artillerists across the Multiverse",
-                        "entries": [
-                            "In Cyranos, the term Toxotai is often used to describe artillerists. Despite the term normally relating specifically to archers, the term can be loosely used for any light artillery.",
-                            "Similarly, in the Northlands, the term Bogmadr is used as a blanket term for multiple forms of artillery, despite literraly refering to archers. Bogmadr can most often be found on ships and protecting forts."
-                        ]
-                    },
-                    {
-                        "type": "inset",
-                        "name": "Using Scaling Statblocks",
-                        "entries": [
-                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
-                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
-                        ]
-                    }
-                ]
-            },
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Optional Extras",
-                    "entries": [
-                        "At the DM's discretion, the artillerist may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Arcane Weapon}. The artillerist's Ranged or Thrown Weapon attack and Volley deals a damage type of the DM's choice.",
-                                "{@b Darkvison}. The artillerist has darkvision out to 60 feet.",
-                                "{@b Resistance}. The artillerist has resistance to a damage type of the DM's choice.",
-                                "{@b Yanking Shot (CR 2 or Higher, 3/Day)}. When the artillerist hits a creature with a ranged attack, the weapon or ammunition magically returns to the toxotai's hand or quiver. The creature hit by the attack is pulled towards the toxotai up to a number of feet equal to 5xPB.",
-                                "{@b Piercing Shot (CR 4 or Higher, 3/day)}. When the artillerist hits with ranged weapon attack, they can deal {@dice 1d8} piercing damage to a second target within 5 feet of the first target.",
-                                "{@b Pinning Shot (CR 6 or Higher, 3/day)}. When the artillerist hits a creature with ranged weapon attack, it can force that creature to make a Dexterity saving throw (DC equals 12+PB). On a failure, the creature is {@condition slowed|J:general} until the start of the artillerist's next turn. On a success, the creature is instead {@condition hampered|J:general} for the same duration."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Humanoid Hulk - WIP",
-            "source": "J:Scaling",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "brute",
-                    "scaling 1-10"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "special": "12 + PB (light or natural armor)"
-                }
-            ],
-            "hp": {
-                "special": "20 + 15*PB"
-            },
-            "speed": {
-                "walk": 40
-            },
-            "str": 18,
-            "dex": 12,
-            "con": 16,
-            "int": 8,
-            "wis": 11,
-            "cha": 12,
-            "save": {
-                "con": "+3+PB"
-            },
-            "skill": {
-                "athletics": "+4+PB",
-                "intimidation": "+1+PB"
-            },
-            "passive": 10,
-            "languages": [
-                "At least one"
-            ],
-            "trait": [
-                {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the hulk can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
-                    "name": "Forceful Strikes (CR 2 or Higher)",
-                    "entries": [
-                        "Once per turn, when the brute hits a Medium or smaller creature with a melee attack, it can push that creature 10 feet away from it."
-                    ]
-                },
-                {
-                    "name": "Hardy (CR 8 or Higher)",
-                    "entries": [
-                        "The brute has resistance to bludgeoning, slashing and piercing damage."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack (CR 4 or Higher)",
-                    "entries": [
-                        "The hulk makes two melee attacks."
-                    ]
-                },
-                {
-                    "name": "Heavy Melee Weapon",
-                    "entries": [
-                        "{@atk mw} {@hit 4+PB} to hit, reach 10 ft., one target. {@h}{@damage PBd8 + 4} bludgeoning, piercing or slashing damage."
-                    ]
-                },
-                {
-                    "name": "Sidearm",
-                    "entries": [
-                        "{@atk mw} {@hit 4+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Furious Action (CR 6 or Higher, 3/Day)",
-                    "entries": [
-                        "The brute takes one of the following actions as a bonus action; {@action Attack} (one melee weapon attack only), {@action Grapple} or {@action Shove}."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "X"
-            ],
-            "damageTags": [
-                "B",
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "fluff": {
-                "entries": [
-                    "Hulk are imposing figures on the battlefield, masters of taking, and dealing, damage.",
-                    {
-                        "type": "inset",
-                        "name": "Using Scaling Statblocks",
-                        "entries": [
-                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
-                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
-                        ]
-                    }
-                ]
-            },
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Optional Extras",
-                    "entries": [
-                        "At the DM's discretion, the shieldbearer may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Arcane Weapon}. The hulk's Heavy Melee Weapon attack deals a damage type of the DM's choice.",
-                                "{@b Darkvison}. The hulk has darkvision out to 60 feet.",
-                                "{@b Resistance}. The hulk has resistance to a damage type of the DM's choice.",
-                                "{@b Frenzy}. When an allied creature the hulk can see within 30 feet is damaged by an attack, the hulk can use a reaction to move up to half its speed towards the attacker."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Humanoid Shieldbearer - WIP",
-            "source": "J:Scaling",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "soldier",
-                    "scaling 1-10"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "special": "14 + PB (medium armor, shield)"
-                }
-            ],
-            "hp": {
-                "special": "20 + 15*PB"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 16,
-            "dex": 14,
-            "con": 14,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "str": "+3+PB"
-            },
-            "skill": {
-                "athletics": "+3+PB",
-                "perception": "+1+PB"
-            },
-            "passive": 11,
-            "languages": [
-                "At least one"
-            ],
-            "trait": [
-                {
-                    "name": "Shields Up",
-                    "entries": [
-                        "While wielding a shield and within 5 feet of a friendly creature that is also wielding a shield, both the shieldbearer and the creature gain a +1 bonus to their AC and saving throws. Multiple creatures can benefit from this trait, but each creature can only benefit once at a time, even if another creature within 5 feet has this trait."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack (CR 4 or Higher)",
-                    "entries": [
-                        "The shieldbearer makes two Spear or Sidearm attacks. It can replace one attack with a Shield Bash attack."
-                    ]
-                },
-                {
-                    "name": "Spear",
-                    "entries": [
-                        "{@atk mw,rw} {@hit 3+PB} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}{@damage PBd6 + 3} piercing damage or {@h}{@damage PBd8 + 3} piercing damage if wielded with two hands."
-                    ]
-                },
-                {
-                    "name": "Shield Bash",
-                    "entries": [
-                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning damage, and if the target is a Medium or smaller creature, they must succeed on a {@dc 12+PB} Strength saving throw or be knocked {@condition prone}."
-                    ]
-                },
-                {
-                    "name": "Sidearm",
-                    "entries": [
-                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Goad (3/Day)",
-                    "entries": [
-                        "The shieldbearer chooses a creature it can see within 30 feet that can see or hear the shieldbearer. That creature must make a Wisdom saving throw ({@dc 12+PB}) or become {@condition taunted|J:general} by the shieldbearer until the start of the shieldbearer's next turn."
-                    ]
-                },
-                {
-                    "name": "Quickdraw",
-                    "entries": [
-                        "When the shieldbearer makes a ranged Spear attack, it can make a Sidearm Attack as a bonus action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Spear Guard (CR 2 or Higher)",
-                    "entries": [
-                        "When a creature enters the shieldbearer's reach, it can make a special opportunity attack, using its Spear attack, against that creature."
-                    ]
-                },
-                {
-                    "name": "Protection (CR 6 or Higher, 3/Day)",
-                    "entries": [
-                        "When a creature within 5 feet of the shieldbearer is targetted by an attack, the shieldbearer can impose disadvantage on the attack roll. It must be wielding a shield to use this feature."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "X"
-            ],
-            "damageTags": [
-                "B",
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "MW",
-                "RW",
-                "THW"
-            ],
-            "fluff": {
-                "entries": [
-                    "Shieldbearers are the standard heavy infantry of most armies. Armed with shields and spears, shieldbearers are trained to protect themselves and allies, often forming defensive lines between the enemy and their objective.",
-                    {
-                        "type": "inset",
-                        "name": "Using Scaling Statblocks",
-                        "entries": [
-                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
-                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
-                        ]
-                    }
-                ]
-            },
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Optional Extras",
-                    "entries": [
-                        "At the DM's discretion, the shieldbearer may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Arcane Weapon}. The shieldbearer's Spear attack deals a damage type of the DM's choice.",
-                                "{@b Darkvison}. The shieldbearer has darkvision out to 60 feet.",
-                                "{@b Resistance}. The shieldbearer has resistance to a damage type of the DM's choice."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Humanoid Recruit",
-            "source": "J:Scaling",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "humanoid",
-                "tags": [
-                    "minion",
-                    "scaling 1-10"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "special": "11 + PB (light armor, shield)"
-                }
-            ],
-            "hp": {
-                "special": "7 + CR"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 16,
-            "dex": 13,
-            "con": 14,
-            "int": 10,
-            "wis": 10,
-            "cha": 12,
-            "skill": {
-                "athletics": "+3+PB"
-            },
-            "passive": 10,
-            "languages": [
-                "At least one"
-            ],
-            "trait": [
-                {
-                    "name": "Minion",
-                    "entries": [
-                        "The recruit is a minion as described on page 10 of Flee Mortals! by MCDM Productions. If the recruit takes damage from an attack or as the result of a failed saving throw, their hit points are reduced to 0. If the recruit takes damage from another effect, they die if the damage equals or exceeds their hit point maximum; otherwise they take no damage."
-                    ]
-                },
-                {
-                    "name": "Shields Up (CR 2 or Higher)",
-                    "entries": [
-                        "While wielding a shield and within 5 feet of a friendly creature that is also wielding a shield, both the recruit and the creature gain a +1 bonus to their AC and saving throws. Multiple creatures can benefit from this trait, but each creature can only benefit once at a time, even if another creature within 5 feet has this trait."
-                    ]
-                },
-                {
-                    "name": "Enhanced Attack",
-                    "entries": [
-                        "When the recruit hits a creature with a group attack and at least three recruits joined in the attack, the recruit can impose one of the following effects:",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Overwhelm (CR 4 or Higher).} The target is {@condition hampered|J:General} until the end of its next turn.",
-                                "{@b Penetrate (CR 6 or Higher).} The recruit deals damage to another creature within 5 feet of the target equal to half the attack's damage. The effect can only be used for a melee Spear attack.",
-                                "{@b Eviserate (CR 8 or Higher).} The target begins {@condition bleeding|J:general}."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Spear (Group Attack)",
-                    "entries": [
-                        "{@atk mw,rw} {@hit 3+PB} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}{@damage 1 + PB} piercing damage."
-                    ]
-                },
-                {
-                    "name": "Sidearm (Group Attack)",
-                    "entries": [
-                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1 + PB} slashing damage."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "X"
-            ],
-            "damageTags": [
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "MW",
-                "RW",
-                "THW"
-            ],
-            "fluff": {
-                "entries": [
-                    "Recruits are often the lowest ranked and least experienced troops in any army, however, they do usually have some training and can often be effective in large teams.",
-                    {
-                        "type": "inset",
-                        "name": "Using Scaling Statblocks",
-                        "entries": [
-                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
-                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
-                        ]
-                    }
-                ]
-            },
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Optional Extras",
-                    "entries": [
-                        "At the DM's discretion, the recruit may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
-                        {
-                            "type": "list",
-                            "items": [
-                                "{@b Arcane Weapon}. The recruit's Spear Attack deals a damage type of the DM's choice.",
-                                "{@b Darkvison}. The artillerist has darkvision out to 60 feet."
-                            ]
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -31065,6 +30498,559 @@
             ],
             "damageTags": [
                 "P"
+            ]
+        },
+        {
+            "name": "Humanoid Artillerist",
+            "source": "J:Scaling",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "artillery",
+                    "scaling 1-10"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "special": "13 + PB (light armor)"
+                }
+            ],
+            "hp": {
+                "special": "15 + 10*PB"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 13,
+            "dex": 16,
+            "con": 12,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+3+PB"
+            },
+            "skill": {
+                "acrobatics": "+3+PB",
+                "perception": "+1+PB"
+            },
+            "passive": 11,
+            "languages": [
+                "At least one"
+            ],
+            "trait": [
+                {
+                    "name": "Artillerist's Eye (CR 2 or Higher, 3/Day)",
+                    "entries": [
+                        "Immediately after making an attack or damage roll with a ranged weapon, the artillerist can roll a {@dice d8} and add the number rolled to the total."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (CR 4 or Higher)",
+                    "entries": [
+                        "The artillerist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atk rw} {@hit 3+PB} to hit, range 60/180 ft., one target. {@h}{@damage PBd6 + 3} piercing damage."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Volley (CR 8 or Higher, 1/Day)",
+                    "entries": [
+                        "The artillerist rains down a hail of ammunition or weapons in a 20-foot sphere centred on a point it can see within 60 feet. Each creature within the area must make a {@dc 12+PB} Dexterity saving throw or take {@damage PBd10} piercing damage. A creature takes half as much on a success."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Overwatch (CR 6 or Higher, 3/Day)",
+                    "entries": [
+                        "The artillerist  can ready a ranged weapon attack as a bonus action."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "fluff": {
+                "entries": [
+                    "From slingers to archers to javelin throwers, artillerists are the standard ranged warriors of most armies. While their skills and equipment can vary greatly, they specialise in dealing damage from a distance, supporting allied infantry while in turn being protected from enemy infantry.",
+                    {
+                        "name": "Artillerists across the Multiverse",
+                        "entries": [
+                            "In Cyranos, the term Toxotai is often used to describe artillerists. Despite the term normally relating specifically to archers, the term can be loosely used for any light artillery.",
+                            "Similarly, in the Northlands, the term Bogmadr is used as a blanket term for multiple forms of artillery, despite literraly refering to archers. Bogmadr can most often be found on ships and protecting forts."
+                        ]
+                    },
+                    {
+                        "type": "inset",
+                        "name": "Using Scaling Statblocks",
+                        "entries": [
+                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
+                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
+                        ]
+                    }
+                ]
+            },
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Optional Extras",
+                    "entries": [
+                        "At the DM's discretion, the artillerist may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Weapon}. The artillerist's Ranged or Thrown Weapon attack and Volley deals a damage type of the DM's choice.",
+                                "{@b Darkvison}. The artillerist has darkvision out to 60 feet.",
+                                "{@b Resistance}. The artillerist has resistance to a damage type of the DM's choice.",
+                                "{@b Yanking Shot (CR 2 or Higher, 3/Day)}. When the artillerist hits a creature with a ranged attack, the weapon or ammunition magically returns to the toxotai's hand or quiver. The creature hit by the attack is pulled towards the toxotai up to a number of feet equal to 5xPB.",
+                                "{@b Piercing Shot (CR 4 or Higher, 3/day)}. When the artillerist hits with ranged weapon attack, they can deal {@dice 1d8} piercing damage to a second target within 5 feet of the first target.",
+                                "{@b Pinning Shot (CR 6 or Higher, 3/day)}. When the artillerist hits a creature with ranged weapon attack, it can force that creature to make a Dexterity saving throw (DC equals 12+PB). On a failure, the creature is {@condition slowed|J:general} until the start of the artillerist's next turn. On a success, the creature is instead {@condition hampered|J:general} for the same duration."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Humanoid Hulk - WIP",
+            "source": "J:Scaling",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "brute",
+                    "scaling 1-10"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "special": "12 + PB (light or natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "20 + 15*PB"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 16,
+            "int": 8,
+            "wis": 11,
+            "cha": 12,
+            "save": {
+                "con": "+3+PB"
+            },
+            "skill": {
+                "athletics": "+4+PB",
+                "intimidation": "+1+PB"
+            },
+            "passive": 10,
+            "languages": [
+                "At least one"
+            ],
+            "trait": [
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the hulk can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Forceful Strikes (CR 2 or Higher)",
+                    "entries": [
+                        "Once per turn, when the brute hits a Medium or smaller creature with a melee attack, it can push that creature 10 feet away from it."
+                    ]
+                },
+                {
+                    "name": "Hardy (CR 8 or Higher)",
+                    "entries": [
+                        "The brute has resistance to bludgeoning, slashing and piercing damage."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (CR 4 or Higher)",
+                    "entries": [
+                        "The hulk makes two melee attacks."
+                    ]
+                },
+                {
+                    "name": "Heavy Melee Weapon",
+                    "entries": [
+                        "{@atk mw} {@hit 4+PB} to hit, reach 10 ft., one target. {@h}{@damage PBd8 + 4} bludgeoning, piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atk mw} {@hit 4+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action (CR 6 or Higher, 3/Day)",
+                    "entries": [
+                        "The brute takes one of the following actions as a bonus action; {@action Attack} (one melee weapon attack only), {@action Grapple} or {@action Shove}."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW"
+            ],
+            "fluff": {
+                "entries": [
+                    "Hulk are imposing figures on the battlefield, masters of taking, and dealing, damage.",
+                    {
+                        "type": "inset",
+                        "name": "Using Scaling Statblocks",
+                        "entries": [
+                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
+                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
+                        ]
+                    }
+                ]
+            },
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Optional Extras",
+                    "entries": [
+                        "At the DM's discretion, the shieldbearer may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Weapon}. The hulk's Heavy Melee Weapon attack deals a damage type of the DM's choice.",
+                                "{@b Darkvison}. The hulk has darkvision out to 60 feet.",
+                                "{@b Resistance}. The hulk has resistance to a damage type of the DM's choice.",
+                                "{@b Frenzy}. When an allied creature the hulk can see within 30 feet is damaged by an attack, the hulk can use a reaction to move up to half its speed towards the attacker."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Humanoid Shieldbearer - WIP",
+            "source": "J:Scaling",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "soldier",
+                    "scaling 1-10"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "special": "14 + PB (medium armor, shield)"
+                }
+            ],
+            "hp": {
+                "special": "20 + 15*PB"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+3+PB"
+            },
+            "skill": {
+                "athletics": "+3+PB",
+                "perception": "+1+PB"
+            },
+            "passive": 11,
+            "languages": [
+                "At least one"
+            ],
+            "trait": [
+                {
+                    "name": "Shields Up",
+                    "entries": [
+                        "While wielding a shield and within 5 feet of a friendly creature that is also wielding a shield, both the shieldbearer and the creature gain a +1 bonus to their AC and saving throws. Multiple creatures can benefit from this trait, but each creature can only benefit once at a time, even if another creature within 5 feet has this trait."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack (CR 4 or Higher)",
+                    "entries": [
+                        "The shieldbearer makes two Spear or Sidearm attacks. It can replace one attack with a Shield Bash attack."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 3+PB} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}{@damage PBd6 + 3} piercing damage or {@h}{@damage PBd8 + 3} piercing damage if wielded with two hands."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning damage, and if the target is a Medium or smaller creature, they must succeed on a {@dc 12+PB} Strength saving throw or be knocked {@condition prone}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} bludgeoning, piercing or slashing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Goad (3/Day)",
+                    "entries": [
+                        "The shieldbearer chooses a creature it can see within 30 feet that can see or hear the shieldbearer. That creature must make a Wisdom saving throw ({@dc 12+PB}) or become {@condition taunted|J:general} by the shieldbearer until the start of the shieldbearer's next turn."
+                    ]
+                },
+                {
+                    "name": "Quickdraw",
+                    "entries": [
+                        "When the shieldbearer makes a ranged Spear attack, it can make a Sidearm Attack as a bonus action."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Spear Guard (CR 2 or Higher)",
+                    "entries": [
+                        "When a creature enters the shieldbearer's reach, it can make a special opportunity attack, using its Spear attack, against that creature."
+                    ]
+                },
+                {
+                    "name": "Protection (CR 6 or Higher, 3/Day)",
+                    "entries": [
+                        "When a creature within 5 feet of the shieldbearer is targetted by an attack, the shieldbearer can impose disadvantage on the attack roll. It must be wielding a shield to use this feature."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "B",
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "fluff": {
+                "entries": [
+                    "Shieldbearers are the standard heavy infantry of most armies. Armed with shields and spears, shieldbearers are trained to protect themselves and allies, often forming defensive lines between the enemy and their objective.",
+                    {
+                        "type": "inset",
+                        "name": "Using Scaling Statblocks",
+                        "entries": [
+                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
+                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
+                        ]
+                    }
+                ]
+            },
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Optional Extras",
+                    "entries": [
+                        "At the DM's discretion, the shieldbearer may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Weapon}. The shieldbearer's Spear attack deals a damage type of the DM's choice.",
+                                "{@b Darkvison}. The shieldbearer has darkvision out to 60 feet.",
+                                "{@b Resistance}. The shieldbearer has resistance to a damage type of the DM's choice."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Humanoid Recruit",
+            "source": "J:Scaling",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "minion",
+                    "scaling 1-10"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "special": "11 + PB (light armor, shield)"
+                }
+            ],
+            "hp": {
+                "special": "7 + CR"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 13,
+            "con": 14,
+            "int": 10,
+            "wis": 10,
+            "cha": 12,
+            "skill": {
+                "athletics": "+3+PB"
+            },
+            "passive": 10,
+            "languages": [
+                "At least one"
+            ],
+            "trait": [
+                {
+                    "name": "Minion",
+                    "entries": [
+                        "The recruit is a minion as described on page 10 of Flee Mortals! by MCDM Productions. If the recruit takes damage from an attack or as the result of a failed saving throw, their hit points are reduced to 0. If the recruit takes damage from another effect, they die if the damage equals or exceeds their hit point maximum; otherwise they take no damage."
+                    ]
+                },
+                {
+                    "name": "Shields Up (CR 2 or Higher)",
+                    "entries": [
+                        "While wielding a shield and within 5 feet of a friendly creature that is also wielding a shield, both the recruit and the creature gain a +1 bonus to their AC and saving throws. Multiple creatures can benefit from this trait, but each creature can only benefit once at a time, even if another creature within 5 feet has this trait."
+                    ]
+                },
+                {
+                    "name": "Enhanced Attack",
+                    "entries": [
+                        "When the recruit hits a creature with a group attack and at least three recruits joined in the attack, the recruit can impose one of the following effects:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Overwhelm (CR 4 or Higher).} The target is {@condition hampered|J:General} until the end of its next turn.",
+                                "{@b Penetrate (CR 6 or Higher).} The recruit deals damage to another creature within 5 feet of the target equal to half the attack's damage. The effect can only be used for a melee Spear attack.",
+                                "{@b Eviserate (CR 8 or Higher).} The target begins {@condition bleeding|J:general}."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Spear (Group Attack)",
+                    "entries": [
+                        "{@atk mw,rw} {@hit 3+PB} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}{@damage 1 + PB} piercing damage."
+                    ]
+                },
+                {
+                    "name": "Sidearm (Group Attack)",
+                    "entries": [
+                        "{@atk mw} {@hit 3+PB} to hit, reach 5 ft., one target. {@h}{@damage 1 + PB} slashing damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "X"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW",
+                "THW"
+            ],
+            "fluff": {
+                "entries": [
+                    "Recruits are often the lowest ranked and least experienced troops in any army, however, they do usually have some training and can often be effective in large teams.",
+                    {
+                        "type": "inset",
+                        "name": "Using Scaling Statblocks",
+                        "entries": [
+                            "This statblock is intended to be a generic creature that can be quickly inserted into a variety of situations and at a variety of power levels. The hope is that statblocks like this one can provide simple and quick ways to bolster combat encounters or create simple encounters on the fly. They are not, however, intended to provide the drama and complexity of major climatic battles. As such, it is recomended that you use these statblocks alongside more specialised ones, rather than purely scaling ones, particulary for the more dramatic encounters.",
+                            "These statblocks can be used at any CR within the range described in the tag. For example, a creature with the \"Scaling 1-10\" tag can be used at any CR between 1 and 10. It is possible to use it at other CRs but not recomended."
+                        ]
+                    }
+                ]
+            },
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Optional Extras",
+                    "entries": [
+                        "At the DM's discretion, the recruit may gain additional traits to add more flavor and diversity to the characters faced by the party. The following are appropriate examples of such traits. The DM may also wish to add racial traits, such as a dragonborn's breath weapon.",
+                        {
+                            "type": "list",
+                            "items": [
+                                "{@b Arcane Weapon}. The recruit's Spear Attack deals a damage type of the DM's choice.",
+                                "{@b Darkvison}. The artillerist has darkvision out to 60 feet."
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     ],
