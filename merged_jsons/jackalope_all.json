@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2024.12.01.11.08",
+                "version": "2025.01.23.02.33",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -661,7 +661,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1737598500.4467857
+        "dateLastModified": 1737599685.7310266
     },
     "class": [
         {
@@ -8361,6 +8361,61 @@
             "entries": [
                 "This stone statue resembles a knight resting their hands on the pommel of their sword. When you speak the command word within 60 feet, the blade glows as if targeted with the {@spell light|xphb} spell, until a creature repeats the command word again. Multiple of this item can be activated or deactivated with the same command word.",
                 "This item comes in multiple sizes, ranging from a Tiny 6-inch tall variant up to a Huge 18-foot tall version. The DM decides what size you find."
+            ]
+        },
+        {
+            "name": "Bag of Chattercrop Seeds",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "This cloth bag of seeds has {@dice 1d4+2} seeds in it when found. As an action, you can plant a seed in dirt or sand. At the end of the current turn, a sentient fruit or vegetable appears in the space you planted the seed. The DM decides the type of crop that appears, such as a cabbage or marrow. It uses the {@creature awakened shrub} statblock, except it has a Charisma score of 16. You also determine the personality and additional trait of the crop by rolling a {@dice d4} on the table below. If the additional trait involves a spell, Charisma is the crop's spellcasting ability.",
+                "The crop is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the crop moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the crop acts defends itself and follows you, but takes no other actions. The crop vanishes at the next dawn or when it is reduced to 0 hit points.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Personality",
+                        "Effects"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Calmer",
+                            "The crop speaks in a slow, soothing voice. As an action, it can touch a willing creature and grant it {@dice 2d4+2} temporary hit points. In addition, the crop knows the {@spell calm emotions|XPHB} spell and can cast it once."
+                        ],
+                        [
+                            "2",
+                            "Challenger",
+                            "The crop keeps screaming taunts and challenges at others, challenging them to duels. It knows the {@spell compelled duel|XPHB} spell and can cast it twice."
+                        ],
+                        [
+                            "3",
+                            "Chronicler",
+                            "The crop constantly narrates the actions of its allies with grandeur. It knows the {@spell thaumaturgy|XPHB} cantrip. It can touch a willing creature and cast this cantrip as if that creature had cast it themselves."
+                        ],
+                        [
+                            "4",
+                            "Comical",
+                            "The crop speaks in a jovial tone and frequently makes jokes and puns. It knows the {@spell tasha's hideous laughter|XPHB} spell and can cast it twice."
+                        ],
+                        [
+                            "5",
+                            "Curser",
+                            "The crop speaks only in swears and insults. It knows the {@spell vicious mockery|XPHB} cantrip."
+                        ],
+                        [
+                            "6",
+                            "Cynical",
+                            "The crop speaks in a pessimistic and brooding tone. It knows the {@spell sapping sting|EGW} cantrip and fills targets with a dour mood when casting it."
+                        ]
+                    ]
+                }
             ]
         },
         {
