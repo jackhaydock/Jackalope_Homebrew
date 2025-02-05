@@ -230,6 +230,36 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Scribeglyph Tattoo",
+			"wondrous": true,
+			"tattoo": true,
+			"rarity": "ucommon",
+			"source": "J:Tattoos",
+			"reqAttune": true,
+			"entries": [
+				"Produced by a special needle, this tattoo features an array of letters or the image of a quill that can be moved with your finger.",
+				{
+					"name": "Tattoo Attunement",
+					"entries": [				
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Dermal Messaging",
+					"entries": [
+						"You can cast the {@spell message|XPHB} cantrip with this tattoo. When you do so, you use the tattoo to spell out your message and can do so silently."
+					]
+				},
+				{
+					"name": "Telegraft",
+					"entries": [
+						"Over the course of a minute, you can touch another scribeglyph tattoo and bind the pair together. You can sever one of these bonds with an action. You can use this tattoo to cast the {@spell sending|XPHB} spell, targeting any number of creatures attuned to other tattoos bound to this one. You know who is attuned to each tattoo and can choose who does and doesn't receive the message, they all receive the same message and can respond to you individually. When you cast the spell in this way, you cannot do again until the next dawn."
+					]
+				}
+			]
 		}
     ]
 }

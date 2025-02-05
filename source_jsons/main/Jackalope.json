@@ -2177,6 +2177,25 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Woodwind Woodspeaker",
+			"source": "J:General",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"type": "INS|XPHB",
+			"curse": true,
+			"entries": [
+				"This wooden flute can be used to cast {@spell speak with plants} at will.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed. When you cast the spell, the plants you speak to are aware the flute is made of wood and may react poorly, showing disgust, fear or even hatred towards you, though others may be indifferent at the DM's discretion.",
+						"If the plants are unfriendly to you, make a DC 10 Charisma (Nature) check. On a fail, the plants become agressively hostile to you, not only refusing to help you but hindering you in ways allowed by the spell for its duration, such as lying to you , placing difficult terrain in your path or clearing in front of your enemies. Additionally, any plant creatures within 300 feet become hostile to you and know your aproximate location for the duration as well. Each time a creature uses this item to cast the spell after the first, the DC increases by 5. The DC resets to 10 daily at dawn."
+					]
+				}
+			]
 		}							
 	],
 	"monster": [

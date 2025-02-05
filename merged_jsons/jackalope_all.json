@@ -43,7 +43,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.01.23.02.14",
+                "version": "2025.02.05.06.18",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.01.23.02.33",
+                "version": "2025.02.05.06.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -510,21 +510,6 @@
                 "targetSchema": "1.0.0"
             },
             {
-                "json": "J:Bounty",
-                "abbreviation": "J:Bounty",
-                "color": "5e5f72",
-                "full": "Jackalope: Bounty Ranger",
-                "authors": [
-                    "Jackalope"
-                ],
-                "convertedBy": [
-                    "Jackalope"
-                ],
-                "version": "2024.10.19.16.40",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
-            {
                 "json": "J:Humanoids",
                 "abbreviation": "J:Humanoids",
                 "color": "f5b342",
@@ -536,6 +521,36 @@
                     "Jackalope"
                 ],
                 "version": "2025.01.18.18.01",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Frost",
+                "abbreviation": "J:Frost",
+                "color": "5cf2f5",
+                "full": "Jackalope: Frostglider",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2025.02.05.05.58",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Bounty",
+                "abbreviation": "J:Bounty",
+                "color": "5e5f72",
+                "full": "Jackalope: Bounty Ranger",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2024.10.19.16.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -661,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1737599685.7310266
+        "dateLastModified": 1738736634.143903
     },
     "class": [
         {
@@ -4633,6 +4648,36 @@
             ]
         },
         {
+            "name": "Scribeglyph Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "ucommon",
+            "source": "J:Tattoos",
+            "reqAttune": true,
+            "entries": [
+                "Produced by a special needle, this tattoo features an array of letters or the image of a quill that can be moved with your finger.",
+                {
+                    "name": "Tattoo Attunement",
+                    "entries": [
+                        "To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
+                        "If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+                    ]
+                },
+                {
+                    "name": "Dermal Messaging",
+                    "entries": [
+                        "You can cast the {@spell message|XPHB} cantrip with this tattoo. When you do so, you use the tattoo to spell out your message and can do so silently."
+                    ]
+                },
+                {
+                    "name": "Telegraft",
+                    "entries": [
+                        "Over the course of a minute, you can touch another scribeglyph tattoo and bind the pair together. You can sever one of these bonds with an action. You can use this tattoo to cast the {@spell sending|XPHB} spell, targeting any number of creatures attuned to other tattoos bound to this one. You know who is attuned to each tattoo and can choose who does and doesn't receive the message, they all receive the same message and can respond to you individually. When you cast the spell in this way, you cannot do again until the next dawn."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Firearm Bullet",
             "source": "J:Firearms",
             "age": "renaissance",
@@ -8414,6 +8459,25 @@
                             "Cynical",
                             "The crop speaks in a pessimistic and brooding tone. It knows the {@spell sapping sting|EGW} cantrip and fills targets with a dour mood when casting it."
                         ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Woodwind Woodspeaker",
+            "source": "J:General",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "type": "INS|XPHB",
+            "curse": true,
+            "entries": [
+                "This wooden flute can be used to cast {@spell speak with plants} at will.",
+                {
+                    "type": "entries",
+                    "name": "Curse",
+                    "entries": [
+                        "This item is cursed. When you cast the spell, the plants you speak to are aware the flute is made of wood and may react poorly, showing disgust, fear or even hatred towards you, though others may be indifferent at the DM's discretion.",
+                        "If the plants are unfriendly to you, make a DC 10 Charisma (Nature) check. On a fail, the plants become agressively hostile to you, not only refusing to help you but hindering you in ways allowed by the spell for its duration, such as lying to you , placing difficult terrain in your path or clearing in front of your enemies. Additionally, any plant creatures within 300 feet become hostile to you and know your aproximate location for the duration as well. Each time a creature uses this item to cast the spell after the first, the DC increases by 5. The DC resets to 10 daily at dawn."
                     ]
                 }
             ]
@@ -13470,6 +13534,49 @@
             ]
         },
         {
+            "name": "Frostglider",
+            "shortName": "Frostglider",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassFeatures": [
+                "Frostglider|Ranger|XPHB|Frostglider|J:Frost|3",
+                "Frostglider Magic|Ranger|XPHB|Frostglider|J:Frost|3",
+                "Arctic Acclimation|Ranger|XPHB|Frostglider|J:Frost|3",
+                "Mushing Sled|Ranger|XPHB|Frostglider|J:Frost|3",
+                "All-Terrain Mushing|Ranger|XPHB|Frostglider|J:Frost|7",
+                "Snow Prowler|Ranger|XPHB|Frostglider|J:Frost|7",
+                "Frostbiter|Ranger|XPHB|Frostglider|J:Frost|11",
+                "Freeze Assault|Ranger|XPHB|Frostglider|J:Frost|15"
+            ],
+            "subclassSpells": [
+                {
+                    "name": "leomund's tiny hut",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "fog cloud",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "rime's binding ice",
+                    "source": "FTD"
+                },
+                {
+                    "name": "conjure animals",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "freedom of movement",
+                    "source": "XPHB"
+                },
+                {
+                    "name": "control winds",
+                    "source": "XGE"
+                }
+            ]
+        },
+        {
             "name": "Bounty",
             "shortName": "Bounty",
             "source": "J:Bounty",
@@ -17735,6 +17842,158 @@
                 },
                 "The creature can make a Charisma saving throw against your spell save DC at the end of each of its turns to remove the effects early. This saving throw cannot benefit from Legendary Resistance.",
                 "Once you use this feature, you cannot do so again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "Frostglider",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 3,
+            "entries": [
+                "The frozen wilderness is harsh territory that challenges even the strongest explorers. But this challenge fosters strength and skill, especially when you learn to weaponise it. You use the climate and beasts of winter to your advantage, riding sleds across the land and stalking targets from the fog. While your talents are effective in any terrain, they make you a brutal force of nature in the lands of ice and snow."
+            ]
+        },
+        {
+            "name": "Frostglider Magic",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "At 3rd level, you can cast the {@spell leomund's tiny hut} spell as a ritual. When you cast the spell, the hut takes the outside appearance of an igloo or a domed stick hut (your choice) but remains transparent from the inside.",
+                "You also learn an additional spell when you reach certain levels in this class, as shown in the Frostglider Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+                {
+                    "type": "table",
+                    "caption": "Frostglider Spells",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spell"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell fog cloud|XPHB}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell rime's binding ice|FTD}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell conjure animals|XPHB}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell freedom of movement|XPHB}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell control winds|XGE}"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arctic Acclimation",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, you have adapted to life in the coldest parts of the wilderness, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "style": "list",
+                    "items": [
+                        "You have resistance to cold damage.",
+                        "You automatically pass saving throws against falling prone on slippery ice.",
+                        "Being in an area that is lightly obscured by heavy precipitation, such as rain, snowfall or fog, does not impose disadvantage on Wisdom (Perception) checks you make.",
+                        "You can spend 1 hour and 10 gp worth of furs, pelts or blubber to produce a set of warm clothes that allow the wearer to automatically succeed on saving throws against extreme cold."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mushing Sled",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 3,
+            "header": 2,
+            "entries": [
+                "Starting at 3rd level, over the course of one minute, you can summon a sled pulled by squad of mushing beasts. The sled weighs 50 lbs, can be up to 15 feet long, up to 10 feet wide, and may feature foot boards, seats and cargo beds. While typically designed for travel over ice or snow, it can traverse any solid terrain that the beasts can pull it across.",
+                "The beasts have a number and appearance of your choice, but collectively use the {@creature mushing beasts|J:Frost} statblock. They share your initiative and will obey any verbal commands that you issue to them (no action required by you), but they will refuse to be more than 20 feet from the sled. If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The beasts and the sled disappear at the end of your next short or long rest, or if the beasts are reduced to 0 hit points.",
+                "Once you use this feature, you cannot do so again until you finish a short or long rest, unless you expend a spell slot of 1st-Level or higher to resummon it."
+            ]
+        },
+        {
+            "name": "All-Terrain Mushing",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Starting at 7th level, your mushing beasts gain a climbing and swimming speed equal to their walking speed. In addition, they can ignore nonmagical difficult terrain. The sled is capable of floating on water or being dragged up and over rough terrain without impeding the beasts movement."
+            ]
+        },
+        {
+            "name": "Snow Prowler",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 7,
+            "header": 2,
+            "entries": [
+                "Starting at 7th level, you can find your prey in even the thickest storms, seeing them before they see you. You and your mushing beasts have blindsight out to 10 feet.",
+                "Additionally, when a creature you can see has disadvantage on Wisdom (Perception) checks due to heavy precipitation, such as rain, snowfall or fog, you and your mushing beasts have advantage on attack rolls against that creature."
+            ]
+        },
+        {
+            "name": "Frostbiter",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 11,
+            "header": 2,
+            "entries": [
+                "Starting at 11th level, you are fuelled by the fatal power of winter. When you deal damage to a creature with a ranger spell, or your mushing beasts deal damage to a creature, you can change the damage type to cold. This damage ignores resistance to cold damage.",
+                "Additionally, cold damage cannot break your concentration on ranger spells."
+            ]
+        },
+        {
+            "name": "Freeze Assault",
+            "source": "J:Frost",
+            "className": "Ranger",
+            "classSource": "XPHB",
+            "subclassShortName": "Frostglider",
+            "subclassSource": "J:Frost",
+            "level": 15,
+            "header": 2,
+            "entries": [
+                "Starting at 15th level, when you take damage, you can use a reaction to change the damage type to cold damage. If the damage was part of an attack, the attacker has disadvantage on further attack rolls against you until the end of the current turn."
             ]
         },
         {
@@ -28420,6 +28679,94 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ]
+        },
+        {
+            "name": "Mushing Beasts",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "beast",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm"
+                ]
+            },
+            "source": "J:Frost",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "11 plus PB (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 plus 10 x PB"
+            },
+            "speed": {
+                "walk": "20 plus 5 x PB"
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 16,
+            "int": 4,
+            "wis": 14,
+            "cha": 5,
+            "skill": {
+                "athletics": "+4 plus PB",
+                "survival": "+2 plus PB"
+            },
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained",
+                "stunned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": "12 plus PB",
+            "pbNote": "equals your bonus",
+            "damageTags": [
+                "P"
+            ],
+            "trait": [
+                {
+                    "name": "Beasts of Burden",
+                    "entries": [
+                        "When dragging the sled, the beasts can pull 200xPB lbs., including the sled itself."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small beast."
+                    ]
+                },
+                {
+                    "name": "Through Wind and Rain",
+                    "entries": [
+                        "Being in an area that is lightly obscured by heavy precipitation, such as rain, snowfall or fog, does not impose disadvantage on Wisdom (Perception) checks the beasts make.",
+                        "In addition, when you cast {@spell Hunter's Mark|XPHB} on a creature, the beasts also benefit from the spell."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit +4+PB|+4 plus PB} to hit, reach 5 ft., one target, {@h} {@damage 1d8+4+PB|1d8+4 plus PB} piercing damage."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
             ]
         },
         {
