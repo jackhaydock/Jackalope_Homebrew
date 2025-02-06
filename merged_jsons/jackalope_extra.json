@@ -37,7 +37,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2024.12.01.10.40",
+                "version": "2025.02.06.15.18",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -93,7 +93,7 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateLastModified": 1738736631.9257112
+        "dateLastModified": 1738855122.8169086
     },
     "item": [
         {
@@ -5019,6 +5019,272 @@
                                     "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon an {@creature Undead Rex|J:Lore} rather than one of the listed statblocks. You cannot use spell slots to summon the rex or extend its duration.",
                                     "The rex obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the rex at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the rex and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the rex. It spends its remaining turns pursuing and attacking any nearby creatures.",
                                     "Once you use this feature, you cannot do so again until you finish a short or long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Strategist",
+            "shortName": "Strategist",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "analyse weakness|J:Lore",
+                            "bless|XPHB"
+                        ],
+                        "5": [
+                            "pyrotechnics|XGE",
+                            "stagger/sunder|J:Lore"
+                        ],
+                        "9": [
+                            "beacon of hope|XPHB",
+                            "intellect fortress|TCE"
+                        ],
+                        "13": [
+                            "hallucinatory terrain|XPHB",
+                            "ray of impotence|J:general"
+                        ],
+                        "17": [
+                            "conjure volley|XPHB",
+                            "rary's telepathic bond|XPHB"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                [
+                    {
+                        "name": "Strategist",
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Strategist",
+                        "subclassSource": "J:Lore",
+                        "level": 3,
+                        "header": 1,
+                        "entries": [
+                            "WIP",
+                            {
+                                "name": "Strategist Spells",
+                                "entries": [
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Palaeontologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Strategist Spells",
+                                        "colLabels": [
+                                            "Lorehunter Level",
+                                            "Spell"
+                                        ],
+                                        "colStyles": [
+                                            "col-2 text-center",
+                                            "col-10"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "3rd",
+                                                "{@spell analyse weakness|J:Lore}, {@spell bless|XPHB}"
+                                            ],
+                                            [
+                                                "5th",
+                                                "{@spell pyrotechnics|XGE}, {@spell stagger/sunder|J:Lore}"
+                                            ],
+                                            [
+                                                "9th",
+                                                "{@spell beacon of hope|XPHB}, {@spell intellect fortress|TCE}"
+                                            ],
+                                            [
+                                                "13th",
+                                                "{@spell hallucinatory terrain|XPHB}, {@spell ray of impotence|J:general}"
+                                            ],
+                                            [
+                                                "17th",
+                                                "{@spell conjure volley|XPHB}, {@spell rary's telepathic bond|XPHB}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Warrior of the Mind",
+                                "entries": [
+                                    "Starting at 3rd level, you can use Intelligence in place of Strength or Dexterity for weapon attack rolls and for ability checks using the athletics or acrobactics skill.",
+                                    "Additionally, you gain proficiency in two gaming sets of your choice. You can also use a weapon, gaming set or banner as a spellcasting focus for your lorehunter spells."
+                                ]
+                            },
+                            {
+                                "name": "Tactics",
+                                "entries": [
+                                    "Starting at 3rd level, you have a number of Tactics Points equal to your lorehunter level + your Intelligence modifier. You regain 2 expended Tactic points whenever you finish a short rest, and all expended points whenever you finish a long rest.",
+                                    "You can expend these points on the following techniques:",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            {
+                                                "name": "Assist Assault",
+                                                "entries": [
+                                                    "When a creature has advantage on an attack roll due to your {@action Help|XPHB} action and hits their target, you can use reaction and expend 2 points to have the attack deal an additional {@dice 2d6} damage. If the target is Bloodied, the extra damage increases to {@dice 3d6}."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Instant Move",
+                                                "entries": [
+                                                    "As a bonus action, you can expend up to 3 points and command creatures to move. For each point expended, one willing creature that you can see within 60 feet can use their reaction to move up to 10 feet without provoking oportunity attacks, provided their speed is not 0. You can spend multiple points on the same creature (they move as part of the same reaction) or spread them across multiple creatures."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Prepared for Action",
+                                                "entries": [
+                                                    "When you roll for initiative, you can expend 1 point to grant yourself, or a creature you can see within 30 feet, a bonus to your initiative roll equal to your Intelligence modifier."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Tactical Guidance",
+                                                "entries": [
+                                                    "When you take the {@action Help|XPHB} action, you can expend 1 point to target a creature you can see up to 60 feet away."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Stratagem Arcana",
+                                "entries": [
+                                    "At 3rd level, you know the {@spell Minor Illusion|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "Additionally, you can use the cantrip to create the image of a map or gaming set that you are proficient with. While still an illusion, a map or gaming set created in this way can be used like the real thing by you, or any creatures you allow, for the spell's duration. Individual pieces of the illusion can be moved in the same way you might move cards, tokens or other game pieces."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Strategist",
+                        "subclassSource": "J:Lore",
+                        "level": 7,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Knowledge over Blood",
+                                "entries": [
+                                    "Starting at 7th level, when you have the upper hand in battle you can seize the moment to learn about your foe. When have advantage on an attack roll against a creature, you can choose to forgo advantage (you cannot gain advantage from any other source) for one of the following benefits of your choice:",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            {
+                                                "name": "Take Notes",
+                                                "entries": [
+                                                    "You regain 1 expended Tactics Point. Once you gain this benefit, you cannot do so again for one hour."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Observe Physicality",
+                                                "entries": [
+                                                    "You learn the target's Strength, Dexterity or Constitution score (your choice). You also learn if they are proficient with saving throws of the chosen ability."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Probe Defences",
+                                                "entries": [
+                                                    "You learn the target's Armor Class and if their current hit points are greater or fewer than yours."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Watch Reflexes",
+                                                "entries": [
+                                                    "You learn one trait, feature or spell the target has that requires a reaction. If the target has no reactions, you are aware of this. If the target has multiple reactions, the DM determines which one you learn, though you may suggest the kind of reaction you are looking for based on potential triggers."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Strategist",
+                        "subclassSource": "J:Lore",
+                        "level": 11,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Warfare Is Based On Deception",
+                                "entries": [
+                                    "Starting at 11th level, as an action, you can spend 8 Tactics Points to reveal a secret plan you have retroactively been enacting through contraptions, hidden allies or subtle multitasking. Choose one of the following options or work with your DM to determine something appropriate to the situation:",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            {
+                                                "name": "False Retreat",
+                                                "entries": [
+                                                    "Choose up to six creatures you can see within 30 feet (this can include yourself) that are {@condition frightened} by the same source. Each frightened creature is no longer frightened and can use a reaction to move up to 15 feet towards the source. If the source was a creature, it must make a Wisdom saving throw against your lorehunter spell save DC or become frightend by the chosen creatures until the end of your next turn."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Just an Act",
+                                                "entries": [
+                                                    "You teleport yourself to an unoccupied space within 10 feet of a creature you can see within 60 feet, revealing yourself from a disguise or hiding spot. You can then make one weapon attack against that creature with advantage. On a hit, the attack deals an additional {@dice 6d6} damage and imposes either the {@condition bleeding|J:general} or {@condition prone|xphb} condition (your choice). The space you previously occupied is revealed to have been occupied by an illusion or hired actor, which then harmlessly disperses or flees."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Manifest Machinations",
+                                                "entries": [
+                                                    "You cast a {@filter lorehunter spell of 3rd-level or lower|spells|source=|level=0;1;2;3|class=lorehunter (j:lore)|cast time=action;bonus;minute} without expending a spell slot or material components. The spell can have a casting time of up to 1 minute and needn't be one you have prepared. If the spell requires concentration, you have advantage on saving throws to maintain concentration on it for its duration."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Playing Dead",
+                                                "entries": [
+                                                    "An {@condition unconscious|xphb} creature with 0 hit points that you can see within 30 feet regains hit points equal to your lorehunter level + your Intelligence modifier. The creature can immediately use a reaction to move up to its movement and take the {@action Dodge} or {@action Disengage} action."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Switcheroo",
+                                                "entries": [
+                                                    "A creature you can see within 30 feet must make a Wisdom saving throw against your lorehunter spell save DC or find that an item of your choice that they are holding or carrying has been switched for a fake. You are now holding the real item and the fake crumbles into dust. On a success, the item drops at the creature's feet instead. Picking it up requires an action."
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "Once you use this feature, you cannot do again until you finish a short or long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Strategist",
+                        "subclassSource": "J:Lore",
+                        "level": 15,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Opportunities Multiplied",
+                                "entries": [
+                                    "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional action immediately, provided neither of you are incapacitated. The effect ends early once you grant four actions in this way.",
+                                    "Once you use this feature you cannot do so again until you finish a long rest."
                                 ]
                             }
                         ]
