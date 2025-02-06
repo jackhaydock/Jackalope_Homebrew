@@ -1306,7 +1306,7 @@
                             {
                                 "name": "Strategist Spells",
                                 "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Palaeontologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Climatologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
                                     {
                                         "type": "table",
                                         "caption": "Strategist Spells",
@@ -1518,6 +1518,237 @@
                                 "entries": [
                                     "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional action immediately, provided neither of you are incapacitated. The effect ends early once you grant four actions in this way.",
                                     "Once you use this feature you cannot do so again until you finish a long rest."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Climatologist",
+            "shortName": "Climatologist",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "create or destroy water|XPHB",
+                            "caustic smite|J:General"  
+                        ],
+                        "5": [
+                            "gust of wind|XPHB",
+                            "warding wind|XGE"
+                        ],
+                        "9": [
+                            "call lightning|XPHB",
+                            "wind wall|XPHB"
+                        ],
+                        "13": [
+                            "freedom of movement|XPHB",
+                            "summon elemental|XPHB"
+                        ],
+                        "17": [
+                            "control winds|XGE",
+                            "commune with nature|XPHB"
+                        ]
+                    }
+                }
+            ],
+            "subclassFeatures": [
+                [
+                    {
+                        "name": "Climatologist",
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Climatologist",
+                        "subclassSource": "J:Lore",
+                        "level": 3,
+                        "header": 1,
+                        "entries": [
+                            "WIP",
+                            {
+                                "name": "Climatologist Spells",
+                                "entries": [
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Climatologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    {
+                                        "type": "table",
+                                        "caption": "Climatologist Spells",
+                                        "colLabels": [
+                                            "Lorehunter Level",
+                                            "Spell"
+                                        ],
+                                        "colStyles": [
+                                            "col-2 text-center",
+                                            "col-10"
+                                        ],
+                                        "rows": [
+                                            [
+                                                "3rd",
+                                                "{@spell create or destroy water|XPHB}, {@spell caustic smite|J:General}"
+                                            ],
+                                            [
+                                                "5th",
+                                                "{@spell gust of wind|XPHB}, {@spell warding wind|XGE}"
+                                            ],
+                                            [
+                                                "9th",
+                                                "{@spell call lightning|XPHB}, {@spell wind wall|XPHB}"
+                                            ],
+                                            [
+                                                "13th",
+                                                "{@spell freedom of movement|XPHB}, {@spell summon elemental|XPHB}"
+                                            ],
+                                            [
+                                                "17th",
+                                                "{@spell control winds|XGE}, {@spell commune with nature|XPHB}"
+                                            ]
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Naturalist",
+                                "entries": [
+                                    "At 3rd level, you gain proficiency in the nature and survival skills if you don't already have them."
+                                ]
+                            },
+                            {
+                                "name": "Microclimate",
+                                "entries": [
+                                    "Starting at 3rd level, you can use a bonus action to subtly alter the environment in a 15-foot-radius sphere, centered on a point you can see within 60 feet. Choose one of the effects listed below, the area is filled with the chosen effect for 1 minute, or until you are {@condition incapacitated|xphb}. As a bonus action on subsequent turns for the duration, you can move the area up to 30 feet or change the effect but not both. If the effect allows a creature to make a saving throw, the saving throw uses your lorehunter spell save DC.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses on a long rest. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            {
+                                                "name": "Arid Air",
+                                                "entries": [
+                                                    "Creatures that start their turn in the area are {@condition hampered|J:general} and {@condition distracted|J:general} until the start of their next turn as their throats and skin become uncomfortably dry. Creatures submerged underwater are unaffected."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Damp Air",
+                                                "entries": [
+                                                    "Creatures in the area have disadvantage on Constitution saving throws against cold damage, poison damage, the {@condition poisoned|XPHB} condition or disease."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Scorching Heat",
+                                                "entries": [
+                                                    "When a creature in the area takes fire damage, it takes an additional {@dice 1d6} fire damage. When a creature in the area takes cold damage, the cold damage is reduced by {@dice 1d6} (to a minimum of 0)."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Freezing Cold",
+                                                "entries": [
+                                                    "When a creature in the area takes cold damage, it takes an additional {@dice 1d6} cold damage. When a creature in the area takes fire damage, the fire damage is reduced by {@dice 1d6} (to a minimum of 0)."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Obscuring Mist",
+                                                "entries": [
+                                                    "The area is lightly obscured by a natural looking mist. A creature can make an Intelligence (Investigation) or Wisdom (Nature) check agaisnt your lorehunter spell save DC to determine that the mist is unnatural."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Environmental Arcana",
+                                "entries": [
+                                    "At 3rd level, you know the {@spell elementalism|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a reaction to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                ]
+                            }
+                        ]
+
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Climatologist",
+                        "subclassSource": "J:Lore",
+                        "level": 7,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Squall Strike",
+                                "entries": [
+                                    "Starting at 7th level, when you hit a creature inside the area of your Microclimate with a weapon attack, you can push them up to 10 feet in a direction of your choice."
+                                ]
+                            },
+                            {
+                                "name": "Wild Wanderer",
+                                "entries": [
+                                    "Starting at 7th level, you gain a climbing speed equal to your walking speed and moving through difficult terrain costs you no extra movement. In addition, being lightly obscured by weather, such as rain or fog, does not impose disadvantage on your Wisdom (Perception) checks. Finally you take half damage from falling as you cushion yourself with wind, snow or mud."
+                                ]
+                            }
+                        ]                        
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Climatologist",
+                        "subclassSource": "J:Lore",
+                        "level": 11,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Extreme Microclimates",
+                                "entries": [
+                                    "Starting at 11th level, you can choose to target either a 15-foot-radius sphere or a 20-foot-radius sphere with your Microclimate feature.",
+                                    "Additionally, when you create the Microclimate you can choose an additional effect from the list below:",
+                                    {
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
+                                            {
+                                                "name": "Hostile Climate",
+                                                "entries": [
+                                                    "You can use a bonus action to force all creatures in the area to make a Constitution saving throw or take {@dice 3d6} acid, cold, fire, lightning or poison damage (your choice) or half as much on a successful save."
+                                                ]
+                                            },
+                                            {
+                                                "name": "Cleansing Winds",
+                                                "entries": [
+                                                    "Fogs and gasses in this area are dispersed and fires within the area are extinguished. If such effects would be sustained by spells of 6th-level or higher, they are supressed for the duration.",
+                                                    "The area also provides safe, breatheable air for any creatures inside it for the duration."
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "source": "J:Lore",
+                        "className": "Lorehunter (WIP)",
+                        "classSource": "J:Lore",
+                        "subclassShortName": "Climatologist",
+                        "subclassSource": "J:Lore",
+                        "level": 15,
+                        "header": 2,
+                        "entries": [
+                            {
+                                "name": "Storm Rider",
+                                "entries": [
+                                    "Starting at 15th level, as a bonus action, you can ride the winds themselves and gain a flying speed equal to your walking speed for up to 10 minutes. If you are in an area of high wind, such as a storm, your flying speed increases by 10 feet for this duration. If you fall while under these effects, you do not take damage or fall {@condition prone|XPHB} as a result.",
+                                    "Once you use this feature, you cannot do so again until you finsh a long rest, unless you expend a spell slot of 3rd-level or higher."
                                 ]
                             }
                         ]
