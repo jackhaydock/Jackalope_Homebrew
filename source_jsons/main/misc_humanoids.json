@@ -929,7 +929,7 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
@@ -1158,7 +1158,7 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
@@ -1387,7 +1387,7 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
@@ -1616,7 +1616,7 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
@@ -1825,23 +1825,20 @@
             ],
 			"trait": [
 				{
-					"name": "Strength in Numbers",
+					"name": "Humanoid Swarm",
 					"entries": [
-						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
 					]
-				},
-				{
-					"name": "Swarm",
-					"entries": [
-						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
-					]
-				},
-                {
-                    "name": "Form Up",
-					"entries": [
-						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
-					]
-                }
+				}
 			],
 			"action": [
 				{
@@ -1853,13 +1850,13 @@
 				{
 					"name": "Shivs and Stools",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 3}) bludgeoning or slashing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 3}) bludgeoning or slashing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
 					"name": "Bottles and Bricks",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage or {@h}7 ({@damage 1d6 + 3}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage or {@h}7 ({@damage 1d6 + 3}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -2029,23 +2026,20 @@
             ],
 			"trait": [
 				{
-					"name": "Strength in Numbers",
+					"name": "Humanoid Swarm",
 					"entries": [
-						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
 					]
-				},
-				{
-					"name": "Swarm",
-					"entries": [
-						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
-					]
-				},
-                {
-                    "name": "Form Up",
-					"entries": [
-						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
-					]
-                }
+				}
 			],
 			"action": [
 				{
@@ -2057,13 +2051,13 @@
 				{
 					"name": "Shivs and Stools",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning or slashing damage or {@h}13 ({@damage 2d8 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning or slashing damage or {@h}13 ({@damage 2d8 + 4}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
 					"name": "Bottles and Bricks",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning or slashing damage or {@h}11 ({@damage 2d6 + 4}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning or slashing damage or {@h}11 ({@damage 2d6 + 4}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -2233,23 +2227,20 @@
             ],
 			"trait": [
 				{
-					"name": "Strength in Numbers",
+					"name": "Humanoid Swarm",
 					"entries": [
-						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
 					]
-				},
-				{
-					"name": "Swarm",
-					"entries": [
-						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
-					]
-				},
-                {
-                    "name": "Form Up",
-					"entries": [
-						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
-					]
-                }
+				}
 			],
 			"action": [
 				{
@@ -2261,13 +2252,13 @@
 				{
 					"name": "Shivs and Stools",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or slashing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or slashing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
 					"name": "Bottles and Bricks",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning or slashing damage or {@h}16 ({@damage 3d6 + 5}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning or slashing damage or {@h}16 ({@damage 3d6 + 5}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -2437,23 +2428,20 @@
             ],
 			"trait": [
 				{
-					"name": "Strength in Numbers",
+					"name": "Humanoid Swarm",
 					"entries": [
-						"While the mob has more than half its maximum hit points, it has advantage on all saving throws."
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
 					]
-				},
-				{
-					"name": "Swarm",
-					"entries": [
-						"The mob can occupy another creature's space and vice versa, and the mob can move through an opening wide enough for a Medium creature. In addition, the mob is immune to spells and magic effects that would alter its size."
-					]
-				},
-                {
-                    "name": "Form Up",
-					"entries": [
-						"If the mob is missing hit points, a friendly humanoid with the mob or skirmisher tag that is within 5 feet can use an action to merge into the mob, destroying itself and restoring hit points to the mob. If the merging creature is a mob, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
-					]
-                }
+				}
 			],
 			"action": [
 				{
@@ -2465,13 +2453,13 @@
 				{
 					"name": "Shivs and Stools",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or slashing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or slashing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
 					"name": "Bottles and Bricks",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) bludgeoning or slashing damage or {@h}20 ({@damage 4d6 + 6}) bludgeoning or slashing damage if the swarm has half of its hit points or fewer."
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) bludgeoning or slashing damage or {@h}20 ({@damage 4d6 + 6}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
