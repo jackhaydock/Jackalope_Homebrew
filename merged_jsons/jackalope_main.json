@@ -520,7 +520,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.01.18.18.01",
+                "version": "2025.02.11.17.40",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -556,7 +556,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1738861124.3838656
+        "dateLastModified": 1739295670.3155575
     },
     "class": [
         {
@@ -21610,21 +21610,18 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -21650,13 +21647,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -21664,7 +21661,7 @@
                 {
                     "name": "Pike Wall",
                     "entries": [
-                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
                     ]
                 }
             ],
@@ -21820,27 +21817,24 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 20-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 20-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
                 {
@@ -21860,13 +21854,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -21874,7 +21868,7 @@
                 {
                     "name": "Pike Wall",
                     "entries": [
-                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
                     ]
                 }
             ],
@@ -22030,27 +22024,24 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 20-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
                 {
@@ -22070,13 +22061,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) piercing damage or {@h}18 ({@damage 4d6 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) piercing damage or {@h}18 ({@damage 4d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -22084,7 +22075,7 @@
                 {
                     "name": "Pike Wall",
                     "entries": [
-                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
                     ]
                 }
             ],
@@ -22240,27 +22231,24 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the phalanx has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The phalanx can occupy another creature's space and vice versa, and the phalanx can move through an opening wide enough for a Medium creature. In addition, the phalanx is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the phalanx is missing hit points, a friendly humanoid with the phalanx or soldier tag that is within 5 feet can use an action to merge into the phalanx, destroying itself and restoring hit points to the phalanx. If the merging creature is a phalanx, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 10-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 20-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
                 {
@@ -22280,13 +22268,13 @@
                 {
                     "name": "Pike",
                     "entries": [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Slings",
                     "entries": [
-                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}39 ({@damage 10d6 + 4}) piercing damage or {@h}22 ({@damage 5d6 + 4}) piercing damage if the swarm has half of its hit points or fewer."
+                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}39 ({@damage 10d6 + 4}) piercing damage or {@h}22 ({@damage 5d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -22294,7 +22282,7 @@
                 {
                     "name": "Pike Wall",
                     "entries": [
-                        "When a creature moves into the reach of the phalax's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
                     ]
                 }
             ],
