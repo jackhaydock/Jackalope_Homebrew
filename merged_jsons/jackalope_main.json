@@ -520,7 +520,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.11.17.56",
+                "version": "2025.02.11.18.20",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -556,7 +556,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739296611.7278323
+        "dateLastModified": 1739298116.43511
     },
     "class": [
         {
@@ -23313,7 +23313,7 @@
                 {
                     "ac": 14,
                     "from": [
-                        "{@item Leather Armor|J:General}"
+                        "{@item Leather Armor|XPHB}"
                     ]
                 }
             ],
@@ -23514,7 +23514,7 @@
                 {
                     "ac": 15,
                     "from": [
-                        "{@item Leather Armor|J:General}"
+                        "{@item Leather Armor|XPHB}"
                     ]
                 }
             ],
@@ -24091,6 +24091,814 @@
             ],
             "damageTags": [
                 "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "warband",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item Chain Shirt|XPHB}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 80,
+                "formula": "10d12+15"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 14,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 16,
+            "save": {
+                "str": "+7",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spears and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) slashing or piercing damage or {@h}13 ({@damage 2d8 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing or piercing damage or {@h}11 ({@damage 2d6 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Battlecry (3/Day)",
+                    "entries": [
+                        "The warband lets out a terrifying scream. Up to PB creatures of the warband's choice that it can see within 30 feet and that can hear the warband must make a Wisdom saving throw (DC equals 8 + PB + Charisma modifier) or become {@condition frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "We are coming for you!",
+                    "entries": [
+                        "When a creature the warband can see within 60 feet ends its turn {@condition frightened|XPHB} of it, the warband can move up to half its speed towards the creature."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "warband",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "{@item Chain Shirt|XPHB}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 112,
+                "formula": "14d12+21"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 16,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 18,
+            "save": {
+                "str": "+8",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spears and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) slashing or piercing damage or {@h}19 ({@damage 3d8 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) slashing or piercing damage or {@h}16 ({@damage 3d6 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Battlecry (3/Day)",
+                    "entries": [
+                        "The warband lets out a terrifying scream. Up to PB creatures of the warband's choice that it can see within 30 feet and that can hear the warband must make a Wisdom saving throw (DC equals 8 + PB + Charisma modifier) or become {@condition frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "We are coming for you!",
+                    "entries": [
+                        "When a creature the warband can see within 60 feet ends its turn {@condition frightened|XPHB} of it, the warband can move up to half its speed towards the creature."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (Superior)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "warband",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Scale Mail|XPHB}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 144,
+                "formula": "18d12+27"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 18,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+10",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spears and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) slashing or piercing damage or {@h}24 ({@damage 4d8 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) slashing or piercing damage or {@h}20 ({@damage 4d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Battlecry (3/Day)",
+                    "entries": [
+                        "The warband lets out a terrifying scream. Up to PB creatures of the warband's choice that it can see within 30 feet and that can hear the warband must make a Wisdom saving throw (DC equals 8 + PB + Charisma modifier) or become {@condition frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "We are coming for you!",
+                    "entries": [
+                        "When a creature the warband can see within 60 feet ends its turn {@condition frightened|XPHB} of it, the warband can move up to half its speed towards the creature."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "warband",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Scale Mail|XPHB}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 144,
+                "formula": "18d12+27"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 24,
+            "dex": 18,
+            "con": 14,
+            "int": 11,
+            "wis": 12,
+            "cha": 20,
+            "save": {
+                "str": "+12",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+12",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spears and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}52 ({@damage 10d8 + 7}) slashing or piercing damage or {@h}30 ({@damage 4d8 + 7}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}42 ({@damage 10d6 + 7}) slashing or piercing damage or {@h}35 ({@damage 8d6 + 7}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Battlecry (3/Day)",
+                    "entries": [
+                        "The warband lets out a terrifying scream. Up to PB creatures of the warband's choice that it can see within 30 feet and that can hear the warband must make a Wisdom saving throw (DC equals 8 + PB + Charisma modifier) or become {@condition frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "We are coming for you!",
+                    "entries": [
+                        "When a creature the warband can see within 60 feet ends its turn {@condition frightened|XPHB} of it, the warband can move up to half its speed towards the creature."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P",
+                "S"
             ],
             "miscTags": [
                 "MW",
