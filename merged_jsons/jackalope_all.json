@@ -520,7 +520,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.11.17.40",
+                "version": "2025.02.11.17.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -589,7 +589,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.02.06.16.58",
+                "version": "2025.02.11.17.41",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739295671.053094
+        "dateLastModified": 1739296317.4639394
     },
     "class": [
         {
@@ -27474,21 +27474,18 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -27500,22 +27497,21 @@
             ],
             "action": [
                 {
-                    "name": "Blades Out",
+                    "name": "Knives and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
+                        "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the crew has half of its hit points or fewer."
+                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Grappling Hooks",
+                    "name": "Grappling Hooks (3/Day)",
                     "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
-                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
+                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew."
                     ]
                 }
             ],
@@ -27707,21 +27703,18 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -27733,22 +27726,21 @@
             ],
             "action": [
                 {
-                    "name": "Blades Out",
+                    "name": "Knives and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
+                        "{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}9 ({@damage 2d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}9 ({@damage 2d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Grappling Hooks",
+                    "name": "Grappling Hooks (3/Day)",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
-                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
+                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew."
                     ]
                 }
             ],
@@ -27940,21 +27932,18 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -27966,22 +27955,21 @@
             ],
             "action": [
                 {
-                    "name": "Blades Out",
+                    "name": "Knives and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 2}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
+                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 2}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Grappling Hooks",
+                    "name": "Grappling Hooks (3/Day)",
                     "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
-                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew."
                     ]
                 }
             ],
@@ -28173,21 +28161,18 @@
             ],
             "trait": [
                 {
-                    "name": "Strength in Numbers",
+                    "name": "Humanoid Swarm",
                     "entries": [
-                        "While the crew has more than half its maximum hit points, it has advantage on all saving throws."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The crew can occupy another creature's space and vice versa, and the crew can move through an opening wide enough for a Medium creature. In addition, the crew is immune to spells and magic effects that would alter its size."
-                    ]
-                },
-                {
-                    "name": "Form Up",
-                    "entries": [
-                        "If the crew is missing hit points, a friendly humanoid with the crew or support tag that is within 5 feet can use an action to merge into the crew, destroying itself and restoring hit points to the crew. If the merging creature is a crew, it restores hit points equal to the destroyed creature's current hit points, otherwise, it restores hit points equal to four times its CR."
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
                     ]
                 },
                 {
@@ -28199,22 +28184,21 @@
             ],
             "action": [
                 {
-                    "name": "Blades Out",
+                    "name": "Knives and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the crew has half of its hit points or fewer."
+                        "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
                     "name": "Volley",
                     "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}32 ({@damage 8d6 + 2}) piercing damage or {@h}18 ({@damage 4d6 + 3}) piercing damage if the crew has half of its hit points or fewer."
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}32 ({@damage 8d6 + 2}) piercing damage or {@h}18 ({@damage 4d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Grappling Hooks",
+                    "name": "Grappling Hooks (3/Day)",
                     "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is hooked and cannot move or be moved away from the crew until they release it (no action required), the crew uses this action again, they are {@condition incapacitated} or another creature within 5 feet uses an action to remove the hooks. If the object is a vehicle and attempts to move away from the ship crew, it must first succeed on a DC 15 Strength saving throw or the move fails.",
-                        "While an object is hooked, the crew can use a subsequent action to pull the object 15 feet towards itself."
+                        "{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 25 feet towards the ship crew."
                     ]
                 }
             ],
