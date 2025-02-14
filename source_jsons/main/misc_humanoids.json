@@ -20,7 +20,7 @@
 		]
 	},
     "monster": [
-        {
+		{
             "name": "Phalanx (Basic)",
             "source": "J:Humanoids",
             "size": "L",
@@ -40,36 +40,36 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item Linen Armor|J:General}, {@item shield}"
+						"{@item Linen Armor|J:General}, {@item Shield|XPHB}"
 					]
 				}
 			],
 			"hp": {
-				"average": 80,
-				"formula": "10d12+15"
+				"average": 48,
+				"formula": "6d12+9"
 			},
 			"speed": {
 				"walk": 25
 			},
-			"str": 20,
+			"str": 18,
 			"dex": 16,
 			"con": 16,
 			"int": 10,
 			"wis": 16,
 			"cha": 12,
 			"save": {
-                "str": "+8",
-				"dex": "+6"
+                "str": "+6",
+				"dex": "+5"
 			},
 			"skill": {
-				"athletics": "+8",
+				"athletics": "+6",
 				"perception": "+6"
 			},
 			"passive": 16,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "5",
+            "cr": "3",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -112,19 +112,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Phalanx makes two weapon attacks."
+						"The phalanx makes two weapon attacks."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Pikes and Spears",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage or {@h}10 ({@damage 1d10 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Slings",
+					"name": "Javelins",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage or {@h}8 ({@damage 1d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -227,7 +227,7 @@
 				"RW"
 			]
         },
-        {
+		{
             "name": "Phalanx (Greater)",
             "source": "J:Humanoids",
             "size": "H",
@@ -247,36 +247,36 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item Linen Armor|J:General}, {@item shield}"
+						"{@item Linen Armor|J:General}, {@item Shield|XPHB}"
 					]
 				}
 			],
 			"hp": {
-				"average": 112,
-				"formula": "14d12+21"
+				"average": 80,
+				"formula": "10d12+15"
 			},
 			"speed": {
 				"walk": 25
 			},
-			"str": 22,
-			"dex": 16,
+			"str": 20,
+			"dex": 17,
 			"con": 16,
 			"int": 10,
 			"wis": 16,
 			"cha": 12,
 			"save": {
-                "str": "+9",
-				"dex": "+7"
+                "str": "+8",
+				"dex": "+6"
 			},
 			"skill": {
-				"athletics": "+9",
+				"athletics": "+8",
 				"perception": "+6"
 			},
 			"passive": 16,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "7",
+            "cr": "5",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -305,7 +305,7 @@
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 20-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 25-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
 				{
@@ -319,19 +319,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Phalanx makes two weapon attacks."
+						"The phalanx makes two weapon attacks."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Pikes and Spears",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage or {@h}16 ({@damage 2d10 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Slings",
+					"name": "Javelins",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}19 ({@damage 4d6 + 5}) piercing damage or {@h}12 ({@damage 2d6 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -343,7 +343,7 @@
                     ]
                 }
             ],
-			"variant": [
+            "variant": [
 				{
 					"type": "inset",
 					"name": "Variant Humanoid Swarms",
@@ -437,7 +437,7 @@
 		{
             "name": "Phalanx (Superior)",
             "source": "J:Humanoids",
-            "size": "G",
+            "size": "H",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
@@ -454,36 +454,36 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item Linen Armor|J:General}, {@item shield}"
+						"{@item Linen Armor|J:General}, {@item Shield|XPHB}"
 					]
 				}
 			],
 			"hp": {
-				"average": 153,
-				"formula": "18d12+45"
+				"average": 112,
+				"formula": "14d12+21"
 			},
 			"speed": {
 				"walk": 25
 			},
-			"str": 24,
+			"str": 22,
 			"dex": 18,
-			"con": 18,
+			"con": 16,
 			"int": 10,
-			"wis": 18,
+			"wis": 16,
 			"cha": 12,
 			"save": {
-                "str": "+11",
-				"dex": "+8"
+                "str": "9",
+				"dex": "+7"
 			},
 			"skill": {
-				"athletics": "+11",
-				"perception": "+8"
+				"athletics": "+9",
+				"perception": "+6"
 			},
-			"passive": 18,
+			"passive": 16,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "9",
+            "cr": "7",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -512,7 +512,7 @@
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 20-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 25-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
 				{
@@ -526,19 +526,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Phalanx makes two weapon attacks."
+						"The phalanx makes two weapon attacks."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Pikes and Spears",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) piercing damage or {@h}23 ({@damage 3d10 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Slings",
+					"name": "Javelins",
 					"entries": [
-						"{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) piercing damage or {@h}18 ({@damage 4d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}27 ({@damage 6d6 + 6}) piercing damage or {@h}17 ({@damage 3d6 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -550,7 +550,7 @@
                     ]
                 }
             ],
-			"variant": [
+            "variant": [
 				{
 					"type": "inset",
 					"name": "Variant Humanoid Swarms",
@@ -641,7 +641,7 @@
 				"RW"
 			]
         },
-        {
+		{
             "name": "Phalanx (Supreme)",
             "source": "J:Humanoids",
             "size": "G",
@@ -661,36 +661,36 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item Linen Armor|J:General}, {@item shield}"
+						"{@item Linen Armor|J:General}, {@item Shield|XPHB}"
 					]
 				}
 			],
 			"hp": {
-				"average": 187,
-				"formula": "22d12+44"
+				"average": 144,
+				"formula": "18d12+27"
 			},
 			"speed": {
 				"walk": 25
 			},
-			"str": 26,
-			"dex": 18,
-			"con": 18,
+			"str": 24,
+			"dex": 19,
+			"con": 16,
 			"int": 10,
-			"wis": 18,
+			"wis": 16,
 			"cha": 12,
 			"save": {
-                "str": "+12",
+                "str": "+11",
 				"dex": "+8"
 			},
 			"skill": {
-				"athletics": "+12",
-				"perception": "+8"
+				"athletics": "+11",
+				"perception": "+7"
 			},
-			"passive": 20,
+			"passive": 17,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "11",
+            "cr": "7",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -733,19 +733,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The Phalanx makes two weapon attacks."
+						"The phalanx makes two weapon attacks."
 					]
 				},
 				{
-					"name": "Pike",
+					"name": "Pikes and Spears",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Slings",
+					"name": "Javelins",
 					"entries": [
-						"{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}39 ({@damage 10d6 + 4}) piercing damage or {@h}22 ({@damage 5d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}35 ({@damage 8d6 + 7}) piercing damage or {@h}21 ({@damage 4d6 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
 					]
 				}
 			],
@@ -757,7 +757,811 @@
                     ]
                 }
             ],
-			"variant": [
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Artillery Battalion (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "artillery battalion",
+					"artillery"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Padded Armor|XPHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "6d10+9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+                "str": "+5",
+				"dex": "+6"
+			},
+			"skill": {
+				"athletics": "+5",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid Swarm",
+					"entries": [
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The battalion makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Sidearms",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage or {@h}10 ({@damage 1d10 + 4}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Slings and Arrows",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning or piercing damage or {@h}8 ({@damage 1d6 + 4}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+				},
+				{
+					"name": "Fire Volley (3/Day)",
+					"entries": [
+						"Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 4d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Fire at Will",
+                    "entries": [
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
+                    ]
+                }
+            ],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Artillery Battalion (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "artillery battalion",
+					"artillery"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item Padded Armor|XPHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 76,
+				"formula": "10d10+15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 20,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+                "str": "+6",
+				"dex": "+8"
+			},
+			"skill": {
+				"athletics": "+6",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid Swarm",
+					"entries": [
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The battalion makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Sidearms",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) slashing damage or {@h}16 ({@damage 2d10 + 5}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Slings and Arrows",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}19 ({@damage 4d6 + 5}) bludgeoning or piercing damage or {@h}12 ({@damage 2d6 + 5}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+				},
+				{
+					"name": "Fire Volley (3/Day)",
+					"entries": [
+						"Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 5d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Fire at Will",
+                    "entries": [
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
+                    ]
+                }
+            ],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Artillery Battalion (Superior)",
+            "source": "J:Humanoids",
+            "size": "H",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "artillery battalion",
+					"artillery"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item Padded Armor|XPHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 98,
+				"formula": "14d10+21"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 22,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+                "str": "+7",
+				"dex": "+9"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid Swarm",
+					"entries": [
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The battalion makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Sidearms",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) slashing damage or {@h}23 ({@damage 3d10 + 6}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Slings and Arrows",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}27 ({@damage 6d6 + 6}) bludgeoning or piercing damage or {@h}17 ({@damage 3d6 + 6}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+				},
+				{
+					"name": "Fire Volley (3/Day)",
+					"entries": [
+						"Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 6d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Fire at Will",
+                    "entries": [
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
+                    ]
+                }
+            ],
+            "variant": [
+				{
+					"type": "inset",
+					"name": "Variant Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Artillery Battalion (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "artillery battalion",
+					"artillery"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item Padded Armor|XPHB}"
+					]
+				}
+			],
+			"hp": {
+				"average": 126,
+				"formula": "14d10+21"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 24,
+			"con": 16,
+			"int": 10,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+                "str": "+8",
+				"dex": "+11"
+			},
+			"skill": {
+				"athletics": "+8",
+				"perception": "+7"
+			},
+			"passive": 17,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid Swarm",
+					"entries": [
+						"As a group of humanoids, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The battalion makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Sidearms",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) slashing damage or {@h}29 ({@damage 4d10 + 7}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Slings and Arrows",
+					"entries": [
+						"{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}35 ({@damage 8d6 + 7}) bludgeoning or piercing damage or {@h}21 ({@damage 4d6 + 7}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+					]
+				},
+				{
+					"name": "Fire Volley (3/Day)",
+					"entries": [
+						"Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 7d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
+					]
+				}
+			],
+            "reaction": [
+                {
+                    "name": "Fire at Will",
+                    "entries": [
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
+                    ]
+                }
+            ],
+            "variant": [
 				{
 					"type": "inset",
 					"name": "Variant Humanoid Swarms",
@@ -3370,806 +4174,6 @@
 			"damageTags": [
 				"P",
 				"S"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			]
-        },
-		{
-            "name": "Artillery Unit (Basic)",
-            "source": "J:Humanoids",
-            "size": "L",
-			"type": {
-				"type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "artillery unit",
-					"artillery"
-                ]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item Padded Armor|XPHB}"
-					]
-				}
-			],
-			"hp": {
-				"average": 60,
-				"formula": "10d8+15"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 20,
-			"con": 16,
-			"int": 10,
-			"wis": 16,
-			"cha": 12,
-			"save": {
-				"str": "+6",
-				"dex": "+8"
-			},
-			"skill": {
-				"perception": "+6"
-			},
-			"passive": 16,
-			"languages": [
-				"any three languages (typically including common)"
-			],
-            "cr": "5",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-			"trait": [
-				{
-					"name": "Humanoid Swarm",
-					"entries": [
-						"As a group of humanoids, the swarm has the following effects:",
-						{
-							"type": "list",
-							"style": "list",
-							"items": [
-								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The unit makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Slings and Arrows",
-					"entries": [
-						"{@atk mw,rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
-				},
-				{
-					"name": "Sidearms",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}19 ({@damage 4d6 + 5}) piercing damage or {@h}12 ({@damage 2d6 + 5}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
- 				},
-				{
-					"name": "Fire Volley (3/Day)",
-					"entries": [
-						"Each creature within 15 feet of a point the unit can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take 28 ({@damage 5d10}) bludgeoning or piercing damage and be {@condition slowed|J:General} until the start of the unit's next turn. On a success, a creature takes half damage and is only {@condition hampered|J:General} for the duration instead,"
-					]
-				}
-			],
-            "reaction": [
-                {
-                    "name": "Fire at Will",
-                    "entries": [
-                        "When a creature the unit can see ends its turn within 150 feet of the unit but not closer than 30 feet, the unit can make a Slings and Arrows attack against them."
-                    ]
-                }
-            ],
-            "variant": [
-				{
-					"type": "inset",
-					"name": "Variant Humanoid Swarms",
-					"entries": [
-						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-						{
-							"type": "list",
-							"items": [
-								{
-									"type": "entries",
-									"name": "Arcane Warriors",
-									"entries": [
-										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Arsonists",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Breath Weapon",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"The swarm has darkvision out to 60 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Enhanced Movement",
-									"entries": [
-										"The swarm has a climbing or swimming speed equal to its walking speed."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Heavily Armoured",
-									"entries": [
-										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Large",
-									"entries": [
-										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Resistance",
-									"entries": [
-										"The swarm has resistance to a damage type of the DM's choice."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Small",
-									"entries": [
-										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			]
-        },
-		{
-            "name": "Artillery Unit (Greater)",
-            "source": "J:Humanoids",
-            "size": "H",
-			"type": {
-				"type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "artillery unit",
-					"artillery"
-                ]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 17,
-					"from": [
-						"{@item Padded Armor|XPHB}"
-					]
-				}
-			],
-			"hp": {
-				"average": 84,
-				"formula": "14d8+21"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 16,
-			"dex": 22,
-			"con": 16,
-			"int": 10,
-			"wis": 16,
-			"cha": 12,
-			"save": {
-				"str": "+6",
-				"dex": "+9"
-			},
-			"skill": {
-				"perception": "+6"
-			},
-			"passive": 16,
-			"languages": [
-				"any three languages (typically including common)"
-			],
-            "cr": "7",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-			"trait": [
-				{
-					"name": "Humanoid Swarm",
-					"entries": [
-						"As a group of humanoids, the swarm has the following effects:",
-						{
-							"type": "list",
-							"style": "list",
-							"items": [
-								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The unit makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Slings and Arrows",
-					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}39 ({@damage 6d10 + 6}) piercing damage or {@h}23 ({@damage 3d10 + 6}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
-				},
-				{
-					"name": "Sidearms",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}27 ({@damage 6d6 + 6}) piercing damage or {@h}17 ({@damage 3d6 + 6}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
- 				},
-				{
-					"name": "Fire Volley (3/Day)",
-					"entries": [
-						"Each creature within 15 feet of a point the unit can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take 33 ({@damage 6d10}) bludgeoning or piercing damage and be {@condition slowed|J:General} until the start of the unit's next turn. On a success, a creature takes half damage and is only {@condition hampered|J:General} for the duration instead,"
-					]
-				}
-			],
-            "reaction": [
-                {
-                    "name": "Fire at Will",
-                    "entries": [
-                        "When a creature the unit can see ends its turn within 150 feet of the unit but not closer than 30 feet, the unit can make a Slings and Arrows attack against them."
-                    ]
-                }
-            ],
-            "variant": [
-				{
-					"type": "inset",
-					"name": "Variant Humanoid Swarms",
-					"entries": [
-						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-						{
-							"type": "list",
-							"items": [
-								{
-									"type": "entries",
-									"name": "Arcane Warriors",
-									"entries": [
-										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Arsonists",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Breath Weapon",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"The swarm has darkvision out to 60 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Enhanced Movement",
-									"entries": [
-										"The swarm has a climbing or swimming speed equal to its walking speed."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Heavily Armoured",
-									"entries": [
-										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Large",
-									"entries": [
-										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Resistance",
-									"entries": [
-										"The swarm has resistance to a damage type of the DM's choice."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Small",
-									"entries": [
-										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			]
-        },
-		{
-            "name": "Artillery Unit (Superior)",
-            "source": "J:Humanoids",
-            "size": "G",
-			"type": {
-				"type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "artillery unit",
-					"artillery"
-                ]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 18,
-					"from": [
-						"{@item Padded Armor|XPHB}"
-					]
-				}
-			],
-			"hp": {
-				"average": 108,
-				"formula": "18d8+27"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 24,
-			"con": 16,
-			"int": 10,
-			"wis": 16,
-			"cha": 12,
-			"save": {
-				"str": "+8",
-				"dex": "+11"
-			},
-			"skill": {
-				"perception": "+7"
-			},
-			"passive": 16,
-			"languages": [
-				"any three languages (typically including common)"
-			],
-            "cr": "9",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-			"trait": [
-				{
-					"name": "Humanoid Swarm",
-					"entries": [
-						"As a group of humanoids, the swarm has the following effects:",
-						{
-							"type": "list",
-							"style": "list",
-							"items": [
-								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The unit makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Slings and Arrows",
-					"entries": [
-						"{@atk mw,rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
-				},
-				{
-					"name": "Sidearms",
-					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}35 ({@damage 8d6 + 7}) piercing damage or {@h}21 ({@damage 4d6 + 7}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
- 				},
-				{
-					"name": "Fire Volley (3/Day)",
-					"entries": [
-						"Each creature within 15 feet of a point the unit can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take 39 ({@damage 7d10}) bludgeoning or piercing damage and be {@condition slowed|J:General} until the start of the unit's next turn. On a success, a creature takes half damage and is only {@condition hampered|J:General} for the duration instead,"
-					]
-				}
-			],
-            "reaction": [
-                {
-                    "name": "Fire at Will",
-                    "entries": [
-                        "When a creature the unit can see ends its turn within 150 feet of the unit but not closer than 30 feet, the unit can make a Slings and Arrows attack against them."
-                    ]
-                }
-            ],
-            "variant": [
-				{
-					"type": "inset",
-					"name": "Variant Humanoid Swarms",
-					"entries": [
-						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-						{
-							"type": "list",
-							"items": [
-								{
-									"type": "entries",
-									"name": "Arcane Warriors",
-									"entries": [
-										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Arsonists",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Breath Weapon",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"The swarm has darkvision out to 60 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Enhanced Movement",
-									"entries": [
-										"The swarm has a climbing or swimming speed equal to its walking speed."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Heavily Armoured",
-									"entries": [
-										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Large",
-									"entries": [
-										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Resistance",
-									"entries": [
-										"The swarm has resistance to a damage type of the DM's choice."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Small",
-									"entries": [
-										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"RW"
-			]
-        },
-		{
-            "name": "Artillery Unit (Supreme)",
-            "source": "J:Humanoids",
-            "size": "G",
-			"type": {
-				"type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "artillery unit",
-					"artillery"
-                ]
-			},
-			"alignment": [
-				"A"
-			],
-			"ac": [
-				{
-					"ac": 19,
-					"from": [
-						"{@item Padded Armor|XPHB}"
-					]
-				}
-			],
-			"hp": {
-				"average": 132,
-				"formula": "20d8+33"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 26,
-			"con": 16,
-			"int": 10,
-			"wis": 16,
-			"cha": 12,
-			"save": {
-				"str": "+8",
-				"dex": "+12"
-			},
-			"skill": {
-				"perception": "+7"
-			},
-			"passive": 17,
-			"languages": [
-				"any three languages (typically including common)"
-			],
-            "cr": "11",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-			"trait": [
-				{
-					"name": "Humanoid Swarm",
-					"entries": [
-						"As a group of humanoids, the swarm has the following effects:",
-						{
-							"type": "list",
-							"style": "list",
-							"items": [
-								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-								"If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-							]
-						}
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"entries": [
-						"The unit makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Slings and Arrows",
-					"entries": [
-						"{@atk mw,rw} {@hit 12} to hit, range 150/600 ft., one target. {@h}63 ({@damage 10d10 + 8}) piercing damage or {@h}36 ({@damage 5d10 + 8}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
-				},
-				{
-					"name": "Sidearms",
-					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}43 ({@damage 10d6 + 8}) piercing damage or {@h}26 ({@damage 10d6 + 8}) piercing damage if the unit is {@variantrule Bloodied|XPHB}."
-					]
- 				},
-				{
-					"name": "Fire Volley (3/Day)",
-					"entries": [
-						"Each creature within 15 feet of a point the unit can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take 44 ({@damage 8d10}) bludgeoning or piercing damage and be {@condition slowed|J:General} until the start of the unit's next turn. On a success, a creature takes half damage and is only {@condition hampered|J:General} for the duration instead,"
-					]
-				}
-			],
-            "reaction": [
-                {
-                    "name": "Fire at Will",
-                    "entries": [
-                        "When a creature the unit can see ends its turn within 150 feet of the unit but not closer than 30 feet, the unit can make a Slings and Arrows attack against them."
-                    ]
-                }
-            ],
-            "variant": [
-				{
-					"type": "inset",
-					"name": "Variant Humanoid Swarms",
-					"entries": [
-						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-						{
-							"type": "list",
-							"items": [
-								{
-									"type": "entries",
-									"name": "Arcane Warriors",
-									"entries": [
-										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Arsonists",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Breath Weapon",
-									"entries": [
-										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Darkvision",
-									"entries": [
-										"The swarm has darkvision out to 60 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Enhanced Movement",
-									"entries": [
-										"The swarm has a climbing or swimming speed equal to its walking speed."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Heavily Armoured",
-									"entries": [
-										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Large",
-									"entries": [
-										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Resistance",
-									"entries": [
-										"The swarm has resistance to a damage type of the DM's choice."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Small",
-									"entries": [
-										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-									]
-								}
-							]
-						}
-					]
-				}
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C"
-			],
-			"damageTags": [
-				"P"
 			],
 			"miscTags": [
 				"MW",
