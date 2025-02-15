@@ -690,7 +690,7 @@
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "7",
+            "cr": "9",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -2357,7 +2357,7 @@
 				{
 					"name": "Barrage",
 					"entries": [
-						"{@atk rw} {@hit 9} to hit, range 30/90 ft., one target. {@h}35 ({@damage 6d6 + 6}) slashing or piercing damage or {@h}21 ({@damage 3d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+						"{@atk rw} {@hit 9} to hit, range 30/90 ft., one target. {@h}35 ({@damage 8d6 + 6}) slashing or piercing damage or {@h}21 ({@damage 4d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
 						"This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
 					]
 				},
