@@ -510,21 +510,6 @@
                 "targetSchema": "1.0.0"
             },
             {
-                "json": "J:Humanoids",
-                "abbreviation": "J:Humanoids",
-                "color": "f5b342",
-                "full": "Jackalope: Humanoid Warrior Statblocks",
-                "authors": [
-                    "Jackalope"
-                ],
-                "convertedBy": [
-                    "Jackalope"
-                ],
-                "version": "2025.02.15.14.53",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
-            {
                 "json": "J:Frost",
                 "abbreviation": "J:Frost",
                 "color": "5cf2f5",
@@ -551,6 +536,21 @@
                     "Jackalope"
                 ],
                 "version": "2024.10.19.16.40",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
+                "json": "J:Humanoids",
+                "abbreviation": "J:Humanoids",
+                "color": "f5b342",
+                "full": "Jackalope: Humanoid Warrior Statblocks",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2025.02.15.15.34",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739631365.9606473
+        "dateLastModified": 1739633688.4656737
     },
     "class": [
         {
@@ -26591,6 +26591,94 @@
             ]
         },
         {
+            "name": "Mushing Beasts",
+            "size": [
+                "L"
+            ],
+            "type": {
+                "type": "beast",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm"
+                ]
+            },
+            "source": "J:Frost",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "special": "11 plus PB (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "10 plus 10 x PB"
+            },
+            "speed": {
+                "walk": "20 plus 5 x PB"
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 16,
+            "int": 4,
+            "wis": 14,
+            "cha": 5,
+            "skill": {
+                "athletics": "+4 plus PB",
+                "survival": "+2 plus PB"
+            },
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "petrified",
+                "prone",
+                "restrained",
+                "stunned"
+            ],
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": "12 plus PB",
+            "pbNote": "equals your bonus",
+            "damageTags": [
+                "P"
+            ],
+            "trait": [
+                {
+                    "name": "Beasts of Burden",
+                    "entries": [
+                        "When dragging the sled, the beasts can pull 200xPB lbs., including the sled itself."
+                    ]
+                },
+                {
+                    "name": "Swarm",
+                    "entries": [
+                        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small beast."
+                    ]
+                },
+                {
+                    "name": "Through Wind and Rain",
+                    "entries": [
+                        "Being in an area that is lightly obscured by heavy precipitation, such as rain, snowfall or fog, does not impose disadvantage on Wisdom (Perception) checks the beasts make.",
+                        "In addition, when you cast {@spell Hunter's Mark|XPHB} on a creature, the beasts also benefit from the spell."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit +4+PB|+4 plus PB} to hit, reach 5 ft., one target, {@h} {@damage 1d8+4+PB|1d8+4 plus PB} piercing damage."
+                    ]
+                }
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
             "name": "Phalanx (Basic)",
             "source": "J:Humanoids",
             "size": "L",
@@ -26769,6 +26857,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -26980,6 +27075,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -27183,6 +27285,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -27394,6 +27503,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -27591,6 +27707,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -27796,6 +27919,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -27993,6 +28123,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -28198,6 +28335,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -28397,6 +28541,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -28605,6 +28756,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -28809,6 +28967,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -29009,6 +29174,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -29262,6 +29434,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -29493,6 +29672,13 @@
                                     "name": "Resistance",
                                     "entries": [
                                         "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
                                     ]
                                 },
                                 {
@@ -29732,6 +29918,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -29967,6 +30160,13 @@
                                 },
                                 {
                                     "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
@@ -29976,94 +30176,6 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "name": "Mushing Beasts",
-            "size": [
-                "L"
-            ],
-            "type": {
-                "type": "beast",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm"
-                ]
-            },
-            "source": "J:Frost",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "special": "11 plus PB (natural armor)"
-                }
-            ],
-            "hp": {
-                "special": "10 plus 10 x PB"
-            },
-            "speed": {
-                "walk": "20 plus 5 x PB"
-            },
-            "str": 18,
-            "dex": 12,
-            "con": 16,
-            "int": 4,
-            "wis": 14,
-            "cha": 5,
-            "skill": {
-                "athletics": "+4 plus PB",
-                "survival": "+2 plus PB"
-            },
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "frightened",
-                "paralyzed",
-                "petrified",
-                "prone",
-                "restrained",
-                "stunned"
-            ],
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": "12 plus PB",
-            "pbNote": "equals your bonus",
-            "damageTags": [
-                "P"
-            ],
-            "trait": [
-                {
-                    "name": "Beasts of Burden",
-                    "entries": [
-                        "When dragging the sled, the beasts can pull 200xPB lbs., including the sled itself."
-                    ]
-                },
-                {
-                    "name": "Swarm",
-                    "entries": [
-                        "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small beast."
-                    ]
-                },
-                {
-                    "name": "Through Wind and Rain",
-                    "entries": [
-                        "Being in an area that is lightly obscured by heavy precipitation, such as rain, snowfall or fog, does not impose disadvantage on Wisdom (Perception) checks the beasts make.",
-                        "In addition, when you cast {@spell Hunter's Mark|XPHB} on a creature, the beasts also benefit from the spell."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit +4+PB|+4 plus PB} to hit, reach 5 ft., one target, {@h} {@damage 1d8+4+PB|1d8+4 plus PB} piercing damage."
-                    ]
-                }
-            ],
-            "miscTags": [
-                "MW"
             ]
         },
         {
