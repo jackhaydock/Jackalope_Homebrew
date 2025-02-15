@@ -2477,7 +2477,7 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew",
+                    "ship crew",
 					"support"
                 ]
 			},
@@ -2486,33 +2486,38 @@
 			],
 			"ac": [
 				{
-					"ac": 12,
+					"ac": 13,
 					"from": [
 						"unarmored"
 					]
 				}
 			],
 			"hp": {
-				"average": 25,
-				"formula": ""
+				"average": 45,
+				"formula": "6d12+6"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 12,
-			"dex": 14,
-			"con": 10,
+			"str": 14,
+			"dex": 16,
+			"con": 14,
 			"int": 10,
 			"wis": 12,
 			"cha": 10,
 			"save": {
-				"dex": "+4"
+				"str": "+4",
+				"dex": "+5"
 			},
-			"passive": 11,
+			"skill": {
+				"athletics": "+4",
+				"perception": "+3"
+			},
+			"passive": 13,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "1",
+            "cr": "3",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -2549,19 +2554,20 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage or {@h}10 ({@damage 1d10 + 3}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Volley",
+					"name": "Slings and Arrows",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning or piercing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
 				},
 				{
 					"name": "Grappling Hooks (3/Day)",
 					"entries": [
-						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew."
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+						"If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
 					]
 				}
 			],
@@ -2593,25 +2599,25 @@
 										{
 											"name": "Move",
 											"entries": [
-												"The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
+												"The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
 											]
 										},
 										{
 											"name": "Fire",
 											"entries": [
-												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 1d10} damage if the ship crew has more than half its hit points."
+												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
 											]
 										},
 										{
 											"name": "Repair",
 											"entries": [
-												"The ship crew touches a component or weapon of the vehicle and restores 10 hit points it, or 5 hit points if the ship crew has half of its hit points or fewer."
+												"The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
 											]
 										},
 										{
 											"name": "Brace",
 											"entries": [
-												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
 											]
 										}
 									]
@@ -2706,7 +2712,7 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew",
+                    "ship crew",
 					"support"
                 ]
 			},
@@ -2715,33 +2721,38 @@
 			],
 			"ac": [
 				{
-					"ac": 13,
+					"ac": 14,
 					"from": [
 						"unarmored"
 					]
 				}
 			],
 			"hp": {
-				"average": 50,
-				"formula": ""
+				"average": 75,
+				"formula": "10d12+10"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 14,
-			"dex": 16,
-			"con": 10,
+			"str": 15,
+			"dex": 18,
+			"con": 14,
 			"int": 10,
 			"wis": 12,
 			"cha": 10,
 			"save": {
-				"dex": "+5"
+				"str": "+5",
+				"dex": "+7"
 			},
-			"passive": 11,
+			"skill": {
+				"athletics": "+5",
+				"perception": "+4"
+			},
+			"passive": 14,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "3",
+            "cr": "5",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -2778,19 +2789,20 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage or {@h}15 ({@damage 2d10 + 4}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Volley",
+					"name": "Slings and Arrows",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}9 ({@damage 2d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d8 + 4}) bludgeoning or piercing damage or {@h}11 ({@damage 2d8 + 4}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
 				},
 				{
 					"name": "Grappling Hooks (3/Day)",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew."
+						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+						"If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
 					]
 				}
 			],
@@ -2822,25 +2834,25 @@
 										{
 											"name": "Move",
 											"entries": [
-												"The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
+												"The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
 											]
 										},
 										{
 											"name": "Fire",
 											"entries": [
-												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 2d10} damage if the ship crew has more than half its hit points."
+												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
 											]
 										},
 										{
 											"name": "Repair",
 											"entries": [
-												"The ship crew touches a component or weapon of the vehicle and restores 20 hit points it, or 10 hit points if the ship crew has half of its hit points or fewer."
+												"The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
 											]
 										},
 										{
 											"name": "Brace",
 											"entries": [
-												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
 											]
 										}
 									]
@@ -2929,13 +2941,13 @@
 		{
             "name": "Ship Crew (Superior)",
             "source": "J:Humanoids",
-            "size": "G",
+            "size": "H",
 			"type": {
 				"type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew",
+                    "ship crew",
 					"support"
                 ]
 			},
@@ -2944,33 +2956,38 @@
 			],
 			"ac": [
 				{
-					"ac": 13,
+					"ac": 15,
 					"from": [
 						"unarmored"
 					]
 				}
 			],
 			"hp": {
-				"average": 100,
-				"formula": ""
+				"average": 105,
+				"formula": "14d12+14"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 14,
-			"dex": 16,
-			"con": 10,
+			"str": 16,
+			"dex": 20,
+			"con": 14,
 			"int": 10,
 			"wis": 12,
 			"cha": 10,
 			"save": {
-				"dex": "+6"
+				"str": "+6",
+				"dex": "+8"
 			},
-			"passive": 11,
+			"skill": {
+				"athletics": "+6",
+				"perception": "+4"
+			},
+			"passive": 14,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "5",
+            "cr": "7",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -3007,19 +3024,20 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}38 ({@damage 6d10 + 5}) bludgeoning or slashing damage or {@h}23 ({@damage 3d10 + 5}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Volley",
+					"name": "Slings and Arrows",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 2}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or piercing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
 				},
 				{
 					"name": "Grappling Hooks (3/Day)",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew."
+						"{@atk rw} {@hit 8} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+						"If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
 					]
 				}
 			],
@@ -3051,25 +3069,25 @@
 										{
 											"name": "Move",
 											"entries": [
-												"The ship moves up to 30 feet, or 15 feet if the ship crew has half of its hit points or fewer."
+												"The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
 											]
 										},
 										{
 											"name": "Fire",
 											"entries": [
-												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 3d10} damage if the ship crew has more than half its hit points."
+												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
 											]
 										},
 										{
 											"name": "Repair",
 											"entries": [
-												"The ship crew touches a component or weapon of the vehicle and restores 30 hit points it, or 15 hit points if the ship crew has half of its hit points or fewer."
+												"The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
 											]
 										},
 										{
 											"name": "Brace",
 											"entries": [
-												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
 											]
 										}
 									]
@@ -3164,7 +3182,7 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew",
+                    "ship crew",
 					"support"
                 ]
 			},
@@ -3173,33 +3191,38 @@
 			],
 			"ac": [
 				{
-					"ac": 13,
+					"ac": 16,
 					"from": [
 						"unarmored"
 					]
 				}
 			],
 			"hp": {
-				"average": 150,
-				"formula": ""
+				"average": 135,
+				"formula": "18d12+18"
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 14,
-			"dex": 18,
-			"con": 10,
+			"str": 17,
+			"dex": 22,
+			"con": 14,
 			"int": 10,
 			"wis": 12,
 			"cha": 10,
 			"save": {
-				"dex": "+7"
+				"str": "+7",
+				"dex": "+10"
 			},
-			"passive": 11,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+5"
+			},
+			"passive": 14,
 			"languages": [
 				"any three languages (typically including common)"
 			],
-            "cr": "7",
+            "cr": "9",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -3236,19 +3259,20 @@
 				{
 					"name": "Knives and Axes",
 					"entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}50 ({@damage 8d10 + 6}) bludgeoning or slashing damage or {@h}28 ({@damage 4d10 + 6}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
  				},
 				{
-					"name": "Volley",
+					"name": "Slings and Arrows",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}32 ({@damage 8d6 + 2}) piercing damage or {@h}18 ({@damage 4d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
+						"{@atk rw} {@hit 10} to hit, range 30/90 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or piercing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
 					]
 				},
 				{
 					"name": "Grappling Hooks (3/Day)",
 					"entries": [
-						"{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 25 feet towards the ship crew."
+						"{@atk rw} {@hit 10} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+						"If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
 					]
 				}
 			],
@@ -3280,25 +3304,25 @@
 										{
 											"name": "Move",
 											"entries": [
-												"The ship moves up to 50 feet, or 25 feet if the ship crew has half of its hit points or fewer."
+												"The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
 											]
 										},
 										{
 											"name": "Fire",
 											"entries": [
-												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 4d10} damage if the ship crew has more than half its hit points."
+												"The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
 											]
 										},
 										{
 											"name": "Repair",
 											"entries": [
-												"The ship crew touches a component or weapon of the vehicle and restores 40 hit points it, or 20 hit points if the ship crew has half of its hit points or fewer."
+												"The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
 											]
 										},
 										{
 											"name": "Brace",
 											"entries": [
-												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
+												"The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
 											]
 										}
 									]

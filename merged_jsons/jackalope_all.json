@@ -520,7 +520,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.11.18.24",
+                "version": "2025.02.15.14.53",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739298280.6857262
+        "dateLastModified": 1739631365.9606473
     },
     "class": [
         {
@@ -26610,36 +26610,36 @@
                 {
                     "ac": 17,
                     "from": [
-                        "{@item Linen Armor|J:General}, {@item shield}"
+                        "{@item Linen Armor|J:General}, {@item Shield|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 80,
-                "formula": "10d12+15"
+                "average": 48,
+                "formula": "6d12+9"
             },
             "speed": {
                 "walk": 25
             },
-            "str": 20,
+            "str": 18,
             "dex": 16,
             "con": 16,
             "int": 10,
             "wis": 16,
             "cha": 12,
             "save": {
-                "str": "+8",
-                "dex": "+6"
+                "str": "+6",
+                "dex": "+5"
             },
             "skill": {
-                "athletics": "+8",
+                "athletics": "+6",
                 "perception": "+6"
             },
             "passive": 16,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "5",
+            "cr": "3",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -26682,19 +26682,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Phalanx makes two weapon attacks."
+                        "The phalanx makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Pike",
+                    "name": "Pikes and Spears",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d10 + 5}) piercing damage or {@h}14 ({@damage 2d10 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage or {@h}10 ({@damage 1d10 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Slings",
+                    "name": "Javelins",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}10 ({@damage 2d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage or {@h}8 ({@damage 1d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -26817,36 +26817,36 @@
                 {
                     "ac": 17,
                     "from": [
-                        "{@item Linen Armor|J:General}, {@item shield}"
+                        "{@item Linen Armor|J:General}, {@item Shield|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 112,
-                "formula": "14d12+21"
+                "average": 80,
+                "formula": "10d12+15"
             },
             "speed": {
                 "walk": 25
             },
-            "str": 22,
-            "dex": 16,
+            "str": 20,
+            "dex": 17,
             "con": 16,
             "int": 10,
             "wis": 16,
             "cha": 12,
             "save": {
-                "str": "+9",
-                "dex": "+7"
+                "str": "+8",
+                "dex": "+6"
             },
             "skill": {
-                "athletics": "+9",
+                "athletics": "+8",
                 "perception": "+6"
             },
             "passive": 16,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "7",
+            "cr": "5",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -26875,7 +26875,7 @@
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 20-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 25-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
                 {
@@ -26889,19 +26889,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Phalanx makes two weapon attacks."
+                        "The phalanx makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Pike",
+                    "name": "Pikes and Spears",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d10 + 6}) piercing damage or {@h}20 ({@damage 3d10 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) piercing damage or {@h}16 ({@damage 2d10 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Slings",
+                    "name": "Javelins",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}24 ({@damage 6d6 + 3}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 8} to hit, range 30/120 ft., one target. {@h}19 ({@damage 4d6 + 5}) piercing damage or {@h}12 ({@damage 2d6 + 5}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -27007,7 +27007,7 @@
         {
             "name": "Phalanx (Superior)",
             "source": "J:Humanoids",
-            "size": "G",
+            "size": "H",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
@@ -27024,36 +27024,36 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@item Linen Armor|J:General}, {@item shield}"
+                        "{@item Linen Armor|J:General}, {@item Shield|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 153,
-                "formula": "18d12+45"
+                "average": 112,
+                "formula": "14d12+21"
             },
             "speed": {
                 "walk": 25
             },
-            "str": 24,
+            "str": 22,
             "dex": 18,
-            "con": 18,
+            "con": 16,
             "int": 10,
-            "wis": 18,
+            "wis": 16,
             "cha": 12,
             "save": {
-                "str": "+11",
-                "dex": "+8"
+                "str": "9",
+                "dex": "+7"
             },
             "skill": {
-                "athletics": "+11",
-                "perception": "+8"
+                "athletics": "+9",
+                "perception": "+6"
             },
-            "passive": 18,
+            "passive": 16,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "9",
+            "cr": "7",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -27082,7 +27082,7 @@
                 {
                     "name": "Lines and Squares",
                     "entries": [
-                        "The phalanx can use half its movement to reshape itself from a 20-foot square into a 30-foot-long, 10-foot-wide line or vice versa."
+                        "The phalanx can use half its movement to reshape itself from a 15-foot square into a 25-foot-long, 10-foot-wide line or vice versa."
                     ]
                 },
                 {
@@ -27096,19 +27096,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Phalanx makes two weapon attacks."
+                        "The phalanx makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Pike",
+                    "name": "Pikes and Spears",
                     "entries": [
-                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) piercing damage or {@h}23 ({@damage 3d10 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Slings",
+                    "name": "Javelins",
                     "entries": [
-                        "{@atk mw,rw} {@hit 6} to hit, range 30/120 ft., one target. {@h}32 ({@damage 8d6 + 4}) piercing damage or {@h}18 ({@damage 4d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 9} to hit, range 30/120 ft., one target. {@h}27 ({@damage 6d6 + 6}) piercing damage or {@h}17 ({@damage 3d6 + 6}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -27231,36 +27231,36 @@
                 {
                     "ac": 18,
                     "from": [
-                        "{@item Linen Armor|J:General}, {@item shield}"
+                        "{@item Linen Armor|J:General}, {@item Shield|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 187,
-                "formula": "22d12+44"
+                "average": 144,
+                "formula": "18d12+27"
             },
             "speed": {
                 "walk": 25
             },
-            "str": 26,
-            "dex": 18,
-            "con": 18,
+            "str": 24,
+            "dex": 19,
+            "con": 16,
             "int": 10,
-            "wis": 18,
+            "wis": 16,
             "cha": 12,
             "save": {
-                "str": "+12",
+                "str": "+11",
                 "dex": "+8"
             },
             "skill": {
-                "athletics": "+12",
-                "perception": "+8"
+                "athletics": "+11",
+                "perception": "+7"
             },
-            "passive": 20,
+            "passive": 17,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "11",
+            "cr": "9",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -27303,19 +27303,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Phalanx makes two weapon attacks."
+                        "The phalanx makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Pike",
+                    "name": "Pikes and Spears",
                     "entries": [
-                        "{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}53 ({@damage 10d10 + 8}) piercing damage or {@h}31 ({@damage 5d10 + 8}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) piercing damage or {@h}29 ({@damage 4d10 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Slings",
+                    "name": "Javelins",
                     "entries": [
-                        "{@atk mw,rw} {@hit 10} to hit, range 30/120 ft., one target. {@h}39 ({@damage 10d6 + 4}) piercing damage or {@h}22 ({@damage 5d6 + 4}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 11} to hit, range 30/120 ft., one target. {@h}35 ({@damage 8d6 + 7}) piercing damage or {@h}21 ({@damage 4d6 + 7}) piercing damage if the phalanx is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
@@ -27419,7 +27419,7 @@
             ]
         },
         {
-            "name": "Ship Crew (Basic)",
+            "name": "Artillery Battalion (Basic)",
             "source": "J:Humanoids",
             "size": "L",
             "type": {
@@ -27427,1125 +27427,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "crew",
-                    "support"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 12,
-                    "from": [
-                        "unarmored"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 25,
-                "formula": ""
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 12,
-            "dex": 14,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+4"
-            },
-            "passive": 11,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "1",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Humanoid Swarm",
-                    "entries": [
-                        "As a group of humanoids, the swarm has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Crew the Ship",
-                    "entries": [
-                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Knives and Axes",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) bludgeoning or slashing damage or {@h}8 ({@damage 1d10 + 2}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Volley",
-                    "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage or {@h}7 ({@damage 1d6 + 2}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Grappling Hooks (3/Day)",
-                    "entries": [
-                        "{@atk rw} {@hit 4} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "B",
-                "S",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant: Crew Actions vs Ship Actions",
-                    "entries": [
-                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
-                        {
-                            "name": "Crew Actions",
-                            "entries": [
-                                "While on board a ship they control, the ship crew takes one of the following actions:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        {
-                                            "name": "Move",
-                                            "entries": [
-                                                "The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Fire",
-                                            "entries": [
-                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 1d10} damage if the ship crew has more than half its hit points."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Repair",
-                                            "entries": [
-                                                "The ship crew touches a component or weapon of the vehicle and restores 10 hit points it, or 5 hit points if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Brace",
-                                            "entries": [
-                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
-                    "entries": [
-                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "entries",
-                                    "name": "Arcane Warriors",
-                                    "entries": [
-                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Arsonists",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Breath Weapon",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Darkvision",
-                                    "entries": [
-                                        "The swarm has darkvision out to 60 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Enhanced Movement",
-                                    "entries": [
-                                        "The swarm has a climbing or swimming speed equal to its walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Heavily Armoured",
-                                    "entries": [
-                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Large",
-                                    "entries": [
-                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Resistance",
-                                    "entries": [
-                                        "The swarm has resistance to a damage type of the DM's choice."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Small",
-                                    "entries": [
-                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ship Crew (Greater)",
-            "source": "J:Humanoids",
-            "size": "H",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "crew",
-                    "support"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "unarmored"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 50,
-                "formula": ""
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 14,
-            "dex": 16,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+5"
-            },
-            "passive": 11,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "3",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Humanoid Swarm",
-                    "entries": [
-                        "As a group of humanoids, the swarm has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Crew the Ship",
-                    "entries": [
-                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Knives and Axes",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}25 ({@damage 4d10 + 3}) bludgeoning or slashing damage or {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Volley",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage or {@h}9 ({@damage 2d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Grappling Hooks (3/Day)",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "B",
-                "S",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant: Crew Actions vs Ship Actions",
-                    "entries": [
-                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
-                        {
-                            "name": "Crew Actions",
-                            "entries": [
-                                "While on board a ship they control, the ship crew takes one of the following actions:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        {
-                                            "name": "Move",
-                                            "entries": [
-                                                "The ship moves up to 20 feet, or 10 feet if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Fire",
-                                            "entries": [
-                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 2d10} damage if the ship crew has more than half its hit points."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Repair",
-                                            "entries": [
-                                                "The ship crew touches a component or weapon of the vehicle and restores 20 hit points it, or 10 hit points if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Brace",
-                                            "entries": [
-                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
-                    "entries": [
-                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "entries",
-                                    "name": "Arcane Warriors",
-                                    "entries": [
-                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Arsonists",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Breath Weapon",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Darkvision",
-                                    "entries": [
-                                        "The swarm has darkvision out to 60 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Enhanced Movement",
-                                    "entries": [
-                                        "The swarm has a climbing or swimming speed equal to its walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Heavily Armoured",
-                                    "entries": [
-                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Large",
-                                    "entries": [
-                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Resistance",
-                                    "entries": [
-                                        "The swarm has resistance to a damage type of the DM's choice."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Small",
-                                    "entries": [
-                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ship Crew (Superior)",
-            "source": "J:Humanoids",
-            "size": "G",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "crew",
-                    "support"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "unarmored"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 100,
-                "formula": ""
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 14,
-            "dex": 16,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+6"
-            },
-            "passive": 11,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "5",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Humanoid Swarm",
-                    "entries": [
-                        "As a group of humanoids, the swarm has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Crew the Ship",
-                    "entries": [
-                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Knives and Axes",
-                    "entries": [
-                        "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}36 ({@damage 6d10 + 3}) bludgeoning or slashing damage or {@h}20 ({@damage 3d10 + 3}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Volley",
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/90 ft., one target. {@h}24 ({@damage 6d6 + 2}) piercing damage or {@h}14 ({@damage 3d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Grappling Hooks (3/Day)",
-                    "entries": [
-                        "{@atk rw} {@hit 6} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "B",
-                "S",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant: Crew Actions vs Ship Actions",
-                    "entries": [
-                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
-                        {
-                            "name": "Crew Actions",
-                            "entries": [
-                                "While on board a ship they control, the ship crew takes one of the following actions:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        {
-                                            "name": "Move",
-                                            "entries": [
-                                                "The ship moves up to 30 feet, or 15 feet if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Fire",
-                                            "entries": [
-                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 3d10} damage if the ship crew has more than half its hit points."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Repair",
-                                            "entries": [
-                                                "The ship crew touches a component or weapon of the vehicle and restores 30 hit points it, or 15 hit points if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Brace",
-                                            "entries": [
-                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
-                    "entries": [
-                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "entries",
-                                    "name": "Arcane Warriors",
-                                    "entries": [
-                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Arsonists",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Breath Weapon",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Darkvision",
-                                    "entries": [
-                                        "The swarm has darkvision out to 60 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Enhanced Movement",
-                                    "entries": [
-                                        "The swarm has a climbing or swimming speed equal to its walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Heavily Armoured",
-                                    "entries": [
-                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Large",
-                                    "entries": [
-                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Resistance",
-                                    "entries": [
-                                        "The swarm has resistance to a damage type of the DM's choice."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Small",
-                                    "entries": [
-                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Ship Crew (Supreme)",
-            "source": "J:Humanoids",
-            "size": "G",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "crew",
-                    "support"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13,
-                    "from": [
-                        "unarmored"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 150,
-                "formula": ""
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 14,
-            "dex": 18,
-            "con": 10,
-            "int": 10,
-            "wis": 12,
-            "cha": 10,
-            "save": {
-                "dex": "+7"
-            },
-            "passive": 11,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "7",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Humanoid Swarm",
-                    "entries": [
-                        "As a group of humanoids, the swarm has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Crew the Ship",
-                    "entries": [
-                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Knives and Axes",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}48 ({@damage 8d10 + 4}) bludgeoning or slashing damage or {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Volley",
-                    "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}32 ({@damage 8d6 + 2}) piercing damage or {@h}18 ({@damage 4d6 + 3}) piercing damage if the ship crew is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Grappling Hooks (3/Day)",
-                    "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 25 feet towards the ship crew."
-                    ]
-                }
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "B",
-                "S",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant: Crew Actions vs Ship Actions",
-                    "entries": [
-                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
-                        {
-                            "name": "Crew Actions",
-                            "entries": [
-                                "While on board a ship they control, the ship crew takes one of the following actions:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        {
-                                            "name": "Move",
-                                            "entries": [
-                                                "The ship moves up to 50 feet, or 25 feet if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Fire",
-                                            "entries": [
-                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals an additional {@dice 4d10} damage if the ship crew has more than half its hit points."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Repair",
-                                            "entries": [
-                                                "The ship crew touches a component or weapon of the vehicle and restores 40 hit points it, or 20 hit points if the ship crew has half of its hit points or fewer."
-                                            ]
-                                        },
-                                        {
-                                            "name": "Brace",
-                                            "entries": [
-                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage."
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
-                    "entries": [
-                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "entries",
-                                    "name": "Arcane Warriors",
-                                    "entries": [
-                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Arsonists",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Breath Weapon",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Darkvision",
-                                    "entries": [
-                                        "The swarm has darkvision out to 60 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Enhanced Movement",
-                                    "entries": [
-                                        "The swarm has a climbing or swimming speed equal to its walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Heavily Armoured",
-                                    "entries": [
-                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Large",
-                                    "entries": [
-                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Resistance",
-                                    "entries": [
-                                        "The swarm has resistance to a damage type of the DM's choice."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Small",
-                                    "entries": [
-                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Mob (Basic)",
-            "source": "J:Humanoids",
-            "size": "L",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "mob",
-                    "skirmisher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "{@item Leather Armor|XPHB}"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 45,
-                "formula": "6d12+6"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 14,
-            "dex": 16,
-            "con": 14,
-            "int": 11,
-            "wis": 12,
-            "cha": 13,
-            "save": {
-                "str": "+4",
-                "dex": "+5"
-            },
-            "skill": {
-                "athletics": "+4",
-                "perception": "+3"
-            },
-            "passive": 13,
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "cr": "3",
-            "conditionImmune": [
-                "charmed",
-                "flanked",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "prone",
-                "restrained"
-            ],
-            "trait": [
-                {
-                    "name": "Humanoid Swarm",
-                    "entries": [
-                        "As a group of humanoids, the swarm has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
-                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The mob makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Shivs and Stools",
-                    "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}17 ({@damage 3d8 + 3}) bludgeoning or slashing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Bottles and Bricks",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}14 ({@damage 3d6 + 3}) bludgeoning or slashing damage or {@h}7 ({@damage 1d6 + 3}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Rip and Tear",
-                    "entries": [
-                        "A creature in the mob's space starts {@condition bleeding|J:general}."
-                    ]
-                },
-                {
-                    "name": "Reckless Indulgence",
-                    "entries": [
-                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
-                    ]
-                }
-            ],
-            "variant": [
-                {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
-                    "entries": [
-                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "entries",
-                                    "name": "Arcane Warriors",
-                                    "entries": [
-                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Arsonists",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Breath Weapon",
-                                    "entries": [
-                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Darkvision",
-                                    "entries": [
-                                        "The swarm has darkvision out to 60 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Enhanced Movement",
-                                    "entries": [
-                                        "The swarm has a climbing or swimming speed equal to its walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Heavily Armoured",
-                                    "entries": [
-                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Large",
-                                    "entries": [
-                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Resistance",
-                                    "entries": [
-                                        "The swarm has resistance to a damage type of the DM's choice."
-                                    ]
-                                },
-                                {
-                                    "type": "entries",
-                                    "name": "Small",
-                                    "entries": [
-                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "languageTags": [
-                "C"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Mob (Greater)",
-            "source": "J:Humanoids",
-            "size": "H",
-            "type": {
-                "type": "humanoid",
-                "swarmSize": "M",
-                "tags": [
-                    "swarm",
-                    "mob",
-                    "skirmisher"
+                    "artillery battalion",
+                    "artillery"
                 ]
             },
             "alignment": [
@@ -28555,32 +27438,233 @@
                 {
                     "ac": 15,
                     "from": [
-                        "{@item Leather Armor|XPHB}"
+                        "{@item Padded Armor|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 80,
-                "formula": "10d12+15"
+                "average": 42,
+                "formula": "6d10+9"
             },
             "speed": {
-                "walk": 35
+                "walk": 30
             },
-            "str": 14,
+            "str": 16,
             "dex": 18,
             "con": 16,
-            "int": 11,
-            "wis": 12,
-            "cha": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
             "save": {
                 "str": "+5",
-                "dex": "+7"
+                "dex": "+6"
             },
             "skill": {
                 "athletics": "+5",
-                "perception": "+4"
+                "perception": "+6"
             },
-            "passive": 14,
+            "passive": 16,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The battalion makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Sidearms",
+                    "entries": [
+                        "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d10 + 4}) slashing damage or {@h}10 ({@damage 1d10 + 4}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning or piercing damage or {@h}8 ({@damage 1d6 + 4}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Fire Volley (3/Day)",
+                    "entries": [
+                        "Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 4d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Fire at Will",
+                    "entries": [
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "actionTags": [
+                "Multiattack"
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Artillery Battalion (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "artillery battalion",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "{@item Padded Armor|XPHB}"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 76,
+                "formula": "10d10+15"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 17,
+            "dex": 20,
+            "con": 16,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
+            "save": {
+                "str": "+6",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+6"
+            },
+            "passive": 16,
             "languages": [
                 "any three languages (typically including common)"
             ],
@@ -28615,33 +27699,33 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The mob makes two weapon attacks."
+                        "The battalion makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shivs and Stools",
+                    "name": "Sidearms",
                     "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning or slashing damage or {@h}13 ({@damage 2d8 + 4}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}27 ({@damage 4d10 + 5}) slashing damage or {@h}16 ({@damage 2d10 + 5}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Bottles and Bricks",
+                    "name": "Slings and Arrows",
                     "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) bludgeoning or slashing damage or {@h}11 ({@damage 2d6 + 4}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}19 ({@damage 4d6 + 5}) bludgeoning or piercing damage or {@h}12 ({@damage 2d6 + 5}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Fire Volley (3/Day)",
+                    "entries": [
+                        "Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 5d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
                     ]
                 }
             ],
-            "bonus": [
+            "reaction": [
                 {
-                    "name": "Rip and Tear",
+                    "name": "Fire at Will",
                     "entries": [
-                        "A creature in the mob's space starts {@condition bleeding|J:general}."
-                    ]
-                },
-                {
-                    "name": "Reckless Indulgence",
-                    "entries": [
-                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
                     ]
                 }
             ],
@@ -28737,16 +27821,16 @@
             ]
         },
         {
-            "name": "Mob (Superior)",
+            "name": "Artillery Battalion (Superior)",
             "source": "J:Humanoids",
-            "size": "G",
+            "size": "H",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "mob",
-                    "skirmisher"
+                    "artillery battalion",
+                    "artillery"
                 ]
             },
             "alignment": [
@@ -28754,34 +27838,34 @@
             ],
             "ac": [
                 {
-                    "ac": 16,
+                    "ac": 17,
                     "from": [
-                        "{@item Leather Armor|J:General}"
+                        "{@item Padded Armor|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 112,
-                "formula": "14d12+21"
+                "average": 98,
+                "formula": "14d10+21"
             },
             "speed": {
-                "walk": 35
+                "walk": 30
             },
-            "str": 16,
-            "dex": 20,
+            "str": 18,
+            "dex": 22,
             "con": 16,
-            "int": 11,
-            "wis": 12,
-            "cha": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
             "save": {
-                "str": "+6",
-                "dex": "+8"
+                "str": "+7",
+                "dex": "+9"
             },
             "skill": {
-                "athletics": "+6",
-                "perception": "+4"
+                "athletics": "+9",
+                "perception": "+6"
             },
-            "passive": 14,
+            "passive": 16,
             "languages": [
                 "any three languages (typically including common)"
             ],
@@ -28816,33 +27900,33 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The mob makes two weapon attacks."
+                        "The battalion makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shivs and Stools",
+                    "name": "Sidearms",
                     "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or slashing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}39 ({@damage 6d10 + 6}) slashing damage or {@h}23 ({@damage 3d10 + 6}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Bottles and Bricks",
+                    "name": "Slings and Arrows",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) bludgeoning or slashing damage or {@h}16 ({@damage 3d6 + 5}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 9} to hit, range 150/600 ft., one target. {@h}27 ({@damage 6d6 + 6}) bludgeoning or piercing damage or {@h}17 ({@damage 3d6 + 6}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Fire Volley (3/Day)",
+                    "entries": [
+                        "Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 6d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
                     ]
                 }
             ],
-            "bonus": [
+            "reaction": [
                 {
-                    "name": "Rip and Tear",
+                    "name": "Fire at Will",
                     "entries": [
-                        "A creature in the mob's space starts {@condition bleeding|J:general}."
-                    ]
-                },
-                {
-                    "name": "Reckless Indulgence",
-                    "entries": [
-                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
                     ]
                 }
             ],
@@ -28938,7 +28022,7 @@
             ]
         },
         {
-            "name": "Mob (Supreme)",
+            "name": "Artillery Battalion (Supreme)",
             "source": "J:Humanoids",
             "size": "G",
             "type": {
@@ -28946,8 +28030,8 @@
                 "swarmSize": "M",
                 "tags": [
                     "swarm",
-                    "mob",
-                    "skirmisher"
+                    "artillery battalion",
+                    "artillery"
                 ]
             },
             "alignment": [
@@ -28955,34 +28039,34 @@
             ],
             "ac": [
                 {
-                    "ac": 17,
+                    "ac": 18,
                     "from": [
-                        "{@item Leather Armor|J:General}"
+                        "{@item Padded Armor|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 144,
-                "formula": "18d12+27"
+                "average": 126,
+                "formula": "14d10+21"
             },
             "speed": {
-                "walk": 35
+                "walk": 30
             },
-            "str": 18,
-            "dex": 22,
+            "str": 19,
+            "dex": 24,
             "con": 16,
-            "int": 11,
-            "wis": 12,
-            "cha": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
             "save": {
-                "str": "+7",
-                "dex": "+10"
+                "str": "+8",
+                "dex": "+11"
             },
             "skill": {
-                "athletics": "+7",
-                "perception": "+4"
+                "athletics": "+8",
+                "perception": "+7"
             },
-            "passive": 14,
+            "passive": 17,
             "languages": [
                 "any three languages (typically including common)"
             ],
@@ -29017,33 +28101,33 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The mob makes two weapon attacks."
+                        "The battalion makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shivs and Stools",
+                    "name": "Sidearms",
                     "entries": [
-                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or slashing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d10 + 7}) slashing damage or {@h}29 ({@damage 4d10 + 7}) slashing damage if the battalion is {@variantrule Bloodied|XPHB}."
                     ]
                 },
                 {
-                    "name": "Bottles and Bricks",
+                    "name": "Slings and Arrows",
                     "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) bludgeoning or slashing damage or {@h}20 ({@damage 4d6 + 6}) bludgeoning or slashing damage if the mob is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 11} to hit, range 150/600 ft., one target. {@h}35 ({@damage 8d6 + 7}) bludgeoning or piercing damage or {@h}21 ({@damage 4d6 + 7}) bludgeoning or piercing damage if the battalion is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Fire Volley (3/Day)",
+                    "entries": [
+                        "Each creature within 15 feet of a point the battalion can see within 150 feet must make a Dexterity saving (DC equals 8 + PB + Dexterity modifier) or take {@damage 7d8} bludgeoning or piercing damage and be slowed until the start of the unit's next turn. On a success, a creature takes half damage and is only hampered for the duration instead,"
                     ]
                 }
             ],
-            "bonus": [
+            "reaction": [
                 {
-                    "name": "Rip and Tear",
+                    "name": "Fire at Will",
                     "entries": [
-                        "A creature in the mob's space starts {@condition bleeding|J:general}."
-                    ]
-                },
-                {
-                    "name": "Reckless Indulgence",
-                    "entries": [
-                        "Influenced by powerful substances or emotions, the mob's attack rolls have advantage until the start of its next turn. Attacks rolls against the mob have advantage for the same duration."
+                        "When a creature the battalion can see ends its turn within 150 feet of the battalion but not closer than 30 feet, the battalion can make a ranged weapon attack against them."
                     ]
                 }
             ],
@@ -29163,8 +28247,8 @@
                 }
             ],
             "hp": {
-                "average": 75,
-                "formula": "10d12+10"
+                "average": 39,
+                "formula": "6d10+6"
             },
             "speed": {
                 "walk": 40
@@ -29176,18 +28260,18 @@
             "wis": 12,
             "cha": 16,
             "save": {
-                "str": "+7",
-                "dex": "+5"
+                "str": "+6",
+                "dex": "+4"
             },
             "skill": {
-                "athletics": "+7",
-                "perception": "+4"
+                "athletics": "+6",
+                "perception": "+3"
             },
-            "passive": 14,
+            "passive": 13,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "5",
+            "cr": "3",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -29224,13 +28308,15 @@
                 {
                     "name": "Spears and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}22 ({@damage 4d8 + 4}) slashing or piercing damage or {@h}13 ({@damage 2d8 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing or piercing damage or {@h}9 ({@damage 1d8 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
                     "name": "Barrage",
                     "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d6 + 4}) slashing or piercing damage or {@h}11 ({@damage 2d6 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 4} to hit, range 30/90 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing or piercing damage or {@h}8 ({@damage 1d6 + 4}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
@@ -29365,21 +28451,21 @@
                 }
             ],
             "hp": {
-                "average": 105,
-                "formula": "14d12+14"
+                "average": 65,
+                "formula": "10d10+10"
             },
             "speed": {
                 "walk": 40
             },
             "str": 20,
-            "dex": 16,
+            "dex": 14,
             "con": 14,
             "int": 11,
             "wis": 12,
-            "cha": 18,
+            "cha": 17,
             "save": {
                 "str": "+8",
-                "dex": "+6"
+                "dex": "+5"
             },
             "skill": {
                 "athletics": "+8",
@@ -29389,7 +28475,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "7",
+            "cr": "5",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -29426,13 +28512,15 @@
                 {
                     "name": "Spears and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}32 ({@damage 6d8 + 5}) slashing or piercing damage or {@h}19 ({@damage 3d8 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing or piercing damage or {@h}14 ({@damage 2d8 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
                     "name": "Barrage",
                     "entries": [
-                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}26 ({@damage 6d6 + 5}) slashing or piercing damage or {@h}16 ({@damage 3d6 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}19 ({@damage 4d6 + 5}) slashing or piercing damage or {@h}12 ({@damage 2d6 + 5}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
@@ -29545,7 +28633,7 @@
         {
             "name": "Warband (Superior)",
             "source": "J:Humanoids",
-            "size": "G",
+            "size": "H",
             "type": {
                 "type": "humanoid",
                 "swarmSize": "M",
@@ -29562,36 +28650,36 @@
                 {
                     "ac": 16,
                     "from": [
-                        "{@item Scale Mail|XPHB}"
+                        "{@item Chain Shirt|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 135,
-                "formula": "18d12+18"
+                "average": 91,
+                "formula": "14d10+14"
             },
             "speed": {
                 "walk": 40
             },
             "str": 22,
-            "dex": 18,
+            "dex": 16,
             "con": 14,
             "int": 11,
             "wis": 12,
             "cha": 18,
             "save": {
-                "str": "+10",
-                "dex": "+7"
+                "str": "+9",
+                "dex": "+6"
             },
             "skill": {
-                "athletics": "+10",
-                "perception": "+5"
+                "athletics": "+9",
+                "perception": "+4"
             },
-            "passive": 15,
+            "passive": 14,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "9",
+            "cr": "7",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -29628,13 +28716,15 @@
                 {
                     "name": "Spears and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}42 ({@damage 8d8 + 6}) slashing or piercing damage or {@h}24 ({@damage 4d8 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}33 ({@damage 6d8 + 6}) slashing or piercing damage or {@h}20 ({@damage 3d8 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
                     "name": "Barrage",
                     "entries": [
-                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}34 ({@damage 8d6 + 6}) slashing or piercing damage or {@h}20 ({@damage 4d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 9} to hit, range 30/90 ft., one target. {@h}27 ({@damage 6d6 + 6}) slashing or piercing damage or {@h}17 ({@damage 3d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
@@ -29764,36 +28854,36 @@
                 {
                     "ac": 16,
                     "from": [
-                        "{@item Scale Mail|XPHB}"
+                        "{@item Chain Shirt|XPHB}"
                     ]
                 }
             ],
             "hp": {
-                "average": 165,
-                "formula": "22d12+22"
+                "average": 117,
+                "formula": "18d10+18"
             },
             "speed": {
                 "walk": 40
             },
             "str": 24,
-            "dex": 18,
+            "dex": 16,
             "con": 14,
             "int": 11,
             "wis": 12,
-            "cha": 20,
+            "cha": 19,
             "save": {
-                "str": "+12",
-                "dex": "+8"
+                "str": "+11",
+                "dex": "+7"
             },
             "skill": {
-                "athletics": "+12",
+                "athletics": "+11",
                 "perception": "+5"
             },
             "passive": 15,
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "cr": "11",
+            "cr": "9",
             "conditionImmune": [
                 "charmed",
                 "flanked",
@@ -29830,13 +28920,15 @@
                 {
                     "name": "Spears and Axes",
                     "entries": [
-                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}52 ({@damage 10d8 + 7}) slashing or piercing damage or {@h}30 ({@damage 4d8 + 7}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}51 ({@damage 8d8 + 7}) slashing or piercing damage or {@h}29 ({@damage 8d8 + 7}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
                     "name": "Barrage",
                     "entries": [
-                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}42 ({@damage 10d6 + 7}) slashing or piercing damage or {@h}35 ({@damage 8d6 + 7}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}."
+                        "{@atk rw} {@hit 9} to hit, range 30/90 ft., one target. {@h}35 ({@damage 8d6 + 6}) slashing or piercing damage or {@h}21 ({@damage 4d6 + 6}) slashing or piercing damage if the warband is {@variantrule Bloodied|XPHB}.",
+                        "This attack deals an additional PB damage if the target is {@condition frightened|XPHB} by the warband"
                     ]
                 },
                 {
@@ -29944,6 +29036,946 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ]
+        },
+        {
+            "name": "Ship Crew (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "ship crew",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 45,
+                "formula": "6d12+6"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Knives and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d10 + 3}) bludgeoning or slashing damage or {@h}10 ({@damage 1d10 + 3}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/90 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning or piercing damage or {@h}8 ({@damage 1d8 + 3}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks (3/Day)",
+                    "entries": [
+                        "{@atk rw} {@hit 5} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "ship crew",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 75,
+                "formula": "10d12+10"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+5",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Knives and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}26 ({@damage 4d10 + 4}) bludgeoning or slashing damage or {@h}15 ({@damage 2d10 + 4}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 30/90 ft., one target. {@h}18 ({@damage 4d8 + 4}) bludgeoning or piercing damage or {@h}11 ({@damage 2d8 + 4}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks (3/Day)",
+                    "entries": [
+                        "{@atk rw} {@hit 7} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Superior)",
+            "source": "J:Humanoids",
+            "size": "H",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "ship crew",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 105,
+                "formula": "14d12+14"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+6",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Knives and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}38 ({@damage 6d10 + 5}) bludgeoning or slashing damage or {@h}23 ({@damage 3d10 + 5}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 30/90 ft., one target. {@h}32 ({@damage 6d8 + 5}) bludgeoning or piercing damage or {@h}19 ({@damage 3d8 + 5}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks (3/Day)",
+                    "entries": [
+                        "{@atk rw} {@hit 8} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "ship crew",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "unarmored"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 135,
+                "formula": "18d12+18"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 17,
+            "dex": 22,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+7",
+                "dex": "+10"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+5"
+            },
+            "passive": 14,
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "trait": [
+                {
+                    "name": "Humanoid Swarm",
+                    "entries": [
+                        "As a group of humanoids, the swarm has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Medium creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+                                "While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the swarm is missing hit points another creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and restoring a number of hit points to the swarm equal to five times its CR."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Knives and Axes",
+                    "entries": [
+                        "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}50 ({@damage 8d10 + 6}) bludgeoning or slashing damage or {@h}28 ({@damage 4d10 + 6}) bludgeoning or slashing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atk rw} {@hit 10} to hit, range 30/90 ft., one target. {@h}42 ({@damage 8d8 + 6}) bludgeoning or piercing damage or {@h}24 ({@damage 4d8 + 6}) bludgeoning or piercing damage if the crew is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks (3/Day)",
+                    "entries": [
+                        "{@atk rw} {@hit 10} to hit, range 30/120 ft., one Large or larger object. {@h}The object is pulled 10xPB feet towards the crew or half as far if the crew is {@variantrule Bloodied|XPHB}.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the crew, the target cannot move away from the crew until a creature within 5 feet uses an action to remove the hooks or the crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C"
+            ],
+            "damageTags": [
+                "B",
+                "S",
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to 50% the crew's remaining hit points (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to 20% of the crew's remaining hit points (minimum of 1) on a hit."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to 25% of the crew's remaining hit points (minimum of 1)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Variant Humanoid Swarms",
+                    "entries": [
+                        "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The swarm has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The swarm has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The swarm has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
