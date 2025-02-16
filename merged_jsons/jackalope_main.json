@@ -550,13 +550,13 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.15.16.40",
+                "version": "2025.02.16.15.10",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739637626.5546129
+        "dateLastModified": 1739718645.1023827
     },
     "class": [
         {
@@ -21941,8 +21941,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -22155,8 +22155,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -22369,8 +22369,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -22583,8 +22583,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -22791,8 +22791,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -22999,8 +22999,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -23207,8 +23207,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -23415,8 +23415,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -23625,8 +23625,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -23700,6 +23700,55 @@
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Swarm",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        " Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
                                     ]
                                 }
                             ]
@@ -23836,8 +23885,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -23911,6 +23960,55 @@
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Swarm",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        " Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
                                     ]
                                 }
                             ]
@@ -24047,8 +24145,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -24122,6 +24220,55 @@
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Swarm",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        " Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
                                     ]
                                 }
                             ]
@@ -24258,8 +24405,8 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -24333,6 +24480,55 @@
                                     "name": "Small",
                                     "entries": [
                                         "The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Swarm",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        " Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
                                     ]
                                 }
                             ]
@@ -24472,7 +24668,7 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
+                    "type": "variant",
                     "name": "Variant: Crew Actions vs Ship Actions",
                     "entries": [
                         "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
@@ -24514,8 +24710,8 @@
                     ]
                 },
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -24714,7 +24910,7 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
+                    "type": "variant",
                     "name": "Variant: Crew Actions vs Ship Actions",
                     "entries": [
                         "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
@@ -24756,8 +24952,8 @@
                     ]
                 },
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -24956,7 +25152,7 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
+                    "type": "variant",
                     "name": "Variant: Crew Actions vs Ship Actions",
                     "entries": [
                         "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
@@ -24998,8 +25194,8 @@
                     ]
                 },
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
@@ -25198,7 +25394,7 @@
             ],
             "variant": [
                 {
-                    "type": "inset",
+                    "type": "variant",
                     "name": "Variant: Crew Actions vs Ship Actions",
                     "entries": [
                         "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
@@ -25240,8 +25436,8 @@
                     ]
                 },
                 {
-                    "type": "inset",
-                    "name": "Variant Humanoid Swarms",
+                    "type": "variant",
+                    "name": "Humanoid Swarms",
                     "entries": [
                         "At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
                         {
