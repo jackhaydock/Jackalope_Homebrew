@@ -490,7 +490,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.15.16.31",
+                "version": "2025.02.22.21.08",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1739718645.7201474
+        "dateLastModified": 1740258601.192989
     },
     "class": [
         {
@@ -8484,6 +8484,35 @@
             ]
         },
         {
+            "name": "Wargaming Set",
+            "source": "J:General",
+            "type": "GS|XPHB",
+            "rarity": "none",
+            "value": 100,
+            "entries": [
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "name": "Ability:",
+                            "type": "item",
+                            "entries": [
+                                "Wisdom"
+                            ]
+                        },
+                        {
+                            "name": "Utilize:",
+                            "type": "item",
+                            "entries": [
+                                "Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Horn of the Commander",
             "source": "J:General",
             "rarity": "rare",
@@ -9524,6 +9553,74 @@
             "category": "FS",
             "entries": [
                 "Being {@condition prone|xphb} does not impose disadvantage on your weapon attack rolls."
+            ]
+        },
+        {
+            "name": "Wargamer",
+            "source": "J:General",
+            "prerequisite": [
+                {
+                    "level": 4,
+                    "ability": [
+                        {
+                            "wis": 13
+                        }
+                    ]
+                },
+                {
+                    "level": 4,
+                    "ability": [
+                        {
+                            "int": 13
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "wis",
+                            "int"
+                        ]
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "painter's supplies": true,
+                    "wargaming set|J:general": true
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Hobbyist",
+                            "entries": [
+                                "You gain proficiency with {@item Painter's Supplies|XPHB} and {@item Wargaming Set|J:General|Wargaming Sets} if you don't already have them."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Painted Armies",
+                            "entries": [
+                                "When you finish a Long Rest, with {@item Painter's Supplies|XPHB} and a {@item Wargaming Set|J:General} in hand, you can improve the Wargaming Set by painting the armies in it. When you do so, the value of the set increases by 10gp and grants you a +1 bonus to ability checks made using it."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Scale Models of War",
+                            "entries": [
+                                "When you finish a Long Rest, with a {@item Wargaming Set|J:General} in hand, you can play games in preparation for upcoming battles. When you do so, choose up to six creatures of your choice who participate in or witness the games (which can include yourself). The chosen creatures gain a bonus to initiative rolls and the first attack roll they make in the first round of combat. This bonus is equal to the modifier of the ability you increased with this feat and lasts until a creature finishes their next Long Rest."
+                            ]
+                        }
+                    ]
+                }
             ]
         }
     ],

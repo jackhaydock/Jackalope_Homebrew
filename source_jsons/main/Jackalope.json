@@ -574,6 +574,74 @@
 			"entries": [
 				"Being {@condition prone|xphb} does not impose disadvantage on your weapon attack rolls."
 			]
+		},
+		{
+			"name": "Wargamer",
+			"source": "J:General",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"int": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"int"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"painter's supplies": true,
+					"wargaming set|J:general": true
+				}
+			],				
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Hobbyist",
+							"entries": [
+								"You gain proficiency with {@item Painter's Supplies|XPHB} and {@item Wargaming Set|J:General|Wargaming Sets} if you don't already have them."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Painted Armies",
+							"entries": [
+								"When you finish a Long Rest, with {@item Painter's Supplies|XPHB} and a {@item Wargaming Set|J:General} in hand, you can improve the Wargaming Set by painting the armies in it. When you do so, the value of the set increases by 10gp and grants you a +1 bonus to ability checks made using it."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Scale Models of War",
+							"entries": [
+								"When you finish a Long Rest, with a {@item Wargaming Set|J:General} in hand, you can play games in preparation for upcoming battles. When you do so, choose up to six creatures of your choice who participate in or witness the games (which can include yourself). The chosen creatures gain a bonus to initiative rolls and the first attack roll they make in the first round of combat. This bonus is equal to the modifier of the ability you increased with this feat and lasts until a creature finishes their next Long Rest."
+							]
+						}							
+					]
+				}
+			]
 		}
 	],
 	"item": [
@@ -2193,6 +2261,35 @@
 					"entries": [
 						"This item is cursed. When you cast the spell, the plants you speak to are aware the flute is made of wood and may react poorly, showing disgust, fear or even hatred towards you, though others may be indifferent at the DM's discretion.",
 						"If the plants are unfriendly to you, make a DC 10 Charisma (Nature) check. On a fail, the plants become agressively hostile to you, not only refusing to help you but hindering you in ways allowed by the spell for its duration, such as lying to you , placing difficult terrain in your path or clearing in front of your enemies. Additionally, any plant creatures within 300 feet become hostile to you and know your aproximate location for the duration as well. Each time a creature uses this item to cast the spell after the first, the DC increases by 5. The DC resets to 10 daily at dawn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wargaming Set",
+			"source": "J:General",
+			"type": "GS|XPHB",
+			"rarity": "none",
+			"value": 100,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Ability:",
+							"type": "item",
+							"entries": [
+								"Wisdom"
+							]
+						},
+						{
+							"name": "Utilize:",
+							"type": "item",
+							"entries": [
+								"Discern whether someone is cheating ({@dc 10}), or win the game ({@dc 20})"
+							]
+						}
 					]
 				}
 			]
