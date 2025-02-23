@@ -2868,6 +2868,1038 @@
 				"RW"
 			]
         },
+		{
+            "name": "Cavalry (Basic)",
+            "source": "J:Humanoids",
+            "size": "L",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "cavalry",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item Linen Armor|J:General}, Barding"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "6d10+9"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 16,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+6",
+				"dex": "+4"
+			},
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid and Beast Swarm",
+					"entries": [
+						"As a group of humanoids and beasts, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Large creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another mounted creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and its mount and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalry makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Lances and Sabres",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing or piercing damage or {@h}9 ({@damage 1d8 + 4}) slashing or piercing damage if the cavalry is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Stampede (3/Day)",
+					"entries": [
+						"The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a Strength saving throw (DC equals 8 + PB + Strength modifier) or take {@dice 4d8} bludgeoning damage and be knocked {@condition prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cross the Field",
+					"entries": [
+						"The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+					]
+				},
+				{
+					"name": "Scatter the Infantry",
+					"entries": [
+						"When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a Strength saving throw (DC equals 8 + PB + Strength modifer) or be pushed up to 10 feet away from the target."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "variant",
+					"name": "Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rip and Tear",
+									"entries": [
+										"When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Skinchanger Swarm",
+					"source": "J:AnS",
+					"entries": [
+						"The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Bears, Elephants or Rhinos",
+									"entries": [
+										"Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Boars, Horses or Stags",
+									"entries": [
+										"If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Crabs, Sharks or Squids",
+									"entries": [
+										"The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hyenas, Lions, or Wolves",
+									"entries": [
+										"The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rats, Snakes or Spiders",
+									"entries": [
+										" Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Cavalry (Greater)",
+            "source": "J:Humanoids",
+            "size": "H",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "cavalry",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item Linen Armor|J:General}, Barding"
+					]
+				}
+			],
+			"hp": {
+				"average": 70,
+				"formula": "10d10+15"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 17,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+8",
+				"dex": "+5"
+			},
+			"skill": {
+				"athletics": "+8",
+				"perception": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid and Beast Swarm",
+					"entries": [
+						"As a group of humanoids and beasts, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Large creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another mounted creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and its mount and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalry makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Lances and Sabres",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing or piercing damage or {@h}14 ({@damage 2d8 + 5}) slashing or piercing damage if the cavalry is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Stampede (3/Day)",
+					"entries": [
+						"The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a Strength saving throw (DC equals 8 + PB + Strength modifier) or take {@dice 5d8} bludgeoning damage and be knocked {@condition prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cross the Field",
+					"entries": [
+						"The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+					]
+				},
+				{
+					"name": "Scatter the Infantry",
+					"entries": [
+						"When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a Strength saving throw (DC equals 8 + PB + Strength modifer) or be pushed up to 10 feet away from the target."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "variant",
+					"name": "Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rip and Tear",
+									"entries": [
+										"When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Skinchanger Swarm",
+					"source": "J:AnS",
+					"entries": [
+						"The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Bears, Elephants or Rhinos",
+									"entries": [
+										"Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Boars, Horses or Stags",
+									"entries": [
+										"If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Crabs, Sharks or Squids",
+									"entries": [
+										"The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hyenas, Lions, or Wolves",
+									"entries": [
+										"The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rats, Snakes or Spiders",
+									"entries": [
+										" Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Cavalry (Superior)",
+            "source": "J:Humanoids",
+            "size": "H",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "cavalry",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Linen Armor|J:General}, Barding"
+					]
+				}
+			],
+			"hp": {
+				"average": 105,
+				"formula": "14d10+28"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 18,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+9",
+				"dex": "+6"
+			},
+			"skill": {
+				"athletics": "+9",
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid and Beast Swarm",
+					"entries": [
+						"As a group of humanoids and beasts, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Large creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another mounted creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and its mount and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalry makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Lances and Sabres",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}33 ({@damage 6d8 + 6}) slashing or piercing damage or {@h}20 ({@damage 3d8 + 6}) slashing or piercing damage if the cavalry is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Stampede (3/Day)",
+					"entries": [
+						"The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a Strength saving throw (DC equals 8 + PB + Strength modifier) or take {@dice 6d8} bludgeoning damage and be knocked {@condition prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cross the Field",
+					"entries": [
+						"The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+					]
+				},
+				{
+					"name": "Scatter the Infantry",
+					"entries": [
+						"When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a Strength saving throw (DC equals 8 + PB + Strength modifer) or be pushed up to 10 feet away from the target."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "variant",
+					"name": "Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rip and Tear",
+									"entries": [
+										"When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Skinchanger Swarm",
+					"source": "J:AnS",
+					"entries": [
+						"The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Bears, Elephants or Rhinos",
+									"entries": [
+										"Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Boars, Horses or Stags",
+									"entries": [
+										"If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Crabs, Sharks or Squids",
+									"entries": [
+										"The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hyenas, Lions, or Wolves",
+									"entries": [
+										"The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rats, Snakes or Spiders",
+									"entries": [
+										" Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
+		{
+            "name": "Cavalry (Supreme)",
+            "source": "J:Humanoids",
+            "size": "G",
+			"type": {
+				"type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "swarm",
+                    "cavalry",
+					"skirmisher"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item Linen Armor|J:General}, Barding"
+					]
+				}
+			],
+			"hp": {
+				"average": 135,
+				"formula": "14d10+36"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 24,
+			"dex": 16,
+			"con": 19,
+			"int": 11,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+                "str": "+11",
+				"dex": "+7"
+			},
+			"skill": {
+				"athletics": "+11",
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"any three languages (typically including common)"
+			],
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+			"trait": [
+				{
+					"name": "Humanoid and Beast Swarm",
+					"entries": [
+						"As a group of humanoids and beasts, the swarm has the following effects:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								"The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening wide enough for a Large creature. In addition, the swarm is immune to spells and magic effects that would alter its size.",
+								"While the swarm is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+								"If the swarm is missing hit points another mounted creature within 5 feet that shares a tag (other than Swarm) with the swarm can use its action to merge into the swarm, destroying itself and its mount and restoring a number of hit points to the swarm equal to five times its CR."
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cavalry makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Lances and Sabres",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}51 ({@damage 8d8 + 7}) slashing or piercing damage or {@h}29 ({@damage 4d8 + 7}) slashing or piercing damage if the cavalry is {@variantrule Bloodied|XPHB}."
+					]
+ 				},
+				{
+					"name": "Stampede (3/Day)",
+					"entries": [
+						"The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a Strength saving throw (DC equals 8 + PB + Strength modifier) or take {@dice 7d8} bludgeoning damage and be knocked {@condition prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cross the Field",
+					"entries": [
+						"The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+					]
+				},
+				{
+					"name": "Scatter the Infantry",
+					"entries": [
+						"When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a Strength saving throw (DC equals 8 + PB + Strength modifer) or be pushed up to 10 feet away from the target."
+					]
+				}
+			],
+            "variant": [
+				{
+					"type": "variant",
+					"name": "Humanoid Swarms",
+					"entries": [
+						"At the DM's discretion, a swarm may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Arcane Warriors",
+									"entries": [
+										"The swarm knows a cantrip of the DM's choice that has a casting time of 1 action. If the swarm has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the swarm's spellcasting ability for this cantrip."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Arsonists",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"The swarm can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Darkvision",
+									"entries": [
+										"The swarm has darkvision out to 60 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Enhanced Movement",
+									"entries": [
+										"The swarm has a climbing or swimming speed equal to its walking speed."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Heavily Armoured",
+									"entries": [
+										"The swarm has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Large",
+									"entries": [
+										"The swarm is composed of at least some Large creatures. The swarm's size category is increased by one and it can move through and opening wide enough for a Large creature."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Resistance",
+									"entries": [
+										"The swarm has resistance to a damage type of the DM's choice."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rip and Tear",
+									"entries": [
+										"When the swarm hits a creature in its space with a melee attack, that creature begins {@condition bleeding|J:General}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Small",
+									"entries": [
+										"The swarm is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "variant",
+					"name": "Skinchanger Swarm",
+					"source": "J:AnS",
+					"entries": [
+						"The swarm is composed of skinchangers, some or all of which are in bestial forms. The swarm's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+						{
+							"type": "list",
+							"style": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Bears, Elephants or Rhinos",
+									"entries": [
+										"Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Boars, Horses or Stags",
+									"entries": [
+										"If the swarm moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Crabs, Sharks or Squids",
+									"entries": [
+										"The swarm has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hyenas, Lions, or Wolves",
+									"entries": [
+										"The swarm has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rats, Snakes or Spiders",
+									"entries": [
+										" Once per turn, when the swarm hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the swarm's next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+        },
         {
             "name": "Ship Crew (Basic)",
             "source": "J:Humanoids",
