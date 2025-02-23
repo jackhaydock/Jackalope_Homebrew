@@ -7166,6 +7166,201 @@
 					]
 				}	
 			]
+		},
+		{
+			"name": "Charms, Fears and Taunt Effects",
+			"source": "J:General",
+			"ruleType": "O",
+			"entries": [
+				"At the DM's discretion, when a creature is {@condition charmed|XPHB}, {@condition frightened|XPHB} or {@condition taunted|J:General}, and they wish to impose more specific flavor to the effect, they might have the creature roll on the associated table below. The result of the roll can be used to guide the DM or player in roleplaying the creature and the effects of the condition on their behaviour.",	
+				"Using these effects may be unnecessary when the spell, feature or trait used to impose the condition already provides suitable flavor. The DM may decide to use the below effects instead, in order to distinguish the creature from others using similar means of imposing the conditions.",
+				{
+					"type": "table",
+					"name": "Charmed Effects",
+					"colLabels": [
+						"1d12",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"You are a loyal pet, wanting to please the charmer and earn affection, and maybe treats."
+						],
+						[
+							"2",
+							"Letting the world known your affection for the charmer is extremely important to you. Shout it from the rooftops!"
+						],
+						[
+							"3",
+							"The charmer is an old friend or flame of yours, you long for things to be the way they once were."
+						],
+						[
+							"4",
+							"You've always been looking for new career opportunities, perhaps getting noticed by the charmer will be your big break."
+						],
+						[
+							"5",
+							"There is a question or riddle in your head, and the charmer might be able to answer it for you."
+						],
+						[
+							"6",
+							"You are really hungry or thirsty right now, the charmer can probably give you what you crave."
+						],
+						[
+							"7",
+							"This is all just a fun prank or bit, you really don't want to be seen breaking character."
+						],
+						[
+							"8",
+							"Just like the fairytales, everything will end happily ever after. If only the charmer could realise what you mean to each other."
+						],
+						[
+							"9",
+							"The charmer will be far more useful to you as a willing ally than a dead or offended enemy."
+						],
+						[
+							"10",
+							"You just learned the charmer is protected by a god or powerful figure, and you might incur their wrath if the charmer is harmed or upset."
+						],
+						[
+							"11",
+							"Something about the charmer means the pair of you would make the perfect double act, you have to try and strike a deal with them."
+						],
+						[
+							"12",
+							"The target just mentioned they have a very enticing business proposition for you, a layered scheme that will let you be your own boss."
+						]					
+					]
+				},
+				{
+					"type": "table",
+					"name": "Frightened Effects",
+					"colLabels": [
+						"1d12",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"They know your deepest or most embarrassing secret and might let it slip at any moment if you aren't careful."
+						],
+						[
+							"2",
+							"Oh no, they are so much more powerful than you thought. It might already be too late."
+						],
+						[
+							"3",
+							"What's that under their cloak? Is it a volatile magic device that might kill you all with one wrong move?"
+						],
+						[
+							"4",
+							"You fear this person might be a specific person from your painful past. You are afraid to look, in case you are right."
+						],
+						[
+							"5",
+							"It's a trap!"
+						],
+						[
+							"6",
+							"You are breaking a promise or law by being here. If they recognise you, they might rat you out."
+						],
+						[
+							"7",
+							"There are so many snakes, spiders or other thing triggering a phobia you forgot you had."
+						],
+						[
+							"8",
+							"They have archers hidden nearby, just waiting for you to get closer."
+						],
+						[
+							"9",
+							"You'll be in real trouble if your boss sees you fighting them."
+						],
+						[
+							"10",
+							"You just committed an embarrassing faux pas and need to avoid drawing more attention to yourself."
+						],
+						[
+							"11",
+							"You think they have some horrible contagious disease or are carrying some lethal poison or allergen, you have to stay away."
+						],
+						[
+							"12",
+							"You hear something coming...something dangerous."
+						]					
+					]
+				},
+				{
+					"type": "table",
+					"name": "Taunted Effects",
+					"colLabels": [
+						"1d12",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The taunter just called you or your friend something extremely offensive. You can't remember what it was, but they definitely said it."
+						],
+						[
+							"2",
+							"The taunter is holding or wearing an item that is precious to you, they stole it!"
+						],
+						[
+							"3",
+							"The taunter won't stop laughing, and they are laughing at you."
+						],
+						[
+							"4",
+							"You flash back to a time the taunter bullied or betrayed you."
+						],
+						[
+							"5",
+							"All this horror is just an illusion, you just need to break the taunter's concentration."
+						],
+						[
+							"6",
+							"Someone back home is deathly ill, and the taunter is selfishly hoarding the only cure."
+						],
+						[
+							"7",
+							"Your whole life has been building to this moment, the taunter is the only thing left in your way."
+						],
+						[
+							"8",
+							"The taunter just killed your dog."
+						],
+						[
+							"9",
+							"To establish dominance, you need to take down the toughest guy here, and that's the taunter."
+						],
+						[
+							"10",
+							"The taunter sold you some poor quality copper and was rude to your friend."
+						],
+						[
+							"11",
+							"The taunter has just inadvertently set you up for the perfect trick shot, you can't not take the opportunity."
+						],
+						[
+							"12",
+							"For years, the taunter has been annoying, humiliating and tormenting you. You've finally had enough."
+						]					
+					]
+				}
+			]
 		}
 	]
 }
