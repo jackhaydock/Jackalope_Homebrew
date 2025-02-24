@@ -3171,8 +3171,20 @@
 					"You can cast the {@spell find steed|phb} spell using a warlock spell slot.",
 					"If you use {@variantrule find steed variant|J:Steeds}, you can choose one of the {@filter new steeds|bestiary|source=j:steeds|miscellaneous=} when you take this invocation (Your DM may allow additional steeds)."
 			]
-		}
-		
+		},
+		{
+			"name": "Bloodletting Attack",
+			"source": "J:General",
+			"featureType": [
+				"MV:B"
+			],
+			"consumes": {
+				"name": "Superiority Die"
+			},
+			"entries": [
+				"When you hit a creature with an attack roll using a weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. The creature must make a Constitution saving throw or begin {@condition bleeding|J:General}."
+			]
+		}	
 	],
 	"race": [
 		{
