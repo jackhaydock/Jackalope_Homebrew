@@ -233,6 +233,27 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Dazed",
+			"source": "J:General",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"On a dazed creature's turn it must choose between taking an action, a bonus action or moving, it gets one of the three. If it gets additional actions from another source, such as the {@spell haste|XPHB} spell, it can still take these as normal.",
+						"If a creature becomes dazed on its turn, the condition takes effect immediately, taking into account any actions, bonus actions and movement it has already taken this turn. If it already began one of these before gaining the condition, it can complete it before ending its turn.",
+						"The condition can be removed with a {@spell lesser restoration|XPHB} spell or similar."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flanked",
+			"source": "J:General",
+			"entries": [
+				"If your game uses the optional {@variantrule flanking|DMG} rules, the DM may decide that certain creatures are immune to flanking and attackers do not gain advantage on attack rolls against due to flanking. Such creatures may gain this immunity to having multiple heads, many limbs, many eyes, keen spatial awareness or who cannot be distracted, such as hydras, mariliths, beholders, monks, modrons or other creatures at the DM's discretion."
+			]
 		}
 	],
 	"feat": [
