@@ -5971,6 +5971,68 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Delver's Toolbag",
+			"source": "J:General",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a satchel or backpack"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You are prepared for the obstacles and traps of dungeons and other dangerous locations. For the spell's duration, you can use a bonus action to summon, or dismiss, one of the following items:",
+				{
+					"type": "list",
+					"style": "list",
+					"items": [
+						"A {@item crowbar|XPHB} or {@item miner's pick|PHB}.",
+						"A {@item torch|XPHB} and {@item tinderbox|XPHB}.",
+						"50 feet of {@item rope|XPHB} and a {@item grappling hook|XPHB} or {@item block and tackle|XPHB}.",
+						"A 10-foot {@item pole|XPHB}, {@item ladder|XPHB} or plank.",
+						"A lead weight, steel ball or bag of sand weighing up to 50 lbs.",
+						"A hunk of meat with 1 hit point. Magic effects and spells of 5th-level or lower cannot distiguish between it and a creature with the beast type.",
+						"A small minecart capable of carrying a 5-foot cube of material or a Medium or smaller creature along rails."
+					]
+				},
+				"The items created by this spell are clearly magical, you can wield them with ease regardless of their weight and size and you can throw an item up to 30 feet. You can have up to three items summoned by this spell simultaneously, summoning a fourth dismisses the oldest item. All items vanish when the spell ends."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"vehicle": [
