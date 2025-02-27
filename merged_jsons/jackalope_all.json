@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.27.07.07",
+                "version": "2025.02.27.07.52",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1740640082.7983856
+        "dateLastModified": 1740642804.6735616
     },
     "class": [
         {
@@ -10575,7 +10575,7 @@
                 "type": "point",
                 "distance": {
                     "type": "feet",
-                    "amount": 30
+                    "amount": 60
                 }
             },
             "components": {
@@ -10593,14 +10593,14 @@
                 }
             ],
             "entries": [
-                "You fire a magical dart at an object you can see within range that is Huge or larger, or that is fixed in place (such as a wall or ceiling). The dart remains fixed to the target for the spell's duration, and a 30ft long magic rope extends from the dart to your empty hand. You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks you make using the rope.",
+                "You fire a magical dart at an object you can see within range that is Huge or larger, or that is fixed in place (such as a wall or ceiling). The dart remains fixed to the target for the spell's duration, and a 60-foot long magic rope extends from the dart to your empty hand. You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks you make using the rope.",
                 "When you cast the spell, or as a subsequent bonus action on each of your turns for the spell's duration, you can touch the rope and perform one of the following actions:",
                 {
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": [
-                        "{@b {@i Reel In.}} You reduce the length of the rope by up to 30ft. Any creatures grasping the rope are moved towards the dart by a number of feet equal to the number you reduce the rope by, following the path of the rope. A creature that is not {@condition restrained} by the rope can let go of the rope at any point during this movement to stop moving.",
-                        "{@b {@i Reel Out.}} You extend the length of the rope by up to 30ft (to a maximum of 100ft).",
+                        "{@b {@i Reel In.}} You reduce the length of the rope by up to 30 feet. Any creatures grasping the rope are moved towards the dart by a number of feet equal to the number you reduce the rope by, following the path of the rope. A creature that is not {@condition restrained} by the rope can let go of the rope at any point during this movement to stop moving.",
+                        "{@b {@i Reel Out.}} You extend the length of the rope by up to 30 feet (to a maximum of 120 feet).",
                         "{@b {@i Reshoot.}} The dart and rope vanish, and you fire a new dart at a new target within range."
                     ]
                 }
