@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.05.05.13",
+                "version": "2025.03.05.05.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -556,7 +556,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741151608.9381163
+        "dateLastModified": 1741151956.0561728
     },
     "class": [
         {
@@ -4005,7 +4005,7 @@
             "rarity": "none",
             "value": 15000,
             "entries": [
-                "This carefully crafted item resembles some natural appendage, such as horns, ears, a tail, a finger or similar body part. With Body Modder's Tools in hand, this item can be grafted or implanted onto, or removed from, a willing creature over the course of an hour to modify their appearance. The item is inert and purely cosmetic but otherwise appears natural."
+                "This carefully crafted item resembles some natural appendage, such as horns, ears, a tail, a finger or similar body part. With {@item Body Modder's Tools|J:General} in hand, this item can be grafted or implanted onto, or removed from, a willing creature over the course of an hour to modify their appearance. The item is inert and purely cosmetic but otherwise appears natural."
             ]
         },
         {
@@ -4157,14 +4157,25 @@
             ]
         },
         {
-            "name": "Tome of Body Modder's Tools",
+            "name": "Tool Manual",
             "source": "J:General",
             "wondrous": true,
             "weight": 4,
-            "value": 3000,
+            "value": 10000,
             "rarity": "none",
             "entries": [
-                "This book contains knowledge and instructions for body modification. If you spend 24 hours studying the book's contents (this can be done as light activity during a long rest), you can make a DC 10 Intelligence check. On a success, you gain proficiency with {@item body modder's tools|J:General}. On a fail, you must spend a further 12 hours studying the book to attempt the check again."
+                "This tome contains the knowledge and instructions required to learn a particular tool, instrument or gaming set. With the associated tool in hand, you can spend up to 4 hours a day (which can done as light activity during Short or Long Rests) studying the book's contents. Once you have studied for a total of 24 hours, you can make a {@dc 10} Intelligence check. On a success, you gain Proficiency with the associated tool. On a fail, you must spend a further 12 hours studying the book to attempt the check again."
+            ]
+        },
+        {
+            "name": "Expert Tool Manual",
+            "source": "J:General",
+            "wondrous": true,
+            "weight": 5,
+            "value": 100000,
+            "rarity": "none",
+            "entries": [
+                "This tome contains the knowledge and instructions required to master a particular tool, instrument or gaming set. With Proficiency in the associated tool and the tool itself in hand, you can spend up to 4 hours a day (which can done as light activity during Short or Long Rests) studying the book's contents. Once you have studied for a total of 72 hours, you can make a {@dc 20} Intelligence check. On a success, you gain Expertise with the associated tool. On a fail, you must spend a further 12 hours studying the book to attempt the check again."
             ]
         },
         {
