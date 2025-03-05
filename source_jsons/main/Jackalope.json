@@ -1232,6 +1232,70 @@
 			]
 		},
 		{
+			"name": "Body Modder's Tools (2024)",
+			"source": "J:General",
+			"type": "AT|XPHB",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"name": "Ability:",
+							"type": "item",
+							"entries": [
+								"Wisdom"
+							]
+						},
+						{
+							"name": "Utilize:",
+							"type": "item",
+							"entries": [
+								"Dye, tattoo, scar or pierce a creature's skin or fur ({@dc 10}), give a creature a graft or implant or remove one ({@dc 15}), or determine if part of a creature's appearance is artifical ({@dc 20})"
+							]
+						},
+						{
+							"name": "Craft:",
+							"type": "item",
+							"entries": [
+								"{@item Crude Prosthetic Limb|J:General}, {@item Cosmetic Appendage|J:General}"
+							]
+						},
+						{
+							"name": "Components:",
+							"type": "item",
+							"entries": [
+								"This kit includes needles, syringes, scalpels, gauze and small bottles of various dyes, inks, disinfectants and other chemicals used to safely modify a creature's body with grafts, implants, piercings, scarification and tattoos."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Crude Prosthetic Limb",
+			"source": "J:General",
+			"type": "G",
+			"rarity": "none",
+			"value": 5000,
+			"entries": [
+				"This wood, metal or ceramic prosthetic replaces a lost limb—a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions almost identically to the part it replaces, however, its it clearly artificial and you have disadvantage on ability checks dependant on the limb. You can detach or reattach it as an action, and it can't be removed against your will unless you are incapcitated or dead."
+			]
+		},
+		{
+			"name": "Cosmetic Appendage",
+			"source": "J:General",
+			"type": "G",
+			"rarity": "none",
+			"value": 15000,
+			"entries": [
+				"This carefully crafted item resembles some natural appendage, such as horns, ears, a tail, a finger or similar body part. With Body Modder's Tools in hand, this item can be grafted or implanted onto, or removed from, a willing creature over the course of an hour to modify their appearance. The item is inert and purely cosmetic but otherwise appears natural."
+			]
+		},
+		{
 			"name": "Ring of Folding",
 			"source": "J:General",
 			"rarity": "uncommon",
