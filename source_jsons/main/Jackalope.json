@@ -255,7 +255,7 @@
 			]
 		},
 		{
-			"name": "Beserk",
+			"name": "Berserk",
 			"source": "J:General",
 			"entries": [
 				"The creature has been pushed into an irrational fury or paranoia, wanting to lash out at all around them. Restraining themselves is painfully difficult. When the condition is imposed, associated damage amount is defined, such as Berserk (5) or Berserk (PB).",
@@ -2531,7 +2531,35 @@
 			"entries": [
 				"When you drink this potion, you gain the effects of the {@spell Unreasonable Scale|J:General} spell (no {@status Concentration|XPHB} required)."
 			]
-		}						
+		},
+		{
+			"name": "Wrathblood Poison",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "G",
+			"value": 20000,
+			"poison": true,
+			"poisonTypes": [
+				"injury"
+			],
+			"entries": [
+				"A creature subjected to Wrathblood Poison makes a {@dc 15} Wisdom saving throw or goes {@condition Berserk|J:General} (5) for one minute. The creature can repeat the saving throw at the end of each of its turns (after taking damage from the condition if it would) ending the effect on itself on a success."
+			]
+		},
+		{
+			"name": "Greater Wrathblood Poison",
+			"source": "J:General",
+			"rarity": "none",
+			"type": "G",
+			"value": 75000,
+			"poison": true,
+			"poisonTypes": [
+				"injury"
+			],
+			"entries": [
+				"A creature subjected to Wrathblood Poison makes a {@dc 18} Wisdom saving throw or goes {@condition Berserk|J:General} (10) for one minute. The creature can repeat the saving throw at the end of each of its turns (after taking damage from the condition if it would) ending the effect on itself on a success."
+			]
+		}					
 	],
 	"monster": [
 		{
