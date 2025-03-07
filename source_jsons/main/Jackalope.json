@@ -2404,6 +2404,72 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "+1 Charm of Hunter",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"entries": [
+				"This charm can be worn on your person or attached to a weapon. You gain a +1 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
+				"When you reduce a creature to 0 hit points and that creature is under the effects of your {@spell Hunter's Mark|XPHB} spell (or is of a type associated with your Favored Enemy feature if you are using the Ranger from the 2014 Player's Handbook), you can gain temporary hit points equal to your level plus your Wisdom modifier. Once you use this feature you cannot do so again until the next dawn."
+			],
+			"bonusWeapon": "+1",
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Ranger"
+			]
+		},
+		{
+			"name": "+2 Charm of Hunter",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"entries": [
+				"This charm can be worn on your person or attached to a weapon. You gain a +2 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
+				"When you reduce a creature to 0 hit points and that creature is under the effects of your {@spell Hunter's Mark|XPHB} spell (or is of a type associated with your Favored Enemy feature if you are using the Ranger from the 2014 Player's Handbook), you can gain temporary hit points equal to your level plus your Wisdom modifier. Once you use this feature you cannot do so again until the next dawn."
+			],
+			"bonusWeapon": "+2",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"focus": [
+				"Ranger"
+			]
+		},
+		{
+			"name": "+3 Charm of Hunter",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "very rare",
+			"reqAttune": "by a ranger",
+			"reqAttuneTags": [
+				{
+					"class": "ranger"
+				}
+			],
+			"entries": [
+				"This charm can be worn on your person or attached to a weapon. You gain a +3 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
+				"When you reduce a creature to 0 hit points and that creature is under the effects of your {@spell Hunter's Mark|XPHB} spell (or is of a type associated with your Favored Enemy feature if you are using the Ranger from the 2014 Player's Handbook), you can gain temporary hit points equal to your level plus your Wisdom modifier. Once you use this feature you cannot do so again until the next dawn."
+			],
+			"bonusWeapon": "+3",
+			"bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"focus": [
+				"Ranger"
+			]
 		}							
 	],
 	"monster": [
