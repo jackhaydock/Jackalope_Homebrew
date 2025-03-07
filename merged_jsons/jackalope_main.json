@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.07.08.38",
+                "version": "2025.03.07.08.47",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -556,7 +556,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741336752.1770227
+        "dateLastModified": 1741337292.511541
     },
     "class": [
         {
@@ -5167,6 +5167,57 @@
             "focus": [
                 "Ranger"
             ]
+        },
+        {
+            "name": "+1 Belt of Scoundrel",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a rogue",
+            "reqAttuneTags": [
+                {
+                    "class": "rogue"
+                }
+            ],
+            "entries": [
+                "This specialised belt, bandolier or baldric hides many secrets. When you attune to this item, you can touch up to two weapons with which you are proficient, you might choose to holster these weapons in the belt itself. While wearing this belt, you have a +1 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls), and you have a +1 bonus to the DC of your Cunning Strikes.",
+                "When you use your Cunning Strikes feature, you can do so without reducing the damage of the attack. You can do so twice, regaining all expended uses each dawn."
+            ],
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "+2 Belt of Scoundrel",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a rogue",
+            "reqAttuneTags": [
+                {
+                    "class": "rogue"
+                }
+            ],
+            "entries": [
+                "This specialised belt, bandolier or baldric hides many secrets. When you attune to this item, you can touch up to two weapons with which you are proficient, you might choose to holster these weapons in the belt itself. While wearing this belt, you have a +2 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls), and you have a +2 bonus to the DC of your Cunning Strikes.",
+                "When you use your Cunning Strikes feature, you can do so without reducing the damage of the attack. You can do so twice, regaining all expended uses each dawn."
+            ],
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "+3 Belt of Scoundrel",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a rogue",
+            "reqAttuneTags": [
+                {
+                    "class": "rogue"
+                }
+            ],
+            "entries": [
+                "This specialised belt, bandolier or baldric hides many secrets. When you attune to this item, you can touch up to two weapons with which you are proficient, you might choose to holster these weapons in the belt itself. While wearing this belt, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls), and you have a +3 bonus to the DC of your Cunning Strikes.",
+                "When you use your Cunning Strikes feature, you can do so without reducing the damage of the attack. You can do so twice, regaining all expended uses each dawn."
+            ],
+            "bonusWeapon": "+3"
         },
         {
             "name": "Firearm Bullet",
