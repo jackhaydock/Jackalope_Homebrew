@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.07.09.06",
+                "version": "2025.03.07.15.22",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741338392.796909
+        "dateLastModified": 1741360928.8969417
     },
     "class": [
         {
@@ -7624,6 +7624,16 @@
                 "When you use your Cunning Strikes feature, you can do so without reducing the damage of the attack. You can do so twice, regaining all expended uses each dawn."
             ],
             "bonusWeapon": "+3"
+        },
+        {
+            "name": "Potion of Excessive Growth",
+            "source": "J:General",
+            "rarity": "very rare",
+            "type": "P",
+            "wondrous": true,
+            "entries": [
+                "When you drink this potion, you gain the effects of the {@spell Unreasonable Scale|J:General} spell (no {@status Concentration|XPHB} required)."
+            ]
         },
         {
             "name": "Firearm Bullet",
