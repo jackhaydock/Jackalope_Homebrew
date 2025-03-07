@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.05.05.19",
+                "version": "2025.03.07.08.25",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -676,7 +676,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741151956.191816
+        "dateLastModified": 1741336058.9552932
     },
     "class": [
         {
@@ -22760,8 +22760,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "At the start of each of its turns, the creature takes the associated damage described in parentheses.",
-                        "If the associated damage uses PB, it refers to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell polymorph|PHB} spell, this condition continues to use the bonus at the time the condition was imposed."
+                        "At the start of each of its turns, the creature takes the associated damage described in parentheses. If the associated damage uses PB, it refers to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell Polymorph|XPHB} spell, this condition continues to use the bonus at the time the condition was imposed."
                     ]
                 }
             ]
@@ -22813,6 +22812,22 @@
             "source": "J:General",
             "entries": [
                 "If your game uses the optional {@variantrule flanking|DMG} rules, the DM may decide that certain creatures are immune to flanking and attackers do not gain advantage on attack rolls against due to flanking. Such creatures may gain this immunity to having multiple heads, many limbs, many eyes, keen spatial awareness or who cannot be distracted, such as hydras, mariliths, beholders, monks, modrons or other creatures at the DM's discretion."
+            ]
+        },
+        {
+            "name": "Beserk",
+            "source": "J:General",
+            "entries": [
+                "The creature has been pushed into an irrational fury or paranoia, wanting to lash out at all around them. Restraining themselves is painfully difficult. When the condition is imposed, associated damage amount is defined, such as Berserk (5) or Berserk (PB).",
+                {
+                    "type": "list",
+                    "items": [
+                        "The creature is hostile to all other creatures and has advantage on saving throws against the {@condition Charmed|XPHB} condition.",
+                        "If the creature is also {@condition Taunted|J:General}, it cannot willingly move away from the taunter.",
+                        "At the end of each of its turns, if the creature has not dealt damage to a creature other than itself since the end of its last turn (not counting damage inflicted via the {@condition Lingering|J:General} condition), it takes psychic damage equal to the amount described in parentheses. If the associated damage uses PB, it refers to the Proficiency Bonus of the creature that imposed the condition. If that creature's Proficiency Bonus changes, such as with the {@spell Polymorph|XPHB} spell, this condition continues to use the bonus at the time the condition was imposed.",
+                        "This condition can be removed with the {@spell Calm Emotions|XPHB} or {@spell Greater Restoration|XPHB} spells or similar."
+                    ]
+                }
             ]
         }
     ],
