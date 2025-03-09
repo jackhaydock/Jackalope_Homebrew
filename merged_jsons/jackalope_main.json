@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.09.08.54",
+                "version": "2025.03.09.09.28",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -556,7 +556,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741510480.2107308
+        "dateLastModified": 1741512511.3257802
     },
     "class": [
         {
@@ -5216,6 +5216,57 @@
             "entries": [
                 "This specialised belt, bandolier or baldric hides many secrets. When you attune to this item, you can touch up to two weapons with which you are proficient, you might choose to holster these weapons in the belt itself. While wearing this belt, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls), and you have a +3 bonus to the DC of your Cunning Strikes.",
                 "When you use your Cunning Strikes feature, you can do so without reducing the damage of the attack. You can do so twice, regaining all expended uses each dawn."
+            ],
+            "bonusWeapon": "+3"
+        },
+        {
+            "name": "+1 Idol of the Ravager",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "entries": [
+                "When you attune to this idol, you can touch up to two weapons with which you are proficient. You may choose your Unarmed Strikes instead of a weapon. While wearing this idol, you have a +1 bonus to attack and damage rolls with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls). ",
+                "When you would take damage or make a Strength saving throw, and you are not raging or incapacitated, you can immediately enter a Rage without consuming a use of the feature. You are treated as having entered the rage before the triggering damage or save. Once you do so, you cannot so again until the next dawn."
+            ],
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "+2 Idol of the Ravager",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "entries": [
+                "When you attune to this idol, you can touch up to two weapons with which you are proficient. You may choose your Unarmed Strikes instead of a weapon. While wearing this idol, you have a +2 bonus to attack and damage rolls with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls). ",
+                "When you would take damage or make a Strength saving throw, and you are not raging or incapacitated, you can immediately enter a Rage without consuming a use of the feature. You are treated as having entered the rage before the triggering damage or save. Once you do so, you cannot so again until the next dawn."
+            ],
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "+3 Idol of the Ravager",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a barbarian",
+            "reqAttuneTags": [
+                {
+                    "class": "barbarian"
+                }
+            ],
+            "entries": [
+                "When you attune to this idol, you can touch up to two weapons with which you are proficient. You may choose your Unarmed Strikes instead of a weapon. While wearing this idol, you have a +3 bonus to attack and damage rolls with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls). ",
+                "When you would take damage or make a Strength saving throw, and you are not raging or incapacitated, you can immediately enter a Rage without consuming a use of the feature. You are treated as having entered the rage before the triggering damage or save. Once you do so, you cannot so again until the next dawn."
             ],
             "bonusWeapon": "+3"
         },
