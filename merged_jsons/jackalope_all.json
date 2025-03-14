@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.14.19.25",
+                "version": "2025.03.14.19.29",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741980310.7648962
+        "dateLastModified": 1741980574.487618
     },
     "class": [
         {
@@ -31977,7 +31977,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 11 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 11 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32062,7 +32062,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32147,7 +32147,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32232,7 +32232,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32317,7 +32317,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32402,7 +32402,7 @@
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 14 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 14 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -33019,7 +33019,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 11 + PB}) and move up to 15 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 11 + PB}) and move up to 15 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -33112,7 +33112,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -33205,7 +33205,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -33298,7 +33298,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -33391,7 +33391,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -33484,7 +33484,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 14 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 14 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
