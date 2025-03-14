@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.14.17.22",
+                "version": "2025.03.14.18.43",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741973000.8015924
+        "dateLastModified": 1741978000.226622
     },
     "class": [
         {
@@ -27373,6 +27373,534 @@
             ],
             "damageTags": [
                 "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "36"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "passive": 10,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "passive": 11,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "108"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "passive": 11,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "passive": 12,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "passive": 12,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Hoplite (CR11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "216"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "passive": 13,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Shield Wall",
+                    "entries": [
+                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 6 + PB}, reach 5 ft. or range 20/60 ft.  {@h}24 ({@damage 4d8 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Sentinel's Strike",
+                    "entries": [
+                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
             ],
             "miscTags": [
                 "MW",
