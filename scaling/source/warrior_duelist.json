@@ -54,6 +54,32 @@
                         "{@atkr rw} {@hit 6 + PB}, range 30/120 ft. {@h}20 ({@damage 4d6 + 6}) piercing damage."
                     ]
                 }
+            ],
+            "Demand Satisfaction": [
+                {
+                    "crs": [1, 2],
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 11 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "crs": [3, 5],
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "crs": [7, 9],
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "crs": [11],
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 14 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                }
             ]
         },
         "bonus": {},
@@ -125,12 +151,6 @@
                 "name": "Multiattack",
                 "entries": [
                     "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
-                ]
-            },
-            {
-                "name": "Demand Satisfaction",
-                "entries": [
-                    "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                 ]
             }
         ],

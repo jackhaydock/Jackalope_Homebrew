@@ -17,6 +17,12 @@ def scale_stat(base, cr, prof=False):
     pb = get_prof_bonus(cr) if prof else 0
     return base + get_scaling_mod(cr) + pb
 
+def get_skill_mod(abilities, skill, cr, prof=True):
+    pb = get_prof_bonus(cr) if prof else 0
+    if skill in ["athletics"]:
+        return 
+
+
 def calculate_ac(cr, formula="scale_unarmored"):
     if formula == "scale_unarmored":
         return 9 + get_prof_bonus(cr)
@@ -45,7 +51,7 @@ def create_statblock_at_cr(base, meta, cr):
     output = copy.deepcopy(base)
 
     # Name, CR, AC and HP
-    output["name"] += f" (CR{cr})"
+    output["name"] += f" (CR {cr})"
     output["cr"] = str(cr)
     output["ac"] = [
         {
@@ -69,10 +75,24 @@ def create_statblock_at_cr(base, meta, cr):
     output["passive"] = 10 + get_ability_mod(output["wis"])
     if "skill" in base.keys():
         for skill in base["skill"]:
-            output[skill] = scale_stat(base[skill], cr, prof=True)
+            if skill in ["athletics"]:
+                skill_mod = get_ability_mod(output["str"])
+            elif skill in ["acrobatics", "sleight of hand", "stealth"]:
+                skill_mod = get_ability_mod(output["dex"])
+            elif skill in ["arcana", "history", "investigation", "nature", "religion"]:
+                skill_mod = get_ability_mod(output["int"])
+            elif skill in ["animal handling", "insight", "medicine", "perception", "survival"]:
+                skill_mod = get_ability_mod(output["wis"])
+            elif skill in ["deception", "intimidation", "performance", "persuasion"]:
+                skill_mod = get_ability_mod(output["cha"])
+            else:
+                raise Exception(f"Unknown skill: {skill}")
+
+            output["skill"][skill] = f"+{skill_mod + get_prof_bonus(cr)}"
+
 
         if "perception" in base["skill"]:
-            output["passive"] += get_prof_bonus
+            output["passive"] += get_prof_bonus(cr)
 
     # Traits
     for trait in meta["trait"]:

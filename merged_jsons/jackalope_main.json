@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.14.18.43",
+                "version": "2025.03.14.19.25",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741978000.226622
+        "dateLastModified": 1741980310.6226935
     },
     "class": [
         {
@@ -26870,7 +26870,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR1)",
+            "name": "Warrior Duelist (CR 1)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -26920,12 +26920,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 3 + PB}, reach 5 ft {@h}9 ({@damage 1d8 + 4}) piercing damage."
@@ -26935,6 +26929,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 3 + PB}, range 30/120 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 11 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -26955,7 +26955,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR3)",
+            "name": "Warrior Duelist (CR 3)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27005,12 +27005,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
@@ -27020,6 +27014,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -27040,7 +27040,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR5)",
+            "name": "Warrior Duelist (CR 5)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27090,12 +27090,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
@@ -27105,6 +27099,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -27125,7 +27125,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR7)",
+            "name": "Warrior Duelist (CR 7)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27175,12 +27175,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
@@ -27190,6 +27184,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -27210,7 +27210,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR9)",
+            "name": "Warrior Duelist (CR 9)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27260,12 +27260,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
@@ -27275,6 +27269,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -27295,7 +27295,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR11)",
+            "name": "Warrior Duelist (CR 11)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27345,12 +27345,6 @@
                     ]
                 },
                 {
-                    "name": "Demand Satisfaction",
-                    "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
-                    ]
-                },
-                {
                     "name": "Rapier",
                     "entries": [
                         "{@atkr mw} {@hit 6 + PB}, reach 5 ft {@h}24 ({@damage 4d8 + 6}) piercing damage."
@@ -27360,6 +27354,12 @@
                     "name": "Hand Crossbow",
                     "entries": [
                         "{@atkr rw} {@hit 6 + PB}, range 30/120 ft. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals {@dc 14 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -27380,7 +27380,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR1)",
+            "name": "Warrior Hoplite (CR 1)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27416,6 +27416,9 @@
             "save": {
                 "str": "+5",
                 "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5"
             },
             "passive": 10,
             "cr": "1",
@@ -27468,7 +27471,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR3)",
+            "name": "Warrior Hoplite (CR 3)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27504,6 +27507,9 @@
             "save": {
                 "str": "+6",
                 "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6"
             },
             "passive": 11,
             "cr": "3",
@@ -27556,7 +27562,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR5)",
+            "name": "Warrior Hoplite (CR 5)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27592,6 +27598,9 @@
             "save": {
                 "str": "+7",
                 "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7"
             },
             "passive": 11,
             "cr": "5",
@@ -27644,7 +27653,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR7)",
+            "name": "Warrior Hoplite (CR 7)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27680,6 +27689,9 @@
             "save": {
                 "str": "+8",
                 "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8"
             },
             "passive": 12,
             "cr": "7",
@@ -27732,7 +27744,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR9)",
+            "name": "Warrior Hoplite (CR 9)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27768,6 +27780,9 @@
             "save": {
                 "str": "+9",
                 "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9"
             },
             "passive": 12,
             "cr": "9",
@@ -27820,7 +27835,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR11)",
+            "name": "Warrior Hoplite (CR 11)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -27856,6 +27871,9 @@
             "save": {
                 "str": "+10",
                 "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10"
             },
             "passive": 13,
             "cr": "11",
@@ -27901,6 +27919,564 @@
             "damageTags": [
                 "P",
                 "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+5",
+                "con": "+3"
+            },
+            "skill": {
+                "perception": "+4",
+                "stealth": "+5"
+            },
+            "passive": 14,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 11 + PB}) and move up to 15 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}6 ({@damage 1d4 + 3}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "passive": 15,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+7",
+                "con": "+5"
+            },
+            "skill": {
+                "perception": "+6",
+                "stealth": "+7"
+            },
+            "passive": 16,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+8",
+                "con": "+6"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+8"
+            },
+            "passive": 17,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 3d4 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+9",
+                "con": "+7"
+            },
+            "skill": {
+                "perception": "+8",
+                "stealth": "+9"
+            },
+            "passive": 18,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 3d4 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Snatcher (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+10",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+9",
+                "stealth": "+10"
+            },
+            "passive": 19,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Kidnapping Attack",
+                    "entries": [
+                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape DC {@dc 14 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|XPHB} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft. {@h}10 ({@damage 4d6 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 6 + PB}, reach 5 ft. or range 20/60 ft. {@h}16 ({@damage 4d4 + 6}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
             ],
             "miscTags": [
                 "MW",

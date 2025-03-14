@@ -20,7 +20,7 @@
         "action": {
             "Spear": [
                 {
-                    "crs": [1, 2],
+                    "crs": [1],
                     "entries": [
                         "{@atkr mw, rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 1d8 + 4}) piercing damage."
                     ]
@@ -46,7 +46,7 @@
             ],
             "Shield Bash": [
                 {
-                    "crs": [1, 2],
+                    "crs": [1],
                     "entries": [
                         "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
@@ -102,6 +102,9 @@
         "save": {
             "str": "+3+PB",
             "dex": "+2+PB"
+        },
+        "skill": {
+            "athletics": "+3+PB"
         },
         "passive": "11",
         "cr": "-",
