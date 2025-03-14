@@ -4867,7 +4867,101 @@
 					]
 				}
 			]	
-        }
+        },
+		{
+			"name": "Warrior Shieldbearer",
+			"source": "J:Humanoids",
+			"size": ["S", "M"],
+			"type": {
+				"type": "Humanoid",
+				"tags": [
+					"Scaling 1-13",
+					"warrior",
+					"soldier"
+                ]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"special": "14 + PB"
+				}
+			],
+			"hp": {
+				"special": "18 + (18 x CR)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 12,
+			"int": 8,
+			"wis": 12,
+			"cha": 10,
+			"save": {
+				"str": "+3+PB",
+				"dex": "+2+PB"
+			},
+			"passive": "11",
+			"cr": "-",
+			"languages": [
+				"any three languages (typically including common)"
+			],
+			"pbNote": "CR/4 (rounded up) + 1",
+			"trait": [
+				{
+					"name": "Scaling Bonus",
+					"entries": [
+						"The warrior has a Scaling Bonus that it adds to all D20 Tests and save DCs. This bonus equals +1 at CR 3 or higher, +2 at CR 7 or higher and +3 at CR 11 or higher."
+					]
+				},
+				{
+					"name": "Shield Wall",
+					"entries": [
+						"Other creatures of the warrior's choice within 5 feet gain an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a shield and not incapacitated to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it.",
+						"This bonus increases to +2 at CR 7."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The warrior makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atkr mw, rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}{@damage PBd6 + 3} piercing damage."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}{@damage PBd4+ 3} bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Sentinel's Strike",
+					"entries": [
+						"When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		}
     ],
 	"spell": [
 		{

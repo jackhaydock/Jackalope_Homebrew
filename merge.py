@@ -7,7 +7,6 @@ from datetime import datetime
 def build_json(files):
     output = {}
     for f in files:
-
         # Get time file was last modifed, to be used as version
         file_modified_time = pathlib.Path(f).stat().st_mtime
         version = datetime.utcfromtimestamp(file_modified_time).strftime('%Y.%m.%d.%H.%M')

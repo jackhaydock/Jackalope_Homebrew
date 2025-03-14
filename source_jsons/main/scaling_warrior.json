@@ -1,0 +1,534 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "J:Warriors",
+                "abbreviation": "J:Warriors",
+                "color": "f5b342",
+                "full": "Jackalope: Scaling Warriors",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "monster": [
+        {
+            "name": "Warrior Duelist (CR1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "36"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "passive": 10,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 3 + PB}, range 30/120 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Duelist (CR3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+5",
+                "dex": "+6"
+            },
+            "passive": 11,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@dice 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Duelist (CR5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "108"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+7"
+            },
+            "passive": 11,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@dice 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Duelist (CR7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+7",
+                "dex": "+8"
+            },
+            "passive": 12,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@dice 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Duelist (CR9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+9"
+            },
+            "passive": 12,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@dice 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warrior Duelist (CR11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "216"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+9",
+                "dex": "+10"
+            },
+            "passive": 13,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                },
+                {
+                    "name": "Demand Satisfaction",
+                    "entries": [
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (DC equals 8 + PB + Dexterity modifer) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                    ]
+                },
+                {
+                    "name": "Rapier",
+                    "entries": [
+                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft {@h}24 ({@damage 4d8 + 6}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "entries": [
+                        "{@atkr rw} {@hit 6 + PB}, range 30/120 ft. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Riposte",
+                    "entries": [
+                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@dice 3d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        }
+    ]
+}
