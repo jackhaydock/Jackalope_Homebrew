@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.09.09.58",
+                "version": "2025.03.17.00.29",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1741981081.537607
+        "dateLastModified": 1742171400.424833
     },
     "class": [
         {
@@ -7688,6 +7688,57 @@
             "entries": [
                 "When you attune to this idol, you can touch up to two weapons with which you are proficient. You may choose your Unarmed Strikes instead of a weapon. While wearing this idol, you have a +3 bonus to attack and damage rolls with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls). ",
                 "When you would take damage or make a Strength saving throw, and you are not raging or incapacitated, you can immediately enter a Rage without consuming a use of the feature. You are treated as having entered the rage before the triggering damage or save. Once you do so, you cannot so again until the next dawn."
+            ],
+            "bonusWeapon": "+3"
+        },
+        {
+            "name": "+1 Gauntlets of the Warrior",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a fighter",
+            "reqAttuneTags": [
+                {
+                    "class": "fighter"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to three weapons with which you are proficient. While wearing these gauntlets, you have a +1 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "When you roll Initiative, you can regain an expended use of your Second Wind feature. You can use the feature immediately (no bonus action required) or expend the use on Tactical Mind on the Initiative roll. Once you use this feature, you cannot do so again until the next dawn."
+            ],
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "+2 Gauntlets of the Warrior",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a fighter",
+            "reqAttuneTags": [
+                {
+                    "class": "fighter"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to three weapons with which you are proficient. While wearing these gauntlets, you have a +2 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "When you roll Initiative, you can regain an expended use of your Second Wind feature. You can use the feature immediately (no bonus action required) or expend the use on Tactical Mind on the Initiative roll. Once you use this feature, you cannot do so again until the next dawn."
+            ],
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "+3 Gauntlets of the Warrior",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a fighter",
+            "reqAttuneTags": [
+                {
+                    "class": "fighter"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to three weapons with which you are proficient. While wearing these gauntlets, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "When you roll Initiative, you can regain an expended use of your Second Wind feature. You can use the feature immediately (no bonus action required) or expend the use on Tactical Mind on the Initiative roll. Once you use this feature, you cannot do so again until the next dawn."
             ],
             "bonusWeapon": "+3"
         },
