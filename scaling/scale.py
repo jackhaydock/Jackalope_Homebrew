@@ -50,8 +50,9 @@ def get_damage_formuala(cr, formula):
     small_dice = math.floor((cr+1)/4)
     mod = get_ability_mod(16+get_scaling_mod(cr))
     if formula == "minion":
-        dmg = get_prof_bonus(cr) + math.ceil(cr/10)
-        return str(dmg if dmg <= cr else cr)
+        dmg_by_cr = get_prof_bonus(cr) + math.ceil(cr/10)
+        dmg = dmg_by_cr if dmg_by_cr <= cr else cr
+        return f"{{@h}} {dmg}"
     elif formula == "puny":
         return f"{{@h}} {get_damage_str(dice, 4, mod+cr)}"
     elif formula == "weak":
@@ -73,10 +74,16 @@ def get_damage_formuala(cr, formula):
     raise Exception(f"Bad DMG formula: {formula}")
     
 def get_hit_formula(cr, formula):
-    if formula == "default":
-        hit_mod = get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
+    ability = {
+        "weak": 14,
+        "default": 16,
+        "strong": 18
+    }
+    try:
+        hit_mod = get_ability_mod(ability[formula] + get_scaling_mod(cr)) + get_prof_bonus(cr)
         return f"{{@hit {hit_mod}}}"
-    raise Exception(f"Unrecognised Hit Formula: {formula}")
+    except KeyError as ex:
+        raise Exception(f"Unrecognised Hit Formula: {formula}")
     
 def get_dc_formula(cr, formula):
     if formula == "default":

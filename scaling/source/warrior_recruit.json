@@ -7,7 +7,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw,rw} <hit_default> (+1 for each minion in the attack), reach 5 ft. <dmg_minion> piercing damage per minion involved in the attack. If three or more <name>s are invovled in the attack, the target is also {@condition Hampered|J:General} until the start of the <name>'s next turn."
+                        "{@atkr mw,rw} <hit_weak> (+1 for each <name> in the attack), reach 5 ft. <dmg_minion> piercing damage per minion involved in the attack. If three or more <name>s are invovled in the attack, the target is also {@condition Hampered|J:General} until the start of the <name>'s next turn."
                     ]
                 }
             ]
