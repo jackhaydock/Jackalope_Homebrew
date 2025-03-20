@@ -15,13 +15,13 @@
                 {
                     "crs": [1],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends)."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Constitution saving throw or become {@condition Poisoned|XPHB} for one minute (save ends)."
                     ]
                 },
                 {
                     "crs": [3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (<mod_scale3> Poison)}."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Constitution saving throw or become {@condition Poisoned|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (<mod_scale3> Poison)}."
                     ]
                 }
             ],
