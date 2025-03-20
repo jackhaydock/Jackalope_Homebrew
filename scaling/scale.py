@@ -14,12 +14,6 @@ def scale_stat(base, cr, prof=False):
     pb = get_prof_bonus(cr) if prof else 0
     return base + get_scaling_mod(cr) + pb
 
-def get_skill_mod(abilities, skill, cr, prof=True):
-    pb = get_prof_bonus(cr) if prof else 0
-    if skill in ["athletics"]:
-        return 
-
-
 def calculate_ac(cr, formula):
     ac_formulas = {
         "ac_unarmored": 9,
@@ -34,6 +28,7 @@ def calculate_ac(cr, formula):
 
 def calculate_hp(cr, formula):
     hp_formulas = {
+        "hp_minion": 7+cr,
         "hp_puny": (10*cr)+10,
         "hp_weak": (12*cr)+12,
         "hp_default": (15*cr)+15,
@@ -54,7 +49,10 @@ def get_damage_formuala(cr, formula):
     dice = math.ceil(cr/2)
     small_dice = math.floor((cr+1)/4)
     mod = get_ability_mod(16+get_scaling_mod(cr))
-    if formula == "puny":
+    if formula == "minion":
+        dmg = get_prof_bonus(cr) + math.ceil(cr/10)
+        return str(dmg if dmg <= cr else cr)
+    elif formula == "puny":
         return f"{{@h}} {get_damage_str(dice, 4, mod+cr)}"
     elif formula == "weak":
         return f"{{@h}} {get_damage_str(dice, 6, mod+cr)}"
