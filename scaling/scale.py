@@ -85,6 +85,19 @@ def get_dc_formula(cr, formula):
         dc = 8 + get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
         return f"{{@dc {dc}}}"
     raise Exception(f"Unrecognised DC Formula: {formula}")
+
+def get_mod_formulas(cr, formula):
+    mod_formulas = {
+        "pb": get_prof_bonus(cr),
+        "scale1": get_scaling_mod(cr)/2,
+        "scale2": get_scaling_mod(cr),
+        "scale3": get_scaling_mod(cr)*1.5,
+        "scale4": get_scaling_mod(cr)*2
+    }
+    try:
+        return str(math.floor(mod_formulas[formula]))
+    except KeyError as ex:
+        raise Exception(f"Unrecognised Formula: {formula}")
     
 def process_scaling_text(entries, cr, name):
     output = []
@@ -106,7 +119,7 @@ def process_scaling_text(entries, cr, name):
                 elif re.search("^<dist_", f):
                     sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
                 elif re.search("^<mod_", f):
-                    sub_str = str(get_prof_bonus(cr)) # TODO: add more mods
+                    sub_str = get_mod_formulas(cr, formula_type)
                 else:
                     raise Exception(f"Unrecognised inline formula: {f}")
             line = re.sub(f, sub_str, line)
