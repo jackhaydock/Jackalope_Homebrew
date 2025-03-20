@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.20.02.27",
+                "version": "2025.03.20.18.10",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1742437637.1437924
+        "dateLastModified": 1742494210.1528852
     },
     "class": [
         {
@@ -31964,7 +31964,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 1)",
+            "name": "Duelist (CR 1)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32006,29 +32006,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft {@h} 9 ({@damage 1d8 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 30/120 ft. {@h}8 ({@damage 1d6 + 4}) piercing damage."
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. {@h} 7 ({@damage 1d4 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 13} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32036,7 +32037,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss."
                     ]
                 }
             ],
@@ -32049,7 +32050,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 3)",
+            "name": "Duelist (CR 3)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32091,29 +32092,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft {@h}16 ({@damage 2d8 + 7}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft {@h} 16 ({@damage 2d8 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 30/120 ft. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. {@h} 12 ({@damage 2d4 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 14}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 14} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32121,7 +32123,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -32134,7 +32136,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 5)",
+            "name": "Duelist (CR 5)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32176,29 +32178,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft {@h}23 ({@damage 3d8 + 9}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft {@h} 23 ({@damage 3d8 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 30/120 ft. {@h}20 ({@damage 3d6 + 9}) piercing damage."
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. {@h} 17 ({@damage 3d4 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 15}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 15} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32206,7 +32209,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -32219,7 +32222,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 7)",
+            "name": "Duelist (CR 7)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32261,29 +32264,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft {@h}30 ({@damage 4d8 + 12}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft {@h} 30 ({@damage 4d8 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 30/120 ft. {@h}26 ({@damage 4d6 + 12}) piercing damage."
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. {@h} 22 ({@damage 4d4 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 16}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 16} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32291,7 +32295,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -32304,7 +32308,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 9)",
+            "name": "Duelist (CR 9)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32346,29 +32350,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft {@h}37 ({@damage 5d8 + 14}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft {@h} 37 ({@damage 5d8 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 30/120 ft. {@h}32 ({@damage 5d6 + 14}) piercing damage."
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. {@h} 27 ({@damage 5d4 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 17}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 17} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32376,7 +32381,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -32389,7 +32394,7 @@
             ]
         },
         {
-            "name": "Warrior Duelist (CR 11)",
+            "name": "Duelist (CR 11)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32431,29 +32436,30 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                        "The duelist makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
                     ]
                 },
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft {@h}44 ({@damage 6d8 + 17}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft {@h} 44 ({@damage 6d8 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 30/120 ft. {@h}38 ({@damage 6d6 + 17}) piercing damage."
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. {@h} 32 ({@damage 6d4 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 18}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The duelist chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a {@dc 18} Wisdom saving throw or become {@condition Taunted|J:General} by the duelist for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -32461,7 +32467,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -32474,7 +32480,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 1)",
+            "name": "Hoplite (CR 1)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32523,7 +32529,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32531,19 +32537,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h} 9 ({@damage 1d8 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -32551,7 +32557,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -32565,7 +32571,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 3)",
+            "name": "Hoplite (CR 3)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32614,7 +32620,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32622,19 +32628,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h}16 ({@damage 2d8 + 7}) piercing damage."
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h} 16 ({@damage 2d8 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h}14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -32642,7 +32648,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -32656,7 +32662,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 5)",
+            "name": "Hoplite (CR 5)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32705,7 +32711,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32713,19 +32719,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h}23 ({@damage 3d8 + 9}) piercing damage."
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h} 23 ({@damage 3d8 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h}20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -32733,7 +32739,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -32747,7 +32753,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 7)",
+            "name": "Hoplite (CR 7)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32796,7 +32802,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32804,19 +32810,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h}30 ({@damage 4d8 + 12}) piercing damage."
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h} 30 ({@damage 4d8 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h}26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -32824,7 +32830,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -32838,7 +32844,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 9)",
+            "name": "Hoplite (CR 9)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32887,7 +32893,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32895,19 +32901,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h}37 ({@damage 5d8 + 14}) piercing damage."
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h} 37 ({@damage 5d8 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h}32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -32915,7 +32921,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -32929,7 +32935,7 @@
             ]
         },
         {
-            "name": "Warrior Hoplite (CR 11)",
+            "name": "Hoplite (CR 11)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -32978,7 +32984,7 @@
                 {
                     "name": "Shield Wall",
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the hoplite's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The hoplite must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ],
@@ -32986,19 +32992,19 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The hoplite makes two weapon attacks."
                     ]
                 },
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h}44 ({@damage 6d8 + 17}) piercing damage."
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h} 44 ({@damage 6d8 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h}38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -33006,7 +33012,7 @@
                 {
                     "name": "Sentinel's Strike",
                     "entries": [
-                        "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
+                        "When a creature the hoplite can see enters its reach or makes an attack against a creature other than the hoplite while within its reach, the hoplite can make a special Opportunity Attack with its Spear."
                     ]
                 }
             ],
@@ -33020,7 +33026,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 1)",
+            "name": "Snatcher (CR 1)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33066,32 +33072,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 13}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d6 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 13}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h} 7 ({@damage 1d4 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -33099,7 +33098,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
@@ -33113,7 +33112,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 3)",
+            "name": "Snatcher (CR 3)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33159,32 +33158,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 14}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h}14 ({@damage 2d6 + 7}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 14}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h}12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h} 12 ({@damage 2d4 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -33192,7 +33184,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
@@ -33206,7 +33198,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 5)",
+            "name": "Snatcher (CR 5)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33252,32 +33244,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 15}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h}20 ({@damage 3d6 + 9}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 15}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h}17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h} 17 ({@damage 3d4 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -33285,7 +33270,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
@@ -33299,7 +33284,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 7)",
+            "name": "Snatcher (CR 7)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33345,32 +33330,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 16}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h}26 ({@damage 4d6 + 12}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 16}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h}22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h} 22 ({@damage 4d4 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -33378,7 +33356,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
@@ -33392,7 +33370,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 9)",
+            "name": "Snatcher (CR 9)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33438,32 +33416,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 17}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h}32 ({@damage 5d6 + 14}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 17}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h}27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h} 27 ({@damage 5d4 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -33471,7 +33442,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
@@ -33485,7 +33456,7 @@
             ]
         },
         {
-            "name": "Warrior Snatcher (CR 11)",
+            "name": "Snatcher (CR 11)",
             "source": "J:Warriors",
             "size": [
                 "S",
@@ -33531,32 +33502,25 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Kidnapping Attack",
-                    "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 18}) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The warrior makes two weapon attacks."
+                        "The snatcher makes two weapon attacks."
                     ]
                 },
                 {
-                    "name": "Shortsword",
+                    "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h}38 ({@damage 6d6 + 17}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 18}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h}32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h} 32 ({@damage 6d4 + 17}) piercing damage."
                     ]
                 }
             ],
@@ -33564,7 +33528,7 @@
                 {
                     "name": "Cunning Action",
                     "entries": [
-                        "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                        "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],

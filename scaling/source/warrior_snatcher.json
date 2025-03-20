@@ -1,23 +1,22 @@
 {
     "scaling": {
         "crs": [1,3,5,7,9,11],
-        "trait": {
-            "Kidnapping Attack": [
+        "trait": {},
+        "action": {
+            "Multiattack": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape <dc_default>) and use its Cunning Action as part of the attack.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
+                        "The <name> makes two weapon attacks."
                     ]
                 }
-            ]
-        },
-        "action": {
-            "Shortsword": [
+            ],
+            "Kidnapping Strike": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target is {@condition Grappled|XPHB} (escape <dc_default>) if it is the <name>'s size or smaller. If the <name> had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the <name> cannot use this attack. If the <name> attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 }
             ],
@@ -30,11 +29,20 @@
                 }
             ]
         },
-        "bonus": {},
+        "bonus": {
+            "Cunning Action": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ]
+        },
         "reaction": {}
     },
     "base_statblock": {
-        "name": "Warrior Snatcher",
+        "name": "Snatcher",
         "source": "J:Warriors",
         "size": ["S", "M"],
         "type": {
@@ -47,8 +55,8 @@
         "alignment": [
             "A"
         ],
-        "ac": "scale_light",
-        "hp": "scale_default",
+        "ac": "ac_light",
+        "hp": "hp_default",
         "speed": {
             "walk": 35
         },
@@ -72,24 +80,9 @@
             "any three languages (typically including common)"
         ],
         "trait": [],
-        "action": [
-            {
-                "name": "Multiattack",
-                "entries": [
-                    "The warrior makes two weapon attacks."
-                ]
-            }
-        ],
-        "bonus": [
-            {
-                "name": "Cunning Action",
-                "entries": [
-                    "The warrior takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                ]
-            }
-        ],
-        "reaction": [
-        ],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
         "damageTags": [
             "P"
         ],

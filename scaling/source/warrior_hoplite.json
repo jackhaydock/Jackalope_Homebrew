@@ -6,18 +6,26 @@
                 {
                     "crs": [1, 3, 5],
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the <name>'s choice within 5 feet gains an +1 bonus to their AC and to their Strength and Dexterity saving throws. The <name> must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 },
                 {
                     "crs": [7, 9, 11],
                     "entries": [
-                        "Each creature of the warrior's choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The warrior must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
+                        "Each creature of the <name>'s choice within 5 feet gains an +2 bonus to their AC and to their Strength and Dexterity saving throws. The <name> must be wielding a {@item Shield|XPHB} and not {@condition Incapacitated|XPHB} to grant this bonus. A creature can only benefit from this trait once at a time, even if multiple adjacent creatures have it."
                     ]
                 }
             ]
         },
         "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks."
+                    ]
+                }
+            ],
             "Spear": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
@@ -30,16 +38,25 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_puny> bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ]
         },
         "bonus": {},
-        "reaction": {}
+        "reaction": {
+            "Sentinel's Strike": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "When a creature the <name> can see enters its reach or makes an attack against a creature other than the <name> while within its reach, the <name> can make a special Opportunity Attack with its Spear."
+                    ]
+                }
+            ]
+        }
     },
     "base_statblock": {
-        "name": "Warrior Hoplite",
+        "name": "Hoplite",
         "source": "J:Warriors",
         "size": ["S", "M"],
         "type": {
@@ -52,8 +69,8 @@
         "alignment": [
             "A"
         ],
-        "ac": "scale_medium",
-        "hp": "scale_soldier",
+        "ac": "ac_medium",
+        "hp": "hp_strong",
         "speed": {
             "walk": 30
         },
@@ -76,22 +93,8 @@
             "any three languages (typically including common)"
         ],
         "trait": [],
-        "action": [
-            {
-                "name": "Multiattack",
-                "entries": [
-                    "The warrior makes two weapon attacks."
-                ]
-            }
-        ],
-        "reaction": [
-            {
-                "name": "Sentinel's Strike",
-                "entries": [
-                    "When a creature the warrior can see enters its reach or makes an attack against a creature other than the warrior while within its reach, the warrior can make a special Opportunity Attack with its Spear."
-                ]
-            }
-        ],
+        "action": [],
+        "reaction": [],
         "damageTags": [
             "P",
             "B"

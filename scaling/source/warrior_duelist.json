@@ -3,6 +3,14 @@
         "crs": [1,3,5,7,9,11],
         "trait": {},
         "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
+                    ]
+                }
+            ],
             "Rapier": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
@@ -15,7 +23,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr rw} <hit_default>, range 30/120 ft. <dmg_weak> piercing damage."
+                        "{@atkr rw} <hit_default>, range 30/120 ft. <dmg_puny> piercing damage."
                     ]
                 }
             ],
@@ -23,7 +31,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw (<dc_default>) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The <name> chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a <dc_default> Wisdom saving throw or become {@condition Taunted|J:General} by the <name> for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ]
@@ -34,20 +42,20 @@
                 {
                     "crs": [1],
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +<mod_pb> bonus to its AC against the attack, potentially turning a hit into a miss."
+                        "When the <name> is hit by an attack, it can use a reaction to gain a +<mod_pb> bonus to its AC against the attack, potentially turning a hit into a miss."
                     ]
                 },
                 {
                     "crs": [ 3, 5, 7, 9, 11],
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a +<mod_pb> bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes <dmg_smalld6> piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the <name> is hit by an attack, it can use a reaction to gain a +<mod_pb> bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes <dmg_d6s> piercing damage provided it is within the reach or normal range of the <name>'s weapons."
                     ]
                 }
             ]
         }
     },
     "base_statblock": {
-        "name": "Warrior Duelist",
+        "name": "Duelist",
         "source": "J:Warriors",
         "size": ["S", "M"],
         "type": {
@@ -60,8 +68,8 @@
         "alignment": [
             "A"
         ],
-        "ac": "scale_medium",
-        "hp": "scale_soldier",
+        "ac": "ac_medium",
+        "hp": "hp_strong",
         "speed": {
             "walk": 30
         },
@@ -80,14 +88,8 @@
         "languages": [
             "any three languages (typically including common)"
         ],
-        "action": [
-            {
-                "name": "Multiattack",
-                "entries": [
-                    "The warrior makes two weapon attacks. It can replace one of these attacks with Demand Satisfaction."
-                ]
-            }
-        ],
+        "trait": [],
+        "action": [],
         "reaction": [],
         "damageTags": [
             "P"
