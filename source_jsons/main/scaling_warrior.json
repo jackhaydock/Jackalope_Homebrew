@@ -73,19 +73,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft {@h}9 ({@damage 1d8 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 3 + PB}, range 30/120 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. {@h}8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 11 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -93,7 +93,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss."
                     ]
                 }
             ],
@@ -158,19 +158,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft {@h}16 ({@damage 2d8 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. {@h}14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 14}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -178,7 +178,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@dice 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
                     ]
                 }
             ],
@@ -243,19 +243,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft {@h}23 ({@damage 3d8 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 4 + PB}, range 30/120 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. {@h}20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 12 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 15}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -263,7 +263,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@dice 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
                     ]
                 }
             ],
@@ -328,19 +328,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft {@h}30 ({@damage 4d8 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. {@h}26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 16}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -348,7 +348,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@dice 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
                     ]
                 }
             ],
@@ -413,19 +413,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft {@h}37 ({@damage 5d8 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 5 + PB}, range 30/120 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. {@h}32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 13 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 17}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -433,7 +433,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@dice 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
                     ]
                 }
             ],
@@ -498,19 +498,19 @@
                 {
                     "name": "Rapier",
                     "entries": [
-                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft {@h}24 ({@damage 4d8 + 6}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft {@h}44 ({@damage 6d8 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 6 + PB}, range 30/120 ft. {@h}20 ({@damage 4d6 + 6}) piercing damage."
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. {@h}38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Demand Satisfaction",
                     "entries": [
-                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 14 + PB}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
+                        "The warrior chooses a creature it can see within 30 feet and that can see or hear it. That creature must make a Wisdom saving throw ({@dc 18}) or become {@condition Taunted|J:General} by the warrior for one minute (save ends). The condition ends early if the duelist attacks another creature, targets another creature with this action or ends its turn more that 60 feet from the target."
                     ]
                 }
             ],
@@ -518,7 +518,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the warrior is hit by an attack, it can use a reaction to gain a PB bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@dice 3d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
+                        "When the warrior is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the warrior's weapons."
                     ]
                 }
             ],
@@ -594,13 +594,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 1d8 + 4}) piercing damage."
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 1d8 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -685,13 +685,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h}16 ({@damage 2d8 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h}14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -776,13 +776,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h}23 ({@damage 3d8 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h}20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -867,13 +867,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h}30 ({@damage 4d8 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h}26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -958,13 +958,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}19 ({@damage 3d8 + 5}) piercing damage."
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h}37 ({@damage 5d8 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h}32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -1049,13 +1049,13 @@
                 {
                     "name": "Spear",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 6 + PB}, reach 5 ft. or range 20/60 ft.  {@h}24 ({@damage 4d8 + 6}) piercing damage."
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h}44 ({@damage 6d8 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft. {@h}20 ({@damage 4d6 + 6}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h}38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -1127,7 +1127,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 11 + PB}) and move up to 15 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 13}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1142,13 +1142,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h}8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}6 ({@damage 1d4 + 3}) piercing damage."
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h}7 ({@damage 1d4 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -1220,7 +1220,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 14}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1235,13 +1235,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h}14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h}12 ({@damage 2d4 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -1313,7 +1313,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 15}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1328,13 +1328,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h}20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 2d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h}17 ({@damage 3d4 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -1406,7 +1406,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 16}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1421,13 +1421,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h}26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 3d4 + 5}) piercing damage."
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h}22 ({@damage 4d4 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -1499,7 +1499,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 17}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1514,13 +1514,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h}32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 3d4 + 5}) piercing damage."
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h}27 ({@damage 5d4 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -1592,7 +1592,7 @@
                 {
                     "name": "Kidnapping Attack",
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 14 + PB}) and move up to 30 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape {@dc 18}) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -1607,13 +1607,13 @@
                 {
                     "name": "Shortsword",
                     "entries": [
-                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft. {@h}10 ({@damage 4d6 + 6}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h}38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 },
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 6 + PB}, reach 5 ft. or range 20/60 ft. {@h}16 ({@damage 4d4 + 6}) piercing damage."
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h}32 ({@damage 6d4 + 17}) piercing damage."
                     ]
                 }
             ],

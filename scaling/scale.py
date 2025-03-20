@@ -1,7 +1,4 @@
-import math
-import json
-import glob
-import copy
+import math, json, glob, copy, re
 
 def get_ability_mod(score):
     return math.floor((score-10)/2)
@@ -32,8 +29,7 @@ def calculate_ac(cr, formula="scale_unarmored"):
         return 13 + get_prof_bonus(cr)
     elif formula == "scale_heavy":
         return 15 + get_prof_bonus(cr)
-    else:
-        raise Exception(f"Unrecognised AC formula: {formula}")
+    raise Exception(f"Unrecognised AC formula: {formula}")
 
 def calculate_hp(cr, formula="scale_default"):
     if formula == "scale_default":
@@ -44,8 +40,65 @@ def calculate_hp(cr, formula="scale_default"):
         return (18*cr)+18
     elif formula == "scale_brute":
         return (20*cr)+20
-    else:
-        raise Exception(f"Unrecognised HP formula: {formula}")
+    raise Exception(f"Unrecognised HP formula: {formula}")
+    
+def get_damage_avg(dice, faces, mod):
+    return math.ceil(dice * ((faces/2)+0.5) + mod)
+
+def get_damage_formuala(cr, formula):
+    dice = math.ceil(cr/2)
+    mod = get_ability_mod(16+get_scaling_mod(cr)) + cr
+    if formula == "puny":
+        avg = get_damage_avg(dice, 4, mod)
+        return f"{{@h}}{avg} ({{@damage {dice}d4 + {mod}}})"
+    elif formula == "weak":
+        avg = get_damage_avg(dice, 6, mod)
+        return f"{{@h}}{avg} ({{@damage {dice}d6 + {mod}}})"
+    elif formula == "medium":
+        avg = get_damage_avg(dice, 8, mod)
+        return f"{{@h}}{avg} ({{@damage {dice}d8 + {mod}}})"
+    elif formula == "strong":
+        avg = get_damage_avg(dice, 10, mod+cr)
+        return f"{{@h}}{avg} ({{@damage {dice}d10 + {mod+cr}}})"
+    elif formula == "smalld6":
+        small_dice = math.floor((cr+1)/4)
+        avg = get_damage_avg(small_dice, 6, 0)
+        return f"{avg} ({{@damage {small_dice}d6}})"
+    raise Exception(f"Bad DMG formula: {formula}")
+    
+def get_hit_formula(cr, formula):
+    if formula == "default":
+        hit_mod = get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
+        return f"{{@hit {hit_mod}}}"
+    raise Exception(f"Unrecognised Hit Formula: {formula}")
+    
+def get_dc_formula(cr, formula):
+    if formula == "default":
+        dc = 8 + get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
+        return f"{{@dc {dc}}}"
+    raise Exception(f"Unrecognised DC Formula: {formula}")
+    
+def process_scaling_text(entries, cr):
+    output = []
+    for line in entries:
+        formulas = re.findall("<[a-z,_,0-9]*>", line)
+        for f in formulas:
+            formula_type = f.split("_")[1].strip(">") 
+            if re.search("^<hit_", f):
+                sub_str = get_hit_formula(cr, formula_type)
+            elif re.search("^<dmg_", f):
+                sub_str = get_damage_formuala(cr, formula_type)
+            elif re.search("^<dc_", f):
+                sub_str = get_dc_formula(cr, formula_type)
+            elif re.search("^<dist_", f):
+                sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
+            elif re.search("^<mod_", f):
+                sub_str = str(get_prof_bonus(cr)) # TODO: add more mods
+            else:
+                raise Exception(f"Unrecognised inline formula: {f}")
+            line = re.sub(f, sub_str, line)
+        output.append(line)
+    return output
 
 def create_statblock_at_cr(base, meta, cr):
     output = copy.deepcopy(base)
@@ -100,7 +153,7 @@ def create_statblock_at_cr(base, meta, cr):
             if cr in tier["crs"]:
                 trait_data = {
                     "name": trait,
-                    "entries": tier["entries"]
+                    "entries": process_scaling_text(tier["entries"], cr)
                 }
                 output["trait"].append(trait_data)
 
@@ -110,7 +163,7 @@ def create_statblock_at_cr(base, meta, cr):
             if cr in tier["crs"]:
                 action_data = {
                     "name": action,
-                    "entries": tier["entries"]
+                    "entries": process_scaling_text(tier["entries"], cr)
                 }
                 output["action"].append(action_data)
 
@@ -120,7 +173,7 @@ def create_statblock_at_cr(base, meta, cr):
             if cr in tier["crs"]:
                 bonus_data = {
                     "name": bonus,
-                    "entries": tier["entries"]
+                    "entries": process_scaling_text(tier["entries"], cr)
                 }
                 output["bonus"].append(bonus_data)
 
@@ -130,7 +183,7 @@ def create_statblock_at_cr(base, meta, cr):
             if cr in tier["crs"]:
                 reaction_data = {
                     "name": reaction,
-                    "entries": tier["entries"]
+                    "entries": process_scaling_text(tier["entries"], cr)
                 }
                 output["reaction"].append(reaction_data)
 
@@ -138,6 +191,7 @@ def create_statblock_at_cr(base, meta, cr):
     return output
 
 def create_statblocks(data):
+    name = data["base_statblock"]["name"]
     output_list = []
     for cr in data["scaling"]["crs"]:
         output_list.append(create_statblock_at_cr(data["base_statblock"], data["scaling"], cr))

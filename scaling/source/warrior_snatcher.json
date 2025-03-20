@@ -4,30 +4,9 @@
         "trait": {
             "Kidnapping Attack": [
                 {
-                    "crs": [1],
+                    "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 11 + PB}) and move up to 15 feet with it without consuming its movement or provoking oportunity attacks.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                },
-                {
-                    "crs": [3, 5],
-                    "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 12 + PB}) and move up to 20 feet with it without consuming its movement or provoking oportunity attacks.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                },
-                {
-                    "crs": [7, 9],
-                    "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 13 + PB}) and move up to 25 feet with it without consuming its movement or provoking oportunity attacks.",
-                        "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
-                    ]
-                },
-                {
-                    "crs": [11],
-                    "entries": [
-                        "Once per turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the roll, it can {@action grapple} the target (escape {@dc 14 + PB}) and move up to 30 feet with it without consuming its movement or provoking oportunity attacks.",
+                        "Once on each of its turn, when the warrior hits a creature that is its size or smaller with a weapon attack and it has advantage on the attack roll, it can {@action grapple} the target (escape <dc_default>) and use its Cunning Action as part of the attack.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the warrior cannot use this trait against another creature, however, the warrior can use the {@action Hide|XPHB} action with disadvantage, hiding both itself and the Grappled creature on a success."
                     ]
                 }
@@ -36,53 +15,17 @@
         "action": {
             "Shortsword": [
                 {
-                    "crs": [1],
+                    "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} {@hit 3 + PB}, reach 5 ft. {@h}7 ({@damage 1d6 + 3}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [3, 5],
-                    "entries": [
-                        "{@atkr mw} {@hit 4 + PB}, reach 5 ft. {@h}11 ({@damage 2d6 + 4}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [7, 9],
-                    "entries": [
-                        "{@atkr mw} {@hit 5 + PB}, reach 5 ft. {@h}16 ({@damage 3d6 + 5}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [11],
-                    "entries": [
-                        "{@atkr mw} {@hit 6 + PB}, reach 5 ft. {@h}10 ({@damage 4d6 + 6}) piercing damage."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage."
                     ]
                 }
             ],
             "Daggers": [
                 {
-                    "crs": [1],
+                    "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw,rw} {@hit 3 + PB}, reach 5 ft. or range 20/60 ft. {@h}6 ({@damage 1d4 + 3}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [3, 5],
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 4 + PB}, reach 5 ft. or range 20/60 ft. {@h}9 ({@damage 2d4 + 4}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [7, 9],
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 5 + PB}, reach 5 ft. or range 20/60 ft. {@h}13 ({@damage 3d4 + 5}) piercing damage."
-                    ]
-                },
-                {
-                    "crs": [11],
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 6 + PB}, reach 5 ft. or range 20/60 ft. {@h}16 ({@damage 4d4 + 6}) piercing damage."
+                        "{@atkr mw,rw} <hit_default>, reach 5 ft. or range 20/60 ft. <dmg_puny> piercing damage."
                     ]
                 }
             ]
