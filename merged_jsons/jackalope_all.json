@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.20.18.32",
+                "version": "2025.03.20.18.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1742495589.972114
+        "dateLastModified": 1742496819.7753053
     },
     "class": [
         {
@@ -32480,6 +32480,516 @@
             ]
         },
         {
+            "name": "Envenomer (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+5",
+                "con": "+3"
+            },
+            "skill": {
+                "perception": "+4",
+                "stealth": "+5"
+            },
+            "passive": 14,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 13} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends)."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Envenomer (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "passive": 15,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target must make a {@dc 14} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (3 Poison)}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Envenomer (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+7",
+                "con": "+5"
+            },
+            "skill": {
+                "perception": "+6",
+                "stealth": "+7"
+            },
+            "passive": 16,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target must make a {@dc 15} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (3 Poison)}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Envenomer (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+8",
+                "con": "+6"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+8"
+            },
+            "passive": 17,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target must make a {@dc 16} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (6 Poison)}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Envenomer (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+9",
+                "con": "+7"
+            },
+            "skill": {
+                "perception": "+8",
+                "stealth": "+9"
+            },
+            "passive": 18,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target must make a {@dc 17} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (6 Poison)}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Envenomer (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+10",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+9",
+                "stealth": "+10"
+            },
+            "passive": 19,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The envenomer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Toxic Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target must make a {@dc 18} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (9 Poison)}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Hoplite (CR 1)",
             "source": "J:Warriors",
             "size": [
@@ -33026,516 +33536,6 @@
             ]
         },
         {
-            "name": "Envenomer (CR 1)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13
-                }
-            ],
-            "hp": {
-                "special": "30"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 10,
-            "dex": 16,
-            "con": 12,
-            "int": 8,
-            "wis": 14,
-            "cha": 12,
-            "save": {
-                "dex": "+5",
-                "con": "+3"
-            },
-            "skill": {
-                "perception": "+4",
-                "stealth": "+5"
-            },
-            "passive": 14,
-            "cr": "1",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 13} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends)."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h} 7 ({@damage 1d4 + 4}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Envenomer (CR 3)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 13
-                }
-            ],
-            "hp": {
-                "special": "60"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 12,
-            "dex": 18,
-            "con": 14,
-            "int": 10,
-            "wis": 16,
-            "cha": 14,
-            "save": {
-                "dex": "+6",
-                "con": "+4"
-            },
-            "skill": {
-                "perception": "+5",
-                "stealth": "+6"
-            },
-            "passive": 15,
-            "cr": "3",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target must make a {@dc 14} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (3 Poison)}."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h} 12 ({@damage 2d4 + 7}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Envenomer (CR 5)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 14
-                }
-            ],
-            "hp": {
-                "special": "90"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 12,
-            "dex": 18,
-            "con": 14,
-            "int": 10,
-            "wis": 16,
-            "cha": 14,
-            "save": {
-                "dex": "+7",
-                "con": "+5"
-            },
-            "skill": {
-                "perception": "+6",
-                "stealth": "+7"
-            },
-            "passive": 16,
-            "cr": "5",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target must make a {@dc 15} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (3 Poison)}."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h} 17 ({@damage 3d4 + 9}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Envenomer (CR 7)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 14
-                }
-            ],
-            "hp": {
-                "special": "120"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 14,
-            "dex": 20,
-            "con": 16,
-            "int": 12,
-            "wis": 18,
-            "cha": 16,
-            "save": {
-                "dex": "+8",
-                "con": "+6"
-            },
-            "skill": {
-                "perception": "+7",
-                "stealth": "+8"
-            },
-            "passive": 17,
-            "cr": "7",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target must make a {@dc 16} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (6 Poison)}."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h} 22 ({@damage 4d4 + 12}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Envenomer (CR 9)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 15
-                }
-            ],
-            "hp": {
-                "special": "150"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 14,
-            "dex": 20,
-            "con": 16,
-            "int": 12,
-            "wis": 18,
-            "cha": 16,
-            "save": {
-                "dex": "+9",
-                "con": "+7"
-            },
-            "skill": {
-                "perception": "+8",
-                "stealth": "+9"
-            },
-            "passive": 18,
-            "cr": "9",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target must make a {@dc 17} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (6 Poison)}."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h} 27 ({@damage 5d4 + 14}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Envenomer (CR 11)",
-            "source": "J:Warriors",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "Humanoid",
-                "tags": [
-                    "warrior",
-                    "ambusher"
-                ]
-            },
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 15
-                }
-            ],
-            "hp": {
-                "special": "180"
-            },
-            "speed": {
-                "walk": 35
-            },
-            "str": 16,
-            "dex": 22,
-            "con": 18,
-            "int": 14,
-            "wis": 20,
-            "cha": 18,
-            "save": {
-                "dex": "+10",
-                "con": "+8"
-            },
-            "skill": {
-                "perception": "+9",
-                "stealth": "+10"
-            },
-            "passive": 19,
-            "cr": "11",
-            "languages": [
-                "any three languages (typically including common)"
-            ],
-            "trait": [],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The envenomer makes two weapon attacks."
-                    ]
-                },
-                {
-                    "name": "Toxic Strike",
-                    "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target must make a {@dc 18} Constitution saving throw or become {@condition Poisoined|XPHB} for one minute (save ends). While {@condition Poisoined|XPHB}, the target also suffers {@condition Lingering|J:General|Lingering (9 Poison)}."
-                    ]
-                },
-                {
-                    "name": "Daggers",
-                    "entries": [
-                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h} 32 ({@damage 6d4 + 17}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "The envenomer takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
             "name": "Snatcher (CR 1)",
             "source": "J:Warriors",
             "size": [
@@ -33593,7 +33593,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 13}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 13}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -33679,7 +33679,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 14}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 14}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -33765,7 +33765,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 15}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 15}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -33851,7 +33851,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 16}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 16}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -33937,7 +33937,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 17}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 17}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -34023,7 +34023,7 @@
                 {
                     "name": "Kidnapping Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 18}) if it is the snatcher's size or smaller. If the snatcher had advantage on the attack roll, it can immediately use its Cunning Action after the attack (no bonus action required).",
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target is {@condition Grappled|XPHB} (escape {@dc 18}) if it is the snatcher's size or smaller.",
                         "While {@condition Grappled|XPHB} in this way, the Grappled creature is also {@condition Silenced|J:General} and the snatcher cannot use this attack. If the snatcher attempts to {@action Hide|XPHB} while grappling the target, it has disadvantage, however, on a success, the Grappled creature is also hidden."
                     ]
                 },
@@ -34039,6 +34039,521 @@
                     "name": "Cunning Action",
                     "entries": [
                         "The snatcher takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+5",
+                "con": "+3"
+            },
+            "skill": {
+                "perception": "+4",
+                "stealth": "+5"
+            },
+            "passive": 14,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target must make a {@dc 13} Strength saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft. {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "passive": 15,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target must make a {@dc 14} Wisdom saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack.",
+                        "The target is also {@condition Taunted|J:General} by any creature holding the item holding or wearing the stolen item for the next minute, or until it recovers the item. A creature can only be Taunted in this way once at a time."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft. {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+7",
+                "con": "+5"
+            },
+            "skill": {
+                "perception": "+6",
+                "stealth": "+7"
+            },
+            "passive": 16,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target must make a {@dc 15} Wisdom saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack.",
+                        "The target is also {@condition Taunted|J:General} by any creature holding the item holding or wearing the stolen item for the next minute, or until it recovers the item. A creature can only be Taunted in this way once at a time."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft. {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+8",
+                "con": "+6"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+8"
+            },
+            "passive": 17,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target must make a {@dc 16} Wisdom saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack.",
+                        "The target is also {@condition Taunted|J:General} by any creature holding the item holding or wearing the stolen item for the next minute, or until it recovers the item. While Taunted, the creature is also {@condition Ligerning|J:General|Lingering (6 psychic)}. A creature can only be Taunted in this way once at a time. "
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft. {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+9",
+                "con": "+7"
+            },
+            "skill": {
+                "perception": "+8",
+                "stealth": "+9"
+            },
+            "passive": 18,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target must make a {@dc 17} Wisdom saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack.",
+                        "The target is also {@condition Taunted|J:General} by any creature holding the item holding or wearing the stolen item for the next minute, or until it recovers the item. While Taunted, the creature is also {@condition Ligerning|J:General|Lingering (6 psychic)}. A creature can only be Taunted in this way once at a time. "
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft. {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Swiper (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+10",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+9",
+                "stealth": "+10"
+            },
+            "passive": 19,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The swiper makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Disarming Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target must make a {@dc 18} Wisdom saving throw or drop one item of the swiper's choice that it is holding. The swiper can pick up the item as part of the attack.",
+                        "The target is also {@condition Taunted|J:General} by any creature holding the item holding or wearing the stolen item for the next minute, or until it recovers the item. While Taunted, the creature is also {@condition Ligerning|J:General|Lingering (9 psychic)}. A creature can only be Taunted in this way once at a time. "
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft. {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The swiper takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
                     ]
                 }
             ],
