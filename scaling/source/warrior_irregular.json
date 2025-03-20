@@ -1,0 +1,70 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "trait": {},
+        "action": {
+            "Daggers (Group Attack)": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw,rw} <hit_default> (+1 for each minion in the attack), reach 5 ft. <dmg_minion> piercing damage per minion involved in the attack. If three or more <name>s are invovled in the attack, the target has disadvantage on the next ability check or attack roll it makes before the start of the warrior's next turn."
+                    ]
+                }
+            ],
+            "Slings (Group Attack)": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rw} <hit_default> (+1 for each minion in the attack), range 30/120 ft. <dmg_minion> bludgeoning damage per minion involved in the attack."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Irregular",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "Humanoid",
+            "tags": [
+                "warrior",
+                "minion"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_minion",
+        "speed": {
+            "walk": 30
+        },
+        "str": 16,
+        "dex": 12,
+        "con": 10,
+        "int": 8,
+        "wis": 14,
+        "cha": 10,
+        "save": {},
+        "skill": {},
+        "passive": "12",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}
