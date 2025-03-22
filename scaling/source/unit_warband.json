@@ -13,7 +13,7 @@
                             "items": [
                                 "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
                                 "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
                             ]
                         }
                     ]
@@ -81,7 +81,7 @@
             "type": "Humanoid",
             "tags": [
                 "unit",
-                "soldier"
+                "skirmisher"
             ]
         },
         "alignment": [
