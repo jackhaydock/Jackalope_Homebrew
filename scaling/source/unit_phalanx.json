@@ -1,0 +1,161 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "trait": {
+            "Warrior Unit": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Lines and Squares": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+                
+            ],
+            "Hold the Line": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                    "Creatures smaller than the <name> cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                }
+            ],
+            "Pikes and Spears": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 10 ft. <dmg_strong> piercing damage."
+                    ]
+                }
+            ],
+            "Javelins": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rw} <hit_default>, range 30/120 ft. <dmg_weak> piercing damage."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {
+            "Pike Wall": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "When a creature moves into the reach of the <name>'s Pike attack, the <name> can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the <name> has advantage on this attack."
+                    ]
+                }
+            ]
+        }
+    },
+    "base_statblock": {
+        "name": "Phalanx",
+        "source": "J:Units",
+        "size": ["L", "H", "G"],
+        "type": {
+            "type": "Humanoid",
+            "tags": [
+                "unit",
+                "soldier"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_medium",
+        "hp": "hp_strong",
+        "speed": {
+            "walk": 25
+        },
+        "str": 16,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 10,
+        "cha": 12,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "athletics": "+6",
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "conditionImmune": [
+            "charmed",
+            "flanked",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "prone",
+            "restrained"
+        ],
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}

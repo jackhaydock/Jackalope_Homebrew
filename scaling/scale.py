@@ -107,27 +107,29 @@ def get_mod_formulas(cr, formula):
 def process_scaling_text(entries, cr, name):
     output = []
     for line in entries:
-        formulas = re.findall("<[a-z,_,0-9]*>", line)
-        for f in formulas:
-            if f == "<name>":
-                sub_str = name.lower()
-            else:
-                formula_type = f.split("_")[1].strip(">")
+        # TODO: Current implementation cannot handle nested objects and lists in entries, it just copies them wholesale
+        if isinstance(line, str):
+            formulas = re.findall("<[a-z,_,0-9]*>", line)
+            for f in formulas:
                 if f == "<name>":
                     sub_str = name.lower()
-                elif re.search("^<hit_", f):
-                    sub_str = get_hit_formula(cr, formula_type)
-                elif re.search("^<dmg_", f):
-                    sub_str = get_damage_formuala(cr, formula_type)
-                elif re.search("^<dc_", f):
-                    sub_str = get_dc_formula(cr, formula_type)
-                elif re.search("^<dist_", f):
-                    sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
-                elif re.search("^<mod_", f):
-                    sub_str = get_mod_formulas(cr, formula_type)
                 else:
-                    raise Exception(f"Unrecognised inline formula: {f}")
-            line = re.sub(f, sub_str, line)
+                    formula_type = f.split("_")[1].strip(">")
+                    if f == "<name>":
+                        sub_str = name.lower()
+                    elif re.search("^<hit_", f):
+                        sub_str = get_hit_formula(cr, formula_type)
+                    elif re.search("^<dmg_", f):
+                        sub_str = get_damage_formuala(cr, formula_type)
+                    elif re.search("^<dc_", f):
+                        sub_str = get_dc_formula(cr, formula_type)
+                    elif re.search("^<dist_", f):
+                        sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
+                    elif re.search("^<mod_", f):
+                        sub_str = get_mod_formulas(cr, formula_type)
+                    else:
+                        raise Exception(f"Unrecognised inline formula: {f}")
+                line = re.sub(f, sub_str, line)
         output.append(line)
     return output
 
@@ -223,6 +225,7 @@ def create_statblock_at_cr(base, meta, cr):
 
 def create_statblocks(data):
     name = data["base_statblock"]["name"]
+    print(name)
     output_list = []
     for cr in data["scaling"]["crs"]:
         output_list.append(create_statblock_at_cr(data["base_statblock"], data["scaling"], cr))
@@ -238,7 +241,7 @@ def write_to_file(filename, data):
 
 meta_files = glob.glob("source/_meta_*.json")
 for file in meta_files:
-    type = file.strip("source\\_meta_").strip(".json")
+    type = file.replace("source\\_meta_", "").replace(".json", "")
     src_files = glob.glob(f"source/{type}_*.json")
 
     output_data = read_from_file(file)

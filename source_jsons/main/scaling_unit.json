@@ -1,0 +1,906 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "J:Units",
+                "abbreviation": "J:Units",
+                "color": "f5b342",
+                "full": "Jackalope: Scaling Units",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "monster": [
+        {
+            "name": "Phalanx (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "36"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 10 ft. {@h} 11 ({@damage 1d10 + 5}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. {@h} 8 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 10 ft. {@h} 21 ({@damage 2d10 + 10}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. {@h} 14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "108"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 10 ft. {@h} 31 ({@damage 3d10 + 14}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. {@h} 20 ({@damage 3d6 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 10 ft. {@h} 41 ({@damage 4d10 + 19}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. {@h} 26 ({@damage 4d6 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 10 ft. {@h} 51 ({@damage 5d10 + 23}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. {@h} 32 ({@damage 5d6 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Phalanx (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "216"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10",
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lines and Squares",
+                    "entries": [
+                        "The phalanx can use half its movement to reshape itself into one of the following shapes based on its size:",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Size",
+                                "Shapes"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Large",
+                                    "10x10 ft. Square or a 20x5 ft. Line"
+                                ],
+                                [
+                                    "Huge",
+                                    "15x15 ft. Square or a 25x10 ft. Line"
+                                ],
+                                [
+                                    "Gargantuan",
+                                    "20x20 ft. Square or a 30x15 ft. Line"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hold the Line",
+                    "entries": [
+                        "Creatures smaller than the phalanx cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The phalanx makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Pikes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 10 ft. {@h} 61 ({@damage 6d10 + 28}) piercing damage."
+                    ]
+                },
+                {
+                    "name": "Javelins",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. {@h} 38 ({@damage 6d6 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Pike Wall",
+                    "entries": [
+                        "When a creature moves into the reach of the phalanx's Pike attack, the phalanx can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the phalanx has advantage on this attack."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        }
+    ]
+}
