@@ -44,7 +44,7 @@
                 }
             ],
             "hp": {
-                "special": "36"
+                "special": "40"
             },
             "speed": {
                 "walk": 25
@@ -191,7 +191,7 @@
                 }
             ],
             "hp": {
-                "special": "72"
+                "special": "80"
             },
             "speed": {
                 "walk": 25
@@ -338,7 +338,7 @@
                 }
             ],
             "hp": {
-                "special": "108"
+                "special": "120"
             },
             "speed": {
                 "walk": 25
@@ -485,7 +485,7 @@
                 }
             ],
             "hp": {
-                "special": "144"
+                "special": "160"
             },
             "speed": {
                 "walk": 25
@@ -632,7 +632,7 @@
                 }
             ],
             "hp": {
-                "special": "180"
+                "special": "200"
             },
             "speed": {
                 "walk": 25
@@ -779,7 +779,7 @@
                 }
             ],
             "hp": {
-                "special": "216"
+                "special": "240"
             },
             "speed": {
                 "walk": 25
@@ -896,6 +896,720 @@
             ],
             "damageTags": [
                 "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft. {@h} 11 ({@damage 1d10 + 5}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/90 ft. {@h} 8 ({@damage 1d6 + 4}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 13} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft. {@h} 21 ({@damage 2d10 + 10}) slashing or piercing damage plus an additional 4 ({@damage 1d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/90 ft. {@h} 14 ({@damage 2d6 + 7}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 14} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft. {@h} 31 ({@damage 3d10 + 14}) slashing or piercing damage plus an additional 4 ({@damage 1d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/90 ft. {@h} 20 ({@damage 3d6 + 9}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 15} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft. {@h} 41 ({@damage 4d10 + 19}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/90 ft. {@h} 26 ({@damage 4d6 + 12}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 16} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft. {@h} 51 ({@damage 5d10 + 23}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/90 ft. {@h} 32 ({@damage 5d6 + 14}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 17} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Warband (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10",
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature Hoplite (CR1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR1)|J:Units|Phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The warband makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Spears",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft. {@h} 61 ({@damage 6d10 + 28}) slashing or piercing damage plus an additional 11 ({@damage 3d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                    ]
+                },
+                {
+                    "name": "Barrage",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/90 ft. {@h} 38 ({@damage 6d6 + 17}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Battlecry",
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the warband must make a {@dc 18} Wisdom saving throw or become {@condition Frightened|XPHB} by the warband for one minute (save ends)."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "We are coming for you",
+                    "entries": [
+                        "The warband takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
             ],
             "miscTags": [
                 "MW",

@@ -18,48 +18,6 @@
                         }
                     ]
                 }
-            ],
-            "Lines and Squares": [
-                {
-                    "crs": [1, 3, 5, 7, 9, 11],
-                    "entries": [
-                        "The <name> can use half its movement to reshape itself into one of the following shapes based on its size:",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "Size",
-                                "Shapes"
-                            ],
-                            "colStyles": [
-                                "col-1",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "Large",
-                                    "10x10 ft. Square or a 20x5 ft. Line"
-                                ],
-                                [
-                                    "Huge",
-                                    "15x15 ft. Square or a 25x10 ft. Line"
-                                ],
-                                [
-                                    "Gargantuan",
-                                    "20x20 ft. Square or a 30x15 ft. Line"
-                                ]
-                            ]
-                        }
-                    ]
-                }
-                
-            ],
-            "Hold the Line": [
-                {
-                    "crs": [1, 3, 5, 7, 9, 11],
-                    "entries": [
-                    "Creatures smaller than the <name> cannot enter its space unless it lets them or a magic effect specifically allows them to."
-                    ]
-                }
             ]
         },
         "action": {
@@ -67,41 +25,56 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                        "The <name> makes two weapon attacks. It can replace any of these attacks with its Battlecry. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
                     ]
                 }
             ],
-            "Pikes and Spears": [
+            "Axes and Spears": [
                 {
-                    "crs": [1, 3, 5, 7, 9, 11],
+                    "crs": [1],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 10 ft. <dmg_strong> piercing damage."
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_strong> slashing or piercing damage."
+                    ]
+                },
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_strong> slashing or piercing damage plus an additional <dmg_d6s> if the target is {@condition Frightened|XPHB} by the <name>."
                     ]
                 }
             ],
-            "Javelins": [
+            "Barrage": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr rw} <hit_default>, range 30/120 ft. <dmg_weak> piercing damage."
+                        "{@atkr rw} <hit_default>, range 30/90 ft. <dmg_weak> slashing or piercing damage."
+                    ]
+                }
+            ],
+            "Battlecry": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "A creature of its choice that it can see within 30 feet and that can hear the <name> must make a <dc_default> Wisdom saving throw or become {@condition Frightened|XPHB} by the <name> for one minute (save ends)."
                     ]
                 }
             ]
         },
-        "bonus": {},
-        "reaction": {
-            "Pike Wall": [
+        "bonus": {
+            "We are coming for you": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "When a creature moves into the reach of the <name>'s Pike attack, the <name> can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the <name> has advantage on this attack."
+                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action.",
+                        "Alternatively, if a creature it can see within 60 feet is {@condition Frightened|XPHB} of it, it can take both actions as part of the same bonus action. If it does so it must end the current turn closer to the {@condition Frightened|XPHB} creature or become {@condition Dazed|J:General} until the end of its next turn."
                     ]
                 }
             ]
-        }
+        },
+        "reaction": {}
     },
     "base_statblock": {
-        "name": "Phalanx",
+        "name": "Warband",
         "source": "J:Units",
         "size": ["L", "H", "G"],
         "type": {
@@ -115,9 +88,9 @@
             "A"
         ],
         "ac": "ac_medium",
-        "hp": "hp_epic",
+        "hp": "hp_default",
         "speed": {
-            "walk": 25
+            "walk": 40
         },
         "str": 16,
         "dex": 14,
@@ -149,9 +122,11 @@
         ],
         "trait": [],
         "action": [],
+        "bonus": [],
         "reaction": [],
         "damageTags": [
-            "P"
+            "P",
+            "S"
         ],
         "miscTags": [
             "MW",
