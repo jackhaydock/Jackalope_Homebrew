@@ -41,7 +41,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> moves up to 40 feet in a straight line. Each creature whose space the <name> passes through must make a <dc_default> Strength saving throw or take <dmg_crd6s> bludgeoning damage, or <dmg_halfcrd6s> bludgeoning damage if the <name> is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The <name> moves up to 40 feet in a straight line. Each creature whose space the <name> passes through must make a <dc_default> Strength saving throw or take <dmg_halfcrd12s> bludgeoning damage, or <dmg_halfcrd6s> bludgeoning damage if the <name> is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ]
@@ -70,7 +70,7 @@
     "base_statblock": {
         "name": "Cavalry",
         "source": "J:Units",
-        "size": ["L", "H", "G"],
+        "size": ["H", "G"],
         "type": {
             "type": "Humanoid",
             "tags": [

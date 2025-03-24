@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.24.22.38",
+                "version": "2025.03.24.22.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.24.22.38",
+                "version": "2025.03.24.22.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1742855921.1898067
+        "dateLastModified": 1742857023.5648167
     },
     "class": [
         {
@@ -22099,7 +22099,6 @@
             "name": "Cavalry (CR 1)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22185,7 +22184,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 13} Strength saving throw or take 4 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 13} Strength saving throw or take 7 ({@damage 1d12}) bludgeoning damage, or 4 ({@damage 1d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
@@ -22216,7 +22215,6 @@
             "name": "Cavalry (CR 3)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22302,7 +22300,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 14} Strength saving throw or take 11 ({@damage 3d6}) bludgeoning damage, or 7 ({@damage 2d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 14} Strength saving throw or take 13 ({@damage 2d12}) bludgeoning damage, or 7 ({@damage 2d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
@@ -22333,7 +22331,6 @@
             "name": "Cavalry (CR 5)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22419,7 +22416,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 15} Strength saving throw or take 18 ({@damage 5d6}) bludgeoning damage, or 11 ({@damage 3d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 15} Strength saving throw or take 20 ({@damage 3d12}) bludgeoning damage, or 11 ({@damage 3d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
@@ -22450,7 +22447,6 @@
             "name": "Cavalry (CR 7)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22536,7 +22532,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 16} Strength saving throw or take 25 ({@damage 7d6}) bludgeoning damage, or 14 ({@damage 4d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 16} Strength saving throw or take 26 ({@damage 4d12}) bludgeoning damage, or 14 ({@damage 4d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
@@ -22567,7 +22563,6 @@
             "name": "Cavalry (CR 9)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22653,7 +22648,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 17} Strength saving throw or take 32 ({@damage 9d6}) bludgeoning damage, or 18 ({@damage 5d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 17} Strength saving throw or take 33 ({@damage 5d12}) bludgeoning damage, or 18 ({@damage 5d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
@@ -22684,7 +22679,6 @@
             "name": "Cavalry (CR 11)",
             "source": "J:Units",
             "size": [
-                "L",
                 "H",
                 "G"
             ],
@@ -22770,7 +22764,7 @@
                 {
                     "name": "Stampede",
                     "entries": [
-                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 11d6}) bludgeoning damage, or 21 ({@damage 6d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 6d12}) bludgeoning damage, or 21 ({@damage 6d6}) bludgeoning damage if the cavalry is {@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
                     ]
                 }
             ],
