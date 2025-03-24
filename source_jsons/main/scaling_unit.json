@@ -21,6 +21,966 @@
     },
     "monster": [
         {
+            "name": "Ship Crew (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 10 ft. {@h} 8 ({@damage 1d6 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. {@h} 7 ({@damage 1d4 + 4}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+5",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 10 ft. {@h} 14 ({@damage 2d6 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. {@h} 12 ({@damage 2d4 + 7}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 10 ft. {@h} 20 ({@damage 3d6 + 9}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. {@h} 17 ({@damage 3d4 + 9}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+7",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 10 ft. {@h} 26 ({@damage 4d6 + 12}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. {@h} 22 ({@damage 4d4 + 12}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 10 ft. {@h} 32 ({@damage 5d6 + 14}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. {@h} 27 ({@damage 5d4 + 14}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ship Crew (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+9",
+                "dex": "+10"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Crew the Ship",
+                    "entries": [
+                        "When the ship crew uses its action to act as the crew of a ship, it counts as a number of crew equal to 20% of its current hit points (rounded down, minimum of 1)."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ship crew makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axes and Knives",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 10 ft. {@h} 38 ({@damage 6d6 + 17}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. {@h} 32 ({@damage 6d4 + 17}) bludgeoning or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Grappling Hooks",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew.",
+                        "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant: Crew Actions vs Ship Actions",
+                    "entries": [
+                        "The current version of this statblock assumes a ruleset in which the ship itself has actions and the crew simply contribute to those actions by numbers alone. If you are not using such a ruleset or the ship does not use its own actions, such as spelljammers, you may wish with to replace the Crew the Ship trait with the folllowing:",
+                        {
+                            "name": "Crew Actions",
+                            "entries": [
+                                "While on board a ship they control, the ship crew takes one of the following actions:",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        {
+                                            "name": "Move",
+                                            "entries": [
+                                                "The ship moves up to a number of feet equal to five times its Proficiency Bonus, or half as far if {@variantrule Bloodied|XPHB} (minimum of 5 feet)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Fire",
+                                            "entries": [
+                                                "The ship crew loads, aims and fires a weapon mounted on the vehicle. The attack deals additional damage equal to twice its Proficiency Bonus unless the crew is {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Repair",
+                                            "entries": [
+                                                "The ship crew touches a component or weapon of the vehicle and restores a number of hit points to it equal to five times its Proficiency Bonus, or half as much if {@variantrule Bloodied|XPHB} (minimum of 1 hit point)."
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brace",
+                                            "entries": [
+                                                "The crew protects a itself, a creature, or a component or weapon on the ship within 5 feet. Attacks against the target have disadvantage until the start of the crew's next turn. It cannot use this action if {@variantrule Bloodied|XPHB}."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Phalanx (CR 1)",
             "source": "J:Units",
             "size": [

@@ -94,6 +94,9 @@ def get_dc_formula(cr, formula):
 def get_mod_formulas(cr, formula):
     mod_formulas = {
         "pb": get_prof_bonus(cr),
+        "pb2": get_prof_bonus(cr)*2,
+        "pb3": get_prof_bonus(cr)*3,
+        "pb5": get_prof_bonus(cr)*5,
         "scale1": get_scaling_mod(cr)/2,
         "scale2": get_scaling_mod(cr),
         "scale3": get_scaling_mod(cr)*1.5,
