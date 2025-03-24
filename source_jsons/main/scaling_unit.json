@@ -21,6 +21,708 @@
     },
     "monster": [
         {
+            "name": "Cavalry (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "36"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+2"
+            },
+            "passive": 12,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 10 ft. {@h} 11 ({@damage 1d10 + 5}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 13} Strength saving throw or take 4 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 13} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Cavalry (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+5",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 10 ft. {@h} 21 ({@damage 2d10 + 10}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 14} Strength saving throw or take 11 ({@damage 3d6}) bludgeoning damage, or 7 ({@damage 2d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 14} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Cavalry (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "108"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 10 ft. {@h} 31 ({@damage 3d10 + 14}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 15} Strength saving throw or take 18 ({@damage 5d6}) bludgeoning damage, or 11 ({@damage 3d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 15} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Cavalry (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+7",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 10 ft. {@h} 41 ({@damage 4d10 + 19}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 16} Strength saving throw or take 25 ({@damage 7d6}) bludgeoning damage, or 14 ({@damage 4d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 16} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Cavalry (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 10 ft. {@h} 51 ({@damage 5d10 + 23}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 17} Strength saving throw or take 32 ({@damage 9d6}) bludgeoning damage, or 18 ({@damage 5d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 17} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Cavalry (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "Humanoid",
+                "tags": [
+                    "unit",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "216"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+9",
+                "dex": "+10"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet that shares a tag (not counting the Unit tag) with the unit can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Lances and Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 10 ft. {@h} 61 ({@damage 6d10 + 28}) slashing or piercing damage."
+                    ]
+                },
+                {
+                    "name": "Stampede",
+                    "entries": [
+                        "The cavalry moves up to 40 feet in a straight line. Each creature whose space the cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 11d6}) bludgeoning damage, or 21 ({@damage 6d6}) bludgeoning damage if the cavalry is {{@variantrule Bloodied|XPHB}, and be knocked {@condition Prone|XPHB}. A creature takes half damage and is not knocked prone on a success. A creature that is already prone when it makes the saving throw has disadvantage on the saving throw."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Nimble Action",
+                    "entries": [
+                        "The cavalry takes the {@action Dash|XPHB} or {@action Disengage} action."
+                    ]
+                },
+                {
+                    "name": "Scatter the Infantry",
+                    "entries": [
+                        "When the cavalry hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a {@dc 18} Strength saving throw or be pushed up to 10 feet away from the target."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Ship Crew (CR 1)",
             "source": "J:Units",
             "size": [
@@ -32,7 +734,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -47,7 +749,7 @@
                 "special": "30"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 14,
             "dex": 16,
@@ -122,7 +824,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 5}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 10 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }
@@ -192,7 +894,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -207,7 +909,7 @@
                 "special": "60"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 16,
             "dex": 18,
@@ -282,7 +984,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 10 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 6}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 10 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }
@@ -352,7 +1054,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -367,7 +1069,7 @@
                 "special": "90"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 16,
             "dex": 18,
@@ -442,7 +1144,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 7}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 15 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }
@@ -512,7 +1214,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -527,7 +1229,7 @@
                 "special": "120"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 18,
             "dex": 20,
@@ -602,7 +1304,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 15 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 8}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 15 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }
@@ -672,7 +1374,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -687,7 +1389,7 @@
                 "special": "150"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 18,
             "dex": 20,
@@ -762,7 +1464,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 9}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 20 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }
@@ -832,7 +1534,7 @@
                 "type": "Humanoid",
                 "tags": [
                     "unit",
-                    "soldier"
+                    "support"
                 ]
             },
             "alignment": [
@@ -847,7 +1549,7 @@
                 "special": "180"
             },
             "speed": {
-                "walk": 25
+                "walk": 30
             },
             "str": 20,
             "dex": 22,
@@ -922,7 +1624,7 @@
                 {
                     "name": "Grappling Hooks",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 30/120 ft. one Large or larger object. {@h}The object is pulled 20 feet towards the ship crew.",
+                        "{@atkr rw} {@hit 10}, range 30/120 ft. one Large or larger object. {@h} The object is pulled 20 feet towards the ship crew.",
                         "If the target is a vehicle and ends this movement within 10 feet of the ship crew, the target cannot move away from the ship crew until a creature within 5 feet of the target uses an action to remove the hooks or the ship crew releases it (no action required)."
                     ]
                 }

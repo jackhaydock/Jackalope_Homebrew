@@ -71,6 +71,10 @@ def get_damage_formuala(cr, formula):
         return get_damage_str(small_dice, 8)
     elif formula == "d10s":
         return get_damage_str(small_dice, 10)
+    elif formula == "crd6s":
+        return get_damage_str(cr, 6)
+    elif formula == "halfcrd6s":
+        return get_damage_str(dice, 6)
     raise Exception(f"Bad DMG formula: {formula}")
     
 def get_hit_formula(cr, formula):
