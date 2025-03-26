@@ -3,11 +3,19 @@
         "crs": [1,3,5,7,9,11],
         "primary_cr": 3,
         "trait": {
-            "Unstopable": [
+            "Unphasable": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> ignores {@variantrule Difficult Terrain|XPHB} and has advantage on saving throws against the following conditions; {@condition Prone|XPHB}, {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, {@condition Slowed|J:General} or {@condition Hampered|J:General}."
+                        "The <name> has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "Reckless Attacks": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "At the start of its turn, the <name> can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
                     ]
                 }
             ]
@@ -21,11 +29,17 @@
                     ]
                 }
             ],
-            "Maul": [
+            "Greataxe": [
                 {
-                    "crs": [1, 3, 5, 7, 9, 11],
+                    "crs": [1],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the <name>."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> slashing damage."
+                    ]
+                },
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> slashing damage plus <dmg_d6s> thunder damage to the target or one creature of the <name>'s choice within 5 feet of the target."
                     ]
                 }
             ],
@@ -51,7 +65,7 @@
         "reaction": {}
     },
     "base_statblock": {
-        "name": "Hulk",
+        "name": "Ravager",
         "source": "J:Warriors",
         "size": ["M", "L"],
         "type": {
@@ -93,7 +107,9 @@
         "bonus": [],
         "reaction": [],
         "damageTags": [
-            "B"
+            "B",
+            "S",
+            "T"
         ],
         "miscTags": [
             "MW"

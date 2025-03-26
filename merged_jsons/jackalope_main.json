@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.26.20.12",
+                "version": "2025.03.26.20.33",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.26.20.12",
+                "version": "2025.03.26.20.33",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743019956.2037477
+        "dateLastModified": 1743021233.1884472
     },
     "class": [
         {
@@ -31624,7 +31624,7 @@
                 "special": "40"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 16,
             "dex": 14,
@@ -31686,8 +31686,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -31716,7 +31715,7 @@
                 "special": "80"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 18,
             "dex": 16,
@@ -31778,8 +31777,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -31809,7 +31807,7 @@
                 "special": "120"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 18,
             "dex": 16,
@@ -31871,8 +31869,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -31902,7 +31899,7 @@
                 "special": "160"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 20,
             "dex": 18,
@@ -31964,8 +31961,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -31995,7 +31991,7 @@
                 "special": "200"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 20,
             "dex": 18,
@@ -32057,8 +32053,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -32088,7 +32083,7 @@
                 "special": "240"
             },
             "speed": {
-                "walk": 35
+                "walk": 40
             },
             "str": 22,
             "dex": 20,
@@ -32150,8 +32145,7 @@
                 "B"
             ],
             "miscTags": [
-                "MW",
-                "RW"
+                "MW"
             ]
         },
         {
@@ -32553,6 +32547,605 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 11
+                }
+            ],
+            "hp": {
+                "special": "40"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+3"
+            },
+            "passive": 10,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 11 ({@damage 1d10 + 5}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 11
+                }
+            ],
+            "hp": {
+                "special": "80"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "intimidation": "+4"
+            },
+            "passive": 11,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing damage plus 4 ({@damage 1d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7",
+                "intimidation": "+5"
+            },
+            "passive": 11,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing damage plus 4 ({@damage 1d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 12
+                }
+            ],
+            "hp": {
+                "special": "160"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8",
+                "intimidation": "+6"
+            },
+            "passive": 12,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "200"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "intimidation": "+7"
+            },
+            "passive": 12,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Ravager (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "240"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10",
+                "intimidation": "+8"
+            },
+            "passive": 13,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Greataxe",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing damage plus 11 ({@damage 3d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                    ]
+                },
+                {
+                    "name": "Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "B",
+                "S",
+                "T"
+            ],
+            "miscTags": [
+                "MW"
             ]
         },
         {
