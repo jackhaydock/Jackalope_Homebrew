@@ -170,6 +170,10 @@ def create_statblock_at_cr(base, meta, cr):
     output["hp"] = {
         "special": str(calculate_hp(cr, formula=base["hp"]))
     }
+
+    # Add Scaled tag to allow filtering all but one cr for each
+    if cr != meta["primary_cr"]:
+        output["type"]["tags"].append("scaled")
     
     # Ability Scores
     for stat in ["str", "dex", "con", "int", "wis", "cha"]:
