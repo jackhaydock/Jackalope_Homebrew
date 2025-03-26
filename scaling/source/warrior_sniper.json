@@ -1,0 +1,111 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {
+            "Focused Hunter": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "Being {@condition Prone|XPHB} does not impose disadvantage on the <name>'s ranged weapon attacks."
+                    ]
+                }
+            ],
+            "Overwatch": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> has an additional reaction, which it can only use for a {@action Ready|XPHB|readied} ranged weapon attack. It can use the same trigger for multiple readied attacks in a single round, such as \"Seeing a hostile creature move within range\", but each attack must be against a different creature."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks."
+                    ]
+                }
+            ],
+            "Ranged Weapon": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rw} <hit_default>, range 150/300 ft., one target <dmg_strong> bludgeoning or piercing damage."
+                    ]
+                }
+            ],
+            "Sidearm": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one_target <dmg_puny> piercing damage."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Steady Aim": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "If the <name> has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "When it uses this bonus action, the <name>'s speed is reduced to 0 until the start of its next turn."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Sniper",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "artillery"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 30
+        },
+        "str": 14,
+        "dex": 16,
+        "con": 12,
+        "int": 8,
+        "wis": 12,
+        "cha": 10,
+        "save": {
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "perception": "+6",
+            "stealth": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}

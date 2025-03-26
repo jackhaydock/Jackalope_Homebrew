@@ -32,7 +32,7 @@
                 {
                     "crs": [3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> slashing damage plus an additional <dmg_d10s> slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 }
