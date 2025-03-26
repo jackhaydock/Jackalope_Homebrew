@@ -71,6 +71,8 @@ def get_damage_formuala(cr, formula):
         return get_damage_str(small_dice, 8)
     elif formula == "d10s":
         return get_damage_str(small_dice, 10)
+    elif formula == "d12s":
+        return get_damage_str(small_dice, 12)
     elif formula == "crd4s":
         return get_damage_str(cr, 4)
     elif formula == "crd6s":
