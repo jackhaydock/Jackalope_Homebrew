@@ -1,0 +1,103 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {
+            "Unstopable": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The warrior ignores {@variantrule Difficult Terrain|XPHB} and has advantage on saving throws against the following conditions; {@condition Prone|XPHB}, {@condition Grappled|XPHB}, {@condition Restrained|XPHB}, {@condition Slowed|J:General} or {@condition Hampered|J:General}."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks."
+                    ]
+                }
+            ],
+            "Maul": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_strong> bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the <name>."
+                    ]
+                }
+            ],
+            "Unarmed Strike": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one_target <dmg_puny> bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Furious Action": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The warrior takes the {@action Dash|XPHB} action or uses its Unarmed Strike."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Hulk",
+        "source": "J:Warriors",
+        "size": ["M", "L"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "brute"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_unarmored",
+        "hp": "hp_epic",
+        "speed": {
+            "walk": 35
+        },
+        "str": 16,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 10,
+        "cha": 12,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "athletics": "+6",
+            "intimidation": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "B"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}
