@@ -31,7 +31,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw, rw} <hit_default>, reach 5 ft. or range 20/60 ft. <dmg_medium> piercing damage."
+                        "{@atkr mw, rw} <hit_default>, reach 5 ft. or range 20/60 ft., one target <dmg_medium> piercing damage."
                     ]
                 }
             ],
@@ -39,7 +39,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_puny> bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ]

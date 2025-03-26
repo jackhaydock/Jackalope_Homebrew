@@ -16,20 +16,20 @@
                 {
                     "crs": [1],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Strength saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> piercing damage and the target must make a <dc_default> Strength saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack."
                     ]
                 },
                 {
                     "crs": [3, 5],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Wisdom saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack.",
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> piercing damage and the target must make a <dc_default> Wisdom saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack.",
                         "The target is also {@condition Taunted|J:General} by any creature that is holding or wearing the stolen item for the next minute, or until it recovers the item. A creature can only be Taunted in this way once at a time."
                     ]
                 },
                 {
                     "crs": [7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft. <dmg_weak> piercing damage and the target must make a <dc_default> Wisdom saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack.",
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> piercing damage and the target must make a <dc_default> Wisdom saving throw or drop one item of the <name>'s choice that it is holding. The <name> can pick up the item as part of the attack.",
                         "The target is also {@condition Taunted|J:General} by any creature that is holding or wearing the stolen item for the next minute, or until it recovers the item. While Taunted, the creature is also {@condition Ligerning|J:General|Lingering (<mod_scale3> psychic)}. A creature can only be Taunted in this way once at a time. "
                     ]
                 }
@@ -38,7 +38,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw,rw} <hit_default>, reach 5 ft. or range 20/60 ft. <dmg_puny> piercing damage."
+                        "{@atkr mw,rw} <hit_default>, reach 5 ft. or range 20/60 ft., one target <dmg_puny> piercing damage."
                     ]
                 }
             ]
