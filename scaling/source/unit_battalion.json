@@ -1,0 +1,253 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {
+            "Warrior Unit": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                }
+            ],
+            "Slings and Arrows": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rw} <hit_default>, range 150/600 ft., one target <dmg_strong> piercing damage."
+                    ]
+                }
+            ],
+            "Sidearms": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> slashing damage."
+                    ]
+                }
+            ],
+            "Volley": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "Each creature within 20 feet of a point the <name> can see must make a <dc_default> Dexterity saving throw or take <dmg_halfcrd12s> piercing damage, or <dmg_halfcrd6s> piercing damage if the <name> is {@variantrule Bloodied|XPHB}. A creature takes half damage on a success."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Artillery Battalion",
+        "source": "J:Units",
+        "size": ["L", "H", "G"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "unit",
+                "artillery"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 30
+        },
+        "str": 14,
+        "dex": 16,
+        "con": 12,
+        "int": 8,
+        "wis": 10,
+        "cha": 12,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "athletics": "+6",
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "conditionImmune": [
+            "charmed",
+            "flanked",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "prone",
+            "restrained"
+        ],
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "reaction": [],
+        "damageTags": [
+            "P",
+            "S"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ],
+        "variant": [
+            {
+                "type": "variant",
+                "name": "Variant Units",
+                "entries": [
+                    "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                    {
+                        "type": "list",
+                        "items": [
+                            {
+                                "type": "entries",
+                                "name": "Arcane Warriors",
+                                "entries": [
+                                    "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Arsonists",
+                                "entries": [
+                                    "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Breath Weapon",
+                                "entries": [
+                                    "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Darkvision",
+                                "entries": [
+                                    "The unit has darkvision out to 60 feet."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Enhanced Movement",
+                                "entries": [
+                                    "The unit has a climbing or swimming speed equal to its walking speed."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Heavily Armoured",
+                                "entries": [
+                                    "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Large",
+                                "entries": [
+                                    "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Resistance",
+                                "entries": [
+                                    "The unit has resistance to a damage type of the DM's choice."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Rip and Tear",
+                                "entries": [
+                                    "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Small",
+                                "entries": [
+                                    "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "variant",
+                "name": "Skinchanger Unit",
+                "source": "J:AnS",
+                "entries": [
+                    "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                    {
+                        "type": "list",
+                        "style": "list",
+                        "items": [
+                            {
+                                "type": "entries",
+                                "name": "Bears, Elephants or Rhinos",
+                                "entries": [
+                                    "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Boars, Horses or Stags",
+                                "entries": [
+                                    "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Crabs, Sharks or Squids",
+                                "entries": [
+                                    "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Hyenas, Lions, or Wolves",
+                                "entries": [
+                                    "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                ]
+                            },
+                            {
+                                "type": "entries",
+                                "name": "Rats, Snakes or Spiders",
+                                "entries": [
+                                    "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
