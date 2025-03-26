@@ -42,7 +42,12 @@ legacy_files = glob.glob("source_jsons/legacy/*.json")
 all_files = main_files + extra_files + legacy_files
 
 # Get data and write
+print("-Extra")
 write_to_file("merged_jsons/jackalope_extra.json", build_json(extra_files))
+print("-Legacy")
 write_to_file("merged_jsons/jackalope_legacy.json", build_json(legacy_files))
+print("-Main")
 write_to_file("merged_jsons/jackalope_main.json", build_json(main_files))
+print("-All")
 write_to_file("merged_jsons/jackalope_all.json", build_json(all_files))
+print("Complete")

@@ -248,7 +248,7 @@ def create_statblock_at_cr(base, meta, cr):
 
 def create_statblocks(data):
     name = data["base_statblock"]["name"]
-    print(name)
+    print(f"-{name}")
     output_list = []
     for cr in data["scaling"]["crs"]:
         output_list.append(create_statblock_at_cr(data["base_statblock"], data["scaling"], cr))
@@ -262,15 +262,16 @@ def write_to_file(filename, data):
     with open(filename, 'w') as output_file:
         json.dump(data, output_file, indent=4)
 
-meta_files = glob.glob("source/_meta_*.json")
+meta_files = glob.glob("scaling\\source\\_meta_*.json")
 for file in meta_files:
-    type = file.replace("source\\_meta_", "").replace(".json", "")
-    src_files = glob.glob(f"source/{type}_*.json")
+    type = file.replace("scaling\\source\\_meta_", "").replace(".json", "")
+    src_files = glob.glob(f"scaling\\source\{type}_*.json")
 
     output_data = read_from_file(file)
     for f in src_files:
         input = read_from_file(f)
         output_data["monster"].extend(create_statblocks(input))
 
-    dest_file = f"../source_jsons/main/scaling_{type}.json"
+    dest_file = f"source_jsons/main/scaling_{type}.json"
     write_to_file(dest_file, output_data)
+print("Complete")
