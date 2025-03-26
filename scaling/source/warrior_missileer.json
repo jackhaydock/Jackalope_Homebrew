@@ -1,0 +1,92 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks."
+                    ]
+                }
+            ],
+            "Ranged Weapon": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rw} <hit_default>, range 150/300 ft., one target <dmg_strong> bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                }
+            ],
+            "Sidearm": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one_target <dmg_puny> piercing damage."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Honed Eye": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "When the <name> makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Missileer",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "artillery"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 30
+        },
+        "str": 14,
+        "dex": 16,
+        "con": 12,
+        "int": 8,
+        "wis": 12,
+        "cha": 10,
+        "save": {
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}

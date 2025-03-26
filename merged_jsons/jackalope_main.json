@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.26.21.33",
+                "version": "2025.03.26.22.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.26.21.33",
+                "version": "2025.03.26.22.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743024799.9592636
+        "dateLastModified": 1743029836.8056748
     },
     "class": [
         {
@@ -31098,7 +31098,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -31184,7 +31184,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -31271,7 +31271,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -31358,7 +31358,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -31445,7 +31445,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -31532,7 +31532,7 @@
                 {
                     "name": "Dispasionate Killer",
                     "entries": [
-                        "The warrior has advantage on Wisdom and Charisma saving throws."
+                        "The executioner has advantage on Wisdom and Charisma saving throws."
                     ]
                 }
             ],
@@ -33061,6 +33061,509 @@
                 }
             ],
             "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "24"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+5"
+            },
+            "skill": {
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 150/300 ft., one target {@h} 11 ({@damage 1d10 + 5}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+6"
+            },
+            "skill": {
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 150/300 ft., one target {@h} 21 ({@damage 2d10 + 10}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+7"
+            },
+            "skill": {
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 150/300 ft., one target {@h} 31 ({@damage 3d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+8"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 150/300 ft., one target {@h} 41 ({@damage 4d10 + 19}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+9"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 150/300 ft., one target {@h} 51 ({@damage 5d10 + 23}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Missileer (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+10"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missileer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Ranged Weapon",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 150/300 ft., one target {@h} 61 ({@damage 6d10 + 28}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Honed Eye",
+                    "entries": [
+                        "When the missileer makes a ranged weapon attack, they can gain a {@dice 1d10} bonus to either the attack roll or the damage roll."
+                    ]
+                }
+            ],
             "reaction": [],
             "damageTags": [
                 "P"
