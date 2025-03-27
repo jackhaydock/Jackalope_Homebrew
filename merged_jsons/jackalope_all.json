@@ -577,7 +577,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.02.27.06.46",
+                "version": "2025.03.27.01.11",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743036649.010995
+        "dateLastModified": 1743037885.3320708
     },
     "class": [
         {
@@ -1337,9 +1337,9 @@
                 "Extra Attack|Ranger|XPHB|5",
                 "Careful Stride|Lorehunter (WIP)|J:Lore|6|J:Lore",
                 "Additional Expertise|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "Robust Mind|Lorehunter (WIP)|J:Lore|10|J:Lore",
-                "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|10|J:Lore",
-                "WIP|Lorehunter (WIP)|J:Lore|14|J:Lore",
+                "Knowledge Shared|Lorehunter (WIP)|J:Lore|10|J:Lore",
+                "Robust Mind|Lorehunter (WIP)|J:Lore|14|J:Lore",
+                "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|14|J:Lore",
                 "WIP|Lorehunter (WIP)|J:Lore|18|J:Lore",
                 "WIP|Lorehunter (WIP)|J:Lore|20|J:Lore",
                 "Lorehunter Subclass|Lorehunter (WIP)|J:Lore|3|J:Lore",
@@ -3284,7 +3284,7 @@
             "classSource": "J:Lore",
             "level": 2,
             "entries": [
-                "Starting at 2nd Level, you can take the {@action Help|XPHB}, {@action Search|XPHB} or {@action Study|XPHB} action as a bonus action."
+                "Starting at 2nd Level, you can take the {@action Help|XPHB}, {@action Search|XPHB} or {@action Study|XPHB} action as a {@variantrule Bonus Action|XPHB}."
             ]
         },
         {
@@ -3371,13 +3371,58 @@
             "gainSubclassFeature": true
         },
         {
-            "name": "Robust Mind",
+            "name": "Knowledge Shared",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 10,
             "entries": [
-                "Starting at 10th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a short or long rest."
+                "Starting at 10th level, you can learn from your allies and them from you. When you finish a Long Rest, you and a willing creature you choose can gain one of the following benefits until the end of your next Long Rest:",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Share Martial Arts",
+                            "entries": [
+                                "You learn one of the following Monk features that the other creature knows; Flurry of Blows, Patient Defence or Step of the Wind. You have a number of Focus points to spend on this Monk feature equal to your Intelligence Modifier. You do not recover these points unless you use this feature again.",
+                                "The other creature, meanwhile, can use a {@variantrule Bonus Action|XPHB} to take the {@action Search|XPHB} or {@action Study|XPHB} action. It can spend a Focus point to take the {@action Help|XPHB} action as part of the same {@variantrule Bonus Action|XPHB}."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Share Spells",
+                            "entries": [
+                                "Each of you learn a spell of 3rd-level or lower of your choice that the other knows or has prepared. The spell you learn counts as a Lorehunter spell for you and the spell they learn counts as a spell for their spellcasting class if it has one (it chooses which if it has multiple), and neither counts against the number of spells that can be prepared by the creature who learns it. If the creature does not have the Spellcasting or Pact Magic feature, it can cast the learned spell once without requiring a spell slot."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Share Talents",
+                            "entries": [
+                                "Each of you gain proficiency with a skill, tool or instrument that the other has proficiency with."
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Share Weapon Styles",
+                            "entries": [
+                                "Each of you learns one {@filter Fighting Style feat|feats|category=FS} or the {@variantrule weapon mastery properties|XPHB|mastery property} of a weapon that the other knows. If you learn the {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, or {@itemMastery Slow|XPHB} mastery property, you can replace another mastery property you use on a weapon attack."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Robust Mind",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a short or long rest."
             ]
         },
         {
@@ -3385,9 +3430,9 @@
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
-            "level": 10,
+            "level": 14,
             "entries": [
-                "At 10th level, your unique senses become stronger.",
+                "At 14th level, your unique senses become stronger.",
                 {
                     "type": "list",
                     "style": "list-hang-notitle",
