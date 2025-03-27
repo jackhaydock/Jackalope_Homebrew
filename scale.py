@@ -46,54 +46,35 @@ def get_damage_str(dice, faces, mod=0):
     return f"{avg} ({{@damage {dice}d{faces}{mod_str}}})"
 
 def get_damage_formuala(cr, formula):
-    dice = math.ceil(cr/2)
-    small_dice = math.floor((cr+1)/4)
-    mod = get_ability_mod(16+get_scaling_mod(cr))
+    ability_mod = get_ability_mod(16+get_scaling_mod(cr))
+    num_formulas = {
+        "halfcrup": math.ceil(cr/2), # CR/2 rounded up, this is the standard for most attacks
+        "halfcrdown:": math.floor(cr/2), # CR/2 rounded down, starts with 1 die at CR 2/3 then +1 every 2 CRs
+        "4s1": math.floor((cr+1)/4)+1, # Scale every 4 crs starting with 1 die at CR 1
+        "4s3": math.floor((cr+1)/4)+1, # Above but starting with 1 die at CR 3, good for riders that start later
+    }   
+    attack_formulas = {
+        "puny": (num_formulas["halfcrup"], 6, ability_mod+cr),
+        "weak": (num_formulas["halfcrup"], 6, ability_mod+cr),
+        "medium": (num_formulas["halfcrup"], 8, ability_mod+cr),
+        "strong": (num_formulas["halfcrup"], 10, ability_mod+(cr)),
+        "epic": (num_formulas["halfcrup"], 12, ability_mod+(cr))
+    }
+
     if formula == "minion":
         dmg_by_cr = get_prof_bonus(cr) + math.ceil(cr/10)
         dmg = dmg_by_cr if dmg_by_cr <= cr else cr
         return f"{{@h}} {dmg}"
-    elif formula == "puny":
-        return f"{{@h}} {get_damage_str(dice, 4, mod+cr)}"
-    elif formula == "weak":
-        return f"{{@h}} {get_damage_str(dice, 6, mod+cr)}"
-    elif formula == "medium":
-        return f"{{@h}} {get_damage_str(dice, 8, mod+cr)}"
-    elif formula == "strong":
-        return f"{{@h}} {get_damage_str(dice, 10, mod+(2*cr))}"
-    elif formula == "epic":
-        return f"{{@h}} {get_damage_str(dice, 12, mod+(2*cr))}"
-    elif formula == "d4s":
-        return get_damage_str(small_dice, 4)
-    elif formula == "d6s":
-        return get_damage_str(small_dice, 6)
-    elif formula == "d8s":
-        return get_damage_str(small_dice, 8)
-    elif formula == "d10s":
-        return get_damage_str(small_dice, 10)
-    elif formula == "d12s":
-        return get_damage_str(small_dice, 12)
-    elif formula == "crd4s":
-        return get_damage_str(cr, 4)
-    elif formula == "crd6s":
-        return get_damage_str(cr, 6)
-    elif formula == "crd8s":
-        return get_damage_str(cr, 8)
-    elif formula == "crd10s":
-        return get_damage_str(cr, 10)
-    elif formula == "crd12s":
-        return get_damage_str(cr, 12)
-    elif formula == "halfcrd4s":
-        return get_damage_str(dice, 4)
-    elif formula == "halfcrd6s":
-        return get_damage_str(dice, 6)
-    elif formula == "halfcrd8s":
-        return get_damage_str(dice, 8)
-    elif formula == "halfcrd10s":
-        return get_damage_str(dice, 10)
-    elif formula == "halfcrd12s":
-        return get_damage_str(dice, 12)
-    raise Exception(f"Bad DMG formula: {formula}")
+    elif formula in attack_formulas.keys():
+        num, face, mod = attack_formulas[formula]
+        return f"{{@h}} {get_damage_str(num, face, mod)}"
+    else:
+        # This assumes the dmg is not an attack and does not include the '{@h}'
+        form_num, form_face, *form_mods  = formula.split("_")
+        num = num_formulas[form_num]
+        face = int(form_face.strip("ds"))
+        mod = form_mods[0] if form_mods else 0
+        return get_damage_str(num, face, mod)
     
 def get_hit_formula(cr, formula):
     ability = {
@@ -139,7 +120,7 @@ def process_scaling_text(entries, cr, name):
                 if f == "<name>":
                     sub_str = name.lower()
                 else:
-                    formula_type = f.split("_")[1].strip(">")
+                    formula_type = f.split("_", 1)[1].strip(">")
                     if f == "<name>":
                         sub_str = name.lower()
                     elif re.search("^<hit_", f):

@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.00.50",
+                "version": "2025.03.27.16.16",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.00.12",
+                "version": "2025.03.27.16.26",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.00.12",
+                "version": "2025.03.27.16.26",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743037885.3320708
+        "dateLastModified": 1743092813.7946184
     },
     "class": [
         {
@@ -7799,7 +7799,7 @@
                 }
             ],
             "entries": [
-                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +1 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "This medal can be worn on your person or attached to a shield or weapon. You gain +1 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
                 "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
             ],
             "bonusWeapon": "+1"
@@ -7816,7 +7816,7 @@
                 }
             ],
             "entries": [
-                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +2 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "This medal can be worn on your person or attached to a shield or weapon. You gain +2 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
                 "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
             ],
             "bonusWeapon": "+2"
@@ -7833,7 +7833,7 @@
                 }
             ],
             "entries": [
-                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "This medal can be worn on your person or attached to a shield or weapon. You gain +2 bonus to attack and damage rolls made with an attached weapon (provided it doesn't already give a bonus to such rolls), and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your ranger spells. In addition, you can use the charm or weapon as a spellcasting focus for your ranger spells.",
                 "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
             ],
             "bonusWeapon": "+3"
@@ -27319,7 +27319,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 150/600 ft., one target {@h} 11 ({@damage 1d10 + 5}) piercing damage."
+                        "{@atkr rw} {@hit 5}, range 150/600 ft., one target {@h} 10 ({@damage 1d10 + 4}) piercing damage."
                     ]
                 },
                 {
@@ -27562,7 +27562,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 150/600 ft., one target {@h} 21 ({@damage 2d10 + 10}) piercing damage."
+                        "{@atkr rw} {@hit 6}, range 150/600 ft., one target {@h} 18 ({@damage 2d10 + 7}) piercing damage."
                     ]
                 },
                 {
@@ -27806,7 +27806,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 150/600 ft., one target {@h} 31 ({@damage 3d10 + 14}) piercing damage."
+                        "{@atkr rw} {@hit 7}, range 150/600 ft., one target {@h} 26 ({@damage 3d10 + 9}) piercing damage."
                     ]
                 },
                 {
@@ -28050,7 +28050,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 150/600 ft., one target {@h} 41 ({@damage 4d10 + 19}) piercing damage."
+                        "{@atkr rw} {@hit 8}, range 150/600 ft., one target {@h} 34 ({@damage 4d10 + 12}) piercing damage."
                     ]
                 },
                 {
@@ -28294,7 +28294,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 150/600 ft., one target {@h} 51 ({@damage 5d10 + 23}) piercing damage."
+                        "{@atkr rw} {@hit 9}, range 150/600 ft., one target {@h} 42 ({@damage 5d10 + 14}) piercing damage."
                     ]
                 },
                 {
@@ -28538,7 +28538,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 150/600 ft., one target {@h} 61 ({@damage 6d10 + 28}) piercing damage."
+                        "{@atkr rw} {@hit 10}, range 150/600 ft., one target {@h} 50 ({@damage 6d10 + 17}) piercing damage."
                     ]
                 },
                 {
@@ -28781,7 +28781,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 11 ({@damage 1d10 + 5}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 10 ({@damage 1d10 + 4}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -29030,7 +29030,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -29280,7 +29280,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -29530,7 +29530,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -29780,7 +29780,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -30030,7 +30030,7 @@
                 {
                     "name": "Lances and Sabres",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -30293,7 +30293,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 30/120 ft., one target {@h} 7 ({@damage 1d4 + 4}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 5}, range 30/120 ft., one target {@h} 8 ({@damage 1d6 + 4}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -30584,7 +30584,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 30/120 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 6}, range 30/120 ft., one target {@h} 14 ({@damage 2d6 + 7}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -30876,7 +30876,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 30/120 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 7}, range 30/120 ft., one target {@h} 20 ({@damage 3d6 + 9}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -31168,7 +31168,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 30/120 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 8}, range 30/120 ft., one target {@h} 26 ({@damage 4d6 + 12}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -31460,7 +31460,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 30/120 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 9}, range 30/120 ft., one target {@h} 32 ({@damage 5d6 + 14}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -31752,7 +31752,7 @@
                 {
                     "name": "Slings and Arrows",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 30/120 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 10}, range 30/120 ft., one target {@h} 38 ({@damage 6d6 + 17}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -32069,7 +32069,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 11 ({@damage 1d10 + 5}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 10 ({@damage 1d10 + 4}) piercing damage."
                     ]
                 },
                 {
@@ -32349,7 +32349,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 21 ({@damage 2d10 + 10}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 18 ({@damage 2d10 + 7}) piercing damage."
                     ]
                 },
                 {
@@ -32630,7 +32630,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 31 ({@damage 3d10 + 14}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 26 ({@damage 3d10 + 9}) piercing damage."
                     ]
                 },
                 {
@@ -32911,7 +32911,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 41 ({@damage 4d10 + 19}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 34 ({@damage 4d10 + 12}) piercing damage."
                     ]
                 },
                 {
@@ -33192,7 +33192,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 51 ({@damage 5d10 + 23}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 42 ({@damage 5d10 + 14}) piercing damage."
                     ]
                 },
                 {
@@ -33473,7 +33473,7 @@
                 {
                     "name": "Pikes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 61 ({@damage 6d10 + 28}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 50 ({@damage 6d10 + 17}) piercing damage."
                     ]
                 },
                 {
@@ -33717,7 +33717,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 11 ({@damage 1d10 + 5}) slashing or piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 10 ({@damage 1d10 + 4}) slashing or piercing damage."
                     ]
                 },
                 {
@@ -33969,7 +33969,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing or piercing damage plus an additional 4 ({@damage 1d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
                     ]
                 },
                 {
@@ -34222,7 +34222,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing or piercing damage plus an additional 4 ({@damage 1d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
                     ]
                 },
                 {
@@ -34475,7 +34475,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing or piercing damage plus an additional 11 ({@damage 3d6}) if the target is {@condition Frightened|XPHB} by the warband."
                     ]
                 },
                 {
@@ -34728,7 +34728,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing or piercing damage plus an additional 7 ({@damage 2d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing or piercing damage plus an additional 11 ({@damage 3d6}) if the target is {@condition Frightened|XPHB} by the warband."
                     ]
                 },
                 {
@@ -34981,7 +34981,7 @@
                 {
                     "name": "Axes and Spears",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing or piercing damage plus an additional 11 ({@damage 3d6}) if the target is {@condition Frightened|XPHB} by the warband."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing or piercing damage plus an additional 14 ({@damage 4d6}) if the target is {@condition Frightened|XPHB} by the warband."
                     ]
                 },
                 {
@@ -35210,7 +35210,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 30/120 ft., one target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr rw} {@hit 5}, range 30/120 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 },
                 {
@@ -35296,7 +35296,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 30/120 ft., one target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr rw} {@hit 6}, range 30/120 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 },
                 {
@@ -35310,7 +35310,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the duelist is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +2 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -35383,7 +35383,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 30/120 ft., one target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr rw} {@hit 7}, range 30/120 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 },
                 {
@@ -35397,7 +35397,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 4 ({@damage 1d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -35470,7 +35470,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 30/120 ft., one target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr rw} {@hit 8}, range 30/120 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 },
                 {
@@ -35484,7 +35484,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +3 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -35557,7 +35557,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 30/120 ft., one target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr rw} {@hit 9}, range 30/120 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 },
                 {
@@ -35571,7 +35571,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 7 ({@damage 2d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -35644,7 +35644,7 @@
                 {
                     "name": "Hand Crossbow",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 30/120 ft., one target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr rw} {@hit 10}, range 30/120 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 },
                 {
@@ -35658,7 +35658,7 @@
                 {
                     "name": "Riposte",
                     "entries": [
-                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 11 ({@damage 3d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
+                        "When the duelist is hit by an attack, it can use a reaction to gain a +4 bonus to its AC against the attack, potentially turning a hit into a miss. If this causes the attack to miss, the attacker takes 14 ({@damage 4d6}) piercing damage provided it is within the reach or normal range of the duelist's weapons."
                     ]
                 }
             ],
@@ -35735,7 +35735,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -35820,7 +35820,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -35906,7 +35906,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -35992,7 +35992,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -36078,7 +36078,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -36164,7 +36164,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 }
             ],
@@ -36251,14 +36251,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 12 ({@damage 1d12 + 5}) slashing damage.",
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 11 ({@damage 1d12 + 4}) slashing damage.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36337,14 +36337,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36424,14 +36424,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36511,14 +36511,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36598,14 +36598,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36685,14 +36685,14 @@
                 {
                     "name": "Executioner's Blade",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing damage plus an additional 6 ({@dice 1d10}) slashing damage if the target is {@condition Prone|XPHB} or {@condition Incapacitated|XPHB}.",
                         "A creature reduced to 0 Hit Points by this attack has disadvantage on its next Death Saving Throw before the end of its next turn."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -36777,7 +36777,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -36868,7 +36868,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -36960,7 +36960,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -37052,7 +37052,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -37144,7 +37144,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -37236,7 +37236,7 @@
                 {
                     "name": "Shield Bash",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Large or smaller, it is knocked {@condition Prone}."
                     ]
                 }
             ],
@@ -37323,13 +37323,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 11 ({@damage 1d10 + 5}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -37414,13 +37414,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 21 ({@damage 2d10 + 10}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -37506,13 +37506,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 31 ({@damage 3d10 + 14}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -37598,13 +37598,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 41 ({@damage 4d10 + 19}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -37690,13 +37690,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 51 ({@damage 5d10 + 23}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -37782,13 +37782,13 @@
                 {
                     "name": "Maul",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 61 ({@damage 6d10 + 28}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning damage and if the target is Medium or smaller, it is pushed 10 feet away from the hulk."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -38236,7 +38236,7 @@
                 "special": "24"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 14,
             "dex": 16,
@@ -38266,13 +38266,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 150/300 ft., one target {@h} 11 ({@damage 1d10 + 5}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 5}, range 150/300 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -38319,7 +38319,7 @@
                 "special": "48"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 16,
             "dex": 18,
@@ -38349,13 +38349,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 150/300 ft., one target {@h} 21 ({@damage 2d10 + 10}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 6}, range 150/300 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -38403,7 +38403,7 @@
                 "special": "72"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 16,
             "dex": 18,
@@ -38433,13 +38433,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 150/300 ft., one target {@h} 31 ({@damage 3d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 7}, range 150/300 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -38487,7 +38487,7 @@
                 "special": "96"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 18,
             "dex": 20,
@@ -38517,13 +38517,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 150/300 ft., one target {@h} 41 ({@damage 4d10 + 19}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 8}, range 150/300 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -38571,7 +38571,7 @@
                 "special": "120"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 18,
             "dex": 20,
@@ -38601,13 +38601,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 150/300 ft., one target {@h} 51 ({@damage 5d10 + 23}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 9}, range 150/300 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -38655,7 +38655,7 @@
                 "special": "144"
             },
             "speed": {
-                "walk": 30
+                "walk": 35
             },
             "str": 20,
             "dex": 22,
@@ -38685,13 +38685,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 150/300 ft., one target {@h} 61 ({@damage 6d10 + 28}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 10}, range 150/300 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 }
             ],
@@ -38784,13 +38784,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 11 ({@damage 1d10 + 5}) slashing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 10 ({@damage 1d10 + 4}) slashing damage."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -38883,13 +38883,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing damage plus 4 ({@damage 1d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -38983,13 +38983,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing damage plus 4 ({@damage 1d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -39083,13 +39083,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing damage plus 11 ({@damage 3d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -39183,13 +39183,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing damage plus 7 ({@damage 2d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing damage plus 11 ({@damage 3d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -39283,13 +39283,13 @@
                 {
                     "name": "Greataxe",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing damage plus 11 ({@damage 3d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing damage plus 14 ({@damage 4d6}) thunder damage to the target or one creature of the ravager's choice within 5 feet of the target."
                     ]
                 },
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -39742,7 +39742,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -39828,7 +39828,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -39915,7 +39915,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -40002,7 +40002,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -40089,7 +40089,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -40176,7 +40176,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 }
             ],
@@ -40262,13 +40262,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 150/300 ft., one target {@h} 11 ({@damage 1d10 + 5}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 5}, range 150/600 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 },
                 {
@@ -40283,7 +40283,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 5 ({@damage 1d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40361,13 +40361,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 150/300 ft., one target {@h} 21 ({@damage 2d10 + 10}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 6}, range 150/600 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 },
                 {
@@ -40382,7 +40382,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 9 ({@damage 2d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40461,13 +40461,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 150/300 ft., one target {@h} 31 ({@damage 3d10 + 14}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 7}, range 150/600 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 },
                 {
@@ -40482,7 +40482,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 9 ({@damage 2d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40561,13 +40561,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 150/300 ft., one target {@h} 41 ({@damage 4d10 + 19}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 8}, range 150/600 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 },
                 {
@@ -40582,7 +40582,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 14 ({@damage 3d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40661,13 +40661,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 150/300 ft., one target {@h} 51 ({@damage 5d10 + 23}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 9}, range 150/600 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 },
                 {
@@ -40682,7 +40682,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 14 ({@damage 3d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40761,13 +40761,13 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 150/300 ft., one target {@h} 61 ({@damage 6d10 + 28}) bludgeoning or piercing damage."
+                        "{@atkr rw} {@hit 10}, range 150/600 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage."
                     ]
                 },
                 {
                     "name": "Sidearm",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 },
                 {
@@ -40782,7 +40782,7 @@
                 {
                     "name": "Steady Aim",
                     "entries": [
-                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 6 ({@dice 1d10}) damage.",
+                        "If the sniper has not moved on the current turn it can gain {@variantrule Advantage|XPHB} on the next ranged weapon attack roll it makes before the start of its next turn. On a hit, the attack deals an additional 18 ({@damage 4d8}) damage.",
                         "When it uses this bonus action, the sniper's speed is reduced to 0 until the start of its next turn."
                     ]
                 }
@@ -40861,7 +40861,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 7 ({@damage 1d4 + 4}) piercing damage."
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
                     ]
                 }
             ],
@@ -40947,7 +40947,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 12 ({@damage 2d4 + 7}) piercing damage."
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
                     ]
                 }
             ],
@@ -41034,7 +41034,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 17 ({@damage 3d4 + 9}) piercing damage."
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
                     ]
                 }
             ],
@@ -41121,7 +41121,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 22 ({@damage 4d4 + 12}) piercing damage."
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
                     ]
                 }
             ],
@@ -41208,7 +41208,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 27 ({@damage 5d4 + 14}) piercing damage."
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
                     ]
                 }
             ],
@@ -41295,7 +41295,7 @@
                 {
                     "name": "Daggers",
                     "entries": [
-                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 6d4 + 17}) piercing damage."
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
                     ]
                 }
             ],
@@ -41383,7 +41383,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 11 ({@damage 1d10 + 5}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 10 ({@damage 1d10 + 4}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41395,7 +41395,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 7 ({@damage 1d4 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -41482,7 +41482,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 21 ({@damage 2d10 + 10}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41494,7 +41494,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -41582,7 +41582,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 31 ({@damage 3d10 + 14}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41594,7 +41594,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -41682,7 +41682,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 41 ({@damage 4d10 + 19}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41694,7 +41694,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -41782,7 +41782,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 51 ({@damage 5d10 + 23}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41794,7 +41794,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
@@ -41882,7 +41882,7 @@
                 {
                     "name": "Halberd",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 61 ({@damage 6d10 + 28}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
+                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing damage and the target is {@condition Hampered|J:General} until the start of the tower's next turn."
                     ]
                 },
                 {
@@ -41894,7 +41894,7 @@
                 {
                     "name": "Unarmed Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ],
