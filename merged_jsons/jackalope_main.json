@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.24.22.13",
+                "version": "2025.03.27.00.50",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743034368.2476423
+        "dateLastModified": 1743036648.8424454
     },
     "class": [
         {
@@ -5333,6 +5333,57 @@
             "entries": [
                 "When you attune to this item, you can touch up to three weapons with which you are proficient. While wearing these gauntlets, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
                 "When you roll Initiative, you can regain an expended use of your Second Wind feature. You can use the feature immediately (no bonus action required) or expend the use on Tactical Mind on the Initiative roll. Once you use this feature, you cannot do so again until the next dawn."
+            ],
+            "bonusWeapon": "+3"
+        },
+        {
+            "name": "+1 Medal of the Paragon",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a paladin",
+            "reqAttuneTags": [
+                {
+                    "class": "paladin"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +1 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
+            ],
+            "bonusWeapon": "+1"
+        },
+        {
+            "name": "+2 Medal of the Paragon",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a paladin",
+            "reqAttuneTags": [
+                {
+                    "class": "paladin"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +2 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
+            ],
+            "bonusWeapon": "+2"
+        },
+        {
+            "name": "+3 Medal of the Paragon",
+            "source": "J:General",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "reqAttune": "by a paladin",
+            "reqAttuneTags": [
+                {
+                    "class": "paladin"
+                }
+            ],
+            "entries": [
+                "When you attune to this item, you can touch up to two weapons with which you are proficient. While wearing this medal, you have a +3 bonus to attack and damage rolls made with the chosen weapons (provided the weapon doesn't already grant a bonus to these rolls).",
+                "You can use your Paladin's Smite feature without expending a use. When you do so, the spell is cast as part of the {@action Attack|XPHB} action instead of a {@variantrule Bonus Action|XPHB}. Once you do so, you cannot do so again until the next dawn."
             ],
             "bonusWeapon": "+3"
         },
