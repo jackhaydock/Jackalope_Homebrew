@@ -10,14 +10,6 @@
                         "Being {@condition Prone|XPHB} does not impose disadvantage on the <name>'s ranged weapon attacks."
                     ]
                 }
-            ],
-            "Overwatch": [
-                {
-                    "crs": [1, 3, 5, 7, 9, 11],
-                    "entries": [
-                        "The <name> has an additional reaction, which it can only use for a {@action Ready|XPHB|readied} ranged weapon attack. It can use the same trigger for multiple readied attacks in a single round, such as \"Seeing a hostile creature move within range\", but each attack must be against a different creature."
-                    ]
-                }
             ]
         },
         "action": {
@@ -42,6 +34,15 @@
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
                         "{@atkr mw} <hit_default>, reach 5 ft., one_target <dmg_puny> piercing damage."
+                    ]
+                }
+            ],
+            "Overwatch": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> choses a 20-foot cube centred on a point it can see within 120 feet. Each time a creature enters the area for the first time on a turn or starts its turn there, it can take a Ranged Weapon attack against the creature. The attack does not require a reaction, however, the <name> must be able to see the creature and must not be {@condition Incapacitated|XPHB}.",
+                        "The effects last until the start of the <name>'s next turn and end early once it makes three attacks in this way."
                     ]
                 }
             ]
