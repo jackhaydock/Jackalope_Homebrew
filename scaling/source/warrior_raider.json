@@ -2,48 +2,39 @@
     "scaling": {
         "crs": [1,3,5,7,9,11],
         "primary_cr": 3,
-        "trait": {
-            "Free Runner": [
-                {
-                    "crs": [1, 3, 5, 7, 9, 11],
-                    "entries": [
-                        "The <name> can run along vertical and liquid surfaces without falling during the move. In addition, the <name> can get up from prone using just 5 feet of movement. Finally, the <name> has resistance to damage from falling."
-                    ]
-                }
-            ]
-        },
+        "trait": {},
         "action": {
             "Multiattack": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
+                        "The <name> makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
                     ]
                 }
             ],
-            "Unarmed Strike": [
+            "Axe or Spear": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage."
+                        "{@atkr mw, rw} <hit_default>, reach 5 ft. or range 20/60 ft., one target <dmg_medium> piericng or slashing damage."
                     ]
                 }
             ],
-            "Dazing Strike": [
+            "Guard Breaker": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage and the target must make a <dc_default> Constitution saving throw or become {@condition Dazed|J:General} until the start of the <name>'s next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
+                        "A creature the <name> touches must make a <dc_default> Constitution saving throw or take <dmg_halfcrup_d8s> piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (<name>'s choice) until the start of the <name>'s next turn. On a success, a creature takes half damage and suffers no other effects."
                     ]
                 }
             ]
         },
         "bonus": {
-            "Focused Action": [
+            "Skirmishing Action": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
+                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
                     ]
                 }
             ]
@@ -51,7 +42,7 @@
         "reaction": {}
     },
     "base_statblock": {
-        "name": "Martial Artist",
+        "name": "Raider",
         "source": "J:Warriors",
         "size": ["S", "M"],
         "type": {
@@ -69,18 +60,19 @@
         "speed": {
             "walk": 40
         },
-        "str": 12,
-        "dex": 16,
+        "str": 16,
+        "dex": 14,
         "con": 12,
         "int": 8,
-        "wis": 14,
-        "cha": 10,
+        "wis": 10,
+        "cha": 12,
         "save": {
             "str": "+2+PB",
             "dex": "+3+PB"
         },
         "skill": {
-            "acrobatics": "+5"
+            "athletics": "+5",
+            "intimidation": "+3"
         },
         "passive": "11",
         "cr": "-",
@@ -93,7 +85,8 @@
         "bonus": [],
         "reaction": [],
         "damageTags": [
-            "P"
+            "P",
+            "S"
         ],
         "miscTags": [
             "MW",

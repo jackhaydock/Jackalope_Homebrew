@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.31.19.24",
+                "version": "2025.03.31.20.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.31.19.24",
+                "version": "2025.03.31.20.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743449048.717887
+        "dateLastModified": 1743453540.3979886
     },
     "class": [
         {
@@ -30529,6 +30529,485 @@
             ]
         },
         {
+            "name": "Charger (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5"
+            },
+            "passive": 11,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 9 ({@damage 1d8 + 4}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Charger (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6"
+            },
+            "passive": 12,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 16 ({@damage 2d8 + 7}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Charger (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7"
+            },
+            "passive": 12,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 23 ({@damage 3d8 + 9}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Charger (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8"
+            },
+            "passive": 13,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 30 ({@damage 4d8 + 12}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Charger (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9"
+            },
+            "passive": 13,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 37 ({@damage 5d8 + 14}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Charger (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10"
+            },
+            "passive": 14,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The charger makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Charging Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 44 ({@damage 6d8 + 17}) piericng damage.",
+                        "If the charger moved at least 10 feet in a straight line immediately before hitting with this melee attack, the target is knocked {@condition Prone|XPHB} and takes an additional 1 piercing damage for every 5 feet it moved before the attack."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The charger takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Commander (CR 1)",
             "source": "J:Warriors",
             "size": [
@@ -34307,7 +34786,7 @@
             ],
             "ac": [
                 {
-                    "ac": 13
+                    "ac": 15
                 }
             ],
             "hp": {
@@ -34398,7 +34877,7 @@
             ],
             "ac": [
                 {
-                    "ac": 13
+                    "ac": 15
                 }
             ],
             "hp": {
@@ -34490,7 +34969,7 @@
             ],
             "ac": [
                 {
-                    "ac": 14
+                    "ac": 16
                 }
             ],
             "hp": {
@@ -34582,7 +35061,7 @@
             ],
             "ac": [
                 {
-                    "ac": 14
+                    "ac": 16
                 }
             ],
             "hp": {
@@ -34674,7 +35153,7 @@
             ],
             "ac": [
                 {
-                    "ac": 15
+                    "ac": 17
                 }
             ],
             "hp": {
@@ -34766,7 +35245,7 @@
             ],
             "ac": [
                 {
-                    "ac": 15
+                    "ac": 17
                 }
             ],
             "hp": {
@@ -35335,6 +35814,527 @@
             "reaction": [],
             "damageTags": [
                 "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+3"
+            },
+            "passive": 10,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 9 ({@damage 1d8 + 4}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 13} Constitution saving throw or take 5 ({@damage 1d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "intimidation": "+4"
+            },
+            "passive": 11,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 16 ({@damage 2d8 + 7}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 14} Constitution saving throw or take 9 ({@damage 2d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7",
+                "intimidation": "+5"
+            },
+            "passive": 11,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 23 ({@damage 3d8 + 9}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 15} Constitution saving throw or take 14 ({@damage 3d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8",
+                "intimidation": "+6"
+            },
+            "passive": 12,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 30 ({@damage 4d8 + 12}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 16} Constitution saving throw or take 18 ({@damage 4d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "intimidation": "+7"
+            },
+            "passive": 12,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 37 ({@damage 5d8 + 14}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 17} Constitution saving throw or take 23 ({@damage 5d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Raider (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10",
+                "intimidation": "+8"
+            },
+            "passive": 13,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The raider makes two weapon attacks. It can replace one of these attacks with its Guard Breaker."
+                    ]
+                },
+                {
+                    "name": "Axe or Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 44 ({@damage 6d8 + 17}) piericng or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Guard Breaker",
+                    "entries": [
+                        "A creature the raider touches must make a {@dc 18} Constitution saving throw or take 27 ({@damage 6d8}) piercing or slashing damage and become {@condition Staggered|J:General} or {@condition Sundered|J:General} (raider's choice) until the start of the raider's next turn. On a success, a creature takes half damage and suffers no other effects."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The raider takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
             ],
             "miscTags": [
                 "MW",
