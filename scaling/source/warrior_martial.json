@@ -17,11 +17,11 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> makes two weapon attacks."
+                        "The <name> makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 }
             ],
-            "Staff or Unarmed Strike": [
+            "Unarmed Strike": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
@@ -33,8 +33,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage and the target must make a <dc_default> Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the <name>'s next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The <name> can use this attack no more than once per turn."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage and the target must make a <dc_default> Constitution saving throw or become {@condition Dazed|J:General} until the start of the <name>'s next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ]
@@ -44,7 +43,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ]

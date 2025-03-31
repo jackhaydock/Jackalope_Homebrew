@@ -4305,11 +4305,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning damage."
                     ]
@@ -4317,8 +4317,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning damage and the target must make a {@dc 13} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning damage and the target must make a {@dc 13} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4326,7 +4325,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
@@ -4397,11 +4396,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning damage."
                     ]
@@ -4409,8 +4408,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning damage and the target must make a {@dc 14} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning damage and the target must make a {@dc 14} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4418,7 +4416,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
@@ -4490,11 +4488,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning damage."
                     ]
@@ -4502,8 +4500,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning damage and the target must make a {@dc 15} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning damage and the target must make a {@dc 15} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4511,7 +4508,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
@@ -4583,11 +4580,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning damage."
                     ]
@@ -4595,8 +4592,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning damage and the target must make a {@dc 16} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning damage and the target must make a {@dc 16} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4604,7 +4600,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
@@ -4676,11 +4672,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning damage."
                     ]
@@ -4688,8 +4684,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning damage and the target must make a {@dc 17} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning damage and the target must make a {@dc 17} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4697,7 +4692,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
@@ -4769,11 +4764,11 @@
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The martial artist makes two weapon attacks."
+                        "The martial artist makes two Unarmed Strikes. It can replace one of these attacks with a Dazing Strike."
                     ]
                 },
                 {
-                    "name": "Staff or Unarmed Strike",
+                    "name": "Unarmed Strike",
                     "entries": [
                         "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning damage."
                     ]
@@ -4781,8 +4776,7 @@
                 {
                     "name": "Dazing Strike",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning damage and the target must make a {@dc 18} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
-                        "The martial artist can use this attack no more than once per turn."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning damage and the target must make a {@dc 18} Constitution saving throw or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} for the duration instead."
                     ]
                 }
             ],
@@ -4790,7 +4784,7 @@
                 {
                     "name": "Focused Action",
                     "entries": [
-                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action or makes an Unarmed Strike."
                     ]
                 }
             ],
