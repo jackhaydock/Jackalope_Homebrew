@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.16.26",
+                "version": "2025.03.31.16.09",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.16.26",
+                "version": "2025.03.31.16.09",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743092813.7946184
+        "dateLastModified": 1743437389.8719196
     },
     "class": [
         {
@@ -35150,6 +35150,473 @@
             ]
         },
         {
+            "name": "Bombadeer (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "24"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "dex": "+5"
+            },
+            "skill": {
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/90 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 13} Dexterity saving throw or take 4 ({@damage 1d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one_target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bombadeer (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+6"
+            },
+            "skill": {
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/90 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 14} Dexterity saving throw or take 7 ({@damage 2d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one_target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bombadeer (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+7"
+            },
+            "skill": {
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/90 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 15} Dexterity saving throw or take 7 ({@damage 2d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one_target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bombadeer (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+8"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/90 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 16} Dexterity saving throw or take 11 ({@damage 3d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one_target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bombadeer (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+9"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/90 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 17} Dexterity saving throw or take 11 ({@damage 3d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one_target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bombadeer (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+10"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bombadeer makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Explosive Shot",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/90 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage.",
+                        "The bombadeer can force the target and and each creature within 10 feet of it to make a {@dc 18} Dexterity saving throw or take 14 ({@damage 4d6}) fire damage. A creature takes half damage on a success."
+                    ]
+                },
+                {
+                    "name": "Sidearm",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one_target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Duelist (CR 1)",
             "source": "J:Warriors",
             "size": [
@@ -38266,7 +38733,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 5}, range 150/300 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 5}, range 150/600 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -38349,7 +38816,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 6}, range 150/300 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 6}, range 150/600 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -38433,7 +38900,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 7}, range 150/300 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 7}, range 150/600 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -38517,7 +38984,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 8}, range 150/300 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 8}, range 150/600 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -38601,7 +39068,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 9}, range 150/300 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 9}, range 150/600 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -38685,7 +39152,7 @@
                 {
                     "name": "Ranged Weapon",
                     "entries": [
-                        "{@atkr rw} {@hit 10}, range 150/300 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
+                        "{@atkr rw} {@hit 10}, range 150/600 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|XPHB}."
                     ]
                 },
                 {
@@ -39667,6 +40134,563 @@
                 }
             ],
             "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "dex": "+5",
+                "con": "+3"
+            },
+            "skill": {
+                "perception": "+4",
+                "stealth": "+5"
+            },
+            "passive": 14,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d2} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 8 ({@damage 1d6 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "skill": {
+                "perception": "+5",
+                "stealth": "+6"
+            },
+            "passive": 15,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d4} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 14 ({@damage 2d6 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "dex": "+7",
+                "con": "+5"
+            },
+            "skill": {
+                "perception": "+6",
+                "stealth": "+7"
+            },
+            "passive": 16,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d4} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 20 ({@damage 3d6 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+8",
+                "con": "+6"
+            },
+            "skill": {
+                "perception": "+7",
+                "stealth": "+8"
+            },
+            "passive": 17,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d6} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 4d6 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+9",
+                "con": "+7"
+            },
+            "skill": {
+                "perception": "+8",
+                "stealth": "+9"
+            },
+            "passive": 18,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d6} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 32 ({@damage 5d6 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Saboteur (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "ambusher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+10",
+                "con": "+8"
+            },
+            "skill": {
+                "perception": "+9",
+                "stealth": "+10"
+            },
+            "passive": 19,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Inteference",
+                    "entries": [
+                        "Creatures within 15 feet of the saboteur and that the saboteur is hidden from have a {@dice -1d8} penalty to attack rolls and saving throws. A creature can only be affected by this trait once at a time, even if another saboteur is nearby."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The saboteur makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Tripping Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage and the target is knocked {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Daggers",
+                    "entries": [
+                        "{@atkr mw,rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 38 ({@damage 6d6 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Cunning Action",
+                    "entries": [
+                        "The saboteur takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Hide|XPHB} action."
+                    ]
+                }
+            ],
             "reaction": [],
             "damageTags": [
                 "P"
