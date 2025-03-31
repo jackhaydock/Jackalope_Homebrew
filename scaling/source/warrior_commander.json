@@ -1,0 +1,118 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11,13],
+        "primary_cr": 3,
+        "trait": {
+            "Prepared for Action": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "The <name> has a +<mod_pb> bonus to its {@variantrule Initiative|XPHB} rolls.",
+                        "Additionally, when the <name> rolls initiative, it can choose a willing creature it can see within 30 feet. That creature's initiative changes to go immediately after the <name> (this does not grant an additional turn if the target has already taken a turn this round)."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "The <name> makes two weapon attacks. It can replace one of these attacks with Bark Orders."
+                    ]
+                }
+            ],
+            "Melee Weapon": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 10 ft., one target <dmg_medium> bludgeoning, piercing or slashing damage."
+                    ]
+                }
+            ],
+            "Sidearm": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> piercing damage."
+                    ]
+                }
+            ],
+            "Bark Orders": [
+                {
+                    "crs": [1],
+                    "entries": [
+                        "A creature the <name> can see within 30 feet, and that can see or hear the <name>, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack."
+                    ]
+                },
+                {
+                    "crs": [3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "A creature the <name> can see within 30 feet, and that can see or hear the <name>, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional <dmg_4s3_d6s> damage."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Tactical Action": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11, 13],
+                    "entries": [
+                        "The <name> takes the {@action Dash|XPHB}, {@action Disengage|XPHB} or {@action Help|XPHB} action. If it takes the Help action to aid an ally in attacking a creature, that target can be up to 30 feet away from the <name>."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Commander",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "support"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_default",
+        "speed": {
+            "walk": 30
+        },
+        "str": 16,
+        "dex": 12,
+        "con": 10,
+        "int": 8,
+        "wis": 12,
+        "cha": 14,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "perception": "+5"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "B",
+            "P",
+            "S"
+        ],
+        "miscTags": [
+            "MW"
+        ]
+    }
+}

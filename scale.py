@@ -51,7 +51,7 @@ def get_damage_formuala(cr, formula):
         "halfcrup": math.ceil(cr/2), # CR/2 rounded up, this is the standard for most attacks
         "halfcrdown:": math.floor(cr/2), # CR/2 rounded down, starts with 1 die at CR 2/3 then +1 every 2 CRs
         "4s1": math.floor((cr+1)/4)+1, # Scale every 4 crs starting with 1 die at CR 1
-        "4s3": math.floor((cr+1)/4)+1, # Above but starting with 1 die at CR 3, good for riders that start later
+        "4s3": math.floor((cr+1)/4), # Above but starting with 1 die at CR 3, good for riders that start later
     }   
     attack_formulas = {
         "puny": (num_formulas["halfcrup"], 4, ability_mod+cr),
