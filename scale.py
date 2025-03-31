@@ -54,7 +54,7 @@ def get_damage_formuala(cr, formula):
         "4s3": math.floor((cr+1)/4)+1, # Above but starting with 1 die at CR 3, good for riders that start later
     }   
     attack_formulas = {
-        "puny": (num_formulas["halfcrup"], 6, ability_mod+cr),
+        "puny": (num_formulas["halfcrup"], 4, ability_mod+cr),
         "weak": (num_formulas["halfcrup"], 6, ability_mod+cr),
         "medium": (num_formulas["halfcrup"], 8, ability_mod+cr),
         "strong": (num_formulas["halfcrup"], 10, ability_mod+(cr)),

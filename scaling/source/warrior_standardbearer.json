@@ -1,0 +1,106 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {
+            "Hold the Banner High": [
+                {
+                    "crs": [1, 3, 5],
+                    "entries": [
+                        "The <name> grants a {@dice 1d4} bonus to the attack rolls and saving throws of all other creatures of its choice within 15 feet that can see the banner.",
+                        "The <name> does not grant this bonus if it is not holding the banner or is {@condition Prone|XPHB}."
+                    ]
+                },
+                {
+                    "crs": [7, 9, 11],
+                    "entries": [
+                        "The <name> grants a {@dice 2d4} bonus to the attack rolls and saving throws of all other creatures of its choice within 15 feet that can see the banner.",
+                        "The <name> does not grant this bonus if it is not holding the banner or is {@condition Prone|XPHB}."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks. It can replace one of these attacks with Bolster Morale."
+                    ]
+                }
+            ],
+            "Banner": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 10 ft., one target <dmg_weak> bludgeoning damage."
+                    ]
+                }
+            ],
+            "Sidearm": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> piercing damage."
+                    ]
+                }
+            ],
+            "Bolster Morale": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "Each other creature of the <name>'s choice within 15 feet that can see the banner gains <dmg_4s1_d4s> {@variantrule Temporary Hit Points|XPHB}.",
+                        "The <name> cannot use this action if it not holding the banner or is {@condition Prone|J:General}."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Standardbearer",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "support"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_default",
+        "speed": {
+            "walk": 30
+        },
+        "str": 16,
+        "dex": 12,
+        "con": 10,
+        "int": 8,
+        "wis": 12,
+        "cha": 14,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [],
+        "action": [],
+        "reaction": [],
+        "damageTags": [
+            "B",
+            "P"
+        ],
+        "miscTags": [
+            "MW"
+        ]
+    }
+}
