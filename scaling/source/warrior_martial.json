@@ -1,0 +1,104 @@
+{
+    "scaling": {
+        "crs": [1,3,5,7,9,11],
+        "primary_cr": 3,
+        "trait": {
+            "Free Runner": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> can run along vertical and liquid surfaces without falling during the move. In addition, the <name> can get up from prone using just 5 feet of movement. Finally, the <name> has resistance to damage from falling."
+                    ]
+                }
+            ]
+        },
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two weapon attacks."
+                    ]
+                }
+            ],
+            "Staff or Unarmed Strike": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage."
+                    ]
+                }
+            ],
+            "Dazing Strike": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_medium> bludgeoning damage and the target must make a <dc_default> Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the <name>'s next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The <name> can use this attack no more than once per turn."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Focused Action": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Martial Artist",
+        "source": "J:Warriors",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "warrior",
+                "skirmisher"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_default",
+        "speed": {
+            "walk": 40
+        },
+        "str": 12,
+        "dex": 16,
+        "con": 12,
+        "int": 8,
+        "wis": 14,
+        "cha": 10,
+        "save": {
+            "str": "+2+PB",
+            "dex": "+3+PB"
+        },
+        "skill": {
+            "acrobatics": "+5"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "trait": [
+        ],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MW",
+            "RW"
+        ]
+    }
+}

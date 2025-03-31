@@ -3548,6 +3548,563 @@
             ]
         },
         {
+            "name": "Martial Artist (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "30"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 14,
+            "cha": 10,
+            "save": {
+                "str": "+3",
+                "dex": "+5"
+            },
+            "skill": {
+                "acrobatics": "+5"
+            },
+            "passive": 12,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning damage and the target must make a {@dc 13} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Martial Artist (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
+            "save": {
+                "str": "+4",
+                "dex": "+6"
+            },
+            "skill": {
+                "acrobatics": "+6"
+            },
+            "passive": 13,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning damage and the target must make a {@dc 14} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Martial Artist (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 16,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+7"
+            },
+            "skill": {
+                "acrobatics": "+7"
+            },
+            "passive": 13,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning damage and the target must make a {@dc 15} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Martial Artist (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+8"
+            },
+            "skill": {
+                "acrobatics": "+8"
+            },
+            "passive": 14,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning damage and the target must make a {@dc 16} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Martial Artist (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+9"
+            },
+            "skill": {
+                "acrobatics": "+9"
+            },
+            "passive": 14,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning damage and the target must make a {@dc 17} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Martial Artist (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+10"
+            },
+            "skill": {
+                "acrobatics": "+10"
+            },
+            "passive": 15,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Free Runner",
+                    "entries": [
+                        "The martial artist can run along vertical and liquid surfaces without falling during the move. In addition, the martial artist can get up from prone using just 5 feet of movement. Finally, the martial artist has resistance to damage from falling."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The martial artist makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Staff or Unarmed Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Dazing Strike",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning damage and the target must make a {@dc 18} Constitution saving thrrow or become {@condition Dazed|J:General} until the start of the martial artist's next turn. On a success, the target is {@condition Hampered|J:General} instead.",
+                        "The martial artist can use this attack no more than once per turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Focused Action",
+                    "entries": [
+                        "The martial artist takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action makes an Unarmed Strike."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Missileer (CR 1)",
             "source": "J:Warriors",
             "size": [
