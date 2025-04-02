@@ -4758,7 +4758,7 @@
                 }
             ],
             "hp": {
-                "special": "40"
+                "special": "36"
             },
             "speed": {
                 "walk": 25
@@ -5038,7 +5038,7 @@
                 }
             ],
             "hp": {
-                "special": "80"
+                "special": "72"
             },
             "speed": {
                 "walk": 25
@@ -5319,7 +5319,7 @@
                 }
             ],
             "hp": {
-                "special": "120"
+                "special": "108"
             },
             "speed": {
                 "walk": 25
@@ -5600,7 +5600,7 @@
                 }
             ],
             "hp": {
-                "special": "160"
+                "special": "144"
             },
             "speed": {
                 "walk": 25
@@ -5881,7 +5881,7 @@
                 }
             ],
             "hp": {
-                "special": "200"
+                "special": "180"
             },
             "speed": {
                 "walk": 25
@@ -6162,7 +6162,7 @@
                 }
             ],
             "hp": {
-                "special": "240"
+                "special": "216"
             },
             "speed": {
                 "walk": 25
@@ -6279,6 +6279,1553 @@
             ],
             "damageTags": [
                 "P"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "40"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5",
+                "intimidation": "+3"
+            },
+            "passive": 10,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 10 ({@damage 1d10 + 4}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "80"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6",
+                "intimidation": "+4"
+            },
+            "passive": 11,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 18 ({@damage 2d10 + 7}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7",
+                "intimidation": "+5"
+            },
+            "passive": 11,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 3d10 + 9}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "160"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8",
+                "intimidation": "+6"
+            },
+            "passive": 12,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 34 ({@damage 4d10 + 12}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "200"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9",
+                "intimidation": "+7"
+            },
+            "passive": 12,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 42 ({@damage 5d10 + 14}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ravager Horde (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "L",
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "unit",
+                    "brute",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "240"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10",
+                "intimidation": "+8"
+            },
+            "passive": 13,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Warrior Unit",
+                    "entries": [
+                        "As a group of humanoids, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Medium creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the swarm equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Reckless Attacks",
+                    "entries": [
+                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                    ]
+                },
+                {
+                    "name": "Unphasable",
+                    "entries": [
+                        "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The ravager horde makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Axzes and Spears",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 50 ({@damage 6d10 + 17}) piercing or slashing damage."
+                    ]
+                },
+                {
+                    "name": "Unarmed Assault",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Furious Action",
+                    "entries": [
+                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
             ],
             "miscTags": [
                 "MW",

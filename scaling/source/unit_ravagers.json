@@ -20,45 +20,19 @@
                     ]
                 }
             ],
-            "Lines and Squares": [
+            "Reckless Attacks": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> can use half its movement to reshape itself into one of the following shapes based on its size:",
-                        {
-                            "type": "table",
-                            "colLabels": [
-                                "Size",
-                                "Shapes"
-                            ],
-                            "colStyles": [
-                                "col-1",
-                                "col-11"
-                            ],
-                            "rows": [
-                                [
-                                    "Large",
-                                    "10x10 ft. Square or a 20x5 ft. Line"
-                                ],
-                                [
-                                    "Huge",
-                                    "15x15 ft. Square or a 25x10 ft. Line"
-                                ],
-                                [
-                                    "Gargantuan",
-                                    "20x20 ft. Square or a 30x15 ft. Line"
-                                ]
-                            ]
-                        }
+                        "At the start of its turn, the <name> can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
                     ]
                 }
-                
             ],
-            "Hold the Line": [
+            "Unphasable": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                    "Creatures smaller than the <name> cannot enter its space unless it lets them or a magic effect specifically allows them to."
+                        "The <name> has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
                     ]
                 }
             ]
@@ -72,53 +46,53 @@
                     ]
                 }
             ],
-            "Pikes and Spears": [
+            "Axzes and Spears": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 10 ft., one target <dmg_strong> piercing damage."
+                        "{@atkr mw, rw} <hit_default>, reach 5 ft. or range 20/60 ft., one target <dmg_strong> piercing or slashing damage."
                     ]
                 }
             ],
-            "Javelins": [
+            "Unarmed Assault": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr rw} <hit_default>, range 30/120 ft., one target <dmg_weak> piercing damage."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
             ]
         },
-        "bonus": {},
-        "reaction": {
-            "Pike Wall": [
+        "bonus": {
+            "Furious Action": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "When a creature moves into the reach of the <name>'s Pike attack, the <name> can use a reaction to make a Pike attack against that creature. If the creature is Large or larger, the <name> has advantage on this attack."
+                        "The <name> takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
                     ]
                 }
             ]
-        }
+        },
+        "reaction": {}
     },
     "base_statblock": {
-        "name": "Phalanx",
+        "name": "Ravager Horde",
         "source": "J:Units",
         "size": ["L", "H", "G"],
         "type": {
             "type": "humanoid",
             "tags": [
                 "unit",
-                "soldier"
+                "brute"
             ]
         },
         "alignment": [
             "A"
         ],
-        "ac": "ac_medium",
-        "hp": "hp_strong",
+        "ac": "ac_light",
+        "hp": "hp_epic",
         "speed": {
-            "walk": 25
+            "walk": 40
         },
         "str": 16,
         "dex": 14,
@@ -132,7 +106,7 @@
         },
         "skill": {
             "athletics": "+6",
-            "perception": "+6"
+            "intimidation": "+6"
         },
         "passive": "11",
         "cr": "-",
@@ -150,9 +124,11 @@
         ],
         "trait": [],
         "action": [],
+        "bonus": [],
         "reaction": [],
         "damageTags": [
-            "P"
+            "P",
+            "S"
         ],
         "miscTags": [
             "MW",
