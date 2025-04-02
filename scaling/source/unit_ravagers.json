@@ -58,7 +58,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "Each creature within 5 feet of the <name> (including itself) must make a <dc_default> Dexterity saving throw or take <dmg_halfcrup_d12s> slashing damage, or <dmg_halfcrup_d6s> if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "Each creature within 5 feet of the <name> (including itself) must make a <dc_default> Dexterity saving throw or take <dmg_halfcrup_d12s> slashing damage, or <dmg_halfcrup_d6s> if the <name> is {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
                         "The <name> takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
