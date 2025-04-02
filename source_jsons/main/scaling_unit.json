@@ -6493,12 +6493,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -6513,9 +6507,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 10 ({@damage 1d10 + 4}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft., one target {@h} 10 ({@damage 1d10 + 4}) slashing damage."
                     ]
                 },
                 {
@@ -6523,16 +6517,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 13} Dexterity saving throw or take 7 ({@damage 1d12}) slashing damage, or 4 ({@damage 1d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",
@@ -6750,12 +6744,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -6770,9 +6758,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 18 ({@damage 2d10 + 7}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) slashing damage."
                     ]
                 },
                 {
@@ -6780,16 +6768,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 14} Dexterity saving throw or take 13 ({@damage 2d12}) slashing damage, or 7 ({@damage 2d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",
@@ -7008,12 +6996,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -7028,9 +7010,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 26 ({@damage 3d10 + 9}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) slashing damage."
                     ]
                 },
                 {
@@ -7038,16 +7020,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 15} Dexterity saving throw or take 20 ({@damage 3d12}) slashing damage, or 11 ({@damage 3d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",
@@ -7266,12 +7248,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -7286,9 +7262,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 34 ({@damage 4d10 + 12}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) slashing damage."
                     ]
                 },
                 {
@@ -7296,16 +7272,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 16} Dexterity saving throw or take 26 ({@damage 4d12}) slashing damage, or 14 ({@damage 4d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",
@@ -7524,12 +7500,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -7544,9 +7514,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 42 ({@damage 5d10 + 14}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) slashing damage."
                     ]
                 },
                 {
@@ -7554,16 +7524,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 17} Dexterity saving throw or take 33 ({@damage 5d12}) slashing damage, or 18 ({@damage 5d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",
@@ -7782,12 +7752,6 @@
                     ]
                 },
                 {
-                    "name": "Reckless Attacks",
-                    "entries": [
-                        "At the start of its turn, the ravager horde can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                },
-                {
                     "name": "Unphasable",
                     "entries": [
                         "The ravager horde has resistance to damage from falling, nonmagical fire, {@variantrule Opportunity Attacks|XPHB} and the {@condition Lingering|J:General} condition."
@@ -7802,9 +7766,9 @@
                     ]
                 },
                 {
-                    "name": "Axzes and Spears",
+                    "name": "Greataxes",
                     "entries": [
-                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 50 ({@damage 6d10 + 17}) piercing or slashing damage."
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) slashing damage."
                     ]
                 },
                 {
@@ -7812,16 +7776,16 @@
                     "entries": [
                         "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
-                }
-            ],
-            "bonus": [
+                },
                 {
-                    "name": "Furious Action",
+                    "name": "Whirlwind of Pain",
                     "entries": [
-                        "The ravager horde takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the ravager horde (including itself) must make a {@dc 18} Dexterity saving throw or take 39 ({@damage 6d12}) slashing damage, or 21 ({@damage 6d6}) if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The ravager horde takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P",

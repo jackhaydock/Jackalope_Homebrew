@@ -20,14 +20,6 @@
                     ]
                 }
             ],
-            "Reckless Attacks": [
-                {
-                    "crs": [1, 3, 5, 7, 9, 11],
-                    "entries": [
-                        "At the start of its turn, the <name> can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
-                    ]
-                }
-            ],
             "Unphasable": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
@@ -46,11 +38,11 @@
                     ]
                 }
             ],
-            "Axzes and Spears": [
+            "Greataxes": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw, rw} <hit_default>, reach 5 ft. or range 20/60 ft., one target <dmg_strong> piercing or slashing damage."
+                        "{@atkr mw, rw} <hit_default>, reach 5 ft., one target <dmg_strong> slashing damage."
                     ]
                 }
             ],
@@ -61,18 +53,18 @@
                         "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> bludgeoning damage and if the target is Medium or smaller, it is knocked {@condition Prone|XPHB} or {@condition Grappled|XPHB}."
                     ]
                 }
-            ]
-        },
-        "bonus": {
-            "Furious Action": [
+            ],
+            "Whirlwind of Pain": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> takes the {@action Dash|XPHB} action or uses its Unarmed Assault."
+                        "Each creature within 5 feet of the <name> (including itself) must make a <dc_default> Dexterity saving throw or take <dmg_halfcrup_d12s> slashing damage, or <dmg_halfcrup_d6s> if {@variantrule Bloodied|XPHB}. A creature takes half damage on a success.",
+                        "The <name> takes half damage on a failed saving throw, or no damage on a success."
                     ]
                 }
             ]
         },
+        "bonus": {},
         "reaction": {}
     },
     "base_statblock": {
