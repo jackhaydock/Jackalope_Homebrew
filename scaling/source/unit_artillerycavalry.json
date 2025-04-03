@@ -31,37 +31,38 @@
                     ]
                 }
             ],
-            "Lances and Sabres": [
+            "Slings and Arrows": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 10 ft., one target <dmg_strong> piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
+                        "{@atkr rw} <hit_default>, range 30/90 ft., one target <dmg_strong> bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the <name>'s next turn."
                     ]
                 }
             ],
-            "Stomp": [
+            "Sabres": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "{@atkr mw} <hit_default>, reach 5 ft., one {@condition Prone|XPHB} target <dmg_weak> bludgeoning damage."
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_weak> slashing damage."
                     ]
                 }
             ],
-            "Shocking Stampede": [
+            "Barraging Stampede": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the <name> passes through must make a <dc_default> Strength saving throw or take <dmg_halfcrup_d12s> bludgeoning damage (or <dmg_halfcrup_d6s> bludgeoning damage if the <name> is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The <name> moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the <name> chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a <dc_default> Dexterity saving throw or take <dmg_halfcrup_d12s> piercing damage (or <dmg_halfcrup_d6s> piercing damage if the <name> is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the <name> strafes the area."
                     ]
                 }
             ]
         },
         "bonus": {
-            "Furious Action": [
+            "Charge Action": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> takes the {@action Dash|XPHB} action or uses its Stomp."
+                        "The <name> takes the {@action Dash|XPHB} action."
                     ]
                 } 
             ]
@@ -70,7 +71,7 @@
         }
     },
     "base_statblock": {
-        "name": "Heavy Cavalry",
+        "name": "Missile Cavalry",
         "source": "J:Units",
         "size": ["H", "G"],
         "type": {
@@ -78,30 +79,30 @@
             "swarmSize": "M",
             "tags": [
                 "unit",
-                "brute"
+                "artillery"
             ]
         },
         "alignment": [
             "A"
         ],
-        "ac": "ac_unarmored",
-        "hp": "hp_epic",
+        "ac": "ac_light",
+        "hp": "hp_weak",
         "speed": {
             "walk": 40
         },
-        "str": 16,
-        "dex": 14,
+        "str": 14,
+        "dex": 16,
         "con": 12,
         "int": 8,
-        "wis": 10,
-        "cha": 12,
+        "wis": 12,
+        "cha": 10,
         "save": {
             "str": "+2+PB",
             "dex": "+3+PB"
         },
         "skill": {
             "athletics": "+6",
-            "intimidation": "+6"
+            "perception": "+6"
         },
         "passive": "11",
         "cr": "-",
@@ -122,8 +123,8 @@
         "bonus": [],
         "reaction": [],
         "damageTags": [
-            "B",
-            "P"
+            "P",
+            "S"
         ],
         "miscTags": [
             "MW",

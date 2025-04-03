@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.04.03.13.28",
+                "version": "2025.04.03.14.30",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.04.03.13.28",
+                "version": "2025.04.03.14.30",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743686938.8693364
+        "dateLastModified": 1743690610.2297869
     },
     "class": [
         {
@@ -22147,6 +22147,1529 @@
             ]
         },
         {
+            "name": "Missile Cavalry (CR 1)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "24"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 12,
+            "int": 8,
+            "wis": 12,
+            "cha": 10,
+            "save": {
+                "str": "+4",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+4",
+                "perception": "+3"
+            },
+            "passive": 13,
+            "cr": "1",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/90 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 13} Dexterity saving throw or take 7 ({@damage 1d12}) piercing damage (or 4 ({@damage 1d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Missile Cavalry (CR 3)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+5",
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "3",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/90 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 14} Dexterity saving throw or take 13 ({@damage 2d12}) piercing damage (or 7 ({@damage 2d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Missile Cavalry (CR 5)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 12,
+            "save": {
+                "str": "+6",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+6",
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "5",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/90 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 15} Dexterity saving throw or take 20 ({@damage 3d12}) piercing damage (or 11 ({@damage 3d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Missile Cavalry (CR 7)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+7",
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "7",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/90 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 16} Dexterity saving throw or take 26 ({@damage 4d12}) piercing damage (or 14 ({@damage 4d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Missile Cavalry (CR 9)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 18,
+            "dex": 20,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 14,
+            "save": {
+                "str": "+8",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+8",
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "9",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/90 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 17} Dexterity saving throw or take 33 ({@damage 5d12}) piercing damage (or 18 ({@damage 5d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Missile Cavalry (CR 11)",
+            "source": "J:Units",
+            "size": [
+                "H",
+                "G"
+            ],
+            "type": {
+                "type": "humanoid",
+                "swarmSize": "M",
+                "tags": [
+                    "unit",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 20,
+            "dex": 22,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+10"
+            },
+            "skill": {
+                "athletics": "+9",
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "11",
+            "conditionImmune": [
+                "charmed",
+                "flanked",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "prone",
+                "restrained"
+            ],
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/90 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 18} Dexterity saving throw or take 39 ({@damage 6d12}) piercing damage (or 21 ({@damage 6d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ],
+            "variant": [
+                {
+                    "type": "variant",
+                    "name": "Variant Units",
+                    "entries": [
+                        "At the DM's discretion, a unit may have one or more additional traits providing some varity. This trait might represent aleigence to a particular faction, the racial makeup of its members or even just a little extra flavor. Some examples are included below.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Arcane Warriors",
+                                    "entries": [
+                                        "The unit knows a cantrip of the DM's choice that has a casting time of 1 action. If the unit has the Multiattack action, it can replace one attack with a casting of the cantrip. Intelligence, Wisdom or Charisma (DM's choice) is the unit's spellcasting ability for this cantrip."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Arsonists",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to ignite a flamable object, or 10-foot section of a structure, within 5 feet of it."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Breath Weapon",
+                                    "entries": [
+                                        "The unit can use an action (or replace one attack it makes with its Multiattack action) to make breath weapon attack in a 15-foot cone. Each creature in that area must make a Dexterity saving throw (DC 8 + PB + Intelligence, Wisdom or Charisma modifier) or take PBd10 damage of one of the following types; acid, cold, fire, lightning or poison. A creature takes half as much damage on a successful save."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Darkvision",
+                                    "entries": [
+                                        "The unit has darkvision out to 60 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Enhanced Movement",
+                                    "entries": [
+                                        "The unit has a climbing or swimming speed equal to its walking speed."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Heavily Armoured",
+                                    "entries": [
+                                        "The unit has a +2 bonus to its AC, however, its speed is reduced by 5 feet."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Large",
+                                    "entries": [
+                                        "The unit is composed of at least some Large creatures. The unit's size category is increased by one and it can move through and opening wide enough for a Large creature."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Resistance",
+                                    "entries": [
+                                        "The unit has resistance to a damage type of the DM's choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rip and Tear",
+                                    "entries": [
+                                        "When the unit hits a creature in its space with a melee attack, that creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Small",
+                                    "entries": [
+                                        "The unit is composed of entirely Small humanoids and can move through and opening wide enough for a Small creature."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "variant",
+                    "name": "Skinchanger Unit",
+                    "source": "J:AnS",
+                    "entries": [
+                        "The unit is composed of skinchangers, some or all of which are in bestial forms. The unit's statistics are unchanged, except the DM may choose to change the damage type of their weapon attacks and they gain one of the following benefits based on the most common beast form among them:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Bears, Elephants or Rhinos",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Strength saving throw (DC equals 8 + PB + the modifer used for the attack) or be knocked {@condition prone|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Boars, Horses or Stags",
+                                    "entries": [
+                                        "If the unit moves at least 20 feet in a straight line immediately before hitting with a melee attack, the attack deals an additional PBd4 damage."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Crabs, Sharks or Squids",
+                                    "entries": [
+                                        "The unit has a swimming speed equal to its walking speed, can breathe underwater and has advantage on Strength and Dexterity checks while underwater."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Hyenas, Lions, or Wolves",
+                                    "entries": [
+                                        "The unit has advantage ability checks that rely on hearing or smell. They also have advantage on melee attacks against creatures within its space."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Rats, Snakes or Spiders",
+                                    "entries": [
+                                        "Once per turn, when the unit hits a creature with a melee attack, they can force the creature to make a Constituion saving throw (DC equals 8 + PB + the modifer used for the attack) or be poisoned until the start of the unit's next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Artillery Battalion (CR 1)",
             "source": "J:Units",
             "size": [
@@ -25450,7 +26973,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 5}, reach 10 ft., one target {@h} 10 ({@damage 1d10 + 4}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -25464,7 +26987,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 13} Strength saving throw or take 7 ({@damage 1d12}) bludgeoning damage (or 4 ({@damage 1d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 13} Strength saving throw or take 7 ({@damage 1d12}) bludgeoning damage (or 4 ({@damage 1d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -25702,7 +27225,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 18 ({@damage 2d10 + 7}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -25716,7 +27239,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 14} Strength saving throw or take 13 ({@damage 2d12}) bludgeoning damage (or 7 ({@damage 2d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 14} Strength saving throw or take 13 ({@damage 2d12}) bludgeoning damage (or 7 ({@damage 2d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -25955,7 +27478,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 26 ({@damage 3d10 + 9}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -25969,7 +27492,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 15} Strength saving throw or take 20 ({@damage 3d12}) bludgeoning damage (or 11 ({@damage 3d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 15} Strength saving throw or take 20 ({@damage 3d12}) bludgeoning damage (or 11 ({@damage 3d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -26208,7 +27731,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 34 ({@damage 4d10 + 12}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -26222,7 +27745,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 16} Strength saving throw or take 26 ({@damage 4d12}) bludgeoning damage (or 14 ({@damage 4d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 16} Strength saving throw or take 26 ({@damage 4d12}) bludgeoning damage (or 14 ({@damage 4d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -26461,7 +27984,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 42 ({@damage 5d10 + 14}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -26475,7 +27998,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 17} Strength saving throw or take 33 ({@damage 5d12}) bludgeoning damage (or 18 ({@damage 5d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 17} Strength saving throw or take 33 ({@damage 5d12}) bludgeoning damage (or 18 ({@damage 5d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -26714,7 +28237,7 @@
                     ]
                 },
                 {
-                    "name": "Lance and Sabres",
+                    "name": "Lances and Sabres",
                     "entries": [
                         "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 50 ({@damage 6d10 + 17}) piercing or slashing damage. If the target is Large or smaller, it is knocked {@condition Prone|XPHB}."
                     ]
@@ -26728,7 +28251,7 @@
                 {
                     "name": "Shocking Stampede",
                     "entries": [
-                        "The heavy cavalry moves up to 40 feet in a straight line. Each creature whose space the heavy cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 6d12}) bludgeoning damage (or 21 ({@damage 6d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
+                        "The heavy cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the heavy cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 6d12}) bludgeoning damage (or 21 ({@damage 6d6}) bludgeoning damage if the heavy cavalry is {@variantrule Bloodied|XPHB}) and be either pushed 10 feet away from the center of the line or be knocked {@condition Prone|XPHB} (target's choice). A creature takes half damage and suffers no additional effect on a success."
                     ]
                 }
             ],
@@ -26975,7 +28498,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 13} Strength saving throw or take 7 ({@damage 1d12}) bludgeoning damage (or 4 ({@damage 1d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 13} Strength saving throw or take 7 ({@damage 1d12}) bludgeoning damage (or 4 ({@damage 1d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
@@ -27220,7 +28743,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 14} Strength saving throw or take 13 ({@damage 2d12}) bludgeoning damage (or 7 ({@damage 2d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 14} Strength saving throw or take 13 ({@damage 2d12}) bludgeoning damage (or 7 ({@damage 2d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
@@ -27466,7 +28989,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 15} Strength saving throw or take 20 ({@damage 3d12}) bludgeoning damage (or 11 ({@damage 3d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 15} Strength saving throw or take 20 ({@damage 3d12}) bludgeoning damage (or 11 ({@damage 3d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
@@ -27712,7 +29235,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 16} Strength saving throw or take 26 ({@damage 4d12}) bludgeoning damage (or 14 ({@damage 4d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 16} Strength saving throw or take 26 ({@damage 4d12}) bludgeoning damage (or 14 ({@damage 4d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
@@ -27958,7 +29481,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 17} Strength saving throw or take 33 ({@damage 5d12}) bludgeoning damage (or 18 ({@damage 5d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 17} Strength saving throw or take 33 ({@damage 5d12}) bludgeoning damage (or 18 ({@damage 5d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
@@ -28204,7 +29727,7 @@
                 {
                     "name": "Harassing Stampede",
                     "entries": [
-                        "The light cavalry moves up to 40 feet in a straight line. Each creature whose space the light cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 6d12}) bludgeoning damage (or 21 ({@damage 6d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
+                        "The light cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. Each creature whose space the light cavalry passes through must make a {@dc 18} Strength saving throw or take 39 ({@damage 6d12}) bludgeoning damage (or 21 ({@damage 6d6}) bludgeoning damage if the light cavalry is {@variantrule Bloodied|XPHB}) and the target has disadvantage on its next abilty check or attack roll before the start of the light cavalry's next turn. A creature takes half damage and suffers no addiitonal effects on a success."
                     ]
                 }
             ],
