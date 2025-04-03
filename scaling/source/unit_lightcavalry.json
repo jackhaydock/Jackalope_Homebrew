@@ -3,18 +3,19 @@
         "crs": [1,3,5,7,9,11],
         "primary_cr": 3,
         "trait": {
-            "Warrior Unit": [
+            "Cavalry Unit": [
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "As a group of humanoids, the unit has the following effects:",
+                        "As a group of Small or Medium humanoids mounted on Large beasts, the unit has the following effects:",
                         {
                             "type": "list",
                             "style": "list",
                             "items": [
                                 "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
                                 "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "If the unit is missing hit points another creature within 5 feet can use its action to merge into the unit, destroying itself and restoring a number of hit points to the unit equal to five times its CR. The creature must share one of the following tags with the unit; Ambusher, Artillery, Brute, Controller, Skirmisher, Soldier or Support. For example, a {@creature hoplite (CR 1)|J:Warriors|hoplite} can merge into a {@creature Phalanx (CR 1)|J:Units|phalanx} as they share the Soldier tag."
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
                             ]
                         }
                     ]
@@ -60,7 +61,7 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "When the <name> hits a Medium or smaller creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a <dc_default> Strength saving throw or be pushed up to 10 feet away from the target."
+                        "When the <name> hits a creature with a melee attack, it can force each Medium or smaller creature within 10 feet of the target to make a <dc_default> Strength saving throw or be pushed up to 10 feet away from the target."
                     ]
                 } 
             ]
@@ -69,11 +70,12 @@
         }
     },
     "base_statblock": {
-        "name": "Cavalry",
+        "name": "Light Cavalry",
         "source": "J:Units",
         "size": ["H", "G"],
         "type": {
             "type": "humanoid",
+            "swarmSize": "M",
             "tags": [
                 "unit",
                 "skirmisher"
