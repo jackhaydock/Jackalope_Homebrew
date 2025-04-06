@@ -142,7 +142,7 @@ def process_scaling_text(entries, cr, name):
 def create_statblock_at_cr(base, meta, cr):
     output = copy.deepcopy(base)
 
-    # Name, CR, AC and HPcd d
+    # Name, CR, AC and HP
     output["name"] += f" (CR {cr})"
     output["cr"] = str(cr)
     output["ac"] = [
@@ -190,46 +190,24 @@ def create_statblock_at_cr(base, meta, cr):
         if "perception" in base["skill"]:
             output["passive"] += get_prof_bonus(cr)
 
-    # Traits
-    for trait in meta["trait"]:
-        for tier in meta["trait"][trait]:
-            if cr in tier["crs"]:
-                trait_data = {
-                    "name": trait,
-                    "entries": process_scaling_text(tier["entries"], cr, base["name"])
-                }
-                output["trait"].append(trait_data)
+    # Traits, Actions, Bonus Actions, Reactions (allows for <tags> and differences between crs)
+    for section in ["trait", "action", "bonus", "reaction"]:
+        for feature in meta[section]:
+            for tier in meta[section][feature]:
+                if cr in tier["crs"]:
+                    feature_data = {
+                        "name": feature,
+                        "entries": process_scaling_text(tier["entries"], cr, base["name"])
+                    }
+                    output.setdefault(section, [])
+                    output[section].append(feature_data)
 
-    # Actions
-    for action in meta["action"]:
-        for tier in meta["action"][action]:
-            if cr in tier["crs"]:
-                action_data = {
-                    "name": action,
-                    "entries": process_scaling_text(tier["entries"], cr, base["name"])
-                }
-                output["action"].append(action_data)
-
-    # Bonus Actions
-    for bonus in meta["bonus"]:
-        for tier in meta["bonus"][bonus]:
-            if cr in tier["crs"]:
-                bonus_data = {
-                    "name": bonus,
-                    "entries": process_scaling_text(tier["entries"], cr, base["name"])
-                }
-                output["bonus"].append(bonus_data)
-
-    # Reactions
-    for reaction in meta["reaction"]:
-        for tier in meta["reaction"][reaction]:
-            if cr in tier["crs"]:
-                reaction_data = {
-                    "name": reaction,
-                    "entries": process_scaling_text(tier["entries"], cr, base["name"])
-                }
-                output["reaction"].append(reaction_data)
-
+    # Fluff
+    # TODO: cant handled nested objects, see process_scaling_text()
+    if "fluff" in meta.keys():
+        output["fluff"] = {
+            "entries": process_scaling_text(meta["fluff"]["entries"], cr, base["name"])
+        }
 
     return output
 

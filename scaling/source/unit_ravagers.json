@@ -65,7 +65,20 @@
             ]
         },
         "bonus": {},
-        "reaction": {}
+        "reaction": {},
+        "fluff": {
+            "entries": [
+                "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the <name>. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                {
+                    "type": "inset",
+                    "name": "Using Units in Game",
+                    "entries": [
+                        "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                    ]
+                }
+            ]
+        }
     },
     "base_statblock": {
         "name": "Ravager Horde",

@@ -295,7 +295,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.04.03.14.30",
+                "version": "2025.04.06.16.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -310,7 +310,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.04.03.14.30",
+                "version": "2025.04.06.16.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743690610.428256
+        "dateLastModified": 1743958300.8155715
     },
     "class": [
         {
@@ -27292,60 +27292,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 5}, range 30/90 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 13} Dexterity saving throw or take 7 ({@damage 1d12}) piercing damage (or 4 ({@damage 1d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -27484,6 +27430,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 5}, range 30/90 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 8 ({@damage 1d6 + 4}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 13} Dexterity saving throw or take 7 ({@damage 1d12}) piercing damage (or 4 ({@damage 1d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -27545,60 +27544,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 6}, range 30/90 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 14} Dexterity saving throw or take 13 ({@damage 2d12}) piercing damage (or 7 ({@damage 2d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -27737,6 +27682,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 6}, range 30/90 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 14 ({@damage 2d6 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 14} Dexterity saving throw or take 13 ({@damage 2d12}) piercing damage (or 7 ({@damage 2d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -27799,60 +27797,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 7}, range 30/90 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 15} Dexterity saving throw or take 20 ({@damage 3d12}) piercing damage (or 11 ({@damage 3d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -27991,6 +27935,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 7}, range 30/90 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 20 ({@damage 3d6 + 9}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 15} Dexterity saving throw or take 20 ({@damage 3d12}) piercing damage (or 11 ({@damage 3d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -28053,60 +28050,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 8}, range 30/90 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 16} Dexterity saving throw or take 26 ({@damage 4d12}) piercing damage (or 14 ({@damage 4d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -28245,6 +28188,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 8}, range 30/90 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 26 ({@damage 4d6 + 12}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 16} Dexterity saving throw or take 26 ({@damage 4d12}) piercing damage (or 14 ({@damage 4d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -28307,60 +28303,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 9}, range 30/90 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 17} Dexterity saving throw or take 33 ({@damage 5d12}) piercing damage (or 18 ({@damage 5d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -28499,6 +28441,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 9}, range 30/90 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 32 ({@damage 5d6 + 14}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 17} Dexterity saving throw or take 33 ({@damage 5d12}) piercing damage (or 18 ({@damage 5d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -28561,60 +28556,6 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Cavalry Unit",
-                    "entries": [
-                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
-                        {
-                            "type": "list",
-                            "style": "list",
-                            "items": [
-                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
-                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
-                                "A spell or effect that can target both beasts and humanoids can target the unit.",
-                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
-                    ]
-                },
-                {
-                    "name": "Slings and Arrows",
-                    "entries": [
-                        "{@atkr rw} {@hit 10}, range 30/90 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
-                    ]
-                },
-                {
-                    "name": "Sabres",
-                    "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) slashing damage."
-                    ]
-                },
-                {
-                    "name": "Barraging Stampede",
-                    "entries": [
-                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 18} Dexterity saving throw or take 39 ({@damage 6d12}) piercing damage (or 21 ({@damage 6d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
-                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "Charge Action",
-                    "entries": [
-                        "The missile cavalry takes the {@action Dash|XPHB} action."
-                    ]
-                }
-            ],
-            "reaction": [],
             "damageTags": [
                 "P",
                 "S"
@@ -28753,6 +28694,59 @@
                                 }
                             ]
                         }
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cavalry Unit",
+                    "entries": [
+                        "As a group of Small or Medium humanoids mounted on Large or Huge beasts, the unit has the following effects:",
+                        {
+                            "type": "list",
+                            "style": "list",
+                            "items": [
+                                "The unit can occupy another creature's space and vice versa, and the <name> can move through an opening wide enough for a Large creature. In addition, the unit is immune to spells and magic effects that would alter its size.",
+                                "While the unit is not {@variantrule Bloodied|XPHB}, it has advantage on all saving throws.",
+                                "A spell or effect that can target both beasts and humanoids can target the unit.",
+                                "Attacks against the unit using weapons with the Reach, Hooked or {@itemMastery Topple} property have advantage."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The missile cavalry makes two weapon attacks. It cannot use this action if it is {@variantrule Bloodied|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Slings and Arrows",
+                    "entries": [
+                        "{@atkr rw} {@hit 10}, range 30/90 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage and the target is {@condition Hampered|J:General} until the start of the missile cavalry's next turn."
+                    ]
+                },
+                {
+                    "name": "Sabres",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 38 ({@damage 6d6 + 17}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Barraging Stampede",
+                    "entries": [
+                        "The missile cavalry moves up to 40 feet in a straight line without provoking opportunity attacks. At any point during this movement, the missile cavalry chooses a point it can see within 30 feet. Each creature within 15 feet of the chosen point must make a {@dc 18} Dexterity saving throw or take 39 ({@damage 6d12}) piercing damage (or 21 ({@damage 6d6}) piercing damage if the missile cavalry is {@variantrule Bloodied|XPHB}). A creature takes half damage on a success.",
+                        "Creatures gain no benefit from Half {@variantrule Cover|XPHB} or Three-Quarters {@variantrule Cover|XPHB} for this save as the missile cavalry strafes the area."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Charge Action",
+                    "entries": [
+                        "The missile cavalry takes the {@action Dash|XPHB} action."
                     ]
                 }
             ]
@@ -29000,7 +28994,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Artillery Battalion (CR 3)",
@@ -29244,7 +29251,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Artillery Battalion (CR 5)",
@@ -29489,7 +29509,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Artillery Battalion (CR 7)",
@@ -29734,7 +29767,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Artillery Battalion (CR 9)",
@@ -29979,7 +30025,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Artillery Battalion (CR 11)",
@@ -30224,7 +30283,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Be it slings, javelins, bows or muskets, a few good artillery battalions can often be the deciding factor on the battlefield. Their missiles raining down upon the enemy, killing many and demoralising the rest.",
+                    "But this offensive power comes at a cost. While any good warrior unit must be ready and able to engage in close combat, it is not the specialism of the artillery battalion. Often not being well equipped or trained for such engagements. They will generally try to avoid melee engagements as long as they can, often positioning themselves behind defences, such as battlements, ditches or infantry.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 1)",
@@ -30516,7 +30588,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 3)",
@@ -30807,7 +30892,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 5)",
@@ -31099,7 +31197,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 7)",
@@ -31391,7 +31502,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 9)",
@@ -31683,7 +31807,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ship Crew (CR 11)",
@@ -31975,7 +32112,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Ships require many hands to operate, all working together to pull oars, hoist sails and load weapons. This is where ship crews come in, operating oars, rigging, weapons and other components of ships of any scale. A ship with one or more well trained ship crews can be a formidable foe on the sea.",
+                    "While they are capable of fighting, operating ship weapons and even grappling enemy ships, they are not expert warriors and will generally avoid close combat without the aid of more seasoned warriors to protect them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 1)",
@@ -32228,7 +32378,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 3)",
@@ -32480,7 +32643,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 5)",
@@ -32733,7 +32909,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 7)",
@@ -32986,7 +33175,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 9)",
@@ -33239,7 +33441,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Heavy Cavalry (CR 11)",
@@ -33492,7 +33707,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride warhorses, elephants, giant boars or even chariots, the heavy cavalry's purpose is terrify, damage and scatter the infantry before readying for another charge. Because of their imposing size, speed and power, a good charge can mean the difference between the enemy ranks holding fast or breaking both physically and morally.",
+                    "But, this imposing presence also paints a large target on the already large target that are mounted warriors. While hardy, a heavy cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 1)",
@@ -33738,7 +33966,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 3)",
@@ -33983,7 +34224,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 5)",
@@ -34229,7 +34483,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 7)",
@@ -34475,7 +34742,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 9)",
@@ -34721,7 +35001,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Light Cavalry (CR 11)",
@@ -34967,7 +35260,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Where infantry might try to shape the battlefield, cavalry seek to reshape it. Charging towards the enemy astride fast horses, camels or boars, the light cavalry's purpose is harrass, disorient and damage the infantry before readying for another charge. Because of their impressive speed and manueverability, a good charge can mean the difference between the enemy ranks holding fast or being overwhelmed.",
+                    "But, this speed costs armor, and the cavalry paints a large target on its back. A light cavalry needs to keep moving, else they get swarmed, dismounted and hacked to pieces.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 1)",
@@ -35249,7 +35555,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 3)",
@@ -35530,7 +35849,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 5)",
@@ -35812,7 +36144,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 7)",
@@ -36094,7 +36439,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 9)",
@@ -36376,7 +36734,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Phalanx (CR 11)",
@@ -36658,7 +37029,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Defending key positions and personel on a battlefield, you will also find a phalanx. A well-organised unit of armored warriors operating in tightly packed formations. With polearms and shields at the ready, they can hold back advancing forces of many kinds. Assaulting a prepared phalanx from the front is extremely dangerous and difficult, making them ideal for controlling the front lines of a battlefield.",
+                    "While good at holding ground, they are not great at gaining it. Moving in such tight formations costs them speed and they can get overwhelmed if surrounded.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 1)",
@@ -36911,7 +37295,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 3)",
@@ -37163,7 +37560,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 5)",
@@ -37416,7 +37826,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 7)",
@@ -37669,7 +38092,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 9)",
@@ -37922,7 +38358,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Ravager Horde (CR 11)",
@@ -38175,7 +38624,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "While caution might seem sensible in battle, hesistation can be a major hinderance. At least, that is the view of the ravager horde. Throwing caution to the wind, and charging into battle with reckless abandon, they are terrifying and dangerous. Some are said to work themselves up into a trance-like fury, others are said to be under the influence of enchancing elixirs or magics, others might simply have a deathwish, seeking to take any many down with them as they can.",
+                    "While effective, brutal and able to shrug off many wounds, they are still mortal and they are rarely the most disciplined or managable troop. They are usually not as stupid as they appear, but once they engage an enemy, they will likely not stop until either side is dead. Intricate battlefield maneuvers, such as feints, envelopments and fall backs, usually don't fit well with their combat style.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 1)",
@@ -38262,7 +38724,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 10 ({@damage 1d10 + 4}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 5}, reach 5 ft., one target {@h} 9 ({@damage 1d8 + 4}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -38427,7 +38889,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 3)",
@@ -38513,7 +38988,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 18 ({@damage 2d10 + 7}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -38678,7 +39153,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 5)",
@@ -38765,7 +39253,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 26 ({@damage 3d10 + 9}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -38930,7 +39418,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 7)",
@@ -39017,7 +39518,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 34 ({@damage 4d10 + 12}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -39182,7 +39683,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 9)",
@@ -39269,7 +39783,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 42 ({@damage 5d10 + 14}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -39434,7 +39948,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Seigecraft Guild (CR 11)",
@@ -39521,7 +40048,7 @@
                 {
                     "name": "Shovels and Picks",
                     "entries": [
-                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 50 ({@damage 6d10 + 17}) bludgeoning or piercing damage."
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) bludgeoning or piercing damage."
                     ]
                 },
                 {
@@ -39686,7 +40213,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "The shape of a battlefield can matter as much as the warriors within it. Not just the placement of troops, but the literal shape of the earth and structures will slow, tire and bottleneck enemy forces if used well. With shovels and lumber, the seigecraft guild are engineers and laborers who can quickly change the landscape of a battlefield.",
+                    "With the their training and equipment focused on digging ditches and building palisades rather than deflecting spears and swinging swords, they are not effective warriors, at least not without the aid of more seasoned warriors to cover them.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 1)",
@@ -39940,7 +40480,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 3)",
@@ -40193,7 +40746,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 5)",
@@ -40447,7 +41013,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 7)",
@@ -40701,7 +41280,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 9)",
@@ -40955,7 +41547,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Warband (CR 11)",
@@ -41209,7 +41814,20 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "fluff": {
+                "entries": [
+                    "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, warband's are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                    "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the warband becomes less dangerous.",
+                    {
+                        "type": "inset",
+                        "name": "Using Units in Game",
+                        "entries": [
+                            "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "name": "Bombardier (CR 1)",

@@ -72,7 +72,20 @@
                 }
             ]
         },
-        "reaction": {}
+        "reaction": {},
+        "fluff": {
+            "entries": [
+                "Fast moving infantry can be a key part of shock warfare, overwhelming the enemy before they can properly defend themselves. With terrifying battlecries and relentless charges, <name>'s are common among raiding parties, irregular miltias or even violent disorganised mobs.",
+                "While fear is a powerful weapon, it is not an infallible one and when up against an enemy that does not fear them, the <name> becomes less dangerous.",
+                {
+                    "type": "inset",
+                    "name": "Using Units in Game",
+                    "entries": [
+                        "Units could be sections of a small army, a group of faceless underlings or some other grouping of the DM's choice. They are intended to be an abstraction for large numbers of generic humanoids (or similar) on a battlefield, and are provided at a wide range of CRs, allowing them to be quickly inserted into an encounter at virtually any level. They are not intended to be the bosses or the primary narrative focus of any given encounter, but they can enhance the danger, providing an additional threat the players cannot ignore. All without needing to run dozens of turns for faceless enemies."
+                    ]
+                }
+            ]
+        }
     },
     "base_statblock": {
         "name": "Warband",
