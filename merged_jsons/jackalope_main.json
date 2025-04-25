@@ -88,7 +88,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.02.27.06.44",
+                "version": "2025.04.25.20.54",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1743958451.3697517
+        "dateLastModified": 1745614516.4566104
     },
     "class": [
         {
@@ -15878,7 +15878,7 @@
                 "namePrefix": "Entrapping ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the arrow transforms into a {@item net|phb}. The target is {@condition restrained} as described in the net's description."
+                    "When you hit a target with this ammunition, the arrow transforms into a {@item Net|XPHB}. The target is automatically fails the saving throw."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -15901,7 +15901,7 @@
                 "namePrefix": "Enlarging ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the target grows in size, as if targeted by the Enlarge effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
+                    "When you hit a target with this ammunition, the target grows in size, as if targeted by the Enlarge effect of the {@spell Enlarge/Reduce|XPHB} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance or similar."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -15924,7 +15924,7 @@
                 "namePrefix": "Shrinking ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the target shrinks in size, as if targeted by the Reduce effect of the {@spell enlarge/reduce|phb} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance."
+                    "When you hit a target with this ammunition, the target shrinks in size, as if targeted by the Reduce effect of the {@spell Enlarge/Reduce|XPHB} spell. The target automatically fails the saving throw, unless it expends a Legendary Resistance or similar."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -15947,7 +15947,7 @@
                 "namePrefix": "Shielding ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the target is encased in a protective field, as if targeted by the {@spell shield of faith|phb} spell."
+                    "When you hit a target with this ammunition, the target is encased in a protective field, as if targeted by the {@spell Shield of Faith|XPHB} spell."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -15970,13 +15970,13 @@
                 "namePrefix": "Smoking ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell fog cloud|phb} spell."
+                    "When you hit a target with this ammunition, the target is surrounded by a cloud of thick smoke, as if targeted by the {@spell Fog Cloud|XPHB} spell."
                 ],
                 "bonusWeapon": "+1"
             }
         },
         {
-            "name": "Exploding Ammunition",
+            "name": "Breaching Ammunition",
             "type": "TA|J:Ammo",
             "requires": [
                 {
@@ -15993,7 +15993,7 @@
                 "namePrefix": "Exploding ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the ammunition explodes and each creature in a 15-foot-radius sphere centered on the target, must make a Dexterity saving throw or take {@dice 3d6} fire damage. A creature takes half as much damage on a success. Objects in the area also take this damage."
+                    "When you hit a target with this ammunition, the ammunition explodes and each creature in a 15-foot-radius sphere centered on the target, must make a Dexterity saving throw, taking 11 ({@dice 3d6}) fire damage on a fail or half as much on a success. Objects in the area that are not being worn or carried take double damage."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16016,7 +16016,7 @@
                 "namePrefix": "Incendiary ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, it splashes burning fluid over the target. The target takes {@dice 1d6} fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+                    "When you hit a target with this ammunition, it splashes burning fluid over the target. The target takes 4 ({@dice 1d6}) fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16039,7 +16039,7 @@
                 "namePrefix": "Rolling ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, thousands of {@item Ball Bearings (bag of 1,000)|phb|ball bearings} explode outwards, covering a level area 15 feet square, centered on the target. The balls vanish after one minute."
+                    "When you hit a target with this ammunition, thousands of {@item Ball Bearings|XPHB|ball bearings} explode outwards, covering a level area 15-foot-square, centered on the target. The balls vanish after one minute."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16085,7 +16085,7 @@
                 "namePrefix": "Concussive ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, the ammunition emits a sonic blast that is audible up to 300 feet away. Each creature in a 15-foot-radius sphere centered on the target must make a Constitution saving throw or take {@dice 2d8} thunder damage and become {@condition deafened} until the end of its next turn. On a success, a creature takes half damage and is not {@condition deafened}. If this damage reduces a cretaure to 0 hit points, it becomes {@condition unconscious} and is stable."
+                    "When you hit a target with this ammunition, the ammunition emits a sonic blast that is audible up to 300 feet away. Each creature in a 15-foot-radius sphere centered on the target must make a Constitution saving throw or take 9 ({@dice 2d8}) thunder damage and become {@condition Deafened|XPHB} until the end of its next turn. On a success, a creature takes half damage and is not {@condition Deafened|XPHB}. If this damage reduces a cretaure to 0 hit points, it becomes {@condition Unconscious|XPHB} and is stable."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16108,7 +16108,7 @@
                 "namePrefix": "Extinguishing ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, a spray of water erupts in a 15-foot-radius sphere centered on the target, extinguishing exposed, nonmagical fires within the area. Each creature within the area is hit by 5 gallons of water, which dissipates at the end of the turn."
+                    "When you hit a target with this ammunition, a spray of water erupts in a 15-foot-radius-sphere centered on the target, extinguishing nonmagical fires within the area. Each creature within the area is hit by 5 gallons of water, which dissipates at the end of the turn."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16177,7 +16177,7 @@
                 "namePrefix": "Feathered ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|mm}, 3 for {@creature peacock|bgdia}, 4 for {@creature raven|mm}, 5 for {@creature owl|mm} or 6 for {@creature giant owl|mm}. The bird vanishes after 1 hour, or if it dies."
+                    "When you hit a target with this ammunition, a random bird appears in an unoccupied space within 10 feet of the target and is hostile to the target. The bird takes its turn immediately after the current one and must do everything it can to harm and harass the target. Roll a {@dice d6} to determine the type of bird; 1 for {@creature chicken|J:General}, 2 for {@creature eagle|XMM}, 3 for {@creature peacock|BGDIA}, 4 for {@creature raven|XMM}, 5 for {@creature owl|XMM} or 6 for {@creature giant owl|XMM}. The bird vanishes after 1 hour, or if it dies."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16200,7 +16200,7 @@
                 "namePrefix": "Mimicry ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reproduces this phrase or noise from the location of the target. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
+                    "When you fire this ammunition, you can speak a short phrase or noise. On a hit, the ammunition reproduces this phrase or noise from the location of the target, which is audible up to distance of your choice up to 60 feet. You can choose to have the ammunition repeat the phrase or noise up to once per turn until the start of your next turn."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16223,7 +16223,7 @@
                 "namePrefix": "Attracting ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pulled 10 feet towards the target, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take 4 ({@dice 1d6}) bludgeoning damage and the first creature stops moving."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16246,7 +16246,7 @@
                 "namePrefix": "Repelling ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take {@dice 1d6} bludgeoning damage and the first creature stops moving."
+                    "When you hit a target with this ammunition, each creature within 10 feet of the target must make a Strength saving throw or be pushed 10 feet away the target in a straight line, starting with those closest to the target. If this movement would move a creature or object into the space of another creature or object, both creatures take 4 ({@dice 1d6}) bludgeoning damage and the first creature stops moving."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16269,7 +16269,7 @@
                 "namePrefix": "Emetic ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition poisoned} until it spends an action to vomit.",
+                    "When you hit a creature with this ammunition, it must make a Constitution saving throw or become {@condition Poisoned|XPHB} until it spends an {@variantrule Action|XPHB} to vomit.",
                     "At the DM's discretion, a poisoned creature might choose to move to another location in order to vomit, such as to an outhouse, creek or over a ledge. A creature is unlikely to do this if it is aware of a more immediate threat, such as being in combat."
                 ],
                 "bonusWeapon": "+1"
@@ -16293,7 +16293,7 @@
                 "namePrefix": "Transposition ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take {@dice 1d8} force damage."
+                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take 5 ({@dice 1d8}) force damage."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -16317,6 +16317,106 @@
                 "type": "TA|J:Ammo",
                 "entries": [
                     "When you hit a target with this ammunition, the target gains Temporary Hit Points equal to {@dice 2d6} + the ability modifier you used for the attack."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Glyphhead Ammunition (Cantrip)",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Glyphhead ",
+                "nameSuffix": " (Cantrip)",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "You can use a {@variantrule Utilize|XPHB} action to fuse a {@item Spell Scroll|XDMG} you have with it, expending the scroll. When you hit a target with this ammunition, the spell on the scroll is cast on the target or on a point centred on the target. You use the ability you used for the attack roll for the spell's save DC and spell attack modifier. You use the result of the weapon attack roll in place of the first spell attack roll for the spell.",
+                    "The spell must be a Cantrip, must not have a range of self and must have a casting time of one {@variantrule Action|XPHB} or one {@variantrule Bonus Action|XPHB}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Glyphhead Ammunition (1st Level)",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Glyphhead ",
+                "nameSuffix": " (1st Level)",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "You can use a {@variantrule Utilize|XPHB} action to fuse a {@item Spell Scroll|XDMG} you have with it, expending the scroll. When you hit a target with this ammunition, the spell on the scroll is cast on the target or on a point centred on the target. You use the ability you used for the attack roll for the spell's save DC and spell attack modifier. You use the result of the weapon attack roll in place of the first spell attack roll for the spell.",
+                    "The spell must be a Cantrip or 1st-Level spell, must not have a range of Self and must have a casting time of one {@variantrule Action|XPHB} or one {@variantrule Bonus Action|XPHB}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Glyphhead Ammunition (2nd Level)",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "rare",
+                "source": "J:Ammo",
+                "namePrefix": "Glyphhead ",
+                "nameSuffix": " (2nd Level)",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "You can use a {@variantrule Utilize|XPHB} action to fuse a {@item Spell Scroll|XDMG} you have with it, expending the scroll. When you hit a target with this ammunition, the spell on the scroll is cast on the target or on a point centred on the target. You use the ability you used for the attack roll for the spell's save DC and spell attack modifier. You use the result of the weapon attack roll in place of the first spell attack roll for the spell.",
+                    "The spell must be a Cantrip or 1st-Level spell, must not have a range of Self and must have a casting time of one {@variantrule Action|XPHB} or one {@variantrule Bonus Action|XPHB}."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Glyphhead Ammunition (3rd Level)",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "very rare",
+                "source": "J:Ammo",
+                "namePrefix": "Glyphhead ",
+                "nameSuffix": " (3rd Level)",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "You can use a {@variantrule Utilize|XPHB} action to fuse a {@item Spell Scroll|XDMG} you have with it, expending the scroll. When you hit a target with this ammunition, the spell on the scroll is cast on the target or on a point centred on the target. You use the ability you used for the attack roll for the spell's save DC and spell attack modifier. You use the result of the weapon attack roll in place of the first spell attack roll for the spell.",
+                    "The spell must be a Cantrip or 3rd-Level or lower, must not have a range of Self and must have a casting time of one {@variantrule Action|XPHB} or one {@variantrule Bonus Action|XPHB}."
                 ],
                 "bonusWeapon": "+1"
             }
@@ -17854,7 +17954,7 @@
                     "type": "entries",
                     "name": "Trick Ammunition",
                     "entries": [
-                        "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described below. Once it hits a target, the ammunition is no longer magical.",
+                        "You have a +1 bonus to attack rolls made with this piece of magic ammunition. On a hit, the ammunition does not deal damage, instead triggering a magic effect as described in its description. Once it hits a target, the ammunition is no longer magical.",
                         "If the effect allows a creature to make a saving throw, this saving throw is equal to 8 + your proficiency bonus + the ability modifier you used for the attack. If the effect is a spell that normally requires concentration, it does not require concentration and lasts for its full duration."
                     ]
                 }
