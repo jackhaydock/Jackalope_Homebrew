@@ -190,7 +190,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.05.05.12.27",
+                "version": "2025.05.05.13.11",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1746448065.516213
+        "dateLastModified": 1746450779.228676
     },
     "class": [
         {
@@ -27536,10 +27536,13 @@
                 "darkvision 60 ft."
             ],
             "resist": [
-                "lightning and thunder (Air only); piercing and slashing (Earth only); acid (Water only)"
+                "lightning and thunder (Air only)",
+                "piercing and slashing (Earth only)",
+                "acid (Water only)"
             ],
             "immune": [
-                "poison; fire (Fire only)"
+                "poison",
+                "fire (Fire only)"
             ],
             "conditionImmune": [
                 "charmed",
@@ -27588,7 +27591,281 @@
                 {
                     "name": "Shared Fortitude (Recharges after a Long Rest)",
                     "entries": [
-                        "Any creature gains the steed's resistances and immunities while mounted on it until the end of the steed's next turn."
+                        "Until the end of the steed's next turn, creatures gain the steed's resistances and immunities while mounted on it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Draconic Steed",
+            "source": "J:Steeds",
+            "summonedBySpell": "Find Steed|XPHB",
+            "summonedBySpellLevel": 2,
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "dragon",
+                "tags": [
+                    "steed"
+                ]
+            },
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor"
+                }
+            ],
+            "hp": {
+                "special": "5 + 10 per spell level, (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 18,
+            "dex": 12,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "See Draconic Affinity"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Draconic Affinity",
+                    "entries": [
+                        "When you cast the spell, choose one of the following damage types; acid, cold, fire, lightning or poison. The steed is resistant to the chosen type and certain traits in this statblock use this type."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level damage of the type associated with the steed's Draconic Affinity trait."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Breath Weapon (Recharges after a Long Rest)",
+                    "entries": [
+                        "Each creature in a 20-foot Cone must make a Dexterity saving throw against your spell save DC or take {@damage 2d6 + the spell's level} damage of the type associated with the steed's Draconic Affinity trait. A creature takes half damage on a success."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shadow Steed",
+            "source": "J:Steeds",
+            "summonedBySpell": "Find Steed|XPHB",
+            "summonedBySpellLevel": 2,
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "monstrosity",
+                "tags": [
+                    "steed"
+                ]
+            },
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "5 + 10 per spell level, (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 120 ft."
+            ],
+            "resist": [
+                "necrotic"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 5 ft., one target. {@h}{@dice 1d8} + the spell's level necrotic damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Meld into Shadow (Recharges after a Long Rest)",
+                    "entries": [
+                        "While in {@variantrule Dim Light|XPHB} or {@variantrule Darkness|XPHB}, the steed and any creatures mounted on it become {@condition Invisible|XPHB} until the end of the steed's next turn. The effects end early if either the steed or a creature mounted on it makes an attack roll, deals damage, casts a spell or dismounts the steed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mimic Steed",
+            "source": "J:Steeds",
+            "summonedBySpell": "Find Steed|XPHB",
+            "summonedBySpellLevel": 2,
+            "size": [
+                "M",
+                "L"
+            ],
+            "type": {
+                "type": "monstrosity",
+                "tags": [
+                    "steed"
+                ]
+            },
+            "ac": [
+                {
+                    "special": "10 + the level of the spell (natural armor)"
+                }
+            ],
+            "hp": {
+                "special": "5 + 10 per spell level, (the steed has a number of Hit Dice [{@dice d10}s] equal to the spell's level)"
+            },
+            "speed": {
+                "walk": 60,
+                "fly": {
+                    "number": 60,
+                    "condition": "(requires 4th-level spell or higher)"
+                }
+            },
+            "str": 12,
+            "dex": 18,
+            "con": 14,
+            "int": 6,
+            "wis": 12,
+            "cha": 8,
+            "passive": 11,
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "resist": [
+                "acid"
+            ],
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened"
+            ],
+            "languages": [
+                "understands the languages you speak but doesn't speak"
+            ],
+            "pbNote": "equals your bonus",
+            "trait": [
+                {
+                    "name": "Life Bond",
+                    "entries": [
+                        "When you regain Hit Points from a spell of 1st level or higher, the steed regains the same number of Hit Points if you're within 5 feet of it."
+                    ]
+                },
+                {
+                    "name": "Magic Resistance",
+                    "entries": [
+                        "The steed has advantage on saving throws against spells and other magical effects."
+                    ]
+                },
+                {
+                    "name": "Charge",
+                    "entries": [
+                        "If the steed moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Maul",
+                    "entries": [
+                        "{@atk ms} your spell attack modifier to hit, reach 10 ft., one target. {@h}{@dice 1d8} + the spell's level acid damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Shape-Shift (Recharges after a Long Rest)",
+                    "entries": [
+                        "The steed shape-shifts to resemble a Small or Medium beast or object while retaining its statistics for up to 1 hour, or until it ends this form with another {@variantrule Bonus Action|J:General}.",
+                        "A creature can determine its true nature with an Intelligence (Investigation) check against your spell save DC."
                     ]
                 }
             ]
