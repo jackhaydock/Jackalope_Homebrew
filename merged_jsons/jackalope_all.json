@@ -577,7 +577,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.03.27.01.11",
+                "version": "2025.05.07.19.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1746450779.228676
+        "dateLastModified": 1746647509.2398076
     },
     "class": [
         {
@@ -1835,7 +1835,8 @@
                 "Creation|XPHB",
                 "Dispel Evil and Good|PHB",
                 "Dispel Evil and Good|XPHB",
-                "Far Step|XGE"
+                "Far Step|XGE",
+                "Legend Lore|XPHB"
             ],
             "featProgression": [
                 {
@@ -3160,7 +3161,7 @@
             "classSource": "J:Lore",
             "level": 1,
             "entries": [
-                "Starting at 1st level, you can utilize your knowledge to pinpoint weak spots and improve the damage you deal with weapons. Once per turn, when you hit with a weapon attack or unarmed strike, you can add a bonus to the damage roll equal to your Intelligence modifier."
+                "Starting at 1st level, you can utilize your knowledge to pinpoint weak spots and improve the damage you deal with weapons. Once per turn, when you hit with a {@variantrule Weapon Attack|XPHB} or {@variantrule Unarmed Strike|XPHB}, you can add a bonus to the damage roll equal to your Intelligence modifier."
             ]
         },
         {
@@ -3315,7 +3316,7 @@
                             "type": "item",
                             "name": "Spellsense",
                             "entries": [
-                                "As an action, you can expand a spell slot and focus your senses to search for the presence of magic. For the next 10 minutes, you can sense when a creature within 60ft of you casts a spell. You know the location the spell was cast from and the school of magic that the spell belongs to."
+                                "As a {@action Magic|XPHB} action, you can expend a spell slot of level 1 or higher and focus your senses to search for the presence of magic. For the next 10 minutes, you can sense when a creature within 60 feet of you casts a spell. You know the location the spell was cast from and the school of magic that the spell belongs to."
                             ]
                         },
                         {
@@ -3346,7 +3347,7 @@
             "classSource": "J:Lore",
             "level": 6,
             "entries": [
-                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, you are {@condition slowed|J:general} and you cannot take the {@action Dash|XPHB} action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
+                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, you are {@condition Slowed|J:general} and you cannot take the {@action Dash|XPHB} action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
             ]
         },
         {
@@ -3377,7 +3378,7 @@
             "classSource": "J:Lore",
             "level": 10,
             "entries": [
-                "Starting at 10th level, you can learn from your allies and them from you. When you finish a Long Rest, you and a willing creature you choose can gain one of the following benefits until the end of your next Long Rest:",
+                "Starting at 10th level, you can learn from your allies and them from you. When you finish a Long Rest, you and a willing creature you choose can gain one of the following benefits until the end of your next {@variantrule Long Rest|XPHB}:",
                 {
                     "type": "list",
                     "style": "list-hang-notitle",
@@ -3408,7 +3409,7 @@
                             "type": "item",
                             "name": "Share Weapon Styles",
                             "entries": [
-                                "Each of you learns one {@filter Fighting Style feat|feats|category=FS} or the {@variantrule weapon mastery properties|XPHB|mastery property} of a weapon that the other knows. If you learn the {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, or {@itemMastery Slow|XPHB} mastery property, you can replace another mastery property you use on a weapon attack."
+                                "Each of you learns one {@filter Fighting Style feat|feats|category=FS} or the {@variantrule weapon mastery properties|XPHB|mastery property} of a weapon that the other knows. If you learn the {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, or {@itemMastery Slow|XPHB} mastery property, you can use it to replace another mastery property you use on a weapon attack."
                             ]
                         }
                     ]
@@ -3422,7 +3423,7 @@
             "classSource": "J:Lore",
             "level": 14,
             "entries": [
-                "Starting at 14th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a short or long rest."
+                "Starting at 14th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
             ]
         },
         {
@@ -3441,14 +3442,14 @@
                             "type": "item",
                             "name": "Spellsense",
                             "entries": [
-                                "When a creature that is concentrating on a spell enters the area of your Spellsense for the first time on a turn, or starts its turn there, you know their location and the school of magic."
+                                "While your Spellsense is active, you know the location of any creatures in the area that are concentrating on spells or magic effects. You also know the school of magic for the spell."
                             ]
                         },
                         {
                             "type": "item",
                             "name": "Arcane Mind",
                             "entries": [
-                                "You can choose an additional spell for your Arcane Mind. The spell can be of {@filter level 2 or lower |spells|level=1;2|components & miscellaneous=|school=d|range=self;self (area)}but must still be from the divination school of magic and have a range of self."
+                                "You can choose an additional spell for your Arcane Mind. The spell can be of {@filter level 3 or lower |spells|level=1;2;3|components & miscellaneous=|school=d|range=self;self (area)}but must still be from the divination school of magic and have a range of self."
                             ]
                         }
                     ]
@@ -14412,7 +14413,7 @@
                                 "name": "Conservation Arcana",
                                 "entries": [
                                     "At 3rd level, you know the {@spell mending|xphb} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it. When you cast this cantrip, you can also clear rust from metal objects and restore faded colors and patterns. If text was obscured by nonmagical means, such as being rubbed away or blotted out with ink, but the page or tablet is intact, you can restore the text's original appearance with this cantrip.",
-                                    "You can cast the cantrip as normal, and you can also cast it as an action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                    "You can cast the cantrip as normal, and you can also cast it as an action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -14476,7 +14477,7 @@
                                 "name": "Resourceful Artifacts",
                                 "entries": [
                                     "Starting at 15th level, you ignore all class, race, and level requirements on the use of magic items.",
-                                    "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                    "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -14578,7 +14579,7 @@
                                     "At 3rd level, you can use an action to summon the spirit of a long dead beast to an unoccupied space you can see within 30ft of you.",
                                     "When you summon the beast, you choose its size and its stat block; {@creature Undead Bulker|J:Lore}, {@creature Undead Prowler|J:Lore} or {@creature Undead Soarer|J:Lore} which uses your proficiency bonus (PB) in several places. You also determine the appearance of the beast, choosing a form appropriate for its stat block. You can choose to summon an aquatic creature instead of one from the land. In which case, its walking speed becomes 5 feet and it gains a swim speed equal to its previous walking speed.",
                                     "The creature shares your initiative count in combat and will obey any verbal commands you give it (no action required by you). If you issue no commands on a turn it will defend itself and follow you but takes no other actions. The creature remains for 1 hour after which it crumbles to dust, unless you expend another use of this feature, or a spell slot of 2nd-level or higher, to extend it by another hour. The creature crumbles early if it is reduced to 0 hit points, or if you use this feature again.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again.",
                                     {
                                         "type": "inset",
                                         "name": "Alternative Beast Forms",
@@ -14629,7 +14630,7 @@
                                 "entries": [
                                     "Starting at 7th level, you can use an action to begin turning the flesh and bone of a creature you can see within 30 feet into stone. The creature must make a Constitution saving throw against your lorehunter spell save DC or become fossilised for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. A creature made of inorganic material such as stone, crystal, or metal has advantage on this saving throw.",
                                     "A fossilised creature's speed is halved, it has a -2 penalty to its Armor Class and dexterity saving throws. On its turn, it can take one action or one bonus action, not both. The creature cannot take the Dash or Dodge action. A creature summoned by your Ancient Bones feature deals an additional 1d8 damage with attacks against the fossiled creature.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -14675,7 +14676,7 @@
                                 "entries": [
                                     "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon an {@creature Undead Rex|J:Lore} rather than one of the listed statblocks. You cannot use spell slots to summon the rex or extend its duration.",
                                     "The rex obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the rex at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the rex and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the rex. It spends its remaining turns pursuing and attacking any nearby creatures.",
-                                    "Once you use this feature, you cannot do so again until you finish a short or long rest."
+                                    "Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -14778,7 +14779,7 @@
                             {
                                 "name": "Tactics",
                                 "entries": [
-                                    "Starting at 3rd level, you have a number of Tactics Points equal to your lorehunter level + your Intelligence modifier. You regain 2 expended Tactic points whenever you finish a short rest, and all expended points whenever you finish a long rest.",
+                                    "Starting at 3rd level, you have a number of Tactics Points equal to your lorehunter level + your Intelligence modifier. You regain 2 expended Tactic points whenever you finish a {@variantrule Short Rest|XPHB}, and all expended points whenever you finish a {@variantrule Long Rest|XPHB}.",
                                     "You can expend these points on the following techniques:",
                                     {
                                         "type": "list",
@@ -14921,7 +14922,7 @@
                                             }
                                         ]
                                     },
-                                    "Once you use this feature, you cannot do again until you finish a short or long rest."
+                                    "Once you use this feature, you cannot do again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -14941,7 +14942,7 @@
                                 "name": "Opportunities Multiplied",
                                 "entries": [
                                     "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional action immediately, provided neither of you are incapacitated. The effect ends early once you grant four actions in this way.",
-                                    "Once you use this feature you cannot do so again until you finish a long rest."
+                                    "Once you use this feature you cannot do so again until you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -15045,7 +15046,7 @@
                                 "name": "Microclimate",
                                 "entries": [
                                     "Starting at 3rd level, you can use a bonus action to subtly alter the environment in a 15-foot-radius sphere, centered on a point you can see within 60 feet. Choose one of the effects listed below, the area is filled with the chosen effect for 1 minute, or until you are {@condition incapacitated|xphb}. As a bonus action on subsequent turns for the duration, you can move the area up to 30 feet or change the effect but not both. If the effect allows a creature to make a saving throw, the saving throw uses your lorehunter spell save DC.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses on a long rest. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.",
+                                    "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses on a {@variantrule Long Rest|XPHB}. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.",
                                     {
                                         "type": "list",
                                         "style": "list-hang-notitle",
@@ -15088,7 +15089,7 @@
                                 "name": "Environmental Arcana",
                                 "entries": [
                                     "At 3rd level, you know the {@spell elementalism|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a reaction to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a reaction to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -15172,7 +15173,7 @@
                                 "name": "Storm Rider",
                                 "entries": [
                                     "Starting at 15th level, as a bonus action, you can ride the winds themselves and gain a flying speed equal to your walking speed for up to 10 minutes. If you are in an area of high wind, such as a storm, your flying speed increases by 10 feet for this duration. If you fall while under these effects, you do not take damage or fall {@condition prone|XPHB} as a result.",
-                                    "Once you use this feature, you cannot do so again until you finsh a long rest, unless you expend a spell slot of 3rd-level or higher."
+                                    "Once you use this feature, you cannot do so again until you finsh a {@variantrule Long Rest|XPHB}, unless you expend a spell slot of 3rd-level or higher."
                                 ]
                             }
                         ]
