@@ -755,12 +755,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 2 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -769,19 +768,23 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"30 ft. or 15 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
 				}
 			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 2,
+				"2": 4
+			},
 			"action": [
-				"On its turn, the karvi can take the move action below. It can't take this action if it has no crew.",
+				"On its turn, the karvi can take 2 move actions. It can take only 1 action if it has fewer than 4 crew. It can't any actions if it has fewer than 2 crew.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -855,12 +858,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 10 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -869,19 +871,23 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"30 ft. or 15 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
 				}
 			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 10,
+				"2": 20
+			},
 			"action": [
-				"On its turn, the snekke can take the move action below. It can't take this action if it has no crew.",
+				"On its turn, the snekke can take 2 move actions. It can take only 1 action if it has fewer than 20 crew. It can't any actions if it has fewer than 10 crew.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -955,12 +961,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 15 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -969,12 +974,11 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"30 ft. or 15 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -982,11 +986,11 @@
 			],
 			"actionThresholds": {
 				"0": 0,
-				"1": 2,
-				"2": 4
+				"1": 15,
+				"2": 30
 			},
 			"action": [
-				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				"On its turn, the skeid can take 2 move actions. It can take only 1 action if it has fewer than 30 crew. It can't any actions if it has fewer than 15 crew.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1060,12 +1064,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 20 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -1074,19 +1077,23 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-10 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"40 ft. or 20 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
 				}
 			],
+			"actionThresholds": {
+				"0": 0,
+				"1": 20,
+				"2": 40
+			},
 			"action": [
-				"On its turn, the skeid can take the move action below. It can't take this action if it has no crew.",
+				"On its turn, the drakkar can take 2 move actions. It can take only 1 action if it has fewer than 40 crew. It can't any actions if it has fewer than 20 crew.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1094,7 +1101,7 @@
 						{
 							"type": "item",
 							"name": "Move.",
-							"entry": "The skeid can use its helm to move with its oars or sails."
+							"entry": "The drakkar can use its helm to move with its oars or sails."
 						}
 					]
 				}
