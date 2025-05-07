@@ -3176,12 +3176,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 2 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -3190,12 +3189,11 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+								"30 ft. or 15 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -3297,12 +3295,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 15 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -3311,12 +3308,11 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"40 ft. or 20 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -3335,9 +3331,9 @@
 				{
 					"name": "Dragonsmaw",
 					"ac": 15,
-					"hp": 50,
+					"hp": 75,
 					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
 						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
 						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
 					]
@@ -3353,11 +3349,9 @@
 				},
 				{
 					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
 					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
+						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
 					]
 				}
 			],
@@ -3447,12 +3441,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 40 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -3461,12 +3454,11 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+								"40 ft. or 20 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -3485,10 +3477,10 @@
 				{
 					"name": "Dragonsmaw",
 					"ac": 15,
-					"hp": 50,
+					"hp": 75,
 					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
 						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
 					]
 				},
@@ -3503,11 +3495,9 @@
 				},
 				{
 					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
 					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
+						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
 					]
 				}
 			],
@@ -3597,12 +3587,11 @@
 					"name": "Oars",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 25 damage taken",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"20 ft. (requires at least 40 crew)"
+								"20 ft. or 10 ft. if {@variantrule Bloodied|XPHB}"
 							]
 						}
 					]
@@ -3611,12 +3600,11 @@
 					"name": "Sails",
 					"ac": 12,
 					"hp": 100,
-					"hpNote": "-5 ft. speed per 20 damage taken ",
 					"speed": [
 						{
 							"mode": "water",
 							"entries": [
-								"50 ft.; 20 ft. while sailing into the wind; 70 ft. while sailing with the wind."
+								"50 ft. or 25 ft. if {@variantrule Bloodied|XPHB}; -10 ft. while sailing into the wind; +10 ft. while sailing with the wind."
 							]
 						}
 					]
@@ -3635,10 +3623,10 @@
 				{
 					"name": "Dragonsmaw",
 					"ac": 15,
-					"hp": 50,
+					"hp": 75,
 					"entries": [
-						"Each creature in a 30-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes {@h}20 ({@damage 5d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
+						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
+						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
 						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
 					]
 				},
@@ -3653,11 +3641,9 @@
 				},
 				{
 					"name": "Naval Ram",
-					"ac": 20,
-					"hp": 100,
-					"dt": 10,
 					"entries": [
-						"The ship has advantage on all saving throws relating to crashing when it crashes into a creature or an object. Any damage it takes from the crash is applied to the naval ram rather than to the ship. These benefits don't apply if another vessel crashes into the galley."
+						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
+						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
 					]
 				}
 			],
