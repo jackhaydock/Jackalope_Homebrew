@@ -2943,6 +2943,52 @@
 			}
 		}
     ],
+	"object": [
+		{
+			"name": "Dragonsmaw",
+			"source": "J:Cyranos",
+			"size": [
+				"L"
+			],
+			"objectType": "SW",
+			"ac": 15,
+			"hp": 75,
+			"entries": [
+				"A Dragonsmaw launches a stream of burning oil. Loading a Dragonsmaw requires the {@action Utilize|XPHB} action, and aiming it requires another {@action Utilize|XPHB} action. Then a crew member can take the Dragonsmaw Flame action.",
+				"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10 feet of the weapon must make a {@dc 12} Dexterity saving throw. A creature takes {@damage 6d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Dragonsmaw Flame (Requires Load and Aim)",
+					"entries": [
+						"Each creature in a 45-foot long 5-foot wide line must make a {@dc 14} Dexterity saving throw. A creature takes {@damage 6d6} fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried."
+					]
+				}
+			]
+		},
+		{
+			"name": "Naval Ram",
+			"source": "J:Cyranos",
+			"size": [
+				"H"
+			],
+			"objectType": "SW",
+			"entries": [
+				"Afixed to the bow of a Gargantuan ship, a naval ram assists in ramming other ships or creatures. When the ship moves into the space of a Medium or larger creature or object it takes the Ram action (no ship actions required).",
+				"If a ship crashes into an object or creature without a Naval Ram it can still take the Ram action, however, it uses its Strength modifer in place of the normal modifer for the attack roll and the hull takes full damage on a hit (or half as much if the target is Large or smaller)."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left."
+					]
+				}
+			]
+		}
+	],
     "race": [
             {
                 "name": "Dwarf (Thalian)",
@@ -3199,17 +3245,6 @@
 					]
 				}
 			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Small ships typically include a ballista only when they are equipped for combat. If a small ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200lbs."
-					]
-				}
-			],
 			"actionThresholds": {
 				"0": 0,
 				"1": 2,
@@ -3217,6 +3252,7 @@
 			},
 			"action": [
 				"On its turn, the small ship can take 2 actions, choosing from the options below. It can take only 1 action if it has fewer than four crew. It can't take these actions if it has fewer than two crew.",
+				"At the DM's discretion, the small ship may have a {@filter Large Siege Weapon|objects|} and a {@object Naval Ram|J:Cyranos}. Typically a ship will only have such weapons if it equipped for combat.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3224,7 +3260,7 @@
 						{
 							"type": "item",
 							"name": "Fire Ship Weapon.",
-							"entry": "If it has at least one installed the ship can fire one of its ship weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
+							"entry": "If it has at least one installed the ship can fire one of its seige weapons. Each weapon can be fired no more than once a turn. You do not need to spend actions to load or aim the weapon."
 						},
 						{
 							"type": "item",
@@ -3318,43 +3354,6 @@
 					]
 				}
 			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 75,
-					"entries": [
-						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
-						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
-					]
-				}
-			],
 			"actionThresholds": {
 				"0": 0,
 				"1": 10,
@@ -3363,6 +3362,7 @@
 			},
 			"action": [
 				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than thirty crew and only 1 action if it has fewer than twenty. It can't take these actions if it has fewer than ten crew.",
+				"At the DM's discretion, the medium ship may have up to {@filter 2 Large Siege Weapons|objects|} and a {@object Naval Ram|J:Cyranos}. Typically a ship will only have such weapons if it equipped for combat.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3464,43 +3464,6 @@
 					]
 				}
 			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 75,
-					"entries": [
-						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
-						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
-					]
-				}
-			],
 			"actionThresholds": {
 				"0": 0,
 				"1": 20,
@@ -3509,6 +3472,7 @@
 			},
 			"action": [
 				"On its turn, the ship can take 3 actions, choosing from the options below. It can take only 2 actions if it has fewer than eighty crew and only 1 action if it has fewer than forty. It can't take these actions if it has fewer than twenty crew.",
+				"At the DM's discretion, the large ship may have up to {@filter 3 Large Siege Weapons|objects|} and a {@object Naval Ram|J:Cyranos}. Typically a ship will only have such weapons if it equipped for combat.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -3610,43 +3574,6 @@
 					]
 				}
 			],
-			"weapon": [
-				{
-					"name": "Ballista",
-					"ac": 15,
-					"hp": 50,
-					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 120/480 ft., one target. {@h}16 ({@damage 3d10}) piercing damage.",
-						"Ships typically include a ballista only when they are equipped for combat. If a ship is equipped with a ballista, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Dragonsmaw",
-					"ac": 15,
-					"hp": 75,
-					"entries": [
-						"Each creature in a 45-foot long 5-foot wide line must make a DC 14 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried. ",
-						"When a Dragonsmaw is destroyed, it explodes in a ball of fire. Each creature within 10ft of the weapon must make a DC 12 Dexterity saving throw. A creature takes 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.",
-						"Ships typically include a Dragonsmaw only when they are equipped for combat. If a ship is equipped with a dragonsmaw, the maximum number of passengers the ship can carry is reduced by two and the cargo capacity is reduced by 200 lbs."
-					]
-				},
-				{
-					"name": "Mangonels",
-					"ac": 15,
-					"hp": 100,
-					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. {@h}27 ({@damage 5d10}) bludgeoning damage.",
-						"Ships typically include a mangonels only when they are equipped for combat. If a ship is equipped with a mangonel, the maximum number of passengers the ship can carry is reduced by four and the cargo capacity is reduced by 400 lbs."
-					]
-				},
-				{
-					"name": "Naval Ram",
-					"entries": [
-						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left.",
-						"If a ship crashes into an object or creature without a Naval Ram it can still make this attack, however, it uses its Strength modifer in place of the +8 for the attack roll and takes full damage on a hit (or half as much if the target is Large or smaller)."
-					]
-				}
-			],
 			"actionThresholds": {
 				"0": 0,
 				"1": 40,
@@ -3656,6 +3583,7 @@
 			},
 			"action": [
 				"On its turn, the ship can take 4 actions, choosing from the options below. It can take only 3 actions if it has fewer than one hundred crew, only 2 action if it has fewer than eighty crew and only 1 action if it has fewer than sixty. It can't take these actions if it has fewer than forty crew.",
+				"At the DM's discretion, the flagship may have up to {@filter 4 Large Siege Weapons|objects|} and a {@object Naval Ram|J:Cyranos}. Typically a ship will only have such weapons if it equipped for combat.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
