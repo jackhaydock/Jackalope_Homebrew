@@ -35,12 +35,22 @@
 			"speed": 30,
 			"darkvision": 60,
 			"lineage": "VRGR",
+			"creatureTypes": [
+				"elemental"
+			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
 						"You are Small or Medium. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Elemental."
 					]
 				},
 				{
@@ -440,7 +450,7 @@
 											"type": "item",
 											"name": "Fingers of Light",
 											"entries": [
-												"When you make an unarmed strike, you can transform your fingers or hands into shards of glass. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier radiant damage, instead of the bludgeoning damage normal for an unarmed strike."
+												"When you make an unarmed strike, you can transform your fingers or hands into rods of glowing metal. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier radiant damage, instead of the bludgeoning damage normal for an unarmed strike."
 											]
 										},
 										{
@@ -521,7 +531,7 @@
 											"type": "item",
 											"name": "Fingers of Terracotta",
 											"entries": [
-												"When you make an unarmed strike, you can transform your fingers or hands into clumps of hard clay. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike."
+												"When you make an unarmed strike, you can transform your fingers or hands into clumps of hardened clay. When you hit with them, the strike deals {@dice 1d6} + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike."
 											]
 										},
 										{
