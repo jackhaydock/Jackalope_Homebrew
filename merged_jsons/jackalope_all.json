@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.07.19.53",
+                "version": "2025.05.10.14.21",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1746814938.7189724
+        "dateLastModified": 1746886973.377812
     },
     "class": [
         {
@@ -9781,6 +9781,73 @@
                             "name": "Scale Models of War",
                             "entries": [
                                 "When you finish a Long Rest, with a {@item Wargaming Set|J:General} in hand, you can play games in preparation for upcoming battles. When you do so, choose up to six creatures of your choice who participate in or witness the games (which can include yourself). The chosen creatures gain a bonus to initiative rolls and the first attack roll they make in the first round of combat. This bonus is equal to the modifier of the ability you increased with this feat and lasts until a creature finishes their next Long Rest."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Trap Master",
+            "source": "J:General",
+            "category": "G",
+            "prerequisite": [
+                {
+                    "level": 4
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "dex",
+                            "int",
+                            "wis"
+                        ]
+                    }
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "ability": "inherit",
+                    "innate": {
+                        "_": {
+                            "daily": {
+                                "1e": [
+                                    "Snare|XPHB"
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                "Even the simplest items can become brutally effective in your hands. You gain the following benefits.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Cunning Contraptions",
+                            "entries": [
+                                "You gain special benefits with the following items; {@item Alchemist's Fire|XPHB}, {@item Ball Bearings|XPHB}, {@item Bell|XPHB}, {@item Caltrops|XPHB}, {@item Chain|XPHB}, {@item Hunting Trap|XPHB}, {@item Holy Water|XPHB}, {@item Iron Spikes|XPHB}, {@item Lock|XPHB}, {@item Manacles|XPHB}, {@item Net|XPHB}, {@item Oil|XPHB}, {@item Rope|XPHB}, {@item Signal Whistle|XPHB} and {@item String|XPHB}. The DM might allow additional {@filter Adventuring Gear|items|type=adventuring gear}.",
+                                {
+                                    "type": "list",
+                                    "style": "list",
+                                    "items": [
+                                        "You can craft the item for half the usual time and cost.",
+                                        "If the item requires a {@action Utilize|XPHB} action or replaces an attack you make as part of the {@action Attack} action, you use the item as a {@variantrule Bonus Action|XPHB}.",
+                                        "If the item allows a creature to make a saving throw, the DC equals 8 plus your Proficiency Bonus plus the modifier of the ability you increased with this feat, if it is not already higher."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "Multiplex Machine",
+                            "entries": [
+                                "You know the {@spell Snare|XGE} spell and can cast it once without a spell slot, regaining the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have. Your spellcasting ability for this spell is the one you increased with this feat."
                             ]
                         }
                     ]
