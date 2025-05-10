@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.10.14.47",
+                "version": "2025.05.10.16.14",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1746888540.3045516
+        "dateLastModified": 1746893675.909462
     },
     "class": [
         {
@@ -23086,6 +23086,470 @@
                             "12",
                             "For years, the taunter has been annoying, humiliating and tormenting you. You've finally had enough."
                         ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Negotiation",
+            "source": "J:General",
+            "ruleType": "O",
+            "entries": [
+                "{@note The following is adapted from Draw Steel by MCDM Productions.}",
+                "Sometimes, convincing a character to do something for the party can be a very impactful moment. Existing rules for roleplay and social checks can feel underwhelming for this purpose. Why should such important moments boil down to a single Charisma check? How should the DM decide if a character will go along with the suggesstion? How far should they go? And when does the character say enough is enough and refuse to hear any more arguments from the party? These rules intend to provide more nuance and guidance for those pivotal moments.",
+                {
+                    "type": "entries",
+                    "name": "When to use Negotiation",
+                    "entries": [
+                        "Negotiations are meant for pivotal moments in adventures or story arcs. You do not need to run a negotiation for every merchant the party attempts to haggle with, or for every guard they try to bribe. You might use it however, to convince a character to join you on an important mission, to convince an official to pardon you rather than pressing charges or to convince an official to arrest a corrupt politician. The purpose of a negotiation is not to change a target's ideals, beliefs or character, but to persuade them that fufilling the party's request already aligns with who they are.",
+                        "Negotiations can occur at any time, but it is the DM alone who determines when one is appropriate. The DM does not need to have them prepared ahead of time, but may wish to if they anticipate such a request from the party. Negotiations are unlikely to occur more than once a session and may even have multiple sessions between them.",
+                        {
+                            "type": "inset",
+                            "name": "Negotiation in Combat",
+                            "entries": [
+                                "Generally, if a character is actively fighting the party, they will not be open to negotiating, and the DM can simply decide that is the case. However, in rare cases, the party may be able to present something that catches the target character's attention and persuades them to briefly cease fighting and hear the party out. Such maneuveurs are extremely difficult and may require a hard check (DC 20 or higher), the influence of magic or some notable gesture, phrase or item relevent to the character."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Interest and Patience",
+                    "entries": [
+                        "The two primary statistics to track during a negotiation are Interest and Patience. Interest is a measure of how willing and invested the character is in fufilling the players' request. Pateince is a measure of how willing they are to listen to more attempts to sway them.",
+                        "Examples of starting Interest and Patience based on the target's relationship to the players are included in the table below. These are guidelines only, the DM might decide to adjust any of the scores or DCs for any reason they see fit. A character that likes the party but is distracted by other worries might have little Patience but still have decent Interest and a low DC.",
+                        {
+                            "type": "table",
+                            "caption": "Starting Interest and Patience",
+                            "colLabels": [
+                                "Attitude",
+                                "Description",
+                                "Interest",
+                                "Patience",
+                                "DC for checks"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-3",
+                                "col-1",
+                                "col-1",
+                                "col-1"
+                            ],
+                            "rows": [
+                                [
+                                    "Hostile",
+                                    "The character despises the party, or their request, and is barely willing to listen.",
+                                    "1",
+                                    "2",
+                                    "25"
+                                ],
+                                [
+                                    "Suspicious",
+                                    "The character is very doubtful or hesitant, but they will at least humor the party.",
+                                    "2",
+                                    "2",
+                                    "20"
+                                ],
+                                [
+                                    "Neutral",
+                                    "The character is indifferent or indecisive, they might only be listening out of poiliteness.",
+                                    "2",
+                                    "3",
+                                    "15"
+                                ],
+                                [
+                                    "Open",
+                                    "The character is willing to at least listen and willing to help, provided the party doesn't ask too much.",
+                                    "3",
+                                    "3",
+                                    "15"
+                                ],
+                                [
+                                    "Friendly",
+                                    "The character would actively like to help the party and is willing to give them the benefit of the doubt.",
+                                    "3",
+                                    "5",
+                                    "13"
+                                ],
+                                [
+                                    "Trusting",
+                                    "The character is very trusting of the party and believes they have their best interests at heart. It should be trival to sway them, if the party don't screw it up.",
+                                    "3",
+                                    "5",
+                                    "10"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Motivations and Pitfalls",
+                    "entries": [
+                        "Motivations are things that drive and incentivise a character. Any difficult decision they make often becomes easier if it appeals to one of their motivations. A character while typically have 2 motivations. Common negotiations are included in the tables below.",
+                        "Pitfalls are things that strongly dicourage a character. Things that offend, upset, or even frighten them. Bringing such ideas and memories to the table will only make things harder, regardless of how well argued they may be. A character will usually have 2 or more Pitfalls. Common Pitfalls are included in the tables below.",
+                        "Note that all the below Motivations and Pitfalls are based upon the character's perception and situation, not nesscessarily the players's. A benevolent character might specifically want to help a group often considered evil, a justice motived character might believe in extreme, draconian priciples. Two characters that have the peace motivation might have very different ideas of what that peace means or requires. It may be as important to know what a motivation means specifically to a character, not just what it means generally.",
+                        "The DM is not limited to the lists below, and be as specific or general as they wish with individual Motivations and Pitfalls for a character.",
+                        {
+                            "type": "table",
+                            "caption": "Motivations",
+                            "colLabels": [
+                                "1d12",
+                                "Motivation",
+                                "Description"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Benevolence",
+                                    "The character wants help others. These others could be a specific group or just people or creatures in general. Regardless, the character is motivated to do the best thing for these creatures."
+                                ],
+                                [
+                                    "2",
+                                    "Discovery",
+                                    "The character wishes to learn about something interesting to them. This could be a general thirst for knowledge and exploration or it could be more specific to a particular topic, field or question."
+                                ],
+                                [
+                                    "3",
+                                    "Freedom",
+                                    "The character is trapped or inhibited in some way, literally or figuratively. At least, they might feel like they are. They yearn for freedom and might desire the removal of some obstacle to this freedom, to have a lack of authority over them or avoid something that threatens to remove what freedom they have."
+                                ],
+                                [
+                                    "4",
+                                    "Greed",
+                                    "The character wants wealth or resources. This can simply mean money, or it can mean something more specifc or even abstract. Regardless, the character wants it, and lots of it."
+                                ],
+                                [
+                                    "5",
+                                    "Higher Authority",
+                                    "The character reveres, or desires, an authority figure above them. Be it a deity, monarch, leader, family elder, insitution or some mystical enitty the players don't understand, the character wishes to aid, honor or please this authority figure."
+                                ],
+                                [
+                                    "6",
+                                    "Justice",
+                                    "This character wants to see righteousness rewarded and wickedness punished. Whether this relates to a specifc injustice they wanted righted or a more general sense of right and wrong."
+                                ],
+                                [
+                                    "7",
+                                    "Legacy",
+                                    "The character wants to be known and remembered. They may wish to be seen as great or terrible or both. Alternatively, a character might wish to preserve or enhance the legacy of a faction or another character they admire or revile."
+                                ],
+                                [
+                                    "8",
+                                    "Peace",
+                                    "The character wants calm, either personally or more generally. They want things to be a certain way and to remain that way."
+                                ],
+                                [
+                                    "9",
+                                    "Power",
+                                    "The character seek influence over others. Whether through authority, status, magical abilities or many other means, they want to be the one calling the shots."
+                                ],
+                                [
+                                    "10",
+                                    "Protection",
+                                    "The character has something, someone or somewhere they wish to keep safe from harm and manipulation. It could be from specifc threats or from more general danger."
+                                ],
+                                [
+                                    "11",
+                                    "Revelry",
+                                    "The character just wants to have fun. They might enjoy parties, sports, food or other hedonistic indulgences. They want to be able to pursue these pleasures."
+                                ],
+                                [
+                                    "12",
+                                    "Vengeance",
+                                    "The character wants to bring harm or humiliation to someone that has hurt them."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Pitfalls",
+                            "colLabels": [
+                                "1d12",
+                                "Pitfall",
+                                "Description"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "1",
+                                    "Awkward",
+                                    "The character might become flustered and uncomfortable when others try flirting, fraternising, praising or otherwise attempting to charm them. They might seek to escape the conversation if so."
+                                ],
+                                [
+                                    "2",
+                                    "Cold",
+                                    "The character is not highly empathetic and is frankly insulted when others try to appeal to their so-called feelings or morals."
+                                ],
+                                [
+                                    "3",
+                                    "Ego",
+                                    "The character hates when others appear to be bragging. They may even be egotistical themselves and get competitive or petty when others are praised."
+                                ],
+                                [
+                                    "4",
+                                    "Loss",
+                                    "The character lost someone or something dear to them, literally or figuratively, They do not wish to be reminded of this, and might especially be offended if someone tries to exploit this grief."
+                                ],
+                                [
+                                    "5",
+                                    "Malevolence",
+                                    "The character wishes only pain on others, be it a specific person or group or just generally. Anything suggesting that fulfilling the request will benefit those they despise will sour the deal."
+                                ],
+                                [
+                                    "6",
+                                    "Pacifist",
+                                    "The character hates the idea of confrontation or harming others, even when inaction could lead to greater harm. Mentioning that the request could lead to harming people, physically or figuratively, will discourage the character. Often mentioning that inaction may lead to harm is still not enough to sway them either."
+                                ],
+                                [
+                                    "7",
+                                    "Pricipled",
+                                    "The character has strong priciples and is insulted by any attempt to suggest that they should, or already do, violate those priciples. These could be principles of right and wrong, of manners, dignity, pride, loyalty, integrity, taste and many others."
+                                ],
+                                [
+                                    "8",
+                                    "Rebellious",
+                                    "The character hates being told what to do or how to feel. If they believe someone is attempting to coerce them, especially by threatening them or invoking authority or duty, they may resist purely out of spite."
+                                ],
+                                [
+                                    "9",
+                                    "Shame",
+                                    "Something about the character or their past brings them great embarassment or shame. Maybe they can't so something they wish they could, did something they deeply regret or are the subject of scadalous rumors. Being reminded of this shame will hardly sway them, and may even lead them to reject the request out of fear of further shame."
+                                ],
+                                [
+                                    "10",
+                                    "Sheltered",
+                                    "The character does not like facing difficulty and hardship beyond their comfort zone. Mentions of potential dangers, leaving behind comforts, discovering new things or places, promises of new opportunities will all generally dissuade them."
+                                ],
+                                [
+                                    "11",
+                                    "Suspicious",
+                                    "The character is always wary of trickery and might be deeply suspicious of flattery or promising offers, even when genuine."
+                                ],
+                                [
+                                    "12",
+                                    "Worrysome",
+                                    "The character has something, someone or somewhere they do not wish to put in harm's way. A mention of this thing in any way that implies danger might distract them with worry or turn them off the idea."
+                                ]
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Deception, Threats and Torture as Pitfalls",
+                            "entries": [
+                                "Deception, Threats of Violence and Torture are Pitfalls nearly all characters will posses, with few exceptions. Most people despise being lied to if they catch it, and directly hurting or threatening someone typically only paints you as the enemy to avoid, mislead or fight, not an ally to aid. The DM might treat such things as pitfalls, even if they are not among the character's designated pitfalls. A character's patience reaching 0 does not have to mean they directly say \"No\", rather it could mean they choose to lie, flee or remain silent instead of sincerly entertaining the Negotiation further.",
+                                "Some characters, at the DM's discretion, might not harbor such tendencies and may be indifferent to, or even pleased with, such attempts."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Learning Motivations and Pitfalls",
+                            "entries": [
+                                "Negotiations are much easier once a player character knows at least some of the Motivations and Pitfalls of a character. It can be helpful and rewarding to provide opportunities for the party to learn one or more of them during or before the negotiation. This could be done in several ways:",
+                                {
+                                    "type": "list",
+                                    "style": "list",
+                                    "items": [
+                                        "Have the character make subtle allusions to their likes and dislikes during roleplay. Such as a greedy character frequently asking about payments or eyeing up valuable treasures.",
+                                        "Allowing Wisdom (Insight) checks to during roleplay, especially when a character is doing the above or when analysing a character's reaction to certain action or topics.",
+                                        "Allow the party to research the character during downtime or ask mutal friends and allies about them. This can include spells and features that reveal information, such as {@spell Commune|XPHB} or {@spell Legend Lore|XPHB}.",
+                                        "Spells and features that would normally reveal certain statistics about a creature, such as Know Your Enemy or Insightful Manipulator, might be used to instead reveal a Motivation or Pitfall at the DM's discretion.",
+                                        "Spells and features that can read minds, such as {@spell Detect Thoughts|XPHB}, might reveal a Motivation or Pitfall at the DM's discretion."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Running a Negotiation",
+                    "entries": [
+                        "Players should be aware that they are in a Negotiation and of how Negotiations work. They should also be made aware of the results of their arguments and the final outcome. It is up to the DM however, if they choose to reveal the current Interest and Patience during the negotiation. It can be a good way to help unfamiliar players understand the rules and their invovlement in a negotiation, but on the other hand, players may prefer a slightly more immersive experience of only being partially aware of how well they are doing.",
+                        "Here's how negotiations will typically work:",
+                        {
+                            "type": "list",
+                            "style": "list-decimal",
+                            "items": [
+                                "The players make some great request of a character and the DM decides the stakes are sufficient enough for a negotiation.",
+                                "The DM decides the character's starting Interest and Patience, as well as their Motivations and Pitfalls, if they haven't already.",
+                                "The player characters will make arguments. They might take turns, contribute to the same argument or even let one character take the lead making multiple arguments in succession.",
+                                "For each argument, the DM will determine If the argument succeeds (they may call for an ability check to decide this) and if it appeals to one of the character's Motivations or triggers one of their Pitfalls.",
+                                {
+                                    "type": "list",
+                                    "style": "list",
+                                    "items": [
+                                        "If the argument triggers a Pitfall, it fails, regardless of other factors. Both Interest and Patience are reduced by 1 and the character will usually make their distate known, warning or reprimanding the party.",
+                                        "If the argument fails and does not involve a Motivation or Pitfall, Interest is unchanged and Patience is reduced by 1",
+                                        "If the argument suceeds and does not involve a Motivation or Pitfall, Interest is increased by 1 and Patience is reduced by 1.",
+                                        "If the argument succeeds and appeals to a Motivation, Interest is increased by 1 and Patience is unchanged. Subsequent arguments cannot benefit form that Motivation again."
+                                    ]
+                                },
+                                "When Patience reaches 0 or the players decide to end Negotiation early, the character makes their final offer and cannot be argued with anymore. Compare their Interest to the Outcome table below to determine this final offer."
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Multiple Motivations",
+                            "entries": [
+                                "Typically an argument will not appeal to multiple Motivations at once, but if the DM believes it does, they have a couple options:",
+                                {
+                                    "type": "list",
+                                    "style": "list-hang-notitle",
+                                    "items": [
+                                        "Choose which Motivation the argument most appeals to and treat it as only appealing to that one, potentially allowing a subsequent arguement to still appeal to any others.",
+                                        "Treat the argument as appealing to all the Motivations, increasing Interest by 1 for each but also preventing subsequent arguments from appealing to any of them."
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Using Magic during Arguments",
+                            "entries": [
+                                "Magic, such as the {@spell Charm Person|XPHB} or {@spell Friends|XPHB} spells, may be useful during Negotiations. The DM should consider carefully the effects of such magic. Remember the purpose of Negotiation is not to change a person's ideals, but rather to convince them the request already aligns with them. Therefore, while charming effects might make certain arguments easier, it will not change the target's Motivations or Pitfalls, nor force the target to ignore them. More powerful magic that potentially could change Motivations or Pitfalls has likely left the realm of Negotiation and entered the realm of domination.",
+                                "When such enchantments end, if a character is aware magic was used to push them into agreeing something they otherwise would not have, they may be resentful and refuse to deliver on everything they promised, opting for a lower result or even refusing outright. However, this should be rare since, as mentioned above, subtler magics will not actively change the target's Motivations or Pitfalls, just make them more open to persuasion."
+                            ]
+                        },
+                        {
+                            "type": "table",
+                            "caption": "Outcome",
+                            "colLabels": [
+                                "Interest",
+                                "Result",
+                                "Examples"
+                            ],
+                            "colStyles": [
+                                "col-1",
+                                "col-1",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "0",
+                                    {
+                                        "type": "entries",
+                                        "name": "No, and...",
+                                        "entries": [
+                                            "The party do not get want they want. In addition, they gain some negative consequence."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary refuses to help the party and warns other mercenaries to not do business with the party.",
+                                            "The governer refuses to pardon the party and adds additional charges against them.",
+                                            "The guard captain refuses to arrest to corrupt politician and instead threatens to arrest the party for disturbing the peace."
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "1",
+                                    {
+                                        "type": "entries",
+                                        "name": "No...",
+                                        "entries": [
+                                            "The party do not get what they want."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary refuses to help the party.",
+                                            "The governer refuses to pardon the party.",
+                                            "The guard captain refuses to arrest the corrupt poltician."
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "2",
+                                    {
+                                        "type": "entries",
+                                        "name": "No, but...",
+                                        "entries": [
+                                            "The party do not get what they want, however, they may gain some lesser benefit."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary refuses to help the party but does offer to sell them a useful item, vehicle or piece of information.",
+                                            "The governer refuses to pardon the party but will reduce their sentence.",
+                                            "The guard captain refuses to arrest the corrupt politician but will assign a junior guard to invetigate them."
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "3",
+                                    {
+                                        "type": "entries",
+                                        "name": "Yes, but...",
+                                        "entries": [
+                                            "The party get more or less what they want, however, there is an additional cost or consequence."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary agrees to help the party, but only if they get a larger share of the loot.",
+                                            "The governer will pardon the party but only if they surrender their weapons or testify against an ally.",
+                                            "The guard captain agrees to arrest the corrupt politician but only if the party can bring them solid evidence within 24 hours."
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "4",
+                                    {
+                                        "type": "entries",
+                                        "name": "Yes...",
+                                        "entries": [
+                                            "The party get more or less what they want, if possible."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary agrees to help the party.",
+                                            "The governer agrees to pardon the party.",
+                                            "The guard captain agrees to arrest the corrupt politician."
+                                        ]
+                                    }
+                                ],
+                                [
+                                    "5",
+                                    {
+                                        "type": "entries",
+                                        "name": "Yes, and...",
+                                        "entries": [
+                                            "The party get more or less what they want, if possible. In addition, they gain additional benefits."
+                                        ]
+                                    },
+                                    {
+                                        "type": "list",
+                                        "style": "list",
+                                        "items": [
+                                            "The mercenary agrees to help the party and even convinces a friend of theirs to help as well for no additional cost.",
+                                            "The governer agrees to pardon the party and orders someone to pay reparations to them.",
+                                            "The guard captain agrees to arrest the corrupt politician and also send officers to investigate their businesses and allies for further evidence against them. They may also offer the party some reward for the information they provide."
+                                        ]
+                                    }
+                                ]
+                            ]
+                        }
                     ]
                 }
             ]
