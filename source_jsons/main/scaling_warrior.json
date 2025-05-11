@@ -21,6 +21,527 @@
     },
     "monster": [
         {
+            "name": "Bodyguard (CR 1)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "36"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 14,
+            "con": 12,
+            "int": 8,
+            "wis": 10,
+            "cha": 12,
+            "save": {
+                "str": "+5",
+                "dex": "+4"
+            },
+            "skill": {
+                "athletics": "+5"
+            },
+            "passive": 10,
+            "cr": "1",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 5}, reach 5 ft. or range 20/60 ft., one target {@h} 9 ({@damage 1d8 + 4}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bodyguard (CR 3)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+6",
+                "dex": "+5"
+            },
+            "skill": {
+                "athletics": "+6"
+            },
+            "passive": 11,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 16 ({@damage 2d8 + 7}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead. The bodyguard has a +1 bonus to their Armor Class or saving throw for this reaction."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bodyguard (CR 5)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "108"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 12,
+            "cha": 14,
+            "save": {
+                "str": "+7",
+                "dex": "+6"
+            },
+            "skill": {
+                "athletics": "+7"
+            },
+            "passive": 11,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 7}, reach 5 ft. or range 20/60 ft., one target {@h} 23 ({@damage 3d8 + 9}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead. The bodyguard has a +1 bonus to their Armor Class or saving throw for this reaction."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bodyguard (CR 7)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+8",
+                "dex": "+7"
+            },
+            "skill": {
+                "athletics": "+8"
+            },
+            "passive": 12,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 30 ({@damage 4d8 + 12}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead. The bodyguard has a +2 bonus to their Armor Class or saving throw for this reaction."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bodyguard (CR 9)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 20,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 14,
+            "cha": 16,
+            "save": {
+                "str": "+9",
+                "dex": "+8"
+            },
+            "skill": {
+                "athletics": "+9"
+            },
+            "passive": 12,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 9}, reach 5 ft. or range 20/60 ft., one target {@h} 37 ({@damage 5d8 + 14}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead. The bodyguard has a +2 bonus to their Armor Class or saving throw for this reaction."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
+            "name": "Bodyguard (CR 11)",
+            "source": "J:Warriors",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "warrior",
+                    "soldier",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "216"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 22,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 16,
+            "cha": 18,
+            "save": {
+                "str": "+10",
+                "dex": "+9"
+            },
+            "skill": {
+                "athletics": "+10"
+            },
+            "passive": 13,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "trait": [
+                {
+                    "name": "Protector's Charge",
+                    "entries": [
+                        "The bodyguard is dedicated to protecting another creature, known as its charge. If it has no assigned charge when it rolls {@variantrule Initiative|XPHB}, the DM may choose to assign one from the friendly creatures it can see or hear. When the bodyguard rolls {@variantrule Initiative|XPHB}, it can change its initiative to be immediately before or after its charge.",
+                        "Additionally, while within 5 feet of the bodyguard, the charge can use the {@action Dodge|XPHB} or {@action Disengage|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The bodyguard makes two weapon attacks."
+                    ]
+                },
+                {
+                    "name": "Spear",
+                    "entries": [
+                        "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 44 ({@damage 6d8 + 17}) piercing damage."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Guarding Ward",
+                    "entries": [
+                        "When a creature the bodyguard can see within 5 feet is targeted by an attack or forced to make a Strength or Dextrity saving throw, the bodyguard can force the attack or save to target itself instead. The bodyguard has a +3 bonus to their Armor Class or saving throw for this reaction."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P",
+                "B"
+            ],
+            "miscTags": [
+                "MW",
+                "RW"
+            ]
+        },
+        {
             "name": "Bombardier (CR 1)",
             "source": "J:Warriors",
             "size": [
