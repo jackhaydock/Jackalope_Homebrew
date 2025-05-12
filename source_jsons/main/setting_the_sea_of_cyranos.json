@@ -2983,7 +2983,76 @@
 					"type": "entries",
 					"name": "Ram",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left."
+						"{@atk mw} {@hit 8} to hit, range 0 ft., one object or creature. The attack roll has {@variantrule Disadvantage|XPHB} if the target is Large or smaller. {@h}88 ({@damage 16d10}) piercing damage. The ship's hull takes half as much damage (or quarter if the target is Large or smaller) and comes to a dead stop. {@m}The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the ship's path, and the ship can continue moving if it has any movement left."
+					]
+				}
+			]
+		},
+		{
+			"name": "Corvus",
+			"source": "J:Cyranos",
+			"size": [
+				"L"
+			],
+			"objectType": "SW",
+			"ac": 15,
+			"hp": 100,
+			"entries": [
+				"A Corvus is a spiked bridge suspended from on a swiveling crane that can be deployed to pierce into ships and structures, providing a route for creatures to cross. The device has two main components; the winch and the bridge. When not deployed, the bridge is stored upright next to the winch. Aiming the Corvus requires a {@action Utilize|XPHB} action. A crew member can then use the Deploy Bridge action."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Deploy Bridge (Requires Aim)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, range 30 ft., one Gargantuan object. {@h}44 ({@damage 8d10}) piercing damage and a 30-foot-long 5-foot-wide bridge extends from the winch to a point on the target. Any creatures that would be under the bridge when it is deployed are shunted to either side. {@m}The attack deals half damage and the bridge returns to its upright position.",
+						"While the bridge is deployed, neither the winch (or attached ship) nor the target can move away from each other. The bridge can be removed by a ship succeeding on a DC 17 STrength check as a ship action, a creature within 5 feet of the winch using a {@action Utilize|XPHB} action or creatures within 5 feet of the bridge using 3 {@action Utilize|XPHB} actions to remove it, after which the bridge return to its upright position besides the winch and any creatures on the bridge are moved into unoccupied spaces within 15 feet of the winch. The bridge is also removed if the Corvus is reduced to 0 hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Polybolos",
+			"source": "J:Cyranos",
+			"size": [
+				"L"
+			],
+			"objectType": "SW",
+			"ac": 15,
+			"hp": 50,
+			"entries": [
+				"A polybolos is a bolt thrower that can fire multiple shots before needing to reload. Loading a Polybolos requires 2 {@action Utilize} actions. Then a crew member can take the Multi-Bolt action."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Multi-Bolt (Requires Load)",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 90/360 ft., one target. {@h}11 ({@damage 2d10}) piercing damage.",
+						"The Polybus can make three attacks as part of the same Multi-Bolt action.."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harpoon Launcher",
+			"source": "J:Cyranos",
+			"size": [
+				"L"
+			],
+			"objectType": "SW",
+			"ac": 15,
+			"hp": 50,
+			"entries": [
+				"A Harpoon Launcher fires heavy grappling hook bolts. Loading a Harpoon Launcher requires the {@action Utilize|XPHB} action, and aiming it requires another {@action Utilize|XPHB} action. Then a crew member can take the Harpoon Bolt action."
+			],
+			"actionEntries": [
+				{
+					"type": "entries",
+					"name": "Harpoon Bolt (Requires Load and Aim)",
+					"entries": [
+						"{@atkr r} {@hit 6}, range 120/480 ft. {@h}16 ({@damage 3d10}) Piercing damage and if the target is Huge or larger, it is harpooned and cannot move away from the Harpoon Launcher. To remove the harpoon, the target or a creature within 5 feet must make a DC 17 Strength (Athletics) check as an action (or ship action). The harpoon can also be removed by a creature within 5 feet of the Harpoon Launcher detaching the rope with a {@action Utilize|XPHB} action.",
+						"The harpoon launcher cannot be fired again while it has a target harpooned in this way."
 					]
 				}
 			]
