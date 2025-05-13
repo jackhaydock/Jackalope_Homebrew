@@ -1192,7 +1192,7 @@
                             {
                                 "name": "Adept Archaeologist",
                                 "entries": [
-                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you can also use such items as simple melee weapons, such as using a large bone as a {@item mace|XPHB} or a {@item trowel|XPHB} as a dagger."
+                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you can also use such items as simple melee weapons, such as using a large bone as a {@item Mace|XPHB} or a trowel as a {@item Dagger|XPHB}."
                                 ]
                             },
                             {
@@ -1214,7 +1214,7 @@
                             {
                                 "name": "Fossilised Arcana",
                                 "entries": [
-                                    "At 3rd level, you learn the {@spell Magic Stone|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "At 3rd level, you learn the {@spell Magic Stone|XGE} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
                                     "When you cast the spell, you can target up to five tiny bones, teeth or fossils rather than pebbles. When an attack hits with one of these items, you can choose to have it deal necrotic or piercing damage (your choice), rather than bludgeoning. In addition, when an attack with it hits or misses, an item returns to your empty hand or lands at your feet immediately before the spell ends on it."
                                 ]
                             },
@@ -1223,7 +1223,7 @@
                                 "isClassFeatureVariant": true,
                                 "entries": [
                                     "{@i Optional feature which replaces Fossilised Arcana}",
-                                    "At 3rd level, you learn the {@spell Mold Earth|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
+                                    "At 3rd level, you learn the {@spell Mold Earth|XGE} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
                                     "When you cast the spell, you can do one of the normal effects, or you can detect the presence of fossils or deceased animal matter, such as bones, teeth or shells, within a 10-foot cube of earth or stone (you must be able to see the entirety of at least one side of the cube). You know the location and approximate size of such items within the area, but do not learn the type or identity of the creature it originated from."
                                 ]
                             }
@@ -1276,9 +1276,10 @@
                                 ]
                             },
                             {
-                                "name": "WIP",
+                                "name": "Cement Life",
                                 "entries": [
-                                    "WIP"
+                                    "Starting at 11th level, when you would be reduced to 0 hit points you can choose to instead rapidly solidify your flesh. You drop to 1 {@variantrule Hit Point|XPHB} instead and gain {@variantrule Temporary Hit Points|XPHB} equal to 5 times your level, however, you are also {@condition Petrified|XPHB}. These effects last for one minute, until you have no remaining {@variantrule Temporary Hit Points|XPHB} or you end them at the end of one of your turns (no action required).",
+                                    "Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
