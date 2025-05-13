@@ -1147,7 +1147,8 @@
                         "level": 3,
                         "header": 1,
                         "entries": [
-                            "WIP",
+                            "The great beasts of the ancient world held immense power and skill, and in the years since, their bones have turned to stone, absorbing eons of natural magics of the world.",
+                            "Palaeontologist societies specialise in studying fossils from the ancient worlds. You can combine your specilaist knowledge of fossils with your knowledge of the arcane to bring the power of these beasts in to the modern world. Weaponising the power of death, decay and calcification to turn creatures into stone and to turn stone into weapons and allies.",
                             {
                                 "name": "Palaeontologist Spells",
                                 "entries": [
@@ -1251,7 +1252,7 @@
                                 "name": "Fossilised Flesh",
                                 "entries": [
                                     "Starting at 7th level, you can use an action to begin turning the flesh and bone of a creature you can see within 30 feet into stone. The creature must make a Constitution saving throw against your lorehunter spell save DC or become fossilised for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. A creature made of inorganic material such as stone, crystal, or metal has advantage on this saving throw.",
-                                    "A fossilised creature's speed is halved, it has a -2 penalty to its Armor Class and dexterity saving throws. On its turn, it can take one action or one bonus action, not both. The creature cannot take the Dash or Dodge action. A creature summoned by your Ancient Bones feature deals an additional {@dice 1d8} damage with attacks against the fossiled creature.",
+                                    "A fossilised creature is {@condition Slowed|J:General}, {@condition Dazed|J:General} and has a -2 penalty to its Armor Class and Dexterity saving throws. A creature summoned by your Ancient Bones feature deals an additional {@dice 1d8} damage with attacks against the fossiled creature.",
                                     "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
