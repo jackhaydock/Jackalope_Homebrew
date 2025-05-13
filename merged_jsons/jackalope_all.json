@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.10.16.28",
+                "version": "2025.05.13.02.32",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -355,7 +355,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.12.04.14",
+                "version": "2025.05.13.02.37",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1747023258.9549599
+        "dateLastModified": 1747103965.1527727
     },
     "class": [
         {
@@ -5860,6 +5860,9 @@
             "dmgType": "B",
             "property": [
                 "L"
+            ],
+            "mastery": [
+                "Sap|XPHB"
             ]
         },
         {
@@ -6014,14 +6017,8 @@
             "property": [
                 "L"
             ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Hooked",
-                    "entries": [
-                        "When you make a melee attack with this weapon, you can forgo the attack and instead take the {@action Shove} action against the target (even if they are not within 5 feet). If the target is mounted on a creature at least one size larger than you, you have advantage on the contested check."
-                    ]
-                }
+            "mastery": [
+                "Topple|XPHB"
             ]
         },
         {
@@ -6038,14 +6035,8 @@
             "property": [
                 "L"
             ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Hooked",
-                    "entries": [
-                        "When you make a melee attack with this weapon, you can forgo the attack and instead take the {@action Shove} action against the target (even if they are not within 5 feet). If the target is mounted on a creature at least one size larger than you, you have advantage on the contested check."
-                    ]
-                }
+            "mastery": [
+                "Topple|XPHB"
             ]
         },
         {
@@ -6064,14 +6055,8 @@
             "property": [
                 "V"
             ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Hooked",
-                    "entries": [
-                        "When you make a melee attack with this weapon, you can forgo the attack and instead take the {@action Shove} action against the target (even if they are not within 5 feet). If the target is mounted on a creature at least one size larger than you, you have advantage on the contested check."
-                    ]
-                }
+            "mastery": [
+                "Topple|XPHB"
             ]
         },
         {
@@ -6090,14 +6075,8 @@
                 "R",
                 "2H"
             ],
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Hooked",
-                    "entries": [
-                        "When you make a melee attack with this weapon, you can forgo the attack and instead take the {@action Shove} action against the target (even if they are not within 5 feet). If the target is mounted on a creature at least one size larger than you, you have advantage on the contested check."
-                    ]
-                }
+            "mastery": [
+                "Topple|XPHB"
             ]
         },
         {
@@ -8601,7 +8580,10 @@
                 "T",
                 "V"
             ],
-            "range": "20/60"
+            "range": "20/60",
+            "mastery": [
+                "Slow|XPHB"
+            ]
         },
         {
             "name": "Kopis",
@@ -8618,6 +8600,9 @@
             "property": [
                 "F",
                 "L"
+            ],
+            "mastery": [
+                "Slow|XPHB"
             ]
         },
         {
@@ -8634,6 +8619,9 @@
             "dmgType": "S",
             "property": [
                 "F"
+            ],
+            "mastery": [
+                "Slow|XPHB"
             ]
         },
         {
