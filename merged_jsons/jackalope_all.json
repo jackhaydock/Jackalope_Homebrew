@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.13.02.32",
+                "version": "2025.05.15.22.39",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1747118666.1097572
+        "dateLastModified": 1747348794.8645473
     },
     "class": [
         {
@@ -10825,6 +10825,88 @@
                     {
                         "name": "Warlock",
                         "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Wild Ceremony",
+            "source": "J:General",
+            "level": 1,
+            "school": "A",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "hour"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "meta": {
+                "ritual": true
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "25 gp worth of herbs and totems, which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "You perform a special ceremony that is infused with primal power. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
+                {
+                    "name": "Earthly Gift",
+                    "entries": [
+                        "You touch fertile dirt and grow a plant within the area that produces one of the following; a {@item Club|XPHB}, a {@item Staff|XPHB}, a {@item Shortbow|XPHB}, a {@item Longbow|XPHB}, a {@item Wand|XPHB} or a {@item Sprig of Mistletoe|XPHB}. For the next 24 hours, when a creature that is holding the item rolls Initiative, they gain {@dice 2d6} Temporary Hit Points. You can only use this rite once every 7 Days."
+                    ]
+                },
+                {
+                    "name": "Friend of the Wilds",
+                    "entries": [
+                        "You touch a willing humanoid. For the next 7 days, that creature can add a {@dice 1d4} bonus to Intelligence (Nature) and Wisdom (Animal Handling) checks. Additionally, {@variantrule Hostile[Attitude]|XPHB|Hostile} beasts will become {@variantrule Indifferent[Attitude]|XPHB|Indifferent} to the creature unless the beast, or its allies are threatened by the creature or influenced by another."
+                    ]
+                },
+                {
+                    "name": "Nature's Shroud",
+                    "entries": [
+                        "For the next 7 days, the spell's area becomes lightly camouflaged by leaves, vines and other natural elements. Creatures other than those within the area during the spell's casting, have {@variantrule Disadvantage|XPHB} on Ability Checks made to find or notice the area and objects within it. This rite has no effect if the area is surrounded by unnatural elements, such as being inside a building or developed town. You can only use this rite once every 7 Days."
+                    ]
+                },
+                {
+                    "name": "Primordial Potioncraft",
+                    "entries": [
+                        "You touch a body of water or a flowering plant and produce a vial of {@item Antitoxin|XPHB} or two vials {@item Perfume|XPHB}."
+                    ]
+                },
+                {
+                    "name": "Return to Earth",
+                    "entries": [
+                        "You touch the corpse of a beast or humanoid and cause it to rapidly decay into dust or dirt, which then seeps into the ground. Over the next few weeks, flowers grow especially in the spell's area."
+                    ]
+                },
+                {
+                    "name": "Safe Travels",
+                    "entries": [
+                        "You touch a willing humanoid embarking on a journey and choose a type of terrain; arctic, coast, desert, forest, grassland, mountain, ocean, swamp, or the underdark. For the next 7 days, the creature can add a {@dice 1d4} bonus to Ability Checks made to navigate or find food in the chosen terrain. A creature can benefit from this rite once at a time, gaining this rite again ends the previous one."
+                    ]
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "XPHB"
                     }
                 ]
             }
