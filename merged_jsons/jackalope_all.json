@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.15.22.56",
+                "version": "2025.05.15.23.16",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1747349773.767201
+        "dateLastModified": 1747351028.1389499
     },
     "class": [
         {
@@ -12572,6 +12572,76 @@
                     {
                         "name": "Ranger",
                         "source": "XPHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Freeze Metal",
+            "source": "J:General",
+            "level": 2,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "a piece of iron and a flame"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to supercool and become brittle. If the object is not being worn or carried, it becomes {@variantrule Vulnerability|XPHB|Vulnerable} to Bludgeoning damage.",
+                "Any creature in physical contact with the object takes {@damage 2d8} Cold damage when you cast the spell. Until the spell ends, you can take a {@variantrule Bonus Action|XPHB} on each of your later turns to deal this damage again if the object is within range.",
+                "If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or become unable to drop or doff the object, is {@condition Hampered|J:General} and has {@variantrule Disadvantage|XPHB} on Dexterity checks and saving throws until the start of your next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "Using a Higher-Level Spell Slot",
+                    "entries": [
+                        "The damage increases by {@scaledamage 2d8|2-9|1d8} for each spell slot level above 2."
+                    ]
+                }
+            ],
+            "damageInflict": [
+                "cold"
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "XPHB"
+                    },
+                    {
+                        "name": "Artificer",
+                        "source": "TCE"
                     }
                 ]
             }
