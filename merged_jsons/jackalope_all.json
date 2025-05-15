@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.15.22.39",
+                "version": "2025.05.15.22.53",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -691,7 +691,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1747348794.8645473
+        "dateLastModified": 1747349583.538448
     },
     "class": [
         {
@@ -10774,19 +10774,19 @@
                 {
                     "name": "Embrace Curse",
                     "entries": [
-                        "You touch a willing creature that bears a curse or is attuned to a cursed item. For the next 24 hours, or until the curse is removed, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the ability check. A creature can benefit from this rite only once per curse."
+                        "You touch a willing creature that bears a curse or is attuned to a cursed item. For the next 24 hours, or until the curse is removed, whenever the target makes an ability check, it can roll a {@dice d4} and add the number rolled to the Ability Check. Additionally, the creature is immune to the {@spell Remove Curse|XPHB} spell for the duration. A creature can benefit from this rite only once per curse."
                     ]
                 },
                 {
                     "name": "Hellfire",
                     "entries": [
-                        "You touch up to two flasks of alcohol, blood or ichor and cause each to become a flask of {@item alchemist's fire|xphb}."
+                        "You touch up to two flasks of alcohol, blood or ichor and cause each to become a flask of {@item Alchemist's Fire|XPHB}."
                     ]
                 },
                 {
                     "name": "Nightwalking",
                     "entries": [
-                        "You touch a willing creature. For the next 24 hours that creature has advantage on ability checks while in dim light or darkness but has disadvantage on ability checks and attack rolls while in direct sunlight."
+                        "You touch a willing creature. For the next 24 hours that creature has advantage on Ability Checks while in dim light or darkness but has disadvantage on Ability Checks and attack rolls while in direct sunlight."
                     ]
                 },
                 {
@@ -10798,25 +10798,25 @@
                 {
                     "name": "Serve in Death",
                     "entries": [
-                        "You touch a willing creature. For the next 7 days, if that creature is reduced to 0 hit points, they immediately die and are reanimated as a {@creature zombie|xphb} bound to your service for 24 hours, after which the zombie dies. The zombie retains its Proficiency Bonus, proficiencies and skills, but otherwise its statistics are replaced by that of the zombie. The target can only be resurrected with spells such as {@spell raise dead|xphb} once the zombie dies. A creature can benefit from this rite only once."
+                        "You touch a willing creature. For the next 7 days, if that creature is reduced to 0 hit points, they immediately die and are reanimated as a {@creature zombie|xphb} bound to your service for 24 hours, after which the zombie dies. The creature retains its Proficiency Bonus, proficiencies and skills, but otherwise its statistics are replaced by that of the zombie. The target can only be resurrected with spells such as {@spell Ressurection|XPHB} once the zombie dies. A creature can benefit from this rite only once."
                     ]
                 },
                 {
                     "name": "Split Tongue",
                     "entries": [
-                        "You touch a willing creature. For the next 24 hours, that creature can add a {@dice 1d4} bonus to ability checks they make to lie or coerce others. They also have a {@dice 1d4} penalty to all other social checks."
+                        "You touch a willing creature. For the next 24 hours, that creature can add a {@dice 1d4} bonus to Ability Checks they make to lie to or coerce others. They also have a {@dice 1d4} penalty to all other Charisma checks."
                     ]
                 },
                 {
                     "name": "Thirsting Fury",
                     "entries": [
-                        "You touch a willing creature. For the next 24 days, when the creature rolls intiative, it can choose to enter a furious state. The creature deals an additional {@dice 1d4} damage with melee attacks for 1 minute. For the duration, if they end a turn without damaging a creature other than themself, they take {@dice 2d4} necrotic damage."
+                        "You touch a willing creature. For the next 24 days, when the creature rolls {@variantrule Intiative|XPHB}, it can choose to become {@condition Berserk (5)|J:General} for 1 minute. While {@condition Berserk|J:General}, it deals an additional {@dice 1d6} damage with melee weapon attacks."
                     ]
                 },
                 {
                     "name": "Unyiedling Grasp",
                     "entries": [
-                        "You touch a willing creature and an item they are holding and do not wish to lose. For the next 7 days, the creature cannot willingly let go of the item, even if they are {@condition unconscious}, dead, or compelled to do so by a spell of 5th-level or lower. Whenever they would be disarmed of it, they can choose to take {@dice 1d6} necrotic damage instead of releasing the item."
+                        "You touch a willing creature and an item they are holding and do not wish to lose. For the next 7 days, the creature cannot willingly let go of the item, even if they are {@condition Unconscious|XPHB}, dead, or compelled to do so by a spell of 5th-level or lower. Whenever they would be disarmed of it, they can choose to take {@dice 1d6} necrotic damage instead of releasing the item."
                     ]
                 }
             ],
@@ -23778,7 +23778,14 @@
             "name": "Sundered",
             "source": "J:General",
             "entries": [
-                "A sundered creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12."
+                "A sundered creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12.",
+                {
+                    "type": "inset",
+                    "name": "Non-Standard Armor Class",
+                    "entries": [
+                        "If the target uses a non-standard method for calculating its Armor Class, such as a flat value, the DM decides how this affects it. They might choose armor that is equivalent to what the target is actually using, they might choose to apply a -2 penalty, or they might decide the target would be unaffected and apply no penalty."
+                    ]
+                }
             ]
         },
         {
@@ -23790,6 +23797,13 @@
                     "items": [
                         "A staggered creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
                         "A staggered creature has disadvantage on Dexterity checks and saving throws."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Non-Standard Armor Class",
+                    "entries": [
+                        "If the target uses a non-standard method for calculating its Armor Class, such as a flat value, the DM decides how this affects it. They might choose armor that is equivalent to what the target is actually using, they might choose to apply a -2 penalty, or they might decide the target would be unaffected and apply no penalty."
                     ]
                 }
             ]
