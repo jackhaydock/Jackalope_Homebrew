@@ -582,22 +582,14 @@
 			]
 		},
 		{
-			"name": "+1 Restorative Focus Runestone",
-			"source": "J:Runestones",
-			"rarity": "uncommon",
-			"reqAttune": "by a spellcaster",
-			"type": "FR|J:Runestones",
-			"entries": [
-				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
-				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that restores {@variantrule Hit Points|XPHB} to a creature or object, you can expend a charge to restore an additional {@dice 2d6+4} Hit Points."
-			]
-		},
-		{
 			"name": "+1 Careful Focus Runestone",
 			"source": "J:Runestones",
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
 			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
 				"Additionally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that forces other creatures to make a saving throw, you can expend any number of charges and choose a number of targets equal the number of charges expended. A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save."
@@ -609,6 +601,9 @@
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
 			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
 				"Additionally, when you cast a spell using this focus that deals cold or fire damage, you can change the damage type from cold to fire or vice versa.",
@@ -621,6 +616,9 @@
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
 			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
 				"Additionally, when you cast a spell using this focus that deals radiant or necrotic damage, you can change the damage type from radiant to necrotic or vice versa.",
@@ -633,6 +631,9 @@
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
 			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
 				"Additionally, when you cast a spell using this focus that deals lightning or thunder damage, you can change the damage type from lightning to thunder or vice versa.",
@@ -645,10 +646,133 @@
 			"rarity": "uncommon",
 			"reqAttune": "by a spellcaster",
 			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
 			"entries": [
 				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
 				"Additionally, when you cast a spell using this focus that deals acid or poison damage, you can change the damage type from acid to poison or vice versa.",
 				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you deal acid or poison damage to a creature with a spell, you can expend a charge and choose one creature damaged by the spell. That creature is {@condition Lingering|J:General|Lingering (5 acid or poison)}. At the end of each of its turns, the creature can make a Constitution saving throw against your spell save DC, removing the condition on a success."
+			]
+		},
+		{
+			"name": "+1 Abjurer's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from abjuration school of magic, you can choose one creature targetted by the spell. The next attack roll made against that creature before the start of your next turn has {@variantrule Disadvantage|XPHB}.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that restores {@variantrule Hit Points|XPHB} to a creature, you can expend a charge to restore an additional {@dice 2d8} Hit Points to one target of the spell."
+			]
+		},
+		{
+			"name": "+1 Conjurer's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from conjuration school of magic, you also briefly summon a spectral helper. Once before the end of your next turn, you can take the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB}.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that creates, summons or animates a creature or object with more than 1 {@variantrule Hit Points|XPHB|Hit Point}, you can expend a charge to increase that creature or object's maximum Hit Points by 10 for the duration of the spell. If the spell creates or summons multiple creatures or object, choose only one to gain this benefit."
+			]
+		},
+		{
+			"name": "+1 Diviner's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from divination school of magic, you have {@variantrule Advantage|XPHB} on the next Intelligence or Wisdom check you make before the end of your next turn.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that grants you special senses or detection (DM discretion) with a duration of at least one minute, such as {@spell Darkvision|XPHB}, {@spell Detect Magic|XPHB} or {@spell Locate Object|XPHB}, you can expend a charge to double the maximum duration."
+			]
+		},
+		{
+			"name": "+1 Enchanter's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from enchantment school of magic, you have {@variantrule Advantage|XPHB} on the next Charisma check you make before the end of your next turn.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that allows a creature to make a Wisdom saving throw to resist the effects, you can expend a charge to give one target of the spell {@variantrule Disadvantage|XPHB} on the saving throw."
+			]
+		},
+		{
+			"name": "+1 Evoker's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from evocation school of magic, you can treat any 1 on a damage die as a 2.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that deals damage to a target, you can expend a charge to deal an additional {@dice 2d6} damage to one target of the same type."
+			]
+		},
+		{
+			"name": "+1 Illusionist's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from illusion school of magic, one creature of your choice targeted by the spell has {@variantrule Disadvantage|XPHB} on the next Intelligence or Wisdom check it makes before the start of your next turn.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that "
+			]
+		},
+		{
+			"name": "+1 Necromancer's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from necromancy school of magic, you can grant one target of the spell {@variantrule Disadvantage|XPHB} on the next Strength or Dexterity check it makes before the start of your next turn.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that deals necrotic damage to a creature, you can expend a charge to gain {@dice 2d6+4} {@variantrule Temporary Hit Points|XPHB}. You can choose to grant these Temporary Hit Points to an undead creature you can see within 30 feet instead of yourself."
+			]
+		},
+		{
+			"name": "+1 Transmuter's Focus Runestone",
+			"source": "J:Runestones",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"type": "FR|J:Runestones",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4-1}",
+			"entries": [
+				"While attuned to a focus that this runestone is fused with, you have a +1 bonus to spell attack rolls and the saving throw DCs of spells cast with it, unless it is a magic focus that already has a bonus to these.",
+				"Additionally, when you cast a spell of 1st-level or higher from transmutation school of magic, you have {@variantrule Advantage|XPHB} on the next Strength or Dexterity check you make before the end of your next turn.",
+				"Finally, this weapon has 3 charges, and regains {@dice 1d4-1} charges daily at dawn. When you cast a spell that deals damage or restores {@variantrule Hit Points|XPHB} to an object or contruct, you can expend a charge to deal an additional {@dice 2d8} damage or healing to one object or construct."
 			]
 		}
     ],
