@@ -103,7 +103,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.15.23.16",
+                "version": "2025.05.24.06.50",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -571,7 +571,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1747688405.4508483
+        "dateLastModified": 1748069529.9991496
     },
     "class": [
         {
@@ -6728,12 +6728,27 @@
                 }
             ],
             "entries": [
-                "You are a talented craftsman, able to create contraptions beyond common understanding, you gain the following benefits:",
+                "You are a talented craftsman, able to create contraptions beyond common understanding, you gain the following benefits.",
                 {
-                    "type": "list",
-                    "items": [
-                        "You learn two {@filter artificer infusions|optionalfeatures|Feature Type=AI} of your choice from the artificer class (these are added to any existing artificer infusions you know from any other source).  Whenever you gain a level, you can replace one of these Artificer Infusion options with another one from the artificer class.",
-                        "Whenever you finish a long rest, you can touch a nonmagical object and imbue it with one of your artificer infusions (if you can already infuse items, the number of items you can have infused at once is increased by one)."
+                    "type": "entries",
+                    "name": "Tinker's Talents",
+                    "entries": [
+                        "You gain proficiency with {@item Tinker's Tools|XPHB} if you don't already have it. Additionally, you can use Tinker's Tools as a spellcasting focus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Memorised Designs",
+                    "entries": [
+                        "You learn 2 plans from {@table Magic Item Plans (Artificer Level 2+)|XUA2025EberronUpdates} table (these are added to any existing plans you know from any other source). Whenever you gain a level, you can change one of these plans for a another one from the same table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Replicate Design",
+                    "entries": [
+                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can create a magic item using one of the plans you know. If a created item requires {@variantrule Attunement|XPHB}, you can attune yourself to it the instant you create it. If you decide to attune to the item later, you must do so using the normal process for {@variantrule Attunement|XPHB}.",
+                        "The item lasts until you die or you create another item this way, after which the item vanishes."
                     ]
                 }
             ]
@@ -6742,13 +6757,26 @@
             "name": "Hoplite",
             "source": "J:General",
             "entries": [
-                "You adopt the fighting style of the hoplite, with {@item spear|phb} and {@item shield|phb}. You gain the following benefits:",
+                "You adopt the fighting style of the hoplite, with spear and shield in hand. You gain the following benefits.",
                 {
-                    "type": "list",
-                    "items": [
-                        "When using a {@item spear|phb} in one hand and a {@item shield|phb} in the other, the weapon's damage die changes as if you wielded the weapon in two hands, from a {@dice d6} to a {@dice d8}. (This benefit has no effect if another feature has already improved the weapon's die.)",
-                        "Attacking at long range doesn't impose disadvantage on your ranged attack rolls with spears.",
-                        "When an ally within 5 feet of you is attacked, you can use your reaction to grant them a +2 bonus to AC against the triggering attack. You must be wielding a {@item shield|phb} to use this feature."
+                    "type": "entries",
+                    "name": "Superior Spear Style",
+                    "entries": [
+                        "When using a {@item Spear|XPHB}, {@item Bident|J:General} or {@item Trident|XPHB} in one hand and a {@item Shield|XPHB} in the other, you can benefit from the Versatile property as if you were wielding the weapon with 2 hands."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Far Throw",
+                    "entries": [
+                        "Attacking at long range does not impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls when using {@item Spear|XPHB|Spears}, {@item Bident|J:General|Bidents}, {@item Trident|XPHB|Tridents} or {@item Javelin|XPHB|Javelins}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shield Wall",
+                    "entries": [
+                        "While you are within 5 feet of a friendly creature and both of you are wielding {@item Shield|XPHB|Shields}, you each gain a +1 bonus to your Armor Class. A creature can gain this benefit only once, even if multiple adjacent creatures have this feat (or the SHield Wall trait)."
                     ]
                 }
             ]
@@ -6765,18 +6793,20 @@
                     ]
                 }
             ],
-            "entries": [
-                "You have adopted a flashly fighting style that always goes down well with the arena crowds. You gain the following benefits:",
-                {
-                    "type": "list",
-                    "items": [
-                        "When you make a weapon attack against a creature, you can use your bonus action gain a bonus to the attack and damage rolls equal to your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain all expended uses when you finish a long rest."
-                    ]
-                }
-            ],
             "ability": [
                 {
                     "cha": 1
+                }
+            ],
+            "entries": [
+                "You have adopted a flashly fighting style that always goes down well with the arena crowds. You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Style over Substance",
+                    "entries": [
+                        "When you make a weapon attack against a creature, and at least one other creature can see both of you, you can add your Charisma modifer to the attack and damage rolls (doubling it if you already do). If this attack reduces a creature to 0 {@variantrule Hit Points|XPHB}, you perform a dramatic finisher and gain {@variantrule Heroic Inspiration|XPHB}.",
+                        "You can use this feature a number of times equal to your Proficiency Bonus. You regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                    ]
                 }
             ]
         },
@@ -6785,16 +6815,28 @@
             "source": "J:General",
             "prerequisite": [
                 {
-                    "spellcasting": true
+                    "spellcasting": true,
+                    "ability": [
+                        {
+                            "con": 13
+                        }
+                    ]
                 }
             ],
             "entries": [
-                "You can harness the power of your own blood to enhance your spells. You gain the following benefits:",
+                "You can harness the power of your own vitality to enhance your spells. You gain the following benefits.",
                 {
-                    "type": "list",
-                    "items": [
-                        "When you cast a spell that restores hit points or deals damage to creatures other than you, you can roll {@dice 2d4} and add the number rolled as a bonus to the hit points regained or the damage dealt. You take necrotic damage equal to the number rolled, which can't be reduced in any way.",
-                        "When you finish a short rest, you can choose to recover expended spell slots. None of the slots can be 6th level or higher and you take necrotic damage equal to five times the combined level of the spell slots, which can't be reduced in any way."
+                    "type": "entries",
+                    "name": "Blood for Power",
+                    "entries": [
+                        "When you cast a spell that restores {@variantrule Hit Points|XPHB} or deals damage to creature other than you, you can roll a number of d4s up to your Proficiency Bonus and deal additional damage or healing to one target of the spell. You then take take necrotic damage equal to half the number rolled (minimum of 1), which can't be reduced in any way."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Sacrifice",
+                    "entries": [
+                        "As an {@action Magic|XPHB} action, you can recover an expended spell slot. Your maximum {@variantrule Hit Points|XPHB} are reduced by an amount equal to five times the level of the spell slot recovered until the end of your next {@variantrule Long Rest|XPHB}."
                     ]
                 }
             ]
@@ -6802,14 +6844,37 @@
         {
             "name": "Throwing Weapon Master",
             "source": "J:General",
-            "entries": [
-                "You have mastered the art of throwing weapons. You gain the following benefits:",
+            "ability": [
                 {
-                    "type": "list",
-                    "items": [
-                        "Attacking at long range doesn't impose disadvantage on your ranged attack rolls when using a weapon with the thrown property.",
-                        "You can add your proficiency bonus to any ranged attack rolls when using a weapon with the thrown property even if you are not normally proficient with that weapon.",
-                        "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "You have mastered the art of throwing weapons. You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Slinging Savant",
+                    "entries": [
+                        "You are proficient with all weapons that the Thrown property."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Far Throw",
+                    "entries": [
+                        "Attacking at long range does not impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls when using a weapon that has the Thrown property."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Close Throw",
+                    "entries": [
+                        "Being within 5 feet of an enemy does not impose {@variantrule Disadvantage|XPHB} on your ranged attack rolls."
                     ]
                 }
             ]
@@ -6829,13 +6894,19 @@
                 }
             ],
             "entries": [
-                "You have mastered the art of using whips. You gain the following benefits:",
+                "You have mastered the art of using whips. You gain the following benefits.",
                 {
-                    "type": "list",
-                    "items": [
-                        "When you wield a {@item whip|phb}, its damage die changes from a {@dice d4} to a {@dice d6}. (This benefit has no effect if another feature has already improved the weapon's die.)",
-                        "Whips gain the Light property while you wield them.",
-                        "When you hit creature within 5ft of you with an attack using a whip, you can use your bonus action to take the {@action Grapple} action against that creature. While you have a creature grappled in this way, you cannot use the whip for any other actions."
+                    "type": "entries",
+                    "name": "Whip Affinity",
+                    "entries": [
+                        "When you wield a {@item Whip|XPHB}, its damage die changes from a {@dice d4} to a {@dice d6}. Additionally, Whips have the Light property while you wield them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Grasping Whip",
+                    "entries": [
+                        "When you hit a creature with an attack using a {@item Whip|XPHB}, you can force the target to make a Strength saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a fail, the target is knocked {@condition Prone|XPHB} or pulled 5 feet towards you (your choice)."
                     ]
                 }
             ]
