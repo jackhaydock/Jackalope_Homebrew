@@ -10,7 +10,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.05.13.06.43",
+                "version": "2025.06.01.05.44",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -94,7 +94,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1748069529.641108
+        "dateLastModified": 1748756709.3334203
     },
     "class": [
         {
@@ -115,8 +115,9 @@
                 "Knowledge Shared|Lorehunter (WIP)|J:Lore|10|J:Lore",
                 "Robust Mind|Lorehunter (WIP)|J:Lore|14|J:Lore",
                 "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|14|J:Lore",
-                "WIP|Lorehunter (WIP)|J:Lore|18|J:Lore",
-                "WIP|Lorehunter (WIP)|J:Lore|20|J:Lore",
+                "Improved Knowledge Shared|Lorehunter (WIP)|J:Lore|18|J:Lore",
+                "Publish Research|Lorehunter (WIP)|J:Lore|18|J:Lore",
+                "calculated Perfection|Lorehunter (WIP)|J:Lore|20|J:Lore",
                 "Lorehunter Subclass|Lorehunter (WIP)|J:Lore|3|J:Lore",
                 "Subclass Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
                 "Subclass Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
@@ -1413,23 +1414,42 @@
             "gainSubclassFeature": true
         },
         {
-            "name": "WIP",
+            "name": "Improved Knowledge Shared",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 18,
             "entries": [
-                "WIP"
+                "Starting at 18th level, when you use your Knowledge Shared feature, you can choose two willing creatures instead of one. You can choose a different option for each creature and you gain benefits from each. Each creature other than you only gains the benefits once."
             ]
         },
         {
-            "name": "WIP",
+            "name": "Publish Research",
+            "source": "J:Lore",
+            "className": "Lorehunter (WIP)",
+            "classSource": "J:Lore",
+            "level": 18,
+            "entries": [
+                "Starting at 18th level, when you finish a Long Rest you can collect your scattered notes and thoughts into a manuscript on a topic you are familiar with agreed with your DM. You can memorise any number of manuscripts indefinitely, however, you can only create a new one once every 7 days.",
+                "As part of the same Long Rest, or on subsequent Long Rests, you can produce a {@item Book|XPHB} using one of your manuscripts.",
+                {
+                    "type": "inset",
+                    "name": "Optional: Submitting for Publication",
+                    "entries": [
+                        "At the DM's discretion, you can submit a manuscript to an organisation for wider publication or archiving, provided you are in a situation to do so, such as in a city or with access to a courier. If your manuscript is accepted (the DM might request a DC 20 check using a relevent skill or tool of their choice), you gain {@dice 2d4*50|2d4 x 50}gp, usually within 30 days. If you are playing with the optional Renown rules, you might also gain {@dice 1d3} Renown with a relevent group, such as the organisation you submitted to or one you wrote about. You can only attempt this once with each manuscript."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Calculated Perfection",
             "source": "J:Lore",
             "className": "Lorehunter (WIP)",
             "classSource": "J:Lore",
             "level": 20,
             "entries": [
-                "WIP"
+                "Starting at 20th level, you can use your Calculated Strike any number of times per turn.",
+                "Additionally, when you would add your Intelligence modifer to a D20 Test or a damage roll, you can choose to add your Intelligence score instead. Once you do so, you can not do so again until you finish a Short or Long rest."
             ]
         },
         {
