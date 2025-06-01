@@ -23,12 +23,15 @@
 		{
 			"name": "Fenri",
 			"source": "J:Beastkin",
+			"lineage": "VRGR",
 			"alias": [
 				"Anubis",
 				"Canine",
 				"Dog",
 				"Fox",
-				"Wolf"
+				"Wolf",
+				"Canid",
+				"Jackal"
 			],
 			"size": [
 				"S",
@@ -38,229 +41,91 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Darkvision",
 					"entries": [
-						"Fenri typically mature around 8 years of age. Fenri rarely live beyond 50 years of age."
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Alignment",
-					"entries": [
-						"Fenri tend to be loyal, good boys and girls, tending towards neutral good alignments. However some rebellious and malicious Fenri do exist."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Fenri come in many breeds and vary greatly in size, they typically stand between 3 and 7 feet tall and weigh between 50 and 240 lbs. Your size is small or medium (your choice)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Canine Senses",
+					"name": "Keen Senses",
 					"entries": [
 						"You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Furry Fiend",
+					"name": "Barktongue",
 					"entries": [
-						"You have advantage on Charisma (Intimidation) checks against Tabaxi."
+						"You can communicate simple messages to fenri, dogs and other canids, even if you do not share a language. They can understand the meaning of your words, though you have no special ability to understand them in return if they do not also have this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canid Lineage",
+					"entries": [
+						"Choose a lineage from the table below. You choice grants you a {@dice 1d4} bonus you can add to associated rolls. You also gain a special Bonus Action which you can use a number of times up to your Proficiency Bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+						{
+							"type": "table",
+							"caption": "Fenri Lineages",
+							"colLabels": [
+								"Lineage",
+								"{@dice 1d4} Bonus",
+								"Bonus Action"
+							],
+							"colStyles": [
+								"col-2",
+								"col-5",
+								"col-5"
+							],
+							"rows": [
+								[
+									"Chaser",
+									"Ability checks made to track creatures or as a penalty to ability checks and saving throws made by other creatures to avoid or escape your {@condition Grappled|XPHB|Grapple}.",
+									"Take the {@action Dash|XPHB} or {@action Search|XPHB} action."
+								],
+								[
+									"Deathhound",
+									"Death saving throws and saving throws made to resist necrotic damage.",
+									"While {@variantrule Bloodied|XPHB}, you can roll a Hit Point Die and regain {@variantrule Hit Points|XPHB} equal to the result of the roll plus your Constitution modifer."
+								],
+								[
+									"Guide",
+									"Wisdom (Medicine) checks and ability checks made by creatures you aid with the Help action.",
+									"Take the {@action Help|XPHB} action. You can choose a target you can see up to 30 feet away."
+								],
+								[
+									"Sly",
+									"Charisma (Deception) and Dexterity (Stealth) checks.",
+									"Take the {@action Disengage|XPHB}, {@action Influence|XPHB} or {@action Hide|XPHB} action."
+								],
+								[
+									"Watchdog",
+									"Intelligence (Investigation) and Wisdom (Insight) checks and ability checks made to detect poison.",
+									"Take the {@action Dodge|XPHB} or {@action Study|XPHB} action."
+								],
+								[
+									"Wardog",
+									"Damage rolls for weapon attacks against {@variantrule Bloodied|XPHB} or {@condition Bleeding|J:General} creatures.",
+									"When you hit a creature with a melee weapon attack, you can force the target to begin {@condition Bleeding|J:General} ."
+								]
+							]
+						}
 					]
 				}
-			],
-			"subraces": [
-					{
-						"name": "Wardog",
-						"source": "J:Beastkin",
-						"traitTags": [
-							"Powerful Build",
-							"Skill Proficiency"
-						],
-						"ability": [
-							{
-								"str": 2,
-								"cha": 1
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": " Menacing",
-								"entries": [
-									"You gain proficiency in the {@skill Intimidation} skill."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Brutal Maw",
-								"entries": [
-									"After taking the Attack action to make a melee attack, you can use a bonus action to make an unarmed attack with your teeth. On a hit, you deal piercing damage equal to {@dice 1d4} + your Strength modifier."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Powerful Build",
-								"entries": [
-									"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-								]
-							}
-						]
-					},
-					{
-						"name": "Chaser",
-						"source": "J:Beastkin",
-						"ability": [
-							{
-								"dex": 2,
-								"cha": 1
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Hunter's Grip",
-								"entries": [
-									"When a creature you have grappled attempts to break free, you can use your reaction to sink your teeth into them and gain advantage on the contested roll."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "All Fours.",
-								"entries": [
-									"You can take the {@action Dash} action as bonus action, when you do so, you run on all fours."
-								]
-							}
-						]
-					},
-					{
-						"name": "Deathhound",
-						"source": "J:Beastkin",
-						"darkvision": 60,
-						"ability": [
-							{
-								"con": 2,
-								"cha": 1
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"Your connection to the afterlife grants you sight in darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "The Scales",
-								"entries": [
-									"If you are reduced to 0 hitpoints, you can use your reaction to immediately roll a deathsave. On a success, you can expend one hitdie to regain hitpoints and stay conscious. On a failure, you immediately fail one deathsave. Once you use this trait, you can't use it again until you finish a long rest."
-								]
-							}
-						]
-					},
-					{
-						"name": "Watchdog",
-						"source": "J:Beastkin",
-						"traitTags": [
-							"Spellcasting"
-						],
-						"darkvision": 60,
-						"ability": [
-							{
-								"wis": 2,
-								"cha": 1
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Deductive Intuition",
-								"entries": [
-									"When you make an Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a {@dice d4} and add the number rolled to the ability check."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Sniff 'Em Out",
-								"entries": [
-									"You can cast the {@spell detect evil and good|phb} and {@spell detect poison and disease|phb} spells with this trait without providinf material components. Starting at 3rd level, you can also cast the {@spell see invisibility|phb} spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest.",
-									" Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this race)."
-								]
-							}
-						]
-					},
-					{
-						"name": "Vulpine",
-						"source": "J:Beastkin",
-						"darkvision": 60,
-						"ability": [
-							{
-								"dex": 2,
-								"cha": 1
-							}
-						],
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Darkvision",
-								"entries": [
-									"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colour in darkness, only shades of gray."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Vulpine Slyness",
-								"entries": [
-									"When you make an Dexterity (Stealth) or a Charisma (Deception) check, you can roll a {@dice d4} and add the number rolled to the ability check."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Quick Reflexes",
-								"entries": [
-									"When targeted by an attack from a creature you can see, and you are not {@condition incapacitated}, you may use your reaction to give the attack roll disadvantage."
-								]
-							}
-						]
-					}
 			],
 			"fluff": {
 				"entries": [
 					"The fenri are a canine like people, usually less aggressive than their gnoll cousins, though not always. Fenri can make excellent companions, but only if they want to.",
-					"Just like dogs, fenri come in a wide variety of shapes, sizes and colours.",
-					"Fenri ages can very wildly between different breeds, some live only a few decades while some can live a little over a century.",
+					"Just like dogs, fenri come in a wide variety of shapes, sizes and colours. Those of the chaser variety are percieved as relentless predators, both quick and strong. Even the gentler looking chasers sport impressive lupine maws, with fangs strong enough to hold all manner of prey. Deathhounds are often large imposing figures befiting their rumoured ties to the lands of the dead. With short dark fur covering lean frames and haunting eyes sometimes said to peer into one's very soul. Guides are often described with gentle and friendly appearances, with soft, light fur and expressive faces to fit their often warm personalities. Those of the sly variety are described with both hatred and admiration. Sleek and vulpine, they are often percieved as slippery, cunning and tricksy, but also charming. Watchdogs are known to be deeply inquisitive, with some suggesting their often wrinkled faces are the results of much quizical squinting. That or they are wrinkled by the stress of constantly being suspicious of every little detail. The most warrior-like fenri are often wardogs. Typically muscular brutes with sharp fangs and claw capable of tearing foes apart and frequently reveling in it. Such descriptions are stereotypical and there may be as many exceptions as there are conformers.",
+					"Fenri lifespans can very wildly between different breeds. Most mature after a decade or so. Some live only a few decades while some can live a little over a century.",
 					{
 						"type": "entries",
 						"name": "Fenri across the multiverse",
 						"entries": [
-							"In Alvergia, fenri can originate from anywhere but by far the most populous region to find them is in Xheros. Many, but not all, fenri there live tough lives as slaves or as nomadic outcasts, this is in part due to their connection to the prime god, Kalibus, and the blame they face, justified or not, for the death of another prime god, Jutea. Unlike other prime gods, Kalibus does not appears to have ties to any specific dynasty of pharohs, with their incarnations typically appearing among commoners. This distrust and lack of support from established monarchy has led to persecution of fenri, especially in areas controlled by the dynasties. At one time there was a mass breakout of slaves, mostly fenri, in north western Xheros. Many of these slaves then made their made west across the desert in Cyranos and the Northlands. Some settled in places such as Nekri and Frigan, others continued to spread across Alvergia. This event is sometimes called the Fenri Exodus.",
-							"In Caligos, fenri are less common than humans but not rare and found all across the archipelago."
+							"In Alvergia, fenri can originate from anywhere but by far the most populous region to find them is in Xheros. Many, but not all, fenri there live tough lives as slaves or as nomadic outcasts, this is in part due to their connection to the prime god Kalibus, especially the deathounds. Kalibus is often vilified for his assumed role in the death of another prime god, Jutea. Unlike other prime gods, no surviving pharoh dynastry claims direct descendance from Kalibus. Often appearing among commoners, incarnations of Kalibus rarely have the power and influence afforded to pharohs to protect their people from persecution.",
+							"Not too long ago, a great slave revolt and the resulting exodus of thousands of people from Xheros, many of them fenri, helped spread their numbers across Alvergia. Places such a Nekri in Cyranos and Frigan in the Northlands now house many of these refugees. This event is often referred to as the Fenri Exodus.",
+							"In Caligos, fenri are less common than other humanoids, but not rare and found all across the archipelago."
 						]
 					}
 				]
@@ -1309,13 +1174,13 @@
 			"name": "Tohoran Magic",
 			"source": "J:Beastkin",
 			"prerequisite": [
-    		{
-				"race": [
+				{
+					"race": [
 						{
 							"name": "Tohoran"
 						}
 					]
-    		}
+				}
 			],
 			"entries": [
 				"You learn to incorporate the songs and customs of your people into your magic. You gain the following benefits:",
@@ -1333,13 +1198,13 @@
 			"name": "Tohoran Horn",
 			"source": "J:Beastkin",
 			"prerequisite": [
-    		{
-				"race": [
+				{
+					"race": [
 						{
 							"name": "Tohoran"
 						}
 					]
-    		}
+				}
 			],
 			"entries": [
 				"You grow one or more spear like horns or tusks, or learn to properly utilise existing ones. You gain the following benefits:",
