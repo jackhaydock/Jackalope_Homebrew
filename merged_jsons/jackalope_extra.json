@@ -3,18 +3,6 @@
     "_meta": {
         "sources": [
             {
-                "json": "J:Lore",
-                "abbreviation": "J:Lore",
-                "color": "ce9445",
-                "full": "Jackalope: Lorehunter Class",
-                "authors": [
-                    "Jackalope"
-                ],
-                "version": "2025.06.01.05.44",
-                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
-                "targetSchema": "1.0.0"
-            },
-            {
                 "json": "J:Witch",
                 "abbreviation": "J:Witch",
                 "color": "597225",
@@ -94,557 +82,9 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1748756709.3334203
+        "dateLastModified": 1748759046.0024617
     },
     "class": [
-        {
-            "name": "Lorehunter (WIP)",
-            "source": "J:Lore",
-            "classFeatures": [
-                "Calculated Strike|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Scholarly Expertise|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Spellcasting|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Weapon Mastery|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Fighting Style|Lorehunter (WIP)|J:Lore|2|J:Lore",
-                "Studious Action|Lorehunter (WIP)|J:Lore|2|J:Lore",
-                "Arcane Sense|Lorehunter (WIP)|J:Lore|3|J:Lore",
-                "Invigorating Knowledge|Lorehunter (WIP)|J:Lore|4|J:Lore",
-                "Extra Attack|Ranger|XPHB|5",
-                "Careful Stride|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "Additional Expertise|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "Knowledge Shared|Lorehunter (WIP)|J:Lore|10|J:Lore",
-                "Robust Mind|Lorehunter (WIP)|J:Lore|14|J:Lore",
-                "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|14|J:Lore",
-                "Improved Knowledge Shared|Lorehunter (WIP)|J:Lore|18|J:Lore",
-                "Publish Research|Lorehunter (WIP)|J:Lore|18|J:Lore",
-                "calculated Perfection|Lorehunter (WIP)|J:Lore|20|J:Lore",
-                "Lorehunter Subclass|Lorehunter (WIP)|J:Lore|3|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|15|J:Lore",
-                "Ability Score Improvement|Fighter|XPHB|4",
-                "Ability Score Improvement|Fighter|XPHB|8",
-                "Ability Score Improvement|Fighter|XPHB|12",
-                "Ability Score Improvement|Fighter|XPHB|16",
-                "Epic Boon|Fighter|XPHB|19"
-            ],
-            "hd": {
-                "number": 1,
-                "faces": 10
-            },
-            "proficiency": [
-                "con",
-                "int"
-            ],
-            "classTableGroups": [
-                {
-                    "colLabels": [
-                        "Prepared Spells"
-                    ],
-                    "rows": [
-                        [
-                            2
-                        ],
-                        [
-                            3
-                        ],
-                        [
-                            4
-                        ],
-                        [
-                            5
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            6
-                        ],
-                        [
-                            7
-                        ],
-                        [
-                            7
-                        ],
-                        [
-                            9
-                        ],
-                        [
-                            9
-                        ],
-                        [
-                            10
-                        ],
-                        [
-                            10
-                        ],
-                        [
-                            11
-                        ],
-                        [
-                            11
-                        ],
-                        [
-                            12
-                        ],
-                        [
-                            12
-                        ],
-                        [
-                            14
-                        ],
-                        [
-                            14
-                        ],
-                        [
-                            15
-                        ],
-                        [
-                            15
-                        ]
-                    ]
-                },
-                {
-                    "title": "Spell Slots per Spell Level",
-                    "colLabels": [
-                        "{@filter 1st|spells|level=1|class=Lorehunter}",
-                        "{@filter 2nd|spells|level=2|class=Lorehunter}",
-                        "{@filter 3rd|spells|level=3|class=Lorehunter}",
-                        "{@filter 4th|spells|level=4|class=Lorehunter}",
-                        "{@filter 5th|spells|level=5|class=Lorehunter}"
-                    ],
-                    "rowsSpellProgression": [
-                        [
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            2,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            3,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            3,
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            2,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            2,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            2,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            2,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            0,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            1,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            1,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            2,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            2,
-                            0
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            1
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            1
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2
-                        ],
-                        [
-                            4,
-                            3,
-                            3,
-                            3,
-                            2
-                        ]
-                    ]
-                }
-            ],
-            "startingProficiencies": {
-                "armor": [
-                    "light",
-                    "medium",
-                    "{@item shield|phb|shields}"
-                ],
-                "weapons": [
-                    "simple",
-                    "martial"
-                ],
-                "tools": [
-                    "Choose 1 from; {@item Calligrapher's Supplies|phb}, {@item Cartographer's Tools|phb}, {@item Forgery Kit|phb}, {@item Herbalism Kit|phb}, {@item Thieves' Tools|phb}, {@item Navigator's Tools|phb}, {@item Painter's Supplies|phb}"
-                ],
-                "skills": [
-                    {
-                        "choose": {
-                            "from": [
-                                "arcana",
-                                "history",
-                                "investigation",
-                                "nature",
-                                "perception",
-                                "religion",
-                                "survival"
-                            ],
-                            "count": 2
-                        }
-                    }
-                ]
-            },
-            "startingEquipment": {
-                "default": [
-                    "(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
-                    "(a) a {@filter martial weapon|items|source=phb|type=martial weapon=sand|category=basic} and a {@item shield|phb} or (b) two {@filter martial or simple weapons|items|source=phb|type=martial weapon;simple weapon=sor|category=basic}",
-                    "(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb} or (c) {@item dungeoneer's pack|phb}",
-                    "A {@item dagger|phb}, a {@item grappling hook|phb} and a notebook."
-                ],
-                "additionalFromBackground": true,
-                "goldAlternative": "{@dice 5d4*10|5d4 x 10}"
-            },
-            "multiclassing": {
-                "requirements": {
-                    "int": 13
-                },
-                "proficienciesGained": {
-                    "weapons": [
-                        "simple",
-                        "martial"
-                    ],
-                    "armor": [
-                        "light",
-                        "medium"
-                    ],
-                    "skills": [
-                        {
-                            "choose": {
-                                "from": [
-                                    "arcana",
-                                    "history",
-                                    "investigation",
-                                    "nature",
-                                    "perception",
-                                    "religion",
-                                    "survival"
-                                ],
-                                "count": 1
-                            }
-                        }
-                    ]
-                }
-            },
-            "spellcastingAbility": "int",
-            "casterProgression": "1/2",
-            "preparedSpellsProgression": [
-                2,
-                3,
-                4,
-                5,
-                6,
-                6,
-                7,
-                7,
-                9,
-                9,
-                10,
-                10,
-                11,
-                11,
-                12,
-                12,
-                14,
-                14,
-                15,
-                15
-            ],
-            "preparedSpellsChange": "restLong",
-            "classSpells": [
-                "Absorb Elements|XGE",
-                "Alarm|PHB",
-                "Alarm|XPHB",
-                "Catapult|XGE",
-                "Color Spray|PHB",
-                "Color Spray|XPHB",
-                "Comprehend Languages|PHB",
-                "Comprehend Languages|XPHB",
-                "Chromatic Orb|PHB",
-                "Chromatic Orb|XPHB",
-                "Cure Wounds|PHB",
-                "Cure Wounds|XPHB",
-                "Detect Evil and Good|PHB",
-                "Detect Evil and Good|XPHB",
-                "Detect Magic|PHB",
-                "Detect Magic|XPHB",
-                "Detect Poison and Disease|PHB",
-                "Detect Poison and Disease|XPHB",
-                "Disguise Self|PHB",
-                "Disguise Self|XPHB",
-                "Distort Value|AI",
-                "Expeditious Retreat|PHB",
-                "Expeditious Retreat|XPHB",
-                "False Life|PHB",
-                "False Life|XPHB",
-                "Feather Fall|PHB",
-                "Feather Fall|XPHB",
-                "Fog Cloud|PHB",
-                "Fog Cloud|XPHB",
-                "Grease|PHB",
-                "Grease|XPHB",
-                "Identify|PHB",
-                "Identify|XPHB",
-                "Illusory Script|PHB",
-                "Illusory Script|XPHB",
-                "Jump|PHB",
-                "Jump|XPHB",
-                "Longstrider|PHB",
-                "Longstrider|XPHB",
-                "Protection from Evil and Good|PHB",
-                "Protection from Evil and Good|XPHB",
-                "Purify Food and Drink|PHB",
-                "Purify Food and Drink|XPHB",
-                "Snare|XGE",
-                "Tenser's Floating Disk|PHB",
-                "Tenser's Floating Disk|XPHB",
-                "Air Bubble|AAG",
-                "Arcane Lock|PHB",
-                "Arcane Lock|XPHB",
-                "Arcane Vigor|XPHB",
-                "Borrowed Knowledge|SCC",
-                "Continual Flame|PHB",
-                "Continual Flame|XPHB",
-                "Darkvision|PHB",
-                "Darkvision|XPHB",
-                "Delver's Toolbag|J:General",
-                "Detect Echoes|J:General",
-                "Enhance Ability|PHB",
-                "Enhance Ability|XPHB",
-                "Enlarge/Reduce|PHB",
-                "Enlarge/Reduce|XPHB",
-                "Find Traps|PHB",
-                "Find Traps|XPHB",
-                "Gift of Gab|AI",
-                "Heat Metal|PHB",
-                "Heat Metal|XPHB",
-                "Invisibility|PHB",
-                "Invisibility|XPHB",
-                "Knock|PHB",
-                "Knock|XPHB",
-                "Locate Object|PHB",
-                "Locate Object|XPHB",
-                "Magic Weapon|PHB",
-                "Magic Weapon|XPHB",
-                "Misty Step|PHB",
-                "Misty Step|XPHB",
-                "Pass Without A Trace|PHB",
-                "Pass Without A Trace|XPHB",
-                "Protection from Poison|PHB",
-                "Protection from Poison|XPHB",
-                "Rope Trick|PHB",
-                "Rope Trick|XPHB",
-                "Runner's Rope|J:General",
-                "See Invisibility|PHB",
-                "See Invisibility|XPHB",
-                "Shape Weapon|XPHB",
-                "Shatter|PHB",
-                "Shatter|XPHB",
-                "Silencing Smite|J:General",
-                "Spectral Crew|J:General",
-                "Vortex Warp|SCC",
-                "Zone of Truth|PHB",
-                "Zone of Truth|XPHB",
-                "Catnap|XGE",
-                "Clairvoyance|PHB",
-                "Clairvoyance|XPHB",
-                "Counterspell|PHB",
-                "Counterspell|XPHB",
-                "Dispel Magic|PHB",
-                "Dispel Magic|XPHB",
-                "Elemental Weapon|PHB",
-                "Elemental Weapon|XPHB",
-                "Feign Death|PHB",
-                "Feign Death|XPHB",
-                "Fly|PHB",
-                "Fly|XPHB",
-                "Haste|PHB",
-                "Haste|XPHB",
-                "Intellect Fortress|TCE",
-                "Leomund's Tiny Hut|PHB",
-                "Leomund's Tiny Hut|XPHB",
-                "Nondetection|PHB",
-                "Nondetection|XPHB",
-                "Protection from Energy|PHB",
-                "Protection from Energy|XPHB",
-                "Remove Curse|PHB",
-                "Remove Curse|XPHB",
-                "Sending|PHB",
-                "Sending|XPHB",
-                "Summon Warrior|J:Humanoids",
-                "Stinking Cloud|PHB",
-                "Stinking Cloud|XPHB",
-                "Tiny Servant|XGE",
-                "Tongues|PHB",
-                "Tongues|XPHB",
-                "Water Breathing|PHB",
-                "Water Breathing|XPHB",
-                "Water Walk|PHB",
-                "Water Walk|XPHB",
-                "Arcane Eye|PHB",
-                "Arcane Eye|XPHB",
-                "Banishment|PHB",
-                "Banishment|XPHB",
-                "Fabricate|PHB",
-                "Fabricate|XPHB",
-                "Freedom of Movement|PHB",
-                "Freedom of Movement|XPHB",
-                "Greater Invisibility|PHB",
-                "Greater Invisibility|XPHB",
-                "Leomund's Secret Chest|PHB",
-                "Leomund's Secret Chest|XPHB",
-                "Locate Creature|PHB",
-                "Locate Creature|XPHB",
-                "Mordenkainen's Private Sanctum|PHB",
-                "Mordenkainen's Private Sanctum|XPHB",
-                "Polymorph|PHB",
-                "Polymorph|XPHB",
-                "Animate Onjects|PHB",
-                "Animate Onjects|XPHB",
-                "Bigby's Hand|PHB",
-                "Bigby's Hand|XPHB",
-                "Commune with Nature|PHB",
-                "Commune with Nature|XPHB",
-                "Creation|PHB",
-                "Creation|XPHB",
-                "Dispel Evil and Good|PHB",
-                "Dispel Evil and Good|XPHB",
-                "Far Step|XGE",
-                "Legend Lore|XPHB"
-            ],
-            "featProgression": [
-                {
-                    "name": "Fighting Style",
-                    "category": [
-                        "FS",
-                        "FS:F"
-                    ],
-                    "progression": {
-                        "2": 1
-                    }
-                },
-                {
-                    "name": "Epic Boon",
-                    "category": [
-                        "EB"
-                    ],
-                    "progression": {
-                        "19": 1
-                    }
-                }
-            ],
-            "fluff": [
-                {
-                    "name": "Lorehunter",
-                    "type": "section",
-                    "entries": [
-                        "WIP"
-                    ]
-                }
-            ]
-        },
         {
             "name": "Witch (WIP)",
             "source": "J:Witch",
@@ -1080,379 +520,6 @@
     ],
     "classFeature": [
         {
-            "name": "Calculated Strike",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 1,
-            "entries": [
-                "Starting at 1st level, you can utilize your knowledge to pinpoint weak spots and improve the damage you deal with weapons. Once per turn, when you hit with a {@variantrule Weapon Attack|XPHB} or {@variantrule Unarmed Strike|XPHB}, you can add a bonus to the damage roll equal to your Intelligence modifier."
-            ]
-        },
-        {
-            "name": "Scholarly Expertise",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 1,
-            "entries": [
-                "At 1st level, choose up to two skills, instruments, tools or vehicles with which you are proficient. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. When you gain a level in this class you can replace one of these proficiencies with a different one.",
-                {
-                    "type": "inset",
-                    "name": "Optional Variant: Expert Topics",
-                    "entries": [
-                        "Sometimes specialist knowledge of a particular topic is more useful than general knowledge in a skill or device. If your DM allows, you can choose a specialist topic in place of a proficiency for your Scholarly Expertise feature. When you make an ability check that utilises your specialist topic, you can add your proficiency bonus. If you already add your proficiency bonus, the bonus is doubled for this check.",
-                        "Work with your DM to define the scope and depth of the topic. This could be knowledge of a particular faction, including its history, politics and laws; it could be knowledge of a particular deity or being and their followers; it could be knowledge of the anatomy and behaviors of particular kinds of creatures; it could be knowledge of a particular school of magic or any other topic you and your DM deem appropriate.",
-                        "For example, you may study demons and posses expert knowledge about them. With the demon topic in your book, you may double your proficiency for checks made to identify, track or recall lore about creatures with the demon tag."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Weapon Mastery",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 1,
-            "entries": [
-                "Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Spear|XPHB|Spears} and {@item Shortswords|XPHB|Shortswords}.",
-                "Whenever you finish a {@variantrule Long Rest|XPHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|XPHB|mastery properties} of {@item Pike|XPHB|Pikes} and {@item Warhammer|XPHB|Warhammers}."
-            ]
-        },
-        {
-            "name": "Spellcasting",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 1,
-            "entries": [
-                "You have learned to draw on arcane magic through study and practice to cast spells as a Wizard does. See {@book chapter 10|PHB|10} for the general rules of spellcasting and the {@filter lorehunter spell list|spells|class=lorehunter (j:lore)}.",
-                {
-                    "type": "entries",
-                    "name": "Spell Slots",
-                    "entries": [
-                        "The Lorehunter Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a {@variantrule Long Rest|XPHB}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Prepared Spells of Level 1+",
-                    "entries": [
-                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|class=Lorehunter (WIP)|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
-                        "The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Lorehunter Features table. Whenever that number increases, choose additional Lorehunter spells until the number of spells on your list matches the number in the Lorehunter Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Lorehunter, your list of prepared spells can include six Lorehunter spells of level 1 or 2 in any combination.",
-                        "If another Lorehunter feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Lorehunter spells for you."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Changing Your Prepared Spells",
-                    "entries": [
-                        "Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace one spell on your list with another Lorehunter spell for which you have spell slots."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Spellcasting Ability",
-                    "entries": [
-                        "Intelligence is your spellcasting ability for your Lorehunter spells."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Spellcasting Focus",
-                    "entries": [
-                        "You can use an {@item arcane focus|phb} or a book as a spellcasting focus for your Lorehunter spells."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Fighting Style",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 2,
-            "entries": [
-                "You gain a {@filter Fighting Style feat|feats|category=FS} of your choice. Instead of choosing one of those feats, you can choose the option below.",
-                {
-                    "type": "entries",
-                    "entries": [
-                        {
-                            "name": "Arcane Warrior",
-                            "source": "XPHB",
-                            "category": "FS:F",
-                            "additionalSpells": [
-                                {
-                                    "ability": "int",
-                                    "known": {
-                                        "_": [
-                                            {
-                                                "choose": "level=0|class=wizard",
-                                                "count": 2
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
-                            "entries": [
-                                "You learn two {@filter Wizard cantrips|spells|level=0|class=Cleric} of your choice. The chosen cantrips count as Lorehunter spells for you, and Intelligence is your spellcasting ability for them. Whenever you gain a Lorehunter level, you can replace one of these cantrips with another Wizard cantrip."
-                            ],
-                            "type": "entries"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Studious Action",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 2,
-            "entries": [
-                "Starting at 2nd Level, you can take the {@action Help|XPHB}, {@action Search|XPHB} or {@action Study|XPHB} action as a {@variantrule Bonus Action|XPHB}."
-            ]
-        },
-        {
-            "name": "Lorehunter Subclass",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 3,
-            "entries": [
-                "At 3rd level, you choose an academic society from which you gained your knowledge and skills. This society may be an order that you belong to, or that you have acquired knowledge and skills from by other means, with or without their permission. Alternatively, it could be a person or figure that has taught or inspired you to pursue your search for knowledge.",
-                "Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level."
-            ],
-            "gainSubclassFeature": true
-        },
-        {
-            "name": "Arcane Sense",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 3,
-            "entries": [
-                "At 3rd level, you hone your senses with and for the arcane. Choose one of the following options:",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Spellsense",
-                            "entries": [
-                                "As a {@action Magic|XPHB} action, you can expend a spell slot of level 1 or higher and focus your senses to search for the presence of magic. For the next 10 minutes, you can sense when a creature within 60 feet of you casts a spell. You know the location the spell was cast from and the school of magic that the spell belongs to."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Arcane Mind",
-                            "entries": [
-                                "Choose a {@filter level 1 spell from the divination school of magic and that has a range of self|spells|level=1|components & miscellaneous=|school=d|range=self;self (area)}. You can cast the chosen spell at will, without requiring a a spell slot. When you gain a level in this class, you can change the chosen spell for a different one."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Invigorating Knowledge",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 4,
-            "entries": [
-                "Starting at 4th level, learning new things or successfully applying existing knowledge grants you an inspiring feeling of satisfaction. When you succeed on an Intelligence check, or a creature you aid with the {@action Help|XPHB} action succeeds on an Intelligence check, you can gain temporary hit points equal to twice your Intelligence modifier (Minimum of 1)."
-            ]
-        },
-        {
-            "name": "Careful Stride",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 6,
-            "entries": [
-                "Starting at 6th level, on your turn you can choose to move carefully to avoid certain dangers. Until the start of your next turn, you are {@condition Slowed|J:general} and you cannot take the {@action Dash|XPHB} action, but you make no noise as a result of moving and you have advantage on saving throws against traps, spells and effects that are triggered by your weight or movement. In addition, attacks against you that are triggered by your weight or movement, such as opportunity attacks or readied attacks, have disadvantage. You cannot use this feature if you have already moved in this turn."
-            ]
-        },
-        {
-            "name": "Additional Expertise",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 6,
-            "entries": [
-                "At 6th level, you can choose two more of your proficiencies (or specialist topics) to gain the benefit of your Scholary Expertise."
-            ]
-        },
-        {
-            "name": "Subclass Feature",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 7,
-            "entries": [
-                "At 7th level, you gain a feature from your Lorehunter Subclass."
-            ],
-            "gainSubclassFeature": true
-        },
-        {
-            "name": "Knowledge Shared",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 10,
-            "entries": [
-                "Starting at 10th level, you can learn from your allies and them from you. When you finish a Long Rest, you and a willing creature you choose can gain one of the following benefits until the end of your next {@variantrule Long Rest|XPHB}:",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Share Martial Arts",
-                            "entries": [
-                                "You learn one of the following Monk features that the other creature knows; Flurry of Blows, Patient Defence or Step of the Wind. You have a number of Focus points to spend on this Monk feature equal to your Intelligence Modifier. You do not recover these points unless you use this feature again.",
-                                "The other creature, meanwhile, can use a {@variantrule Bonus Action|XPHB} to take the {@action Search|XPHB} or {@action Study|XPHB} action. It can spend a Focus point to take the {@action Help|XPHB} action as part of the same {@variantrule Bonus Action|XPHB}."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Share Spells",
-                            "entries": [
-                                "Each of you learn a spell of 3rd-level or lower of your choice that the other knows or has prepared. The spell you learn counts as a Lorehunter spell for you and the spell they learn counts as a spell for their spellcasting class if it has one (it chooses which if it has multiple), and neither counts against the number of spells that can be prepared by the creature who learns it. If the creature does not have the Spellcasting or Pact Magic feature, it can cast the learned spell once without requiring a spell slot."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Share Talents",
-                            "entries": [
-                                "Each of you gain proficiency with a skill, tool or instrument that the other has proficiency with."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Share Weapon Styles",
-                            "entries": [
-                                "Each of you learns one {@filter Fighting Style feat|feats|category=FS} or the {@variantrule weapon mastery properties|XPHB|mastery property} of a weapon that the other knows. If you learn the {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, or {@itemMastery Slow|XPHB} mastery property, you can use it to replace another mastery property you use on a weapon attack."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Robust Mind",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 14,
-            "entries": [
-                "Starting at 14th level, when you fail an Intelligence or Wisdom saving throw, you can reroll the saving throw and take the new result. You can use this feature twice and regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
-            ]
-        },
-        {
-            "name": "Improved Arcane Sense",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 14,
-            "entries": [
-                "At 14th level, your unique senses become stronger.",
-                {
-                    "type": "list",
-                    "style": "list-hang-notitle",
-                    "items": [
-                        {
-                            "type": "item",
-                            "name": "Spellsense",
-                            "entries": [
-                                "While your Spellsense is active, you know the location of any creatures in the area that are concentrating on spells or magic effects. You also know the school of magic for the spell."
-                            ]
-                        },
-                        {
-                            "type": "item",
-                            "name": "Arcane Mind",
-                            "entries": [
-                                "You can choose an additional spell for your Arcane Mind. The spell can be of {@filter level 3 or lower |spells|level=1;2;3|components & miscellaneous=|school=d|range=self;self (area)}but must still be from the divination school of magic and have a range of self."
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Subclass Feature",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 11,
-            "entries": [
-                "At 11th level, you gain a feature from your Lorehunter Subclass."
-            ],
-            "gainSubclassFeature": true
-        },
-        {
-            "name": "WIP",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 14,
-            "entries": [
-                "WIP"
-            ]
-        },
-        {
-            "name": "Subclass Feature",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 15,
-            "entries": [
-                "At 15th level, you gain a feature from your Lorehunter Subclass."
-            ],
-            "gainSubclassFeature": true
-        },
-        {
-            "name": "Improved Knowledge Shared",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 18,
-            "entries": [
-                "Starting at 18th level, when you use your Knowledge Shared feature, you can choose two willing creatures instead of one. You can choose a different option for each creature and you gain benefits from each. Each creature other than you only gains the benefits once."
-            ]
-        },
-        {
-            "name": "Publish Research",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 18,
-            "entries": [
-                "Starting at 18th level, when you finish a Long Rest you can collect your scattered notes and thoughts into a manuscript on a topic you are familiar with agreed with your DM. You can memorise any number of manuscripts indefinitely, however, you can only create a new one once every 7 days.",
-                "As part of the same Long Rest, or on subsequent Long Rests, you can produce a {@item Book|XPHB} using one of your manuscripts.",
-                {
-                    "type": "inset",
-                    "name": "Optional: Submitting for Publication",
-                    "entries": [
-                        "At the DM's discretion, you can submit a manuscript to an organisation for wider publication or archiving, provided you are in a situation to do so, such as in a city or with access to a courier. If your manuscript is accepted (the DM might request a DC 20 check using a relevent skill or tool of their choice), you gain {@dice 2d4*50|2d4 x 50}gp, usually within 30 days. If you are playing with the optional Renown rules, you might also gain {@dice 1d3} Renown with a relevent group, such as the organisation you submitted to or one you wrote about. You can only attempt this once with each manuscript."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Calculated Perfection",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "level": 20,
-            "entries": [
-                "Starting at 20th level, you can use your Calculated Strike any number of times per turn.",
-                "Additionally, when you would add your Intelligence modifer to a D20 Test or a damage roll, you can choose to add your Intelligence score instead. Once you do so, you can not do so again until you finish a Short or Long rest."
-            ]
-        },
-        {
             "name": "Spellcasting",
             "source": "J:Witch",
             "className": "Witch (WIP)",
@@ -1602,1247 +669,401 @@
             "gainSubclassFeature": true
         }
     ],
-    "subclass": [
+    "item": [
         {
-            "name": "Antiquarian",
-            "shortName": "Antiquarian",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "additionalSpells": [
-                {
-                    "prepared": {
-                        "3": [
-                            "distort value|ai",
-                            "identify|phb",
-                            "mending|phb"
-                        ],
-                        "5": [
-                            "speak with documents|J:lore",
-                            "stagger/sunder|J:lore"
-                        ],
-                        "9": [
-                            "explosive excavation|J:lore",
-                            "remove curse|phb"
-                        ],
-                        "13": [
-                            "leomund's secret chest|phb",
-                            "summon construct|tce"
-                        ],
-                        "17": [
-                            "animate objects|phb",
-                            "legend lore|xge"
-                        ]
-                    }
-                }
-            ],
-            "subclassFeatures": [
-                [
-                    {
-                        "name": "Antiquarian",
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Antiquarian",
-                        "subclassSource": "J:Lore",
-                        "level": 3,
-                        "entries": [
-                            "Antiques are some of the best ways to learn about the past. These objects can tell you much about the economics, culture and technology of particular regions and time periods. Such object can also gradualy gather faint magical energies throughout their long years, undetectable to most, but not all.",
-                            "Antiquarian societies specialize in cataloguing and preserving items of historical or cultural importance. While this often involves carefully cleaning and storing such items, it can also mean continuing to use them, honoring their purpose while still preserving their form and history. Antiquarian lorehunters can weave the residual magic of these objects into offensive and defensive wards, protecting the item itself as well as those using them.",
-                            {
-                                "name": "Antiquarian Spells",
-                                "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Antiquarian Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
-                                    {
-                                        "type": "table",
-                                        "caption": "Antiquarian Spells",
-                                        "colLabels": [
-                                            "Lorehunter Level",
-                                            "Spell"
-                                        ],
-                                        "colStyles": [
-                                            "col-2 text-center",
-                                            "col-10"
-                                        ],
-                                        "rows": [
-                                            [
-                                                "3rd",
-                                                "{@spell Distort Value|AI}, {@spell Identify|XPHB}"
-                                            ],
-                                            [
-                                                "5th",
-                                                "{@spell Speak with Documents|J:Lore}, {@spell Stagger/Sunder|J:Lore}"
-                                            ],
-                                            [
-                                                "9th",
-                                                "{@spell Explosive Excavation|J:Lore}, {@spell Remove Curse|XPHB}"
-                                            ],
-                                            [
-                                                "13th",
-                                                "{@spell Leomund's Secret Chest|XPHB}, {@spell Summon Construct|TCE}"
-                                            ],
-                                            [
-                                                "17th",
-                                                "{@spell Animate Objects|XPHB}, {@spell Legend Lore|XPHB}"
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Useful Antiques",
-                                "entries": [
-                                    "Starting at 3rd level, you can spend 10 mins touching an item that can be worn or that can be held in one hand. You concentrate residual magical energies surrounding it, making it both more effective and more durable. The item becomes magical if it wasn't already and you can use it as a spellcasting focus for your lorehunter spells. In addition, the item gains additional effects based on it type, as described below.",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            "{@b {@i A document, figurine or similar ceremonial item (WIP).}} The item grants a +1 bonus to ability checks in which it is relevent, such as recalling associated lore or convincing someone of its legitimacy. In addition, when a creature holding the item makes an ability check that would benefit from this bonus, it can also use your Intelligence modifier in place of the normal ability modifer used for the check.",
-                                            "{@b {@i A set of armor or a shield.}} The armor or shield grants a +1 bonus to the wearer's Armor Class, unless it already provides the same bonus or higher. In addition, if the armour would normally allow the wearer to add its Dexterity modifer to its Armor Class, it can instead add your Intelligence modifer.",
-                                            "{@b {@i A set of tools or artisan tools.}} The tools grant a +1 bonus to ability checks made with them, unless they already provides the same bonus or higher. In addition, when a creature uses these tools to make an ability check, it can use your Intelligence modifier in place of the normal ability modifier for the check.",
-                                            "{@b {@i A spellcasting focus (WIP).}} The focus grants a +1 bonus to spell attack rolls made using it, unless it already provides the same bonus or higher. In addition, when a creature makes a spell attack using this focus, it can use your Intelligence modifier in place of its normal ability modifier.",
-                                            "{@b {@i A weapon (WIP).}} The weapon grants a +1 bonus to attack and damage rolls made using it, unless it already provides the same bonus or higher. In addition, when attacking with the weapon a creature can use your Intelligence modifer in place of its Strength or Dexterity modifer for the attack and damage rolls"
-                                        ]
-                                    },
-                                    "Sometimes an item may have enough historical, cultural or political significance to be considered an antique. The DM decides if an item is an antique. Items that are; several centuries old, were used by famous historical figures, or were used in legendary events can usually be considered antiques. The +1 bonuses described above increase to +2 if the item is an antique.",
-                                    "You can have up to two items enhanced in this way at any one time. If you attempt to use this feature on a third, the oldest effect ends. The effect is also removed if you remove it with another 10 minute ritual or if you die."
-                                ]
-                            },
-                            {
-                                "name": "Conservation Arcana",
-                                "entries": [
-                                    "At 3rd level, you know the {@spell Mending|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it. When you cast this cantrip, you can also clear rust from metal objects and restore faded colors and patterns. If text was obscured by nonmagical means, such as being rubbed away or blotted out with ink, but the page or tablet is intact, you can restore the text's original appearance with this cantrip.",
-                                    "You can cast the cantrip as normal, and you can also cast it as an action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Antiquarian",
-                        "subclassSource": "J:Lore",
-                        "level": 7,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Arcane Antiques",
-                                "entries": [
-                                    "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a bonus action, you can expend a spell slot for one of the following effects, targeting one oof the items enhanced by your Useful Antiques feature.",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            "{@b {@i Archivist's Preservation.}} A creature that is holding or wearing the targeted item gains temporary hit points equal to six times the level of the spell slot expended. A creature loses these temporary hit points if it is ever more than 5 feet from the item for more than one minute.",
-                                            "{@b {@i Excavator's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike while wearing the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Antiquarian",
-                        "subclassSource": "J:Lore",
-                        "level": 11,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Useful Antiques Collection",
-                                "entries": [
-                                    "Starting at 11th level, when you use your Useful Antiques feature you can have up to four enhanced items simultaneously, instead of just two.",
-                                    "When you use your Arcane Antiques feature, you can target two items using the same spell slot, granting the same effect to both items."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Antiquarian",
-                        "subclassSource": "J:Lore",
-                        "level": 15,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Resourceful Artifacts",
-                                "entries": [
-                                    "Starting at 15th level, you ignore all class, race, and level requirements on the use of magic items.",
-                                    "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ]
+            "name": "+1 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
+            "entries": [
+                "You have a +1 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
             ]
         },
         {
-            "name": "Palaeontologist",
-            "shortName": "Palaeontologist",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "additionalSpells": [
-                {
-                    "prepared": {
-                        "3": [
-                            "speak with animals|phb",
-                            "find familiar|phb"
-                        ],
-                        "5": [
-                            "animate dead|phb"
-                        ],
-                        "9": [
-                            "conjure animals|phb",
-                            "speak with dead|phb"
-                        ],
-                        "13": [
-                            "danse macabre|phb"
-                        ],
-                        "17": [
-                            "raise dead|phb"
-                        ]
-                    }
-                }
-            ],
-            "subclassFeatures": [
-                [
-                    {
-                        "name": "Palaeontologist",
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Palaeontologist",
-                        "subclassSource": "J:Lore",
-                        "level": 3,
-                        "header": 1,
-                        "entries": [
-                            "The great beasts of the ancient world held immense power and skill, and in the years since, their bones have turned to stone, absorbing eons of natural magics of the world.",
-                            "Palaeontologist societies specialise in studying fossils from the ancient worlds. You can combine your specilaist knowledge of fossils with your knowledge of the arcane to bring the power of these beasts in to the modern world. Weaponising the power of death, decay and calcification to turn creatures into stone and to turn stone into weapons and allies.",
-                            {
-                                "name": "Palaeontologist Spells",
-                                "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Palaeontologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
-                                    {
-                                        "type": "table",
-                                        "caption": "Palaeontologist Spells",
-                                        "colLabels": [
-                                            "Lorehunter Level",
-                                            "Spell"
-                                        ],
-                                        "colStyles": [
-                                            "col-2 text-center",
-                                            "col-10"
-                                        ],
-                                        "rows": [
-                                            [
-                                                "3rd",
-                                                "{@spell Speak with Animals|XPHB}, {@spell Find Familiar|XPHB} (appears as undead)"
-                                            ],
-                                            [
-                                                "5th",
-                                                "{@spell Animate Dead|XPHB}, {@spell Maximilian's Earthen Grasp|XGE} (appears as skeletal claw)"
-                                            ],
-                                            [
-                                                "9th",
-                                                "{@spell Conjure Animals|XPHB} (appear as undead animals), {@spell Speak with Dead|XPHB}"
-                                            ],
-                                            [
-                                                "13th",
-                                                "{@spell Danse Macabre|XPHB}, {@spell Stone Shape|XPHB}"
-                                            ],
-                                            [
-                                                "17th",
-                                                "{@spell Antilife Shell|XPHB}, {@spell Raise Dead|XPHB}"
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Adept Archaeologist",
-                                "entries": [
-                                    "Starting at 3rd level, you can use a bone from a long dead beast or a trowel as a spellcasting focus for your lorehunter spells. In addition, you can also use such items as simple melee weapons, such as using a large bone as a {@item Mace|XPHB} or a trowel as a {@item Dagger|XPHB}."
-                                ]
-                            },
-                            {
-                                "name": "Ancient Bones",
-                                "entries": [
-                                    "At 3rd level, you can use an action to summon the spirit of a long dead beast to an unoccupied space you can see within 30ft of you.",
-                                    "When you summon the beast, you choose its size and its stat block; {@creature Undead Bulker|J:Lore}, {@creature Undead Prowler|J:Lore} or {@creature Undead Soarer|J:Lore} which uses your proficiency bonus (PB) in several places. You also determine the appearance of the beast, choosing a form appropriate for its stat block. You can choose to summon an aquatic creature instead of one from the land. In which case, its walking speed becomes 5 feet and it gains a swim speed equal to its previous walking speed.",
-                                    "The creature shares your initiative count in combat and will obey any verbal commands you give it (no action required by you). If you issue no commands on a turn it will defend itself and follow you but takes no other actions. The creature remains for 1 hour after which it crumbles to dust, unless you expend another use of this feature, or a spell slot of 2nd-level or higher, to extend it by another hour. The creature crumbles early if it is reduced to 0 hit points, or if you use this feature again.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}. While you have no uses available, you can spend a spell slot of 2nd-level or higher to use this feature again.",
-                                    {
-                                        "type": "inset",
-                                        "name": "Alternative Beast Forms",
-                                        "entries": [
-                                            "At the DM's discretion, you can summon a {@filter beast of CR 1 or lower|bestiary|Challenge Rating=[&0;&1]|type=beast|tag=dinosaur} that has the dionsaur tag (your DM might allow other similar creatures) instead of one of the listed statblocks. The creature appears as undead rather than beast, is immune to poison and necrotic damage and is also immune to the {@condition poisoned} and {@condition charmed} conditions. The creature shares your proficiency bonus and understands any languages you know but does not speak. The maximum CR of the creature you summon increases by 1 when you reach 5th level ({@filter CR 2|bestiary|Challenge Rating=[&0;&2]|type=beast|tag=dinosaur}), 11th level ({@filter CR 3|bestiary|Challenge Rating=[&0;&3]|type=beast|tag=dinosaur}) and 17th level ({@filter CR 4|bestiary|Challenge Rating=[&0;&4]|type=beast|tag=dinosaur}) in this class."
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Fossilised Arcana",
-                                "entries": [
-                                    "At 3rd level, you learn the {@spell Magic Stone|XGE} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "When you cast the spell, you can target up to five tiny bones, teeth or fossils rather than pebbles. When an attack hits with one of these items, you can choose to have it deal necrotic or piercing damage (your choice), rather than bludgeoning. In addition, when an attack with it hits or misses, an item returns to your empty hand or lands at your feet immediately before the spell ends on it."
-                                ]
-                            },
-                            {
-                                "name": "Unearthing Arcana",
-                                "isClassFeatureVariant": true,
-                                "entries": [
-                                    "{@i Optional feature which replaces Fossilised Arcana}",
-                                    "At 3rd level, you learn the {@spell Mold Earth|XGE} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "When you cast the spell, you can do one of the normal effects, or you can detect the presence of fossils or deceased animal matter, such as bones, teeth or shells, within a 10-foot cube of earth or stone (you must be able to see the entirety of at least one side of the cube). You know the location and approximate size of such items within the area, but do not learn the type or identity of the creature it originated from."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Palaeontologist",
-                        "subclassSource": "J:Lore",
-                        "level": 7,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Calcified Bones",
-                                "entries": [
-                                    "Starting at 7th level, a creature you summon with your Ancient Bones feature has resistance to bludgeoning, piercing and slashing damage as its bones become as hard as stone.",
-                                    "In addition, when the creature hits with an attack, you can choose to have the attack deal necrotic damage instead of the normal damage type."
-                                ]
-                            },
-                            {
-                                "name": "Fossilised Flesh",
-                                "entries": [
-                                    "Starting at 7th level, you can use an action to begin turning the flesh and bone of a creature you can see within 30 feet into stone. The creature must make a Constitution saving throw against your lorehunter spell save DC or become fossilised for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. A creature made of inorganic material such as stone, crystal, or metal has advantage on this saving throw.",
-                                    "A fossilised creature is {@condition Slowed|J:General}, {@condition Dazed|J:General} and has a -2 penalty to its Armor Class and Dexterity saving throws. A creature summoned by your Ancient Bones feature deals an additional {@dice 1d8} damage with attacks against the fossiled creature.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Palaeontologist",
-                        "subclassSource": "J:Lore",
-                        "level": 11,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Bone Whisperer",
-                                "entries": [
-                                    "Starting at 11th level, when you cast {@spell Speak With Dead|XPHB} on the corpse of a beast or monstrosity, you can verbally communicate with it, even if it does not know any languages."
-                                ]
-                            },
-                            {
-                                "name": "Cement Life",
-                                "entries": [
-                                    "Starting at 11th level, when you would be reduced to 0 hit points you can choose to instead rapidly solidify your flesh. You drop to 1 {@variantrule Hit Point|XPHB} instead and gain {@variantrule Temporary Hit Points|XPHB} equal to 5 times your level, however, you are also {@condition Petrified|XPHB}. These effects last for one minute, until you have no remaining {@variantrule Temporary Hit Points|XPHB} or you end them at the end of one of your turns (no action required).",
-                                    "Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Palaeontologist",
-                        "subclassSource": "J:Lore",
-                        "level": 15,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Ancient King",
-                                "entries": [
-                                    "Starting at 15th level, you can expend two uses of your Ancient Bones feature to summon an {@creature Undead Rex|J:Lore} rather than one of the listed statblocks. You cannot use spell slots to summon the rex or extend its duration.",
-                                    "The rex obeys your commands as long as you maintain concentration (as if concentrating on a spell). You can dismiss the rex at any point on your turn (no action required). If you lose concentration before dismissing it, you also lose control of the rex and can no longer command or dismiss it. Using your Ancient Bones feature again after you lose control does not dismiss the rex. It spends its remaining turns pursuing and attacking any nearby creatures.",
-                                    "Once you use this feature, you cannot do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ]
+            "name": "+2 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "rare",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d7 + 1}",
+            "charges": 7,
+            "entries": [
+                "You have a +2 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
             ]
         },
         {
-            "name": "Strategist",
-            "shortName": "Strategist",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "additionalSpells": [
-                {
-                    "prepared": {
-                        "3": [
-                            "analyse weakness|J:Lore",
-                            "bless|XPHB"
-                        ],
-                        "5": [
-                            "pyrotechnics|XGE",
-                            "stagger/sunder|J:Lore"
-                        ],
-                        "9": [
-                            "summon warrior|J:Humanoids",
-                            "intellect fortress|TCE"
-                        ],
-                        "13": [
-                            "hallucinatory terrain|XPHB",
-                            "ray of impotence|J:general"
-                        ],
-                        "17": [
-                            "conjure volley|XPHB",
-                            "rary's telepathic bond|XPHB"
-                        ]
-                    }
-                }
-            ],
-            "subclassFeatures": [
-                [
-                    {
-                        "name": "Strategist",
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Strategist",
-                        "subclassSource": "J:Lore",
-                        "level": 3,
-                        "header": 1,
-                        "entries": [
-                            "War is among the greatest obsessions of the peoples of nearly all worlds. It can be tempting to think that warfare is simply mindless violence, but in many cases it can invovle some of the highest level mind games, with generals rivaling, or even surpassing, the greatest scholars. True warriors understand warfare is as much about strategy, communciation, deception, morale and coordination as it is about combat, if not more so.",
-                            "Strategist societies specialise in the study of warfare and tactics. Learning lessons from past victories and defeats to ensure or prevent future ones. You guide your allies in planning, creating and seizing opportunities on the battlefield, pushing yourselves ever closer to victory.",
-                            {
-                                "name": "Strategist Spells",
-                                "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Climatologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
-                                    {
-                                        "type": "table",
-                                        "caption": "Strategist Spells",
-                                        "colLabels": [
-                                            "Lorehunter Level",
-                                            "Spell"
-                                        ],
-                                        "colStyles": [
-                                            "col-2 text-center",
-                                            "col-10"
-                                        ],
-                                        "rows": [
-                                            [
-                                                "3rd",
-                                                "{@spell Analyse Weakness|J:Lore}, {@spell Bless|XPHB}"
-                                            ],
-                                            [
-                                                "5th",
-                                                "{@spell Pyrotechnics|XGE}, {@spell Stagger/Sunder|J:Lore}"
-                                            ],
-                                            [
-                                                "9th",
-                                                "{@spell Summon Warrior|J:Humanoids}, {@spell Intellect Fortress|TCE}"
-                                            ],
-                                            [
-                                                "13th",
-                                                "{@spell Hallucinatory Terrain|XPHB}, {@spell Ray of Impotence|J:General}"
-                                            ],
-                                            [
-                                                "17th",
-                                                "{@spell Conjure Volley|XPHB}, {@spell Rary's Telepathic Bond|XPHB}"
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Warrior of the Mind",
-                                "entries": [
-                                    "Starting at 3rd level, you can use Intelligence in place of Strength or Dexterity for weapon attack rolls and for ability checks using the athletics or acrobactics skill.",
-                                    "Additionally, you gain proficiency in two gaming sets of your choice. You can also use a weapon, gaming set or banner as a spellcasting focus for your lorehunter spells."
-                                ]
-                            },
-                            {
-                                "name": "Tactics",
-                                "entries": [
-                                    "Starting at 3rd level, you have a number of Tactics Points equal to your lorehunter level + your Intelligence modifier. You regain 2 expended Tactic points whenever you finish a {@variantrule Short Rest|XPHB}, and all expended points whenever you finish a {@variantrule Long Rest|XPHB}.",
-                                    "You can expend these points on the following techniques:",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            {
-                                                "name": "Assist Assault",
-                                                "entries": [
-                                                    "When a creature has advantage on an attack roll due to your {@action Help|XPHB} action and hits their target, you can use reaction and expend 2 points to have the attack deal an additional {@dice 2d6} damage. If the target is Bloodied, the extra damage increases to {@dice 3d6}."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Instant Move",
-                                                "entries": [
-                                                    "As a bonus action, you can expend up to 3 points and command creatures to move. For each point expended, one willing creature that you can see within 60 feet can use their reaction to move up to 10 feet without provoking oportunity attacks, provided their speed is not 0. You can spend multiple points on the same creature (they move as part of the same reaction) or spread them across multiple creatures."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Prepared for Action",
-                                                "entries": [
-                                                    "When you roll for initiative, you can expend 1 point to grant yourself, or a creature you can see within 30 feet, a bonus to your initiative roll equal to your Intelligence modifier."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Tactical Guidance",
-                                                "entries": [
-                                                    "When you take the {@action Help|XPHB} action, you can expend 1 point to target a creature you can see up to 60 feet away."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Stratagem Arcana",
-                                "entries": [
-                                    "At 3rd level, you know the {@spell Minor Illusion|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "Additionally, you can use the cantrip to create the image of a map or gaming set that you are proficient with. While still an illusion, a map or gaming set created in this way can be used like the real thing by you, or any creatures you allow, for the spell's duration. Individual pieces of the illusion can be moved in the same way you might move cards, tokens or other game pieces."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Strategist",
-                        "subclassSource": "J:Lore",
-                        "level": 7,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Knowledge over Blood",
-                                "entries": [
-                                    "Starting at 7th level, when you have the upper hand in battle you can seize the moment to learn about your foe. When have advantage on an attack roll against a creature, you can choose to forgo advantage (you cannot gain advantage from any other source) for one of the following benefits of your choice:",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            {
-                                                "name": "Take Notes",
-                                                "entries": [
-                                                    "You regain 1 expended Tactics Point. Once you gain this benefit, you cannot do so again for one hour."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Observe Physicality",
-                                                "entries": [
-                                                    "You learn the target's Strength, Dexterity or Constitution score (your choice). You also learn if they are proficient with saving throws of the chosen ability."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Probe Defences",
-                                                "entries": [
-                                                    "You learn the target's Armor Class and if their current hit points are greater or fewer than yours."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Watch Reflexes",
-                                                "entries": [
-                                                    "You learn one trait, feature or spell the target has that requires a reaction. If the target has no reactions, you are aware of this. If the target has multiple reactions, the DM determines which one you learn, though you may suggest the kind of reaction you are looking for based on potential triggers."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Strategist",
-                        "subclassSource": "J:Lore",
-                        "level": 11,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Warfare Is Based On Deception",
-                                "entries": [
-                                    "Starting at 11th level, as an action, you can spend 8 Tactics Points to reveal a secret plan you have retroactively been enacting through contraptions, hidden allies or subtle multitasking. Choose one of the following options or work with your DM to determine something appropriate to the situation:",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            {
-                                                "name": "False Retreat",
-                                                "entries": [
-                                                    "Choose up to six creatures you can see within 30 feet (this can include yourself) that are {@condition frightened} by the same source. Each frightened creature is no longer frightened and can use a reaction to move up to 15 feet towards the source. If the source was a creature, it must make a Wisdom saving throw against your lorehunter spell save DC or become frightend by the chosen creatures until the end of your next turn."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Just an Act",
-                                                "entries": [
-                                                    "You teleport yourself to an unoccupied space within 10 feet of a creature you can see within 60 feet, revealing yourself from a disguise or hiding spot. You can then make one weapon attack against that creature with advantage. On a hit, the attack deals an additional {@dice 6d6} damage and imposes either the {@condition bleeding|J:general} or {@condition prone|XPHB} condition (your choice). The space you previously occupied is revealed to have been occupied by an illusion or hired actor, which then harmlessly disperses or flees."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Manifest Machinations",
-                                                "entries": [
-                                                    "You cast a {@filter lorehunter spell of 3rd-level or lower|spells|source=|level=0;1;2;3|class=lorehunter (j:lore)|cast time=action;bonus;minute} without expending a spell slot or material components. The spell can have a casting time of up to 1 minute and needn't be one you have prepared. If the spell requires concentration, you have advantage on saving throws to maintain concentration on it for its duration."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Playing Dead",
-                                                "entries": [
-                                                    "An {@condition unconscious|XPHB} creature with 0 hit points that you can see within 30 feet regains hit points equal to your lorehunter level + your Intelligence modifier. The creature can immediately use a reaction to move up to its movement and take the {@action Dodge} or {@action Disengage} action."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Switcheroo",
-                                                "entries": [
-                                                    "A creature you can see within 30 feet must make a Wisdom saving throw against your lorehunter spell save DC or find that an item of your choice that they are holding or carrying has been switched for a fake. You are now holding the real item and the fake crumbles into dust. On a success, the item drops at the creature's feet instead. Picking it up requires an action."
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    "Once you use this feature, you cannot do again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Strategist",
-                        "subclassSource": "J:Lore",
-                        "level": 15,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Opportunities Multiplied",
-                                "entries": [
-                                    "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional action immediately, provided neither of you are incapacitated. The effect ends early once you grant four actions in this way.",
-                                    "Once you use this feature you cannot do so again until you finish a {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ]
+            "name": "+3 Poisoner's Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "poisoner's kit|phb",
+            "type": "T",
+            "rarity": "very rare",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
+            "entries": [
+                "You have a +3 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
             ]
         },
         {
-            "name": "Climatologist",
-            "shortName": "Climatologist",
-            "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
-            "classSource": "J:Lore",
-            "additionalSpells": [
+            "name": "+1 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
+            "charges": 5,
+            "entries": [
+                "You have a +1 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+2 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d6 + 1}",
+            "charges": 7,
+            "entries": [
+                "You have a +2 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "+3 Herbalism Kit of the Witch",
+            "source": "J:Witch",
+            "baseItem": "herbalism kit|phb",
+            "type": "T",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d8 + 1}",
+            "charges": 9,
+            "entries": [
+                "You have a +3 bonus to ability checks made with this set of tools.",
+                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
+            ]
+        },
+        {
+            "name": "Mugbear",
+            "source": "J:Caf\ufffd\ufffdy",
+            "wondrous": true,
+            "rarity": "common",
+            "entries": [
+                "This miraculous mug can be picked up from up to 10 feet away without needing to lean or move toward it."
+            ]
+        },
+        {
+            "name": "Leomund's Tiny Cup",
+            "source": "J:Caf\ufffd\ufffdy",
+            "wondrous": true,
+            "rarity": "common",
+            "entries": [
+                "This tiny cup holds about a thimble's worth of drink. The drink is always the perfect temperature and briefly fills you with a comforting warmth when you drink it."
+            ]
+        },
+        {
+            "name": "Yeast Sense",
+            "source": "J:Caf\ufffd\ufffdy",
+            "type": "P",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "This thick, brothy beer tastes like bread. The first time you see a piece of bread after drinking this beer, you percieve the world as if you were the bread, seeing and hearing from its space. While doing so, you are {@condition blinded} and {@condition deafened} to your own surroundings. These effects last for 1 minute or until you take damage."
+            ]
+        },
+        {
+            "name": "Cause Beer",
+            "source": "J:Caf\ufffd\ufffdy",
+            "type": "P",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "entries": [
+                "This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
+            ]
+        },
+        {
+            "name": "Potion of MADNESS",
+            "type": "P",
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
+            ]
+        },
+        {
+            "name": "MADNESS Tattoo",
+            "wondrous": true,
+            "tattoo": true,
+            "rarity": "rare",
+            "source": "J:MADNESS",
+            "entries": [
+                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
+                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanitheys from your skin."
+            ]
+        },
+        {
+            "name": "Xerc's Tin Foil Hat",
+            "wondrous": true,
+            "rarity": "rare",
+            "source": "JPP",
+            "entries": [
+                "This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
+            ]
+        },
+        {
+            "name": "Xerc's Medicinal Cheese",
+            "wondrous": true,
+            "rarity": "uncommon",
+            "source": "JPP",
+            "entries": [
+                "This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
+                "When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier."
+            ]
+        },
+        {
+            "name": "Xerc's Unicorn Totem",
+            "wondrous": true,
+            "rarity": "artifact",
+            "source": "JPP",
+            "reqAttune": true,
+            "entries": [
+                "This carved pale wood totem resembles a unicorn's head. While attuned to this item, you know the {@spell gust|xge} and {@spell magic stone|xge} cantrips and Wisdom is your spellcasting modifier for them.",
+                "When you cast the gust cantrip, the air erupts from your mouth and smells distictly of cheese. Similarly, the stones you imbue with the magic stone cantrip smell of cheese for the duration of the spell."
+            ]
+        },
+        {
+            "name": "Xerc's WeeWoo Bardiche",
+            "rarity": "artifact",
+            "source": "JPP",
+            "type": "M",
+            "weight": 6,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "R",
+                "2H"
+            ],
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "weapon": true,
+            "bonusWeapon": "+1",
+            "reqAttune": true,
+            "entries": [
+                "Wielded by the mighty orc chieftain Xerc, this polearm appears as brutal as it is deadly. It also goes \"WeeWoo\" very loudly when danger is near",
+                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@quickref Surprise|PHB|3|0|surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
+            ]
+        },
+        {
+            "name": "+1 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artifact",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
                 {
-                    "prepared": {
-                        "3": [
-                            "create or destroy water|XPHB",
-                            "caustic smite|J:General"
-                        ],
-                        "5": [
-                            "gust of wind|XPHB",
-                            "warding wind|XGE"
-                        ],
-                        "9": [
-                            "call lightning|XPHB",
-                            "wind wall|XPHB"
-                        ],
-                        "13": [
-                            "freedom of movement|XPHB",
-                            "summon elemental|XPHB"
-                        ],
-                        "17": [
-                            "control winds|XGE",
-                            "commune with nature|XPHB"
-                        ]
-                    }
+                    "class": "warlock",
+                    "subclass": "fathomless"
                 }
             ],
-            "subclassFeatures": [
-                [
-                    {
-                        "name": "Climatologist",
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Climatologist",
-                        "subclassSource": "J:Lore",
-                        "level": 3,
-                        "header": 1,
-                        "entries": [
-                            "WIP",
-                            {
-                                "name": "Climatologist Spells",
-                                "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Climatologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
-                                    {
-                                        "type": "table",
-                                        "caption": "Climatologist Spells",
-                                        "colLabels": [
-                                            "Lorehunter Level",
-                                            "Spell"
-                                        ],
-                                        "colStyles": [
-                                            "col-2 text-center",
-                                            "col-10"
-                                        ],
-                                        "rows": [
-                                            [
-                                                "3rd",
-                                                "{@spell Create or Destroy water|XPHB}, {@spell Caustic Smite|J:General}"
-                                            ],
-                                            [
-                                                "5th",
-                                                "{@spell Gust of Wind|XPHB}, {@spell Warding Wind|XGE}"
-                                            ],
-                                            [
-                                                "9th",
-                                                "{@spell Call Lightning|XPHB}, {@spell Wind Wall|XPHB}"
-                                            ],
-                                            [
-                                                "13th",
-                                                "{@spell Freedom of Movement|XPHB}, {@spell Summon Elemental|XPHB}"
-                                            ],
-                                            [
-                                                "17th",
-                                                "{@spell Control Winds|XGE}, {@spell Commune with Nature|XPHB}"
-                                            ]
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Naturalist",
-                                "entries": [
-                                    "At 3rd level, you gain proficiency in the nature and survival skills if you don't already have them.",
-                                    "In addition, you have advantage on Intelligence (Investigation) checks when investigating natural terrain, even that created by illusions."
-                                ]
-                            },
-                            {
-                                "name": "Microclimate",
-                                "entries": [
-                                    "Starting at 3rd level, you can use a bonus action to subtly alter the environment in a 15-foot-radius sphere, centered on a point you can see within 60 feet. Choose one of the effects listed below, the area is filled with the chosen effect for 1 minute, or until you are {@condition incapacitated|XPHB}. As a bonus action on subsequent turns for the duration, you can move the area up to 30 feet or change the effect but not both. If the effect allows a creature to make a saving throw, the saving throw uses your lorehunter spell save DC.",
-                                    "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses on a {@variantrule Long Rest|XPHB}. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            {
-                                                "name": "Arid Air",
-                                                "entries": [
-                                                    "Creatures that start their turn in the area are {@condition hampered|J:general} and {@condition distracted|J:general} until the start of their next turn as their throats and skin become uncomfortably dry. Creatures submerged underwater are unaffected."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Damp Air",
-                                                "entries": [
-                                                    "Creatures in the area have disadvantage on Constitution saving throws against cold damage, poison damage, the {@condition poisoned|XPHB} condition or disease."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Scorching Heat",
-                                                "entries": [
-                                                    "When a creature in the area takes fire damage, it takes an additional {@dice 1d6} fire damage. When a creature in the area takes cold damage, the cold damage is reduced by {@dice 1d6} (to a minimum of 0)."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Freezing Cold",
-                                                "entries": [
-                                                    "When a creature in the area takes cold damage, it takes an additional {@dice 1d6} cold damage. When a creature in the area takes fire damage, the fire damage is reduced by {@dice 1d6} (to a minimum of 0)."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Obscuring Mist",
-                                                "entries": [
-                                                    "The area is lightly obscured by a natural looking mist. A creature can make an Intelligence (Investigation) or Wisdom (Nature) check agaisnt your lorehunter spell save DC to determine that the mist is unnatural."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Environmental Arcana",
-                                "entries": [
-                                    "At 3rd level, you know the {@spell Elementalism|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a reaction to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Climatologist",
-                        "subclassSource": "J:Lore",
-                        "level": 7,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Squall Strike",
-                                "entries": [
-                                    "Starting at 7th level, when you hit a creature inside the area of your Microclimate with a weapon attack, you can push them up to 10 feet in a direction of your choice."
-                                ]
-                            },
-                            {
-                                "name": "Wild Wanderer",
-                                "entries": [
-                                    "Starting at 7th level, you gain a climbing speed equal to your walking speed and moving through difficult terrain costs you no extra movement. In addition, being lightly obscured by weather, such as rain or fog, does not impose disadvantage on your Wisdom (Perception) checks. Finally you take half damage from falling as you cushion yourself with wind, snow or mud."
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Climatologist",
-                        "subclassSource": "J:Lore",
-                        "level": 11,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Extreme Microclimates",
-                                "entries": [
-                                    "Starting at 11th level, you can choose to target either a 15-foot-radius sphere or a 20-foot-radius sphere with your Microclimate feature.",
-                                    "Additionally, when you create the Microclimate you can choose an additional effect from the list below:",
-                                    {
-                                        "type": "list",
-                                        "style": "list-hang-notitle",
-                                        "items": [
-                                            {
-                                                "name": "Hostile Climate",
-                                                "entries": [
-                                                    "You can use a bonus action to force all creatures in the area to make a Constitution saving throw or take {@dice 3d6} acid, cold, fire, lightning or poison damage (your choice) or half as much on a successful save."
-                                                ]
-                                            },
-                                            {
-                                                "name": "Cleansing Winds",
-                                                "entries": [
-                                                    "Fogs and gasses in this area are dispersed and fires within the area are extinguished. If such effects would be sustained by spells of 6th-level or higher, they are supressed for the duration.",
-                                                    "The area also provides safe, breatheable air for any creatures inside it for the duration, even underwater."
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
-                        "classSource": "J:Lore",
-                        "subclassShortName": "Climatologist",
-                        "subclassSource": "J:Lore",
-                        "level": 15,
-                        "header": 2,
-                        "entries": [
-                            {
-                                "name": "Storm Rider",
-                                "entries": [
-                                    "Starting at 15th level, as a bonus action, you can ride the winds themselves and gain a flying speed equal to your walking speed for up to 10 minutes. If you are in an area of high wind, such as a storm, your flying speed increases by 10 feet for this duration. If you fall while under these effects, you do not take damage or fall {@condition prone|XPHB} as a result.",
-                                    "Once you use this feature, you cannot do so again until you finsh a {@variantrule Long Rest|XPHB}, unless you expend a spell slot of 3rd-level or higher."
-                                ]
-                            }
-                        ]
-                    }
-                ]
+            "weight": 2,
+            "bonusSpellAttack": "+1",
+            "bonusSpellSaveDc": "+1",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon.",
+                "While holding this tooth, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest."
+            ]
+        },
+        {
+            "name": "+2 Tooth of Abyssos",
+            "source": "JPP",
+            "type": "RD",
+            "rarity": "artifact",
+            "reqAttune": "by a fathomless warlock",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock",
+                    "subclass": "fathomless"
+                }
+            ],
+            "weight": 2,
+            "bonusSpellAttack": "+2",
+            "bonusSpellSaveDc": "+2",
+            "entries": [
+                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon. Since its discovery, it has been enhanced by Teximus of Thalia and also by a chaotic being from the realms of Madness.",
+                "While holding this tooth, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest.",
+                "Finally, when you cast a warlock spell using this tooth, you can roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook. If the result is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you roll a 99 or higher, you regain an expended warlock spell slot."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Maul",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 12,
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "2H"
+            ],
+            "dmg1": "2d6",
+            "dmgType": "B",
+            "hammer": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand was found fused with stone in the volcano of Thalia. It's possible this was intended as a challenge for adventurers to free the hand from the stone. Unfotunately, the most recent adventurer to come across it, simply took the stone along with the hand.",
+                "This weapon uses the statistics of a {@item maul|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Longsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 4,
+            "weaponCategory": "martial",
+            "property": [
+                "V"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "dmg2": "1d10",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This large bronze clockhand was found in the volcano of Thalia.",
+                "This weapon uses the statistics of a {@item longsword|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Broddah's Clockhand Shortsword",
+            "source": "JPP",
+            "type": "M",
+            "rarity": "none",
+            "weight": 3,
+            "property": [
+                "F",
+                "L"
+            ],
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "sword": true,
+            "weapon": true,
+            "entries": [
+                "This narrow bronze clockhand was once wielded by an {@creature fire elemental myrmidon|mpmm} in the volcano of Thalia. It was very proud it.",
+                "This weapon uses the statistics of a {@item shortsword|phb}, but is otherwise considered an improvised weapon."
+            ]
+        },
+        {
+            "name": "Watermelon of Healing",
+            "type": "P",
+            "rarity": "legendary",
+            "source": "JPP",
+            "entries": [
+                "This watermelon was grown using an infusion of various elixirs, protecting it from decay and granting restorative properties when consumed. It weighs {@dice 3d6+12} pounds when found. Some variants are magically flavored to taste like all manor of foodstuffs.",
+                "You can use an action to eat a number of pounds of the watermelon and regain {@dice 1d4+1} hit points for each pound consumed. If you attempt to consume 4 pounds or more in a single action, you must succeed on a Constitution saving throw (DC 8 + pounds consumed), or fail to regain any hit points and become {@condition incapacitated} until the end of your next turn as you begin vomiting profusely.",
+                "Additionally, If you consume 15 pounds or more in a single turn without failing the saving throw, you have advantage on Charisma (Intimidation) checks against creatures that saw you consume the melon for the next minute."
+            ]
+        },
+        {
+            "name": "Broddah's Wooden Cup",
+            "type": "P",
+            "rarity": "artifact",
+            "source": "JPP",
+            "entries": [
+                "This simple looking wooden cup holds a fragment of legacy from those who love Broddah, his family, his friends and all those whom he has helped and brought joy to.",
+                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
+                "When you drink from this cup while attuned, invisible spirits of Broddah's loved ones lend their strength to yours. You gain the following benefits until you finish your next long rest:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you take the {@action Grapple} or {@action Shove} action, you can target a creature of any size. If the target is more than two sizes larger than you, it has advantage on Strength (Athletics) checks to avoid or escape your grapple or shove.",
+                        "Moving with a grappled creature that is your size or smaller no longer halves your movement speed."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Broddah's Adamantine Cup",
+            "type": "P",
+            "rarity": "artifact",
+            "source": "JPP",
+            "entries": [
+                "This elaborate but slightly melted adamantine cup holds a fragment of the connections and affection Broddah has fostered with divine beings, primarily Dionysus.",
+                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
+                "When you drink heavily from this cup while attuned, your mind briefly reaches a higher (or lower) state of being, allowing you to converse with a divine being in a similarly intoxicated state and that is familiar to Broddah, usually Dionysus. You can cast the {@spell commune|phb} spell without expending a spell slot. Once you cast the spell using this item, you cannot do so again until the next dawn."
+            ]
+        },
+        {
+            "name": "The Morning Herald",
+            "source": "JPP",
+            "baseItem": "wheellock pistol|J:Firearms",
+            "age": "renaissance",
+            "type": "R",
+            "weaponCategory": "martial",
+            "weapon": true,
+            "firearm": true,
+            "rarity": "none",
+            "weight": 6,
+            "ammunition": true,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "range": "30/90",
+            "property": [
+                "LD",
+                "A",
+                "H"
+            ],
+            "entries": [
+                "This modified brass and redwood giff training pistol was given to Bonnie O'Flynn by Horatio Kalthoff as he trained her to wield, repair and modify firearms. It is noticably heavier than a typical pistol and features two vertically stacked barrels, each with their own wheel and trigger. Firing this pistol is extremely loud, hence its name."
+            ]
+        },
+        {
+            "name": "The Gift",
+            "source": "JPP",
+            "baseItem": "flintlock musket|J:Firearms",
+            "age": "renaissance",
+            "type": "R",
+            "weaponCategory": "martial",
+            "weapon": true,
+            "firearm": true,
+            "rarity": "none",
+            "weight": 10,
+            "ammunition": true,
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "range": "40/120",
+            "property": [
+                "LD",
+                "A",
+                "2H",
+                "H"
+            ],
+            "entries": [
+                "This ornate black and silver musket was given to Bonnie O'Flynn by a late friend. It has cleary seen much use, as well as many repairs and modifications throughout the years. It also features the name 'Amanda' crudely carved into the stock."
             ]
         }
     ],
     "spell": [
-        {
-            "name": "Darklight",
-            "source": "J:Lore",
-            "level": 1,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            },
-            "components": {
-                "s": true,
-                "m": "a metal or glass rod worth at least 1sp"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries": [
-                "You touch the rod used in the spell's casting and it begins to emit a faint, dark-purple glow, casting dim light out to a range of 60ft for the spell's duration. Choose up to six creatures (this can include yourself) when you cast the spell to see the light, the light is invisible to all other creatures."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of a higher level, the range of the light increases to 120ft with a 3rd-level slot or higher, and to 300ft with a 5th-level slot or higher."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Analyse Weakness",
-            "source": "J:Lore",
-            "level": 2,
-            "school": "D",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You observe one creature you can see within range and determine methods to circumvent a particular resistance of theirs. Choose a damage type; acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, or thunder.",
-                "For the spell's duration, you and any creatures you choose can ignore the target's resistance, if any, to the chosen damage type."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Explosive Excavation",
-            "source": "J:Lore",
-            "level": 3,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "A pinch of black power or clay"
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "entries": [
-                "You create a powerful concusive explosion in a 15-foot radius sphere centered on a point you can see within range. Each creature within the area must make a Constitution saving throw. A creature takes {@dice 4d8} thunder damage on a failed save, or half as much damage on a successful one.",
-                "A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area. If the object is made primarily of inorganic or vegetable matter, such as stone, wood or metal, it takes double damage from this spell. Loose objects and earth are blasted up to 10 feet away from the center of the area."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 4d8|3-9|1d8} for each slot level above 3rd."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Speak with Documents",
-            "source": "J:Lore",
-            "level": 2,
-            "school": "D",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 10
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "A bookmark or a magnifying class worth at least 10gp"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10
-                    }
-                }
-            ],
-            "entries": [
-                "You awaken some imitation of sentience within a collection of books, scrolls or similar documents that fit within a 5-foot cube, allowing it to answer questions you pose to them. The spell fails if the documents are protected from divination or were the target of this spell within the last 10 days.",
-                "Until the spell ends, you can ask the documents up to five questions. The documents possess knowledge of their contents, understands the languages written within in and basic information about their creation and history. The documents can quickly summarise information or speculate based upon its knowledge. A document may know basic information about who created it and when, but doesn't know anything about other documents it may have been copied from. For example, a printed book may know when it was printed and the company that printed it, but it might not know anything about the author who created the original text."
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Perfect Recall",
-            "source": "J:Lore",
-            "level": 1,
-            "school": "I",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "components": {
-                "s": true,
-                "m": "A glass lens or orb"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    }
-                }
-            ],
-            "entries": [
-                "You magically preserve the information your senses receive for recreation at a later date. You perfectly record the sights, sounds and smells you sense within a 30-foot radius sphere centered on yourself for the duration of the spell. The spell cannot record things which you do not witness with your senses at the time, such as creatures and objects that are invisible or behind cover.",
-                "At any point within the next year, you can cast this spell again to project an illusionary version of the scene in an area around you. Creatures inside the area can witness the scene as you did, though they cannot witness anything you didn't, regardless of their own senses."
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Stagger/Sunder",
-            "source": "J:Lore",
-            "level": 2,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a small hammer and punch"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You find and highlight weaknesses in the defences of a creature you can see within range. That creature must make a Wisdom saving throw or become {@condition staggered|J:general} or {@condition sundered|J:general} (your choice) for the spell's duration. A creature can repeat the saving throw at the end of each of its turns, removing the condition on a success."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell at 3rd-level or higher, you can target an additional creature for every level above 2nd-level."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    },
-                    {
-                        "name": "Artificer",
-                        "source": "TCE"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Compelled Debate",
-            "source": "J:Lore",
-            "level": 2,
-            "school": "E",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 30
-                }
-            },
-            "components": {
-                "v": true,
-                "m": "a scroll and a bell"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "Choose a a creature you can see within range that can see or hear you and that shares at least one language with you. That creature must make a Wisdom saving throw or be compelled to debate you on various topics for the duration of the spell.",
-                "On each of its turns, the creature must use either an action or bonus action to debate you. The creature makes an Intelligence check contested by your spellcasting ability check. If the creature used a bonus action, it has disadvantage on this check. The loser takes {@damage 2d8} psychic damage (the target loses on a tie).",
-                "If either you or the target is unable to speak or sign, such as being {@condition incapacitated|XPHB} or {@condition silenced|J:general}, they automatically fail the contested check. If neither of you can do so, no contested check is made and neither of you take damage.",
-                "The spell ends early if the creature ends its turn more than 60 feet from you."
-            ],
-            "entriesHigherLevel": [
-                {
-                    "type": "entries",
-                    "name": "At Higher Levels",
-                    "entries": [
-                        "When you cast this spell at 3rd-level or higher, the damage taken by the target on a failed contest increases by {@damage 1d8} for each level above 2nd. The damage you take if they succeed does not increase."
-                    ]
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Lorehunter (WIP)",
-                        "source": "J:Lore"
-                    }
-                ]
-            }
-        },
         {
             "name": "Enhance Concoction",
             "source": "J:Witch",
@@ -2945,408 +1166,6 @@
         }
     ],
     "monster": [
-        {
-            "name": "Undead Bulker",
-            "source": "J:Lore",
-            "size": [
-                "M",
-                "L"
-            ],
-            "type": {
-                "type": "undead",
-                "tags": [
-                    "dinosaur"
-                ]
-            },
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "special": "12 + PB"
-                }
-            ],
-            "hp": {
-                "special": "10xPB + 15"
-            },
-            "speed": {
-                "walk": 40
-            },
-            "str": 16,
-            "dex": 12,
-            "con": 16,
-            "int": 6,
-            "wis": 10,
-            "cha": 10,
-            "skill": {
-                "athletics": "+3+PB",
-                "intimidation": "+0+PB"
-            },
-            "passive": 10,
-            "languages": [
-                "understands the languages you know but doesn't speak"
-            ],
-            "pbNote": "equals your Proficiency Bonus",
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "poisoned"
-            ],
-            "trait": [
-                {
-                    "name": "Trampling Charge",
-                    "entries": [
-                        "If the bulker moves at least 20 feet straight toward a creature and then hits it with a maul attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked {@condition prone|XPHB}. If the target is prone, the bulker can make one stomp attack against it as a bonus action."
-                    ]
-                },
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The bulker makes a number of attacks equal to your half your PB (rounded up)."
-                    ]
-                },
-                {
-                    "name": "Maul",
-                    "entries": [
-                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d10 + PB} bludgeoning, piercing or slashing damage (your choice)."
-                    ]
-                },
-                {
-                    "name": "Stomp",
-                    "entries": [
-                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one prone creature. {@damage 1d12 + PB} bludgeoning damage."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "damageTags": [
-                "B",
-                "P",
-                "S"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "fluff": [
-                "Undead bulkers are ancient reanimated beasts. Compared to undead prowlers and soarers, bulkers excel in raw strength, resilience and momentum. They can handle, and deal, significant damage with ease.",
-                "Beasts that might be reanimated as bulkers might include ankylosaurs, triceratops, mammoths, wholly rhinos or helicoprions."
-            ]
-        },
-        {
-            "name": "Undead Prowler",
-            "source": "J:Lore",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "undead",
-                "tags": [
-                    "dinosaur"
-                ]
-            },
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "special": "11 + PB"
-                }
-            ],
-            "hp": {
-                "special": "10xPB + 5"
-            },
-            "speed": {
-                "walk": 50
-            },
-            "str": 10,
-            "dex": 16,
-            "con": 16,
-            "int": 6,
-            "wis": 10,
-            "cha": 8,
-            "skill": {
-                "intimidation": "-1+PB",
-                "stealth": "+3+PB"
-            },
-            "passive": 10,
-            "languages": [
-                "understands the languages you know but doesn't speak"
-            ],
-            "pbNote": "equals your Proficiency Bonus",
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "poisoned"
-            ],
-            "trait": [
-                {
-                    "name": "Pounce",
-                    "entries": [
-                        "If the prowler moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a Strength saving throw against your spell save DC or be knocked prone."
-                    ]
-                },
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
-                    ]
-                },
-                {
-                    "name": "Cunning Combatant",
-                    "entries": [
-                        "The prowler can use a bonus action to take the Dodge, Disengage, Help or Hide action."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The prowler makes a number of attacks equal to your half your PB (rounded down)."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d10 + PB} piercing damage."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "fluff": [
-                "Undead prowlers are ancient reanimated beasts. Compared to undead bulkers and soarers, prowlers excel in stealth, speed and tactics. Lurking in the shadows or surrounding enemies alongside allies.",
-                "Beasts that may be reanimated as prowlers might include deinonychuses, dire-wolves, sabre-toothed tigers or anomalocarididae."
-            ]
-        },
-        {
-            "name": "Undead Soarer",
-            "source": "J:Lore",
-            "size": [
-                "S",
-                "M"
-            ],
-            "type": {
-                "type": "undead",
-                "tags": [
-                    "dinosaur"
-                ]
-            },
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "special": "10 + PB"
-                }
-            ],
-            "hp": {
-                "special": "10xPB"
-            },
-            "speed": {
-                "walk": 20,
-                "fly": 60
-            },
-            "str": 10,
-            "dex": 14,
-            "con": 14,
-            "int": 6,
-            "wis": 16,
-            "cha": 8,
-            "skill": {
-                "intimidation": "-1+PB",
-                "perception": "+3+PB"
-            },
-            "passive": "13+PB",
-            "languages": [
-                "understands the languages you know but doesn't speak"
-            ],
-            "pbNote": "equals your Proficiency Bonus",
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "poisoned"
-            ],
-            "trait": [
-                {
-                    "name": "Flyby",
-                    "entries": [
-                        "The soarer doesn't provoke opportunity attacks when it flies out of an enemy's reach."
-                    ]
-                },
-                {
-                    "name": "Keen Sight",
-                    "entries": [
-                        "The soarer has advantage on Wisdom (Perception) checks that rely on sight."
-                    ]
-                },
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the bulker to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the bulker drops to 1 Hit Point instead."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The prowler makes a number of attacks equal to your half your PB (rounded down)."
-                    ]
-                },
-                {
-                    "name": "Peck",
-                    "entries": [
-                        "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@damage 1d8 + PB} piercing damage."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "damageTags": [
-                "P"
-            ],
-            "miscTags": [
-                "MW"
-            ],
-            "fluff": [
-                "Undead soarers are ancient reanimated beasts. Compared to undead bulkers and prowlers, soarers excel at traversal and reconnaissance. Typically great flyers, they can quickly scour the land from above to spot both threats and prey.",
-                "Beasts that may be reanimated as prowlers might include pteranodons or various birds of prey."
-            ]
-        },
-        {
-            "name": "Undead Rex",
-            "source": "J:Lore",
-            "size": [
-                "H"
-            ],
-            "type": {
-                "type": "undead",
-                "tags": [
-                    "dinosaur"
-                ]
-            },
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "special": "20xPB + 30"
-            },
-            "speed": {
-                "walk": 50
-            },
-            "str": 25,
-            "dex": 10,
-            "con": 19,
-            "int": 2,
-            "wis": 12,
-            "cha": 12,
-            "skill": {
-                "intimidation": "+4",
-                "perception": "+4"
-            },
-            "passive": 14,
-            "languages": [
-                "understands the languages you know but doesn't speak"
-            ],
-            "pbNote": "equals your Proficiency Bonus",
-            "resistance": [
-                "bludgeoning",
-                "slashing",
-                "piercing"
-            ],
-            "immune": [
-                "poison",
-                "necrotic"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "exhaustion",
-                "poisoned"
-            ],
-            "trait": [
-                {
-                    "name": "Undead Fortitude",
-                    "entries": [
-                        "If damage reduces the rex to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 plus the damage taken unless the damage is Radiant or from a Critical Hit. On a successful save, the rex drops to 1 Hit Point instead."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The rex makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target."
-                    ]
-                },
-                {
-                    "name": "Bite",
-                    "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}27 ({@damage 3d12 + 7}) piercing damage and 7 ({@damage 1d12}) necrotic damage. If the target is a Medium or smaller creature, it is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and the rex can't bite another target."
-                    ]
-                },
-                {
-                    "name": "Tail",
-                    "entries": [
-                        "{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
-                    ]
-                }
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
-            "damageTags": [
-                "B",
-                "P"
-            ],
-            "miscTags": [
-                "MW",
-                "RCH"
-            ],
-            "conditionInflict": [
-                "grappled",
-                "restrained"
-            ]
-        },
         {
             "name": "Barabak",
             "source": "J:BoP",
@@ -5659,400 +3478,6 @@
                         }
                     ]
                 }
-            ]
-        }
-    ],
-    "item": [
-        {
-            "name": "+1 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d4 + 1}",
-            "charges": 5,
-            "entries": [
-                "You have a +1 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+2 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "rare",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d7 + 1}",
-            "charges": 7,
-            "entries": [
-                "You have a +2 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+3 Poisoner's Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "poisoner's kit|phb",
-            "type": "T",
-            "rarity": "very rare",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d8 + 1}",
-            "charges": 9,
-            "entries": [
-                "You have a +3 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting poisons only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+1 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d4 + 1}",
-            "charges": 5,
-            "entries": [
-                "You have a +1 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 5 charges, and regains {@dice 1d4+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +1 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+2 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d6 + 1}",
-            "charges": 7,
-            "entries": [
-                "You have a +2 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 7 charges, and regains {@dice 1d6+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +2 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "+3 Herbalism Kit of the Witch",
-            "source": "J:Witch",
-            "baseItem": "herbalism kit|phb",
-            "type": "T",
-            "rarity": "uncommon",
-            "wondrous": true,
-            "recharge": "dawn",
-            "rechargeAmount": "{@dice 1d8 + 1}",
-            "charges": 9,
-            "entries": [
-                "You have a +3 bonus to ability checks made with this set of tools.",
-                "Additionally, this item has 9 charges, and regains {@dice 1d8+1} charges daily at dawn. If you are proficient with these tools, you can expend 2 or more charges to cast the {@spell enhance concoction|J:Witch} spell, targeting potions only. For 2 charges you cast the 2nd-level version of the spell, for each additional charge you expend, the spell's level increases by 1. Intelligence is your spellcasting ability for this spell, and you have a +3 bonus to your spell save DC for this casting, unless you already have a bonus to your spell save DC."
-            ]
-        },
-        {
-            "name": "Mugbear",
-            "source": "J:Caf\ufffd\ufffdy",
-            "wondrous": true,
-            "rarity": "common",
-            "entries": [
-                "This miraculous mug can be picked up from up to 10 feet away without needing to lean or move toward it."
-            ]
-        },
-        {
-            "name": "Leomund's Tiny Cup",
-            "source": "J:Caf\ufffd\ufffdy",
-            "wondrous": true,
-            "rarity": "common",
-            "entries": [
-                "This tiny cup holds about a thimble's worth of drink. The drink is always the perfect temperature and briefly fills you with a comforting warmth when you drink it."
-            ]
-        },
-        {
-            "name": "Yeast Sense",
-            "source": "J:Caf\ufffd\ufffdy",
-            "type": "P",
-            "wondrous": true,
-            "rarity": "uncommon",
-            "entries": [
-                "This thick, brothy beer tastes like bread. The first time you see a piece of bread after drinking this beer, you percieve the world as if you were the bread, seeing and hearing from its space. While doing so, you are {@condition blinded} and {@condition deafened} to your own surroundings. These effects last for 1 minute or until you take damage."
-            ]
-        },
-        {
-            "name": "Cause Beer",
-            "source": "J:Caf\ufffd\ufffdy",
-            "type": "P",
-            "wondrous": true,
-            "rarity": "uncommon",
-            "entries": [
-                "This golden ale allows you to share the sensations of inebriation. When you drink this ale, once before your next long rest, you can choose up to three creatures you can see within 30 feet. Each creature must make a DC 13 Constitution saving throw or become inebriated and {@condition poisoned} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success."
-            ]
-        },
-        {
-            "name": "Potion of MADNESS",
-            "type": "P",
-            "rarity": "rare",
-            "source": "J:MADNESS",
-            "entries": [
-                "This squirming liquid appears to change color and consistency constantly. You gain {@dice 2d10} temporary hitpoints when you drink this potion and trigger a {@table Wild Magic Surge|PHB}."
-            ]
-        },
-        {
-            "name": "MADNESS Tattoo",
-            "wondrous": true,
-            "tattoo": true,
-            "rarity": "rare",
-            "source": "J:MADNESS",
-            "entries": [
-                "Produced by even gods don't know what, this magic tattoo features a constantly shifting and squiggly spiral pattern that seems to change between various red and yellow hues randomly.",
-                "As an action You can cast the {@spell confusion|phb} spell (DC 15) one time without material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanitheys from your skin."
-            ]
-        },
-        {
-            "name": "Xerc's Tin Foil Hat",
-            "wondrous": true,
-            "rarity": "rare",
-            "source": "JPP",
-            "entries": [
-                "This tin foil hat is not actually magical in any way but if the wearer believes strongly enough that it is, it grants them advantage on saving throws to avoid being {@condition charmed|phb} or {@condition frightened|phb}."
-            ]
-        },
-        {
-            "name": "Xerc's Medicinal Cheese",
-            "wondrous": true,
-            "rarity": "uncommon",
-            "source": "JPP",
-            "entries": [
-                "This foul smelling cheese appears to be covered in cat hairs and can be used to restore vitality...somehow.",
-                "When a creature consumes this cheese as a bonus action, they can instantly expend and roll one Hit Die, they then regain hit points equal to the result of the roll + their Constitution modifier."
-            ]
-        },
-        {
-            "name": "Xerc's Unicorn Totem",
-            "wondrous": true,
-            "rarity": "artifact",
-            "source": "JPP",
-            "reqAttune": true,
-            "entries": [
-                "This carved pale wood totem resembles a unicorn's head. While attuned to this item, you know the {@spell gust|xge} and {@spell magic stone|xge} cantrips and Wisdom is your spellcasting modifier for them.",
-                "When you cast the gust cantrip, the air erupts from your mouth and smells distictly of cheese. Similarly, the stones you imbue with the magic stone cantrip smell of cheese for the duration of the spell."
-            ]
-        },
-        {
-            "name": "Xerc's WeeWoo Bardiche",
-            "rarity": "artifact",
-            "source": "JPP",
-            "type": "M",
-            "weight": 6,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "R",
-                "2H"
-            ],
-            "dmg1": "1d10",
-            "dmgType": "S",
-            "weapon": true,
-            "bonusWeapon": "+1",
-            "reqAttune": true,
-            "entries": [
-                "Wielded by the mighty orc chieftain Xerc, this polearm appears as brutal as it is deadly. It also goes \"WeeWoo\" very loudly when danger is near",
-                "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-                "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be {@quickref Surprise|PHB|3|0|surprised}, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
-            ]
-        },
-        {
-            "name": "+1 Tooth of Abyssos",
-            "source": "JPP",
-            "type": "RD",
-            "rarity": "artifact",
-            "reqAttune": "by a fathomless warlock",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock",
-                    "subclass": "fathomless"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+1",
-            "bonusSpellSaveDc": "+1",
-            "entries": [
-                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon.",
-                "While holding this tooth, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest."
-            ]
-        },
-        {
-            "name": "+2 Tooth of Abyssos",
-            "source": "JPP",
-            "type": "RD",
-            "rarity": "artifact",
-            "reqAttune": "by a fathomless warlock",
-            "reqAttuneTags": [
-                {
-                    "class": "warlock",
-                    "subclass": "fathomless"
-                }
-            ],
-            "weight": 2,
-            "bonusSpellAttack": "+2",
-            "bonusSpellSaveDc": "+2",
-            "entries": [
-                "This long and thin tooth allegedly originates from an ancient and monstorous child of Typhon. Since its discovery, it has been enhanced by Teximus of Thalia and also by a chaotic being from the realms of Madness.",
-                "While holding this tooth, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
-                "In addition, you can regain one warlock spell slot as an action while holding the tooth. You can't use this property again until you finish a long rest.",
-                "Finally, when you cast a warlock spell using this tooth, you can roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook. If the result is a spell that normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration. If you roll a 99 or higher, you regain an expended warlock spell slot."
-            ]
-        },
-        {
-            "name": "Broddah's Clockhand Maul",
-            "source": "JPP",
-            "type": "M",
-            "rarity": "none",
-            "weight": 12,
-            "weaponCategory": "martial",
-            "property": [
-                "H",
-                "2H"
-            ],
-            "dmg1": "2d6",
-            "dmgType": "B",
-            "hammer": true,
-            "weapon": true,
-            "entries": [
-                "This large bronze clockhand was found fused with stone in the volcano of Thalia. It's possible this was intended as a challenge for adventurers to free the hand from the stone. Unfotunately, the most recent adventurer to come across it, simply took the stone along with the hand.",
-                "This weapon uses the statistics of a {@item maul|phb}, but is otherwise considered an improvised weapon."
-            ]
-        },
-        {
-            "name": "Broddah's Clockhand Longsword",
-            "source": "JPP",
-            "type": "M",
-            "rarity": "none",
-            "weight": 4,
-            "weaponCategory": "martial",
-            "property": [
-                "V"
-            ],
-            "dmg1": "1d8",
-            "dmgType": "S",
-            "dmg2": "1d10",
-            "sword": true,
-            "weapon": true,
-            "entries": [
-                "This large bronze clockhand was found in the volcano of Thalia.",
-                "This weapon uses the statistics of a {@item longsword|phb}, but is otherwise considered an improvised weapon."
-            ]
-        },
-        {
-            "name": "Broddah's Clockhand Shortsword",
-            "source": "JPP",
-            "type": "M",
-            "rarity": "none",
-            "weight": 3,
-            "property": [
-                "F",
-                "L"
-            ],
-            "dmg1": "1d6",
-            "dmgType": "P",
-            "sword": true,
-            "weapon": true,
-            "entries": [
-                "This narrow bronze clockhand was once wielded by an {@creature fire elemental myrmidon|mpmm} in the volcano of Thalia. It was very proud it.",
-                "This weapon uses the statistics of a {@item shortsword|phb}, but is otherwise considered an improvised weapon."
-            ]
-        },
-        {
-            "name": "Watermelon of Healing",
-            "type": "P",
-            "rarity": "legendary",
-            "source": "JPP",
-            "entries": [
-                "This watermelon was grown using an infusion of various elixirs, protecting it from decay and granting restorative properties when consumed. It weighs {@dice 3d6+12} pounds when found. Some variants are magically flavored to taste like all manor of foodstuffs.",
-                "You can use an action to eat a number of pounds of the watermelon and regain {@dice 1d4+1} hit points for each pound consumed. If you attempt to consume 4 pounds or more in a single action, you must succeed on a Constitution saving throw (DC 8 + pounds consumed), or fail to regain any hit points and become {@condition incapacitated} until the end of your next turn as you begin vomiting profusely.",
-                "Additionally, If you consume 15 pounds or more in a single turn without failing the saving throw, you have advantage on Charisma (Intimidation) checks against creatures that saw you consume the melon for the next minute."
-            ]
-        },
-        {
-            "name": "Broddah's Wooden Cup",
-            "type": "P",
-            "rarity": "artifact",
-            "source": "JPP",
-            "entries": [
-                "This simple looking wooden cup holds a fragment of legacy from those who love Broddah, his family, his friends and all those whom he has helped and brought joy to.",
-                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
-                "When you drink from this cup while attuned, invisible spirits of Broddah's loved ones lend their strength to yours. You gain the following benefits until you finish your next long rest:",
-                {
-                    "type": "list",
-                    "items": [
-                        "When you take the {@action Grapple} or {@action Shove} action, you can target a creature of any size. If the target is more than two sizes larger than you, it has advantage on Strength (Athletics) checks to avoid or escape your grapple or shove.",
-                        "Moving with a grappled creature that is your size or smaller no longer halves your movement speed."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Broddah's Adamantine Cup",
-            "type": "P",
-            "rarity": "artifact",
-            "source": "JPP",
-            "entries": [
-                "This elaborate but slightly melted adamantine cup holds a fragment of the connections and affection Broddah has fostered with divine beings, primarily Dionysus.",
-                "Whilst Broddah is alive, only he can attune to this item and it does not count against the number of items he has attuned to. If Broddah is dead, and a creature attempts to attune to this item, Broddah's soul can choose to allow or deny the attunement.",
-                "When you drink heavily from this cup while attuned, your mind briefly reaches a higher (or lower) state of being, allowing you to converse with a divine being in a similarly intoxicated state and that is familiar to Broddah, usually Dionysus. You can cast the {@spell commune|phb} spell without expending a spell slot. Once you cast the spell using this item, you cannot do so again until the next dawn."
-            ]
-        },
-        {
-            "name": "The Morning Herald",
-            "source": "JPP",
-            "baseItem": "wheellock pistol|J:Firearms",
-            "age": "renaissance",
-            "type": "R",
-            "weaponCategory": "martial",
-            "weapon": true,
-            "firearm": true,
-            "rarity": "none",
-            "weight": 6,
-            "ammunition": true,
-            "dmg1": "1d8",
-            "dmgType": "P",
-            "range": "30/90",
-            "property": [
-                "LD",
-                "A",
-                "H"
-            ],
-            "entries": [
-                "This modified brass and redwood giff training pistol was given to Bonnie O'Flynn by Horatio Kalthoff as he trained her to wield, repair and modify firearms. It is noticably heavier than a typical pistol and features two vertically stacked barrels, each with their own wheel and trigger. Firing this pistol is extremely loud, hence its name."
-            ]
-        },
-        {
-            "name": "The Gift",
-            "source": "JPP",
-            "baseItem": "flintlock musket|J:Firearms",
-            "age": "renaissance",
-            "type": "R",
-            "weaponCategory": "martial",
-            "weapon": true,
-            "firearm": true,
-            "rarity": "none",
-            "weight": 10,
-            "ammunition": true,
-            "dmg1": "1d12",
-            "dmgType": "P",
-            "range": "40/120",
-            "property": [
-                "LD",
-                "A",
-                "2H",
-                "H"
-            ],
-            "entries": [
-                "This ornate black and silver musket was given to Bonnie O'Flynn by a late friend. It has cleary seen much use, as well as many repairs and modifications throughout the years. It also features the name 'Amanda' crudely carved into the stock."
             ]
         }
     ],

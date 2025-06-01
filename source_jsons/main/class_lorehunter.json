@@ -20,30 +20,30 @@
     },
     "class": [
         {
-            "name": "Lorehunter (WIP)",
+            "name": "Lorehunter",
             "source": "J:Lore",
             "classFeatures": [
-                "Calculated Strike|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Scholarly Expertise|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Spellcasting|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Weapon Mastery|Lorehunter (WIP)|J:Lore|1|J:Lore",
-                "Fighting Style|Lorehunter (WIP)|J:Lore|2|J:Lore",
-                "Studious Action|Lorehunter (WIP)|J:Lore|2|J:Lore",
-                "Arcane Sense|Lorehunter (WIP)|J:Lore|3|J:Lore", 
-                "Invigorating Knowledge|Lorehunter (WIP)|J:Lore|4|J:Lore",                
+                "Calculated Strike|Lorehunter|J:Lore|1|J:Lore",
+                "Scholarly Expertise|Lorehunter|J:Lore|1|J:Lore",
+                "Spellcasting|Lorehunter|J:Lore|1|J:Lore",
+                "Weapon Mastery|Lorehunter|J:Lore|1|J:Lore",
+                "Fighting Style|Lorehunter|J:Lore|2|J:Lore",
+                "Studious Action|Lorehunter|J:Lore|2|J:Lore",
+                "Arcane Sense|Lorehunter|J:Lore|3|J:Lore", 
+                "Invigorating Knowledge|Lorehunter|J:Lore|4|J:Lore",                
                 "Extra Attack|Ranger|XPHB|5",
-                "Careful Stride|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "Additional Expertise|Lorehunter (WIP)|J:Lore|6|J:Lore",
-                "Knowledge Shared|Lorehunter (WIP)|J:Lore|10|J:Lore",
-                "Robust Mind|Lorehunter (WIP)|J:Lore|14|J:Lore",
-                "Improved Arcane Sense|Lorehunter (WIP)|J:Lore|14|J:Lore",
-                "Improved Knowledge Shared|Lorehunter (WIP)|J:Lore|18|J:Lore",
-                "Publish Research|Lorehunter (WIP)|J:Lore|18|J:Lore",
-                "calculated Perfection|Lorehunter (WIP)|J:Lore|20|J:Lore",
-                "Lorehunter Subclass|Lorehunter (WIP)|J:Lore|3|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|7|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|11|J:Lore",
-                "Subclass Feature|Lorehunter (WIP)|J:Lore|15|J:Lore",
+                "Careful Stride|Lorehunter|J:Lore|6|J:Lore",
+                "Additional Expertise|Lorehunter|J:Lore|6|J:Lore",
+                "Knowledge Shared|Lorehunter|J:Lore|10|J:Lore",
+                "Robust Mind|Lorehunter|J:Lore|14|J:Lore",
+                "Improved Arcane Sense|Lorehunter|J:Lore|14|J:Lore",
+                "Improved Knowledge Shared|Lorehunter|J:Lore|18|J:Lore",
+                "Publish Research|Lorehunter|J:Lore|18|J:Lore",
+                "calculated Perfection|Lorehunter|J:Lore|20|J:Lore",
+                "Lorehunter Subclass|Lorehunter|J:Lore|3|J:Lore",
+                "Subclass Feature|Lorehunter|J:Lore|7|J:Lore",
+                "Subclass Feature|Lorehunter|J:Lore|11|J:Lore",
+                "Subclass Feature|Lorehunter|J:Lore|15|J:Lore",
                 "Ability Score Improvement|Fighter|XPHB|4",
                 "Ability Score Improvement|Fighter|XPHB|8",
                 "Ability Score Improvement|Fighter|XPHB|12",
@@ -572,7 +572,7 @@
         {
             "name": "Calculated Strike",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 1,
             "entries": [
@@ -582,7 +582,7 @@
         {
             "name": "Scholarly Expertise",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 1,
             "entries": [
@@ -601,7 +601,7 @@
         {
             "name": "Weapon Mastery",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 1,
             "entries": [
@@ -612,7 +612,7 @@
         {
             "name": "Spellcasting",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 1,
             "entries": [
@@ -628,7 +628,7 @@
                     "type": "entries",
                     "name": "Prepared Spells of Level 1+",
                     "entries": [
-                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|class=Lorehunter (WIP)|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
+                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|class=Lorehunter|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
                         "The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Lorehunter Features table. Whenever that number increases, choose additional Lorehunter spells until the number of spells on your list matches the number in the Lorehunter Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Lorehunter, your list of prepared spells can include six Lorehunter spells of level 1 or 2 in any combination.",
                         "If another Lorehunter feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Lorehunter spells for you."
                     ]
@@ -659,7 +659,7 @@
         {
             "name": "Fighting Style",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 2,
             "entries": [
@@ -696,7 +696,7 @@
         {
             "name": "Studious Action",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 2,
             "entries": [
@@ -706,7 +706,7 @@
         {
             "name": "Lorehunter Subclass",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 3,
             "entries": [
@@ -718,7 +718,7 @@
         {
             "name": "Arcane Sense",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 3,
             "entries": [
@@ -748,7 +748,7 @@
         {
             "name": "Invigorating Knowledge",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 4,
             "entries": [
@@ -758,7 +758,7 @@
         {
             "name": "Careful Stride",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 6,
             "entries": [
@@ -768,7 +768,7 @@
         {
             "name": "Additional Expertise",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 6,
             "entries": [
@@ -778,7 +778,7 @@
         {
             "name": "Subclass Feature",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 7,
             "entries": [
@@ -789,7 +789,7 @@
         {
             "name": "Knowledge Shared",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 10,
             "entries": [
@@ -834,7 +834,7 @@
         {
             "name": "Robust Mind",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 14,
             "entries": [
@@ -844,7 +844,7 @@
         {
             "name": "Improved Arcane Sense",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 14,
             "entries": [
@@ -874,7 +874,7 @@
         {
             "name": "Subclass Feature",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 11,
             "entries": [
@@ -885,7 +885,7 @@
         {
             "name": "WIP",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 14,
             "entries": [
@@ -895,7 +895,7 @@
         {
             "name": "Subclass Feature",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 15,
             "entries": [
@@ -906,7 +906,7 @@
         {
             "name": "Improved Knowledge Shared",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 18,
             "entries": [
@@ -916,7 +916,7 @@
         {
             "name": "Publish Research",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 18,
             "entries": [
@@ -934,7 +934,7 @@
         {
             "name": "Calculated Perfection",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "level": 20,
             "entries": [
@@ -948,7 +948,7 @@
             "name": "Antiquarian",
             "shortName": "Antiquarian",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "additionalSpells": [
                 {
@@ -982,7 +982,7 @@
                     {
                         "name": "Antiquarian",
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Antiquarian",
                         "subclassSource": "J:Lore",
@@ -1038,11 +1038,27 @@
                                         "type": "list",
                                         "style": "list-hang-notitle",
                                         "items": [
-                                            "{@b {@i A document, figurine or similar ceremonial item (WIP).}} The item grants a +1 bonus to ability checks in which it is relevent, such as recalling associated lore or convincing someone of its legitimacy. In addition, when a creature holding the item makes an ability check that would benefit from this bonus, it can also use your Intelligence modifier in place of the normal ability modifer used for the check.",
-                                            "{@b {@i A set of armor or a shield.}} The armor or shield grants a +1 bonus to the wearer's Armor Class, unless it already provides the same bonus or higher. In addition, if the armour would normally allow the wearer to add its Dexterity modifer to its Armor Class, it can instead add your Intelligence modifer.",
-                                            "{@b {@i A set of tools or artisan tools.}} The tools grant a +1 bonus to ability checks made with them, unless they already provides the same bonus or higher. In addition, when a creature uses these tools to make an ability check, it can use your Intelligence modifier in place of the normal ability modifier for the check.",
-                                            "{@b {@i A spellcasting focus (WIP).}} The focus grants a +1 bonus to spell attack rolls made using it, unless it already provides the same bonus or higher. In addition, when a creature makes a spell attack using this focus, it can use your Intelligence modifier in place of its normal ability modifier.",
-                                            "{@b {@i A weapon (WIP).}} The weapon grants a +1 bonus to attack and damage rolls made using it, unless it already provides the same bonus or higher. In addition, when attacking with the weapon a creature can use your Intelligence modifer in place of its Strength or Dexterity modifer for the attack and damage rolls"
+                                            {
+                                                "type": "entries",
+                                                "name": "An instrument, set of tools, document, figurine, piece of jewelry or similar ceremonial item",
+                                                "entries": [
+                                                    "The item grants a +1 bonus to ability checks made using the item or in which the item is revelent, such as recalling associated lore, performing an anicient cermeony or convincing someone of its legitimacy. In addition, when you make and ability check that would benefit from this bonus, it can also use your Intelligence modifier in place of the normal ability modifer used for the check."
+                                                ]
+                                            },
+                                            {
+                                                "type": "entries",
+                                                "name": "A set of armor or a shield",
+                                                "entries": [
+                                                    "The armor or shield grants a +1 bonus to the wearer's Armor Class, unless it already provides the same bonus or higher. In addition, if the armour would normally allow you to add its Dexterity modifer to your Armor Class, you can instead add your Intelligence modifer."
+                                                ]
+                                            },
+                                            {
+                                                "type": "entries",
+                                                "name": "A weapon",
+                                                "entries": [
+                                                    "The weapon grants a +1 bonus to attack and damage rolls made using it, unless it already provides the same bonus or higher. In addition, when attacking with the weapon, you can use your Intelligence modifer in place of its Strength or Dexterity modifer for the attack and damage rolls"
+                                                ]
+                                            }
                                         ]
                                     },
                                     "Sometimes an item may have enough historical, cultural or political significance to be considered an antique. The DM decides if an item is an antique. Items that are; several centuries old, were used by famous historical figures, or were used in legendary events can usually be considered antiques. The +1 bonuses described above increase to +2 if the item is an antique.",
@@ -1061,7 +1077,7 @@
                 ],
                 [
                     {
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Antiquarian",
                         "subclassSource": "J:Lore",
@@ -1071,13 +1087,25 @@
                             {
                                 "name": "Arcane Antiques",
                                 "entries": [
-                                    "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a bonus action, you can expend a spell slot for one of the following effects, targeting one oof the items enhanced by your Useful Antiques feature.",
+                                    "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a Bonus Action, you can expend a spell slot for one of the following effects, targeting one of the items enhanced by your Useful Antiques feature. The targeted item must be within 60 feet of you.",
                                     {
                                         "type": "list",
                                         "style": "list-hang-notitle",
                                         "items": [
-                                            "{@b {@i Archivist's Preservation.}} A creature that is holding or wearing the targeted item gains temporary hit points equal to six times the level of the spell slot expended. A creature loses these temporary hit points if it is ever more than 5 feet from the item for more than one minute.",
-                                            "{@b {@i Excavator's Smite.}} The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike while wearing the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                            {
+                                                "type": "entries",
+                                                "name": "Archivist's Preservation",
+                                                "entries": [
+                                                    "A creature that is holding or wearing the targeted item gains {@variantrule Temporary Hit Points|XPHB} equal to six times the level of the spell slot expended. A creature loses these Temporary Hit Points if it is ever more than 5 feet from the item for more than one minute."
+                                                ]
+                                            },
+                                            {
+                                                "type": "entries",
+                                                "name": "Excavator's Smite",
+                                                "entries": [
+                                                    "The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike while wearing the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                                ]
+                                            }
                                         ]
                                     }
                                 ]
@@ -1088,7 +1116,7 @@
                 ],
                 [
                     {
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Antiquarian",
                         "subclassSource": "J:Lore",
@@ -1107,7 +1135,7 @@
                 ],
                 [
                     {
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Antiquarian",
                         "subclassSource": "J:Lore",
@@ -1130,7 +1158,7 @@
             "name": "Palaeontologist",
             "shortName": "Palaeontologist",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "additionalSpells": [
                 {
@@ -1160,7 +1188,7 @@
                     {
                         "name": "Palaeontologist",
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Palaeontologist",
                         "subclassSource": "J:Lore",
@@ -1254,7 +1282,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Palaeontologist",
                         "subclassSource": "J:Lore",
@@ -1282,7 +1310,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Palaeontologist",
                         "subclassSource": "J:Lore",
@@ -1308,7 +1336,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Palaeontologist",
                         "subclassSource": "J:Lore",
@@ -1332,7 +1360,7 @@
             "name": "Strategist",
             "shortName": "Strategist",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "additionalSpells": [
                 {
@@ -1365,7 +1393,7 @@
                     {
                         "name": "Strategist",
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Strategist",
                         "subclassSource": "J:Lore",
@@ -1472,7 +1500,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Strategist",
                         "subclassSource": "J:Lore",
@@ -1521,7 +1549,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Strategist",
                         "subclassSource": "J:Lore",
@@ -1577,7 +1605,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Strategist",
                         "subclassSource": "J:Lore",
@@ -1600,7 +1628,7 @@
             "name": "Climatologist",
             "shortName": "Climatologist",
             "source": "J:Lore",
-            "className": "Lorehunter (WIP)",
+            "className": "Lorehunter",
             "classSource": "J:Lore",
             "additionalSpells": [
                 {
@@ -1633,14 +1661,15 @@
                     {
                         "name": "Climatologist",
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Climatologist",
                         "subclassSource": "J:Lore",
                         "level": 3,
                         "header": 1,
                         "entries": [
-                            "WIP",
+                            "Climatology is the study of environmental proccesses such as weather, air currents and their effects on the natural world, magical and mundane.",
+                            "Climatologist societies specialise in the study and subtle manipulations of the atmosphere and other elements of the local environment. Adjusting the humidity, temperature, acidity, and pressures of the air.",
                             {
                                 "name": "Climatologist Spells",
                                 "entries": [
@@ -1739,13 +1768,12 @@
                                 ]
                             }
                         ]
-
                     }
                 ],
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Climatologist",
                         "subclassSource": "J:Lore",
@@ -1770,7 +1798,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Climatologist",
                         "subclassSource": "J:Lore",
@@ -1809,7 +1837,7 @@
                 [
                     {
                         "source": "J:Lore",
-                        "className": "Lorehunter (WIP)",
+                        "className": "Lorehunter",
                         "classSource": "J:Lore",
                         "subclassShortName": "Climatologist",
                         "subclassSource": "J:Lore",
@@ -1875,7 +1903,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
@@ -1929,7 +1957,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
@@ -1979,7 +2007,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
@@ -2024,7 +2052,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
@@ -2068,7 +2096,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
@@ -2122,7 +2150,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     },
                     {
@@ -2182,7 +2210,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "Lorehunter (WIP)",
+                        "name": "Lorehunter",
                         "source": "J:Lore"
                     }
                 ]
