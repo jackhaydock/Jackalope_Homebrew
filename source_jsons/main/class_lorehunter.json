@@ -628,8 +628,8 @@
                     "type": "entries",
                     "name": "Prepared Spells of Level 1+",
                     "entries": [
-                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|class=Lorehunter|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
-                        "The number of spells on your list increases as you gain Paladin levels, as shown in the Prepared Spells column of the Lorehunter Features table. Whenever that number increases, choose additional Lorehunter spells until the number of spells on your list matches the number in the Lorehunter Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Lorehunter, your list of prepared spells can include six Lorehunter spells of level 1 or 2 in any combination.",
+                        "You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two {@filter level 1 Lorehunter spells|spells|source=|class=Lorehunter|level=1}. {@spell Catapult|XPHB} and {@spell Grease|XPHB} are recommended.",
+                        "The number of spells on your list increases as you gain Lorehunter levels, as shown in the Prepared Spells column of the Lorehunter Features table. Whenever that number increases, choose additional Lorehunter spells until the number of spells on your list matches the number in the Lorehunter Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Lorehunter, your list of prepared spells can include six Lorehunter spells of level 1 or 2 in any combination.",
                         "If another Lorehunter feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Lorehunter spells for you."
                     ]
                 },
@@ -1449,7 +1449,7 @@
                             {
                                 "name": "Strategist Spells",
                                 "entries": [
-                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Climatologist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
+                                    "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Strategist Spells table. These spells count as lorehunter spells for you, but they don't count against the number of lorehunter spells you prepare.",
                                     {
                                         "type": "table",
                                         "caption": "Strategist Spells",
@@ -1490,7 +1490,7 @@
                                 "name": "Warrior of the Mind",
                                 "entries": [
                                     "Starting at 3rd level, you can use Intelligence in place of Strength or Dexterity for weapon attack rolls and for ability checks using the athletics or acrobactics skill.",
-                                    "Additionally, you gain proficiency in two gaming sets of your choice. You can also use a weapon, gaming set or banner as a spellcasting focus for your lorehunter spells."
+                                    "Additionally, you gain proficiency in two {@filter gaming sets|items|type=gaming set} of your choice. You can also use a weapon, gaming set or banner as a spellcasting focus for your lorehunter spells."
                                 ]
                             },
                             {
@@ -1505,7 +1505,7 @@
                                             {
                                                 "name": "Assist Assault",
                                                 "entries": [
-                                                    "When a creature has advantage on an attack roll due to your {@action Help|XPHB} action and hits their target, you can use reaction and expend 2 points to have the attack deal an additional {@dice 2d6} damage. If the target is Bloodied, the extra damage increases to {@dice 3d6}."
+                                                    "When a creature has advantage on an attack roll due to your {@action Help|XPHB} action and hits their target, you can use reaction and expend 2 points to have the attack deal an additional {@dice 2d6} damage. If the target is {@variantrule Bloodied|XPHB}, the extra damage increases to {@dice 3d6}."
                                                 ]
                                             },
                                             {
@@ -1517,7 +1517,7 @@
                                             {
                                                 "name": "Prepared for Action",
                                                 "entries": [
-                                                    "When you roll for initiative, you can expend 1 point to grant yourself, or a creature you can see within 30 feet, a bonus to your initiative roll equal to your Intelligence modifier."
+                                                    "When you roll for {@variantrule Initiative|XPHB}, you can expend up to 3 points. For each point expended, you or a creature you can see within 30 feet, gains a bonus to the initiative roll equal to your Intelligence modifier."
                                                 ]
                                             },
                                             {
@@ -1534,11 +1534,10 @@
                                 "name": "Stratagem Arcana",
                                 "entries": [
                                     "At 3rd level, you know the {@spell Minor Illusion|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "Additionally, you can use the cantrip to create the image of a map or gaming set that you are proficient with. While still an illusion, a map or gaming set created in this way can be used like the real thing by you, or any creatures you allow, for the spell's duration. Individual pieces of the illusion can be moved in the same way you might move cards, tokens or other game pieces."
+                                    "Additionally, you can use the cantrip to create the image of a map or gaming set that you are proficient with. While still clearly an illusion, an image created in this way can be used like the real thing by you, or any creatures you allow, for the spell's duration. Individual pieces of the illusion can be moved in the same way you might move cards, tokens or other game pieces."
                                 ]
                             }
                         ]
-
                     }
                 ],
                 [
@@ -1554,7 +1553,7 @@
                             {
                                 "name": "Knowledge over Blood",
                                 "entries": [
-                                    "Starting at 7th level, when you have the upper hand in battle you can seize the moment to learn about your foe. When have advantage on an attack roll against a creature, you can choose to forgo advantage (you cannot gain advantage from any other source) for one of the following benefits of your choice:",
+                                    "Starting at 7th level, when you have the upper hand in battle you can seize the moment to learn about your foe. When have {@variantrule Advantage|XPHB} on an attack roll against a creature, you can choose to forgo Advantage (you cannot gain Advantage from any other source) for one of the following benefits of your choice:",
                                     {
                                         "type": "list",
                                         "style": "list-hang-notitle",
@@ -1580,7 +1579,7 @@
                                             {
                                                 "name": "Watch Reflexes",
                                                 "entries": [
-                                                    "You learn one trait, feature or spell the target has that requires a reaction. If the target has no reactions, you are aware of this. If the target has multiple reactions, the DM determines which one you learn, though you may suggest the kind of reaction you are looking for based on potential triggers."
+                                                    "You learn one trait, feature or spell the target has that requires a {@variantrule Reaction|XPHB}. If the target has no rsuch eactions, you are aware of this. If the target has multiple reactions, the DM determines which one you learn, though you may suggest the kind of reaction you are looking for based on potential triggers, such as asking if they have any reactions to bein hit with a weapon attack."
                                                 ]
                                             }
                                         ]
@@ -1611,31 +1610,31 @@
                                             {
                                                 "name": "False Retreat",
                                                 "entries": [
-                                                    "Choose up to six creatures you can see within 30 feet (this can include yourself) that are {@condition frightened} by the same source. Each frightened creature is no longer frightened and can use a reaction to move up to 15 feet towards the source. If the source was a creature, it must make a Wisdom saving throw against your lorehunter spell save DC or become frightend by the chosen creatures until the end of your next turn."
+                                                    "Choose up to six creatures you can see within 30 feet (this can include yourself) that are {@condition Frightened|XPHB} by the same source. Each Frightened creature is no longer Frightened and can use a {@variantrule Reaction|XPHB} to move up to 15 feet towards the source. If the source was a creature, it must make a Wisdom saving throw against your lorehunter spell save DC or become Frightend by the chosen creatures until the end of your next turn."
                                                 ]
                                             },
                                             {
                                                 "name": "Just an Act",
                                                 "entries": [
-                                                    "You teleport yourself to an unoccupied space within 10 feet of a creature you can see within 60 feet, revealing yourself from a disguise or hiding spot. You can then make one weapon attack against that creature with advantage. On a hit, the attack deals an additional {@dice 6d6} damage and imposes either the {@condition bleeding|J:general} or {@condition prone|XPHB} condition (your choice). The space you previously occupied is revealed to have been occupied by an illusion or hired actor, which then harmlessly disperses or flees."
+                                                    "You {@variantrule Teleportation|XPHB|teleport} yourself to an unoccupied space within 10 feet of a creature you can see within 60 feet, revealing yourself from a disguise or hiding spot. You can then make one weapon attack against that creature with {@variantrule Advantage|XPHB}. On a hit, the attack deals an additional {@dice 6d6} damage and imposes either the {@condition Bleeding|J:general} or {@condition Prone|XPHB} condition (your choice). The space you previously occupied is revealed to have been occupied by an illusion or hired actor, which then harmlessly disperses or flees."
                                                 ]
                                             },
                                             {
                                                 "name": "Manifest Machinations",
                                                 "entries": [
-                                                    "You cast a {@filter lorehunter spell of 3rd-level or lower|spells|source=|level=0;1;2;3|class=lorehunter (j:lore)|cast time=action;bonus;minute} without expending a spell slot or material components. The spell can have a casting time of up to 1 minute and needn't be one you have prepared. If the spell requires concentration, you have advantage on saving throws to maintain concentration on it for its duration."
+                                                    "You cast a {@filter lorehunter spell of 3rd-level or lower|spells|source=|level=0;1;2;3|class=lorehunter (j:lore)|cast time=action;bonus;minute} without expending a spell slot or material components. The spell can have a casting time of up to 1 minute and needn't be one you have prepared. If the spell requires {@variantrule Concentration|XPHB}, you have advantage on saving throws to maintain Concentration on it for its duration."
                                                 ]
                                             },
                                             {
                                                 "name": "Playing Dead",
                                                 "entries": [
-                                                    "An {@condition unconscious|XPHB} creature with 0 hit points that you can see within 30 feet regains hit points equal to your lorehunter level + your Intelligence modifier. The creature can immediately use a reaction to move up to its movement and take the {@action Dodge} or {@action Disengage} action."
+                                                    "An {@condition Unconscious|XPHB} creature with 0 hit points that you can see within 30 feet regains {@variantrule Hit Points|XPHB} equal to your lorehunter level + your Intelligence modifier. The creature can immediately use a {@variantrule Reaction|XPHB} to move up to its movement and take the {@action Dodge} or {@action Disengage} action."
                                                 ]
                                             },
                                             {
                                                 "name": "Switcheroo",
                                                 "entries": [
-                                                    "A creature you can see within 30 feet must make a Wisdom saving throw against your lorehunter spell save DC or find that an item of your choice that they are holding or carrying has been switched for a fake. You are now holding the real item and the fake crumbles into dust. On a success, the item drops at the creature's feet instead. Picking it up requires an action."
+                                                    "A creature you can see within 30 feet must make a Wisdom saving throw against your lorehunter spell save DC or find that an item of your choice that they are holding or carrying has been switched for a fake. You are now holding the real item and the fake crumbles into dust. On a success, the item drops at the creature's feet instead. Picking it up requires an {@variantrule Action|XPHB}."
                                                 ]
                                             }
                                         ]
@@ -1659,7 +1658,7 @@
                             {
                                 "name": "Opportunities Multiplied",
                                 "entries": [
-                                    "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional action immediately, provided neither of you are incapacitated. The effect ends early once you grant four actions in this way.",
+                                    "Starting at 15th level, you master the art of timing in battle. As an action you can enter a focused state for one minute, or until you fall unconscious. For the duration, when a creature other than you that you can see within 60 feet ends their turn, you can command that creature to take an additional {@variantrule Action|XPHB} immediately, provided neither of you are {@condition Incapacitated|XPHB}. The effect ends early once you grant four Actions in this way.",
                                     "Once you use this feature you cannot do so again until you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
@@ -1758,13 +1757,13 @@
                                 "name": "Naturalist",
                                 "entries": [
                                     "At 3rd level, you gain proficiency in the nature and survival skills if you don't already have them.",
-                                    "In addition, you have advantage on Intelligence (Investigation) checks when investigating natural terrain, even that created by illusions."
+                                    "In addition, you have {@variantrule Advantage|XPHB} on Intelligence (Investigation) checks when investigating natural terrain, even that created by illusions."
                                 ]
                             },
                             {
                                 "name": "Microclimate",
                                 "entries": [
-                                    "Starting at 3rd level, you can use a bonus action to subtly alter the environment in a 15-foot-radius sphere, centered on a point you can see within 60 feet. Choose one of the effects listed below, the area is filled with the chosen effect for 1 minute, or until you are {@condition incapacitated|XPHB}. As a bonus action on subsequent turns for the duration, you can move the area up to 30 feet or change the effect but not both. If the effect allows a creature to make a saving throw, the saving throw uses your lorehunter spell save DC.",
+                                    "Starting at 3rd level, you can use a bonus action to subtly alter the environment in a 15-foot-radius sphere, centered on a point you can see within 60 feet. Choose one of the effects listed below, the area is filled with the chosen effect for 1 minute, or until you are {@condition Incapacitated|XPHB}. As a bonus action on subsequent turns for the duration, you can move the area up to 30 feet or change the effect but not both. If the effect allows a creature to make a saving throw, the saving throw uses your lorehunter spell save DC.",
                                     "You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses on a {@variantrule Long Rest|XPHB}. If you have no uses remaining, you can expend a spell slot of 1st-level or higher to use this feature again.",
                                     {
                                         "type": "list",
@@ -1773,13 +1772,13 @@
                                             {
                                                 "name": "Arid Air",
                                                 "entries": [
-                                                    "Creatures that start their turn in the area are {@condition hampered|J:general} and {@condition distracted|J:general} until the start of their next turn as their throats and skin become uncomfortably dry. Creatures submerged underwater are unaffected."
+                                                    "Creatures that start their turn in the area are {@condition Hampered|J:general} and {@condition Distracted|J:general} until the start of their next turn as their throats and skin become uncomfortably dry. Creatures submerged underwater are unaffected."
                                                 ]
                                             },
                                             {
                                                 "name": "Damp Air",
                                                 "entries": [
-                                                    "Creatures in the area have disadvantage on Constitution saving throws against cold damage, poison damage, the {@condition poisoned|XPHB} condition or disease."
+                                                    "Creatures in the area have {@variantrule Disadvantage|XPHB} on Constitution saving throws against cold damage, poison damage, the {@condition Poisoned|XPHB} condition or disease."
                                                 ]
                                             },
                                             {
@@ -1797,7 +1796,7 @@
                                             {
                                                 "name": "Obscuring Mist",
                                                 "entries": [
-                                                    "The area is lightly obscured by a natural looking mist. A creature can make an Intelligence (Investigation) or Wisdom (Nature) check agaisnt your lorehunter spell save DC to determine that the mist is unnatural."
+                                                    "The area is lightly obscured by a natural looking mist. A creature can make an Intelligence (Investigation) or Wisdom (Nature) check against your lorehunter spell save DC to determine that the mist is unnatural."
                                                 ]
                                             }
                                         ]
@@ -1808,7 +1807,7 @@
                                 "name": "Environmental Arcana",
                                 "entries": [
                                     "At 3rd level, you know the {@spell Elementalism|XPHB} cantrip. It counts as a lorehunter spell for you, and Intelligence is your spellcasting ability for it.",
-                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a reaction to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                                    "In addition, when a creature you can see within 15 feet of you makes a Strength or Dexterity saving throw, you can cast the spell as a {@variantrule Reaction|XPHB} to impose a {@dice 1d4} penalty on the roll as you manipulate the environment to distract or destabilise them. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
                                 ]
                             }
                         ]
@@ -1833,7 +1832,7 @@
                             {
                                 "name": "Wild Wanderer",
                                 "entries": [
-                                    "Starting at 7th level, you gain a climbing speed equal to your walking speed and moving through difficult terrain costs you no extra movement. In addition, being lightly obscured by weather, such as rain or fog, does not impose disadvantage on your Wisdom (Perception) checks. Finally you take half damage from falling as you cushion yourself with wind, snow or mud."
+                                    "Starting at 7th level, you gain a climbing speed equal to your walking speed and moving through difficult terrain costs you no extra movement. In addition, being lightly obscured by weather, such as rain or fog, does not impose {@variantrule Disadvantage|XPHB} on your Wisdom (Perception) checks. Finally you take half damage from falling as you cushion yourself with wind, snow or mud."
                                 ]
                             }
                         ]                        
@@ -1861,13 +1860,13 @@
                                             {
                                                 "name": "Hostile Climate",
                                                 "entries": [
-                                                    "You can use a bonus action to force all creatures in the area to make a Constitution saving throw or take {@dice 3d6} acid, cold, fire, lightning or poison damage (your choice) or half as much on a successful save."
+                                                    "You can use a {@variantrule Bonus Action|XPHB} to force all creatures in the area to make a Constitution saving throw or take {@dice 3d6} acid, cold, fire, lightning or poison damage (your choice) or half as much on a successful save."
                                                 ]
                                             },
                                             {
                                                 "name": "Cleansing Winds",
                                                 "entries": [
-                                                    "Fogs and gasses in this area are dispersed and fires within the area are extinguished. If such effects would be sustained by spells of 6th-level or higher, they are supressed for the duration.",
+                                                    "Fogs and gasses in this area are dispersed and fires within the area are extinguished. If such effects would be sustained by spells of level 6 or higher, they are supressed for the duration.",
                                                     "The area also provides safe, breatheable air for any creatures inside it for the duration, even underwater."
                                                 ]
                                             }
@@ -1891,8 +1890,8 @@
                             {
                                 "name": "Storm Rider",
                                 "entries": [
-                                    "Starting at 15th level, as a bonus action, you can ride the winds themselves and gain a flying speed equal to your walking speed for up to 10 minutes. If you are in an area of high wind, such as a storm, your flying speed increases by 10 feet for this duration. If you fall while under these effects, you do not take damage or fall {@condition prone|XPHB} as a result.",
-                                    "Once you use this feature, you cannot do so again until you finsh a {@variantrule Long Rest|XPHB}, unless you expend a spell slot of 3rd-level or higher."
+                                    "Starting at 15th level, as a {@variantrule Bonus Action|XPHB}, you can ride the winds themselves and gain a flying speed equal to your walking speed for up to 10 minutes. If you are in an area of high wind, such as a storm, your flying speed increases by 10 feet for this duration. If you fall while under these effects, you do not take damage or fall {@condition Prone|XPHB} as a result.",
+                                    "Once you use this feature, you cannot do so again until you finsh a {@variantrule Long Rest|XPHB}, unless you expend a spell slot of level 3 or higher."
                                 ]
                             }
                         ]
