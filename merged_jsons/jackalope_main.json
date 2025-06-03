@@ -10,7 +10,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.06.03.20.11",
+                "version": "2025.06.03.20.19",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1748981519.178883
+        "dateLastModified": 1748982012.4783075
     },
     "class": [
         {
@@ -2484,40 +2484,30 @@
                                 ]
                             },
                             {
-                                "className": "Lorehunter",
-                                "classSource": "J:Lore",
-                                "subclassShortName": "Antiquarian",
-                                "subclassSource": "J:Lore",
-                                "level": 3,
-                                "header": 2,
+                                "name": "Arcane Antiques",
                                 "entries": [
+                                    "Starting at 3rd level, you can focus the energy around your Useful Antiques further. As a {@variantrule Bonus Action|XPHB}, you can expend a spell slot of level 1 or higher and choose one of the items you can see within 60 feet of you. You produce one of the following effects of your choice.",
                                     {
-                                        "name": "Arcane Antiques",
-                                        "entries": [
-                                            "Starting at 3rd level, you can focus the energy around your Useful Antiques further. As a {@variantrule Bonus Action|XPHB}, you can expend a spell slot of level 1 or higher and choose one of the items you can see within 60 feet of you. You produce one of the following effects of your choice.",
+                                        "type": "list",
+                                        "style": "list-hang-notitle",
+                                        "items": [
                                             {
-                                                "type": "list",
-                                                "style": "list-hang-notitle",
-                                                "items": [
-                                                    {
-                                                        "type": "entries",
-                                                        "name": "Archivist's Preservation",
-                                                        "entries": [
-                                                            "A creature that is holding or wearing the targeted item gains {@variantrule Temporary Hit Points|XPHB} equal to six times the level of the spell slot expended. A creature loses these Temporary Hit Points if it is ever more than 5 feet from the item for more than one minute."
-                                                        ]
-                                                    },
-                                                    {
-                                                        "type": "entries",
-                                                        "name": "Excavator's Smite",
-                                                        "entries": [
-                                                            "The next time a creature hits with a weapon attack using the targeted item within the next minute, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
-                                                        ]
-                                                    }
+                                                "type": "entries",
+                                                "name": "Archivist's Preservation",
+                                                "entries": [
+                                                    "A creature that is holding or wearing the targeted item gains {@variantrule Temporary Hit Points|XPHB} equal to six times the level of the spell slot expended. A creature loses these Temporary Hit Points if it is ever more than 5 feet from the item for more than one minute."
                                                 ]
                                             },
-                                            "The effects end early if you use this feature again."
+                                            {
+                                                "type": "entries",
+                                                "name": "Excavator's Smite",
+                                                "entries": [
+                                                    "The next time a creature hits with a weapon attack using the targeted item within the next minute, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                                ]
+                                            }
                                         ]
-                                    }
+                                    },
+                                    "The effects end early if you use this feature again."
                                 ]
                             },
                             {
