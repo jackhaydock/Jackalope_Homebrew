@@ -10,7 +10,7 @@
                 "authors": [
                     "Jackalope"
                 ],
-                "version": "2025.06.01.06.36",
+                "version": "2025.06.03.19.49",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -262,7 +262,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.06.01.17.32",
+                "version": "2025.06.01.17.36",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1748799158.6647568
+        "dateLastModified": 1748980229.1626513
     },
     "class": [
         {
@@ -2373,9 +2373,9 @@
                 {
                     "prepared": {
                         "3": [
-                            "distort value|ai",
-                            "identify|phb",
-                            "mending|phb"
+                            "Tenser's Floating Diske|XPHB",
+                            "identify|xphb",
+                            "mending|xphb"
                         ],
                         "5": [
                             "speak with documents|J:lore",
@@ -2383,15 +2383,15 @@
                         ],
                         "9": [
                             "explosive excavation|J:lore",
-                            "remove curse|phb"
+                            "remove curse|xphb"
                         ],
                         "13": [
-                            "leomund's secret chest|phb",
-                            "summon construct|tce"
+                            "leomund's secret chest|xphb",
+                            "summon construct|xphb"
                         ],
                         "17": [
-                            "animate objects|phb",
-                            "legend lore|xge"
+                            "animate objects|xphb",
+                            "legend lore|xphb"
                         ]
                     }
                 }
@@ -2427,7 +2427,7 @@
                                         "rows": [
                                             [
                                                 "3rd",
-                                                "{@spell Distort Value|AI}, {@spell Identify|XPHB}"
+                                                "{@spell Tenser's Floating Disk|XPHB}, {@spell Identify|XPHB}"
                                             ],
                                             [
                                                 "5th",
@@ -2452,36 +2452,72 @@
                             {
                                 "name": "Useful Antiques",
                                 "entries": [
-                                    "Starting at 3rd level, you can spend 10 mins touching an item that can be worn or that can be held in one hand. You concentrate residual magical energies surrounding it, making it both more effective and more durable. The item becomes magical if it wasn't already and you can use it as a spellcasting focus for your lorehunter spells. In addition, the item gains additional effects based on it type, as described below.",
+                                    "Starting at 3rd level, you can spend 10 mins touching an item that can be worn or that can be held in one hand. You concentrate residual magical energies surrounding it, making it both more effective and more durable. The item becomes magical if it wasn't already and you can use it as a spellcasting focus for your lorehunter spells. In addition, the item gains additional effects based on its type, as described below.",
                                     {
                                         "type": "list",
                                         "style": "list-hang-notitle",
                                         "items": [
                                             {
                                                 "type": "entries",
-                                                "name": "An instrument, set of tools, document, figurine, piece of jewelry or similar ceremonial item",
+                                                "name": "An instrument, set of tools, document, figurine, trinket or similar ceremonial item",
                                                 "entries": [
-                                                    "The item grants a +1 bonus to ability checks made using the item or in which the item is revelent, such as recalling associated lore, performing an anicient cermeony or convincing someone of its legitimacy. In addition, when you make and ability check that would benefit from this bonus, it can also use your Intelligence modifier in place of the normal ability modifer used for the check."
+                                                    "The item grants a +1 bonus to ability checks made using the item or in which the item is revelent, such as recalling associated lore, performing an ancient ceremeony or convincing someone of its legitimacy (provided the item does not already grant such a bonus). In addition, when a creature makes an ability check that would benefit from this bonus, it can use its Intelligence in place of the normal ability used for the check."
                                                 ]
                                             },
                                             {
                                                 "type": "entries",
-                                                "name": "A set of armor or a shield",
+                                                "name": "A set of armor, a shield or a pride silk outfit",
                                                 "entries": [
-                                                    "The armor or shield grants a +1 bonus to the wearer's Armor Class, unless it already provides the same bonus or higher. In addition, if the armour would normally allow you to add its Dexterity modifer to your Armor Class, you can instead add your Intelligence modifer."
+                                                    "The item grants a +1 bonus to the wearer or wielder's Armor Class (provided the item does not already grant such a bonus). A creature can only gain this benefit once even if they bear mutliple items with this benefit. In addition, if the item normally allows a creature to add its Dexterity modifer to its Armor Class, it can instead add its Intelligence modifier."
                                                 ]
                                             },
                                             {
                                                 "type": "entries",
-                                                "name": "A weapon",
+                                                "name": "A weapon, gauntlet or ring",
                                                 "entries": [
-                                                    "The weapon grants a +1 bonus to attack and damage rolls made using it, unless it already provides the same bonus or higher. In addition, when attacking with the weapon, you can use your Intelligence modifer in place of its Strength or Dexterity modifer for the attack and damage rolls"
+                                                    "The item grants a +1 bonus to attack and damage rolls made using it (provided the item does not already grant such a bonus). If the item is not a weapon, this bonus instead applies to {@variantrule Unarmed Strikes|XPHB} made while wearing the item. In addition, a creature can use its Intelligence in place of Strength or Dexterity for the attack and damage rolls with the the weapon or Unarmed Strikes."
                                                 ]
                                             }
                                         ]
                                     },
-                                    "Sometimes an item may have enough historical, cultural or political significance to be considered an antique. The DM decides if an item is an antique. Items that are; several centuries old, were used by famous historical figures, or were used in legendary events can usually be considered antiques. The +1 bonuses described above increase to +2 if the item is an antique.",
                                     "You can have up to two items enhanced in this way at any one time. If you attempt to use this feature on a third, the oldest effect ends. The effect is also removed if you remove it with another 10 minute ritual or if you die."
+                                ]
+                            },
+                            {
+                                "className": "Lorehunter",
+                                "classSource": "J:Lore",
+                                "subclassShortName": "Antiquarian",
+                                "subclassSource": "J:Lore",
+                                "level": 3,
+                                "header": 2,
+                                "entries": [
+                                    {
+                                        "name": "Arcane Antiques",
+                                        "entries": [
+                                            "Starting at 3rd level, you can focus the energy around your Useful Antiques further. As a {@variantrule Bonus Action|XPHB}, you can expend a spell slot of level 1 or higher and choose one of the items you can see within 60 feet of you. You produce one of the following effects of your choice.",
+                                            {
+                                                "type": "list",
+                                                "style": "list-hang-notitle",
+                                                "items": [
+                                                    {
+                                                        "type": "entries",
+                                                        "name": "Archivist's Preservation",
+                                                        "entries": [
+                                                            "A creature that is holding or wearing the targeted item gains {@variantrule Temporary Hit Points|XPHB} equal to six times the level of the spell slot expended. A creature loses these Temporary Hit Points if it is ever more than 5 feet from the item for more than one minute."
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "entries",
+                                                        "name": "Excavator's Smite",
+                                                        "entries": [
+                                                            "The next time a creature hits with a weapon attack using the targeted item within the next minute, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "The effects end early if you use this feature again."
+                                        ]
+                                    }
                                 ]
                             },
                             {
@@ -2504,29 +2540,37 @@
                         "header": 2,
                         "entries": [
                             {
-                                "name": "Arcane Antiques",
+                                "name": "Echoes of Provenance",
                                 "entries": [
-                                    "Starting at 7th level, the magic surrounding your Useful Antiques grows stronger. As a Bonus Action, you can expend a spell slot for one of the following effects, targeting one of the items enhanced by your Useful Antiques feature. The targeted item must be within 60 feet of you.",
+                                    "Starting at 7th level, you can call upon the echoes of those who came before to enhance your actions in one of the following ways.",
                                     {
                                         "type": "list",
                                         "style": "list-hang-notitle",
                                         "items": [
                                             {
                                                 "type": "entries",
-                                                "name": "Archivist's Preservation",
+                                                "name": "Spiritual Haste",
                                                 "entries": [
-                                                    "A creature that is holding or wearing the targeted item gains {@variantrule Temporary Hit Points|XPHB} equal to six times the level of the spell slot expended. A creature loses these Temporary Hit Points if it is ever more than 5 feet from the item for more than one minute."
+                                                    "When you take the {@action Dash|XPHB} or {@action Disengage|PHB} action, you can increase your speed by 10 feet for the current turn."
                                                 ]
                                             },
                                             {
                                                 "type": "entries",
-                                                "name": "Excavator's Smite",
+                                                "name": "Spiritual Reach",
                                                 "entries": [
-                                                    "The next time a creature hits with an attack using the targeted weapon or focus, or with an unarmed strike while wearing the targeted armor, the attack deals an extra {@dice d10} force damage per level of the spell slot expended."
+                                                    "When you make a weapon attack, you can extend the reach of the weapon or {@variantrule Unarmed Strike|XPHB} by up to 15 feet, or the normal and long range by up to 30 feet for the current turn."
                                                 ]
                                             }
                                         ]
-                                    }
+                                    },
+                                    "You can use this feature a number of times equal to your Intelligence modifer and regain expended uses when you finish a {@variantrule Short Rest|XPB|Short} or {@variantrule Long Rest|XPHB}."
+                                ]
+                            },
+                            {
+                                "name": "Improved Antiques",
+                                "entries": [
+                                    "Starting at 7th level, you can summon, dismiss, draw, stow, don or doff any number of your Useful Antiques as part of a single Object Interaction you make on your turn.",
+                                    "Additionally, at the DM's discretion, an item may have enough historical, cultural or political significance to be considered an antique. Items that are; several centuries old, were used by famous historical figures, or were used in legendary events can usually be considered antiques. The +1 bonuses from Useful Antiques increase to +2 if the item is an antique."
                                 ]
                             }
                         ]
@@ -54232,7 +54276,7 @@
                                 [
                                     "Wardog",
                                     "Damage rolls for weapon attacks against {@variantrule Bloodied|XPHB} or {@condition Bleeding|J:General} creatures.",
-                                    "When you hit a creature with a melee weapon attack, you can force the target to begin {@condition Bleeding|J:General} ."
+                                    "When you hit a creature with a melee weapon attack, you can force the target to begin {@condition Bleeding|J:General}."
                                 ]
                             ]
                         }
