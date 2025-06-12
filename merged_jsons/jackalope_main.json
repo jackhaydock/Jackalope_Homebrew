@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.06.06.19.06",
+                "version": "2025.06.12.21.56",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1749236816.6831868
+        "dateLastModified": 1749765393.693104
     },
     "class": [
         {
@@ -43278,6 +43278,15 @@
             "rechargeAmount": "{@dice 1d6}",
             "entries": [
                 "This horn has 6 charges and regains {@dice 1d6} charges daily at dawn. As an action, you can expend a number of charges up to your Proficiency Bonus (minimum of 3) to cast the {@spell Summon Warrior|J:Humanoids} spell. For 3 charges, you cast the spell at 3rd-level. You can increase the spell's level by 1 for each additional charge you expend."
+            ]
+        },
+        {
+            "name": "Phantom Ring",
+            "source": "J:General",
+            "rarity": "common",
+            "wondrous": "true",
+            "entries": [
+                "This metallic ring can be placed on a finger even if it is missing, floating in the air as if your missing finger or limb were simply invisible. The ring floats as close as it can to where your finger would be but possesses no special ability to move through physical objects."
             ]
         },
         {
