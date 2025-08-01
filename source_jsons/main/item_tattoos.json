@@ -28,9 +28,19 @@
 			"source": "J:Tattoos",
 			"reqAttune": true,
 			"entries": [
-				"Produced by a special needle, this magic tattoo features a series of runic sigils. Each sigil corresponds to a particular teleportation circle that you know. Whenever you commit a circle's sigil to memory, the sigil is added to the design of this tattoo.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Stored Circles.}} You can use this tattoo to cast the {@spell teleportation circle} spell without expending a spell slot (you must still provide the material components). Once you use this feature, you cannot do so again until the next dawn."
+				"Produced by a special needle, this magic tattoo features a series of runic sigils. Each sigil corresponds to a particular teleportation circle that you know. Whenever you commit a circle's sigil to memory, the sigil is added to the design of this tattoo. At the DM's discretion, you might immediately learn {@dice 1d3-1} random sigils the first time you attune to this tattoo",
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Stored Circles",
+					"entries": [
+						"You can use this tattoo to cast the {@spell Teleportation Circle|XPHB} spell without expending a spell slot (you must still provide the material components). You can use this feature twice, regaining all expended uses each dawn."
+					]
+				}
 			]
 		},
 		{
@@ -42,8 +52,18 @@
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features a coil like pattern rising up your ankles and calves.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Eldritch Leap.}} You can use this tattoo to cast the {@spell jump} spell on yourself as a bonus action without expending a spell slot. Once you use this feature, you cannot do so again until the next dawn."
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Eldritch Leap",
+					"entries": [
+						"You can use this tattoo to cast the {@spell Longstrider|XPHB} or {@spell Jump|XPHB} spell on yourself without expending a spell slot. Once you cast one of these spells, you cannot cast that spell again until the next dawn."
+					]
+				}
 			]
 		},
 		{
@@ -55,12 +75,22 @@
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features muscle like patterns.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Robust Grasp.}} While attuned to this item and wielding a weapon with the Versatile property in one hand, the weapon's damage die changes as if you wielded the weapon in two hands. (This benefit has no effect if another feature has already improved the weapon's die.)"
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Robust Grasp",
+					"entries": [
+						"While attuned to this item and wielding a weapon with the Versatile property in one hand, the weapon's damage die changes as if you wielded the weapon in two hands. In addition, you can ignore the Heavy property of weapons you wield."
+					]
+				}
 			]
 		},
 		{
-			"name": "Loyalty Tattoo",
+			"name": "Boomerang Tattoo",
 			"wondrous": true,
 			"tattoo": true,
 			"rarity": "uncommon",
@@ -68,9 +98,18 @@
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features twisting and looping patterns.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Bonded Weapon.}} You can perform a ritual to bond with a weapon you touch over the course of an hour, this can be done during a short rest. You can only bond to one weapon at a time. So long as the bonded weapon is within 60ft of you, you can use a bonus action to summon it to your hand via the most direct route.",
-				"  Any creatures that would be hit by the weapon on its path to your hand, must make a DC12 Dexterity saving throw or take {@dice 1d6} of the weapon's damage type."
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Loyal Weapon",
+					"entries": [
+						"When you make a ranged attack with a melee weapon, the weapon returns to your hand via the most direct route after the attack. When it does so, you can use a {@variantrule Bonus Action|XPHB} to deal {@dice 2d4} damage to all creatures in a 5-foot-wide line from the original target to you (not including you or the target)."
+					]
+				}
 			]
 		},
 		{
@@ -84,22 +123,24 @@
 			"recharge": "dawn",
 			"entries": [
 				"Produced by a special needle, this magic tattoo features glowing flame like patterns.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Magical Strikes.}} While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.",
-				"{@b {@i Flaming Punch.}} This tattoo has 6 charges, and it regains {@dice 1d6} charges daily at dawn. As a bonus action, you can use an action to expend 1 or more of its charges to cast the {@spell searing smite|phb} spell without expending a spell slot. For 1 charge, you cast the 1st-level version of the spell. For 2 charges, you cast the 2nd-level version of the spell. The effects of the spell only apply to your unarmed strikes."
-			]
-		},
-		{
-			"name": "Wild Tattoo",
-			"wondrous": true,
-			"tattoo": true,
-			"rarity": "uncommon",
-			"source": "J:Tattoos",
-			"reqAttune": true,
-			"entries": [
-				"Produced by a special needle, this magic tattoo features a chaotic and colourful pattern that never seems to look the same each time you look at it.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Chaotic Reserves.}} As an action you can roll {@dice 1d6-1} and recover expended spell slots with a combined level that is equal to or less than the result of the roll. If the result is a 0, you must instead roll a Wild Magic Surge. Once you use this feature, you cannot do so again until the next dawn."
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Flaming Punch",
+					"entries": [
+						"You have a +1 bonus to attack and damage rolls with your {@variantrule Unarmed Strikes|PHB|Unarmed Strikes} and they deal fire damage."
+					]
+				},
+				{
+					"name": "Furious Fist",
+					"entries": [
+						"This tattoo has 6 charges, and it regains {@dice 1d6} charges daily at dawn. You can use an action to expend 1 or more of its charges to cast the {@spell Searing Smite|XPHB} spell without expending a spell slot. For 1 charge, you cast the 1st-level version of the spell. For 2 charges, you cast the 2nd-level version of the spell. The effects of the spell only apply to your {@variantrule Unarmed Strikes|PHB|Unarmed Strikes}."
+					]
+				}
 			]
 		},
 		{
@@ -111,10 +152,25 @@
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features spiralling patterns of chains, ropes, vines or webs.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Chain Weapon.}} While the tattoo is on your skin, you can summon a chain to your free hand as a bonus action, or as part of an attack you make with the chain. You can dismiss the chain again as a bonus action. You cannot be disarmed of the chain.",
-				"  The chain is a simple melee weapon with the finesse and reach properties. On a hit, it deals bludgeoning or slashing (your choice) damage equal to {@dice 1d8} plus the ability modifier you used for the attack roll. The chain counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
-				"  Alternatively, when you summon the chain, you can attach it to a melee weapon that lacks the two-handed or heavy property. The weapon gains the reach property while the chain is attached."
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Chains from Veins",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, or as part of an attack you make with it, you can summon a {@item Chain|XPHB}, a {@item Whip|XPHB} or a {@item Flail|XPHB} to your free hand. The item is fixed to your hand, you cannot drop it or be disarmed of it. The item disappears when you summon another item or if you dismiss it with another {@variantrule Bonus Action|XPHB}.",
+						"If you summon a weapon, its damage die is a {@dice d8}, you are proficient with it, can use its weapon mastery property and you have a +1 bonus to the attack and damage rolls."
+					]
+				},
+				{
+					"name": "Iron Reach",
+					"entries": [
+						"When you make a melee weapon attack on your turn, your reach for it is 5 feet greater than normal."
+					]
+				}
 			]
 		},
 		{
@@ -136,9 +192,24 @@
 			"reqAttune": true,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features the design of a dart or arrow on the hand with the image of a rope or chain tightly coiled up the forearm.",
-				"{@b {@i Tattoo Attunement.}} To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.",
-				"{@b {@i Assisted Grasp.}} When you take the {@action Grapple} or {@action Shove} action on your turn, you can use a bonus action to gain advantage on the Strength (Athletics) check as a spectral rope extends from the tattoo, wrapping around the target.",
-				"{@b {@i Far Reach.}} As a bonus action, you can cast the {@spell runner's rope|J:General} spell without expending a spell slot or providing material components. Once you use this bonus action, you cannot do so again until the next dawn."
+				{
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
+					]
+				},
+				{
+					"name": "Assisted Grasp",
+					"entries": [
+						"Creatures {@condition Grappled|XPHB} by you have disadvantage on ability checks and saving throws to escape the grapple."
+					]
+				},
+				{
+					"name": "Far Reach",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can cast the {@spell Runner's Rope|J:General} spell without expending a spell slot or providing material components. Once you use this {@variantrule Bonus Action|XPHB}, you cannot do so again until the next dawn."
+					]
+				}
 			]
 		},
 		{
@@ -166,7 +237,7 @@
 				{
 					"name": "Hand Cannon",
 					"entries": [
-						"When you make an Unarmed Strike, you can launch a piece of ammunition from your tattoo instead. The attack has the Finnese and Reach properties, and you have a +1 bonus to the attack and damage rolls. The damage die for the attack is {@dice 1d4}, unless it is already higher."
+						"When you make an {@variantrule Unarmed Strike|XPHB}, you can launch a piece of ammunition from your tattoo instead. The attack has the Finnese and Reach properties, and you have a +1 bonus to the attack and damage rolls. The damage die for the attack is {@dice 1d4}, unless it is already higher."
 					]
 				}
 			]
@@ -196,7 +267,7 @@
 				{
 					"name": "Trigger Happy",
 					"entries": [
-						"You can cast the {@spell hunter's mark|xphb} or {@spell overwatch|J:general} spell from this tattoo without expending a spell slot or providing material components. For the spell's duration, one or more of the tattoo's eyes become animated, turning to look at the target or area. Once you cast a spell in this way, you cannot cast that spell with this tattoo again until the next dawn."
+						"You can cast the {@spell Hunter's Mark|XPHB} or {@spell Overwatch|J:general} spell from this tattoo without expending a spell slot or providing material components. For the spell's duration, one or more of the tattoo's eyes become animated, turning to look at the target or area. Once you cast a spell in this way, you cannot cast that spell with this tattoo again until the next dawn."
 					]
 				}
 			]
@@ -250,13 +321,13 @@
 				{
 					"name": "Dermal Messaging",
 					"entries": [
-						"You can cast the {@spell message|XPHB} cantrip with this tattoo. When you do so, you use the tattoo to spell out your message and can do so silently."
+						"You can cast the {@spell Message|XPHB} cantrip with this tattoo. When you do so, you use the tattoo to spell out your message and ignore the verbal components of the spell.."
 					]
 				},
 				{
 					"name": "Telegraft",
 					"entries": [
-						"Over the course of a minute, you can touch another scribeglyph tattoo and bind the pair together. You can sever one of these bonds with an action. You can use this tattoo to cast the {@spell sending|XPHB} spell, targeting any number of creatures attuned to other tattoos bound to this one. You know who is attuned to each tattoo and can choose who does and doesn't receive the message, they all receive the same message and can respond to you individually. When you cast the spell in this way, you cannot do again until the next dawn."
+						"Over the course of a minute, you can touch another scribeglyph tattoo and bind the pair together. You can sever one of these bonds with an {@variantrule Action|XPHB}. You can use this tattoo to cast the {@spell Sending|XPHB} spell, targeting any number of creatures attuned to other tattoos bound to this one. You know who is attuned to each tattoo and can choose who does and doesn't receive the message, they all receive the same message and can respond to you individually. When you cast the spell in this way, you cannot do again until the next dawn."
 					]
 				}
 			]
