@@ -46,6 +46,103 @@
 			]
 		}
 	],
+	"background": [
+		{
+			"name": "Custom",
+			"source": "J:General",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								1,
+								1,
+								1
+							]
+						}
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"A": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ability Scores:",
+							"entry": "Any"
+						},
+						{
+							"type": "item",
+							"name": "Feat:",
+							"entry": "One {@filter Origin Feat|feats|category=o} of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiency:",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "50 GP"
+						}
+					]
+				}
+			]
+		}
+	],
 	"condition": [
 		{
 			"name": "Lightened",
