@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.09.04.13.16",
+                "version": "2025.09.23.02.12",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1756993354.9924412
+        "dateLastModified": 1758593809.4901192
     },
     "class": [
         {
@@ -52782,6 +52782,16 @@
             ]
         },
         {
+            "name": "Holding your Breath",
+            "source": "J:General",
+            "ruleType": "O",
+            "entries": [
+                "In a low-stress situation, a creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 1 minute), after which it begins {@condition Suffocating|J:General}.",
+                "In a high-stress situation, such as in combat or while {@variantrule Bloodied|XPHB}, a creature can hold its breath for a number of turns equal to its Constitution modifier (minimum of 1 turn), after which it begins {@condition Suffocating|J:General}.",
+                "The DM determines when a situation is high or low stress and when to transition between them. If a situation transitions from low-stress to high-stress while a creature is holding its breath, it can continue to hold its breath as if it had just begun to in a high-stress situation. If a situation transitions from high-stress to low-stress while a creature is holding its breath, it continues to hold its breath as if it were a high-stress situation until it can breathe again."
+            ]
+        },
+        {
             "name": "Creating Custom Dragons",
             "source": "J:Dragons",
             "entries": [
@@ -52903,6 +52913,29 @@
                     "name": "Optional: Throwing Unwilling Creatures",
                     "entries": [
                         "At the DM's discretion, you may attempt to throw an unwilling creature you have {@condition grappled}, that is your size or smaller. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, the target is thrown as decribed above."
+                    ]
+                }
+            ],
+            "seeAlsoAction": [
+                "Attack"
+            ]
+        },
+        {
+            "name": "Choke",
+            "source": "J:General",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "entries": [
+                "When you have creature {@condition Grappled|XPHB}, and that creature has a crushable airway, such as a humanoid's throat, you can use an {@variantrule Action|XPHB} to choke them. The creature is {@condition Suffocating|J:General} until the grapple ends, until you end your turn without using this {@variantrule Action|XPHB}, or you stop choking them (no action required).",
+                {
+                    "type": "inset",
+                    "name": "Optional: Non-Lethal Choking",
+                    "entries": [
+                        "If a creature has 3 or more levels of {@condition Exhaustion|XPHB} and you take this {@variantrule Action|XPHB}, you can choose to force the creature to make a Constitution saving throw against the escape DC of the Grapple. On a failure, the creature falls {@condition Unconscious|XPHB} for the next 10 minutes, or until they take damage. On a success, the creature continues {@condition Suffocating|J:General} but suffers no other effects."
                     ]
                 }
             ],
@@ -54358,6 +54391,14 @@
                         "This condition can be removed with the {@spell Calm Emotions|XPHB} or {@spell Greater Restoration|XPHB} spells or similar."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Suffocating",
+            "source": "J:General",
+            "entries": [
+                "A Suffocating creature cannot breathe and gains a level of {@condition Exhaustion|XPHB} at the end of each of its turns. When the creature can breathe again, they lose all levels of {@condition Exhaustion|XPHB} it gained from Suffocating at the end of its current or next turn (whichever comes first).",
+                "A creature that does not need to breathe is usually immune to Suffocating."
             ]
         }
     ],
