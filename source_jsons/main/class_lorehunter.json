@@ -137,7 +137,7 @@
                     ],
                     "rowsSpellProgression": [
                         [
-                            0,
+                            2,
                             0,
                             0,
                             0,
@@ -495,7 +495,7 @@
                 "Remove Curse|XPHB",
                 "Sending|PHB",
                 "Sending|XPHB",
-                "Summon Warrior|J:Humanoids",
+                "Summon Warrior|J:General",
                 "Stinking Cloud|PHB",
                 "Stinking Cloud|XPHB",
                 "Tiny Servant|XGE",
@@ -954,9 +954,9 @@
                 {
                     "prepared": {
                         "3": [
-                            "Tenser's Floating Diske|XPHB",
-                            "identify|xphb",
-                            "mending|xphb"
+                            "tenser's floating disk|XPHB",
+                            "identify|XPHB",
+                            "mending|XPHB"
                         ],
                         "5": [
                             "speak with documents|J:lore",
@@ -964,15 +964,15 @@
                         ],
                         "9": [
                             "explosive excavation|J:lore",
-                            "remove curse|xphb"
+                            "remove curse|XPHB"
                         ],
                         "13": [
-                            "leomund's secret chest|xphb",
-                            "summon construct|xphb"
+                            "time stasis|J:General",
+                            "summon construct|XPHB"
                         ],
                         "17": [
-                            "animate objects|xphb",
-                            "legend lore|xphb"
+                            "animate objects|XPHB",
+                            "legend lore|XPHB"
                         ]
                     }
                 }
@@ -981,7 +981,6 @@
                 "Antiquarian|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
                 "Antiquarian Spells|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
                 "Useful Antiques|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
-                "Arcane Antiques|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
                 "Arcane Antiques|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
                 "Conservation Arcana|Lorehunter|J:Lore|Antiquarian|J:Lore|3",
                 "Echoes of Provenance|Lorehunter|J:Lore|Antiquarian|J:Lore|7",
@@ -1054,7 +1053,7 @@
                             "stagger/sunder|J:Lore"
                         ],
                         "9": [
-                            "summon warrior|J:Humanoids",
+                            "summon warrior|J:General",
                             "intellect fortress|TCE"
                         ],
                         "13": [
@@ -1176,7 +1175,7 @@
                         ],
                         [
                             "13th",
-                            "{@spell Leomund's Secret Chest|XPHB}, {@spell Summon Construct|TCE}"
+                            "{@spell Time Stasis|J:General}, {@spell Summon Construct|XPHB}"
                         ],
                         [
                             "17th",
@@ -1596,7 +1595,7 @@
                         ],
                         [
                             "9th",
-                            "{@spell Summon Warrior|J:Humanoids}, {@spell Intellect Fortress|TCE}"
+                            "{@spell Summon Warrior|J:General}, {@spell Intellect Fortress|TCE}"
                         ],
                         [
                             "13th",
