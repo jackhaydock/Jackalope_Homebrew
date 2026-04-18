@@ -943,6 +943,74 @@
             ]
         }
     ],
+    "item": [
+        {
+			"name": "+1 Quill of the Archivist",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "uncommon",
+			"reqAttune": "by a lorehunter",
+			"reqAttuneTags": [
+				{
+					"class": "lorehunter"
+				}
+			],
+            "bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"focus": [
+				"Lorehunter"
+			],
+			"entries": [
+				"This quill can be worn on your person or used to inscribe a weapon with which you are proficient (only one weapon may benefit at a time). You gain a +1 bonus to attack and damage rolls made with an inscribed weapon (provided it doesn't already give a bonus to such rolls), and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your lorehunter spells. In addition, you can use the quill or weapon as a spellcasting focus for your lorehunter spells.",
+				"When you attune to this item, you choose one additional proficiency (or specialist topic) to gain the benefit of your Scholarly Expertise feature. You can choose a different proficieny if you reattune to the item."
+			],
+			"bonusWeapon": "+1"
+		},
+        {
+			"name": "+2 Quill of the Archivist",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": "by a lorehunter",
+			"reqAttuneTags": [
+				{
+					"class": "lorehunter"
+				}
+			],
+            "bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"focus": [
+				"Lorehunter"
+			],
+			"entries": [
+				"This quill can be worn on your person or used to inscribe a weapon with which you are proficient (only one weapon may benefit at a time). You gain a +2 bonus to attack and damage rolls made with an inscribed weapon (provided it doesn't already give a bonus to such rolls), and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your lorehunter spells. In addition, you can use the quill or weapon as a spellcasting focus for your lorehunter spells.",
+				"When you attune to this item, you choose one additional proficiency (or specialist topic) to gain the benefit of your Scholarly Expertise feature. You can choose a different proficieny if you reattune to the item."
+			],
+			"bonusWeapon": "+2"
+		},
+        {
+			"name": "+3 Quill of the Archivist",
+			"source": "J:General",
+			"wondrous": true,
+			"rarity": "very rare",
+			"reqAttune": "by a lorehunter",
+			"reqAttuneTags": [
+				{
+					"class": "lorehunter"
+				}
+			],
+            "bonusSpellAttack": "+3",
+			"bonusSpellSaveDc": "+3",
+			"focus": [
+				"Lorehunter"
+			],
+			"entries": [
+				"This quill can be worn on your person or used to inscribe a weapon with which you are proficient (only one weapon may benefit at a time). You gain a +3 bonus to attack and damage rolls made with an inscribed weapon (provided it doesn't already give a bonus to such rolls), and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your lorehunter spells. In addition, you can use the quill or weapon as a spellcasting focus for your lorehunter spells.",
+				"When you attune to this item, you choose one additional proficiency (or specialist topic) to gain the benefit of your Scholarly Expertise feature. You can choose a different proficieny if you reattune to the item."
+			],
+			"bonusWeapon": "+3"
+		}
+    ],
     "subclass": [
         {
             "name": "Antiquarian",
@@ -1346,8 +1414,8 @@
             "level": 15,
             "header": 2,
             "entries": [
-                "Starting at 15th level, you ignore all class, race, and level requirements on the use of magic items.",
-                "Additionally, if a magic item allows you to activate it with an action, you can instead choose to activate it with a bonus action. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+                "Starting at 15th level, you can attune to up to four magic items at once, provided at least one of these items is one of your Useful Antiques.",
+                "Additionally, if a magic item allows you to activate it with a {@action Magic|XPHB} Action, you can instead choose to activate it with a {@variantrule Bonus Action|XPHB}. This feature cannot be used to change the casting time of a spell you cast using the item. You can this bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}."
             ]
         },
         {
