@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.04.30.17.53",
+                "version": "2026.04.30.17.55",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1777571600.2449067
+        "dateLastModified": 1777571758.748791
     },
     "class": [
         {
@@ -49749,6 +49749,19 @@
             },
             "entries": [
                 "When you hit a creature with an attack roll using a weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend one Superiority Die to attempt to give the target a bleeding wound. Add the Superiority Die to the attack's damage roll. The creature must make a Constitution saving throw or begin {@condition bleeding|J:General}."
+            ]
+        },
+        {
+            "name": "Binding Attack",
+            "source": "J:General",
+            "featureType": [
+                "MV:B"
+            ],
+            "consumes": {
+                "name": "Superiority Die"
+            },
+            "entries": [
+                "When you hit a creature within 5 feet with an attack roll, you can expend one Superiority Die to attempt to attempt to bind or grab a weapon of your choice that they are holding. Add the Superiority Die to the attack's damage roll. The target must succeed on a Strength saving throw or be unable to attack with the weapon until the start of your next turn, or until they are more than 5 feet from you."
             ]
         },
         {
