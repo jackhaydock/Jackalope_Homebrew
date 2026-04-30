@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.04.19.08.09",
+                "version": "2026.04.30.17.53",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1776586263.8806973
+        "dateLastModified": 1777571600.2449067
     },
     "class": [
         {
@@ -6146,8 +6146,8 @@
             "type": "P",
             "wondrous": true,
             "entries": [
-                "When a creature consumes this leaf, they a relaxed state of mind. After 10 minutes of light activity, the creature gains the effects of the {@spell greater restoration|xphb} spell.",
-                "Additionally, the creature gains the effects of the {@spell modify memory|xphb} spell. They roll on the table below to determine the effects.",
+                "When a creature consumes this leaf, they enter a relaxed state of mind. After 10 minutes of light activity, the creature gains the effects of the {@spell greater restoration|xphb} spell.",
+                "Additionally, the creature gains the effects of the {@spell Modify Memory|xphb} spell. They roll on the table below to determine the effects.",
                 {
                     "type": "table",
                     "colLabels": [
@@ -6185,7 +6185,7 @@
                         ],
                         [
                             "7",
-                            "A good memmory is replaced by a different good memory."
+                            "A good memory is replaced by a different good memory."
                         ],
                         [
                             "8",
@@ -6201,7 +6201,8 @@
                         ]
                     ]
                 },
-                "The DM determines the nature of the new memory. Most memories created by the leaf are strange and may defy logic, yet they seem real to the creature."
+                "The DM determines the nature of the new memory. Most memories created by the leaf are strange and may defy logic, yet they seem real to the creature.",
+                "The DM might also decide to add additional mystery and risk by having a player offer up a memory before they know the result. They might do this by requesting a good, negative and neutral memory before the roll or by rolling in secret and requesting a memory before revealing what it is replaced by."
             ]
         },
         {
