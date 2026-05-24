@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.04.30.17.55",
+                "version": "2026.05.24.14.14",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1777655991.0046906
+        "dateLastModified": 1779632060.6516159
     },
     "class": [
         {
@@ -6698,6 +6698,28 @@
             "wondrous": "true",
             "entries": [
                 "You can touch this small stone tablet against a written document and have it audibly read out the contents. The voice speaks in the same language as the written text or the nearest spoken language as determined by the DM. It may also attempt to describe symbols and images in common. Peculiarly, every tablet seems to have a different voice, unique to it."
+            ]
+        },
+        {
+            "name": "Shrapnel Bomb",
+            "source": "J:General",
+            "type": "EXP|XDMG",
+            "rarity": "none",
+            "weight": 1,
+            "value": 10000,
+            "entries": [
+                "As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 5-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 12} Dexterity saving throw. On a failed save, a creature takes {@damage 2d8} Piercing damage and begins {@condition Bleeding|J:General|}. On a success, it takes half damage and suffers no other effects."
+            ]
+        },
+        {
+            "name": "Greater Shrapnel Bomb",
+            "source": "J:General",
+            "type": "EXP|XDMG",
+            "rarity": "none",
+            "weight": 1,
+            "value": 50000,
+            "entries": [
+                "As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 15} Dexterity saving throw. On a failed save, a creature takes {@damage 4d8} Piercing damage and begins {@condition Bleeding|J:General|}. On a success, it takes half damage and suffers no other effects."
             ]
         },
         {
