@@ -1217,6 +1217,96 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Good Dog",
+			"source": "J:Beastkin",
+			"prerequisite": [
+				{
+					"race": [
+							{
+								"name": "Fenri"
+							}
+						],
+					"other": "Can't have the {@feat Bad Dog|J:Beastkin} feat."
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"One of life's enduring mysteries, who's a good dog? Could it be you? We may never know, but you have grown closer to achieving such prestige. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Old Dog, Same Tricks",
+					"entries": [
+						"The {@dice 1d4} bonus from your Canid Lineage trait increases to {@dice 1d6}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loyal Companion",
+					"entries": [
+						"Whenever you finish a Long Rest, you can choose a friendly creature you are familiar with. Until the end of your next Long Rest, you are always aware of the distance between you while you are within 1 mile, that creature has a +1 bonus to AC and saving throws while you are within 10 feet of you and you are not {@condition Incapacitated|XPHB}. Additionally, whenever one of you gains {@variantrule Heroic Inspiration|XPHB}, the other gains it too."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bad Dog",
+			"source": "J:Beastkin",
+			"prerequisite": [
+				{
+					"race": [
+							{
+								"name": "Fenri"
+							}
+						],
+					"other": "Can't have the {@feat Good Dog|J:Beastkin} feat."
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You do not care who's a good dog, you walk your own path and indulge your feral instincts. You have the following benefits. You gain the following benefits:",
+				{
+					"type": "entries",
+					"name": "Old Dog, Same Tricks",
+					"entries": [
+						"The {@dice 1d4} bonus from your Canid Lineage trait increases to {@dice 1d6}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite worse than Bark",
+					"entries": [
+						"When you hit a creature with an {@variantrule Unarmed Strike}, you can deal Piercing damage equal to {@dice 1d6} plus your Strength modifier instead of the normal damage of an Unarmed Strike. Additionally, you can choose to use the {@itemMastery Graze|XPHB}, {@itemMastery Topple|XPHB} or {@itemMastery Sap|XPHB} {@variantrule weapon mastery properties|XPHB|weapon mastery property} on the attack."
+					]
+				}
+			]
 		}
 	]
 }

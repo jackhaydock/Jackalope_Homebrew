@@ -262,7 +262,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.06.01.17.36",
+                "version": "2026.05.27.19.15",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +583,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1779908254.0716786
+        "dateLastModified": 1779909384.5626302
     },
     "class": [
         {
@@ -49464,6 +49464,96 @@
                         "Increase your Strength or Dexterity score by 1, to a maximum of 20.",
                         "You can use a horn to make an unarmed strike. This attack has the reach property and you can use your choice of Strength or Dexterity for the attack and damage rolls. On a hit, the strike deals piercing damage equal to 1d8 + the ability modifier you used for the attack roll, instead of the bludgeoning damage normal for an unarmed strike.",
                         "You can use your horn to deflect and parry incoming attacks. When a creature makes a melee weapon attack against you, you can use a reaction to roll a {@dice 1d6} and add the result to your Armor Class for the attack. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Good Dog",
+            "source": "J:Beastkin",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Fenri"
+                        }
+                    ],
+                    "other": "Can't have the {@feat Bad Dog|J:Beastkin} feat."
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "One of life's enduring mysteries, who's a good dog? Could it be you? We may never know, but you have grown closer to achieving such prestige. You gain the following benefits:",
+                {
+                    "type": "entries",
+                    "name": "Old Dog, Same Tricks",
+                    "entries": [
+                        "The {@dice 1d4} bonus from your Canid Lineage trait increases to {@dice 1d6}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Loyal Companion",
+                    "entries": [
+                        "Whenever you finish a Long Rest, you can choose a friendly creature you are familiar with. Until the end of your next Long Rest, you are always aware of the distance between you while you are within 1 mile, that creature has a +1 bonus to AC and saving throws while you are within 10 feet of you and you are not {@condition Incapacitated|XPHB}. Additionally, whenever one of you gains {@variantrule Heroic Inspiration|XPHB}, the other gains it too."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bad Dog",
+            "source": "J:Beastkin",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Fenri"
+                        }
+                    ],
+                    "other": "Can't have the {@feat Good Dog|J:Beastkin} feat."
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "You do not care who's a good dog, you walk your own path and indulge your feral instincts. You have the following benefits. You gain the following benefits:",
+                {
+                    "type": "entries",
+                    "name": "Old Dog, Same Tricks",
+                    "entries": [
+                        "The {@dice 1d4} bonus from your Canid Lineage trait increases to {@dice 1d6}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite worse than Bark",
+                    "entries": [
+                        "When you hit a creature with an {@variantrule Unarmed Strike}, you can deal Piercing damage equal to {@dice 1d6} plus your Strength modifier instead of the normal damage of an Unarmed Strike. Additionally, you can choose to use the {@itemMastery Graze|XPHB}, {@itemMastery Topple|XPHB} or {@itemMastery Sap|XPHB} {@variantrule weapon mastery properties|XPHB|weapon mastery property} on the attack."
                     ]
                 }
             ]
