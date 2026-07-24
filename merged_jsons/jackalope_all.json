@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.16.51",
+                "version": "2026.07.24.18.41",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.16.51",
+                "version": "2026.07.24.18.41",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.16.51",
+                "version": "2026.07.24.18.41",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1784912078.7354827
+        "dateLastModified": 1784918616.8869965
     },
     "class": [
         {
@@ -25407,7 +25407,7 @@
                         "{@spell Minor Illusion|XPHB}",
                         "{@spell Prestidigitation|XPHB}"
                     ],
-                    "ability": "cha",
+                    "ability": "wis",
                     "displayAs": "action"
                 }
             ],
@@ -25558,7 +25558,7 @@
                         "{@spell Minor Illusion|XPHB}",
                         "{@spell Prestidigitation|XPHB}"
                     ],
-                    "ability": "cha",
+                    "ability": "wis",
                     "displayAs": "action"
                 }
             ],
@@ -25709,7 +25709,7 @@
                         "{@spell Minor Illusion|XPHB}",
                         "{@spell Prestidigitation|XPHB}"
                     ],
-                    "ability": "cha",
+                    "ability": "wis",
                     "displayAs": "action"
                 }
             ],
@@ -25860,7 +25860,7 @@
                         "{@spell Minor Illusion|XPHB}",
                         "{@spell Prestidigitation|XPHB}"
                     ],
-                    "ability": "cha",
+                    "ability": "wis",
                     "displayAs": "action"
                 }
             ],
@@ -26011,7 +26011,7 @@
                         "{@spell Minor Illusion|XPHB}",
                         "{@spell Prestidigitation|XPHB}"
                     ],
-                    "ability": "cha",
+                    "ability": "wis",
                     "displayAs": "action"
                 }
             ],
@@ -26096,6 +26096,550 @@
                     ]
                 }
             ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Deadeye (CR 3)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+6"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The deadeye casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deadeye makes two Far Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Far Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr rs} {@hit 6}, range 300 ft. one target {@h} 18 ({@damage 2d10 + 7}) Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Penetrating Bolt (3rd-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The deadeye blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a {@dc 14} Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes 21 ({@damage 6d6}) Necrotic damage and is {@condition Sundered|J:General} until the end of the deadeye's next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the deadeye uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "entries": [
+                        "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Deadeye (CR 5)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+7"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The deadeye casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deadeye makes two Far Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Far Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr rs} {@hit 7}, range 300 ft. one target {@h} 26 ({@damage 3d10 + 9}) Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Penetrating Bolt (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The deadeye blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a {@dc 15} Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Necrotic damage and is {@condition Sundered|J:General} until the end of the deadeye's next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the deadeye uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "entries": [
+                        "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Deadeye (CR 7)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+8"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The deadeye casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deadeye makes two Far Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Far Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr rs} {@hit 8}, range 300 ft. one target {@h} 34 ({@damage 4d10 + 12}) Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Penetrating Bolt (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The deadeye blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a {@dc 16} Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Necrotic damage and is {@condition Sundered|J:General} until the end of the deadeye's next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the deadeye uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "entries": [
+                        "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Deadeye (CR 9)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+9"
+            },
+            "skill": {
+                "perception": "+9"
+            },
+            "passive": 19,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The deadeye casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deadeye makes two Far Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Far Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr rs} {@hit 9}, range 300 ft. one target {@h} 42 ({@damage 5d10 + 14}) Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Penetrating Bolt (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The deadeye blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a {@dc 17} Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Necrotic damage and is {@condition Sundered|J:General} until the end of the deadeye's next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the deadeye uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "entries": [
+                        "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Deadeye (CR 11)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 22,
+            "cha": 18,
+            "save": {
+                "wis": "+10"
+            },
+            "skill": {
+                "perception": "+10"
+            },
+            "passive": 20,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The deadeye casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The deadeye makes two Far Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Far Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr rs} {@hit 10}, range 300 ft. one target {@h} 50 ({@damage 6d10 + 17}) Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Penetrating Bolt (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The deadeye blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a {@dc 18} Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Necrotic damage and is {@condition Sundered|J:General} until the end of the deadeye's next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the deadeye uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "entries": [
+                        "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [],
             "damageTags": [
                 "P"
             ],

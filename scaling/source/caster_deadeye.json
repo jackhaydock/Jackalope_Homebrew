@@ -1,0 +1,121 @@
+{
+    "scaling": {
+        "crs": [3,5,7,9,11],
+        "primary_cr": 3,
+        "spellcasting": {
+            "crs": [3, 5, 7, 9, 11],
+            "feature": {
+                "name": "Spellcasting",
+                "type": "spellcasting",
+                "headerEntries": [
+                    "The <name> casts one of the following spells (spell save <dc_default>):"
+                ],
+                "will": [
+                    "{@spell Light|XPHB}",
+                    "{@spell Minor Illusion|XPHB}",
+                    "{@spell Prestidigitation|XPHB}"
+                ],
+                "ability": "wis",
+                "displayAs": "action"
+            }
+        },
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two Far Bolt attacks."
+                    ]
+                }
+            ],
+            "Far Bolt (Cantrip, Evocation, V, S, M)": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr rs} <hit_default>, range 300 ft. one target <dmg_strong> Necrotic damage. This attack ignores Half Cover and Three-Quarters Cover."
+                    ]
+                }
+            ],
+            "Quarterstaff": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> bludgeoning damage."
+                    ]
+                }
+            ],
+            "Penetrating Bolt (<spl_lvstrong>, Evocation, V, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> blasts a bolt of life-draining energy in a 100-foot-long, 5-foot-wide Line. Creatures in the line must make a <dc_default> Dexterity saving throw. The line penetrates objects up to 1 foot thick and ignores Half Cover and Three-Quarters Cover.",
+                        "On a failure, a creature takes <spl_dmgmedium> Necrotic damage and is {@condition Sundered|J:General} until the end of the <name>'s next turn. On a success, a creature takes half damage and suffers no other effects.",
+                        "Once the <name> uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Bend Shot (2nd-Level, Evocation, V, S)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "When the <name> misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
+                        "Once the <name> uses this Bonus Action, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Deadeye",
+        "source": "J:Casters",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "spellcaster",
+                "artillery"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 35
+        },
+        "str": 10,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 16,
+        "cha": 12,
+        "save": {
+            "wis": "+3+PB"
+        },
+        "skill": {
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "spellcasting": [],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MS",
+            "RS"
+        ]
+    }
+}
