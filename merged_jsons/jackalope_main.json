@@ -297,6 +297,21 @@
                 "targetSchema": "1.0.0"
             },
             {
+                "json": "J:Casters",
+                "abbreviation": "J:Casters",
+                "color": "f5b342",
+                "full": "Jackalope: Scaling Casters",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "2026.07.24.16.51",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            },
+            {
                 "json": "J:Units",
                 "abbreviation": "J:Units",
                 "color": "f5b342",
@@ -307,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.11.00.18",
+                "version": "2026.07.24.16.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.20.04.50",
+                "version": "2026.07.24.16.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -583,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1784523143.7637434
+        "dateLastModified": 1784912078.6019728
     },
     "class": [
         {
@@ -22341,6 +22356,760 @@
             ]
         },
         {
+            "name": "Blaster (CR 3)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+6"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 6}, reach 5 ft. or range 120 ft. one target {@h} 18 ({@damage 2d10 + 7}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (3rd-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 14} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 21 ({@damage 6d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (1st-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 5 ({@damage 1d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 5)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+7"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 7}, reach 5 ft. or range 120 ft. one target {@h} 26 ({@damage 3d10 + 9}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 15} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (2nd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 9 ({@damage 2d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 7)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+8"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 8}, reach 5 ft. or range 120 ft. one target {@h} 34 ({@damage 4d10 + 12}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 16} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (2nd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 9 ({@damage 2d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 9)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+9"
+            },
+            "skill": {
+                "perception": "+9"
+            },
+            "passive": 19,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 9}, reach 5 ft. or range 120 ft. one target {@h} 42 ({@damage 5d10 + 14}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 17} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (3rd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 14 ({@damage 3d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 11)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 22,
+            "cha": 18,
+            "save": {
+                "wis": "+10"
+            },
+            "skill": {
+                "perception": "+10"
+            },
+            "passive": 20,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 10}, reach 5 ft. or range 120 ft. one target {@h} 50 ({@damage 6d10 + 17}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 18} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (3rd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 14 ({@damage 3d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
             "name": "Missile Cavalry (CR 1)",
             "source": "J:Units",
             "size": [
@@ -37005,14 +37774,6 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
-                    ]
-                }
-            ],
             "reaction": [
                 {
                     "name": "Guarding Ward",
@@ -37096,14 +37857,6 @@
                     "name": "Spear",
                     "entries": [
                         "{@atkr mw, rw} {@hit 6}, reach 5 ft. or range 20/60 ft., one target {@h} 16 ({@damage 2d8 + 7}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
                     ]
                 }
             ],
@@ -37194,14 +37947,6 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
-                    ]
-                }
-            ],
             "reaction": [
                 {
                     "name": "Guarding Ward",
@@ -37286,14 +38031,6 @@
                     "name": "Spear",
                     "entries": [
                         "{@atkr mw, rw} {@hit 8}, reach 5 ft. or range 20/60 ft., one target {@h} 30 ({@damage 4d8 + 12}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
                     ]
                 }
             ],
@@ -37384,14 +38121,6 @@
                     ]
                 }
             ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
-                    ]
-                }
-            ],
             "reaction": [
                 {
                     "name": "Guarding Ward",
@@ -37476,14 +38205,6 @@
                     "name": "Spear",
                     "entries": [
                         "{@atkr mw, rw} {@hit 10}, reach 5 ft. or range 20/60 ft., one target {@h} 44 ({@damage 6d8 + 17}) piercing damage."
-                    ]
-                }
-            ],
-            "bonus": [
-                {
-                    "name": "I'm coming",
-                    "entries": [
-                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
                     ]
                 }
             ],
@@ -38528,7 +39249,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack."
                     ]
                 }
             ],
@@ -38627,7 +39348,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 4 ({@damage 1d6}) damage."
                     ]
                 }
             ],
@@ -38727,7 +39448,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 4 ({@damage 1d6}) damage on a hit."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 4 ({@damage 1d6}) damage."
                     ]
                 }
             ],
@@ -38827,7 +39548,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 4 ({@damage 1d6}) damage on a hit."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 7 ({@damage 2d6}) damage."
                     ]
                 }
             ],
@@ -38927,7 +39648,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 7 ({@damage 2d6}) damage on a hit."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 7 ({@damage 2d6}) damage."
                     ]
                 }
             ],
@@ -39027,7 +39748,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 7 ({@damage 2d6}) damage on a hit."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 11 ({@damage 3d6}) damage."
                     ]
                 }
             ],
@@ -39127,7 +39848,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking opportunity attacks or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 7 ({@damage 2d6}) damage on a hit."
+                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 11 ({@damage 3d6}) damage."
                     ]
                 }
             ],
@@ -45353,14 +46074,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -45446,14 +46160,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -45540,14 +46247,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -45634,14 +46334,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -45728,14 +46421,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -45822,14 +46508,7 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [
-                {
-                    "name": "Grasper",
-                    "entries": [
-                        "The snatcher's speed is not reduced by Grappling another creature."
-                    ]
-                }
-            ],
+            "trait": [],
             "action": [
                 {
                     "name": "Multiattack",
@@ -47532,7 +48211,7 @@
                 "tags": [
                     "warrior",
                     "brute",
-                    "soldier"
+                    "scaled"
                 ]
             },
             "alignment": [
@@ -47540,11 +48219,11 @@
             ],
             "ac": [
                 {
-                    "ac": 15
+                    "ac": 11
                 }
             ],
             "hp": {
-                "special": "36"
+                "special": "40"
             },
             "speed": {
                 "walk": 40
@@ -47572,9 +48251,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],
@@ -47640,11 +48318,11 @@
             ],
             "ac": [
                 {
-                    "ac": 15
+                    "ac": 11
                 }
             ],
             "hp": {
-                "special": "72"
+                "special": "80"
             },
             "speed": {
                 "walk": 40
@@ -47672,9 +48350,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],
@@ -47741,11 +48418,11 @@
             ],
             "ac": [
                 {
-                    "ac": 16
+                    "ac": 12
                 }
             ],
             "hp": {
-                "special": "108"
+                "special": "120"
             },
             "speed": {
                 "walk": 40
@@ -47773,9 +48450,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],
@@ -47842,11 +48518,11 @@
             ],
             "ac": [
                 {
-                    "ac": 16
+                    "ac": 12
                 }
             ],
             "hp": {
-                "special": "144"
+                "special": "160"
             },
             "speed": {
                 "walk": 40
@@ -47874,9 +48550,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],
@@ -47943,11 +48618,11 @@
             ],
             "ac": [
                 {
-                    "ac": 17
+                    "ac": 13
                 }
             ],
             "hp": {
-                "special": "216"
+                "special": "200"
             },
             "speed": {
                 "walk": 40
@@ -47975,9 +48650,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],
@@ -48044,11 +48718,11 @@
             ],
             "ac": [
                 {
-                    "ac": 17
+                    "ac": 13
                 }
             ],
             "hp": {
-                "special": "216"
+                "special": "240"
             },
             "speed": {
                 "walk": 40
@@ -48076,9 +48750,8 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
-                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
-                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
+                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
+                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
                     ]
                 }
             ],

@@ -1,0 +1,163 @@
+{
+    "scaling": {
+        "crs": [3,5,7,9,11],
+        "primary_cr": 3,
+        "spellcasting": {
+            "crs": [3, 5, 7, 9, 11],
+            "feature": {
+                "name": "Spellcasting",
+                "type": "spellcasting",
+                "headerEntries": [
+                    "The <name> casts one of the following spells (spell save <dc_default>):"
+                ],
+                "will": [
+                    "{@spell Light|XPHB}",
+                    "{@spell Minor Illusion|XPHB}",
+                    "{@spell Prestidigitation|XPHB}"
+                ],
+                "ability": "cha",
+                "displayAs": "action"
+            }
+        },
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two Destructive Bolt attacks."
+                    ]
+                }
+            ],
+            "Destructive Bolt (Cantrip, Evocation, V, S, M)": [
+                {
+                    "crs": [1, 3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr ms,rs} <hit_default>, reach 5 ft. or range 120 ft. one target <dmg_strong> Acid, Cold, Fire, Lightning, or Thunder damage (<name>'s choice).."
+                    ]
+                }
+            ],
+            "Quarterstaff": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> bludgeoning damage."
+                    ]
+                }
+            ],
+            "Destructive Blast (<spl_lvstrong>, Evocation, V, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a <dc_default> Dexterity saving throw. The <name> can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes <spl_dmgmedium> Acid, Cold, Fire, Lightning, or Thunder damage (<name>'s choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the <name> chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the <name> uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {
+            "Absorb Energy (<spl_lvweak>, Abjuration, V, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "When the <name> takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional <spl_dmgsmallbonus> damage of the same type."
+                    ]
+                }
+            ]
+        }
+    },
+    "base_statblock": {
+        "name": "Blaster",
+        "source": "J:Casters",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "spellcaster",
+                "artillery"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 35
+        },
+        "str": 10,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 16,
+        "cha": 12,
+        "save": {
+            "wis": "+3+PB"
+        },
+        "skill": {
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "spellcasting": [],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "variant": [
+            {
+                "type": "inset",
+                "name": "Variant Damage Types",
+                "source": "J:Casters",
+                "entries": [
+                    "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                    {
+                        "type": "table",
+                        "colLabels": [
+                            "Caster Specialism",
+                            "Damage Types"
+                        ],
+                        "rows": [
+                            [
+                                "Ballistic",
+                                "Bludgeoning, Slashing or Piercing"
+                            ],
+                            [
+                                "Caustic",
+                                "Acid, Fire or Poison"
+                            ],
+                            [
+                                "Divine",
+                                "Necrotic or Radiant"
+                            ],
+                            [
+                                "Dread",
+                                "Cold, Necrotic or Psychic"
+                            ],
+                            [
+                                "Storm",
+                                "Cold, Lightning or Thunder"
+                            ],
+                            [
+                                "Metaphysical",
+                                "Force or Psychic"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MS",
+            "RS"
+        ]
+    }
+}

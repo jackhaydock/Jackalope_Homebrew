@@ -39,7 +39,7 @@ def calculate_hp(cr, formula):
         return hp_formulas[formula]
     except KeyError as ex:
         raise Exception(f"Unrecognised HP formula: {formula}")
-    
+
 def get_damage_str(dice, faces, mod=0):
     avg = math.ceil(dice * ((faces/2)+0.5) + mod)
     mod_str = f" + {mod}" if mod != 0 else ""
@@ -87,10 +87,48 @@ def get_hit_formula(cr, formula):
         return f"{{@hit {hit_mod}}}"
     except KeyError as ex:
         raise Exception(f"Unrecognised Hit Formula: {formula}")
-    
+
+def get_spell_formula(cr, formula):
+    level_str = [
+        "Cantrip",
+        "1st-Level",
+        "2nd-Level",
+        "3rd-Level",
+        "4th-Level",
+        "5th-Level",
+        "6th-Level",
+        "7th-Level",
+        "8th-Level",
+        "9th-Level",
+    ]
+    level_formulas = {
+        "lvweak": (get_prof_bonus(cr)-1),
+        "lvmedium": (get_prof_bonus(cr)),
+        "lvstrong": (get_prof_bonus(cr)+1),
+    }
+    dmg_formulas = {
+        "dmgsmallbonus": (get_prof_bonus(cr)-1, 8, 0),
+        "dmgweak": (get_prof_bonus(cr)*2, 6, 0),
+        "dmgmedium": ((get_prof_bonus(cr)+1)*2, 6, 0),
+        "dmgstrong": ((get_prof_bonus(cr)+1)*2, 8, 0),
+    }
+    if formula.startswith("lv"):
+        return level_str[level_formulas[formula]]
+    elif formula.startswith("dmg"):
+        num, face, mod = dmg_formulas[formula]
+        return get_damage_str(num, face, mod)
+    raise Exception(f"Unrecognised Spell Formula: {formula}")
+
 def get_dc_formula(cr, formula):
-    if formula == "default":
-        dc = 8 + get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
+    formula_bases = {
+        "weak": 7,
+        "default": 8,
+        "strong": 9,
+        "epic": 10
+
+    }
+    if formula in formula_bases.keys():
+        dc = formula_bases[formula] + get_ability_mod(16+get_scaling_mod(cr)) + get_prof_bonus(cr)
         return f"{{@dc {dc}}}"
     raise Exception(f"Unrecognised DC Formula: {formula}")
 
@@ -109,34 +147,39 @@ def get_mod_formulas(cr, formula):
         return str(math.floor(mod_formulas[formula]))
     except KeyError as ex:
         raise Exception(f"Unrecognised Formula: {formula}")
-    
+
+def process_scaling_string(line, cr, name):
+    # TODO: Current implementation cannot handle nested objects and lists in entries, it just copies them wholesale
+    if isinstance(line, str):
+        formulas = re.findall("<[a-z,_,0-9]*>", line)
+        for f in formulas:
+            if f == "<name>":
+                sub_str = name.lower()
+            else:
+                formula_type = f.split("_", 1)[1].strip(">")
+                if f == "<name>":
+                    sub_str = name.lower()
+                elif re.search("^<hit_", f):
+                    sub_str = get_hit_formula(cr, formula_type)
+                elif re.search("^<dmg_", f):
+                    sub_str = get_damage_formuala(cr, formula_type)
+                elif re.search("^<spl_", f):
+                    sub_str = get_spell_formula(cr, formula_type)
+                elif re.search("^<dc_", f):
+                    sub_str = get_dc_formula(cr, formula_type)
+                elif re.search("^<dist_", f):
+                    sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
+                elif re.search("^<mod_", f):
+                    sub_str = get_mod_formulas(cr, formula_type)
+                else:
+                    raise Exception(f"Unrecognised inline formula: {f}")
+            line = re.sub(f, sub_str, line)
+    return line
+
 def process_scaling_text(entries, cr, name):
     output = []
     for line in entries:
-        # TODO: Current implementation cannot handle nested objects and lists in entries, it just copies them wholesale
-        if isinstance(line, str):
-            formulas = re.findall("<[a-z,_,0-9]*>", line)
-            for f in formulas:
-                if f == "<name>":
-                    sub_str = name.lower()
-                else:
-                    formula_type = f.split("_", 1)[1].strip(">")
-                    if f == "<name>":
-                        sub_str = name.lower()
-                    elif re.search("^<hit_", f):
-                        sub_str = get_hit_formula(cr, formula_type)
-                    elif re.search("^<dmg_", f):
-                        sub_str = get_damage_formuala(cr, formula_type)
-                    elif re.search("^<dc_", f):
-                        sub_str = get_dc_formula(cr, formula_type)
-                    elif re.search("^<dist_", f):
-                        sub_str = str(10+5*(math.ceil(cr/2))) # TODO: temp formula, consider more consistent stuff for use elsewhere
-                    elif re.search("^<mod_", f):
-                        sub_str = get_mod_formulas(cr, formula_type)
-                    else:
-                        raise Exception(f"Unrecognised inline formula: {f}")
-                line = re.sub(f, sub_str, line)
-        output.append(line)
+        output.append(process_scaling_string(line, cr, name))
     return output
 
 def create_statblock_at_cr(base, meta, cr):
@@ -196,11 +239,20 @@ def create_statblock_at_cr(base, meta, cr):
             for tier in meta[section][feature]:
                 if cr in tier["crs"]:
                     feature_data = {
-                        "name": feature,
+                        "name": process_scaling_string(feature, cr, base["name"]),
                         "entries": process_scaling_text(tier["entries"], cr, base["name"])
                     }
                     output.setdefault(section, [])
                     output[section].append(feature_data)
+
+    # Spellcasting
+    spellcasting_data = {}
+    if "spellcasting" in meta.keys():
+        if cr in meta["spellcasting"]["crs"]:
+            spellcasting_data = meta["spellcasting"]["feature"].copy()
+            dc = process_scaling_text(spellcasting_data["headerEntries"], cr, base["name"])
+            spellcasting_data["headerEntries"] = dc
+        output["spellcasting"].append(spellcasting_data)
 
     # Fluff
     # TODO: cant handled nested objects, see process_scaling_text()

@@ -1,0 +1,778 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "J:Casters",
+                "abbreviation": "J:Casters",
+                "color": "f5b342",
+                "full": "Jackalope: Scaling Casters",
+                "authors": [
+                    "Jackalope"
+                ],
+                "convertedBy": [
+                    "Jackalope"
+                ],
+                "version": "1.0.0",
+                "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
+                "targetSchema": "1.0.0"
+            }
+        ]
+    },
+    "monster": [
+        {
+            "name": "Blaster (CR 3)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+6"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 6}, reach 5 ft. or range 120 ft. one target {@h} 18 ({@damage 2d10 + 7}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (3rd-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 14} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 21 ({@damage 6d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (1st-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 5 ({@damage 1d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 5)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 18,
+            "cha": 14,
+            "save": {
+                "wis": "+7"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 7}, reach 5 ft. or range 120 ft. one target {@h} 26 ({@damage 3d10 + 9}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 15} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (2nd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 9 ({@damage 2d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 7)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+8"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 8}, reach 5 ft. or range 120 ft. one target {@h} 34 ({@damage 4d10 + 12}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 16} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 28 ({@damage 8d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (2nd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 9 ({@damage 2d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 9)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 20,
+            "cha": 16,
+            "save": {
+                "wis": "+9"
+            },
+            "skill": {
+                "perception": "+9"
+            },
+            "passive": 19,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 9}, reach 5 ft. or range 120 ft. one target {@h} 42 ({@damage 5d10 + 14}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 17} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (3rd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 14 ({@damage 3d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Blaster (CR 11)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "artillery",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 35
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 22,
+            "cha": 18,
+            "save": {
+                "wis": "+10"
+            },
+            "skill": {
+                "perception": "+10"
+            },
+            "passive": 20,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The blaster casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The blaster makes two Destructive Bolt attacks."
+                    ]
+                },
+                {
+                    "name": "Destructive Bolt (Cantrip, Evocation, V, S, M)",
+                    "entries": [
+                        "{@atkr ms,rs} {@hit 10}, reach 5 ft. or range 120 ft. one target {@h} 50 ({@damage 6d10 + 17}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice).."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Destructive Blast (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The blaster chooses a point they can see within 90 feet. Each creature within a 20-foot-radius-sphere centred on that point must make a {@dc 18} Dexterity saving throw. The blaster can choose up to three creatures in the area to be unaffected.",
+                        "On a failure, a creature takes 35 ({@damage 10d6}) Acid, Cold, Fire, Lightning, or Thunder damage (blaster's choice) and is pushed 10 feet away from, or towards, the centre of the sphere (the blaster chooses one option for all creatures). If a creature would be pushed into an occupied space, they instead fall {@condition Prone|XPHB}. On a successful save, a creature takes half damage on a success and suffers no additional effects.",
+                        "Once the blaster uses this Action, they cannot do so again until the end of their next turn."
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [
+                {
+                    "name": "Absorb Energy (3rd-Level, Abjuration, V, S, M)",
+                    "entries": [
+                        "When the blaster takes Acid, Cold, Fire, Lightning, or Thunder damage, they can use a Reaction to gain resistance to that damage type (including the against the triggering damage) until the end of their next turn. The next time they deal damage of the same type with a spell attack for the duration, they deal an additional 14 ({@damage 3d8}) damage of the same type."
+                    ]
+                }
+            ],
+            "variant": [
+                {
+                    "type": "inset",
+                    "name": "Variant Damage Types",
+                    "source": "J:Casters",
+                    "entries": [
+                        "The caster described above is an elemental focused caster. If you wish for an alternative, or more specific, flavor to the caster, whenever the creature's features present a list of damage types, you can choose to use a different list. Some example lists are provided below.",
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Caster Specialism",
+                                "Damage Types"
+                            ],
+                            "rows": [
+                                [
+                                    "Ballistic",
+                                    "Bludgeoning, Slashing or Piercing"
+                                ],
+                                [
+                                    "Caustic",
+                                    "Acid, Fire or Poison"
+                                ],
+                                [
+                                    "Divine",
+                                    "Necrotic or Radiant"
+                                ],
+                                [
+                                    "Dread",
+                                    "Cold, Necrotic or Psychic"
+                                ],
+                                [
+                                    "Storm",
+                                    "Cold, Lightning or Thunder"
+                                ],
+                                [
+                                    "Metaphysical",
+                                    "Force or Psychic"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        }
+    ]
+}
