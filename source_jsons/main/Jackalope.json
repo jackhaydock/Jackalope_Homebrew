@@ -201,34 +201,58 @@
 			"name": "Sundered",
 			"source": "J:General",
 			"entries": [
-				"A sundered creature's Armor Class cannot benefit from nonmagical armor or shields. If the armor would limit a creature's ability to add its Dexterity modifier to its Armor Class or impose disadvantage on Dexterity (Stealth) checks, it still does. For example, a creature with a Dexterity modifer of +3 that is wearing {@item scale mail|phb}, their AC becomes 12.",
+				"A Sundered creature's defences are hindered by its equipment being damaged, dislodged or snagged. The creature has a penalty to its Armor Class and Dexterity Saving Throws depending on the types of armor it is wearing or wielding.",
 				{
-					"type": "inset",
-					"name": "Non-Standard Armor Class",
-					"entries": [
-						"If the target uses a non-standard method for calculating its Armor Class, such as a flat value, the DM decides how this affects it. They might choose armor that is equivalent to what the target is actually using, they might choose to apply a -2 penalty, or they might decide the target would be unaffected and apply no penalty."
+					"type": "table",
+					"colLabels": [
+						"Armor",
+						"Penalty"
+					],
+					"rows": [
+						[
+							"Unarmored, Natural Armor, Light Armor",
+							"-2"
+						],
+						[
+							"Medium Armor, Heavy Armor",
+							"-4"
+						],
+						[
+							"Shield",
+							"-1 (This penalty is applied in addition to others)"
+						]
 					]
-				}
+				},
+				"The creature, or another creature within 5 feet, can use an Action to fix its equipment, removing the condition."
 			]
 		},
 		{
 			"name": "Staggered",
 			"source": "J:General",
 			"entries": [
+				"A Staggered creature's defences are hindered by its movements being unbalanced, sluggish or disoriented. The creature has a penalty to its Armor Class and Dexterity Saving Throws depending on the types of armor it is wearing or wielding.",
 				{
-					"type": "list",
-					"items": [
-						"A staggered creature's Armor Class cannot include its Dexterity Modifier (unless it is negative).",
-						"A staggered creature has disadvantage on Dexterity checks and saving throws."
+					"type": "table",
+					"colLabels": [
+						"Armor",
+						"Penalty"
+					],
+					"rows": [
+						[
+							"Unarmored, Natural Armor, Light Armor",
+							"-4"
+						],
+						[
+							"Medium Armor, Heavy Armor",
+							"-2"
+						],
+						[
+							"Shield",
+							"-1 (This penalty is applied in addition to others)"
+						]
 					]
 				},
-				{
-					"type": "inset",
-					"name": "Non-Standard Armor Class",
-					"entries": [
-						"If the target uses a non-standard method for calculating its Armor Class, such as a flat value, the DM decides how this affects it. They might choose armor that is equivalent to what the target is actually using, they might choose to apply a -2 penalty, or they might decide the target would be unaffected and apply no penalty."
-					]
-				}
+				"The creature, or another creature within 5 feet, can use an Action to fix its balance and coordination, removing the condition."
 			]
 		},
 		{
