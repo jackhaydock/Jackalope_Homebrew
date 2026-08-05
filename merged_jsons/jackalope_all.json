@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.18.41",
+                "version": "2026.08.05.18.24",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.18.41",
+                "version": "2026.08.05.18.24",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.07.24.18.41",
+                "version": "2026.08.05.18.24",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1785953211.0762262
+        "dateLastModified": 1785954282.4541252
     },
     "class": [
         {
@@ -26196,7 +26196,7 @@
             ],
             "bonus": [
                 {
-                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "name": "Bend Shot (2nd-Level, Transmutation, V, S)",
                     "entries": [
                         "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
                         "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
@@ -26305,7 +26305,7 @@
             ],
             "bonus": [
                 {
-                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "name": "Bend Shot (2nd-Level, Transmutation, V, S)",
                     "entries": [
                         "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
                         "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
@@ -26414,7 +26414,7 @@
             ],
             "bonus": [
                 {
-                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "name": "Bend Shot (2nd-Level, Transmutation, V, S)",
                     "entries": [
                         "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
                         "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
@@ -26523,7 +26523,7 @@
             ],
             "bonus": [
                 {
-                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "name": "Bend Shot (2nd-Level, Transmutation, V, S)",
                     "entries": [
                         "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
                         "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
@@ -26632,13 +26632,647 @@
             ],
             "bonus": [
                 {
-                    "name": "Bend Shot (2nd-Level, Evocation, V, S)",
+                    "name": "Bend Shot (2nd-Level, Transmutation, V, S)",
                     "entries": [
                         "When the deadeye misses an Attack Roll with its Far Bolt attack on its turn, it can redirect the bolt to hit the target instead. The target takes half the damage it would have on a normal hit. This hit cannot be a Critical Hit.",
                         "Once the deadeye uses this Bonus Action, it cannot do so again until the end of its next turn."
                     ]
                 }
             ],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Puppetmaster (CR 3)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "controller"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "wis": "+4"
+            },
+            "skill": {
+                "perception": "+4"
+            },
+            "passive": 14,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The puppetmaster casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The puppetmaster uses Psychic Lash twice."
+                    ]
+                },
+                {
+                    "name": "Psychic Lash (Cantrip, Enchantment, V, S, M)",
+                    "entries": [
+                        "The puppetmaster attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a {@dc 14} Charisma saving throw or take {@h} 16 ({@damage 2d8 + 7}) and be pulled up to 10 feet in a direction of the puppetmaster's choice (including vertically)."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 10 ft., one target {@h} 12 ({@damage 2d4 + 7}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psionic Strings (3rd-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 14} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 2 creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Puppetmaster (CR 5)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "controller",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "72"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "wis": "+5"
+            },
+            "skill": {
+                "perception": "+5"
+            },
+            "passive": 15,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The puppetmaster casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The puppetmaster uses Psychic Lash twice."
+                    ]
+                },
+                {
+                    "name": "Psychic Lash (Cantrip, Enchantment, V, S, M)",
+                    "entries": [
+                        "The puppetmaster attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a {@dc 15} Charisma saving throw or take {@h} 23 ({@damage 3d8 + 9}) and be pulled up to 10 feet in a direction of the puppetmaster's choice (including vertically)."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 10 ft., one target {@h} 17 ({@damage 3d4 + 9}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psionic Strings (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 15} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Puppetmaster (CR 7)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "controller",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "96"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 20,
+            "save": {
+                "wis": "+6"
+            },
+            "skill": {
+                "perception": "+6"
+            },
+            "passive": 16,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The puppetmaster casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The puppetmaster uses Psychic Lash twice."
+                    ]
+                },
+                {
+                    "name": "Psychic Lash (Cantrip, Enchantment, V, S, M)",
+                    "entries": [
+                        "The puppetmaster attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a {@dc 16} Charisma saving throw or take {@h} 30 ({@damage 4d8 + 12}) and be pulled up to 10 feet in a direction of the puppetmaster's choice (including vertically)."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 10 ft., one target {@h} 22 ({@damage 4d4 + 12}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psionic Strings (4th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 16} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Puppetmaster (CR 9)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "controller",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 20,
+            "save": {
+                "wis": "+7"
+            },
+            "skill": {
+                "perception": "+7"
+            },
+            "passive": 17,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The puppetmaster casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The puppetmaster uses Psychic Lash twice."
+                    ]
+                },
+                {
+                    "name": "Psychic Lash (Cantrip, Enchantment, V, S, M)",
+                    "entries": [
+                        "The puppetmaster attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a {@dc 17} Charisma saving throw or take {@h} 37 ({@damage 5d8 + 14}) and be pulled up to 10 feet in a direction of the puppetmaster's choice (including vertically)."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 10 ft., one target {@h} 27 ({@damage 5d4 + 14}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psionic Strings (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 17} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bonus": [],
+            "reaction": [],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MS",
+                "RS"
+            ]
+        },
+        {
+            "name": "Puppetmaster (CR 11)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "controller",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "144"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 22,
+            "save": {
+                "wis": "+8"
+            },
+            "skill": {
+                "perception": "+8"
+            },
+            "passive": 18,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The puppetmaster casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The puppetmaster uses Psychic Lash twice."
+                    ]
+                },
+                {
+                    "name": "Psychic Lash (Cantrip, Enchantment, V, S, M)",
+                    "entries": [
+                        "The puppetmaster attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a {@dc 18} Charisma saving throw or take {@h} 44 ({@damage 6d8 + 17}) and be pulled up to 10 feet in a direction of the puppetmaster's choice (including vertically)."
+                    ]
+                },
+                {
+                    "name": "Whip",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 10 ft., one target {@h} 32 ({@damage 6d4 + 17}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Psionic Strings (5th-Level, Evocation, V, S, M)",
+                    "entries": [
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 18} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "bonus": [],
             "reaction": [],
             "damageTags": [
                 "P"

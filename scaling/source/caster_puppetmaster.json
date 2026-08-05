@@ -1,0 +1,137 @@
+{
+    "scaling": {
+        "crs": [3,5,7,9,11],
+        "primary_cr": 3,
+        "spellcasting": {
+            "crs": [3, 5, 7, 9, 11],
+            "feature": {
+                "name": "Spellcasting",
+                "type": "spellcasting",
+                "headerEntries": [
+                    "The <name> casts one of the following spells (spell save <dc_default>):"
+                ],
+                "will": [
+                    "{@spell Light|XPHB}",
+                    "{@spell Minor Illusion|XPHB}",
+                    "{@spell Prestidigitation|XPHB}"
+                ],
+                "ability": "cha",
+                "displayAs": "action"
+            }
+        },
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> uses Psychic Lash twice."
+                    ]
+                }
+            ],
+            "Psychic Lash (Cantrip, Enchantment, V, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> attempts to lasso the spirit of a creature it can see within 60 feet with psionic string and wrench it violently, forcing the body to follow. The creature must make a <dc_default> Charisma saving throw or take <dmg_medium> and be pulled up to 10 feet in a direction of the <name>'s choice (including vertically)."
+                    ]
+                }
+            ],
+            "Whip": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 10 ft., one target <dmg_puny> slashing damage."
+                    ]
+                }
+            ],
+            "Psionic Strings (<spl_lvstrong>, Evocation, V, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> affixes psionic strings to a creature it can see within 60 feet. The creature must make a <dc_default> Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the <name>, or until the <name> is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The <name> can have up to <mod_pb> creatures puppeteered in this way at one timme.",
+                        "Once on each of its turns, the <name> can issue a command to each creature it has puppeteered (no action required). For each creature, the <name> chooses one of the following commands:",
+                        {
+                            "type": "list",
+                            "style": "list-hang-notitle",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Assail",
+                                    "entries": [
+                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Dance",
+                                    "entries": [
+                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Tangle",
+                                    "entries": [
+                                        "The creature is {@condition Restrained|XPHB} until the end of its next turn."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Puppetmaster",
+        "source": "J:Casters",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "spellcaster",
+                "controller"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_weak",
+        "speed": {
+            "walk": 30
+        },
+        "str": 10,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 12,
+        "cha": 16,
+        "save": {
+            "wis": "+3+PB"
+        },
+        "skill": {
+            "perception": "+6"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "spellcasting": [],
+        "trait": [],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "P"
+        ],
+        "miscTags": [
+            "MS",
+            "RS"
+        ]
+    }
+}
