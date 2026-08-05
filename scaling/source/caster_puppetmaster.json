@@ -49,7 +49,7 @@
                 {
                     "crs": [3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> affixes psionic strings to a creature it can see within 60 feet. The creature must make a <dc_default> Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the <name>, or until the <name> is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The <name> can have up to <mod_pb> creatures puppeteered in this way at one timme.",
+                        "The <name> affixes psionic strings to a creature it can see within 60 feet. The creature must make a <dc_default> Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the <name>, or until the <name> is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The <name> can have up to <mod_pb> creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the <name> can issue a command to each creature it has puppeteered (no action required). For each creature, the <name> chooses one of the following commands:",
                         {
                             "type": "list",
@@ -59,14 +59,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {

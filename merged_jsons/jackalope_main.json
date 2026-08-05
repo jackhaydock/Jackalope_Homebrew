@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.16",
+                "version": "2026.08.05.19.22",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.16",
+                "version": "2026.08.05.19.22",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.16",
+                "version": "2026.08.05.19.22",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1785957505.7078314
+        "dateLastModified": 1785957746.9316092
     },
     "class": [
         {
@@ -23737,7 +23737,7 @@
                 {
                     "name": "Psionic Strings (3rd-Level, Evocation, V, S, M)",
                     "entries": [
-                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 14} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 2 creatures puppeteered in this way at one timme.",
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 14} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 2 creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
                         {
                             "type": "list",
@@ -23747,14 +23747,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {
@@ -23864,7 +23864,7 @@
                 {
                     "name": "Psionic Strings (4th-Level, Evocation, V, S, M)",
                     "entries": [
-                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 15} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one timme.",
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 15} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
                         {
                             "type": "list",
@@ -23874,14 +23874,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {
@@ -23991,7 +23991,7 @@
                 {
                     "name": "Psionic Strings (4th-Level, Evocation, V, S, M)",
                     "entries": [
-                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 16} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one timme.",
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 16} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 3 creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
                         {
                             "type": "list",
@@ -24001,14 +24001,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {
@@ -24118,7 +24118,7 @@
                 {
                     "name": "Psionic Strings (5th-Level, Evocation, V, S, M)",
                     "entries": [
-                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 17} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one timme.",
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 17} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
                         {
                             "type": "list",
@@ -24128,14 +24128,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {
@@ -24245,7 +24245,7 @@
                 {
                     "name": "Psionic Strings (5th-Level, Evocation, V, S, M)",
                     "entries": [
-                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 18} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one timme.",
+                        "The puppetmaster affixes psionic strings to a creature it can see within 60 feet. The creature must make a {@dc 18} Wisdom saving throw or be puppeteered for one minute, until it is more than 120 feet from the puppetmaster, or until the puppetmaster is {@condition Incapacitated|XPHB}. A creature can repeat the saving throw at the end of each of its turns, removing the effects on a success. The puppetmaster can have up to 4 creatures puppeteered in this way at one time.",
                         "Once on each of its turns, the puppetmaster can issue a command to each creature it has puppeteered (no action required). For each creature, the puppetmaster chooses one of the following commands:",
                         {
                             "type": "list",
@@ -24255,14 +24255,14 @@
                                     "type": "entries",
                                     "name": "Assail",
                                     "entries": [
-                                        "The creature makes a melee weapon attack against a target of the <name>'s choice."
+                                        "The creature makes a melee weapon attack against a target the <name> chooses."
                                     ]
                                 },
                                 {
                                     "type": "entries",
                                     "name": "Dance",
                                     "entries": [
-                                        "The creature moves up to half its speed in a direction of the <name>'s choice. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
+                                        "The creature moves up to half its speed in a direction the <name> chooses. This movement can trigger {@variantrule Opportunity Attacks|XPHB}."
                                     ]
                                 },
                                 {
