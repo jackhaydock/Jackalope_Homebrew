@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.18.24",
+                "version": "2026.08.05.19.16",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.18.24",
+                "version": "2026.08.05.19.16",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.18.24",
+                "version": "2026.08.05.19.16",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1785954282.3158038
+        "dateLastModified": 1785957505.7078314
     },
     "class": [
         {
@@ -24285,6 +24285,578 @@
             "miscTags": [
                 "MS",
                 "RS"
+            ]
+        },
+        {
+            "name": "Trailblazer (CR 3)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "skirmisher"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "dex": "+5"
+            },
+            "skill": {
+                "acrobatics": "+5",
+                "intimidation": "+6"
+            },
+            "passive": 12,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The trailblazer casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The trailblazer makes two Flame Blade attacks."
+                    ]
+                },
+                {
+                    "name": "Flame Blade",
+                    "entries": [
+                        "{@atkr ms} {@hit 6}, reach 5 ft., one target {@h} 16 ({@damage 2d8 + 7}) Fire damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) slashing damage."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Scorching Dash (2nd-Level, Evocation, S, M)",
+                    "entries": [
+                        "The trailblazer moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the trailblazer moves within 5 feet off must make a {@dc 14} Dexterity saving throw or take 14 ({@damage 4d6}) fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the trailblazer moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the trailblazer uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                },
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The trailblazer takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "F",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "MS"
+            ]
+        },
+        {
+            "name": "Trailblazer (CR 5)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 12,
+            "dex": 16,
+            "con": 14,
+            "int": 10,
+            "wis": 14,
+            "cha": 18,
+            "save": {
+                "dex": "+6"
+            },
+            "skill": {
+                "acrobatics": "+6",
+                "intimidation": "+7"
+            },
+            "passive": 12,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The trailblazer casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The trailblazer makes two Flame Blade attacks."
+                    ]
+                },
+                {
+                    "name": "Flame Blade",
+                    "entries": [
+                        "{@atkr ms} {@hit 7}, reach 5 ft., one target {@h} 23 ({@damage 3d8 + 9}) Fire damage and one additional creature the trailblazer chooses within 5 feet of the target takes 5 ({@damage 1d8}) Fire Damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Flame Wings (3rd-Level, Transmutation, V, S, M, Concentration)",
+                    "entries": [
+                        "The trailblazer gains a flying speed equal to its walking speed for one minute.",
+                        "Once it uses this feature, it cannot do so again for one hour."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Scorching Dash (3rd-Level, Evocation, S, M)",
+                    "entries": [
+                        "The trailblazer moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the trailblazer moves within 5 feet off must make a {@dc 15} Dexterity saving throw or take 21 ({@damage 6d6}) fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the trailblazer moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the trailblazer uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                },
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The trailblazer takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "F",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "MS"
+            ]
+        },
+        {
+            "name": "Trailblazer (CR 7)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 16
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 20,
+            "save": {
+                "dex": "+7"
+            },
+            "skill": {
+                "acrobatics": "+7",
+                "intimidation": "+8"
+            },
+            "passive": 13,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The trailblazer casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The trailblazer makes two Flame Blade attacks."
+                    ]
+                },
+                {
+                    "name": "Flame Blade",
+                    "entries": [
+                        "{@atkr ms} {@hit 8}, reach 5 ft., one target {@h} 30 ({@damage 4d8 + 12}) Fire damage and one additional creature the trailblazer chooses within 5 feet of the target takes 9 ({@damage 2d8}) Fire Damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Flame Wings (3rd-Level, Transmutation, V, S, M, Concentration)",
+                    "entries": [
+                        "The trailblazer gains a flying speed equal to its walking speed for one minute.",
+                        "Once it uses this feature, it cannot do so again for one hour."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Scorching Dash (3rd-Level, Evocation, S, M)",
+                    "entries": [
+                        "The trailblazer moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the trailblazer moves within 5 feet off must make a {@dc 16} Dexterity saving throw or take 21 ({@damage 6d6}) fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the trailblazer moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the trailblazer uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                },
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The trailblazer takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "F",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "MS"
+            ]
+        },
+        {
+            "name": "Trailblazer (CR 9)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 18,
+            "con": 16,
+            "int": 12,
+            "wis": 16,
+            "cha": 20,
+            "save": {
+                "dex": "+8"
+            },
+            "skill": {
+                "acrobatics": "+8",
+                "intimidation": "+9"
+            },
+            "passive": 13,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The trailblazer casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The trailblazer makes two Flame Blade attacks."
+                    ]
+                },
+                {
+                    "name": "Flame Blade",
+                    "entries": [
+                        "{@atkr ms} {@hit 9}, reach 5 ft., one target {@h} 37 ({@damage 5d8 + 14}) Fire damage and one additional creature the trailblazer chooses within 5 feet of the target takes 9 ({@damage 2d8}) Fire Damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Flame Wings (3rd-Level, Transmutation, V, S, M, Concentration)",
+                    "entries": [
+                        "The trailblazer gains a flying speed equal to its walking speed for one minute.",
+                        "Once it uses this feature, it cannot do so again for one hour."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Scorching Dash (4th-Level, Evocation, S, M)",
+                    "entries": [
+                        "The trailblazer moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the trailblazer moves within 5 feet off must make a {@dc 17} Dexterity saving throw or take 28 ({@damage 8d6}) fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the trailblazer moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the trailblazer uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                },
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The trailblazer takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "F",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "MS"
+            ]
+        },
+        {
+            "name": "Trailblazer (CR 11)",
+            "source": "J:Casters",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "skirmisher",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 17
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 20,
+            "con": 18,
+            "int": 14,
+            "wis": 18,
+            "cha": 22,
+            "save": {
+                "dex": "+9"
+            },
+            "skill": {
+                "acrobatics": "+9",
+                "intimidation": "+10"
+            },
+            "passive": 14,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The trailblazer casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Prestidigitation|XPHB}"
+                    ],
+                    "ability": "cha",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The trailblazer makes two Flame Blade attacks."
+                    ]
+                },
+                {
+                    "name": "Flame Blade",
+                    "entries": [
+                        "{@atkr ms} {@hit 10}, reach 5 ft., one target {@h} 44 ({@damage 6d8 + 17}) Fire damage and one additional creature the trailblazer chooses within 5 feet of the target takes 14 ({@damage 3d8}) Fire Damage."
+                    ]
+                },
+                {
+                    "name": "Shortsword",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) slashing damage."
+                    ]
+                },
+                {
+                    "name": "Flame Wings (3rd-Level, Transmutation, V, S, M, Concentration)",
+                    "entries": [
+                        "The trailblazer gains a flying speed equal to its walking speed for one minute.",
+                        "Once it uses this feature, it cannot do so again for one hour."
+                    ]
+                }
+            ],
+            "bonus": [
+                {
+                    "name": "Scorching Dash (4th-Level, Evocation, S, M)",
+                    "entries": [
+                        "The trailblazer moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the trailblazer moves within 5 feet off must make a {@dc 18} Dexterity saving throw or take 28 ({@damage 8d6}) fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the trailblazer moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the trailblazer uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                },
+                {
+                    "name": "Skirmishing Action",
+                    "entries": [
+                        "The trailblazer takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ],
+            "reaction": [],
+            "damageTags": [
+                "F",
+                "S"
+            ],
+            "miscTags": [
+                "MW",
+                "MS"
             ]
         },
         {

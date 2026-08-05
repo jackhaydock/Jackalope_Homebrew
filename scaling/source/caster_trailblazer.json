@@ -1,0 +1,137 @@
+{
+    "scaling": {
+        "crs": [3,5,7,9,11],
+        "primary_cr": 3,
+        "spellcasting": {
+            "crs": [3, 5, 7, 9, 11],
+            "feature": {
+                "name": "Spellcasting",
+                "type": "spellcasting",
+                "headerEntries": [
+                    "The <name> casts one of the following spells (spell save <dc_default>):"
+                ],
+                "will": [
+                    "{@spell Light|XPHB}",
+                    "{@spell Minor Illusion|XPHB}",
+                    "{@spell Prestidigitation|XPHB}"
+                ],
+                "ability": "cha",
+                "displayAs": "action"
+            }
+        },
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> makes two Flame Blade attacks."
+                    ]
+                }
+            ],
+            "Flame Blade": [
+                {
+                    "crs": [3],
+                    "entries": [
+                        "{@atkr ms} <hit_default>, reach 5 ft., one target <dmg_medium> Fire damage."
+                    ]
+                },
+                {
+                    "crs": [5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr ms} <hit_default>, reach 5 ft., one target <dmg_medium> Fire damage and one additional creature the <name> chooses within 5 feet of the target takes <dmg_4s3_d8s> Fire Damage."
+                    ]
+                }
+            ],
+            "Shortsword": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> slashing damage."
+                    ]
+                }
+            ],
+            "Flame Wings (3rd-Level, Transmutation, V, S, M, Concentration)": [
+                {
+                    "crs": [5, 7, 9, 11],
+                    "entries": [
+                        "The <name> gains a flying speed equal to its walking speed for one minute.",
+                        "Once it uses this feature, it cannot do so again for one hour."
+                    ]
+                }
+            ]
+        },
+        "bonus": {
+            "Scorching Dash (<spl_lvmedium>, Evocation, S, M)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> moves up to 45 feet. It can do this movement in one straight 45-foot line or in three sequential straight 15-foot lines. This movement ignores {@variantrule Opportunity Attacks|XPHB} and can move through the space of other creatures. Each creature the <name> moves within 5 feet off must make a <dc_default> Dexterity saving throw or take <spl_dmgweak> fire damage and start {@hazard burning|XPHB}. A creature has {@variantrule Disadvantage|XPHB} if the <name> moved through its space. A creature takes half damage and is not burning on a success.",
+                        "Once the <name> uses this feature, it cannot do so again until the end of it's next turn."
+                    ]
+                }
+            ],
+            "Skirmishing Action": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> takes the {@action Dash|XPHB} or {@action Disengage|XPHB} action. Additionally, it ignores {@variantrule Difficult Terrain|XPHB} until the end of the current turn."
+                    ]
+                }
+            ]
+        },
+        "reaction": {}
+    },
+    "base_statblock": {
+        "name": "Trailblazer",
+        "source": "J:Casters",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "spellcaster",
+                "skirmisher"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_medium",
+        "hp": "hp_default",
+        "speed": {
+            "walk": 40
+        },
+        "str": 10,
+        "dex": 14,
+        "con": 12,
+        "int": 8,
+        "wis": 12,
+        "cha": 16,
+        "save": {
+            "dex": "+2+PB"
+        },
+        "skill": {
+            "acrobatics": "+2+PB",
+            "intimidation": "+3+PB"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "spellcasting": [],
+        "trait": [
+        ],
+        "action": [],
+        "bonus": [],
+        "reaction": [],
+        "damageTags": [
+            "F",
+            "S"
+        ],
+        "miscTags": [
+            "MW",
+            "MS"
+        ]
+    }
+}
