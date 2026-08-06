@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.22",
+                "version": "2026.08.06.00.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.22",
+                "version": "2026.08.06.00.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.05.19.22",
+                "version": "2026.08.06.00.51",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1785957746.9316092
+        "dateLastModified": 1785977659.097474
     },
     "class": [
         {
@@ -22353,6 +22353,525 @@
                         "A creature can determine its true nature with an Intelligence (Investigation) check against your spell save DC."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Beacon (CR 3)",
+            "source": "J:Caster",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "support"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 13
+                }
+            ],
+            "hp": {
+                "special": "60"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+4",
+                "wis": "+6"
+            },
+            "passive": 14,
+            "cr": "3",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The beacon casts one of the following spells (spell save {@dc 14}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Thaumaturgy|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The beacon uses Guiding Flame twice."
+                    ]
+                },
+                {
+                    "name": "Guiding Flame (Cantrip, Evocation, V, S)",
+                    "entries": [
+                        "The beacon forces a creature it can see within 60 feet to make a {@dc 14} Dexterity saving throw or take {@h} 16 ({@damage 2d8 + 7}) Radiant damage and the next Attack Roll made against it by a creature other than the beacon before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 6}, reach 5 ft., one target {@h} 12 ({@damage 2d4 + 7}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Soothing Rays (2nd-Level, Abjuration, V, S)",
+                    "entries": [
+                        "The beacon chooses up to three creatures it can see within 30 feet. Each creature gains 10 {@variantrule Temporary Hitpoints|XPHB} until the beacon uses this feature again. While a creature has these Temporary Hit Points, they also gain a +2 bonus to Attack Rolls and Saving Throws.",
+                        "Once the beacon uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Flash of Warding (1st-Level, Abjuration, V)",
+                    "entries": [
+                        "When a creature the beacon can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Beacon (CR 5)",
+            "source": "J:Caster",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "support",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "90"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 14,
+            "con": 12,
+            "int": 10,
+            "wis": 18,
+            "cha": 16,
+            "save": {
+                "dex": "+5",
+                "wis": "+7"
+            },
+            "passive": 14,
+            "cr": "5",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The beacon casts one of the following spells (spell save {@dc 15}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Thaumaturgy|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The beacon uses Guiding Flame twice."
+                    ]
+                },
+                {
+                    "name": "Guiding Flame (Cantrip, Evocation, V, S)",
+                    "entries": [
+                        "The beacon forces a creature it can see within 60 feet to make a {@dc 15} Dexterity saving throw or take {@h} 23 ({@damage 3d8 + 9}) Radiant damage and the next Attack Roll made against it by a creature other than the beacon before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 7}, reach 5 ft., one target {@h} 17 ({@damage 3d4 + 9}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Soothing Rays (3rd-Level, Abjuration, V, S)",
+                    "entries": [
+                        "The beacon chooses up to three creatures it can see within 30 feet. Each creature gains 15 {@variantrule Temporary Hitpoints|XPHB} until the beacon uses this feature again. While a creature has these Temporary Hit Points, they also gain a +3 bonus to Attack Rolls and Saving Throws.",
+                        "Once the beacon uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Flash of Warding (1st-Level, Abjuration, V)",
+                    "entries": [
+                        "When a creature the beacon can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Beacon (CR 7)",
+            "source": "J:Caster",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "support",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 14
+                }
+            ],
+            "hp": {
+                "special": "120"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 16,
+            "con": 14,
+            "int": 12,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+6",
+                "wis": "+8"
+            },
+            "passive": 15,
+            "cr": "7",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The beacon casts one of the following spells (spell save {@dc 16}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Thaumaturgy|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The beacon uses Guiding Flame twice."
+                    ]
+                },
+                {
+                    "name": "Guiding Flame (Cantrip, Evocation, V, S)",
+                    "entries": [
+                        "The beacon forces a creature it can see within 60 feet to make a {@dc 16} Dexterity saving throw or take {@h} 30 ({@damage 4d8 + 12}) Radiant damage and the next Attack Roll made against it by a creature other than the beacon before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 8}, reach 5 ft., one target {@h} 22 ({@damage 4d4 + 12}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Soothing Rays (3rd-Level, Abjuration, V, S)",
+                    "entries": [
+                        "The beacon chooses up to three creatures it can see within 30 feet. Each creature gains 15 {@variantrule Temporary Hitpoints|XPHB} until the beacon uses this feature again. While a creature has these Temporary Hit Points, they also gain a +3 bonus to Attack Rolls and Saving Throws.",
+                        "Once the beacon uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Flash of Warding (1st-Level, Abjuration, V)",
+                    "entries": [
+                        "When a creature the beacon can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Beacon (CR 9)",
+            "source": "J:Caster",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "support",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "150"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 16,
+            "con": 14,
+            "int": 12,
+            "wis": 20,
+            "cha": 18,
+            "save": {
+                "dex": "+7",
+                "wis": "+9"
+            },
+            "passive": 15,
+            "cr": "9",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The beacon casts one of the following spells (spell save {@dc 17}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Thaumaturgy|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The beacon uses Guiding Flame twice."
+                    ]
+                },
+                {
+                    "name": "Guiding Flame (Cantrip, Evocation, V, S)",
+                    "entries": [
+                        "The beacon forces a creature it can see within 60 feet to make a {@dc 17} Dexterity saving throw or take {@h} 37 ({@damage 5d8 + 14}) Radiant damage and the next Attack Roll made against it by a creature other than the beacon before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 9}, reach 5 ft., one target {@h} 27 ({@damage 5d4 + 14}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Soothing Rays (4th-Level, Abjuration, V, S)",
+                    "entries": [
+                        "The beacon chooses up to three creatures it can see within 30 feet. Each creature gains 20 {@variantrule Temporary Hitpoints|XPHB} until the beacon uses this feature again. While a creature has these Temporary Hit Points, they also gain a +4 bonus to Attack Rolls and Saving Throws.",
+                        "Once the beacon uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Flash of Warding (1st-Level, Abjuration, V)",
+                    "entries": [
+                        "When a creature the beacon can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
+        {
+            "name": "Beacon (CR 11)",
+            "source": "J:Caster",
+            "size": [
+                "S",
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "spellcaster",
+                    "support",
+                    "scaled"
+                ]
+            },
+            "alignment": [
+                "A"
+            ],
+            "ac": [
+                {
+                    "ac": 15
+                }
+            ],
+            "hp": {
+                "special": "180"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 18,
+            "dex": 18,
+            "con": 16,
+            "int": 14,
+            "wis": 22,
+            "cha": 20,
+            "save": {
+                "dex": "+8",
+                "wis": "+10"
+            },
+            "passive": 16,
+            "cr": "11",
+            "languages": [
+                "any three languages (typically including common)"
+            ],
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "type": "spellcasting",
+                    "headerEntries": [
+                        "The beacon casts one of the following spells (spell save {@dc 18}):"
+                    ],
+                    "will": [
+                        "{@spell Light|XPHB}",
+                        "{@spell Minor Illusion|XPHB}",
+                        "{@spell Thaumaturgy|XPHB}"
+                    ],
+                    "ability": "wis",
+                    "displayAs": "action"
+                }
+            ],
+            "trait": [],
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The beacon uses Guiding Flame twice."
+                    ]
+                },
+                {
+                    "name": "Guiding Flame (Cantrip, Evocation, V, S)",
+                    "entries": [
+                        "The beacon forces a creature it can see within 60 feet to make a {@dc 18} Dexterity saving throw or take {@h} 44 ({@damage 6d8 + 17}) Radiant damage and the next Attack Roll made against it by a creature other than the beacon before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                },
+                {
+                    "name": "Quarterstaff",
+                    "entries": [
+                        "{@atkr mw} {@hit 10}, reach 5 ft., one target {@h} 32 ({@damage 6d4 + 17}) bludgeoning damage."
+                    ]
+                },
+                {
+                    "name": "Soothing Rays (4th-Level, Abjuration, V, S)",
+                    "entries": [
+                        "The beacon chooses up to three creatures it can see within 30 feet. Each creature gains 20 {@variantrule Temporary Hitpoints|XPHB} until the beacon uses this feature again. While a creature has these Temporary Hit Points, they also gain a +4 bonus to Attack Rolls and Saving Throws.",
+                        "Once the beacon uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Flash of Warding (1st-Level, Abjuration, V)",
+                    "entries": [
+                        "When a creature the beacon can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ],
+            "damageTags": [
+                "B",
+                "P"
+            ],
+            "miscTags": [
+                "MW"
             ]
         },
         {

@@ -104,7 +104,7 @@ def get_spell_formula(cr, formula):
     level_formulas = {
         "lvweak": (get_prof_bonus(cr)-1),
         "lvmedium": (get_prof_bonus(cr)),
-        "lvstrong": (get_prof_bonus(cr)+1),
+        "lvstrong": (get_prof_bonus(cr)+1)
     }
     dmg_formulas = {
         "dmgsmallbonus": (get_prof_bonus(cr)-1, 8, 0),

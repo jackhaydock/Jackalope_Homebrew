@@ -1,0 +1,116 @@
+{
+    "scaling": {
+        "crs": [3,5,7,9,11],
+        "primary_cr": 3,
+        "spellcasting": {
+            "crs": [3, 5, 7, 9, 11],
+            "feature": {
+                "name": "Spellcasting",
+                "type": "spellcasting",
+                "headerEntries": [
+                    "The <name> casts one of the following spells (spell save <dc_default>):"
+                ],
+                "will": [
+                    "{@spell Light|XPHB}",
+                    "{@spell Minor Illusion|XPHB}",
+                    "{@spell Thaumaturgy|XPHB}"
+                ],
+                "ability": "wis",
+                "displayAs": "action"
+            }
+        },
+        "trait": {},
+        "action": {
+            "Multiattack": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> uses Guiding Flame twice."
+                    ]
+                }
+            ],
+            "Guiding Flame (Cantrip, Evocation, V, S)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> forces a creature it can see within 60 feet to make a <dc_default> Dexterity saving throw or take <dmg_medium> Radiant damage and the next Attack Roll made against it by a creature other than the <name> before the start of the target's next turn has {@variantrule Advantage}."
+                    ]
+                }
+            ],
+            "Quarterstaff": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "{@atkr mw} <hit_default>, reach 5 ft., one target <dmg_puny> bludgeoning damage."
+                    ]
+                }
+            ],
+            "Soothing Rays (<spl_lvmedium>, Abjuration, V, S)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "The <name> chooses up to three creatures it can see within 30 feet. Each creature gains <mod_pb5> {@variantrule Temporary Hitpoints|XPHB} until the <name> uses this feature again. While a creature has these Temporary Hit Points, they also gain a +<mod_pb> bonus to Attack Rolls and Saving Throws.",
+                        "Once the <name> uses this feature, it cannot do so again until the end of its next turn."
+                    ]
+                }
+            ]
+        },
+        "bonus": {},
+        "reaction": {
+            "Flash of Warding (1st-Level, Abjuration, V)": [
+                {
+                    "crs": [3, 5, 7, 9, 11],
+                    "entries": [
+                        "When a creature the <name> can see within 30 feet is targeted by an Attack Roll, the beacon can use a Reaction to impose {@variantrule Disadvantage|XPHB} on the Attack Roll."
+                    ]
+                }
+            ]
+        }
+    },
+    "base_statblock": {
+        "name": "Beacon",
+        "source": "J:Caster",
+        "size": ["S", "M"],
+        "type": {
+            "type": "humanoid",
+            "tags": [
+                "spellcaster",
+                "support"
+            ]
+        },
+        "alignment": [
+            "A"
+        ],
+        "ac": "ac_light",
+        "hp": "hp_default",
+        "speed": {
+            "walk": 30
+        },
+        "str": 12,
+        "dex": 12,
+        "con": 10,
+        "int": 8,
+        "wis": 16,
+        "cha": 14,
+        "save": {
+            "dex": "+3+PB",
+            "wis": "+3+PB"
+        },
+        "passive": "11",
+        "cr": "-",
+        "languages": [
+            "any three languages (typically including common)"
+        ],
+        "spellcasting": [],
+        "trait": [],
+        "action": [],
+        "reaction": [],
+        "damageTags": [
+            "B",
+            "P"
+        ],
+        "miscTags": [
+            "MW"
+        ]
+    }
+}
