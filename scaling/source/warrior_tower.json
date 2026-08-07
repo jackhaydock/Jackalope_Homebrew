@@ -7,8 +7,9 @@
                 {
                     "crs": [1, 3, 5, 7, 9, 11],
                     "entries": [
-                        "The <name> has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the <name> moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The <name>, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the <name> {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the <name> is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ]
@@ -67,16 +68,16 @@
             "type": "humanoid",
             "tags": [
                 "warrior",
-                "brute"
+                "soldier"
             ]
         },
         "alignment": [
             "A"
         ],
-        "ac": "ac_unarmored",
-        "hp": "hp_epic",
+        "ac": "ac_medium",
+        "hp": "hp_strong",
         "speed": {
-            "walk": 40
+            "walk": 30
         },
         "str": 16,
         "dex": 14,

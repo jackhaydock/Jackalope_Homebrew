@@ -307,7 +307,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.06.00.51",
+                "version": "2026.08.07.14.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -322,7 +322,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.06.00.51",
+                "version": "2026.08.07.14.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -337,7 +337,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.06.00.51",
+                "version": "2026.08.07.14.57",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1785977659.097474
+        "dateLastModified": 1786114701.7584088
     },
     "class": [
         {
@@ -22452,11 +22452,9 @@
             ],
             "damageTags": [
                 "B",
-                "P"
+                "R"
             ],
-            "miscTags": [
-                "MW"
-            ]
+            "miscTags": []
         },
         {
             "name": "Beacon (CR 5)",
@@ -22556,11 +22554,9 @@
             ],
             "damageTags": [
                 "B",
-                "P"
+                "R"
             ],
-            "miscTags": [
-                "MW"
-            ]
+            "miscTags": []
         },
         {
             "name": "Beacon (CR 7)",
@@ -22660,11 +22656,9 @@
             ],
             "damageTags": [
                 "B",
-                "P"
+                "R"
             ],
-            "miscTags": [
-                "MW"
-            ]
+            "miscTags": []
         },
         {
             "name": "Beacon (CR 9)",
@@ -22764,11 +22758,9 @@
             ],
             "damageTags": [
                 "B",
-                "P"
+                "R"
             ],
-            "miscTags": [
-                "MW"
-            ]
+            "miscTags": []
         },
         {
             "name": "Beacon (CR 11)",
@@ -22868,11 +22860,9 @@
             ],
             "damageTags": [
                 "B",
-                "P"
+                "R"
             ],
-            "miscTags": [
-                "MW"
-            ]
+            "miscTags": []
         },
         {
             "name": "Blaster (CR 3)",
@@ -40058,6 +40048,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -40144,6 +40142,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -40231,6 +40237,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -40318,6 +40332,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -40405,6 +40427,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -40492,6 +40522,14 @@
             "miscTags": [
                 "MW",
                 "RW"
+            ],
+            "bonus": [
+                {
+                    "name": "I'm coming",
+                    "entries": [
+                        "The bodyguard moves up to half its speed towards its charge. It cannot use this Bonus Action if it is {@condition Incapacitated|XPHB} or its speed is 0."
+                    ]
+                }
             ]
         },
         {
@@ -41518,7 +41556,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll."
                     ]
                 }
             ],
@@ -41617,7 +41655,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 4 ({@damage 1d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 4 ({@damage 1d6}) damage on a hit."
                     ]
                 }
             ],
@@ -41717,7 +41755,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 4 ({@damage 1d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 4 ({@damage 1d6}) damage on a hit."
                     ]
                 }
             ],
@@ -41817,7 +41855,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 7 ({@damage 2d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 7 ({@damage 2d6}) damage on a hit."
                     ]
                 }
             ],
@@ -41917,7 +41955,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 7 ({@damage 2d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 7 ({@damage 2d6}) damage on a hit."
                     ]
                 }
             ],
@@ -42017,7 +42055,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 11 ({@damage 3d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 11 ({@damage 3d6}) damage on a hit."
                     ]
                 }
             ],
@@ -42117,7 +42155,7 @@
                 {
                     "name": "Bark Orders",
                     "entries": [
-                        "A creature the commander can see within 30 feet, and that can see or hear the commander, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional 11 ({@damage 3d6}) damage."
+                        "Up to two creatures the commander can see within 30 feet, and that can see or hear the commander, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional 11 ({@damage 3d6}) damage on a hit."
                     ]
                 }
             ],
@@ -48343,7 +48381,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -48429,7 +48474,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -48516,7 +48568,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -48603,7 +48662,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -48690,7 +48756,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -48777,7 +48850,14 @@
             "languages": [
                 "any three languages (typically including common)"
             ],
-            "trait": [],
+            "trait": [
+                {
+                    "name": "Grasper",
+                    "entries": [
+                        "The snatcher's speed is not reduced by Grappling another creature."
+                    ]
+                }
+            ],
             "action": [
                 {
                     "name": "Multiattack",
@@ -50479,7 +50559,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute",
+                    "soldier",
                     "scaled"
                 ]
             },
@@ -50488,14 +50568,14 @@
             ],
             "ac": [
                 {
-                    "ac": 11
+                    "ac": 15
                 }
             ],
             "hp": {
-                "special": "40"
+                "special": "36"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 16,
             "dex": 14,
@@ -50520,8 +50600,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],
@@ -50579,7 +50660,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute"
+                    "soldier"
                 ]
             },
             "alignment": [
@@ -50587,14 +50668,14 @@
             ],
             "ac": [
                 {
-                    "ac": 11
+                    "ac": 15
                 }
             ],
             "hp": {
-                "special": "80"
+                "special": "72"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 18,
             "dex": 16,
@@ -50619,8 +50700,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],
@@ -50678,7 +50760,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute",
+                    "soldier",
                     "scaled"
                 ]
             },
@@ -50687,14 +50769,14 @@
             ],
             "ac": [
                 {
-                    "ac": 12
+                    "ac": 16
                 }
             ],
             "hp": {
-                "special": "120"
+                "special": "108"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 18,
             "dex": 16,
@@ -50719,8 +50801,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],
@@ -50778,7 +50861,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute",
+                    "soldier",
                     "scaled"
                 ]
             },
@@ -50787,14 +50870,14 @@
             ],
             "ac": [
                 {
-                    "ac": 12
+                    "ac": 16
                 }
             ],
             "hp": {
-                "special": "160"
+                "special": "144"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 20,
             "dex": 18,
@@ -50819,8 +50902,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],
@@ -50878,7 +50962,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute",
+                    "soldier",
                     "scaled"
                 ]
             },
@@ -50887,14 +50971,14 @@
             ],
             "ac": [
                 {
-                    "ac": 13
+                    "ac": 17
                 }
             ],
             "hp": {
-                "special": "200"
+                "special": "180"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 20,
             "dex": 18,
@@ -50919,8 +51003,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],
@@ -50978,7 +51063,7 @@
                 "type": "humanoid",
                 "tags": [
                     "warrior",
-                    "brute",
+                    "soldier",
                     "scaled"
                 ]
             },
@@ -50987,14 +51072,14 @@
             ],
             "ac": [
                 {
-                    "ac": 13
+                    "ac": 17
                 }
             ],
             "hp": {
-                "special": "240"
+                "special": "216"
             },
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 22,
             "dex": 20,
@@ -51019,8 +51104,9 @@
                 {
                     "name": "Unmovable",
                     "entries": [
-                        "The tower has advantage on ability checks and saving throws against being {@condition Grappled|XPHB} or being moved against its will.",
-                        "In addition, when a creature that has Grappled the tower moves with it, every foot of movement costs an extra 2 feet of movement instead of 1."
+                        "The tower, and any creatures it chooses within 5 feet of it, have {@variantrule Advantage|XPHB|} on Ability Checks and Saving Throws to avoid being {@condition Grappled|XPHB} or moved against their will.",
+                        "In addition, a creature that has the tower {@condition Grappled|XPHB} is {{@condition Hampered|J:General}.",
+                        "Finally, when the tower is moved against its will, it can half the distance it is moved (rounded down)."
                     ]
                 }
             ],

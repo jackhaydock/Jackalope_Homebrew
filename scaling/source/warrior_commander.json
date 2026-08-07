@@ -42,13 +42,13 @@
                 {
                     "crs": [1],
                     "entries": [
-                        "A creature the <name> can see within 30 feet, and that can see or hear the <name>, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack."
+                        "Up to two creatures the <name> can see within 30 feet, and that can see or hear the <name>, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll."
                     ]
                 },
                 {
                     "crs": [3, 5, 7, 9, 11, 13],
                     "entries": [
-                        "A creature the <name> can see within 30 feet, and that can see or hear the <name>, can use its {@variantrule Reaction|XPHB} to either move up to half its speed without provoking opportunity attacks or make a weapon attack. On a hit, the attack deals an additional <dmg_4s3_d6s> damage."
+                        "Up to two creatures the <name> can see within 30 feet, and that can see or hear the <name>, can use their {@variantrule Reaction|XPHB} to either move up to its speed without provoking {@variantrule Opportunity Attacks|XPB} or make a weapon attack (creature's choice). A creature has a {@dice 1d4} bonus to this Attack Roll and deals an additional <dmg_4s3_d6s> damage on a hit."
                     ]
                 }
             ]
