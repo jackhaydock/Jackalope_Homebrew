@@ -100,7 +100,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.04.25.20.54",
+                "version": "2026.08.16.20.50",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1786116710.598232
+        "dateLastModified": 1786913571.8597004
     },
     "class": [
         {
@@ -54045,7 +54045,33 @@
                 "namePrefix": "Transposition ",
                 "type": "TA|J:Ammo",
                 "entries": [
-                    "When you hit an object or creature within 60 feet using this ammunition, you teleport to unoccupied space you can see within 5 feet of the target. If no unoccupied space is available you are shunted back to your original space and both you and the target take 5 ({@dice 1d8}) force damage."
+                    "When you hit a target within 60 feet using this ammunition, you or a willing creature you touch is teleported to unoccupied space you can see within 5 feet of the target. If no unoccupied space large enough exists, this effect fails and the creature is not teleported.",
+                    "On a miss, you or the creature or object you touch is instead teleported to a random unocupied space within 20 feet of the target that is no closer than 10 feet."
+                ],
+                "bonusWeapon": "+1"
+            }
+        },
+        {
+            "name": "Switching Ammunition",
+            "type": "TA|J:Ammo",
+            "requires": [
+                {
+                    "type": "A"
+                },
+                {
+                    "type": "AF"
+                }
+            ],
+            "inherits": {
+                "genericBonus": "+1",
+                "rarity": "uncommon",
+                "source": "J:Ammo",
+                "namePrefix": "Switching ",
+                "type": "TA|J:Ammo",
+                "entries": [
+                    "When you hit a target within 60 feet with this ammunition, you can teleport it. The target swaps places with you or a willing creature you touch. If either target would be teleported to a space they cannot fit in, the effect fails and neither target is teleported.",
+                    "On a miss, you or the creature or object you touch is instead teleported to a random unocupied space within 20 feet of the target that is no closer than 10 feet. The target is not teleported.",
+                    "This attack can only target creatures and loose objects that are not being worn or carried and that are not affixed to structures, terrain or vehicles."
                 ],
                 "bonusWeapon": "+1"
             }
