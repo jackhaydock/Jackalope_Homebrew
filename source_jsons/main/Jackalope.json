@@ -3052,6 +3052,19 @@
 			"entries": [
 				"As an action, you can light a Bomb and throw it at a point up to 60 feet away, where it explodes. Each creature in a 10-foot-radius {@variantrule Sphere [Area of Effect]|XPHB|Sphere} centered on that point makes a {@dc 15} Dexterity saving throw. On a failed save, a creature takes {@damage 4d8} Piercing damage and begins {@condition Bleeding|J:General|}. On a success, it takes half damage and suffers no other effects."
 			]
+		},
+		{
+			"name": "Mancatcher",
+			"rarity": "none",
+			"source": "J:General",
+			"value": 10000,
+			"weight": 5,
+			"type": "G",
+			"entries": [
+				"When you take the {@action Attack|XPHB} action, you can replace one of your attacks with using this mancatcher. Target a Large or smaller creature you can see within 10 feet of yourself. The target must succeed on a Strength or Dexterity saving throw (it chooses which. {@dc 8} plus your Strength modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}) or become {@condition Grappled|XPHB} by you until it escapes. Only one creature can be Grappled in this way at once.",
+				"While you have a creature {@condition Grappled|XPHB} in this way, you can replace an attack with an attempt to push the creature to the ground. The creature repeats the saving throw and falls {@condition Prone|XPHB} on a fail.",
+				"Replacing an attack in either of these ways requires using the mancatcher with two hands but holding it, even with a creature Grappled only requires one hand. If you are no longer holding the mancatcher, the creature automatically escapes and ends the Grappled condition."
+			]
 		}
 	],
 	"monster": [
