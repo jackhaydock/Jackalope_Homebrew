@@ -55,7 +55,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2025.05.19.20.59",
+                "version": "2026.08.20.14.52",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1786921064.7478173
+        "dateLastModified": 1787237546.3122735
     },
     "class": [
         {
@@ -4128,7 +4128,7 @@
             "rechargeAmount": "{@dice 1d6-1}",
             "entries": [
                 "While attuned to a weapon that this runestone is fused with, you have a +1 bonus to its attack and damage rolls made with it, unless it is a magic weapon that already has a bonus to these rolls.",
-                "Additionally, the weapon has 5 charges and regains {@dice 1d6-1} charges daily at dawn. When you hit a creature that is your size or smaller with a melee attack using this weapon, you can expend a charge to force the creature to make a DC 16 Strength saving throw. On a fail, both you and the target are launched 15 feet vertically without provoking opportunity attacks. You can choose to have the pair of you launched diagonally, up to 10ft horizontally, you and target must move in the same direction. Neither of you fall until the end of your turn unless you choose to. Subsequent melee attacks you make with this weapon against the creature before you both fall have advantage."
+                "Additionally, the weapon has 5 charges and regains {@dice 1d6-1} charges daily at dawn. When you hit a creature that is your size or smaller with a melee attack using this weapon, you can expend a charge to force the creature to make a DC 16 Strength saving throw. On a fail, both you and the target are launched 15 feet vertically without provoking opportunity attacks. You can choose to have the pair of you launched diagonally, up to 10ft horizontally, you and target must move in the same direction. Neither of you fall until the end of your turn, unless you choose to have both of you fall immediately. If you land at the same elevation you started or higher, you do not fall {@condition Prone|XPHB} or take damage as a result of this fall. Subsequent melee attacks you make with this weapon against the creature before you both fall have advantage."
             ]
         },
         {
