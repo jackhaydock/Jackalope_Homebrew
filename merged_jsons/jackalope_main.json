@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.16.22.56",
+                "version": "2026.08.23.12.45",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -598,7 +598,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1787237546.1697812
+        "dateLastModified": 1787489441.4155025
     },
     "class": [
         {
@@ -53014,6 +53014,19 @@
             ]
         },
         {
+            "name": "Mastery Attack",
+            "source": "J:General",
+            "featureType": [
+                "MV:B"
+            ],
+            "consumes": {
+                "name": "Superiority Die"
+            },
+            "entries": [
+                "When you hit a creature with an attack roll using a weapon or an {@variantrule Unarmed Strike|XPHB}, you can expend one Superiority Die and add the result attack's damage roll. You can also use an additional weapon mastery property from the following list on the attack; {@itemMastery Nick|XPHB}, {@itemMastery Pull|J:General}, {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, {@itemMastery Slow|XPHB}, {@itemMastery Topple|XPHB} or {@itemMastery Vex|XPHB}."
+            ]
+        },
+        {
             "name": "Alternative Abilty Scores",
             "source": "J:Dragons",
             "featureType": [
@@ -57777,6 +57790,29 @@
             "entries": [
                 "A Suffocating creature cannot breathe and gains a level of {@condition Exhaustion|XPHB} at the end of each of its turns. When the creature can breathe again, they lose all levels of {@condition Exhaustion|XPHB} it gained from Suffocating at the end of its current or next turn (whichever comes first).",
                 "A creature that does not need to breathe is usually immune to Suffocating."
+            ]
+        }
+    ],
+    "itemMastery": [
+        {
+            "name": "Pull",
+            "source": "J:General",
+            "entries": [
+                "If you hit a Large or smaller creature with an attack using this weapon, you can pull the creature 5 feet toward yourself. You can also move 5 feet away from the creature without provoking Opportunity Attacks or consuming movement. You cannot move if your speed is 0."
+            ]
+        },
+        {
+            "name": "Penetrate",
+            "source": "J:General",
+            "entries": [
+                "If you hit a creature with a ranged attack using this weapon, you can make a ranged attack roll with the weapon against a second creature within 5 feet of the first that is also within the weapon's range. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn."
+            ]
+        },
+        {
+            "name": "Ambush",
+            "source": "J:General",
+            "entries": [
+                "When you roll {@variantrule Initiative|XPHB} and are not {@condition Surprised|XPHB} or {@condition Incapacitated|XPHB}, you can immediately make an attack with this weapon (no action required). You can make this attack only once per Initiative roll."
             ]
         }
     ],
