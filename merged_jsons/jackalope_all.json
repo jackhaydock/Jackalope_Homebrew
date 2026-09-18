@@ -262,7 +262,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.05.27.19.15",
+                "version": "2026.09.18.10.24",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1787489441.564136
+        "dateLastModified": 1789727210.6715965
     },
     "class": [
         {
@@ -58201,6 +58201,46 @@
             ]
         },
         {
+            "name": "Handy Feet",
+            "source": "J:Beastkin",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Hadozee"
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Resourceful Feet",
+                    "entries": [
+                        "You can take the {@action Utilize|XPHB} action as a {@variantrule Bonus Action|XPHB}. You do not require a hand free as you use your feet to wield the item. You cannot use this trait to activate a magic item or cast a spell that requires the {@action Magic|XPHB} Action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Leg Day",
+                    "entries": [
+                        "You can climb with your feet, leaving your hands free. In addition, you can use one of your feet in place of a free hand when {@variantrule Unarmed Strike|XPHB|Grappling} a creature. You can only hold one additional creature {@condition Grappled|XPHB} in this way at a time."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Hardy Flesh",
             "source": "J:Gaian",
             "prerequisite": [
@@ -64676,15 +64716,16 @@
             "alias": [
                 "Rat",
                 "Mouse",
-                "Rodent"
+                "Rodent",
+                "Muridae"
             ],
             "source": "J:Beastkin",
             "size": [
-                "S"
+                "S",
+                "M"
             ],
             "speed": 30,
             "darkvision": 60,
-            "lineage": "VRGR",
             "entries": [
                 {
                     "type": "entries",
@@ -64697,240 +64738,57 @@
                     "type": "entries",
                     "name": "Keen Smell",
                     "entries": [
-                        "You have advantage on Wisdom (Perception) checks that rely on smell."
+                        "You have {@variantrule Advantage|XPHB} on Wisdom ({@skill Perception|XPB}) checks that rely on smell."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "Poison Susceptibility",
+                    "name": "Scurry",
                     "entries": [
-                        "Your inability to vomit hinders your ability to handle poisons. You are vulnerable to poison damage and have disadvantage on saving throws to avoid or remove the poison condition."
+                        "Moving while {@condition Prone|XPHB} does not cost extra movement for you. In addition, being Prone imposes {@variantrule Disadvantage|XPHB} on {@variantrule Opportunity Attack|XPHB|Opportunity Attacks} made against you (this also replaces Advantage the attack would gain from being within 5 feet on Opportunity Attacks)."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "Disease Resistance",
+                    "name": "Muridae Lineage",
                     "entries": [
-                        "You have advantage on saving throws to avoid or remove diseases."
-                    ]
-                }
-            ],
-            "subraces": [
-                {
-                    "name": "Giant Rat",
-                    "source": "J:Beastkin",
-                    "traitTags": [
-                        "Skill Proficiency"
-                    ],
-                    "entries": [
+                        "Choose a lineage from the table below. Your lineage grants you a special trait.",
                         {
-                            "type": "entries",
-                            "name": "Hulking Frame",
-                            "entries": [
-                                "You gain proficiency in the {@skill Athletics} and {@skill Intimidation} skills."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Savage Attacks",
-                            "entries": [
-                                "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Plague Rat",
-                    "source": "J:Beastkin",
-                    "traitTags": [
-                        "Unarmed Strike"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Plague Bite",
-                            "entries": [
-                                "Once per turn, when you hit a creature with an unarmed strike you can force that creature to roll a DC12 Constitution saving throw or gain the {@condition poisoned} condition for 1 minute."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "The Plague",
-                            "entries": [
-                                "Whenever you finish a long rest, you must roll a {@dice d20} and consult the table below to determine the effect. The effect lasts until the end of your next long rest, or until it is removed by the {@spell lesser restoration|phb} or {@spell greater restoration|phb} spell.",
-                                {
-                                    "type": "table",
-                                    "colLabels": [
-                                        "d20",
-                                        "Plague Effect"
-                                    ],
-                                    "colStyles": [
-                                        "col-1 text-center",
-                                        "col-11"
-                                    ],
-                                    "rows": [
-                                        [
-                                            "1",
-                                            "You have disadvantge on all ability checks, attack rolls and saving throws."
-                                        ],
-                                        [
-                                            "2",
-                                            "You have disadvantge on all ability checks and saving throws."
-                                        ],
-                                        [
-                                            "3",
-                                            "You have disadvantge on Strength checks and saving throws."
-                                        ],
-                                        [
-                                            "4",
-                                            "You have disadvantge on Dexterity checks and saving throws."
-                                        ],
-                                        [
-                                            "5",
-                                            "You have disadvantge on Constitution checks and saving throws."
-                                        ],
-                                        [
-                                            "6",
-                                            "You have disadvantge on Intelligence checks and saving throws."
-                                        ],
-                                        [
-                                            "7",
-                                            "You have disadvantge on Wisdom checks and saving throws."
-                                        ],
-                                        [
-                                            "8",
-                                            "You have disadvantge on Charisma checks and saving throws."
-                                        ],
-                                        [
-                                            "9-12",
-                                            "When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 1d4} poison damage."
-                                        ],
-                                        [
-                                            "13-16",
-                                            "When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 2d4} poison damage."
-                                        ],
-                                        [
-                                            "17-20",
-                                            "When a creature fails the saving throw for your Plague Bite trait, they take an addtional {@dice 3d4} poison damage."
-                                        ]
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Lab Rat",
-                    "source": "J:Beastkin",
-                    "traitTags": [
-                        "Magic Resistance",
-                        "Tool Proficiency"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Rodent Cunning",
-                            "entries": [
-                                "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Lab Training",
-                            "entries": [
-                                "You gain proficiency with one type of {@item artisan's tools|phb} of your choice."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Glyph Master",
-                            "entries": [
-                                "You can spend one minute to read or write up to 25 words in any written language."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Street Rat",
-                    "source": "J:Beastkin",
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Pack Tactics",
-                            "entries": [
-                                "You have advantage on attack rolls against a creature if at least one of your allies is within 5 feet of the creature, and the ally isn't {@condition incapacitated}."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Street Smarts",
-                            "entries": [
-                                "You have advantage on Wisdom (Perception) and Wisdom (Survival) checks when in areas of heavy construction such as towns and dungeons."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Ship Rat",
-                    "source": "J:Beastkin",
-                    "speed": {
-                        "walk": "30",
-                        "swim": "30"
-                    },
-                    "traitTags": [
-                        "Skill Proficiency",
-                        "Tool Proficiency"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Speed",
-                            "entries": [
-                                "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Reveler",
-                            "entries": [
-                                "You have proficiency in the {@skill Performance} and {@skill Persuasion} skills, and you have proficiency with one {@item musical instrument|phb} of your choice."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Strong Willed",
-                            "entries": [
-                                "You have advantage on saving throws to avoid being {@condition Charmed} or {@condition Frightened}."
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Mouse",
-                    "source": "J:Beastkin",
-                    "traitTags": [
-                        "Skill Proficiency"
-                    ],
-                    "entries": [
-                        {
-                            "type": "entries",
-                            "name": "Quiet as a mouse",
-                            "entries": [
-                                "You have proficiency in the Stealth skill."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Mouse Nimbleness",
-                            "entries": [
-                                "You count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": " Nimble Escape",
-                            "entries": [
-                                "You can take the {@action Disengage} or {@action Hide} action as a bonus action on each of your turns."
+                            "type": "table",
+                            "caption": "Muridae Lineages",
+                            "colLabels": [
+                                "Lineage",
+                                "Trait"
+                            ],
+                            "colStyles": [
+                                "col-2",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "Giant",
+                                    "You have {@variantrule Proficiency|XPHB} in the {@skill Athletics|XPHB} skill. You also count as one size larger when determining your carrying capacity and what size creatures can mount, grapple or shove you."
+                                ],
+                                [
+                                    "Labrat",
+                                    "You have {@variantrule Proficiency|XPHB} in the {@skill Arcana|XPHB} skill. You also have {@variantrule Advantage|XPHB} on Intelligence, Wisdom and Charisma Saving Throws against spells and magic effects."
+                                ],
+                                [
+                                    "Mouse",
+                                    "You have {@variantrule Proficiency|XPHB} in the {@skill Stealth|XPHB} skill. You also count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
+                                ],
+                                [
+                                    "Plague-Ridden",
+                                    "You gain {@variantrule Proficiency|XPHB} with the {@skill Survival|XPHB} skill. In addition, when you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can deal Poison damage equal to {@dice 1d6} plus your Strength modifier, instead of the normal damage for the attack."
+                                ],
+                                [
+                                    "Ship Revelver",
+                                    "You have {@variantrule Proficiency|XPHB} with the {@skill Performance|XPHB} Skill. You also have a swimming speed equal to your walking speed and can hold your breath for twice as long."
+                                ],
+                                [
+                                    "Street Dweller",
+                                    "You have {@variantrule Proficiency|XPHB} with the {@skill Insight|XPHB} skill. You also have {@variantrule Advantage|XPHB} on melee Attack Rolls if at least one of your allies is within 5 feet of the target and is not {@condition Incapacitated|XPHB}."
+                                ]
                             ]
                         }
                     ]
