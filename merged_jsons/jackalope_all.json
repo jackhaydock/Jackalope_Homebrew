@@ -262,7 +262,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.09.18.10.24",
+                "version": "2026.09.27.14.26",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1789727210.6715965
+        "dateLastModified": 1790519261.1004045
     },
     "class": [
         {
@@ -58041,6 +58041,7 @@
         {
             "name": "Volatile Spit",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58065,6 +58066,7 @@
         {
             "name": "Tohoran Magic",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58089,6 +58091,7 @@
         {
             "name": "Tohoran Horn",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58113,6 +58116,7 @@
         {
             "name": "Good Dog",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58158,6 +58162,7 @@
         {
             "name": "Bad Dog",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58203,6 +58208,7 @@
         {
             "name": "Handy Feet",
             "source": "J:Beastkin",
+            "category": "G",
             "prerequisite": [
                 {
                     "race": [
@@ -58236,6 +58242,76 @@
                     "name": "Leg Day",
                     "entries": [
                         "You can climb with your feet, leaving your hands free. In addition, you can use one of your feet in place of a free hand when {@variantrule Unarmed Strike|XPHB|Grappling} a creature. You can only hold one additional creature {@condition Grappled|XPHB} in this way at a time."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Plague Tooth",
+            "source": "J:Beastkin",
+            "category": "G",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Ratfolk"
+                        }
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "cha": 1
+                }
+            ],
+            "entries": [
+                "You gain the following benefits.",
+                {
+                    "type": "entries",
+                    "name": "Biohazard Master",
+                    "entries": [
+                        "You gain Proficiency with {@item Poisoner's Kit|XPHB|Poisoner's Kits}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bite Attack",
+                    "entries": [
+                        "When you hit a creature within 5 feet with an Attack Roll, you can use a {@variantrule Bonus Action|XPHB} to deal an additional {@dice 1d6} Poison damage. If you are {@condition Poisoned|XPHB}, this additional damage increases to {@dice 2d6}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Contagion Bite",
+                    "entries": [
+                        "When you deal Poison damage to a creature with your Bite Attack, you can choose to also impose one of the following effects (DC equals 8 plus your Proficiency Bonus plus your Constitution modifier).",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "entries",
+                                    "name": "Rabid",
+                                    "entries": [
+                                        "The creature must make a Wisdom saving or become {@condition Berserk|J:General|Berserk (PB)} for one minute (save ends)."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Sickly",
+                                    "entries": [
+                                        "The creature must make a Constitution saving or become {@condition Poisoned|XPHB} for one minute (save ends)."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "name": "Thinning",
+                                    "entries": [
+                                        "The creature begins {@condition Bleeding|J:General}."
+                                    ]
+                                }
+                            ]
+                        },
+                        "You can use this Benefit a number of times equal to your Proficiency Bonus, regaining all expended uses when you finish a Long Rest."
                     ]
                 }
             ]
@@ -64776,10 +64852,6 @@
                                 [
                                     "Mouse",
                                     "You have {@variantrule Proficiency|XPHB} in the {@skill Stealth|XPHB} skill. You also count as one size smaller when determining your ability to squeeze through gaps, mount other creatures or move through the space of other creatures."
-                                ],
-                                [
-                                    "Plague-Ridden",
-                                    "You gain {@variantrule Proficiency|XPHB} with the {@skill Survival|XPHB} skill. In addition, when you hit a creature with an {@variantrule Unarmed Strike|XPHB}, you can deal Poison damage equal to {@dice 1d6} plus your Strength modifier, instead of the normal damage for the attack."
                                 ],
                                 [
                                     "Ship Revelver",
