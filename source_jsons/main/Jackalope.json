@@ -1120,23 +1120,24 @@
 			]
 		},
 		{
-			"name": "Anti-Magic Collar",
+			"name": "Antimagic Collar",
 			"wondrous": true,
 			"rarity": "rare",
 			"source": "J:General",
 			"entries": [
-				"This silver collar can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells.",
-				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 15 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
+				"With a {@action Utilize|XPHB} action, this silver collar can be clasped onto a creature that has a neck and is {@condition Incapacitated|XPHB}. While the clasp is shut, the creature cannot cast any spells. This effect cannot be dispelled or supressed by any means short of a {@spell Wish|XPHB} spell.",
+				"The collar cannot be removed by changing size or shape, such as with the {@spell Polymorph|XPHB} spell. A creature can use two hands and a {@action Utilize|XPB} action to attempt to break the collar with a DC 18 Strength (Athletics) check. The collar becomes non-magical on a success. If the collared creature attempts this check and fails, it gains a level of {@condition Exhaustion|XPHB}.",
+				"Each collar also comes with a special keystone that can unlock the collar by touching them together with a {@action Magic|XPB} action."
 			]
 		},
 		{
-			"name": "Cruel Anti-Magic Collar",
+			"name": "Cruel Antimagic Collar",
 			"wondrous": true,
 			"rarity": "very rare",
 			"source": "J:General",
 			"entries": [
-				"This special {@item Anti-Magic Collar|J:General} can be clasped onto a creature that has a neck and is {@condition incapacitated} as an action. While the clasp is shut, the creature cannot cast any spells. If it attempts to do so, it takes {@dice 1d6} lightning damage per level of the spell ({@dice 1d6} for cantrips).",
-				"The collar cannot be removed by changing size or shape, such as with the {@spell polymorph|phb} spell. Provided it has two hands free to do so, the creature can use an action on each of its turns to make a DC 18 Strength check. On a success, the collar is broken and becomes non-magical. On a fail, the creature gains a level of exhaustion and the collar remains."
+				"This special {@item Anti-Magic Collar|J:General} requires a DC 25 Strength (Athletics) check to break rather than the usual DC.",
+				"In addition, if a collared creature attempts to take the {@action Magic|XPHB} action (that doesn't involve casting a spell), they must fisrt make a DC 15 Constitution saving throw. On a fail, the attempt fails, the creature loses the action and takes {@dice 3d8} Force damage. On a success, the creature takes half damage but otherwise performs the action as normal."
 			]
 		},
 		{
