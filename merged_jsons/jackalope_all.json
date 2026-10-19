@@ -115,7 +115,7 @@
                 "convertedBy": [
                     "Jackalope"
                 ],
-                "version": "2026.08.23.12.45",
+                "version": "2026.10.19.16.29",
                 "url": "https://github.com/jackhaydock/Jackalope_Homebrew",
                 "targetSchema": "1.0.0"
             },
@@ -706,7 +706,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1790519419.1865976
+        "dateLastModified": 1792427452.2966228
     },
     "class": [
         {
@@ -57637,6 +57637,7 @@
         {
             "name": "Chef (Revised)",
             "source": "J:General",
+            "category": "G",
             "ability": [
                 {
                     "choose": {
@@ -57649,13 +57650,33 @@
                 }
             ],
             "entries": [
-                "Time spent mastering the culinary arts has paid off, granting you the following benefits:",
+                "Time spent mastering the culinary arts has paid off, granting you the following benefits.",
                 {
-                    "type": "list",
-                    "items": [
-                        "You gain proficiency with {@item cook's utensils|phb} if you don't already have it. If you have the Spellcasting or Pact Magic feature, you can also use these tools as a spellcasting focus.",
-                        "When you use Cook's Utensils to prepare meals during a short rest, creatures of your choice regain additional hit points equal to half your proficiency bonus (rounded up) per Hit Die spent rather than 1. In addition, each creature that consumes the food gains temporary hit points equal to your proficiency bonus.",
-                        "You can use various kitchen implements as simple weapons or shields, as agreed with your DM. For example, you might use a rolling pin as a {@item club|phb}, a cleaver as a {@item handaxe|phb} or a frying pan as a {@item shield|phb}."
+                    "type": "entries",
+                    "name": "Master Chef",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with {@item Cook's Utensils|XPHB}, if you don't already have it. If you have the Spellcasting or Pact Magic feature, you can also use these tools as a spellcasting focus."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Restorative Meals",
+                    "entries": [
+                        "At the end of a {@variantrule Short Rest|XPHB}, with {@item Cook's Utensils|XPHB} in hand, you can prepare special meals. Each creature of your choice that also completes a Short Rest regains Hit Points equal to your Proficiency Bonus plus the modifier of the Ability you increased with this feat. A creature gains this benefit regardless of whether they expend Hit Dice during the rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Energising Snack",
+                    "entries": [
+                        "At the end of a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}, you can touch one creature and remove one level of {@condition Exhaustion|XPHB} from them."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Kitchen Warrior",
+                    "entries": [
+                        "You can use various kitchen implements as Simple Weapons or Shields, as agreed with your DM. For example, you might use a rolling pin as a {@item Club|XPHB}, a cleaver as a {@item Handaxe|XPHB} or a frying pan as a {@item Shield|XPHB}."
                     ]
                 }
             ],
